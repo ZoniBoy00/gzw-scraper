@@ -30,10 +30,10 @@
     "content_length": 873
   },
   {
-    "name": "Health",
+    "name": "Health system",
     "id": "health",
-    "summary": "Redirect to: Health system",
-    "content_length": 26
+    "summary": "The Health system in Gray Zone Warfare doesn't rely on traditional hit points. Instead, it employs a detailed simulation of various body parts and vital pools like blood and hydration. When your character experiences health issues, they're signaled by distinct symptoms, each indicating a specific problem. In Gray Zone Warfare, victory lies not in treating symptoms, but in tackling their root causes head-on. Contents 1 Health Panel 2 Other Health Factors 3 Treatment Options 4 Stamina & Active HUD Meters 5 Temporary status effects 6 Additional Info and Recommendations Health Panel [ ] Wounds (red marker): Result from projectile or melee weapon hits that bypass protective gear. Categorized as Light, Medium, or Severe based on bleeding severity. Light wounds heal over time, while others require treatment. Bruises (purple marker): Occur when projectiles are stopped by protective gear, causing pain. They heal naturally after a while. Treated wounds (green marker): Follow treatment of Medium ",
+    "content_length": 9557
   },
   {
     "name": "Ballistics",

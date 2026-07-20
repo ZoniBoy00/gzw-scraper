@@ -1264,7 +1264,7 @@ def scrape_info_pages():
         "system_requirements": "System requirements",
         
         # Systems
-        "health": "Health",
+        "health": "Health system",
         "ballistics": "Ballistics",
         "looting": "Looting",
         "experience": "Experience",
