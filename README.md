@@ -17,7 +17,15 @@ Scrapes the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and pushes s
 | Keys & keycards | 124 | Location, wiki link, task flag |
 | Tasks/missions | 278 | Objectives, rewards, categories (Main/Side/Hidden) |
 | Throwables | 8 | Grenades: frag, smoke, stun |
-| Item images | 199+ | Wiki image URL lookup |
+| Medical items | — | Bandages, splints, surgery kits, stims |
+| Provisions | — | Food, drinks, hydration, energy |
+| Weapon parts | 8 categories | Barrels, suppressors, stocks, grips, mags, etc. |
+| Attachments | — | Optics, lasers, rails, muzzle devices |
+| Helmet mods | — | Helmet attachments, NVGs, mounts |
+| Equipment | — | Repair kits, tools, military gear, containers |
+| Task items | — | Mission-specific loot items |
+| Weapon camos | — | Camouflage skins |
+| Item images | 400+ | Wiki image URL lookup for every item |
 
 ## Pipeline
 

@@ -877,19 +877,50 @@ def scrape_tasks():
     return unique_tasks if 'unique_tasks' in dir() else tasks
 
 
-def scrape_other():
-    """Scrape medical items, gear, containers."""
-    categories = {
+def scrape_all_misc():
+    """Scrape ALL remaining wiki categories comprehensively."""
+    ALL_CATEGORIES = {
+        # Medical & Supplies
         "medical": "Medical Item",
         "gear": "Gear",
         "containers": "Containers",
-        "loot": "Loot Containers",
+        "loot_containers": "Loot Containers",
+        "loot": "Loot",
+        
+        # Provisions (Food & Drink)
+        "provisions": "Provisions",
+        "food": "Food",
+        "drinks": "Drinks",
+        
+        # Weapon Parts subcategories
+        "barrels": "Barrels",
+        "muzzle_devices": "Muzzle Devices",
+        "suppressors": "Suppressors",
+        "stocks": "Stocks",
+        "stock_adapters": "Stock Adapters",
+        "pistol_grips": "Pistol Grips",
+        "foregrips": "Foregrips",
+        "magazines": "Magazines",
+        
+        # Tactical & helmets mods
+        "night_vision": "Night Vision Devices",
+        "helmet_mods": "Helmet Mods",
+        "helmet_mounts": "Helmet Mounts",
+        
+        # Equipment & tools
+        "repair_kits": "Repair Kits",
+        "tools": "Tool",
+        "military_equipment": "Military Equipment",
+        "task_items": "Task Item",
+        
+        # Cosmetics
+        "weapon_camos": "Weapons camouflage",
     }
     
-    for key, cat in categories.items():
+    for key, cat in ALL_CATEGORIES.items():
         logger.info("=" * 60)
         logger.info("Scraping %s (category: %s)...", key, cat)
-        pages = get_category_members(cat, limit=200)
+        pages = get_category_members(cat, limit=500)
         logger.info("Found %d pages", len(pages))
         
         items = []
@@ -901,9 +932,20 @@ def scrape_other():
             info = parse_infobox(soup)
             
             item = {"name": title}
-            for wiki_key in ("type", "weight", "effect", "uses", "capacity"):
+            # Collect ALL available fields from infobox
+            for wiki_key in ("type", "weight", "grid", "effect", "uses", "capacity",
+                           "caliber", "magazine", "rounds", "speed", "damage",
+                           "penetration", "armor_class", "material", "source",
+                           "vendor", "rep_level", "price", "rarity", "slots",
+                           "quantity", "duration", "healing", "food", "hydration",
+                           "energy", "morale"):
                 if wiki_key in info:
                     item[wiki_key] = info[wiki_key]
+            
+            # Common field name variations
+            for alt in ("ammo_type", "ammotype", "cartridge", "size", "storage"):
+                if alt in info:
+                    item[alt] = info[alt]
             
             img = get_page_image(title)
             if img:
@@ -915,29 +957,67 @@ def scrape_other():
         if items:
             path = OUTPUT_DIR / f"{key}.json"
             with open(path, "w") as f:
-                json.dump(items, f, indent=2)
-            logger.info("✅ %s: %d saved", key, len(items))
+                json.dump(items, f, indent=2, ensure_ascii=False)
+            logger.info("✅ %s: %d items saved", key, len(items))
+        else:
+            logger.info("⚠️  %s: no items found", key)
 
 
 def scrape_item_images():
-    """Scrape ALL item images from listing pages (Weapons, Armor, etc.)
-    and generate a comprehensive item_images.json file."""
+    """Scrape images from ALL wiki categories for comprehensive image mapping."""
     logger.info("=" * 60)
-    logger.info("Scraping Item Images from listing pages...")
+    logger.info("Scraping ALL item images from every category...")
     
-    # Comprehensive list of listing pages with item tables
+    # All categories that contain items with images
+    image_categories = [
+        "Weapons", "Armor Vest", "Helmet", "Plate Carriers", "Backpacks",
+        "Tactical Rigs", "Ammunition", "Throwables", "Keys", "Keycards",
+        "Medical Item", "Gear", "Containers", "Loot Containers", "Loot",
+        "Provisions", "Food", "Drinks",
+        "Barrels", "Muzzle Devices", "Suppressors", "Stocks",
+        "Stock Adapters", "Pistol Grips", "Foregrips", "Magazines",
+        "Night Vision Devices", "Helmet Mods", "Helmet Mounts",
+        "Repair Kits", "Tool", "Military Equipment", "Task Item",
+        "Weapon Parts", "Weapons camouflage",
+    ]
+    
+    images = {}
+    seen = set()
+    
+    for cat in image_categories:
+        logger.info("Collecting images from %s...", cat)
+        pages = get_category_members(cat, limit=500)
+        
+        for p in pages:
+            title = p["title"]
+            if title.startswith("Category:") or title.startswith("Template:"):
+                continue
+            if title in seen:
+                continue
+            seen.add(title)
+            
+            img = get_page_image(title)
+            if img:
+                images[title] = img
+                time.sleep(0.15)  # Slightly faster than item scraping
+    
+    # Also try to find images from listing pages (they often have tables with icons)
     listing_pages = {
         "Weapons": "weapon",
         "Armor Vests": "armor_vest",
         "Plate Carriers": "plate_carrier",
-        "Headwear": "headwear",
-        "Ammunition": "ammo",
-        "Keys": "key",
-        "Keycards": "keycard",
         "Backpacks": "backpack",
         "Tactical Rigs": "tactical_rig",
         "Medical Item": "medical",
+        "Provisions": "provision",
+        "Ammunition": "ammo",
+        "Keys": "key",
+        "Keycards": "keycard",
         "Throwables": "throwable",
+        "Magazines": "magazine",
+        "Weapon Parts": "attachment",
+        "Repair Kits": "repair",
+        "Tool": "tool",
     }
     
     # Also scrape all ammo caliber listing pages (they have icon tables)
@@ -1103,13 +1183,14 @@ def main():
     parser.add_argument("--attachments", action="store_true")
     parser.add_argument("--tasks", action="store_true")
     parser.add_argument("--other", action="store_true")
+    parser.add_argument("--misc", action="store_true", help="Scrape all remaining categories (food, provisions, weapon parts, tools, etc.)")
     parser.add_argument("--throwables", action="store_true")
     parser.add_argument("--images", action="store_true")
     parser.add_argument("--keys", action="store_true")
     parser.add_argument("--all", action="store_true")
     args = parser.parse_args()
     
-    if not any([args.weapons, args.armor, args.ammo, args.attachments, args.tasks, args.other, args.throwables, args.images, args.keys, args.all]):
+    if not any([args.weapons, args.armor, args.ammo, args.attachments, args.tasks, args.misc, args.throwables, args.images, args.keys, args.all]):
         args.all = True
     
     logger.info("🏴‍☠️ GZW Wiki Scraper v2")
@@ -1125,8 +1206,8 @@ def main():
         scrape_attachments()
     if args.all or args.tasks:
         scrape_tasks()
-    if args.all or args.other:
-        scrape_other()
+    if args.all or args.misc:
+        scrape_all_misc()
     if args.all or args.throwables:
         scrape_throwables()
     if args.all or args.images:
