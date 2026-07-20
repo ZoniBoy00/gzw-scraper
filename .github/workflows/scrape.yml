@@ -1,0 +1,78 @@
+name: Scrape and Push to gzw-data
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # Every Monday at 06:00 UTC
+  workflow_dispatch:       # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml 2>&1 | tail -5
+
+      - name: Run scraper
+        run: python scrape.py --all 2>&1
+        continue-on-error: true
+
+      - name: Enrich tasks
+        run: python enrich_tasks.py 2>&1
+        continue-on-error: true
+
+      - name: Categorize tasks
+        run: python categorize_tasks.py 2>&1
+        continue-on-error: true
+
+      - name: Generate frontend data
+        run: python gen_frontend_data.py 2>&1
+
+      # ── Push data to gzw-data ──
+      - name: Checkout gzw-data
+        uses: actions/checkout@v4
+        with:
+          repository: ZoniBoy00/gzw-data
+          path: gzw-data
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Copy data to gzw-data/data/
+        run: |
+          DST="gzw-data/data"
+          for f in data/*.json; do
+            name=$(basename "$f")
+            if [ "$name" != "package.json" ] && [ "$name" != "vercel.json" ]; then
+              cp "$f" "$DST/$name"
+              echo "  ✅ $name"
+            fi
+          done
+          echo "---"
+          ls -la "$DST/"
+
+      - name: Normalise data
+        run: |
+          cd gzw-data
+          if [ -f scripts/normalise_data.py ]; then python3 scripts/normalise_data.py 2>&1 || true; fi
+          if [ -f scripts/reorder_data.py ]; then python3 scripts/reorder_data.py 2>&1 || true; fi
+
+      - name: Commit and push
+        run: |
+          cd gzw-data
+          git config user.name "gzw-bot"
+          git config user.email "bot@gzw-data.dev"
+          if git status --porcelain data/ | grep -q .; then
+            git add data/
+            git commit -m "auto: update scraped data ($(date +%Y-%m-%d))"
+            git push
+            echo "✅ Pushed to gzw-data"
+          else
+            echo "No data changes."
+          fi
