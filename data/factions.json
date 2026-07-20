@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Lamang Recovery Initiative",
+    "id": "lamang-recovery-initiative",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/LRI_logo.png/revision/latest/scale-to-width-down/268?cb=20250715200356",
+    "description": "Lamang Recovery Initiative Lamang Recovery Initiative (LRI) is a faction in Gray Zone Warfare . Description"
+  },
+  {
+    "name": "Mithras Security Systems",
+    "id": "mithras-security-systems",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c4/MSS_logo.png/revision/latest/scale-to-width-down/268?cb=20250715200408",
+    "description": "Mithras Security Systems Mithras Security Systems (MSS) is a faction in Gray Zone Warfare . Description"
+  },
+  {
+    "name": "Crimson Shield International",
+    "id": "crimson-shield-international",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/12/CSI_logo.png/revision/latest/scale-to-width-down/268?cb=20250715200419",
+    "description": "Crimson Shield International Crimson Shield International (CSI) is a faction in Gray Zone Warfare . Description"
+  },
+  {
+    "name": "Lamang Army Forces",
+    "id": "lamang-army-forces",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/LAF_Faction_icon.png/revision/latest/scale-to-width-down/268?cb=20250619131649",
+    "description": "Lamang Army Forces Lamang Army Forces (LAF) is a faction in Gray Zone Warfare . Description"
+  },
+  {
+    "name": "Bandits",
+    "id": "bandits",
+    "description": "Bandits is a group of different hostile non government organizational (NGO) heavily armed outlaw factions committed various forms of banditry operating in isolated or lawless locations within Lamang in Gray Zone Warfare after the Event. Aside from the Lamang military & Lamang Liberation Army counterparts. Although a few of those factions were once considered legitimate corporate services interest groups like the private military company Viper Tactical Services from Thailand when compared to othe"
+  },
+  {
+    "name": "Lamang Liberation Army",
+    "id": "lamang-liberation-army",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0e/LLA_icon.png/revision/latest/scale-to-width-down/268?cb=20260329191522",
+    "description": "Lamang Liberation Army Lamang Liberation Army (LLA) is a faction in Gray Zone Warfare against not just PMC contractors but also against Lamang Armed Forces and Bandits . Description"
+  }
+]

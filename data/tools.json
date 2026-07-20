@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Box of Supplies",
+    "type": "Tool",
+    "weight": "?kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ea/Box_of_Supplies_inspect.png/revision/latest/scale-to-width-down/200?cb=20250503151433"
+  },
+  {
+    "name": "Briefcase",
+    "weight": "5.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7b/Briefcase_inspect.png/revision/latest/scale-to-width-down/200?cb=20240505154632"
+  },
+  {
+    "name": "Camera Wiretap",
+    "type": "Tool",
+    "weight": "0.010kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1a/Camera_Wiretap_inspect.png/revision/latest/scale-to-width-down/200?cb=20250508234029"
+  },
+  {
+    "name": "GPS Tracker",
+    "weight": "0.050kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3d/GPS_Tracker_inspect.png/revision/latest/scale-to-width-down/200?cb=20240504074001"
+  },
+  {
+    "name": "Ground Zero Data Storage",
+    "type": "Tool",
+    "weight": "0.010kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e4/Ground_Zero_Data_Storage_inspect.png/revision/latest/scale-to-width-down/200?cb=20260606034301"
+  },
+  {
+    "name": "LAF Encryption Key Hard Drive",
+    "type": "Tool",
+    "weight": "0.300kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/LAF_Encryption_Key_Hard_Drive_inspect.png/revision/latest/scale-to-width-down/200?cb=20260603042356"
+  },
+  {
+    "name": "Pro Multitool",
+    "weight": "0.120kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/Pro_Multitool_inspect.png/revision/latest/scale-to-width-down/200?cb=20250427044634"
+  },
+  {
+    "name": "Sample Collection Kit",
+    "type": "Tool",
+    "weight": "?kg"
+  }
+]

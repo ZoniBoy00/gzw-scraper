@@ -1,0 +1,109 @@
+[
+  {
+    "name": "AN/PYQ-10",
+    "type": "Military Equipment",
+    "weight": "0,970kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/ANPYQ-10_inspect.png/revision/latest/scale-to-width-down/149?cb=20260421131513"
+  },
+  {
+    "name": "ATM Hacking Tool",
+    "type": "Military Equipment",
+    "weight": "0.150kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/ATM_Hacking_Tool_inspect.png/revision/latest/scale-to-width-down/200?cb=20260412113512"
+  },
+  {
+    "name": "AZART P1 Radio",
+    "type": "Military Equipment",
+    "weight": "0.720kg"
+  },
+  {
+    "name": "Biometric Access Card",
+    "type": "Military Equipment",
+    "weight": "0.008kg"
+  },
+  {
+    "name": "Biometric Thumb Drive",
+    "type": "Military Equipment",
+    "weight": "0.004kg"
+  },
+  {
+    "name": "C2 Military Laptop",
+    "type": "Military Equipment",
+    "weight": "5.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/C2_Military_Laptop_inspect.png/revision/latest/scale-to-width-down/200?cb=20260603042356"
+  },
+  {
+    "name": "GLONASS Grot-M Navigation Receiver",
+    "type": "Military Equipment",
+    "weight": "0,800kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/GLONASS_Grot-M_Navigation_Receiver_inspect.png/revision/latest/scale-to-width-down/200?cb=20260506023431"
+  },
+  {
+    "name": "Handheld ECM Jammer",
+    "type": "Military Equipment",
+    "weight": "2.0kg"
+  },
+  {
+    "name": "HGCS-30 UAV Control Station",
+    "type": "Military Equipment",
+    "weight": "3.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/82/HGCS-30_UAV_Control_Station_inspect.png/revision/latest/scale-to-width-down/200?cb=20260331081050"
+  },
+  {
+    "name": "KIK-11 Tactical Key Loader",
+    "type": "Military Equipment",
+    "weight": "0,450kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/76/KIK-11_Tactical_Key_Loader_inspect.png/revision/latest/scale-to-width-down/200?cb=20260603042447"
+  },
+  {
+    "name": "LTSD-4-3 Laser Designator",
+    "type": "Military Equipment",
+    "weight": "14.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/LTSD-4-3_Laser_Designator_inspect.png/revision/latest/scale-to-width-down/200?cb=20260410150502"
+  },
+  {
+    "name": "NPI-2 Navigation Receiver",
+    "type": "Military Equipment",
+    "weight": "0,300kg"
+  },
+  {
+    "name": "One-Time Pad Key Sheets",
+    "type": "Military Equipment",
+    "weight": "0.100kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ce/One-Time_Pad_Key_Sheets_inspect.png/revision/latest/scale-to-width-down/200?cb=20260418103204"
+  },
+  {
+    "name": "Operation Data Encrypted Hard Disk",
+    "type": "Military Equipment",
+    "weight": "0.180kg"
+  },
+  {
+    "name": "PBG-01+ UAV Control Station",
+    "type": "Military Equipment",
+    "weight": "14.200kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/PBG-01%2B_UAV_Control_Station_inspect.png/revision/latest/scale-to-width-down/188?cb=20260331084341"
+  },
+  {
+    "name": "R-438 Barrier-T",
+    "type": "Military Equipment",
+    "weight": "16.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/R-438_Barrier-T_inspect.png/revision/latest/scale-to-width-down/200?cb=20260420114625"
+  },
+  {
+    "name": "Rugged Military Tablet",
+    "type": "Military Equipment",
+    "weight": "2.0kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3c/Rugged_Military_Tablet_inspect.png/revision/latest/scale-to-width-down/200?cb=20260408223651"
+  },
+  {
+    "name": "Signal Repeater RT97S",
+    "type": "Military Equipment",
+    "weight": "1.660kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/14/Signal_Repeater_RT97S_inspect.png/revision/latest/scale-to-width-down/200?cb=20260331085918"
+  },
+  {
+    "name": "STRELETS-M Tablet",
+    "type": "Military Equipment",
+    "weight": "1,400kg"
+  }
+]

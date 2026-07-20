@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Belt Bag",
+    "type": "Belt",
+    "weight": "0.300kg",
+    "slots": "4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/BeltB_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509134353"
+  },
+  {
+    "name": "Belts"
+  },
+  {
+    "name": "Civilian Leather Fanny Pack",
+    "type": "Belt",
+    "weight": "0.345kg",
+    "slots": "2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/LFPack_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509131638"
+  },
+  {
+    "name": "Civilian Sport Fanny Pack",
+    "type": "Belt",
+    "weight": "0.200kg",
+    "slots": "1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/SFPack_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509070347"
+  },
+  {
+    "name": "Leather Belt",
+    "type": "Belt",
+    "weight": "0.305kg",
+    "slots": "1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/48/Belt_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509070226"
+  },
+  {
+    "name": "Light Anatomical Belt Type 2 (Olive)",
+    "type": "Belt",
+    "weight": "1.310kg",
+    "slots": "4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/Type_2_inspect.png/revision/latest/scale-to-width-down/200?cb=20240507165813"
+  },
+  {
+    "name": "MC50 Laser Edition",
+    "type": "Belt",
+    "weight": "2.531kg",
+    "slots": "3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/MC50_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509132956"
+  },
+  {
+    "name": "Tactical Belt",
+    "type": "Belt",
+    "weight": "0.450kg",
+    "slots": "2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/85/Tactical_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509132548"
+  },
+  {
+    "name": "Yen's Light Anatomical Belt Type 2",
+    "type": "Belt",
+    "weight": "0.950kg",
+    "slots": "4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3e/Yen%27s_Light_Anatomical_Belt_Type_2_inspect.png/revision/latest/scale-to-width-down/200?cb=20260602024521"
+  }
+]

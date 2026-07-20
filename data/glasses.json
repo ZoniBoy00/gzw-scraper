@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Aviator (Black)",
+    "type": "Glasses"
+  },
+  {
+    "name": "Aviator (Green)",
+    "type": "Glasses"
+  },
+  {
+    "name": "Ballistic M Frame 3.0 (Clear)",
+    "type": "Glasses"
+  },
+  {
+    "name": "Ballistic M Frame 3.0 (Tinted)",
+    "type": "Glasses"
+  },
+  {
+    "name": "Desert Locust (Clear)",
+    "type": "Glasses"
+  },
+  {
+    "name": "Desert Locust (Tinted)",
+    "type": "Glasses"
+  },
+  {
+    "name": "Gatorz Delta",
+    "type": "Glasses"
+  },
+  {
+    "name": "Gatorz Magnum (Black)",
+    "type": "Glasses",
+    "weight": "0.090kg"
+  },
+  {
+    "name": "Gatorz Magnum (Green)",
+    "type": "Glasses",
+    "weight": "0.090kg"
+  },
+  {
+    "name": "Gatorz Magnum (Tan)",
+    "type": "Glasses",
+    "weight": "0.090kg"
+  },
+  {
+    "name": "Glasses"
+  },
+  {
+    "name": "Round Sunglasses",
+    "type": "Glasses"
+  },
+  {
+    "name": "Wayfarer",
+    "type": "Glasses",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Wayfarer_inspect.png/revision/latest/scale-to-width-down/200?cb=20250621182704"
+  },
+  {
+    "name": "WX Valor",
+    "type": "Glasses"
+  }
+]

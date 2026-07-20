@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Loot Box"
+  },
+  {
+    "name": "Military Firearms Crate",
+    "type": "Loot container",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/7x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250813163531"
+  },
+  {
+    "name": "Military Gear Crate",
+    "type": "Loot container",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/8x3_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250825203036"
+  },
+  {
+    "name": "Stash"
+  }
+]

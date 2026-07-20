@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Fort Narith HQ Reception Storage Key Card",
+    "id": "fort-narith-hq-reception-storage-key-card",
+    "type": "Keycard",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/FN_HQRec_inspect.png/revision/latest/scale-to-width-down/200?cb=20260502075303"
+  },
+  {
+    "name": "Fort Narith Operations Room Key Card",
+    "id": "fort-narith-operations-room-key-card",
+    "type": "Keycard",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/FN_OR_inspect.png/revision/latest/scale-to-width-down/200?cb=20260502075206"
+  },
+  {
+    "name": "Hotel Supply Closet Key Card",
+    "id": "hotel-supply-closet-key-card",
+    "type": "Keycard",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Keycard-Type2.png/revision/latest/scale-to-width-down/200?cb=20250531203648"
+  },
+  {
+    "name": "Keys",
+    "id": "keys"
+  },
+  {
+    "name": "Kiu Vongsa Town Hall Finance Department Key Card",
+    "id": "kiu-vongsa-town-hall-finance-department-key-card",
+    "type": "Keycard",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest/scale-to-width-down/160?cb=20250531203658"
+  },
+  {
+    "name": "Nam Thaven Town Hall Finance Department Key Card",
+    "id": "nam-thaven-town-hall-finance-department-key-card",
+    "type": "Keycard",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest/scale-to-width-down/160?cb=20250531203658"
+  },
+  {
+    "name": "Pha Lang Town Hall Finance Department Key Card",
+    "id": "pha-lang-town-hall-finance-department-key-card",
+    "type": "Keycard",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest/scale-to-width-down/160?cb=20250531203658"
+  },
+  {
+    "name": "UNLRA HQ Office Key Card",
+    "id": "unlra-hq-office-key-card",
+    "type": "Keycard",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest/scale-to-width-down/160?cb=20250531203658"
+  }
+]

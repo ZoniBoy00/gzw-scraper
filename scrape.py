@@ -1,7 +1,11 @@
 """
 GZW Wiki Scraper v2 — Comprehensive data extractor
-Scrapes Weapons, Armor, Helmets, Attachments, Ammo, Throwables, Gear, Images and more
-from the Gray Zone Warfare Fandom wiki.
+Scrapes ALL wiki content from the Gray Zone Warfare Fandom wiki:
+- Weapons, Armor, Helmets, Attachments, Ammo, Throwables, Tasks, Keys
+- All Gear & Items categories (glasses, face cover, headsets, headwear, belts, apparel)
+- Medical, Provisions, Food, Drinks, Containers, Loot, Tools
+- Weapon parts (barrels, stocks, grips, magazines, suppressors, etc.)
+- Factions, Info pages, images
 """
 
 import argparse
@@ -116,7 +120,6 @@ def parse_infobox(soup):
         return data
     infobox = soup.find("aside", class_=lambda c: c and "portable-infobox" in str(c)) if soup else None
     if not infobox:
-        # Try wikitable as fallback
         return data
     
     for data_item in infobox.find_all("div", class_="pi-data"):
@@ -125,9 +128,14 @@ def parse_infobox(soup):
         if label_el and value_el:
             label = label_el.get_text(" ", strip=True).lower().replace(" ", "_")
             value = value_el.get_text(" ", strip=True)
-            # Clean value
             value = re.sub(r'\s+', ' ', value).strip()
             data[label] = value
+    
+    # Get image
+    img = infobox.find("img")
+    if img and img.get("src"):
+        data["_image"] = img["src"]
+    
     return data
 
 def parse_page(title):
@@ -215,7 +223,6 @@ def extract_listing_table(soup):
                 if name:
                     break
             if not name:
-                # Try first cell
                 first_val = row_data.get(headers[0], "") if headers else ""
                 if first_val and not first_val.lower() in ["icon", "image", ""]:
                     name = first_val
@@ -253,7 +260,6 @@ def scrape_weapons():
         
         weapon = {"name": title, "id": title.lower().replace(" ", "-").replace("'", "")}
         
-        # Map wiki fields to standard fields
         field_map = {
             "type": "type",
             "caliber": "caliber",
@@ -267,7 +273,6 @@ def scrape_weapons():
         for wiki_key, our_key in field_map.items():
             if wiki_key in info:
                 val = info[wiki_key]
-                # Extract number from "600 RPM" or "30 rounds"
                 if our_key in ("magSize", "fireRate"):
                     nums = re.findall(r'\d+', val)
                     if nums:
@@ -279,12 +284,10 @@ def scrape_weapons():
                 else:
                     weapon[our_key] = val
         
-        # Get image
         img = get_page_image(title)
         if img:
             weapon["image"] = img
         
-        # Extract source/vendor from page text
         if soup:
             text = soup.get_text(" ", strip=True)
             vendor_patterns = [
@@ -311,9 +314,7 @@ def scrape_weapons():
 
 
 def scrape_armor():
-    """Scrape armor vests, helmets, plate carriers, headwear, and tactical rigs.
-    Uses both individual page infoboxes AND listing pages for comprehensive coverage."""
-    # Individual page scraper categories
+    """Scrape armor vests, helmets, plate carriers, headwear, and tactical rigs."""
     page_categories = {
         "vests": "Armor Vest",
         "helmets": "Helmet",
@@ -321,17 +322,15 @@ def scrape_armor():
         "backpacks": "Backpacks",
     }
     
-    # Listing pages with item tables (fallback to catch items missing infoboxes)
     listing_pages = {
         "vests": "Armor Vests",
         "plate_carriers": "Plate Carriers",
-        "helmets": "Headwear",  # Headwear page covers helmets + headwear
+        "helmets": "Headwear",
     }
     
     results = {}
+    all_individual_items = {}
     
-    # Phase 1: Scrape individual pages via category members
-    all_individual_items = {}  # name -> item
     for key, cat in page_categories.items():
         logger.info("=" * 60)
         logger.info("Scraping %s (category: %s)...", key, cat)
@@ -388,7 +387,7 @@ def scrape_armor():
                 json.dump(items, f, indent=2)
             logger.info("✅ %s: %d saved", key, len(items))
     
-    # Phase 2: Scrape listing pages for items that might be missing
+    # Phase 2: Scrape listing pages for missing items
     logger.info("=" * 60)
     logger.info("Scraping listing pages for missing armor items...")
     
@@ -403,18 +402,13 @@ def scrape_armor():
         
         for ti in table_items:
             name = ti["name"]
-            # Check if we already have this item from individual page scraping
             if name.lower() not in all_individual_items:
                 logger.info("    ➕ New item from listing: %s", name)
-                img_url = ti.get("image", "")
-                
                 new_item = {
                     "name": name,
                     "id": name.lower().replace(" ", "-").replace("'", ""),
                     "source": "Looting",
                 }
-                
-                # Try to extract NIJ rating from table data
                 row_data = ti.get("data", {})
                 for hdr, val in row_data.items():
                     h = hdr.lower().strip()
@@ -429,18 +423,17 @@ def scrape_armor():
                     elif "source" in h or "vendor" in h:
                         new_item["source"] = val
                 
-                if img_url:
-                    new_item["image"] = img_url if img_url.startswith("http") else ""
+                img_url = ti.get("image", "")
+                if img_url and img_url.startswith("http"):
+                    new_item["image"] = img_url
                 
-                # Add to appropriate result list
-                if result_key == "vests" or result_key == "plate_carriers":
+                if result_key in ("vests", "plate_carriers"):
                     results.setdefault("vests", []).append(new_item)
                 elif result_key == "helmets":
                     results.setdefault("helmets", []).append(new_item)
         
         time.sleep(0.3)
     
-    # Save updated files with new items
     for key in ["vests", "helmets"]:
         items = results.get(key, [])
         if items:
@@ -457,7 +450,6 @@ def scrape_ammo():
     logger.info("=" * 60)
     logger.info("Scraping Ammunition...")
     
-    # All ammo caliber subcategories from the wiki
     caliber_categories = [
         ".300 AAC Blackout ammunition",
         ".45 ACP Ammunition",
@@ -473,8 +465,6 @@ def scrape_ammo():
         "4.6x30mm",
     ]
     
-    # Map caliber categories to their listing page (the page with the ammo table)
-    # The listing page has pen data in "Stopped by Armor Class" column
     caliber_listing_pages = {
         ".300 AAC Blackout ammunition": ".300 AAC Blackout",
         ".45 ACP Ammunition": ".45 ACP",
@@ -490,7 +480,6 @@ def scrape_ammo():
         "4.6x30mm": "4.6x30mm",
     }
     
-    # Step 1: Get all ammo pages from all subcategories
     all_ammo_pages = []
     seen_titles = set()
     
@@ -513,36 +502,28 @@ def scrape_ammo():
     
     logger.info("Found %d unique ammo pages across all calibers", len(all_ammo_pages))
     
-    # Step 2: Scrape each caliber listing page for pen data
-    caliber_pen_data = {}  # ammo_name -> pen_level
+    caliber_pen_data = {}
     calibers_without_pen = set()
     
     for cal_cat, listing_page in caliber_listing_pages.items():
         logger.debug("  Checking listing page: %s", listing_page)
         soup = parse_page(listing_page)
         if not soup:
-            # Some individual ammo pages don't have listing tables
-            # Mark the caliber for individual page scraping
             calibers_without_pen.add(cal_cat)
             time.sleep(0.3)
             continue
         
-        # Find the ammo table
         for table in soup.find_all("table", class_=re.compile(r"wikitable|article-table|sortable|fandom-table")):
             rows = table.find_all("tr")
             if len(rows) < 2:
                 continue
             
-            # Get headers
             headers = [h.get_text(" ", strip=True).lower() for h in rows[0].find_all(["th", "td"])]
             
-            # Check if this table has penetration data
             pen_col = None
             name_col = None
             source_col = None
             velocity_col = None
-            accuracy_col = None
-            durability_col = None
             
             for j, h in enumerate(headers):
                 h_clean = re.sub(r'[^a-z]', '', h)
@@ -554,10 +535,6 @@ def scrape_ammo():
                     source_col = j
                 elif "velocity" in h_clean or "muzzle" in h_clean:
                     velocity_col = j
-                elif "accuracy" in h_clean:
-                    accuracy_col = j
-                elif "durability" in h_clean:
-                    durability_col = j
             
             if name_col is None:
                 continue
@@ -571,17 +548,9 @@ def scrape_ammo():
                 if not name:
                     continue
                 
-                pen_value = ""
-                if pen_col is not None and pen_col < len(cells):
-                    pen_value = cells[pen_col].get_text(" ", strip=True)
-                
-                source_value = ""
-                if source_col is not None and source_col < len(cells):
-                    source_value = cells[source_col].get_text(" ", strip=True)
-                
-                velocity_value = ""
-                if velocity_col is not None and velocity_col < len(cells):
-                    velocity_value = cells[velocity_col].get_text(" ", strip=True)
+                pen_value = cells[pen_col].get_text(" ", strip=True) if pen_col is not None and pen_col < len(cells) else ""
+                source_value = cells[source_col].get_text(" ", strip=True) if source_col is not None and source_col < len(cells) else ""
+                velocity_value = cells[velocity_col].get_text(" ", strip=True) if velocity_col is not None and velocity_col < len(cells) else ""
                 
                 caliber_pen_data[name.lower()] = {
                     "penetration": pen_value,
@@ -593,9 +562,7 @@ def scrape_ammo():
         time.sleep(0.3)
     
     logger.info("  Got pen data for %d ammo types", len(caliber_pen_data))
-    logger.info("  Calibers without listing tables: %s", calibers_without_pen)
     
-    # Step 3: Scrape individual ammo pages for details
     ammo_items = []
     seen_ammo = set()
     
@@ -604,10 +571,8 @@ def scrape_ammo():
         soup = parse_page(title)
         info = parse_infobox(soup)
         
-        # Get data from infobox
         item = {"name": title}
         
-        # Map standard fields
         for wiki_key, our_key in {
             "caliber": "caliber", "calibre": "caliber",
             "type": "type",
@@ -618,7 +583,6 @@ def scrape_ammo():
             if wiki_key in info:
                 item[our_key] = info[wiki_key]
         
-        # Add penetration data from caliber listing pages
         pen_info = caliber_pen_data.get(title.lower(), {})
         if pen_info:
             pen_val = pen_info.get("penetration", "")
@@ -630,17 +594,14 @@ def scrape_ammo():
             if pen_info.get("velocity") and not item.get("velocity"):
                 item["velocity"] = pen_info["velocity"]
         
-        # Get image
         img = get_page_image(title)
         if img:
             item["image"] = img
         
-        # Deduplicate by name
         if title.lower() not in seen_ammo:
             seen_ammo.add(title.lower())
             ammo_items.append(item)
         else:
-            # Update existing entry with pen data
             for existing in ammo_items:
                 if existing["name"].lower() == title.lower():
                     if pen_info:
@@ -654,7 +615,6 @@ def scrape_ammo():
         time.sleep(0.3)
     
     if ammo_items:
-        # Deduplicate
         seen = set()
         unique = []
         for a in ammo_items:
@@ -737,7 +697,6 @@ def scrape_throwables():
             "type": "throwable",
         }
         
-        # Map infobox fields
         field_map = {
             "type": "grenade_type",
             "effect": "effect",
@@ -758,7 +717,6 @@ def scrape_throwables():
                 else:
                     item[our_key] = val
         
-        # Get image
         img = get_page_image(title)
         if img:
             item["image"] = img
@@ -780,7 +738,6 @@ def scrape_tasks():
     logger.info("=" * 60)
     logger.info("Scraping Tasks...")
     
-    # Comprehensive list of task-related categories
     categories = [
         "Main tasks", "Side tasks", "Contracts", "Tasks", "Task items",
         "Squad Strike Missions Item", "Main task", "Side task",
@@ -823,7 +780,6 @@ def scrape_tasks():
             "objectives": [],
         }
         
-        # Categorize based on source category
         cl = category.lower()
         if "contract" in cl or "squad" in cl:
             task["type"] = "squad"
@@ -834,7 +790,6 @@ def scrape_tasks():
         elif "hidden" in cl:
             task["type"] = "hidden"
         
-        # Parse infobox
         info = parse_infobox(soup)
         for wiki_key, our_key in {"given by": "vendor", "location": "area", "area": "area", "objectives": "objectives_text"}.items():
             if wiki_key in info:
@@ -845,7 +800,6 @@ def scrape_tasks():
                 elif our_key == "objectives_text":
                     task["objectives"] = [o.strip() for o in val.split("\n") if o.strip()][:8]
         
-        # Fallback: extract objectives from page text
         if not task["objectives"]:
             task["objectives"] = extract_objectives(soup)
         
@@ -853,7 +807,6 @@ def scrape_tasks():
         time.sleep(0.3)
     
     if tasks:
-        # Deduplicate by name
         seen = set()
         unique_tasks = []
         for t in tasks:
@@ -866,7 +819,6 @@ def scrape_tasks():
             json.dump(unique_tasks, f, indent=2)
         logger.info("✅ Tasks: %d saved (deduplicated from %d)", len(unique_tasks), len(tasks))
         
-        # Summary by vendor
         by_vendor = {}
         for t in unique_tasks:
             v = t["vendor"] or "Unknown"
@@ -878,7 +830,11 @@ def scrape_tasks():
 
 
 def scrape_all_misc():
-    """Scrape ALL remaining wiki categories comprehensively."""
+    """Scrape ALL remaining wiki categories comprehensively.
+    Includes medical, gear, containers, loot, provisions, food, drinks,
+    weapon parts, night vision, equipment, tools, cosmetics, AND new categories
+    from the wiki homepage (glasses, face cover, headsets, headwear, belts, apparel)."""
+    
     ALL_CATEGORIES = {
         # Medical & Supplies
         "medical": "Medical Item",
@@ -915,6 +871,14 @@ def scrape_all_misc():
         
         # Cosmetics
         "weapon_camos": "Weapons camouflage",
+        
+        # NEW: Missing Gear & Items categories from wiki homepage
+        "glasses": "Glasses",
+        "face_cover": "Face Cover",
+        "headsets": "Headsets",
+        "headwear_items": "Headwear",
+        "belts": "Belts",
+        "apparel": "Apparel",
     }
     
     for key, cat in ALL_CATEGORIES.items():
@@ -932,7 +896,6 @@ def scrape_all_misc():
             info = parse_infobox(soup)
             
             item = {"name": title}
-            # Collect ALL available fields from infobox
             for wiki_key in ("type", "weight", "grid", "effect", "uses", "capacity",
                            "caliber", "magazine", "rounds", "speed", "damage",
                            "penetration", "armor_class", "material", "source",
@@ -942,7 +905,6 @@ def scrape_all_misc():
                 if wiki_key in info:
                     item[wiki_key] = info[wiki_key]
             
-            # Common field name variations
             for alt in ("ammo_type", "ammotype", "cartridge", "size", "storage"):
                 if alt in info:
                     item[alt] = info[alt]
@@ -964,11 +926,11 @@ def scrape_all_misc():
 
 
 def scrape_item_images():
-    """Scrape images from ALL wiki categories for comprehensive image mapping."""
+    """Scrape images from ALL wiki categories for comprehensive image mapping.
+    Now includes ALL Gear & Items categories plus Factions."""
     logger.info("=" * 60)
     logger.info("Scraping ALL item images from every category...")
     
-    # All categories that contain items with images
     image_categories = [
         "Weapons", "Armor Vest", "Helmet", "Plate Carriers", "Backpacks",
         "Tactical Rigs", "Ammunition", "Throwables", "Keys", "Keycards",
@@ -979,6 +941,8 @@ def scrape_item_images():
         "Night Vision Devices", "Helmet Mods", "Helmet Mounts",
         "Repair Kits", "Tool", "Military Equipment", "Task Item",
         "Weapon Parts", "Weapons camouflage",
+        # NEW categories
+        "Glasses", "Face Cover", "Headsets", "Headwear", "Belts", "Apparel",
     ]
     
     images = {}
@@ -999,9 +963,8 @@ def scrape_item_images():
             img = get_page_image(title)
             if img:
                 images[title] = img
-                time.sleep(0.15)  # Slightly faster than item scraping
+                time.sleep(0.15)
     
-    # Also try to find images from listing pages (they often have tables with icons)
     listing_pages = {
         "Weapons": "weapon",
         "Armor Vests": "armor_vest",
@@ -1018,9 +981,14 @@ def scrape_item_images():
         "Weapon Parts": "attachment",
         "Repair Kits": "repair",
         "Tool": "tool",
+        "Glasses": "glasses",
+        "Face Cover": "face_cover",
+        "Headsets": "headsets",
+        "Headwear": "headwear",
+        "Belts": "belts",
+        "Apparel": "apparel",
     }
     
-    # Also scrape all ammo caliber listing pages (they have icon tables)
     caliber_listing_pages = [
         ".300 AAC Blackout",
         ".45 ACP",
@@ -1035,9 +1003,8 @@ def scrape_item_images():
         "4.6x30mm",
     ]
     
-    all_images = {}  # item_name -> image_url
+    all_images = {}
     
-    # Phase 1: Scrape main listing pages
     for page_title, category in listing_pages.items():
         logger.info("  Scraping images from: %s", page_title)
         soup = parse_page(page_title)
@@ -1053,13 +1020,11 @@ def scrape_item_images():
             name = ti["name"]
             img_url = ti.get("image", "")
             if name and img_url and name not in all_images:
-                # Clean up the URL - prefer the full resolution image
                 if img_url.startswith("http"):
                     all_images[name] = img_url
         
         time.sleep(0.3)
     
-    # Phase 2: Scrape caliber listing pages for ammo icons
     for page_title in caliber_listing_pages:
         logger.info("  Scraping ammo images from: %s", page_title)
         soup = parse_page(page_title)
@@ -1079,8 +1044,6 @@ def scrape_item_images():
         
         time.sleep(0.3)
     
-    # Phase 3: Get images for items we already have in our data files
-    # that might not be in listing tables yet
     data_files = OUTPUT_DIR.glob("*.json")
     for f in data_files:
         if f.name == "item_images.json":
@@ -1107,7 +1070,6 @@ def scrape_item_images():
         except Exception:
             pass
     
-    # Save
     if all_images:
         path = OUTPUT_DIR / "item_images.json"
         with open(path, "w") as f:
@@ -1146,7 +1108,6 @@ def scrape_keys():
                 "id": title.lower().replace(" ", "-").replace("'", "").replace("(", "").replace(")", ""),
             }
             
-            # Map infobox fields
             for wiki_key, our_key in {
                 "type": "type",
                 "location": "location",
@@ -1173,6 +1134,129 @@ def scrape_keys():
             logger.info("✅ %s: %d saved", key, len(items))
 
 
+def scrape_factions():
+    """Scrape faction info pages (lore, description, logo)."""
+    logger.info("=" * 60)
+    logger.info("Scraping Factions...")
+    
+    factions_info = [
+        "Lamang Recovery Initiative",
+        "Mithras Security Systems", 
+        "Crimson Shield International",
+        "Lamang Army Forces",
+        "Bandits",
+        "Lamang Liberation Army",
+    ]
+    
+    factions = []
+    for title in factions_info:
+        logger.info("  Scraping faction: %s", title)
+        
+        soup = parse_page(title)
+        info = parse_infobox(soup)
+        
+        faction = {
+            "name": title,
+            "id": title.lower().replace(" ", "-"),
+        }
+        
+        if info.get("_image"):
+            faction["image"] = info["_image"]
+        
+        if soup:
+            text = soup.get_text(" ", strip=True)
+            desc_match = re.search(r'(?:Description\s*\[?\s*edit\s*\]?\s*)?(.+?)(?:\[|\n\s*\n)', text, re.DOTALL)
+            if desc_match:
+                desc = desc_match.group(1).strip()
+                faction["description"] = desc[:500]
+            else:
+                faction["description"] = text[:300]
+        
+        if not faction.get("image"):
+            img = get_page_image(title)
+            if img:
+                faction["image"] = img
+        
+        factions.append(faction)
+        time.sleep(0.3)
+    
+    if factions:
+        path = OUTPUT_DIR / "factions.json"
+        with open(path, "w") as f:
+            json.dump(factions, f, indent=2, ensure_ascii=False)
+        logger.info("✅ Factions: %d saved", len(factions))
+    
+    return factions
+
+
+def scrape_info_pages():
+    """Scrape informational wiki pages (Basics, Systems, Locations, etc.).
+    These are single pages with game info, not item lists with multiple entries."""
+    logger.info("=" * 60)
+    logger.info("Scraping info/reference pages...")
+    
+    INFO_PAGES = {
+        # Basics
+        "game_modes": "Game modes",
+        "lamang_island": "Lamang Island",
+        "locations": "Locations",
+        "changelog": "Changelog",
+        "system_requirements": "System requirements",
+        
+        # Systems
+        "health": "Health",
+        "ballistics": "Ballistics",
+        "looting": "Looting",
+        "experience": "Experience",
+        "trading": "Trading",
+    }
+    
+    pages = []
+    for key, title in INFO_PAGES.items():
+        logger.info("  Scraping info page: %s", title)
+        
+        params = {
+            "action": "parse",
+            "page": title,
+            "prop": "text",
+            "formatversion": "2",
+        }
+        data = api_call(params)
+        html = data.get("parse", {}).get("text", "") if data else ""
+        
+        soup = None
+        if html:
+            soup = __import__("bs4").BeautifulSoup(html, "lxml")
+        
+        info = parse_infobox(soup) if soup else {}
+        
+        page = {
+            "name": title,
+            "id": key,
+        }
+        
+        if info.get("_image"):
+            page["image"] = info["_image"]
+        
+        if soup:
+            text = soup.get_text(" ", strip=True)
+            text = re.sub(r'\[\s*\d+\s*\]', '', text)
+            text = re.sub(r'\s+', ' ', text).strip()
+            page["summary"] = text[:1000]
+            page["content_length"] = len(text)
+        
+        pages.append(page)
+        time.sleep(0.3)
+    
+    if pages:
+        path = OUTPUT_DIR / "info_pages.json"
+        with open(path, "w") as f:
+            json.dump(pages, f, indent=2, ensure_ascii=False)
+        logger.info("✅ Info pages: %d saved", len(pages))
+    
+    return pages
+
+
 # ─── Main ───
 
 def main():
@@ -1183,17 +1267,20 @@ def main():
     parser.add_argument("--attachments", action="store_true")
     parser.add_argument("--tasks", action="store_true")
     parser.add_argument("--other", action="store_true")
-    parser.add_argument("--misc", action="store_true", help="Scrape all remaining categories (food, provisions, weapon parts, tools, etc.)")
+    parser.add_argument("--misc", action="store_true", help="Scrape all remaining categories (food, provisions, weapon parts, tools, glasses, etc.)")
     parser.add_argument("--throwables", action="store_true")
     parser.add_argument("--images", action="store_true")
     parser.add_argument("--keys", action="store_true")
+    parser.add_argument("--factions", action="store_true")
+    parser.add_argument("--info", action="store_true", help="Scrape info/reference pages (Basics, Systems, Locations)")
     parser.add_argument("--all", action="store_true")
     args = parser.parse_args()
     
-    if not any([args.weapons, args.armor, args.ammo, args.attachments, args.tasks, args.misc, args.throwables, args.images, args.keys, args.all]):
+    if not any([args.weapons, args.armor, args.ammo, args.attachments, args.tasks, args.misc,
+                args.throwables, args.images, args.keys, args.factions, args.info, args.all]):
         args.all = True
     
-    logger.info("🏴‍☠️ GZW Wiki Scraper v2")
+    logger.info("🏴‍☠️ GZW Wiki Scraper v2 — Full Wiki Scrape")
     logger.info("Output: %s", OUTPUT_DIR)
     
     if args.all or args.weapons:
@@ -1210,10 +1297,14 @@ def main():
         scrape_all_misc()
     if args.all or args.throwables:
         scrape_throwables()
-    if args.all or args.images:
-        scrape_item_images()
     if args.all or args.keys:
         scrape_keys()
+    if args.all or args.factions:
+        scrape_factions()
+    if args.all or args.info:
+        scrape_info_pages()
+    if args.all or args.images:
+        scrape_item_images()
     
     # Generate summary
     summaries = []

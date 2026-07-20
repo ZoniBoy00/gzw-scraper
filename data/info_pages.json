@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Game modes",
+    "id": "game_modes",
+    "summary": "Warning This page is still heavily in work in progress . Some informations might be incomplete or unconfirmed. Gray Zone Warfare offers three different game modes options for the players. Contents 1 Warfare 1.1 Features 1.1.1 COP Defense/Attack 1.1.2 Conflict Zones 1.1.3 Aggressor status 2 Joint Operations 3 Custom Servers 4 Notes Warfare [ ] The Warfare game mode allows players from different factions to fight each other anywhere on the map. This is a complete PvPvE game mode. You can be shot at by a player everywhere on the map, even in the base. No safe-zones are present on the map that protects a player from being damaged. The players only gets \"invincible\" for a few seconds(3-5s) after getting out of a Helicopter on a LZ . Features [ ] COP Defense/Attack [ ] In Warfare mode, COPs can be attacked by players when the COP doesn't belong to their faction. In the Warfare mode, COPs are always defended by AI, even when a COP belong to another faction. Conflict Zones [ ] Those are red ci",
+    "content_length": 3538
+  },
+  {
+    "name": "Lamang Island",
+    "id": "lamang_island",
+    "summary": "Map of Lamang Island from the perspective of Crimson Shield International (a PMC faction ) and shows the Island's Regions Contents 1 Geographical Information 2 History of Lamang 3 The Event 4 Trivia Geographical Information [ ] Official country name: The Democratic Republic of Lamang Location: Somewhere in Southeast Asia Area: 430km² Population: 74,470 President: Narith Sayavong Official languages: Lao and English Area of operations: 42km² History of Lamang [ ] A former British colony, Lamang was ravaged by a brutal civil war just two decades after gaining its independence when the remnants of the anti-British resistance (known as SOL - Sons of Lamang) were dissatisfied with the independent government‘s rule. Since the official army was understaffed, untrained, and equipped with outdated weapons and gear, it was swiftly defeated after only a couple of months of fighting. The SOL commander, Raksmei Sayavong, then declared himself the supreme leader of the island with the title of Presid",
+    "content_length": 4461
+  },
+  {
+    "name": "Locations",
+    "id": "locations",
+    "summary": "You can help Gray Zone Warfare wiki by adding missing informations on this page. If the problems have been addressed, please edit this page and remove this notice. It will start with {{MissInfos and end with }} . You can help Gray Zone Warfare wiki by adding missing informations on this page.}} If the problems have been addressed, please edit this page and remove this notice. It will start with {{MissInfos and end with }} . The map of Gray Zone Warfare is an Island that consists of multiple Points of Interest that the player can visit. While the map is still growing with each update, the entire island can be visited freely, by foot, or by using Landing Zones. Lamang Island points of interest are divided into two different POIs. Minor POIs scattered across the map and not marked until the player visit it, and Major POIs which are globally all the cities and zones that the player will visit by doing their Tasks . Contents 1 Points of Interest specific features 1.1 Radiations 1.2 Locked D",
+    "content_length": 8526
+  },
+  {
+    "name": "Changelog",
+    "id": "changelog",
+    "summary": "This page contains a collection of official patch notes for Gray Zone Warfare . The game entered the Early Access phase on April 30, 2024 and the current game version is 0.4.6.0 . Contents 1 0.4.6.0 (07 July 2026) 2 Changelog 3 0.4.5.2 (02 July 2026) 3.1 Changelog 4 0.4.5.1 (27 June 2026) 4.1 Changelog 5 0.4.5.0 (25 June 2026) 5.1 Overview 5.2 Squad Task Sharing 5.3 PvP and COP Mechanics 5.4 AI 5.5 Animations 5.6 Audio 5.7 Gameplay 5.8 Tasks and Tutorial 5.9 User Interface and Controls 5.10 Visual and Rendering 5.11 Weapons and Weapon Parts 5.12 World 5.13 Fixed the following locations where players could get stuck: 6 0.4.4.0 (04 June 2026) 6.1 Animations 6.2 Gameplay 6.3 Tasks and Tutorial 6.4 User Interface and Controls 6.5 Visual and Rendering 6.6 Weapons and weapon parts 6.7 World 6.8 Other fixes and tweaks 7 0.4.3.1 (22 May 2026) 8 0.4.3.0 (21 May 2026) 8.1 Overview 8.2 Animations 8.3 Audio 8.4 Gameplay 8.5 Tasks and Tutorial 8.6 User Interface 8.7 Visual and Rendering 8.8 Weapons",
+    "content_length": 214973
+  },
+  {
+    "name": "System requirements",
+    "id": "system_requirements",
+    "summary": "These are the system requirements to run Gray Zone Warfare . If you use the minimum requirements, it is highly recommended to play on the lowest settings as the game might have some difficulties to run correctly. The lowest settings have been optimized to run the best on minimum requirements. Component Minimum Recommended OS Windows 10 64-bit Windows 10/11 64-bit CPU Intel® Core™ i5-8600 or AMD Ryzen™ 5 2600 (AVX2 support required) Intel® Core™ i7-9700K or AMD Ryzen™ 5 3600X GPU NVIDIA® GeForce® GTX 1080 8GB / 2060 SUPER 8GB / RTX 3060 8GB / RTX 4060 8GB AMD Radeon™ RX 5700 8GB / RX 6600 8GB Intel® Arc™ A770 8GB NVIDIA® GeForce® RTX 4070 / AMD Radeon™ RX 7800XT RAM 16 GB 32 GB Disk space 40 GB 40 GB Network Permanent Internet connection Permanent Internet connection DirectX Version 12 Version 12 References [ ] ↑ System requirements on the MadFingerGames website",
+    "content_length": 873
+  },
+  {
+    "name": "Health",
+    "id": "health",
+    "summary": "Redirect to: Health system",
+    "content_length": 26
+  },
+  {
+    "name": "Ballistics",
+    "id": "ballistics",
+    "summary": "Warning This page is still heavily in work in progress . Some information might be wrong/untested or unconfirmed. Ballistics are an important part of Gray Zone Warfare . They play a big role in firefights and often determine the outcome. Choosing the right weapon , ammo and gear is one of the most important parts in winning gunfights. Contents 1 Flight ballistics 2 Armor and penetration 2.1 NIJ Protection Level 3 Armor materials 4 Angles and ricochets 5 Ammo and Penetration chart 5.1 How to read 5.1.1 Denotation notes Flight ballistics [ ] Bullet flight is simulated realistically in Gray Zone Warfare . Bullets have speed, are affected by gravity and air friction and can penetrate or ricochet when hitting objects. The specific flight characteristics of a bullet are determined by the ammo type, and the chance of a bullet penetrating or ricocheting off of an object is determined by the material of the object and the type of bullet. Bullets lose both damage and penetration power as they lo",
+    "content_length": 10739
+  },
+  {
+    "name": "Looting",
+    "id": "looting",
+    "summary": "Looting is the main source for acquiring Loot, gear and weapons scattered throughout the map. Contents 1 Your Locker 2 Inventory 2.1 Secure Lockboxes 3 Trading 3.1 Vendors 4 Lootable Containers Your Locker [ ] The locker is a safe location for players to store their items. Depending on the edition of the game purchased, the locker will be a different size: 10x25 on Standard Edition 10x35 on Tactical Edition 10x45 on Elite Edition 10x60 on Supporter Edition The locker size can be upgraded via the DLC packs, found on the Steam Store , or by leveling your PMC up in game. 10x35 is unlocked at PMC Level 20 10x45 is unlocked at PMC Level 30 10x60 is unlocked at PMC Level 40 Inventory [ ] The equipment screen is where players can equip weapons and gear on their character. Before deploying to the battle field, you can place whatever you want to bring into battle. Once in battle, everything you brought in with you with the exception of the Secure Lockbox and their contents, as well as Melee wea",
+    "content_length": 7420
+  },
+  {
+    "name": "Experience",
+    "id": "experience",
+    "summary": "Gray Zone Warfare features a character level system that increase with specific actions giving a specific amount of experience in Lamang . The more experience you get, the more levels you get. Actions granting EXP [ ] A few actions grants the player a few experience points. Completing tasks , killing enemy factions , capturing combat outposts , discovers points of interest ... Lamang enemies kill EXP Type Experience Rebels / Bandits (Tier 1 areas) 5 Rebels/Bandits (Tier 2 and 3 areas) 10 LAF Soldiers 15 LAF Commanders 30 Other PMCs (Players) 200 Discovering POIs Type Experience Landing Zones 150 Points of Interest 30 Capturing Combat Outposts Type Experience Major Combat Outposts 150 Minor Combat Outposts 50 Levels [ ] The table below shows level threshold and the rewards of each level achieved. Icon Level Level Threshold Rewards 1 0 5.11 - Competition Shooting Tactical Gloves (Blue) Tactical Gloves (Orange) AKU - Conero GTX Lowa - Zephyr GTX Mid TF US BDU (Woodland) Clawgear - Raider ",
+    "content_length": 2666
+  },
+  {
+    "name": "Trading",
+    "id": "trading",
+    "summary": "Trading is a big part of the economy in Lamang . Vendors [ ] Vendors provide each PMC faction's player with purchasable gear using money as currency. Each vendor specializes in a particular category of goods, be they headsets , headwears , glasses , plate carriers , Armor Vests , rigs , tools, weapons , ammunition , weapon parts , night vision devices , attachments or medical supplies. Vendors can also buy gear and items that have been looted or found on other players. Nickname Name Image Sells Buys Handshake Lewis Pell Helmets, Glasses, Hats, Headphones, Plate Carriers, Vests, Backpacks, Belts, Tactical Rigs and Tools. Helmets, Glasses, Hats, Headphones, Plate Carriers, Vests, Backpacks, Belts, Tactical Rigs, Tools and Secure Lockboxes. Gunny Anton Jackson Primary Weapons, Secondary Weapons, Ammunition, Magazines, Weapon parts, Attachments, Throwables and Tools. Specifically specializing in NATO variant weapons. Also sells 5.56 ammo and M933 high-explosive mortar round types. Primary ",
+    "content_length": 2191
+  }
+]

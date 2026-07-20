@@ -1,0 +1,123 @@
+[
+  {
+    "name": "762-SD Suppressor",
+    "type": "Suppressor",
+    "weight": "0.652 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/762-SD_inspect.png/revision/latest/scale-to-width-down/184?cb=20250727204929"
+  },
+  {
+    "name": "AK-12 Suppressor",
+    "type": "Suppressor",
+    "weight": "0.620 kg"
+  },
+  {
+    "name": "AK-15 Suppressor",
+    "type": "Suppressor",
+    "weight": "0.620 kg"
+  },
+  {
+    "name": "BANISH 45 Suppressor",
+    "type": "Suppressor",
+    "weight": "0.272 kg"
+  },
+  {
+    "name": "DTSS Suppressor",
+    "type": "Suppressor",
+    "weight": "0.450 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8b/DTSS_inspect.png/revision/latest/scale-to-width-down/200?cb=20250612003701"
+  },
+  {
+    "name": "HK MP5SD 9mm Suppressor",
+    "type": "Suppressor",
+    "weight": ".476 kg"
+  },
+  {
+    "name": "Mosin-Nagant Bramit Suppressor",
+    "type": "Suppressor",
+    "weight": "0.765 kg"
+  },
+  {
+    "name": "MP7 Rotex Suppressor",
+    "type": "Suppressor",
+    "weight": "0.607 kg"
+  },
+  {
+    "name": "PBS-01 Suppressor",
+    "type": "Suppressor",
+    "weight": "0.700 kg"
+  },
+  {
+    "name": "PBS-04 Suppressor",
+    "type": "Suppressor",
+    "weight": "0.860 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/PBS-04_Suppressor.png/revision/latest/scale-to-width-down/200?cb=20260415190417"
+  },
+  {
+    "name": "QDSS NT4 Suppressor",
+    "type": "Suppressor",
+    "weight": "0.620 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/QDSS_NT4_Suppressor.png/revision/latest/scale-to-width-down/200?cb=20251110211546"
+  },
+  {
+    "name": "QDSS NT4 Suppressor (FDE)",
+    "type": "Suppressor",
+    "weight": "0.620 kg"
+  },
+  {
+    "name": "Salvo 12 Suppressor",
+    "type": "Suppressor",
+    "weight": "0.555 kg"
+  },
+  {
+    "name": "SIG Suppressor SRD556",
+    "type": "Suppressor",
+    "weight": "0.411 Kg kg"
+  },
+  {
+    "name": "SLH300TI-QD Suppressor",
+    "type": "Suppressor",
+    "weight": "0.453 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6c/SLH300_QD_inspect.png/revision/latest/scale-to-width-down/200?cb=20250620014405"
+  },
+  {
+    "name": "SLH762-QD Suppressor",
+    "type": "Suppressor",
+    "weight": "0.598 kg"
+  },
+  {
+    "name": "SOCOM556 RC1 Suppressor",
+    "type": "Suppressor",
+    "weight": "0.453 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/RC1_inspect.png/revision/latest/scale-to-width-down/200?cb=20250616235055"
+  },
+  {
+    "name": "SOCOM556 RC1 Suppressor (FDE)",
+    "type": "Suppressor",
+    "weight": "0.453 kg"
+  },
+  {
+    "name": "SVD Rotor 43 Suppressor 7.62х54 R",
+    "type": "Suppressor",
+    "weight": "0.900 kg"
+  },
+  {
+    "name": "Type 51 Suppressor",
+    "type": "Suppressor",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Ultima Suppressor",
+    "type": "Suppressor",
+    "weight": "0,294 kg"
+  },
+  {
+    "name": "VLC 556 MARK 1 Suppressor",
+    "type": "Suppressor",
+    "weight": "0.680 kg"
+  },
+  {
+    "name": "Vz. 61 TOS Suppressor",
+    "type": "Suppressor",
+    "weight": "??? kg"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Face Cover"
+  },
+  {
+    "name": "Half mask (Black)",
+    "type": "Face Mask",
+    "weight": "0.060kg"
+  },
+  {
+    "name": "Half Mask (Skull)",
+    "type": "Face Mask",
+    "weight": "0.030kg"
+  },
+  {
+    "name": "Half Mask (Woodland)",
+    "type": "Face Mask",
+    "weight": "0.060kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/Mask%28Woodland%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20240522192529"
+  },
+  {
+    "name": "Pandatac Sun Mask",
+    "type": "Face Mask",
+    "weight": "0.060kg"
+  }
+]

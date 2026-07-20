@@ -1,0 +1,148 @@
+[
+  {
+    "name": "A2 Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "0.093 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/A2_Grip_inspect.png/revision/latest/scale-to-width-down/200?cb=20240507135554"
+  },
+  {
+    "name": "AK Bakelite Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "0.065 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/AK_Bak._Grip_inspect.png/revision/latest/scale-to-width-down/200?cb=20260306024301"
+  },
+  {
+    "name": "AK Polymer Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "0.065 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d5/AK_Poly_Grip_inspect.png/revision/latest/scale-to-width-down/200?cb=20260306024202"
+  },
+  {
+    "name": "AK Ratnik Grip",
+    "type": "Pistol Grip",
+    "weight": "0.170 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/Ratnik_Grip_inspect.png/revision/latest/scale-to-width-down/200?cb=20250615191038"
+  },
+  {
+    "name": "Archangel AK-Series Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "0.080 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bf/Arch_AK_Grip_inspect.png/revision/latest/scale-to-width-down/200?cb=20260306030002"
+  },
+  {
+    "name": "Colt 1911 \"The Hive\" Grip",
+    "type": "Pistol Grip",
+    "weight": "0.066 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ee/1911_Hive_inspect.PNG/revision/latest/scale-to-width-down/146?cb=20251107010941"
+  },
+  {
+    "name": "DD Enhanced AR Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "0.099 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/77/DD_Grip_inspect.png/revision/latest?cb=20240509150148"
+  },
+  {
+    "name": "DD Enhanced AR Pistol Grip (Black)",
+    "type": "Pistol Grip",
+    "weight": "0.099 kg"
+  },
+  {
+    "name": "DD Enhanced AR Pistol Grip (MILSPEC)",
+    "type": "Pistol Grip",
+    "weight": "0.099 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5b/DD_Grip%28MilSpec%29_inspect.png/revision/latest/scale-to-width-down/184?cb=20260306024749"
+  },
+  {
+    "name": "M9A1 Rubber Grip",
+    "type": "Pistol Grip",
+    "weight": "0.055 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/M9A1_Rub_Grip_inspect.png/revision/latest/scale-to-width-down/169?cb=20260306025911"
+  },
+  {
+    "name": "M9A1 Wooden Grip",
+    "type": "Pistol Grip",
+    "weight": "0.055 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/M9A1_Wooden_Grip_inspect.png/revision/latest/scale-to-width-down/162?cb=20260306025813"
+  },
+  {
+    "name": "MIAD Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "0.080 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ef/MIAD_Grip_inspect.png/revision/latest/scale-to-width-down/200?cb=20250620110339"
+  },
+  {
+    "name": "MOD Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "??? kg"
+  },
+  {
+    "name": "MOD Pistol Grip (FDE)",
+    "type": "Pistol Grip",
+    "weight": "??? kg"
+  },
+  {
+    "name": "MOE AK Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "0.088 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/MOE_AK_inspect.png/revision/latest/scale-to-width-down/195?cb=20260306024409"
+  },
+  {
+    "name": "MOE AK Pistol Grip (FDE)",
+    "type": "Pistol Grip",
+    "weight": "0.088 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a1/MOE_AK%28FDE%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20260307190035"
+  },
+  {
+    "name": "MOE Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "0.080 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c7/MOE_Grip%28Black%29_inspect.png/revision/latest/scale-to-width-down/184?cb=20250620110652"
+  },
+  {
+    "name": "MOE Pistol Grip (FDE)",
+    "type": "Pistol Grip",
+    "weight": "0.080 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9d/MOE_Grip%28FDE%29_inspect.png/revision/latest/scale-to-width-down/160?cb=20250620111242"
+  },
+  {
+    "name": "Norinco CQA1 Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "0.093 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2f/CQA1_Grip_inspect.png/revision/latest/scale-to-width-down/200?cb=20250614164544"
+  },
+  {
+    "name": "RK-3 Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "0.187 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ad/RK-3_Grip_inspect.png/revision/latest/scale-to-width-down/200?cb=20260306024552"
+  },
+  {
+    "name": "RK-9 Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "0.140 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/67/RK-9_Grip_inspect.png/revision/latest/scale-to-width-down/166?cb=20260306025648"
+  },
+  {
+    "name": "Torque Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "0.156 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/15/Torque_Grip_inspect.png/revision/latest/scale-to-width-down/200?cb=20250620111617"
+  },
+  {
+    "name": "Type 51 Grip",
+    "type": "Pistol Grip",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Vz. 61 Polymer Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "0.100 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/11/Vz._61_Poly_Grip_inspect.png/revision/latest/scale-to-width-down/185?cb=20260307185642"
+  },
+  {
+    "name": "Vz. 61 Wooden Pistol Grip",
+    "type": "Pistol Grip",
+    "weight": "0.100 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6b/Vz._61_Wood_Grip_inspect.png/revision/latest/scale-to-width-down/159?cb=20260306025431"
+  }
+]

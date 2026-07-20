@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Equipment Repair Essentials Kit",
+    "type": "Consumable",
+    "weight": "1.500kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/BGRKit_inspect.png/revision/latest/scale-to-width-down/200?cb=20250617151101"
+  },
+  {
+    "name": "Firearm Cleaning Set",
+    "type": "Repair Kit",
+    "weight": "1.500kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/BFRKit_inspect.png/revision/latest/scale-to-width-down/200?cb=20250617151445"
+  },
+  {
+    "name": "Firearm Tool Set",
+    "type": "Repair Kit",
+    "weight": "3.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d4/AFRKit_inspect.png/revision/latest/scale-to-width-down/200?cb=20250617151947"
+  },
+  {
+    "name": "Gunsmith Tool Set",
+    "type": "Repair Kit",
+    "weight": "6.500kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/PFRKit_inspect.png/revision/latest/scale-to-width-down/200?cb=20250617151721"
+  },
+  {
+    "name": "Repair Kits"
+  },
+  {
+    "name": "Specialized Equipment Repair Kit",
+    "type": "Repair Kit",
+    "weight": "9.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/PGRKit_inspect.png/revision/latest/scale-to-width-down/200?cb=20250617151317"
+  },
+  {
+    "name": "Tactical Equipment Repair Kit",
+    "type": "Repair Kit",
+    "weight": "2.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/AGRKit_inspect.png/revision/latest/scale-to-width-down/200?cb=20250617210524"
+  }
+]

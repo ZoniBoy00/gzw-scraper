@@ -162,8 +162,7 @@
     "source": "Handshake R.2",
     "nij": "III",
     "material": "Steel",
-    "weight": 8.8,
-    "image": ""
+    "weight": 8.8
   },
   {
     "name": "CZ 4M Hornet (Green)",
@@ -171,8 +170,7 @@
     "source": "Handshake R.3",
     "nij": "III+",
     "material": "Ceramic",
-    "weight": 6.9,
-    "image": ""
+    "weight": 6.9
   },
   {
     "name": "Specter",
@@ -198,8 +196,7 @@
     "source": "Looting",
     "nij": "III++",
     "material": "Ceramic",
-    "weight": 9.6,
-    "image": ""
+    "weight": 9.6
   },
   {
     "name": "Yen's Pantsir 2.0",
@@ -207,8 +204,7 @@
     "source": "Looting",
     "nij": "III++",
     "material": "Ceramic",
-    "weight": 9.6,
-    "image": ""
+    "weight": 9.6
   },
   {
     "name": "Recon Plate Carrier",
@@ -216,8 +212,7 @@
     "source": "Handshake R.3 Tasks rewards",
     "nij": "III+",
     "material": "UHMWPE",
-    "weight": 5.6,
-    "image": ""
+    "weight": 5.6
   },
   {
     "name": "M2 Plate Carrier",
@@ -225,8 +220,7 @@
     "source": "Looting Tasks reward",
     "nij": "III++",
     "material": "Ceramic",
-    "weight": 8.9,
-    "image": ""
+    "weight": 8.9
   },
   {
     "name": "CZ 4M Lancer",
@@ -234,8 +228,7 @@
     "source": "Looting Tasks rewards",
     "nij": "III",
     "material": "UHMWPE",
-    "weight": 5.0,
-    "image": ""
+    "weight": 5.0
   },
   {
     "name": "CZ 4M Lancer (UNLRA)",
@@ -243,8 +236,7 @@
     "source": "Looting",
     "nij": "III",
     "material": "UHMWPE",
-    "weight": 5.75,
-    "image": ""
+    "weight": 5.75
   },
   {
     "name": "Chest Rig 901 Elite 4",
@@ -252,8 +244,7 @@
     "source": "Handshake R.2 Tasks rewards",
     "nij": "III",
     "material": "Steel",
-    "weight": 5.7,
-    "image": ""
+    "weight": 5.7
   },
   {
     "name": "Plate6 Plate Carrier",
@@ -261,8 +252,7 @@
     "source": "Handshake R.4 Looting",
     "nij": "III++",
     "material": "Ceramic",
-    "weight": 9.6,
-    "image": ""
+    "weight": 9.6
   },
   {
     "name": "Phantom Type 2",
@@ -270,8 +260,7 @@
     "source": "Turncoat R.4 Looting",
     "nij": "III++",
     "material": "Ceramic",
-    "weight": 13.2,
-    "image": ""
+    "weight": 13.2
   },
   {
     "name": "CGPC3 TQS",
@@ -279,8 +268,7 @@
     "source": "Handshake R.1 Looting",
     "nij": "IIIA",
     "material": "UHMWPE",
-    "weight": 3.7,
-    "image": ""
+    "weight": 3.7
   },
   {
     "name": "Modular Operator Carrier Gen II",
@@ -288,8 +276,7 @@
     "source": "Handshake R.1 Looting",
     "nij": "IIIA",
     "material": "UHMWPE",
-    "weight": 4.2,
-    "image": ""
+    "weight": 4.2
   },
   {
     "name": "LCS Sentry",
@@ -297,8 +284,7 @@
     "source": "Handshake R.2 Looting",
     "nij": "III",
     "material": "UHMWPE",
-    "weight": 3.9,
-    "image": ""
+    "weight": 3.9
   },
   {
     "name": "LCS Sentry (UNLRA)",
@@ -306,8 +292,7 @@
     "source": "Looting",
     "nij": "III",
     "material": "UHMWPE",
-    "weight": 4.7,
-    "image": ""
+    "weight": 4.7
   },
   {
     "name": "LBT-6094 G3v2",
@@ -315,7 +300,6 @@
     "source": "Handshake R.4 Looting",
     "nij": "III++",
     "material": "Ceramic",
-    "weight": 7.1,
-    "image": ""
+    "weight": 7.1
   }
 ]

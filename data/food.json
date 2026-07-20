@@ -1,0 +1,120 @@
+[
+  {
+    "name": "1 Shot Energy Chews",
+    "type": "Food",
+    "weight": "0.040kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4c/1_Shot_Energy_Chews_inspect.png/revision/latest/scale-to-width-down/200?cb=20260411210300"
+  },
+  {
+    "name": "Bamboo Shoots",
+    "type": "Food",
+    "weight": "0.600kg",
+    "effect": "Energy: +15 Hydration: +5"
+  },
+  {
+    "name": "Berg Bar Cookie Chocolate",
+    "type": "Food",
+    "weight": "0.070kg",
+    "effect": "Energy: +25 Arm Stamina Boost: +25% Arm Stamina Boost Cap: +25% Arm Stamina Boost Duration: 90s Body Stamina Boost: +25% Body Stamina Boost Cap: +25% Body Stamina Boost Duration: 90s"
+  },
+  {
+    "name": "Canned Tuna Chunks",
+    "type": "Food",
+    "weight": "0.170kg",
+    "effect": "Energy: +40 Hydration: -10"
+  },
+  {
+    "name": "Combat Ration Pack",
+    "type": "Food",
+    "weight": "0.600kg",
+    "effect": "Energy: +75 /charge",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/CRP_inspect.png/revision/latest/scale-to-width-down/178?cb=20250502143156"
+  },
+  {
+    "name": "Cowboy Baked Beans",
+    "type": "Food",
+    "weight": "0.425kg",
+    "effect": "Energy: +35 Hydration: +5",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/11/Beans_inspect.png/revision/latest/scale-to-width-down/200?cb=20260614123159"
+  },
+  {
+    "name": "Energy Bar Nuts and Fruits",
+    "type": "Food",
+    "weight": "0.040kg",
+    "effect": "Energy: +14 Arm Stamina Boost: +30% Arm Stamina Boost Cap: +30% Arm Stamina Boost Duration: 20s Body Stamina Boost: +30% Body Stamina Boost Cap: +30% Body Stamina Boost Duration: +20s"
+  },
+  {
+    "name": "HDR Meal",
+    "type": "Food",
+    "weight": "0.850kg",
+    "effect": "Energy: +75"
+  },
+  {
+    "name": "Kasem Chocolate Wafers",
+    "type": "Food",
+    "weight": "0.010kg",
+    "effect": "Energy: +13"
+  },
+  {
+    "name": "Lucky Pork Liver Pâté",
+    "type": "Food",
+    "weight": "0.130kg",
+    "effect": "Energy: +35 Hydration: -5",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/P%C3%A2t%C3%A9_inspect.png/revision/latest/scale-to-width-down/200?cb=20250502143331"
+  },
+  {
+    "name": "Lychee in Syrup",
+    "type": "Food",
+    "weight": "0.565kg",
+    "effect": "Energy: +26 Hydration: +10"
+  },
+  {
+    "name": "Mackerel in Teriyaki Sauce",
+    "type": "Food",
+    "weight": "0.200kg",
+    "effect": "Energy: +60 Hydration: -10"
+  },
+  {
+    "name": "Organic Tofu",
+    "type": "Food",
+    "weight": "0.200kg",
+    "effect": "Energy: +25"
+  },
+  {
+    "name": "Premium Pork Luncheon Meat",
+    "type": "Food",
+    "weight": "0.400kg",
+    "effect": "Energy: +70 Hydration: -10"
+  },
+  {
+    "name": "Sinngua Lunch Meat",
+    "type": "Food",
+    "weight": "0.340kg",
+    "effect": "Energy: +60 Hydration: -10"
+  },
+  {
+    "name": "SnipSnap Crunchy",
+    "type": "Food",
+    "weight": "0.038kg",
+    "effect": "Energy: +10 /charge"
+  },
+  {
+    "name": "Spicy Thai Combat Meal",
+    "type": "Food",
+    "weight": "0.800kg",
+    "effect": "Energy: +80 Hydration: -15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4f/CMeal_inspect.png/revision/latest/scale-to-width-down/178?cb=20250502143236"
+  },
+  {
+    "name": "TamTam DoubleChoc",
+    "type": "Food",
+    "weight": "0.200kg",
+    "effect": "Energy: +20 Arm Stamina Boost: +10% Arm Stamina Boost Cap: +10% Arm Stamina Boost Duration: 90s Body Stamina Boost: +10% Body Stamina Boost Cap: +10% Body Stamina Boost Duration: 90s"
+  },
+  {
+    "name": "Windmill Almond Chocolate Bar",
+    "type": "Food",
+    "weight": "0.040kg",
+    "effect": "Energy: +16 Arm Stamina Boost: +60% Arm Stamina Boost Cap: +60% Arm Stamina Boost Duration: 20s Body Stamina Boost: +60% Body Stamina Boost Cap: +60% Body Stamina Boost Duration: 20s"
+  }
+]

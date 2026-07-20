@@ -1,0 +1,233 @@
+[
+  {
+    "name": "3 Prong Flash Hider",
+    "type": "Muzzle Device",
+    "weight": "0.120 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/3_Prong_FH_inspect.png/revision/latest/scale-to-width-down/200?cb=20250614022558"
+  },
+  {
+    "name": "3-Lug threaded HK MP5",
+    "type": "Muzzle Device",
+    "weight": "0.080 kg"
+  },
+  {
+    "name": "A2 Flash Hider",
+    "type": "Muzzle Device",
+    "weight": "0.066 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/55/A2_FH_inspect.png/revision/latest/scale-to-width-down/200?cb=20240507135421"
+  },
+  {
+    "name": "AK Adapter 14-1LH to 24-1.5",
+    "type": "Muzzle Device",
+    "weight": "0.044 kg"
+  },
+  {
+    "name": "AK Bulgarian Flash Hider",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "AK-100 Series Muzzle Brake",
+    "type": "Muzzle Device",
+    "weight": "0.100 kg"
+  },
+  {
+    "name": "AKM Muzzle Brake",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "AKM Slant Brake",
+    "type": "Muzzle Device",
+    "weight": "0.030 kg"
+  },
+  {
+    "name": "AKS-74U Muzzle Brake",
+    "type": "Muzzle Device",
+    "weight": "0.190 kg"
+  },
+  {
+    "name": "B&T MP5 Flash Hider",
+    "type": "Muzzle Device",
+    "weight": "0.195 kg"
+  },
+  {
+    "name": "Colt 1911 Muzzle Brake",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "CQ A2 Flash Hider",
+    "type": "Muzzle Device",
+    "weight": "0.066 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/CQA2_FH_inspect.png/revision/latest/scale-to-width-down/200?cb=20250614165714"
+  },
+  {
+    "name": "DD Extended Flash Suppressor",
+    "type": "Muzzle Device",
+    "weight": "0.095 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/DD_FH_Ext._inspect.png/revision/latest/scale-to-width-down/200?cb=20250613223917"
+  },
+  {
+    "name": "DTK-1 Muzzle Brake",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "DTK-2 Muzzle Brake",
+    "type": "Muzzle Device",
+    "weight": "0.105 kg"
+  },
+  {
+    "name": "Fury Titanium Muzzle Brake",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Glock 17 Comp Weight Compensator",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Glock 17 Velocity Muzzle Brake",
+    "type": "Muzzle Device",
+    "weight": "0.060 kg"
+  },
+  {
+    "name": "Hypertap Muzzle Brake 5.56x45",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Hypertap Muzzle Brake 7.62x51",
+    "type": "Muzzle Device",
+    "weight": "0.850 kg"
+  },
+  {
+    "name": "M4QD Flash Hider",
+    "type": "Muzzle Device",
+    "weight": "0.068 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/KAC_QD.png/revision/latest/scale-to-width-down/200?cb=20251110211949"
+  },
+  {
+    "name": "M700 Thread Cap",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "MCX 3 Prong Flash Hider",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Mosin-Nagant Howling Raven Muzzle Brake",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Mosin-Nagant Tanker Muzzle Brake",
+    "type": "Muzzle Device",
+    "weight": "0.257 kg"
+  },
+  {
+    "name": "Mossberg Salvo 12 Choke Adapter",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "MP5 3 Lug Adapter",
+    "type": "Muzzle Device",
+    "weight": "0.080 kg"
+  },
+  {
+    "name": "MP5 Muzzle Cap",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "MP5 Threaded 3 Lug Adapter",
+    "type": "Muzzle Device",
+    "weight": "0.080 kg"
+  },
+  {
+    "name": "MP7 Flash Hider",
+    "type": "Muzzle Device",
+    "weight": "0.040 kg"
+  },
+  {
+    "name": "PCAM4-72",
+    "type": "Muzzle Device",
+    "weight": "0.090 kg"
+  },
+  {
+    "name": "Remington Salvo 12 Choke Adapter",
+    "type": "Muzzle Device",
+    "weight": "0.075 kg"
+  },
+  {
+    "name": "SKS Muzzle Brake Adapter",
+    "type": "Muzzle Device",
+    "weight": "0.055 kg"
+  },
+  {
+    "name": "Slot Muzzle Brake",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "SOCOM 3 Prong Flash Hider",
+    "type": "Muzzle Device",
+    "weight": "0.110 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/SF3P_inspect.png/revision/latest/scale-to-width-down/200?cb=20250616234643"
+  },
+  {
+    "name": "SRD762-QD Flash Hider",
+    "type": "Muzzle Device",
+    "weight": "0.070 kg"
+  },
+  {
+    "name": "SRD762-QD Muzzle Brake",
+    "type": "Muzzle Device",
+    "weight": "0.095 kg"
+  },
+  {
+    "name": "SRD762-QD Taper-Lok Muzzle Brake",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Tactical Muzzle Brake",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Tactical Muzzle Break",
+    "type": "Muzzle Device",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Tanker Muzzle Break",
+    "type": "Muzzle Device",
+    "weight": "0.162 kg"
+  },
+  {
+    "name": "Vulcan F1",
+    "type": "Muzzle Device",
+    "weight": "0.105 kg"
+  },
+  {
+    "name": "Vulcan M1",
+    "type": "Muzzle Device",
+    "weight": "0.105 kg"
+  },
+  {
+    "name": "X-Factor Choke",
+    "type": "Muzzle Device",
+    "weight": "0.101 kg"
+  },
+  {
+    "name": "XM177E2 Moderator Flash Hider",
+    "type": "Muzzle Device",
+    "weight": "0.120 kg"
+  }
+]

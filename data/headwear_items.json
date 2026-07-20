@@ -1,0 +1,212 @@
+[
+  {
+    "name": "6B47 Ratnik",
+    "weight": "1;200kg",
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/aa/6B47_inspect.png/revision/latest/scale-to-width-down/182?cb=20240509011544"
+  },
+  {
+    "name": "AMP-1 TP MC (Ranger Green)",
+    "weight": "1.630kg",
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/AMP-1_TP_MC_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509004445"
+  },
+  {
+    "name": "Bandana (Blue)",
+    "weight": "0.060kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1b/Bandana%28Blue%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20250621182710"
+  },
+  {
+    "name": "Bandana (Red)",
+    "weight": "0.060kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Bandana%28Red%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20250621182715"
+  },
+  {
+    "name": "Baseball Cap (Black)",
+    "weight": "0.080kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c9/BCap%28Black%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509012445"
+  },
+  {
+    "name": "Baseball Cap (Blue)",
+    "weight": "0.080kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/BCap%28Blue%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20250621182718"
+  },
+  {
+    "name": "Baseball Cap (Green)",
+    "weight": "0.080kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/BCap%28Green%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20250621182722"
+  },
+  {
+    "name": "Baseball Cap (Khaki)",
+    "weight": "0.080kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/BCap%28Khaki%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20250621182727"
+  },
+  {
+    "name": "Baseball Cap (Red)",
+    "weight": "0.080kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/11/BCap%28Red%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20250621182731"
+  },
+  {
+    "name": "Beret (Black)",
+    "weight": "0.060kg",
+    "slots": "1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/Beret%28Black%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20240515141651"
+  },
+  {
+    "name": "Beret (Green)",
+    "weight": "0.060kg",
+    "slots": "1"
+  },
+  {
+    "name": "Beret (Red)",
+    "weight": "0.060kg",
+    "slots": "1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/Beret%28Red%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20250621182735"
+  },
+  {
+    "name": "CPU Hat Nyco Ripstop",
+    "weight": "0.113kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/CPUHat_inspect.png/revision/latest/scale-to-width-down/148?cb=20240509015202"
+  },
+  {
+    "name": "EXFIL (Coyote Brown)",
+    "weight": "1.180kg",
+    "material": "UHMWPE",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/EXFIL%28Coyote_Brown%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20240505150547"
+  },
+  {
+    "name": "EXFIL (Multicam)",
+    "weight": "1.180kg",
+    "material": "UHMWPE",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/EXFIL%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20240505150631"
+  },
+  {
+    "name": "ExSOF Cap",
+    "weight": "0.080kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/65/ExCap_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509014220"
+  },
+  {
+    "name": "FAST MT (Multicam)",
+    "weight": "0.693kg",
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/FAST_MT%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20240505152008"
+  },
+  {
+    "name": "FAST MT (Tan)",
+    "weight": "0.693kg",
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c9/FAST_MT%28Tan%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20250609082442"
+  },
+  {
+    "name": "FAST XP HC (Multicam)",
+    "weight": "1.250kg",
+    "material": "UHMWPE",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/FAST_XP_HC_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20260523040642"
+  },
+  {
+    "name": "Headscarf (Black)",
+    "weight": "0.060kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/HScarf%28Black%29_inspect.png/revision/latest?cb=20250621182801"
+  },
+  {
+    "name": "Headwear"
+  },
+  {
+    "name": "Leafy Boonie (Camo)",
+    "weight": "0.140kg"
+  },
+  {
+    "name": "LSHZ 1+ (Black)",
+    "weight": "1.300kg",
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/LShZ%28Black%29_inspect.png/revision/latest/scale-to-width-down/199?cb=20240509005651"
+  },
+  {
+    "name": "LSHZ 1+ (Multicam)",
+    "weight": "1.100kg",
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/LShZ%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/186?cb=20240509005713"
+  },
+  {
+    "name": "MICH LC"
+  },
+  {
+    "name": "Mich TC-2000 (Black)",
+    "type": "Helmet",
+    "weight": "1.500kg",
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3d/TC-2000%28Black%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20260606121103"
+  },
+  {
+    "name": "Mich TC-2000 (Ranger Green)",
+    "weight": "1.250kg",
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/TC-2000%28Green%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20240505150959"
+  },
+  {
+    "name": "Mich TC-2000 (UNLRA)",
+    "weight": "1.250kg",
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/TC-2000%28UNLRA%29_inspect.png/revision/latest/scale-to-width-down/188?cb=20240505173435"
+  },
+  {
+    "name": "MICH TC-2002 (Black)",
+    "weight": "1.230kg",
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b2/TC-2002%28Black%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20240505151022"
+  },
+  {
+    "name": "MICH TC-2002 (Green)",
+    "weight": "1.230kg",
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/ba/TC-2002%28Green%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20240505151503"
+  },
+  {
+    "name": "MICH TC-2002 (Tan)",
+    "weight": "1.230kg",
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/TC-2002%28Tan%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20240505151522"
+  },
+  {
+    "name": "Military Cap",
+    "weight": "0.070kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/MilCap_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509014635"
+  },
+  {
+    "name": "Pandatac Trucker Cap",
+    "weight": "0.110kg"
+  },
+  {
+    "name": "PASGT",
+    "weight": "1.430kg",
+    "material": "UHMWPE"
+  },
+  {
+    "name": "QGF-03 (Ghillie)",
+    "weight": "1.250kg",
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/QGF-03_%28Ghillie%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20260331092053"
+  },
+  {
+    "name": "Regiment Cap",
+    "weight": "0.110kg"
+  },
+  {
+    "name": "Skull Crusher",
+    "weight": "0.280kg"
+  },
+  {
+    "name": "SSh-60",
+    "material": "Steel"
+  },
+  {
+    "name": "SSh-68N",
+    "weight": "2.000kg",
+    "material": "Steel",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/SSh-68N_inspect.png/revision/latest/scale-to-width-down/199?cb=20240509010916"
+  },
+  {
+    "name": "Stack Up Cap",
+    "weight": "0.110kg"
+  }
+]

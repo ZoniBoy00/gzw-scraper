@@ -1,0 +1,45 @@
+[
+  {
+    "name": "3M Comtac II",
+    "type": "Headset",
+    "weight": "0.680kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/64/3M_Comtac_II_inspect.png/revision/latest/scale-to-width-down/200?cb=20260506023810"
+  },
+  {
+    "name": "Construction Earmuffs",
+    "type": "Headset",
+    "weight": "0.440kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/99/Earmuffs_inspect.png/revision/latest/scale-to-width-down/200?cb=20250621182743"
+  },
+  {
+    "name": "GSSH-01",
+    "type": "Headset",
+    "weight": "0.330kg"
+  },
+  {
+    "name": "Headsets"
+  },
+  {
+    "name": "Impact Sport",
+    "type": "Headset",
+    "weight": "0.279kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/Impact_Sport_inspect.png/revision/latest/scale-to-width-down/200?cb=20260404191301"
+  },
+  {
+    "name": "Razor Pro Digital",
+    "type": "Headset",
+    "weight": "0.400kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Razor_inspect.png/revision/latest/scale-to-width-down/199?cb=20250621182815"
+  },
+  {
+    "name": "TASC 1",
+    "type": "Headset",
+    "weight": "0.160kg"
+  },
+  {
+    "name": "Ultimate Power Muff Quads",
+    "type": "Headset",
+    "weight": "0.340kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/Quads_inspect.png/revision/latest/scale-to-width-down/200?cb=20250621183504"
+  }
+]

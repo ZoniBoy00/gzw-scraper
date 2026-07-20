@@ -1,0 +1,99 @@
+[
+  {
+    "name": "AFG-2",
+    "type": "Foregrip",
+    "weight": "0.072 kg"
+  },
+  {
+    "name": "AFG-2 (FDE)",
+    "type": "Foregrip",
+    "weight": "0.072 kg"
+  },
+  {
+    "name": "DD Vertical Foregrip",
+    "type": "Foregrip",
+    "weight": "??? kg"
+  },
+  {
+    "name": "DD Vertical Foregrip (Black)",
+    "type": "Foregrip",
+    "weight": "??? kg"
+  },
+  {
+    "name": "DD Vertical Foregrip (MILSPEC)",
+    "type": "Foregrip",
+    "weight": "??? kg"
+  },
+  {
+    "name": "M-LOK AFG",
+    "type": "Foregrip",
+    "weight": "0.034 kg"
+  },
+  {
+    "name": "M-LOK AFG (FDE)",
+    "type": "Foregrip",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Pro M-LOK Handstop",
+    "type": "Foregrip",
+    "weight": "0.017 kg"
+  },
+  {
+    "name": "RK-0",
+    "type": "Foregrip",
+    "weight": "0.138 kg"
+  },
+  {
+    "name": "RK-1",
+    "type": "Foregrip",
+    "weight": "0.160 kg"
+  },
+  {
+    "name": "RK-2",
+    "type": "Foregrip",
+    "weight": "??? kg"
+  },
+  {
+    "name": "RK-4",
+    "type": "Foregrip",
+    "weight": "??? kg"
+  },
+  {
+    "name": "RK-5",
+    "type": "Foregrip",
+    "weight": "0.110 kg"
+  },
+  {
+    "name": "RK-6",
+    "type": "Foregrip",
+    "weight": "0.110 kg"
+  },
+  {
+    "name": "RVG",
+    "type": "Foregrip",
+    "weight": "0.073 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/RVG_inspect.png/revision/latest/scale-to-width-down/162?cb=20250613224315"
+  },
+  {
+    "name": "RVG (FDE)",
+    "type": "Foregrip",
+    "weight": "0.073 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/27/RVG%28FDE%29_inspect.png/revision/latest/scale-to-width-down/143?cb=20250617103102"
+  },
+  {
+    "name": "SHIFT Vertical Foregrip",
+    "type": "Foregrip",
+    "weight": "0.096 kg"
+  },
+  {
+    "name": "Ultra Slim M-LOK MT-FGM01X Foregrip",
+    "type": "Foregrip",
+    "weight": "??? kg"
+  },
+  {
+    "name": "UltraSlim Angled Foregrip",
+    "type": "Foregrip",
+    "weight": "0.039 kg"
+  }
+]

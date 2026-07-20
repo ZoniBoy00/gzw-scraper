@@ -1,0 +1,32 @@
+[
+  {
+    "name": "AN/PVS-14 Night Vision Device",
+    "type": "Night Vision",
+    "weight": "0.338kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/PVS14_inspect.png/revision/latest/scale-to-width-down/200?cb=20250206020535"
+  },
+  {
+    "name": "AN/PVS-31A Night Vision Device",
+    "type": "Night Vision",
+    "weight": "0.450kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/PVS31A_inspect.png/revision/latest/scale-to-width-down/200?cb=20250203124856"
+  },
+  {
+    "name": "AN/PVS-7 Night Vision Device",
+    "type": "Night Vision",
+    "weight": "0.680kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8e/PVS7_inspect.png/revision/latest/scale-to-width-down/200?cb=20250206021427"
+  },
+  {
+    "name": "DT-2 NGS Edition night vision device (Multicam black)",
+    "type": "Night Vision",
+    "weight": "0.560kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/DT-2_NGS_Edition_night_vision_device_%28Multicam_black%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20260415163858"
+  },
+  {
+    "name": "DT-2 NGS Edition night vision device (Multicam)",
+    "type": "Night Vision",
+    "weight": "0.560kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3e/DT-2_NGS_Edition_night_vision_device_%28Multicam%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20260416212733"
+  }
+]

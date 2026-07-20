@@ -1,0 +1,20 @@
+[
+  {
+    "name": "L4 G24 Helmet NVG Mount",
+    "type": "Mount",
+    "weight": "0.160kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/G24_inspect.png/revision/latest/scale-to-width-down/200?cb=20250206022335"
+  },
+  {
+    "name": "PVS-14 Arm",
+    "type": "Mount",
+    "weight": "0.060kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ae/Arm_inspect.png/revision/latest/scale-to-width-down/200?cb=20250206022336"
+  },
+  {
+    "name": "Rhino Helmet NVG Mount",
+    "type": "Mount",
+    "weight": "0.159kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/RhinoMount.png/revision/latest/scale-to-width-down/200?cb=20250207122803"
+  }
+]

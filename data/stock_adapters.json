@@ -1,0 +1,54 @@
+[
+  {
+    "name": "AK Buffer Tube Adapter",
+    "type": "Stock Adapter",
+    "weight": "0.100 kg"
+  },
+  {
+    "name": "AK-74M/100 PT Stock Adapter",
+    "type": "Stock Adapter",
+    "weight": "??? kg"
+  },
+  {
+    "name": "AKM Zenitco Stock Adapter",
+    "type": "Stock Adapter",
+    "weight": "??? kg"
+  },
+  {
+    "name": "AKM Zhukov Adapter",
+    "type": "Stock Adapter",
+    "weight": "0.100 kg"
+  },
+  {
+    "name": "AKM Zhukov Adapter (FDE)",
+    "type": "Stock Adapter",
+    "weight": "0.100 kg"
+  },
+  {
+    "name": "AKS-74U Buffer Tube Adapter",
+    "type": "Stock Adapter",
+    "weight": "0.100 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2f/AKS-74U_Buf_T_Ad_inspect.png/revision/latest?cb=20251220085824"
+  },
+  {
+    "name": "Armacon SVD Stock Adapter",
+    "type": "Stock Adapter",
+    "weight": "??? kg"
+  },
+  {
+    "name": "M590 AR Stock Adapter",
+    "type": "Stock Adapter",
+    "weight": "0.104 kg"
+  },
+  {
+    "name": "M870 Stock Adapter",
+    "type": "Stock Adapter",
+    "weight": "??? kg"
+  },
+  {
+    "name": "MCX Buffer Tube Adapter",
+    "type": "Stock Adapter",
+    "weight": "0.090 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/MCX_Buf_T_Ad_inspect.png/revision/latest?cb=20250620103724"
+  }
+]
