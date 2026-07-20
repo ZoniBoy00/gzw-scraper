@@ -1,0 +1,256 @@
+[
+  {
+    "name": "US Army - Blouse (M64 Vietnam)",
+    "id": "us-army---blouse-(m64-vietnam)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1a/US_Army_-_Blouse_%28M64_Vietnam%29_icon.png/revision/latest?cb=20250706063049"
+  },
+  {
+    "name": "Tactical T-shirt (Green)",
+    "id": "tactical-t-shirt-(green)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b4/Tactical_T-shirt_%28Green%29_icon.png/revision/latest?cb=20250718213524"
+  },
+  {
+    "name": "Tactical T-shirt",
+    "id": "tactical-t-shirt"
+  },
+  {
+    "name": "Functional Shirt",
+    "id": "functional-shirt"
+  },
+  {
+    "name": "Long Sleeves Tactical (Blue)",
+    "id": "long-sleeves-tactical-(blue)"
+  },
+  {
+    "name": "Long Sleeves Tactical",
+    "id": "long-sleeves-tactical"
+  },
+  {
+    "name": "Long Sleeves (Black)",
+    "id": "long-sleeves-(black)"
+  },
+  {
+    "name": "Long Sleeves",
+    "id": "long-sleeves"
+  },
+  {
+    "name": "MBDU Flannel Shirt (Red)",
+    "id": "mbdu-flannel-shirt-(red)"
+  },
+  {
+    "name": "MBDU Flannel Shirt (Khaki)",
+    "id": "mbdu-flannel-shirt-(khaki)"
+  },
+  {
+    "name": "MBDU Flannel Shirt (Black)",
+    "id": "mbdu-flannel-shirt-(black)"
+  },
+  {
+    "name": "Crye Precision - G3 (Ranger Green)",
+    "id": "crye-precision---g3-(ranger-green)"
+  },
+  {
+    "name": "Crye Precision - G3 (Gray Zone Warfare)",
+    "id": "crye-precision---g3-(gray-zone-warfare)"
+  },
+  {
+    "name": "Crye Precision - G3 (Multicam Black)",
+    "id": "crye-precision---g3-(multicam-black)"
+  },
+  {
+    "name": "Crye Precision - G3 (Multicam)",
+    "id": "crye-precision---g3-(multicam)"
+  },
+  {
+    "name": "Crye Precision - G3 (Multicam Tropic)",
+    "id": "crye-precision---g3-(multicam-tropic)"
+  },
+  {
+    "name": "Clawgear - Combat Operator (Ranger Green)",
+    "id": "clawgear---combat-operator-(ranger-green)"
+  },
+  {
+    "name": "Clawgear - Combat Operator (Coyote)",
+    "id": "clawgear---combat-operator-(coyote)"
+  },
+  {
+    "name": "Clawgear - Combat Operator (Black)",
+    "id": "clawgear---combat-operator-(black)"
+  },
+  {
+    "name": "Clawgear - Combat Operator",
+    "id": "clawgear---combat-operator"
+  },
+  {
+    "name": "Leo Vented (Khaki)",
+    "id": "leo-vented-(khaki)"
+  },
+  {
+    "name": "Leo Vented (Gray)",
+    "id": "leo-vented-(gray)"
+  },
+  {
+    "name": "Leo Vented (Black)",
+    "id": "leo-vented-(black)"
+  },
+  {
+    "name": "Tactical Gloves (Orange)",
+    "id": "tactical-gloves-(orange)"
+  },
+  {
+    "name": "Tactical Gloves (Green)",
+    "id": "tactical-gloves-(green)"
+  },
+  {
+    "name": "Tactical Gloves (Blue)",
+    "id": "tactical-gloves-(blue)"
+  },
+  {
+    "name": "Mechanix Wear - Original",
+    "id": "mechanix-wear---original"
+  },
+  {
+    "name": "Mechanix Wear - M-Pact Covert",
+    "id": "mechanix-wear---m-pact-covert"
+  },
+  {
+    "name": "Mechanix Wear - Fast Fit (Gray Zone Warfare)",
+    "id": "mechanix-wear---fast-fit-(gray-zone-warfare)"
+  },
+  {
+    "name": "Mechanix Wear - Fast Fit",
+    "id": "mechanix-wear---fast-fit"
+  },
+  {
+    "name": "5.11 - Competition Shooting",
+    "id": "5.11---competition-shooting"
+  },
+  {
+    "name": "Mechanix Wear - Original (Black)",
+    "id": "mechanix-wear---original-(black)"
+  },
+  {
+    "name": "Contractor SF (Khaki)",
+    "id": "contractor-sf-(khaki)"
+  },
+  {
+    "name": "Contractor SF (Gray)",
+    "id": "contractor-sf-(gray)"
+  },
+  {
+    "name": "Contractor SF (Black)",
+    "id": "contractor-sf-(black)"
+  },
+  {
+    "name": "Vintage Trousers (Olive)",
+    "id": "vintage-trousers-(olive)"
+  },
+  {
+    "name": "Vintage Trousers (Green)",
+    "id": "vintage-trousers-(green)"
+  },
+  {
+    "name": "US BDU (Woodland)",
+    "id": "us-bdu-(woodland)"
+  },
+  {
+    "name": "US BDU (Olive)",
+    "id": "us-bdu-(olive)"
+  },
+  {
+    "name": "US BDU (Desert)",
+    "id": "us-bdu-(desert)"
+  },
+  {
+    "name": "Jeans (Gray)",
+    "id": "jeans-(gray)"
+  },
+  {
+    "name": "Jeans (Blue)",
+    "id": "jeans-(blue)"
+  },
+  {
+    "name": "Crye Precision - G4 (Ranger Green)",
+    "id": "crye-precision---g4-(ranger-green)"
+  },
+  {
+    "name": "Crye Precision - G4 (Multicam Black)",
+    "id": "crye-precision---g4-(multicam-black)"
+  },
+  {
+    "name": "Crye Precision - G4 (Gray Zone Warfare)",
+    "id": "crye-precision---g4-(gray-zone-warfare)"
+  },
+  {
+    "name": "Crye Precision - G4 (Multicam)",
+    "id": "crye-precision---g4-(multicam)"
+  },
+  {
+    "name": "Crye Precision - G4 (Multicam Tropic)",
+    "id": "crye-precision---g4-(multicam-tropic)"
+  },
+  {
+    "name": "Trouser Crye Precision - G3 (Multicam)",
+    "id": "trouser-crye-precision---g3-(multicam)"
+  },
+  {
+    "name": "Trouser Crye Precision - G3 (Multicam 2)",
+    "id": "trouser-crye-precision---g3-(multicam-2)"
+  },
+  {
+    "name": "Clawgear - Raider Mk IV (Olive)",
+    "id": "clawgear---raider-mk-iv-(olive)"
+  },
+  {
+    "name": "Clawgear - Raider Mk IV (Flecktarn)",
+    "id": "clawgear---raider-mk-iv-(flecktarn)"
+  },
+  {
+    "name": "Clawgear - Raider Mk IV (Coyote)",
+    "id": "clawgear---raider-mk-iv-(coyote)"
+  },
+  {
+    "name": "Clawgear - Raider Mk IV (Multicam Black)",
+    "id": "clawgear---raider-mk-iv-(multicam-black)"
+  },
+  {
+    "name": "Clawgear - Raider Mk IV (Woodland)",
+    "id": "clawgear---raider-mk-iv-(woodland)"
+  },
+  {
+    "name": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)",
+    "id": "arcteryx-leaf---assault-pant-ar-gen-2-(multicam)"
+  },
+  {
+    "name": "Tactical Jeans - Rappel Seat",
+    "id": "tactical-jeans---rappel-seat"
+  },
+  {
+    "name": "Tactical Jeans - Rappel Seat (Black)",
+    "id": "tactical-jeans---rappel-seat-(black)"
+  },
+  {
+    "name": "Rocky S2V",
+    "id": "rocky-s2v"
+  },
+  {
+    "name": "Pentagon - Hybrid (Black)",
+    "id": "pentagon---hybrid-(black)"
+  },
+  {
+    "name": "Pentagon - Hybrid",
+    "id": "pentagon---hybrid"
+  },
+  {
+    "name": "Lowa - Zephyr GTX Mid TF",
+    "id": "lowa---zephyr-gtx-mid-tf"
+  },
+  {
+    "name": "AKU - Conero GTX",
+    "id": "aku---conero-gtx"
+  },
+  {
+    "name": "Magnum - Wild-Fire Tactical",
+    "id": "magnum---wild-fire-tactical"
+  }
+]

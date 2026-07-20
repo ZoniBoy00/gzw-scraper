@@ -1,0 +1,610 @@
+[
+  {
+    "name": "Allanach Single Malt Scotch - 40y",
+    "id": "allanach-single-malt-scotch---40y",
+    "weight": "2.100 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2f/Allanach_Single_Malt_Scotch_-_40y_icon.png/revision/latest?cb=20260410145813"
+  },
+  {
+    "name": "Breda Rum - 30y",
+    "id": "breda-rum---30y",
+    "weight": "1.700 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/Breda_Rum_-_30y_icon.png/revision/latest?cb=20250729190947"
+  },
+  {
+    "name": "Goodlad Whiskey - 20y",
+    "id": "goodlad-whiskey---20y",
+    "weight": "1.600 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/19/Goodlad_Whiskey_-_20y_icon.png/revision/latest?cb=20250621182752"
+  },
+  {
+    "name": "Moutai - 50y",
+    "id": "moutai---50y",
+    "weight": "1.500 kg"
+  },
+  {
+    "name": "Tzintzimitl Tequila - 25y",
+    "id": "tzintzimitl-tequila---25y",
+    "weight": "1.800 kg"
+  },
+  {
+    "name": "Snake Wine",
+    "id": "snake-wine",
+    "weight": "1.400 kg"
+  },
+  {
+    "name": "Delicate Perfume Bottle",
+    "id": "delicate-perfume-bottle",
+    "weight": "0.300 kg"
+  },
+  {
+    "name": "Fragrant Perfume Bottle",
+    "id": "fragrant-perfume-bottle",
+    "weight": "0.250 kg"
+  },
+  {
+    "name": "Heavenly Perfume Bottle",
+    "id": "heavenly-perfume-bottle",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Hyperborea Cigarettes",
+    "id": "hyperborea-cigarettes",
+    "weight": "0.020 kg"
+  },
+  {
+    "name": "Lambert Cigars",
+    "id": "lambert-cigars",
+    "weight": "0.600 kg"
+  },
+  {
+    "name": "Dark Pearl Necklace",
+    "id": "dark-pearl-necklace",
+    "weight": "0.050kg"
+  },
+  {
+    "name": "Diamond Earrings",
+    "id": "diamond-earrings",
+    "weight": "0.020kg"
+  },
+  {
+    "name": "Diamond Ring",
+    "id": "diamond-ring",
+    "weight": "0.010kg"
+  },
+  {
+    "name": "Diamond-Coral Ring",
+    "id": "diamond-coral-ring",
+    "weight": "0.020kg"
+  },
+  {
+    "name": "Elaborate Ring",
+    "id": "elaborate-ring",
+    "weight": "0.020kg"
+  },
+  {
+    "name": "Emerald Necklace",
+    "id": "emerald-necklace",
+    "weight": "0.050kg"
+  },
+  {
+    "name": "Gemstone Ring",
+    "id": "gemstone-ring",
+    "weight": "0.010kg"
+  },
+  {
+    "name": "Gold Necklace",
+    "id": "gold-necklace",
+    "weight": "0.020kg"
+  },
+  {
+    "name": "Gold Ring",
+    "id": "gold-ring",
+    "weight": "0.020kg"
+  },
+  {
+    "name": "Luxury Smartwatch",
+    "id": "luxury-smartwatch",
+    "weight": "0.150kg"
+  },
+  {
+    "name": "Majestic Titanium Watch",
+    "id": "majestic-titanium-watch",
+    "weight": "0.100kg"
+  },
+  {
+    "name": "Modern Watch",
+    "id": "modern-watch",
+    "weight": "0.120kg"
+  },
+  {
+    "name": "Perfect Pearl Earrings",
+    "id": "perfect-pearl-earrings",
+    "weight": "0.010kg"
+  },
+  {
+    "name": "Platinum Ring",
+    "id": "platinum-ring",
+    "weight": "0.010kg"
+  },
+  {
+    "name": "Sapphire Pendant",
+    "id": "sapphire-pendant",
+    "weight": "0.010kg"
+  },
+  {
+    "name": "Sleek Luxury Watch",
+    "id": "sleek-luxury-watch",
+    "weight": "0.130kg"
+  },
+  {
+    "name": "Master Carbon SEAL Automatic Watch",
+    "id": "master-carbon-seal-automatic-watch",
+    "weight": "0.170kg"
+  },
+  {
+    "name": "Black Luxury Phone",
+    "id": "black-luxury-phone",
+    "weight": "0.100kg"
+  },
+  {
+    "name": "Expensive Smartphone",
+    "id": "expensive-smartphone",
+    "weight": "0.100kg"
+  },
+  {
+    "name": "Luxury Smartphone",
+    "id": "luxury-smartphone",
+    "weight": "0.100kg"
+  },
+  {
+    "name": "Smartphone",
+    "id": "smartphone",
+    "weight": "0.100kg"
+  },
+  {
+    "name": "Common Credit Card",
+    "id": "common-credit-card",
+    "weight": "0.005kg"
+  },
+  {
+    "name": "Gold Credit Card",
+    "id": "gold-credit-card",
+    "weight": "0.005kg"
+  },
+  {
+    "name": "Platinum Credit Card",
+    "id": "platinum-credit-card",
+    "weight": "0.005kg"
+  },
+  {
+    "name": "Black Credit Card",
+    "id": "black-credit-card",
+    "weight": "0.010kg"
+  },
+  {
+    "name": "Businessman ID Card",
+    "id": "businessman-id-card",
+    "weight": "0.050kg"
+  },
+  {
+    "name": "Local ID Card",
+    "id": "local-id-card",
+    "weight": "0.050kg"
+  },
+  {
+    "name": "Driver's Licence",
+    "id": "drivers-licence",
+    "weight": "0.050kg"
+  },
+  {
+    "name": "Tourist ID Card",
+    "id": "tourist-id-card",
+    "weight": "0.050kg"
+  },
+  {
+    "name": "Tourist Passport",
+    "id": "tourist-passport",
+    "weight": "0.050kg"
+  },
+  {
+    "name": "VIP Passport",
+    "id": "vip-passport",
+    "weight": "0.050kg"
+  },
+  {
+    "name": "Army Intel",
+    "id": "army-intel",
+    "weight": "0.100kg"
+  },
+  {
+    "name": "Crime-related Intel",
+    "id": "crime-related-intel",
+    "weight": "0.100kg"
+  },
+  {
+    "name": "Digital Camera",
+    "id": "digital-camera",
+    "weight": "0.250kg"
+  },
+  {
+    "name": "Laptop",
+    "id": "laptop",
+    "weight": "1.500kg"
+  },
+  {
+    "name": "Reflex Camera",
+    "id": "reflex-camera",
+    "weight": "0.400kg"
+  },
+  {
+    "name": "Reinforced Military Laptop",
+    "id": "reinforced-military-laptop",
+    "weight": "2.500kg"
+  },
+  {
+    "name": "Encrypted Hard Disk Drive",
+    "id": "encrypted-hard-disk-drive",
+    "weight": "0.180kg"
+  },
+  {
+    "name": "AN/PYQ-10",
+    "id": "an/pyq-10",
+    "weight": "0.970kg"
+  },
+  {
+    "name": "AZART P1 Radio",
+    "id": "azart-p1-radio",
+    "weight": "0.720kg"
+  },
+  {
+    "name": "Biometric Access Card",
+    "id": "biometric-access-card",
+    "weight": "0.008kg"
+  },
+  {
+    "name": "Biometric Thumb Drive",
+    "id": "biometric-thumb-drive",
+    "weight": "0.004kg"
+  },
+  {
+    "name": "C2 Military Laptop",
+    "id": "c2-military-laptop",
+    "weight": "5.000kg"
+  },
+  {
+    "name": "Handheld ECM Jammer",
+    "id": "handheld-ecm-jammer",
+    "weight": "2.000kg"
+  },
+  {
+    "name": "HGCS-30 UAV Control Station",
+    "id": "hgcs-30-uav-control-station",
+    "weight": "3.000kg"
+  },
+  {
+    "name": "KIK-11 Tactical Key Loader",
+    "id": "kik-11-tactical-key-loader",
+    "weight": "0.450kg"
+  },
+  {
+    "name": "LTSD-4-3 Laser Designator",
+    "id": "ltsd-4-3-laser-designator",
+    "weight": "14.000kg"
+  },
+  {
+    "name": "NPI-2 Navigation Receiver",
+    "id": "npi-2-navigation-receiver",
+    "weight": "0.300kg"
+  },
+  {
+    "name": "One-Time Pad Key Sheets",
+    "id": "one-time-pad-key-sheets",
+    "weight": "0.100kg"
+  },
+  {
+    "name": "Operation Data Encrypted Hard Disk",
+    "id": "operation-data-encrypted-hard-disk",
+    "weight": "0.180kg"
+  },
+  {
+    "name": "PBG-01+ UAV Control Station",
+    "id": "pbg-01+-uav-control-station",
+    "weight": "14.200kg"
+  },
+  {
+    "name": "Rugged Military Tablet",
+    "id": "rugged-military-tablet",
+    "weight": "2.000kg"
+  },
+  {
+    "name": "Signal Repeater RT97S",
+    "id": "signal-repeater-rt97s",
+    "weight": "1.660kg"
+  },
+  {
+    "name": "STRELETS-M Tablet",
+    "id": "strelets-m-tablet",
+    "weight": "1.400kg"
+  },
+  {
+    "name": "GLONASS Grot-M Navigation Receiver",
+    "id": "glonass-grot-m-navigation-receiver",
+    "weight": "0.800kg"
+  },
+  {
+    "name": "R-438 Barrier-T",
+    "id": "r-438-barrier-t",
+    "weight": "16.000kg"
+  },
+  {
+    "name": "ATM Hacking Tool",
+    "id": "atm-hacking-tool",
+    "weight": "0.150kg"
+  },
+  {
+    "name": "Camouflage Fabric",
+    "id": "camouflage-fabric",
+    "weight": "0.480kg"
+  },
+  {
+    "name": "Low-Grade Gunpowder",
+    "id": "low-grade-gunpowder",
+    "weight": "0.450kg"
+  },
+  {
+    "name": "Paracord",
+    "id": "paracord",
+    "weight": "0.100kg"
+  },
+  {
+    "name": "Weapon Oil",
+    "id": "weapon-oil",
+    "weight": "0.272kg"
+  },
+  {
+    "name": "Aramid Cloth",
+    "id": "aramid-cloth",
+    "weight": "0.061kg"
+  },
+  {
+    "name": "Acetylene Cylinder",
+    "id": "acetylene-cylinder",
+    "weight": "11.500kg"
+  },
+  {
+    "name": "Drain Cleaner",
+    "id": "drain-cleaner",
+    "weight": "5.000kg"
+  },
+  {
+    "name": "Industrial Solvent",
+    "id": "industrial-solvent",
+    "weight": "3.800kg"
+  },
+  {
+    "name": "Sulfuric Acid",
+    "id": "sulfuric-acid",
+    "weight": "5.030kg"
+  },
+  {
+    "name": "Thermal Blanket",
+    "id": "thermal-blanket",
+    "weight": "0.057kg"
+  },
+  {
+    "name": "UN Medical Tools",
+    "id": "un-medical-tools",
+    "weight": "0.500kg"
+  },
+  {
+    "name": "Vial of Antigens",
+    "id": "vial-of-antigens",
+    "weight": "0.030kg"
+  },
+  {
+    "name": "Water Purification Tablets",
+    "id": "water-purification-tablets",
+    "weight": "0.125kg"
+  },
+  {
+    "name": "Disinfectant",
+    "id": "disinfectant",
+    "weight": "1.000kg"
+  },
+  {
+    "name": "Brake Fluid",
+    "id": "brake-fluid",
+    "weight": "3.800kg"
+  },
+  {
+    "name": "Broken Angle Grinder",
+    "id": "broken-angle-grinder",
+    "weight": "2.499kg"
+  },
+  {
+    "name": "Broken Carpentry Hammer",
+    "id": "broken-carpentry-hammer",
+    "weight": "0.312kg"
+  },
+  {
+    "name": "Broken Handsaw",
+    "id": "broken-handsaw",
+    "weight": "0.680kg"
+  },
+  {
+    "name": "Broken Jigsaw",
+    "id": "broken-jigsaw",
+    "weight": "2.000kg"
+  },
+  {
+    "name": "Broken Nailgun",
+    "id": "broken-nailgun",
+    "weight": "2.500kg"
+  },
+  {
+    "name": "Broken Screwdriver",
+    "id": "broken-screwdriver",
+    "weight": "0.120kg"
+  },
+  {
+    "name": "Fuel Canister",
+    "id": "fuel-canister",
+    "weight": "5.000kg"
+  },
+  {
+    "name": "Jumper Cables",
+    "id": "jumper-cables",
+    "weight": "2.340kg"
+  },
+  {
+    "name": "Motor Oil",
+    "id": "motor-oil",
+    "weight": "4.300kg"
+  },
+  {
+    "name": "Rubber Renue",
+    "id": "rubber-renue",
+    "weight": "1.000kg"
+  },
+  {
+    "name": "Toolset",
+    "id": "toolset",
+    "weight": "1.000kg"
+  },
+  {
+    "name": "White Lithium Grease",
+    "id": "white-lithium-grease",
+    "weight": "15.880kg"
+  },
+  {
+    "name": "Acumulator Drill",
+    "id": "acumulator-drill",
+    "weight": "???kg"
+  },
+  {
+    "name": "Bleach",
+    "id": "bleach",
+    "weight": "3.570kg"
+  },
+  {
+    "name": "Carton of Tahirs Cigarettes",
+    "id": "carton-of-tahirs-cigarettes",
+    "weight": "0.250kg"
+  },
+  {
+    "name": "Car Battery",
+    "id": "car-battery",
+    "weight": "12.660kg"
+  },
+  {
+    "name": "Deck of Cards",
+    "id": "deck-of-cards",
+    "weight": "0.088kg"
+  },
+  {
+    "name": "Fishing Line",
+    "id": "fishing-line",
+    "weight": "0.130kg"
+  },
+  {
+    "name": "Hand Mirror",
+    "id": "hand-mirror",
+    "weight": "0.400kg"
+  },
+  {
+    "name": "Insect Repellant Spray",
+    "id": "insect-repellant-spray",
+    "weight": "0.258kg"
+  },
+  {
+    "name": "Lamp Oil",
+    "id": "lamp-oil",
+    "weight": "1.000kg"
+  },
+  {
+    "name": "Lighter",
+    "id": "lighter",
+    "weight": "0.040kg"
+  },
+  {
+    "name": "Motorbike Battery",
+    "id": "motorbike-battery",
+    "weight": "2.000kg"
+  },
+  {
+    "name": "Naosaoad 100% Clean",
+    "id": "naosaoad-100%-clean",
+    "weight": "0.500kg"
+  },
+  {
+    "name": "Pack of AA Batteries",
+    "id": "pack-of-aa-batteries",
+    "weight": "0.024kg"
+  },
+  {
+    "name": "Pack of Premium Coffee",
+    "id": "pack-of-premium-coffee",
+    "weight": "0.600kg"
+  },
+  {
+    "name": "Petrolatum",
+    "id": "petrolatum",
+    "weight": "0.370kg"
+  },
+  {
+    "name": "Phone Charger",
+    "id": "phone-charger",
+    "weight": "0.075kg"
+  },
+  {
+    "name": "Propane Bottle",
+    "id": "propane-bottle",
+    "weight": "0.453kg"
+  },
+  {
+    "name": "Refillable Lighter",
+    "id": "refillable-lighter",
+    "weight": "0.080kg"
+  },
+  {
+    "name": "Sewing Set",
+    "id": "sewing-set",
+    "weight": "0.146kg"
+  },
+  {
+    "name": "Tahirs Cigarettes",
+    "id": "tahirs-cigarettes",
+    "weight": "0.013kg"
+  },
+  {
+    "name": "Pro Multitool",
+    "id": "pro-multitool",
+    "grid": "1x1",
+    "weight": "0.120 kg"
+  },
+  {
+    "name": "Camera Wiretap",
+    "id": "camera-wiretap",
+    "grid": "1x1",
+    "weight": "0.010 kg"
+  },
+  {
+    "name": "GPS Tracker",
+    "id": "gps-tracker",
+    "grid": "1x1",
+    "weight": "0.050 kg"
+  },
+  {
+    "name": "Sample Collection Kit",
+    "id": "sample-collection-kit",
+    "grid": "1x1",
+    "weight": "0.100 kg"
+  },
+  {
+    "name": "Box of Supplies",
+    "id": "box-of-supplies",
+    "grid": "2x2",
+    "weight": "2.000 kg"
+  }
+]

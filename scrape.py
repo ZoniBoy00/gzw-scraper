@@ -923,6 +923,66 @@ def scrape_all_misc():
             logger.info("✅ %s: %d items saved", key, len(items))
         else:
             logger.info("⚠️  %s: no items found", key)
+    
+    # Phase 2: Scrape listing pages that have item tables but no category members
+    # (Loot, Apparel, Provisions have items ONLY in tables on their listing pages)
+    LISTING_PAGE_DATASETS = {
+        "loot_items": "Loot",
+        "apparel_items": "Apparel",
+        "provisions": "Provisions",  # Replaces the single-page entry with table data
+    }
+    
+    logger.info("=" * 60)
+    logger.info("Scraping listing pages for table-based items...")
+    
+    for key, page_title in LISTING_PAGE_DATASETS.items():
+        logger.info("  Scraping %s from %s...", key, page_title)
+        soup = parse_page(page_title)
+        if not soup:
+            logger.warning("  Could not parse %s", page_title)
+            continue
+        
+        table_items = extract_listing_table(soup)
+        logger.info("  Found %d items in tables", len(table_items))
+        
+        if table_items:
+            items = []
+            for ti in table_items:
+                name = ti["name"]
+                if not name or len(name) < 2:
+                    continue
+                item = {
+                    "name": name,
+                    "id": name.lower().replace(" ", "-").replace("'", "").replace("*", "").strip("-"),
+                }
+                # Extract any useful fields from table data
+                row_data = ti.get("data", {})
+                for hdr, val in row_data.items():
+                    h = hdr.lower().strip()
+                    if h in ("type", "category", "class", "rarity", "source", "location", "weight", "value", "price", "grid", "slots", "description"):
+                        item[h] = val
+                # Get image
+                img_url = ti.get("image", "")
+                if img_url and img_url.startswith("http"):
+                    item["image"] = img_url
+                items.append(item)
+            
+            if items:
+                # Deduplicate by name
+                seen = set()
+                unique = []
+                for it in items:
+                    n = it["name"].lower()
+                    if n not in seen:
+                        seen.add(n)
+                        unique.append(it)
+                
+                path = OUTPUT_DIR / f"{key}.json"
+                with open(path, "w") as f:
+                    json.dump(unique, f, indent=2, ensure_ascii=False)
+                logger.info("✅ %s: %d items saved (from listing page)", key, len(unique))
+        
+        time.sleep(0.3)
 
 
 def scrape_item_images():

@@ -1,5 +1,264 @@
 [
   {
-    "name": "Provisions"
+    "name": "Energy Bar Nuts and Fruits *",
+    "id": "energy-bar-nuts-and-fruits",
+    "grid": "1x1",
+    "weight": "0.040 kg",
+    "source": "Lab Rat Lv.1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/94/EBar_icon.png/revision/latest?cb=20250502142245"
+  },
+  {
+    "name": "Lucky Pork Liver Pâté",
+    "id": "lucky-pork-liver-pâté",
+    "grid": "1x1",
+    "weight": "0.130 kg",
+    "source": "Lab Rat Lv.2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/P%C3%A2t%C3%A9_icon.png/revision/latest?cb=20250502142115"
+  },
+  {
+    "name": "Combat Ration Pack",
+    "id": "combat-ration-pack",
+    "grid": "1x2",
+    "weight": "0.600 kg",
+    "source": "Lab Rat Lv.3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/CRP_icon.png/revision/latest?cb=20250502142633"
+  },
+  {
+    "name": "Sinngua Lunch Meat",
+    "id": "sinngua-lunch-meat",
+    "grid": "1x2",
+    "weight": "0.340 kg",
+    "source": "Lab Rat Lv.3"
+  },
+  {
+    "name": "Kasem Chocolate Wafers",
+    "id": "kasem-chocolate-wafers",
+    "grid": "1x1",
+    "weight": "0.010 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "SnipSnap Crunchy",
+    "id": "snipsnap-crunchy",
+    "grid": "1x1",
+    "weight": "0.038 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Windmill Almond Chocolate Bar *",
+    "id": "windmill-almond-chocolate-bar",
+    "grid": "1x1",
+    "weight": "0.040 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "TamTam DoubleChoc *",
+    "id": "tamtam-doublechoc",
+    "grid": "1x1",
+    "weight": "0.200 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Berg Bar Cookie Chocolate *",
+    "id": "berg-bar-cookie-chocolate",
+    "grid": "1x1",
+    "weight": "0.070 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Canned Tuna Chunks",
+    "id": "canned-tuna-chunks",
+    "grid": "1x1",
+    "weight": "0.170 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Mackerel in Teriyaki Sauce",
+    "id": "mackerel-in-teriyaki-sauce",
+    "grid": "1x1",
+    "weight": "0.200 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Lychee in Syrup",
+    "id": "lychee-in-syrup",
+    "grid": "1x2",
+    "weight": "0.565 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Cowboy Baked Beans",
+    "id": "cowboy-baked-beans",
+    "grid": "1x2",
+    "weight": "0.425 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Spicy Thai Combat Meal",
+    "id": "spicy-thai-combat-meal",
+    "grid": "1x2",
+    "weight": "0.800 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Premium Pork Luncheon Meat",
+    "id": "premium-pork-luncheon-meat",
+    "grid": "1x2",
+    "weight": "0.400 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Organic Tofu",
+    "id": "organic-tofu",
+    "grid": "1x1",
+    "weight": "0.200 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "HDR Meal",
+    "id": "hdr-meal",
+    "grid": "1x2",
+    "weight": "0.850 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Bamboo Shoots",
+    "id": "bamboo-shoots",
+    "grid": "1x2",
+    "weight": "0.600 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "1 Shot Energy Chews",
+    "id": "1-shot-energy-chews",
+    "grid": "1x1",
+    "weight": "0.040 kg",
+    "source": "Lab Rat R.4"
+  },
+  {
+    "name": "Power Energy Fuel *",
+    "id": "power-energy-fuel",
+    "grid": "1x1",
+    "weight": "0.470 kg",
+    "source": "Lab Rat Lv.2"
+  },
+  {
+    "name": "Aques Water 1 l",
+    "id": "aques-water-1-l",
+    "grid": "1x2",
+    "weight": "1.000 kg",
+    "source": "Lab Rat Lv.2"
+  },
+  {
+    "name": "Gray Focused Energy *",
+    "id": "gray-focused-energy",
+    "grid": "1x1",
+    "weight": "0.400 kg",
+    "source": "Lab Rat Lv.3"
+  },
+  {
+    "name": "Aques Water 1.5 l",
+    "id": "aques-water-1.5-l",
+    "grid": "1x2",
+    "weight": "1.500 kg",
+    "source": "Lab Rat Lv.3"
+  },
+  {
+    "name": "Noakon Water 0.6 l",
+    "id": "noakon-water-0.6-l",
+    "grid": "1x1",
+    "weight": "0.600 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Noakon Water 1 l",
+    "id": "noakon-water-1-l",
+    "grid": "1x2",
+    "weight": "1.000 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Noakon Water 1.5 l",
+    "id": "noakon-water-1.5-l",
+    "grid": "1x2",
+    "weight": "1.500 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Infinity Isotonic Drink",
+    "id": "infinity-isotonic-drink",
+    "grid": "1x1",
+    "weight": "0.330 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Dark Star Iced Coffee *",
+    "id": "dark-star-iced-coffee",
+    "grid": "1x1",
+    "weight": "0.200 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Kaipo Lychee Nectar",
+    "id": "kaipo-lychee-nectar",
+    "grid": "1x1",
+    "weight": "0.400 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Touchdown Lemon Soda",
+    "id": "touchdown-lemon-soda",
+    "grid": "1x1",
+    "weight": "0.330 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Coco Jumbo Coconut Juice Drink",
+    "id": "coco-jumbo-coconut-juice-drink",
+    "grid": "1x1",
+    "weight": "0.240 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Sunrise Cola",
+    "id": "sunrise-cola",
+    "grid": "1x1",
+    "weight": "0.300 kg",
+    "source": "Lab Rat Lv.1"
+  },
+  {
+    "name": "Maknav Iced Tea",
+    "id": "maknav-iced-tea",
+    "grid": "1x2",
+    "weight": "0.950 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "NuKlear Energy: Meltdown Mango *",
+    "id": "nuklear-energy:-meltdown-mango",
+    "grid": "1x1",
+    "weight": "0.340 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "White Orchid Crystal Water 2 l",
+    "id": "white-orchid-crystal-water-2-l",
+    "grid": "1x2",
+    "weight": "2.000 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Riminda Green Bubbly Bliss *",
+    "id": "riminda-green-bubbly-bliss",
+    "grid": "1x2",
+    "weight": "2.000 kg",
+    "source": "Looting"
+  },
+  {
+    "name": "Sunrise Cola (2 L)",
+    "id": "sunrise-cola-(2-l)",
+    "grid": "1x2",
+    "weight": "2.000 kg",
+    "source": "Looting"
   }
 ]
