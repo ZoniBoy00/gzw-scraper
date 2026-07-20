@@ -208,9 +208,16 @@ def extract_listing_table(soup):
                 text = cell.get_text(" ", strip=True)
                 text = re.sub(r"\s+", " ", text).strip()
                 
-                # Extract image from the cell
+                # Extract image from the cell - handle Fandom lazy-load
                 img_tag = cell.find("img")
-                img_url = img_tag.get("src", "") if img_tag else ""
+                img_url = ""
+                if img_tag:
+                    img_url = img_tag.get("src", "")
+                    # Fandom lazy-load: real URL in data-src if src is placeholder
+                    if "base64" in img_url or not img_url.startswith("http"):
+                        data_src = img_tag.get("data-src", "")
+                        if data_src.startswith("http"):
+                            img_url = data_src
                 
                 row_data[col_name] = text
                 if img_url and not row_data.get("_image"):

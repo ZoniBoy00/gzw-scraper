@@ -20,591 +20,708 @@
   {
     "name": "Moutai - 50y",
     "id": "moutai---50y",
-    "weight": "1.500 kg"
+    "weight": "1.500 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Moutai_-_50y_icon.png/revision/latest?cb=20250531204306"
   },
   {
     "name": "Tzintzimitl Tequila - 25y",
     "id": "tzintzimitl-tequila---25y",
-    "weight": "1.800 kg"
+    "weight": "1.800 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Tzintzimitl_Tequila_-_25y_icon.png/revision/latest?cb=20250629141827"
   },
   {
     "name": "Snake Wine",
     "id": "snake-wine",
-    "weight": "1.400 kg"
+    "weight": "1.400 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f9/Snake_Wine_icon.png/revision/latest?cb=20260402071910"
   },
   {
     "name": "Delicate Perfume Bottle",
     "id": "delicate-perfume-bottle",
-    "weight": "0.300 kg"
+    "weight": "0.300 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/Delicate_Perfume_Bottle_icon.png/revision/latest?cb=20260331075650"
   },
   {
     "name": "Fragrant Perfume Bottle",
     "id": "fragrant-perfume-bottle",
-    "weight": "0.250 kg"
+    "weight": "0.250 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/Fragrant_Perfume_Bottle_icon.png/revision/latest?cb=20260331080330"
   },
   {
     "name": "Heavenly Perfume Bottle",
     "id": "heavenly-perfume-bottle",
-    "weight": "??? kg"
+    "weight": "??? kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Heavenly_Perfume_Bottle_icon.png/revision/latest?cb=20260402235001"
   },
   {
     "name": "Hyperborea Cigarettes",
     "id": "hyperborea-cigarettes",
-    "weight": "0.020 kg"
+    "weight": "0.020 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Hyperborea_Cigarettes_icon.png/revision/latest?cb=20260402042858"
   },
   {
     "name": "Lambert Cigars",
     "id": "lambert-cigars",
-    "weight": "0.600 kg"
+    "weight": "0.600 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Lambert_Cigars_icon.png/revision/latest?cb=20260402071045"
   },
   {
     "name": "Dark Pearl Necklace",
     "id": "dark-pearl-necklace",
-    "weight": "0.050kg"
+    "weight": "0.050kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/Dark_Pearl_Necklace_icon.png/revision/latest?cb=20260404014101"
   },
   {
     "name": "Diamond Earrings",
     "id": "diamond-earrings",
-    "weight": "0.020kg"
+    "weight": "0.020kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3c/Diamond_Earrings_icon.png/revision/latest?cb=20260404014256"
   },
   {
     "name": "Diamond Ring",
     "id": "diamond-ring",
-    "weight": "0.010kg"
+    "weight": "0.010kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a1/Diamond_Ring_icon.png/revision/latest?cb=20250514034532"
   },
   {
     "name": "Diamond-Coral Ring",
     "id": "diamond-coral-ring",
-    "weight": "0.020kg"
+    "weight": "0.020kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Diamond-Coral_Ring_icon.png/revision/latest?cb=20260404014720"
   },
   {
     "name": "Elaborate Ring",
     "id": "elaborate-ring",
-    "weight": "0.020kg"
+    "weight": "0.020kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2e/Elaborate_Ring_icon.png/revision/latest?cb=20260404014804"
   },
   {
     "name": "Emerald Necklace",
     "id": "emerald-necklace",
-    "weight": "0.050kg"
+    "weight": "0.050kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/Emerald_Necklace_icon.png/revision/latest?cb=20250508233719"
   },
   {
     "name": "Gemstone Ring",
     "id": "gemstone-ring",
-    "weight": "0.010kg"
+    "weight": "0.010kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/Gemstone_Ring_icon.png/revision/latest?cb=20250506122237"
   },
   {
     "name": "Gold Necklace",
     "id": "gold-necklace",
-    "weight": "0.020kg"
+    "weight": "0.020kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/Gold_Necklace_icon.png/revision/latest?cb=20250507135627"
   },
   {
     "name": "Gold Ring",
     "id": "gold-ring",
-    "weight": "0.020kg"
+    "weight": "0.020kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/Gold_Ring_icon.png/revision/latest?cb=20250506174317"
   },
   {
     "name": "Luxury Smartwatch",
     "id": "luxury-smartwatch",
-    "weight": "0.150kg"
+    "weight": "0.150kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e9/Luxury_Smartwatch_icon.png/revision/latest?cb=20250507035901"
   },
   {
     "name": "Majestic Titanium Watch",
     "id": "majestic-titanium-watch",
-    "weight": "0.100kg"
+    "weight": "0.100kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Majestic_Titanium_Watch_icon.png/revision/latest?cb=20250702190239"
   },
   {
     "name": "Modern Watch",
     "id": "modern-watch",
-    "weight": "0.120kg"
+    "weight": "0.120kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/ba/Modern_Watch_icon.png/revision/latest?cb=20250502160158"
   },
   {
     "name": "Perfect Pearl Earrings",
     "id": "perfect-pearl-earrings",
-    "weight": "0.010kg"
+    "weight": "0.010kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/79/Perfect_Pearl_Earrings_icon.png/revision/latest?cb=20250513043843"
   },
   {
     "name": "Platinum Ring",
     "id": "platinum-ring",
-    "weight": "0.010kg"
+    "weight": "0.010kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1d/Platinum_Ring_icon.png/revision/latest?cb=20250702190225"
   },
   {
     "name": "Sapphire Pendant",
     "id": "sapphire-pendant",
-    "weight": "0.010kg"
+    "weight": "0.010kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/Sapphire_Pendant_icon.png/revision/latest?cb=20250513042856"
   },
   {
     "name": "Sleek Luxury Watch",
     "id": "sleek-luxury-watch",
-    "weight": "0.130kg"
+    "weight": "0.130kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/Sleek_Luxury_Watch_icon.png/revision/latest?cb=20250507135948"
   },
   {
     "name": "Master Carbon SEAL Automatic Watch",
     "id": "master-carbon-seal-automatic-watch",
-    "weight": "0.170kg"
+    "weight": "0.170kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/Master_Carbon_SEAL_Automatic_Watch_icon.png/revision/latest?cb=20260402051640"
   },
   {
     "name": "Black Luxury Phone",
     "id": "black-luxury-phone",
-    "weight": "0.100kg"
+    "weight": "0.100kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Black_Luxury_Phone_icon.png/revision/latest?cb=20250508230836"
   },
   {
     "name": "Expensive Smartphone",
     "id": "expensive-smartphone",
-    "weight": "0.100kg"
+    "weight": "0.100kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/Expensive_Smartphone_icon.png/revision/latest?cb=20250506122257"
   },
   {
     "name": "Luxury Smartphone",
     "id": "luxury-smartphone",
-    "weight": "0.100kg"
+    "weight": "0.100kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Luxury_Smartphone_icon.png/revision/latest?cb=20250508181126"
   },
   {
     "name": "Smartphone",
     "id": "smartphone",
-    "weight": "0.100kg"
+    "weight": "0.100kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f1/Smartphone_icon.png/revision/latest?cb=20250508230706"
   },
   {
     "name": "Common Credit Card",
     "id": "common-credit-card",
-    "weight": "0.005kg"
+    "weight": "0.005kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Common_Credit_Card_icon.png/revision/latest?cb=20250508162633"
   },
   {
     "name": "Gold Credit Card",
     "id": "gold-credit-card",
-    "weight": "0.005kg"
+    "weight": "0.005kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/Gold_Credit_Card_icon.png/revision/latest?cb=20250506122203"
   },
   {
     "name": "Platinum Credit Card",
     "id": "platinum-credit-card",
-    "weight": "0.005kg"
+    "weight": "0.005kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/Platinum_Credit_Card_icon.png/revision/latest?cb=20260402234915"
   },
   {
     "name": "Black Credit Card",
     "id": "black-credit-card",
-    "weight": "0.010kg"
+    "weight": "0.010kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/Black_Credit_Card_icon.png/revision/latest?cb=20250612210156"
   },
   {
     "name": "Businessman ID Card",
     "id": "businessman-id-card",
-    "weight": "0.050kg"
+    "weight": "0.050kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2d/Businessman_ID_Card_icon.png/revision/latest?cb=20260402072144"
   },
   {
     "name": "Local ID Card",
     "id": "local-id-card",
-    "weight": "0.050kg"
+    "weight": "0.050kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/Local_ID_Card_icon.png/revision/latest?cb=20260402044604"
   },
   {
     "name": "Driver's Licence",
     "id": "drivers-licence",
-    "weight": "0.050kg"
+    "weight": "0.050kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b9/Driver%27s_Licence_icon.png/revision/latest?cb=20260331080050"
   },
   {
     "name": "Tourist ID Card",
     "id": "tourist-id-card",
-    "weight": "0.050kg"
+    "weight": "0.050kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/Tourist_ID_Card_icon.png/revision/latest?cb=20260402185951"
   },
   {
     "name": "Tourist Passport",
     "id": "tourist-passport",
-    "weight": "0.050kg"
+    "weight": "0.050kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/Tourist_Passport_icon.png/revision/latest?cb=20260402190015"
   },
   {
     "name": "VIP Passport",
     "id": "vip-passport",
-    "weight": "0.050kg"
+    "weight": "0.050kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/70/VIP_Passport_icon.png/revision/latest?cb=20260402190035"
   },
   {
     "name": "Army Intel",
     "id": "army-intel",
-    "weight": "0.100kg"
+    "weight": "0.100kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/Army_Intel_icon.png/revision/latest?cb=20250509091908"
   },
   {
     "name": "Crime-related Intel",
     "id": "crime-related-intel",
-    "weight": "0.100kg"
+    "weight": "0.100kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a6/Crime-related_Intel_icon.png/revision/latest?cb=20250518152237"
   },
   {
     "name": "Digital Camera",
     "id": "digital-camera",
-    "weight": "0.250kg"
+    "weight": "0.250kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/Digital_Camera_icon.png/revision/latest?cb=20250621182741"
   },
   {
     "name": "Laptop",
     "id": "laptop",
-    "weight": "1.500kg"
+    "weight": "1.500kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/Laptop_icon.png/revision/latest?cb=20260402225000"
   },
   {
     "name": "Reflex Camera",
     "id": "reflex-camera",
-    "weight": "0.400kg"
+    "weight": "0.400kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/89/Reflex_Camera_icon.png/revision/latest?cb=20250508181135"
   },
   {
     "name": "Reinforced Military Laptop",
     "id": "reinforced-military-laptop",
-    "weight": "2.500kg"
+    "weight": "2.500kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Reinforced_Military_Laptop_icon.png/revision/latest?cb=20250516193035"
   },
   {
     "name": "Encrypted Hard Disk Drive",
     "id": "encrypted-hard-disk-drive",
-    "weight": "0.180kg"
+    "weight": "0.180kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e5/Encrypted_Hard_Disk_Drive_icon.png/revision/latest?cb=20260410165933"
   },
   {
     "name": "AN/PYQ-10",
     "id": "an/pyq-10",
-    "weight": "0.970kg"
+    "weight": "0.970kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fa/AN-PYQ-10_icon.png/revision/latest?cb=20260402070649"
   },
   {
     "name": "AZART P1 Radio",
     "id": "azart-p1-radio",
-    "weight": "0.720kg"
+    "weight": "0.720kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ef/AZART_P1_Radio_icon.png/revision/latest?cb=20260404223341"
   },
   {
     "name": "Biometric Access Card",
     "id": "biometric-access-card",
-    "weight": "0.008kg"
+    "weight": "0.008kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1c/Biometric_Access_Card_icon.png/revision/latest?cb=20260402043728"
   },
   {
     "name": "Biometric Thumb Drive",
     "id": "biometric-thumb-drive",
-    "weight": "0.004kg"
+    "weight": "0.004kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/ca/Biometric_Thumb_Drive_icon.png/revision/latest?cb=20260403092909"
   },
   {
     "name": "C2 Military Laptop",
     "id": "c2-military-laptop",
-    "weight": "5.000kg"
+    "weight": "5.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f1/C2_Military_Laptop_icon.png/revision/latest?cb=20260406080037"
   },
   {
     "name": "Handheld ECM Jammer",
     "id": "handheld-ecm-jammer",
-    "weight": "2.000kg"
+    "weight": "2.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/eb/Handheld_ECM_Jammer_icon.png/revision/latest?cb=20260402044213"
   },
   {
     "name": "HGCS-30 UAV Control Station",
     "id": "hgcs-30-uav-control-station",
-    "weight": "3.000kg"
+    "weight": "3.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/84/HGCS-30_UAV_Control_Station_icon.png/revision/latest?cb=20260331081049"
   },
   {
     "name": "KIK-11 Tactical Key Loader",
     "id": "kik-11-tactical-key-loader",
-    "weight": "0.450kg"
+    "weight": "0.450kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/KIK-11_Tactical_Key_Loader_icon.png/revision/latest?cb=20260404034236"
   },
   {
     "name": "LTSD-4-3 Laser Designator",
     "id": "ltsd-4-3-laser-designator",
-    "weight": "14.000kg"
+    "weight": "14.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/LTSD-4-3_Laser_Designator_icon.png/revision/latest?cb=20260404034007"
   },
   {
     "name": "NPI-2 Navigation Receiver",
     "id": "npi-2-navigation-receiver",
-    "weight": "0.300kg"
+    "weight": "0.300kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/NPI-2_Navigation_Receiver_icon.png/revision/latest?cb=20260402045946"
   },
   {
     "name": "One-Time Pad Key Sheets",
     "id": "one-time-pad-key-sheets",
-    "weight": "0.100kg"
+    "weight": "0.100kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/One-Time_Pad_Key_Sheets_icon.png/revision/latest?cb=20260402050119"
   },
   {
     "name": "Operation Data Encrypted Hard Disk",
     "id": "operation-data-encrypted-hard-disk",
-    "weight": "0.180kg"
+    "weight": "0.180kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/Operation_Data_Encrypted_Hard_Disk_icon.png/revision/latest?cb=20260411164244"
   },
   {
     "name": "PBG-01+ UAV Control Station",
     "id": "pbg-01+-uav-control-station",
-    "weight": "14.200kg"
+    "weight": "14.200kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/PBG-01%2B_UAV_Control_Station_icon.png/revision/latest?cb=20260331084340"
   },
   {
     "name": "Rugged Military Tablet",
     "id": "rugged-military-tablet",
-    "weight": "2.000kg"
+    "weight": "2.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/Rugged_Military_Tablet_icon.png/revision/latest?cb=20260404034408"
   },
   {
     "name": "Signal Repeater RT97S",
     "id": "signal-repeater-rt97s",
-    "weight": "1.660kg"
+    "weight": "1.660kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/Signal_Repeater_RT97S_icon.png/revision/latest?cb=20260402044834"
   },
   {
     "name": "STRELETS-M Tablet",
     "id": "strelets-m-tablet",
-    "weight": "1.400kg"
+    "weight": "1.400kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/STRELETS-M_Tablet_icon.png/revision/latest?cb=20260404034623"
   },
   {
     "name": "GLONASS Grot-M Navigation Receiver",
     "id": "glonass-grot-m-navigation-receiver",
-    "weight": "0.800kg"
+    "weight": "0.800kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/GLONASS_Grot-M_Navigation_Receiver_icon.png/revision/latest?cb=20260402045518"
   },
   {
     "name": "R-438 Barrier-T",
     "id": "r-438-barrier-t",
-    "weight": "16.000kg"
+    "weight": "16.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e5/R-438_Barrier-T_icon.png/revision/latest?cb=20260404034119"
   },
   {
     "name": "ATM Hacking Tool",
     "id": "atm-hacking-tool",
-    "weight": "0.150kg"
+    "weight": "0.150kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6a/ATM_Hacking_Tool_icon.png/revision/latest?cb=20260412113618"
   },
   {
     "name": "Camouflage Fabric",
     "id": "camouflage-fabric",
-    "weight": "0.480kg"
+    "weight": "0.480kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/Camouflage_Fabric_icon.png/revision/latest?cb=20260331075043"
   },
   {
     "name": "Low-Grade Gunpowder",
     "id": "low-grade-gunpowder",
-    "weight": "0.450kg"
+    "weight": "0.450kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8d/Low-Grade_Gunpowder_icon.png/revision/latest?cb=20260331082736"
   },
   {
     "name": "Paracord",
     "id": "paracord",
-    "weight": "0.100kg"
+    "weight": "0.100kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e9/Paracord_icon.png/revision/latest?cb=20260331084246"
   },
   {
     "name": "Weapon Oil",
     "id": "weapon-oil",
-    "weight": "0.272kg"
+    "weight": "0.272kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/Weapon_Oil_icon.png/revision/latest?cb=20260331090617"
   },
   {
     "name": "Aramid Cloth",
     "id": "aramid-cloth",
-    "weight": "0.061kg"
+    "weight": "0.061kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/Aramid_Cloth_icon.png/revision/latest?cb=20260402235156"
   },
   {
     "name": "Acetylene Cylinder",
     "id": "acetylene-cylinder",
-    "weight": "11.500kg"
+    "weight": "11.500kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/Acetylene_Cylinder_icon.png/revision/latest?cb=20260404013900"
   },
   {
     "name": "Drain Cleaner",
     "id": "drain-cleaner",
-    "weight": "5.000kg"
+    "weight": "5.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Drain_Cleaner_icon.png/revision/latest?cb=20260402235121"
   },
   {
     "name": "Industrial Solvent",
     "id": "industrial-solvent",
-    "weight": "3.800kg"
+    "weight": "3.800kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/Industrial_Solvent_icon.png/revision/latest?cb=20260525092626"
   },
   {
     "name": "Sulfuric Acid",
     "id": "sulfuric-acid",
-    "weight": "5.030kg"
+    "weight": "5.030kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c5/Sulfuric_Acid_icon.png/revision/latest?cb=20260402235100"
   },
   {
     "name": "Thermal Blanket",
     "id": "thermal-blanket",
-    "weight": "0.057kg"
+    "weight": "0.057kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/18/Thermal_Blanket_icon.png/revision/latest?cb=20260403200545"
   },
   {
     "name": "UN Medical Tools",
     "id": "un-medical-tools",
-    "weight": "0.500kg"
+    "weight": "0.500kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fb/UN_Medical_Tools_icon.png/revision/latest?cb=20260402235041"
   },
   {
     "name": "Vial of Antigens",
     "id": "vial-of-antigens",
-    "weight": "0.030kg"
+    "weight": "0.030kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1e/Vial_of_Antigens_icon.png/revision/latest?cb=20260403234415"
   },
   {
     "name": "Water Purification Tablets",
     "id": "water-purification-tablets",
-    "weight": "0.125kg"
+    "weight": "0.125kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/Water_Purification_Tablets_icon.png/revision/latest?cb=20260402235230"
   },
   {
     "name": "Disinfectant",
     "id": "disinfectant",
-    "weight": "1.000kg"
+    "weight": "1.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Disinfectant_icon.png/revision/latest?cb=20260402215318"
   },
   {
     "name": "Brake Fluid",
     "id": "brake-fluid",
-    "weight": "3.800kg"
+    "weight": "3.800kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e4/Brake_Fluid_icon.png/revision/latest?cb=20260331074803"
   },
   {
     "name": "Broken Angle Grinder",
     "id": "broken-angle-grinder",
-    "weight": "2.499kg"
+    "weight": "2.499kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4f/Broken_Angle_Grinder_icon.png/revision/latest?cb=20260404004925"
   },
   {
     "name": "Broken Carpentry Hammer",
     "id": "broken-carpentry-hammer",
-    "weight": "0.312kg"
+    "weight": "0.312kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/Broken_Carpentry_Hammer_icon.png/revision/latest?cb=20260331075234"
   },
   {
     "name": "Broken Handsaw",
     "id": "broken-handsaw",
-    "weight": "0.680kg"
+    "weight": "0.680kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/44/Broken_Handsaw_icon.png/revision/latest?cb=20260403095209"
   },
   {
     "name": "Broken Jigsaw",
     "id": "broken-jigsaw",
-    "weight": "2.000kg"
+    "weight": "2.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e3/Broken_Jigsaw_icon.png/revision/latest?cb=20260403234749"
   },
   {
     "name": "Broken Nailgun",
     "id": "broken-nailgun",
-    "weight": "2.500kg"
+    "weight": "2.500kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/Broken_Nailgun_icon.png/revision/latest?cb=20260404004748"
   },
   {
     "name": "Broken Screwdriver",
     "id": "broken-screwdriver",
-    "weight": "0.120kg"
+    "weight": "0.120kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/23/Broken_Screwdriver_icon.png/revision/latest?cb=20260331085809"
   },
   {
     "name": "Fuel Canister",
     "id": "fuel-canister",
-    "weight": "5.000kg"
+    "weight": "5.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/Fuel_Canister_icon.png/revision/latest?cb=20260404004846"
   },
   {
     "name": "Jumper Cables",
     "id": "jumper-cables",
-    "weight": "2.340kg"
+    "weight": "2.340kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f8/Jumper_Cables_icon.png/revision/latest?cb=20260403094142"
   },
   {
     "name": "Motor Oil",
     "id": "motor-oil",
-    "weight": "4.300kg"
+    "weight": "4.300kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/48/Motor_Oil_icon.png/revision/latest?cb=20260331083528"
   },
   {
     "name": "Rubber Renue",
     "id": "rubber-renue",
-    "weight": "1.000kg"
+    "weight": "1.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0a/Rubber_Renue_icon.png/revision/latest?cb=20260331085608"
   },
   {
     "name": "Toolset",
     "id": "toolset",
-    "weight": "1.000kg"
+    "weight": "1.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/Toolset_icon.png/revision/latest?cb=20260331090253"
   },
   {
     "name": "White Lithium Grease",
     "id": "white-lithium-grease",
-    "weight": "15.880kg"
+    "weight": "15.880kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e4/White_Lithium_Grease_icon.png/revision/latest?cb=20260403095948"
   },
   {
     "name": "Acumulator Drill",
     "id": "acumulator-drill",
-    "weight": "???kg"
+    "weight": "???kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Acumulator_Drill_icon.png/revision/latest?cb=20260420114742"
   },
   {
     "name": "Bleach",
     "id": "bleach",
-    "weight": "3.570kg"
+    "weight": "3.570kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Bleach_icon.png/revision/latest?cb=20260331074658"
   },
   {
     "name": "Carton of Tahirs Cigarettes",
     "id": "carton-of-tahirs-cigarettes",
-    "weight": "0.250kg"
+    "weight": "0.250kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/Carton_of_Tahirs_Cigarettes_icon.png/revision/latest?cb=20260331075356"
   },
   {
     "name": "Car Battery",
     "id": "car-battery",
-    "weight": "12.660kg"
+    "weight": "12.660kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/Car_Battery_icon.png/revision/latest?cb=20260331075125"
   },
   {
     "name": "Deck of Cards",
     "id": "deck-of-cards",
-    "weight": "0.088kg"
+    "weight": "0.088kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/Deck_of_Cards_icon.png/revision/latest?cb=20260331075443"
   },
   {
     "name": "Fishing Line",
     "id": "fishing-line",
-    "weight": "0.130kg"
+    "weight": "0.130kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/32/Fishing_Line_icon.png/revision/latest?cb=20260331080254"
   },
   {
     "name": "Hand Mirror",
     "id": "hand-mirror",
-    "weight": "0.400kg"
+    "weight": "0.400kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Hand_Mirror_icon.png/revision/latest?cb=20260331080642"
   },
   {
     "name": "Insect Repellant Spray",
     "id": "insect-repellant-spray",
-    "weight": "0.258kg"
+    "weight": "0.258kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e0/Insect_Repellant_Spray_icon.png/revision/latest?cb=20260331081403"
   },
   {
     "name": "Lamp Oil",
     "id": "lamp-oil",
-    "weight": "1.000kg"
+    "weight": "1.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/Lamp_Oil_icon.png/revision/latest?cb=20260331082337"
   },
   {
     "name": "Lighter",
     "id": "lighter",
-    "weight": "0.040kg"
+    "weight": "0.040kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/Lighter_icon.png/revision/latest?cb=20260402235406"
   },
   {
     "name": "Motorbike Battery",
     "id": "motorbike-battery",
-    "weight": "2.000kg"
+    "weight": "2.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/08/Motorbike_Battery_icon.png/revision/latest?cb=20260331083649"
   },
   {
     "name": "Naosaoad 100% Clean",
     "id": "naosaoad-100%-clean",
-    "weight": "0.500kg"
+    "weight": "0.500kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/Naosaoad_100%25_Clean_icon.png/revision/latest?cb=20260331083855"
   },
   {
     "name": "Pack of AA Batteries",
     "id": "pack-of-aa-batteries",
-    "weight": "0.024kg"
+    "weight": "0.024kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/Pack_of_AA_Batteries_icon.png/revision/latest?cb=20260331084203"
   },
   {
     "name": "Pack of Premium Coffee",
     "id": "pack-of-premium-coffee",
-    "weight": "0.600kg"
+    "weight": "0.600kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/67/Pack_of_Premium_Coffee_icon.png/revision/latest?cb=20260331084220"
   },
   {
     "name": "Petrolatum",
     "id": "petrolatum",
-    "weight": "0.370kg"
+    "weight": "0.370kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Petrolatum_icon.png/revision/latest?cb=20260331084512"
   },
   {
     "name": "Phone Charger",
     "id": "phone-charger",
-    "weight": "0.075kg"
+    "weight": "0.075kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Phone_Charger_icon.png/revision/latest?cb=20260331084625"
   },
   {
     "name": "Propane Bottle",
     "id": "propane-bottle",
-    "weight": "0.453kg"
+    "weight": "0.453kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/Propane_Bottle_icon.png/revision/latest?cb=20260403075825"
   },
   {
     "name": "Refillable Lighter",
     "id": "refillable-lighter",
-    "weight": "0.080kg"
+    "weight": "0.080kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/Refillable_Lighter_icon.png/revision/latest?cb=20260331085446"
   },
   {
     "name": "Sewing Set",
     "id": "sewing-set",
-    "weight": "0.146kg"
+    "weight": "0.146kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/Sewing_Set_icon.png/revision/latest?cb=20260331085847"
   },
   {
     "name": "Tahirs Cigarettes",
     "id": "tahirs-cigarettes",
-    "weight": "0.013kg"
+    "weight": "0.013kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c9/Tahirs_Cigarettes_icon.png/revision/latest?cb=20260402214909"
   },
   {
     "name": "Pro Multitool",
     "id": "pro-multitool",
     "grid": "1x1",
-    "weight": "0.120 kg"
+    "weight": "0.120 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Pro_Multitool_icon.png/revision/latest?cb=20250128181319"
   },
   {
     "name": "Camera Wiretap",
     "id": "camera-wiretap",
     "grid": "1x1",
-    "weight": "0.010 kg"
+    "weight": "0.010 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/Camera_Wiretap_icon.png/revision/latest?cb=20250621155427"
   },
   {
     "name": "GPS Tracker",
     "id": "gps-tracker",
     "grid": "1x1",
-    "weight": "0.050 kg"
+    "weight": "0.050 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/68/Tracker_Icon.png/revision/latest?cb=20250621155139"
   },
   {
     "name": "Sample Collection Kit",
     "id": "sample-collection-kit",
     "grid": "1x1",
-    "weight": "0.100 kg"
+    "weight": "0.100 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4c/Sample_Collection_Kit_icon.png/revision/latest?cb=20240508091140"
   },
   {
     "name": "Box of Supplies",
     "id": "box-of-supplies",
     "grid": "2x2",
-    "weight": "2.000 kg"
+    "weight": "2.000 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/60/Box_of_Supplies_icon.png/revision/latest?cb=20250603180346"
   }
 ]

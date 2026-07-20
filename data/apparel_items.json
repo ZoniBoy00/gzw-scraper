@@ -11,119 +11,148 @@
   },
   {
     "name": "Tactical T-shirt",
-    "id": "tactical-t-shirt"
+    "id": "tactical-t-shirt",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/Tactical_T-shirt_icon.png/revision/latest?cb=20250706113245"
   },
   {
     "name": "Functional Shirt",
-    "id": "functional-shirt"
+    "id": "functional-shirt",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ee/Functional_Shirt_icon.png/revision/latest?cb=20250706113331"
   },
   {
     "name": "Long Sleeves Tactical (Blue)",
-    "id": "long-sleeves-tactical-(blue)"
+    "id": "long-sleeves-tactical-(blue)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/Long_Sleeves_Tactical_%28Blue%29_icon.png/revision/latest?cb=20250706113224"
   },
   {
     "name": "Long Sleeves Tactical",
-    "id": "long-sleeves-tactical"
+    "id": "long-sleeves-tactical",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/40/Long_Sleeves_Tactical_icon.png/revision/latest?cb=20250706113226"
   },
   {
     "name": "Long Sleeves (Black)",
-    "id": "long-sleeves-(black)"
+    "id": "long-sleeves-(black)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/Long_Sleeves_%28Black%29_icon.png/revision/latest?cb=20250707153338"
   },
   {
     "name": "Long Sleeves",
-    "id": "long-sleeves"
+    "id": "long-sleeves",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Long_Sleeves_icon.png/revision/latest?cb=20250706113222"
   },
   {
     "name": "MBDU Flannel Shirt (Red)",
-    "id": "mbdu-flannel-shirt-(red)"
+    "id": "mbdu-flannel-shirt-(red)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e8/MBDU_Flannel_Shirt_%28Red%29_icon.png/revision/latest?cb=20250706113231"
   },
   {
     "name": "MBDU Flannel Shirt (Khaki)",
-    "id": "mbdu-flannel-shirt-(khaki)"
+    "id": "mbdu-flannel-shirt-(khaki)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c5/MBDU_Flannel_Shirt_%28Khaki%29_icon.png/revision/latest?cb=20250706113230"
   },
   {
     "name": "MBDU Flannel Shirt (Black)",
-    "id": "mbdu-flannel-shirt-(black)"
+    "id": "mbdu-flannel-shirt-(black)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e8/MBDU_Flannel_Shirt_%28Black%29_icon.png/revision/latest?cb=20250707155720"
   },
   {
     "name": "Crye Precision - G3 (Ranger Green)",
-    "id": "crye-precision---g3-(ranger-green)"
+    "id": "crye-precision---g3-(ranger-green)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/Crye_Precision_-_G3_%28Ranger_Green%29_icon.png/revision/latest?cb=20250706113318"
   },
   {
     "name": "Crye Precision - G3 (Gray Zone Warfare)",
-    "id": "crye-precision---g3-(gray-zone-warfare)"
+    "id": "crye-precision---g3-(gray-zone-warfare)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/Crye_Precision_-_G3_%28Gray_Zone_Warfare%29_icon.png/revision/latest?cb=20250706113319"
   },
   {
     "name": "Crye Precision - G3 (Multicam Black)",
-    "id": "crye-precision---g3-(multicam-black)"
+    "id": "crye-precision---g3-(multicam-black)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/56/Crye_Precision_-_G3_%28Multicam_Black%29_icon.png/revision/latest?cb=20250706113321"
   },
   {
     "name": "Crye Precision - G3 (Multicam)",
-    "id": "crye-precision---g3-(multicam)"
+    "id": "crye-precision---g3-(multicam)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/Crye_Precision_-_G3_%28Multicam%29_icon.png/revision/latest?cb=20250706113323"
   },
   {
     "name": "Crye Precision - G3 (Multicam Tropic)",
-    "id": "crye-precision---g3-(multicam-tropic)"
+    "id": "crye-precision---g3-(multicam-tropic)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2b/Crye_Precision_-_G3_%28Multicam_Tropic%29_icon.png/revision/latest?cb=20250707153341"
   },
   {
     "name": "Clawgear - Combat Operator (Ranger Green)",
-    "id": "clawgear---combat-operator-(ranger-green)"
+    "id": "clawgear---combat-operator-(ranger-green)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a1/Clawgear_-_Combat_Operator_%28Ranger_Green%29_icon.png/revision/latest?cb=20250706113306"
   },
   {
     "name": "Clawgear - Combat Operator (Coyote)",
-    "id": "clawgear---combat-operator-(coyote)"
+    "id": "clawgear---combat-operator-(coyote)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/Clawgear_-_Combat_Operator_%28Coyote%29_icon.png/revision/latest?cb=20250706113304"
   },
   {
     "name": "Clawgear - Combat Operator (Black)",
-    "id": "clawgear---combat-operator-(black)"
+    "id": "clawgear---combat-operator-(black)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ae/Clawgear_-_Combat_Operator_%28Black%29_icon.png/revision/latest?cb=20250706113302"
   },
   {
     "name": "Clawgear - Combat Operator",
-    "id": "clawgear---combat-operator"
+    "id": "clawgear---combat-operator",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9f/Clawgear_-_Combat_Operator_icon.png/revision/latest?cb=20250706113308"
   },
   {
     "name": "Leo Vented (Khaki)",
-    "id": "leo-vented-(khaki)"
+    "id": "leo-vented-(khaki)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8a/Leo_Vented_%28Khaki%29_icon.png/revision/latest?cb=20250706113221"
   },
   {
     "name": "Leo Vented (Gray)",
-    "id": "leo-vented-(gray)"
+    "id": "leo-vented-(gray)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f3/Leo_Vented_%28Gray%29_icon.png/revision/latest?cb=20250706113336"
   },
   {
     "name": "Leo Vented (Black)",
-    "id": "leo-vented-(black)"
+    "id": "leo-vented-(black)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/Leo_Vented_%28Black%29_icon.png/revision/latest?cb=20250830220420"
   },
   {
     "name": "Tactical Gloves (Orange)",
-    "id": "tactical-gloves-(orange)"
+    "id": "tactical-gloves-(orange)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c3/Tactical_Gloves%28Orange%29_icon.png/revision/latest?cb=20250706113244"
   },
   {
     "name": "Tactical Gloves (Green)",
-    "id": "tactical-gloves-(green)"
+    "id": "tactical-gloves-(green)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Tactical_Gloves%28Green%29_icon.png/revision/latest?cb=20250706113242"
   },
   {
     "name": "Tactical Gloves (Blue)",
-    "id": "tactical-gloves-(blue)"
+    "id": "tactical-gloves-(blue)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/Tactical_Gloves%28Blue%29_icon.png/revision/latest?cb=20250718213440"
   },
   {
     "name": "Mechanix Wear - Original",
-    "id": "mechanix-wear---original"
+    "id": "mechanix-wear---original",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/32/Mechanix_Wear_-_Original_icon.png/revision/latest?cb=20250706113236"
   },
   {
     "name": "Mechanix Wear - M-Pact Covert",
-    "id": "mechanix-wear---m-pact-covert"
+    "id": "mechanix-wear---m-pact-covert",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/14/Mechanix_Wear_-_M-Pact_Covert_icon.png/revision/latest?cb=20250706113235"
   },
   {
     "name": "Mechanix Wear - Fast Fit (Gray Zone Warfare)",
-    "id": "mechanix-wear---fast-fit-(gray-zone-warfare)"
+    "id": "mechanix-wear---fast-fit-(gray-zone-warfare)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/Mechanix_Wear_-_Fast_Fit_%28Gray_Zone_Warfare%29_icon.png/revision/latest?cb=20250706113232"
   },
   {
     "name": "Mechanix Wear - Fast Fit",
-    "id": "mechanix-wear---fast-fit"
+    "id": "mechanix-wear---fast-fit",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c3/Mechanix_Wear_-_Fast_Fit_icon.png/revision/latest?cb=20250706113234"
   },
   {
     "name": "5.11 - Competition Shooting",
-    "id": "5.11---competition-shooting"
+    "id": "5.11---competition-shooting",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bd/5.11_-_Competition_Shooting_icon.png/revision/latest?cb=20250706113257"
   },
   {
     "name": "Mechanix Wear - Original (Black)",
@@ -131,126 +160,157 @@
   },
   {
     "name": "Contractor SF (Khaki)",
-    "id": "contractor-sf-(khaki)"
+    "id": "contractor-sf-(khaki)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/df/Contractor_SF_%28Khaki%29_icon.png/revision/latest?cb=20250706113317"
   },
   {
     "name": "Contractor SF (Gray)",
-    "id": "contractor-sf-(gray)"
+    "id": "contractor-sf-(gray)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/31/Contractor_SF_%28Gray%29_icon.png/revision/latest?cb=20250706113316"
   },
   {
     "name": "Contractor SF (Black)",
-    "id": "contractor-sf-(black)"
+    "id": "contractor-sf-(black)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b0/Contractor_SF_%28Black%29_icon.png/revision/latest?cb=20250707155709"
   },
   {
     "name": "Vintage Trousers (Olive)",
-    "id": "vintage-trousers-(olive)"
+    "id": "vintage-trousers-(olive)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e0/Vintage_Trousers_%28Olive%29_icon.png/revision/latest?cb=20260712194649"
   },
   {
     "name": "Vintage Trousers (Green)",
-    "id": "vintage-trousers-(green)"
+    "id": "vintage-trousers-(green)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/Vintage_Trousers_%28Green%29_icon.png/revision/latest?cb=20260712194648"
   },
   {
     "name": "US BDU (Woodland)",
-    "id": "us-bdu-(woodland)"
+    "id": "us-bdu-(woodland)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/US_BDU_%28Woodland%29_icon.png/revision/latest?cb=20250706113255"
   },
   {
     "name": "US BDU (Olive)",
-    "id": "us-bdu-(olive)"
+    "id": "us-bdu-(olive)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/29/US_BDU_%28Olive%29_icon.png/revision/latest?cb=20250706113254"
   },
   {
     "name": "US BDU (Desert)",
-    "id": "us-bdu-(desert)"
+    "id": "us-bdu-(desert)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4c/US_BDU_%28Desert%29_icon.png/revision/latest?cb=20250706113252"
   },
   {
     "name": "Jeans (Gray)",
-    "id": "jeans-(gray)"
+    "id": "jeans-(gray)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bc/Jeans_%28Gray%29_icon.png/revision/latest?cb=20250706113334"
   },
   {
     "name": "Jeans (Blue)",
-    "id": "jeans-(blue)"
+    "id": "jeans-(blue)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6b/Jeans_%28Blue%29_icon.png/revision/latest?cb=20250706113332"
   },
   {
     "name": "Crye Precision - G4 (Ranger Green)",
-    "id": "crye-precision---g4-(ranger-green)"
+    "id": "crye-precision---g4-(ranger-green)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2f/Crye_Precision_-_G4_%28Ranger_Green%29_icon.png/revision/latest?cb=20250706113329"
   },
   {
     "name": "Crye Precision - G4 (Multicam Black)",
-    "id": "crye-precision---g4-(multicam-black)"
+    "id": "crye-precision---g4-(multicam-black)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/92/Crye_Precision_-_G4_%28Multicam_Black%29_icon.png/revision/latest?cb=20250706113326"
   },
   {
     "name": "Crye Precision - G4 (Gray Zone Warfare)",
-    "id": "crye-precision---g4-(gray-zone-warfare)"
+    "id": "crye-precision---g4-(gray-zone-warfare)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/Crye_Precision_-_G4_%28Gray_Zone_Warfare%29_icon.png/revision/latest?cb=20250706113324"
   },
   {
     "name": "Crye Precision - G4 (Multicam)",
-    "id": "crye-precision---g4-(multicam)"
+    "id": "crye-precision---g4-(multicam)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/11/Crye_Precision_-_G4_%28Multicam%29_icon.png/revision/latest?cb=20250707153339"
   },
   {
     "name": "Crye Precision - G4 (Multicam Tropic)",
-    "id": "crye-precision---g4-(multicam-tropic)"
+    "id": "crye-precision---g4-(multicam-tropic)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Crye_Precision_-_G4_%28Multicam_Tropic%29_icon.png/revision/latest?cb=20250718213655"
   },
   {
     "name": "Trouser Crye Precision - G3 (Multicam)",
-    "id": "trouser-crye-precision---g3-(multicam)"
+    "id": "trouser-crye-precision---g3-(multicam)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/Trouser_Crye_Precision_-_G3_%28Multicam%29_icon.png/revision/latest?cb=20250706113249"
   },
   {
     "name": "Trouser Crye Precision - G3 (Multicam 2)",
-    "id": "trouser-crye-precision---g3-(multicam-2)"
+    "id": "trouser-crye-precision---g3-(multicam-2)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/Trouser_Crye_Precision_-_G3_%28Multicam_2%29_icon.png/revision/latest?cb=20250706113247"
   },
   {
     "name": "Clawgear - Raider Mk IV (Olive)",
-    "id": "clawgear---raider-mk-iv-(olive)"
+    "id": "clawgear---raider-mk-iv-(olive)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/Clawgear_-_Raider_Mk_IV_%28Olive%29_icon.png/revision/latest?cb=20250706113314"
   },
   {
     "name": "Clawgear - Raider Mk IV (Flecktarn)",
-    "id": "clawgear---raider-mk-iv-(flecktarn)"
+    "id": "clawgear---raider-mk-iv-(flecktarn)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Clawgear_-_Raider_Mk_IV_%28Flecktarn%29_icon.png/revision/latest?cb=20250706113310"
   },
   {
     "name": "Clawgear - Raider Mk IV (Coyote)",
-    "id": "clawgear---raider-mk-iv-(coyote)"
+    "id": "clawgear---raider-mk-iv-(coyote)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1d/Clawgear_-_Raider_Mk_IV_%28Coyote%29_icon.png/revision/latest?cb=20250718213732"
   },
   {
     "name": "Clawgear - Raider Mk IV (Multicam Black)",
-    "id": "clawgear---raider-mk-iv-(multicam-black)"
+    "id": "clawgear---raider-mk-iv-(multicam-black)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/Clawgear_-_Raider_Mk_IV_%28Multicam_Black%29_icon.png/revision/latest?cb=20250706113312"
   },
   {
     "name": "Clawgear - Raider Mk IV (Woodland)",
-    "id": "clawgear---raider-mk-iv-(woodland)"
+    "id": "clawgear---raider-mk-iv-(woodland)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f1/Clawgear_-_Raider_Mk_IV_%28Woodland%29_icon.png/revision/latest?cb=20250706113315"
   },
   {
     "name": "Arcteryx Leaf - Assault Pant AR gen 2 (Multicam)",
-    "id": "arcteryx-leaf---assault-pant-ar-gen-2-(multicam)"
+    "id": "arcteryx-leaf---assault-pant-ar-gen-2-(multicam)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/Arcteryx_Leaf_-_Assault_Pant_AR_gen_2_%28Multicam%29_icon.png/revision/latest?cb=20250706113301"
   },
   {
     "name": "Tactical Jeans - Rappel Seat",
-    "id": "tactical-jeans---rappel-seat"
+    "id": "tactical-jeans---rappel-seat",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b0/Tactical_Jeans_-_Rappel_Seat_icon.png/revision/latest?cb=20250707153340"
   },
   {
     "name": "Tactical Jeans - Rappel Seat (Black)",
-    "id": "tactical-jeans---rappel-seat-(black)"
+    "id": "tactical-jeans---rappel-seat-(black)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/Tactical_Jeans_-_Rappel_Seat_%28Black%29_icon.png/revision/latest?cb=20250707153342"
   },
   {
     "name": "Rocky S2V",
-    "id": "rocky-s2v"
+    "id": "rocky-s2v",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Rocky_S2V_icon.png/revision/latest?cb=20250706113241"
   },
   {
     "name": "Pentagon - Hybrid (Black)",
-    "id": "pentagon---hybrid-(black)"
+    "id": "pentagon---hybrid-(black)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/Pentagon_-_Hybrid_%28Black%29_icon.png/revision/latest?cb=20250706113238"
   },
   {
     "name": "Pentagon - Hybrid",
-    "id": "pentagon---hybrid"
+    "id": "pentagon---hybrid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ee/Pentagon_-_Hybrid_icon.png/revision/latest?cb=20250706113240"
   },
   {
     "name": "Lowa - Zephyr GTX Mid TF",
-    "id": "lowa---zephyr-gtx-mid-tf"
+    "id": "lowa---zephyr-gtx-mid-tf",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/Lowa_-_Zephyr_GTX_Mid_TF_icon.png/revision/latest?cb=20250706113229"
   },
   {
     "name": "AKU - Conero GTX",
-    "id": "aku---conero-gtx"
+    "id": "aku---conero-gtx",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b5/AKU_-_Conero_GTX_icon.png/revision/latest?cb=20250706113259"
   },
   {
     "name": "Magnum - Wild-Fire Tactical",
-    "id": "magnum---wild-fire-tactical"
+    "id": "magnum---wild-fire-tactical",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/Magnum_-_Wild-Fire_Tactical_icon.png/revision/latest?cb=20250707153338"
   }
 ]
