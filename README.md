@@ -111,7 +111,7 @@ gzw-scraper (this repo — Python, scheduled)
 gzw-data (data + dynamic API on Vercel)
     │ rebuild on push
     ▼
-gzw-tools (frontend SPA — optional consumer)
+gzw-tools (frontend reference tools)
 ```
 
 ## Rate Limiting
