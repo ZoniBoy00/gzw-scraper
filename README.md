@@ -2,46 +2,68 @@
 
 **Gray Zone Warfare** — Wiki data scraper.
 
-Scrapes the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and pushes structured data to the [gzw-data](https://github.com/ZoniBoy00/gzw-data) repository.
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
+Scrapes the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and pushes structured JSON data to the [gzw-data](https://github.com/ZoniBoy00/gzw-data) repository every Monday.
 
 ## What it scrapes
 
-- Weapons (stats, caliber, mag size, fire rate)
-- Armor (vests, plate carriers, helmets with NIJ class, material)
-- Backpacks & tactical rigs
-- Keys & keycards (124+ across 12 locations)
-- Tasks/missions (278+ with objectives, rewards, categories)
-- Throwables/grenades
-- Item images (199+ wiki URLs)
+| Data | Items | Details |
+|------|-------|---------|
+| Weapons | 51 | Stats, caliber, mag size, fire rate, source, image |
+| Armor | 61 | Vests, plate carriers, helmets — NIJ class, material, weight |
+| Backpacks | 16 | Weight, grid size, image |
+| Tactical rigs | 11 | Weight, grid size, image |
+| Keys & keycards | 124 | Location, wiki link, task flag |
+| Tasks/missions | 278 | Objectives, rewards, categories (Main/Side/Hidden) |
+| Throwables | 8 | Grenades: frag, smoke, stun |
+| Item images | 199+ | Wiki image URL lookup |
 
-## How it works
+## Pipeline
 
 ```
 scrape.py → enrich_tasks.py → categorize_tasks.py → gen_frontend_data.py
 ```
 
-1. **scrape.py** — Crawls wiki pages for all item categories
-2. **enrich_tasks.py** — Extracts objectives, rewards, and item links
-3. **categorize_tasks.py** — Sorts tasks into Main/Side/Hidden/Contract/Squad
-4. **gen_frontend_data.py** — Generates clean JSON output files
+1. **`scrape.py`** — Crawls wiki pages for all item categories
+2. **`enrich_tasks.py`** — Extracts objectives, rewards, and item links from task pages
+3. **`categorize_tasks.py`** — Sorts tasks into Main/Side/Hidden/Contract/Squad
+4. **`gen_frontend_data.py`** — Generates clean, normalized JSON output files
 
-## Data output
+## Output
 
-Generated JSON files land in `data/` and are pushed to [ZoniBoy00/gzw-data](https://github.com/ZoniBoy00/gzw-data) via GitHub Actions.
+Generated JSON files land in `data/` and are automatically pushed to **[ZoniBoy00/gzw-data](https://github.com/ZoniBoy00/gzw-data)**.
 
 ## Local usage
 
 ```bash
 pip install requests beautifulsoup4 lxml
+
+# Run full pipeline
 python scrape.py --all
 python enrich_tasks.py
 python categorize_tasks.py
 python gen_frontend_data.py
+
+# Generated files are in data/
+ls data/
 ```
 
 ## GitHub Actions
 
-Runs every Monday at 06:00 UTC. Results are automatically pushed to `gzw-data/data/`.
+- **Schedule:** Every Monday at 06:00 UTC
+- **Trigger:** Also supports `workflow_dispatch` (manual) and `repository_dispatch`
+- **Target:** Results pushed to `gzw-data/data/` with auto-commit
+
+## Architecture
+
+```
+gzw-scraper (this repo)
+    ↓ weekly scrape + push
+gzw-data (data + API + test page)
+    ↓ data sync
+gzw-tools (frontend SPA)
+```
 
 ## License
 
