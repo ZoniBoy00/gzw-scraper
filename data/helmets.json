@@ -1,13 +1,5 @@
 [
   {
-    "name": "AMP-1 TP LC (Ranger Green)",
-    "id": "amp-1-tp-lc-(ranger-green)",
-    "material": "Aramid",
-    "weight": 1.4,
-    "grid": "2x2",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/AMP-1_TP_LC%28Ranger_Green%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20240505152450"
-  },
-  {
     "name": "AMP-1 TP LC (UNLRA)",
     "id": "amp-1-tp-lc-(unlra)",
     "material": "Aramid",
@@ -45,7 +37,8 @@
     "source": "Artisan R.1",
     "weight": 1.3,
     "nij": "I",
-    "material": "Steel"
+    "material": "Steel",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/SSh-60_icon.png/revision/latest?cb=20250612124731"
   },
   {
     "name": "6B47 Ratnik",
@@ -53,7 +46,8 @@
     "source": "Turncoat R.1",
     "weight": 1.1,
     "nij": "II",
-    "material": "Aramid"
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/6B47_icon.png/revision/latest?cb=20250612125205"
   },
   {
     "name": "LSHZ 1+ (Multicam)",
@@ -61,7 +55,8 @@
     "source": "Turncoat R.3",
     "weight": 1.3,
     "nij": "IIIA",
-    "material": "Aramid"
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a6/LShZ%28Multicam%29_icon.png/revision/latest?cb=20250622093246"
   },
   {
     "name": "LSHZ 1+ (Black)",
@@ -69,7 +64,8 @@
     "source": "Turncoat R.3",
     "weight": 1.3,
     "nij": "IIIA",
-    "material": "Aramid"
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4c/LShZ%28Black%29_icon.png/revision/latest/scale-to-width-down/101?cb=20250622093148"
   },
   {
     "name": "PASGT",
@@ -77,7 +73,8 @@
     "source": "Handshake R.2",
     "weight": 1.6,
     "nij": "II+",
-    "material": "Aramid"
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9e/PASGT_icon.png/revision/latest?cb=20250612040100"
   },
   {
     "name": "Mich TC-2000 (Green)",
@@ -85,7 +82,8 @@
     "source": "Handshake R.2",
     "weight": 1.5,
     "nij": "IIIA",
-    "material": "Aramid"
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d3/TC-2000%28Ranger_Green%29_icon.png/revision/latest?cb=20250622094050"
   },
   {
     "name": "Mich TC-2000 (Black)",
@@ -93,7 +91,8 @@
     "source": "Handshake R.2",
     "weight": 1.5,
     "nij": "IIIA",
-    "material": "Aramid"
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/68/TC-2000%28Black%29_icon.png/revision/latest?cb=20250622094057"
   },
   {
     "name": "Mich TC-2000 (UNLRA)",
@@ -101,7 +100,8 @@
     "source": "Loot only",
     "weight": 1.5,
     "nij": "IIIA",
-    "material": "Aramid"
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b5/TC-2000%28UNLRA%29_icon.png/revision/latest?cb=20250622094103"
   },
   {
     "name": "EXFIL (Coyote Brown)",
@@ -109,7 +109,8 @@
     "source": "Handshake R.4",
     "weight": 1.18,
     "nij": "IIIA",
-    "material": "UHMWPE"
+    "material": "UHMWPE",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/78/EXFIL%28Coyote_Brown%29_icon.png/revision/latest?cb=20250622094751"
   },
   {
     "name": "EXFIL (Multicam)",
@@ -117,7 +118,8 @@
     "source": "Handshake R.4",
     "weight": 1.18,
     "nij": "IIIA",
-    "material": "UHMWPE"
+    "material": "UHMWPE",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/42/EXFIL%28Multicam%29_icon.png/revision/latest?cb=20250622094722"
   },
   {
     "name": "MICH TC-2002 (Green)",
@@ -125,7 +127,8 @@
     "source": "Handshake R.3",
     "weight": 1.5,
     "nij": "IIIA",
-    "material": "Aramid"
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/14/TC-2002_Green_icon.png/revision/latest?cb=20260501100718"
   },
   {
     "name": "MICH TC-2002 (Tan)",
@@ -133,7 +136,8 @@
     "source": "Handshake R.3",
     "weight": 1.5,
     "nij": "IIIA",
-    "material": "MSA"
+    "material": "MSA",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/TC-2002%28Tan%29_icon.png/revision/latest?cb=20250614201255"
   },
   {
     "name": "MICH TC-2002 (Black)",
@@ -149,7 +153,8 @@
     "source": "Handshake R.4",
     "weight": 1.1,
     "nij": "IIIA",
-    "material": "UHMWPE"
+    "material": "UHMWPE",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/FAST_MT%28Multicam%29_icon.png/revision/latest?cb=20250703120848"
   },
   {
     "name": "FAST MT (Tan)",
@@ -157,7 +162,17 @@
     "source": "Handshake R.4",
     "weight": 1.05,
     "nij": "IIIA",
-    "material": "Aramid"
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/FAST_MT%28Tan%29_icon.png/revision/latest?cb=20250703120740"
+  },
+  {
+    "name": "AMP-1 TP LC (Ranger Green)",
+    "id": "amp-1-tp-lc-(ranger-green)",
+    "source": "Handshake R.4",
+    "weight": 1.4,
+    "nij": "IIIA+",
+    "material": "UHMWPE",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/AMP-1_TP_LC%28Ranger_Green%29_icon.png/revision/latest?cb=20250703121007"
   },
   {
     "name": "AMP-1 TP MC (Ranger Green)",
@@ -165,7 +180,8 @@
     "source": "Loot only",
     "weight": 1.63,
     "nij": "IIIA+",
-    "material": "Aramid"
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2d/AMP-1_TP_MC_icon.png/revision/latest?cb=20250612210219"
   },
   {
     "name": "MICH LC",
@@ -173,7 +189,8 @@
     "source": "Handshake R.2",
     "weight": 1.6,
     "nij": "IIIA",
-    "material": "Aramid"
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2d/MICH_LC_icon.png/revision/latest?cb=20250612040415"
   },
   {
     "name": "BK-ACH",
@@ -181,7 +198,8 @@
     "source": "Handshake R.3",
     "weight": 1.4,
     "nij": "IIIA",
-    "material": "Aramid"
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f3/BK-ACH_icon.png/revision/latest?cb=20260406210535"
   },
   {
     "name": "BK-ACH-HC",
@@ -189,114 +207,133 @@
     "source": "Handshake R.3",
     "weight": 1.3,
     "nij": "IIIA",
-    "material": "Aramid"
+    "material": "Aramid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/BK-ACH-HC_icon.png/revision/latest?cb=20260406210717"
   },
   {
     "name": "Baseball Cap (Black)",
     "id": "baseball-cap-(black)",
     "source": "Loot only",
-    "weight": 0.11
+    "weight": 0.11,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/BCap%28Black%29_icon.png/revision/latest?cb=20250623115910"
   },
   {
     "name": "Baseball Cap (Khaki)",
     "id": "baseball-cap-(khaki)",
     "source": "Handshake R.1",
-    "weight": 0.11
+    "weight": 0.11,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/BCap%28Khaki%29_icon.png/revision/latest?cb=20250621182725"
   },
   {
     "name": "Baseball Cap (Green)",
     "id": "baseball-cap-(green)",
     "source": "Loot only",
-    "weight": 0.11
+    "weight": 0.11,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/03/BCap%28Green%29_icon.png/revision/latest?cb=20250621182721"
   },
   {
     "name": "Baseball Cap (Red)",
     "id": "baseball-cap-(red)",
     "source": "Loot only",
-    "weight": 0.11
+    "weight": 0.11,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1b/BCap%28Red%29_icon.png/revision/latest?cb=20250621182730"
   },
   {
     "name": "Baseball Cap (Blue)",
     "id": "baseball-cap-(blue)",
     "source": "Loot only",
-    "weight": 0.11
+    "weight": 0.11,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/10/BCap%28Blue%29_icon.png/revision/latest?cb=20250621182717"
   },
   {
     "name": "Pandatac Trucker Cap",
     "id": "pandatac-trucker-cap",
     "source": "Handshake R.2",
-    "weight": 0.11
+    "weight": 0.11,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/Pandatac_Trucker_Cap_icon.png/revision/latest?cb=20250612091558"
   },
   {
     "name": "ExSOF Cap",
     "id": "exsof-cap",
     "source": "Banshee R.1",
-    "weight": 0.08
+    "weight": 0.08,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/ExCap_icon.png/revision/latest?cb=20250614224349"
   },
   {
     "name": "Regiment Cap",
     "id": "regiment-cap",
     "source": "Banshee R.4",
-    "weight": 0.11
+    "weight": 0.11,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/Rcap_icon.png/revision/latest?cb=20250620170442"
   },
   {
     "name": "Stack Up Cap",
     "id": "stack-up-cap",
     "source": "Banshee R.4",
-    "weight": 0.11
+    "weight": 0.11,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/SUCap_icon.png/revision/latest?cb=20250620170450"
   },
   {
     "name": "Military Cap",
     "id": "military-cap",
     "source": "Looting",
-    "weight": 0.07
+    "weight": 0.07,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6e/MilCap_icon.png/revision/latest?cb=20250621192614"
   },
   {
     "name": "CPU Hat Nyco Ripstop",
     "id": "cpu-hat-nyco-ripstop",
     "source": "Handshake R.3",
-    "weight": 0.113
+    "weight": 0.113,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/CPUHat_icon.png/revision/latest?cb=20250620170741"
   },
   {
     "name": "Leafy Boonie (Camo)",
     "id": "leafy-boonie-(camo)",
     "source": "Handshake R.4",
-    "weight": 0.14
+    "weight": 0.14,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/41/LBoonie_icon.png/revision/latest?cb=20250614224230"
   },
   {
     "name": "Headscarf (Black)",
     "id": "headscarf-(black)",
     "source": "Loot only",
-    "weight": 0.06
+    "weight": 0.06,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/HScarf%28Black%29_icon.png/revision/latest?cb=20250621182800"
   },
   {
     "name": "Bandana (Red)",
     "id": "bandana-(red)",
     "source": "Loot only",
-    "weight": 0.06
+    "weight": 0.06,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/af/Bandana%28Red%29_icon.png/revision/latest?cb=20250621182713"
   },
   {
     "name": "Bandana (Blue)",
     "id": "bandana-(blue)",
     "source": "Loot only",
-    "weight": 0.06
+    "weight": 0.06,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/89/Bandana%28Blue%29_icon.png/revision/latest?cb=20250621182709"
   },
   {
     "name": "Beret (Black)",
     "id": "beret-(black)",
     "source": "Loot only",
-    "weight": 0.06
+    "weight": 0.06,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/Beret%28Black%29_icon.png/revision/latest?cb=20250619191251"
   },
   {
     "name": "Beret (Red)",
     "id": "beret-(red)",
     "source": "Loot only",
-    "weight": 0.06
+    "weight": 0.06,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/Beret%28Red%29_icon.png/revision/latest?cb=20250620171051"
   },
   {
     "name": "Beret (Green)",
     "id": "beret-(green)",
     "source": "Loot only",
-    "weight": 0.06
+    "weight": 0.06,
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/Beret%28Green%29_icon.png/revision/latest?cb=20250619191236"
   }
 ]

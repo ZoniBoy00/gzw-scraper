@@ -291,7 +291,7 @@ def scrape_weapons():
                 else:
                     weapon[our_key] = val
         
-        img = get_page_image(title)
+        img = get_page_image(title) or info.get("_image")
         if img:
             weapon["image"] = img
         
@@ -325,8 +325,6 @@ def scrape_armor():
     page_categories = {
         "vests": "Armor Vest",
         "helmets": "Helmet",
-        "rigs": "Tactical Rigs",
-        "backpacks": "Backpacks",
     }
     
     listing_pages = {
@@ -379,14 +377,14 @@ def scrape_armor():
                     else:
                         item[our_key] = val
             
-            img = get_page_image(title)
+            img = get_page_image(title) or info.get("_image")
             if img:
                 item["image"] = img
-            
-            items.append(item)
-            all_individual_items[title.lower()] = item
-            time.sleep(0.3)
         
+        items.append(item)
+        all_individual_items[title.lower()] = item
+        time.sleep(0.3)
+
         results[key] = items
         if items:
             path = OUTPUT_DIR / f"{key}.json"
@@ -601,7 +599,7 @@ def scrape_ammo():
             if pen_info.get("velocity") and not item.get("velocity"):
                 item["velocity"] = pen_info["velocity"]
         
-        img = get_page_image(title)
+        img = get_page_image(title) or info.get("_image")
         if img:
             item["image"] = img
         
@@ -666,14 +664,14 @@ def scrape_attachments():
                 if wiki_key in info:
                     item[wiki_key] = info[wiki_key]
             
-            img = get_page_image(title)
+            img = get_page_image(title) or info.get("_image")
             if img:
                 item["image"] = img
-            
-            items.append(item)
-            time.sleep(0.3)
         
-        if items:
+        items.append(item)
+        time.sleep(0.3)
+    
+    if items:
             path = OUTPUT_DIR / f"{key}.json"
             with open(path, "w") as f:
                 json.dump(items, f, indent=2)
@@ -724,7 +722,7 @@ def scrape_throwables():
                 else:
                     item[our_key] = val
         
-        img = get_page_image(title)
+        img = get_page_image(title) or info.get("_image")
         if img:
             item["image"] = img
         
@@ -886,6 +884,10 @@ def scrape_all_misc():
         "headwear_items": "Headwear",
         "belts": "Belts",
         "apparel": "Apparel",
+        
+        # Backpacks & Rigs (also in armor scrape, but protect from overwrite)
+        "backpacks": "Backpacks",
+        "rigs": "Tactical Rigs",
     }
     
     for key, cat in ALL_CATEGORIES.items():
@@ -916,20 +918,20 @@ def scrape_all_misc():
                 if alt in info:
                     item[alt] = info[alt]
             
-            img = get_page_image(title)
+            img = get_page_image(title) or info.get("_image")
             if img:
                 item["image"] = img
-            
-            items.append(item)
-            time.sleep(0.3)
         
-        if items:
-            path = OUTPUT_DIR / f"{key}.json"
-            with open(path, "w") as f:
-                json.dump(items, f, indent=2, ensure_ascii=False)
-            logger.info("✅ %s: %d items saved", key, len(items))
-        else:
-            logger.info("⚠️  %s: no items found", key)
+        items.append(item)
+        time.sleep(0.3)
+    
+    if items:
+        path = OUTPUT_DIR / f"{key}.json"
+        with open(path, "w") as f:
+            json.dump(items, f, indent=2, ensure_ascii=False)
+        logger.info("✅ %s: %d items saved", key, len(items))
+    else:
+        logger.info("⚠️  %s: no items found", key)
     
     # Phase 2: Scrape listing pages that have item tables but no category members
     # (Loot, Apparel, Provisions have items ONLY in tables on their listing pages)
@@ -1187,14 +1189,14 @@ def scrape_keys():
                 if wiki_key in info:
                     item[our_key] = info[wiki_key]
             
-            img = get_page_image(title)
+            img = get_page_image(title) or info.get("_image")
             if img:
                 item["image"] = img
-            
-            items.append(item)
-            time.sleep(0.3)
         
-        if items:
+        items.append(item)
+        time.sleep(0.3)
+    
+    if items:
             path = OUTPUT_DIR / f"{key}.json"
             with open(path, "w") as f:
                 json.dump(items, f, indent=2)
