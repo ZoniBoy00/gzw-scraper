@@ -19,22 +19,14 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 lxml 2>&1 | tail -5
+        run: pip install requests beautifulsoup4 lxml pytest 2>&1 | tail -5
+
+      - name: Run tests
+        run: python3 -m pytest tests/ -v 2>&1
 
       - name: Run scraper
         run: python scrape.py --all 2>&1
-        continue-on-error: true
-
-      - name: Enrich tasks
-        run: python enrich_tasks.py 2>&1
-        continue-on-error: true
-
-      - name: Categorize tasks
-        run: python categorize_tasks.py 2>&1
-        continue-on-error: true
-
-      - name: Generate frontend data
-        run: python gen_frontend_data.py 2>&1
+        continue-on-error: false
 
       # ── Push data to gzw-data ──
       - name: Checkout gzw-data
@@ -47,21 +39,12 @@ jobs:
       - name: Copy data to gzw-data/data/
         run: |
           DST="gzw-data/data"
+          mkdir -p "$DST"
           for f in data/*.json; do
             name=$(basename "$f")
-            if [ "$name" != "package.json" ] && [ "$name" != "vercel.json" ]; then
-              cp "$f" "$DST/$name"
-              echo "  ✅ $name"
-            fi
+            cp "$f" "$DST/$name"
+            echo "  ✅ $name"
           done
-          echo "---"
-          ls -la "$DST/"
-
-      - name: Normalise data
-        run: |
-          cd gzw-data
-          if [ -f scripts/normalise_data.py ]; then python3 scripts/normalise_data.py 2>&1 || true; fi
-          if [ -f scripts/reorder_data.py ]; then python3 scripts/reorder_data.py 2>&1 || true; fi
 
       - name: Commit and push
         run: |
