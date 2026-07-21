@@ -1,12 +1,12 @@
 """
-Regressiotestit parse_infobox- ja scrape_listing_page-funktioille.
+Regression tests for parse_infobox and scrape_listing_page.
 
-Nämä kaksi funktiota ovat scraperin hauraimmat kohdat, koska ne nojaavat
-Fandom-wikin HTML-rakenteeseen (portable-infobox / wikitable). Jos Fandom
-muuttaa templaattinsa, nämä testit hajoavat ensimmäisenä -- ennen kuin
-tuotannon data hiljaa vääristyy.
+These two functions are the scraper's most fragile points because they
+rely on Fandom wiki HTML structure (portable-infobox / wikitable).
+If Fandom changes their templates, these tests will break first —
+before production data silently degrades.
 
-Aja: pytest test_scrape.py -v
+Run: pytest test_scrape.py -v
 """
 
 import bs4
