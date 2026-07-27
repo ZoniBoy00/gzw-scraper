@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Black Luxury Phone",
+    "id": "black-luxury-phone",
+    "type": "Electronics",
+    "weight": "0.100kg",
+    "grid_size": "1x1",
+    "sell_price": "$1.500",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/BLPhone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508232310"
+  },
+  {
+    "name": "Expensive Smartphone",
+    "id": "expensive-smartphone",
+    "type": "Electronics",
+    "weight": "0.100kg",
+    "grid_size": "1x1",
+    "manufacturer": "General West",
+    "sell_price": "$350",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/EPhone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250505041727"
+  },
+  {
+    "name": "Luxury Smartphone",
+    "id": "luxury-smartphone",
+    "type": "Electronics",
+    "weight": "0.220kg",
+    "grid_size": "1x1",
+    "manufacturer": "General West",
+    "sell_price": "$1,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0e/LPhone_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508232225"
+  },
+  {
+    "name": "Smartphone",
+    "id": "smartphone",
+    "type": "Electronics",
+    "weight": "0.100kg",
+    "grid_size": "1x1",
+    "sell_price": "$250",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/04/Phone_inspect.png/revision/latest?cb=20250425032205"
+  }
+]

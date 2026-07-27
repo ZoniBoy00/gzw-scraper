@@ -1,238 +1,415 @@
 [
   {
     "name": "Activated Charcoal",
+    "id": "activated-charcoal",
     "type": "Pill",
     "weight": "0.060kg",
+    "sold_by": "Lab Rat LL1",
+    "grid_size": "1x1",
+    "charges": "5",
     "effect": "Intoxication: -10",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/Charcoal_inspect.png/revision/latest/scale-to-width-down/160?cb=20250502211847"
+    "manufacturer": "S.R. Hawkin",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/Charcoal_inspect.png/revision/latest?cb=20250502211847"
   },
   {
     "name": "ARF Trauma Bandage 4",
+    "id": "arf-trauma-bandage-4",
     "type": "Bandage",
     "weight": "0.070kg",
+    "sold_by": "Lab Rat R.1",
+    "grid_size": "1x1",
+    "charges": "3",
     "effect": "Heals wounds",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Bandage_inspect.png/revision/latest/scale-to-width-down/200?cb=20250502181823"
+    "manufacturer": "Henderson",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Bandage_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502181823"
   },
   {
     "name": "Basic Surgical & Suture Kit",
+    "id": "basic-surgical-&-suture-kit",
     "type": "Surgery Kit",
     "weight": "0.600kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/SurKit_inspect.png/revision/latest/scale-to-width-down/200?cb=20250501082435"
+    "sold_by": "Lab Rat",
+    "grid_size": "1x2",
+    "charges": "5",
+    "use_time": "20s",
+    "manufacturer": "US Army",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/SurKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250501082435"
   },
   {
     "name": "Civilian Flexible Splint",
+    "id": "civilian-flexible-splint",
     "type": "Splint",
     "weight": "0.150kg",
+    "sold_by": "Lab Rat R.1",
+    "grid_size": "1x1",
+    "charges": "2",
     "effect": "Removes Limping effect",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/32/CivilianSplint_inspect.png/revision/latest/scale-to-width-down/200?cb=20250502211703"
+    "manufacturer": "Narithcare",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/32/CivilianSplint_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502211703"
   },
   {
     "name": "Civilian Gauze",
+    "id": "civilian-gauze",
     "type": "Bandage",
     "weight": "0.020kg",
+    "grid_size": "1x1",
+    "charges": "2",
     "effect": "Heals wounds",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Gauze_inspect.png/revision/latest/scale-to-width-down/200?cb=20250504074656"
+    "manufacturer": "Narithcare",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Gauze_inspect.png/revision/latest/scale-to-width-down/268?cb=20250504074656"
   },
   {
     "name": "Combat Tourniquet",
+    "id": "combat-tourniquet",
     "type": "Tourniquet",
     "weight": "0.090kg",
+    "sold_by": "Lab Rat",
+    "grid_size": "1x1",
+    "charges": "4",
     "effect": "Stops heavy bleeding.",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/CT_inspect.png/revision/latest/scale-to-width-down/200?cb=20250501090154"
+    "manufacturer": "Henderson",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/CT_inspect.png/revision/latest/scale-to-width-down/268?cb=20250501090154"
   },
   {
     "name": "DT-0X",
+    "id": "dt-0x",
     "type": "Stimulator",
     "weight": "0.100kg",
+    "sold_by": "Lab Rat R.4",
+    "grid_size": "1x1",
+    "charges": "1",
     "effect": "Removes up to 100% of intoxication Increase Hydration Drain Increase Liver Damange",
+    "use_time": "3 seconds",
     "duration": "90 seconds",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f9/DT-0X_inspect.png/revision/latest/scale-to-width-down/200?cb=20260428085209"
+    "manufacturer": "General Local",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f9/DT-0X_inspect.png/revision/latest/scale-to-width-down/268?cb=20260428085209"
   },
   {
     "name": "Emergency Suture Kit",
+    "id": "emergency-suture-kit",
     "type": "Surgery Kit",
     "weight": "0.200kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/EKit_inspect.png/revision/latest/scale-to-width-down/200?cb=20260404064048"
+    "sold_by": "Lab Rat",
+    "grid_size": "1x2",
+    "charges": "2",
+    "use_time": "20s",
+    "manufacturer": "Henderson",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/EKit_inspect.png/revision/latest?cb=20260404064048"
   },
   {
     "name": "EPO",
+    "id": "epo",
     "type": "Stimulator",
     "weight": "0.100kg",
+    "sold_by": "Lab Rat R.3",
+    "grid_size": "1x1",
+    "charges": "1",
     "effect": "Increase Blood Regeneration Increase intoxication Increase hydration drain Increase energy drain",
+    "use_time": "3 seconds",
     "duration": "3 minutes",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/EPO_inspect.png/revision/latest/scale-to-width-down/200?cb=20260428091737"
+    "manufacturer": "Parasol Corp",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/EPO_inspect.png/revision/latest/scale-to-width-down/268?cb=20260428091737"
   },
   {
     "name": "EPO V2",
+    "id": "epo-v2",
     "type": "Stimulator",
     "weight": "0.100kg",
+    "sold_by": "Lab Rat R.??",
+    "grid_size": "1x1",
+    "charges": "1",
     "effect": "Increases Blood Regeneration Increase intoxication Increase hydration drain Increase energy drain",
     "duration": "3 min",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/EPO_inspect.png/revision/latest/scale-to-width-down/200?cb=20260428091737"
+    "manufacturer": "Parasol Corp",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/EPO_inspect.png/revision/latest/scale-to-width-down/268?cb=20260428091737"
   },
   {
     "name": "Fenethylline",
+    "id": "fenethylline",
     "type": "Stimulator",
     "weight": "0.050kg",
+    "sold_by": "Looting",
+    "grid_size": "1x1",
+    "charges": "4",
     "effect": "Increases Stamina Regeneration",
     "duration": "3 min",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/de/Fenethyl_inspect.png/revision/latest/scale-to-width-down/140?cb=20250621182751"
+    "manufacturer": "General Local",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/de/Fenethyl_inspect.png/revision/latest?cb=20250621182751"
   },
   {
     "name": "Flexible Splint",
+    "id": "flexible-splint",
     "type": "Splint",
     "weight": "0.130kg",
-    "effect": "Removes Fracture"
+    "sold_by": "Lab Rat R.2",
+    "grid_size": "1x1",
+    "charges": "4",
+    "effect": "Removes Fracture",
+    "manufacturer": "Henderson"
   },
   {
     "name": "HpR 3-S",
+    "id": "hpr-3-s",
     "type": "Stimulator",
     "weight": "0.100kg",
+    "sold_by": "Lab Rat R.3",
+    "grid_size": "1x1",
+    "charges": "1",
     "effect": "Regenerates up to 50% of organs Increase intoxication Gives pain",
+    "use_time": "3 seconds",
     "duration": "4 minutes",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/HpR_3-S_inspect.png/revision/latest/scale-to-width-down/200?cb=20260428090404"
+    "manufacturer": "Parasol Corp",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/HpR_3-S_inspect.png/revision/latest/scale-to-width-down/267?cb=20260428090404"
   },
   {
     "name": "HpR 3-S V2",
+    "id": "hpr-3-s-v2",
     "type": "Stimulator",
     "weight": "0.100kg",
+    "sold_by": "Lab Rat R.??",
+    "grid_size": "1x1",
+    "charges": "1",
     "effect": "Regenerates up to 50% of organs Increase intoxication Gives pain",
     "duration": "5 min",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/HpR_3-S_V2_inspect.png/revision/latest/scale-to-width-down/200?cb=20260427014740"
+    "manufacturer": "Parasol Corp",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/HpR_3-S_V2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260427014740"
   },
   {
     "name": "Ibalin",
+    "id": "ibalin",
     "type": "Pill",
     "weight": "0.050kg",
+    "sold_by": "Lab Rat",
+    "grid_size": "1x1",
+    "charges": "2",
     "effect": "150s Duration: Efficiency: +33%",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Ibalin_inspect.png/revision/latest/scale-to-width-down/200?cb=20250502210313"
+    "manufacturer": "Narithcare",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Ibalin_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502210313"
   },
   {
     "name": "Large Blood Bag",
+    "id": "large-blood-bag",
     "type": "IV",
     "weight": "1.000kg",
+    "sold_by": "Lab Rat",
+    "grid_size": "1x2",
+    "charges": "3",
     "effect": "+500 ml of blood per charge",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/LargeBloodBag.png/revision/latest/scale-to-width-down/200?cb=20250501081851"
+    "use_time": "12",
+    "manufacturer": "MedCare",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/LargeBloodBag.png/revision/latest/scale-to-width-down/268?cb=20250501081851"
   },
   {
     "name": "Large Hemostatic Syringe",
+    "id": "large-hemostatic-syringe",
     "type": "Syringe",
     "weight": "0.150kg",
+    "sold_by": "Lab Rat",
+    "grid_size": "1x1",
+    "charges": "6",
     "effect": "Stops heavy bleeding.",
+    "use_time": "2",
+    "manufacturer": "Rev Med X",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/LHem_inspect.png/revision/latest?cb=20260421080856"
   },
   {
     "name": "M.F.A.T. Tourniquet",
+    "id": "m.f.a.t.-tourniquet",
     "type": "Tourniquet",
     "weight": "0.080kg",
+    "sold_by": "Lab Rat R.1",
+    "grid_size": "1x1",
+    "charges": "2",
     "effect": "Stops one bleeding status: Severe Bleeding Medium Bleeding Light Bleeding",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/MFAT_inspect.png/revision/latest/scale-to-width-down/199?cb=20250502211227"
+    "manufacturer": "Pressing Medical",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/MFAT_inspect.png/revision/latest?cb=20250502211227"
   },
   {
-    "name": "Medical"
+    "name": "Medical",
+    "id": "medical"
   },
   {
     "name": "Medium Blood Bag",
+    "id": "medium-blood-bag",
     "type": "IV",
     "weight": "1.600kg",
+    "sold_by": "Lab Rat",
+    "grid_size": "1x2",
+    "charges": "2",
     "effect": "+750ml of blood per charge",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/Screenshot_2026-04-03_235410.png/revision/latest/scale-to-width-down/200?cb=20260404065601"
+    "use_time": "12s",
+    "manufacturer": "MedCare",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/Screenshot_2026-04-03_235410.png/revision/latest/scale-to-width-down/268?cb=20260404065601"
   },
   {
     "name": "Meloxicam",
+    "id": "meloxicam",
     "type": "Pill",
     "weight": "0.050kg",
+    "sold_by": "Lab Rat LL1",
+    "grid_size": "1x1",
+    "charges": "2",
     "effect": "300s Duration: Remove pain effects",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ae/Melox_inspect.png/revision/latest/scale-to-width-down/200?cb=20250502211523"
+    "manufacturer": "Jeremiah Pharmaceutical",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ae/Melox_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502211523"
   },
   {
     "name": "Methylphenidate",
+    "id": "methylphenidate",
     "type": "Stimulator",
     "weight": "0.050kg",
+    "sold_by": "Lab Rat R.3",
+    "grid_size": "1x1",
+    "charges": "2",
     "effect": "Increases Stamina Regeneration Increase hydration drain",
-    "duration": "5 min"
+    "duration": "5 min",
+    "manufacturer": "Narithcare"
   },
   {
     "name": "Morphine",
+    "id": "morphine",
     "type": "Painkiller (Autoinjector)",
     "weight": "0.100kg",
+    "sold_by": "Lab Rat R.4",
+    "grid_size": "1x1",
+    "charges": "1",
     "effect": "Completely suppresses pain Completely suppresses tremors and limping Increase intoxication Increase Liver Damage",
+    "use_time": "3 seconds",
     "duration": "4 minutes",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/de/Morphine_inspect.png/revision/latest/scale-to-width-down/200?cb=20260428092328"
+    "manufacturer": "Parasol Corp",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/de/Morphine_inspect.png/revision/latest/scale-to-width-down/268?cb=20260428092328"
   },
   {
     "name": "Moxifloxacin",
+    "id": "moxifloxacin",
     "type": "Pill",
     "weight": "0.050kg",
-    "effect": "Intoxication: -25"
+    "sold_by": "Lab Rat LL2",
+    "grid_size": "1x1",
+    "charges": "4",
+    "effect": "Intoxication: -25",
+    "manufacturer": "MWunder Pharmaceutical"
   },
   {
     "name": "ORI-12",
+    "id": "ori-12",
     "type": "Stimulator",
     "weight": "0.100kg",
+    "sold_by": "Lab Rat R.3",
+    "grid_size": "1x1",
+    "charges": "1",
     "effect": "Regenerate up to 50% of all bones Increase intoxication Gives pain",
+    "use_time": "3 seconds",
     "duration": "4 minutes",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/ORI-12_inspect.png/revision/latest/scale-to-width-down/200?cb=20260428091006"
+    "manufacturer": "Parasol Corp",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/ORI-12_inspect.png/revision/latest/scale-to-width-down/268?cb=20260428091006"
   },
   {
     "name": "ORI-12 V2",
+    "id": "ori-12-v2",
     "type": "Stimulator",
     "weight": "0.080kg",
+    "sold_by": "Lab Rat R.??",
+    "grid_size": "1x1",
+    "charges": "1",
     "effect": "Regenerate up to 65% of all bones Increase intoxication Gives pain",
     "duration": "5 Minute",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/22/ORI-12V2_inspect.png/revision/latest/scale-to-width-down/200?cb=20260427014950"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/22/ORI-12V2_inspect.png/revision/latest/scale-to-width-down/268?cb=20260427014950"
   },
   {
     "name": "Paracetamol",
+    "id": "paracetamol",
     "type": "Pill",
     "weight": "0.050kg",
+    "sold_by": "Lab Rat R.2",
+    "grid_size": "1x1",
+    "charges": "2",
     "effect": "Removes Pain",
-    "duration": "300s"
+    "duration": "300s",
+    "manufacturer": "Fernsby's Healthcare"
   },
   {
     "name": "Potassium Iodide",
+    "id": "potassium-iodide",
     "type": "Pill",
     "weight": "0.050kg",
+    "sold_by": "Lab Rat R.1",
+    "grid_size": "1x1",
+    "charges": "2",
     "effect": "Radiation: -4",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4f/Ki_inspect.png/revision/latest/scale-to-width-down/200?cb=20250502210111"
+    "manufacturer": "S.R. Hawkins",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4f/Ki_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502210111"
   },
   {
     "name": "Retractable Tourniquet",
+    "id": "retractable-tourniquet",
     "type": "Bleeding",
     "weight": "0.050kgkg",
-    "effect": "Stops one bleeding status: Severe Bleeding Medium Bleeding Light Bleeding"
+    "grid_size": "1x1",
+    "charges": "1",
+    "effect": "Stops one bleeding status: Severe Bleeding Medium Bleeding Light Bleeding",
+    "manufacturer": "Narithcare"
   },
   {
     "name": "Seal modular bandage",
+    "id": "seal-modular-bandage",
     "type": "Wound Care",
     "weight": "0.090kg",
-    "effect": "Heals 4 Wounds per Charge"
+    "sold_by": "Lab Rat LL4",
+    "grid_size": "1x1",
+    "charges": "6",
+    "effect": "Heals 4 Wounds per Charge",
+    "use_time": "3 seconds",
+    "manufacturer": "SEAL Medical"
   },
   {
     "name": "Small Blood Bag",
+    "id": "small-blood-bag",
     "type": "IV",
     "weight": "0.500kg",
+    "sold_by": "Lab Rat",
+    "grid_size": "1x1",
+    "charges": "1",
     "effect": "+500ml of blood",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/47/SBlood_inspect.png/revision/latest/scale-to-width-down/200?cb=20250502211339"
+    "use_time": "12s",
+    "manufacturer": "MedCare",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/47/SBlood_inspect.png/revision/latest/scale-to-width-down/268?cb=20250502211339"
   },
   {
     "name": "Small Hemostatic Syringe",
+    "id": "small-hemostatic-syringe",
     "type": "Syringe",
     "weight": "0.060kg",
+    "sold_by": "Lab Rat",
+    "grid_size": "1x1",
+    "charges": "3",
     "effect": "Stops heavy bleeding.",
+    "use_time": "2",
+    "manufacturer": "Rev Med X",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/77/SHem_inspect.png/revision/latest?cb=20260404062657"
   },
   {
     "name": "Small Suture Kit",
+    "id": "small-suture-kit",
     "type": "Surgery Kit",
     "weight": "0.350kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/SutKit_inspect.png/revision/latest/scale-to-width-down/200?cb=20250501090058"
+    "sold_by": "Lab Rat",
+    "grid_size": "1x2",
+    "charges": "3",
+    "use_time": "20s",
+    "manufacturer": "Henderson",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/SutKit_inspect.png/revision/latest/scale-to-width-down/268?cb=20250501090058"
   },
   {
     "name": "Strychnine",
+    "id": "strychnine",
     "type": "Strimulator",
     "weight": "0.10kg",
+    "sold_by": "Looting",
+    "grid_size": "1x1",
+    "charges": "1",
     "effect": "Blocks Stamina Drain Drain arm stamina Increase intoxication Increase energy drain Gives pain",
-    "duration": "1 min"
+    "duration": "1 min",
+    "manufacturer": "Parasol Corp"
   }
 ]

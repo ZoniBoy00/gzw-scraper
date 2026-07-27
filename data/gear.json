@@ -1,145 +1,205 @@
 [
   {
     "name": "AMP12",
+    "id": "amp12",
     "type": "Backpack",
     "weight": "2.630kg",
+    "grid_size": "4x5",
+    "sold_by": "Handshake R.3",
     "slots": "20",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/AMP12_inspect.png/revision/latest/scale-to-width-down/200?cb=20240510004947"
+    "manufacturer": "5.11",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/AMP12_inspect.png/revision/latest/scale-to-width-down/268?cb=20240510004947"
   },
   {
     "name": "Armor Vests",
+    "id": "armor-vests",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Commander%28Black%29_icon.png/revision/latest?cb=20250609082307"
   },
   {
     "name": "Assault Backpack",
+    "id": "assault-backpack",
     "type": "Backpack",
     "weight": "1.250kg",
+    "grid_size": "3x4",
     "slots": "20",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Assault_inspect.png/revision/latest/scale-to-width-down/200?cb=20240512024613"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Assault_inspect.png/revision/latest?cb=20240512024613"
   },
   {
     "name": "Backpacks",
+    "id": "backpacks",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/2x2_Inventory.png/revision/latest?cb=20240509033218"
   },
   {
-    "name": "Belts"
+    "name": "Belts",
+    "id": "belts"
   },
   {
     "name": "Civilian Trekstars 70L Backpack",
+    "id": "civilian-trekstars-70l-backpack",
     "type": "Backpack",
     "weight": "2.320kg",
+    "grid_size": "6x7",
+    "sold_by": "Artisan R.4",
     "slots": "42",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3b/Trekstars_inspect.png/revision/latest/scale-to-width-down/160?cb=20260422184817"
+    "manufacturer": "Trekstars",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3b/Trekstars_inspect.png/revision/latest?cb=20260422184817"
   },
   {
     "name": "Delta Backpack",
+    "id": "delta-backpack",
     "type": "Backpack",
     "weight": "2.630kg",
+    "grid_size": "6x6",
+    "sold_by": "Turncoat R.4",
     "slots": "36",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Delta_inspect.png/revision/latest/scale-to-width-down/181?cb=20240509053520"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Delta_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509053520"
   },
   {
     "name": "Drawstring Backpack",
+    "id": "drawstring-backpack",
     "type": "Backpack",
     "weight": "0.100kg",
+    "grid_size": "2x2",
     "slots": "4",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/99/Drawstring_inspect.png/revision/latest/scale-to-width-down/164?cb=20240509070327"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/99/Drawstring_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070327"
   },
   {
-    "name": "Face Cover"
+    "name": "Face Cover",
+    "id": "face-cover"
   },
   {
     "name": "Falang 28",
+    "id": "falang-28",
     "type": "Backpack",
     "weight": "1.300kg",
+    "grid_size": "3x4",
     "slots": "20",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6d/Falang_inspect.png/revision/latest/scale-to-width-down/182?cb=20240511180522"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6d/Falang_inspect.png/revision/latest/scale-to-width-down/268?cb=20240511180522"
   },
   {
-    "name": "Glasses"
+    "name": "Glasses",
+    "id": "glasses"
   },
   {
     "name": "Half mask (Black)",
+    "id": "half-mask-black",
     "type": "Face Mask",
-    "weight": "0.060kg"
+    "weight": "0.060kg",
+    "grid_size": "1x1",
+    "sold_by": "Banshee R.3",
+    "manufacturer": "5ive Star Gear"
   },
   {
     "name": "Half Mask (Skull)",
+    "id": "half-mask-skull",
     "type": "Face Mask",
-    "weight": "0.030kg"
+    "weight": "0.030kg",
+    "grid_size": "1x1",
+    "sold_by": "Loot only.",
+    "manufacturer": "General East"
   },
   {
     "name": "Half Mask (Woodland)",
+    "id": "half-mask-woodland",
     "type": "Face Mask",
     "weight": "0.060kg",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/Mask%28Woodland%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20240522192529"
+    "grid_size": "1x1",
+    "sold_by": "Handshake R.3",
+    "manufacturer": "General East",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/Mask%28Woodland%29_inspect.png/revision/latest/scale-to-width-down/268?cb=20240522192529"
   },
   {
-    "name": "Headsets"
+    "name": "Headsets",
+    "id": "headsets"
   },
   {
-    "name": "Headwear"
+    "name": "Headwear",
+    "id": "headwear"
   },
   {
     "name": "JDEN Jam Ball",
+    "id": "jden-jam-ball",
     "type": "Backpack",
     "weight": "0.900kg",
+    "grid_size": "3x4",
     "slots": "12",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/47/JDEN_inspect.png/revision/latest/scale-to-width-down/164?cb=20240512024534"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/47/JDEN_inspect.png/revision/latest/scale-to-width-down/268?cb=20240512024534"
   },
   {
     "name": "Pandatac Sun Mask",
+    "id": "pandatac-sun-mask",
     "type": "Face Mask",
-    "weight": "0.060kg"
+    "weight": "0.060kg",
+    "grid_size": "1x1",
+    "sold_by": "Handshake R.2",
+    "manufacturer": "Pandatac"
   },
   {
     "name": "Patrol Backpack",
+    "id": "patrol-backpack",
     "type": "Backpack",
     "weight": "1.500kg",
+    "grid_size": "4x5",
     "slots": "20",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/41/Patrol_inspect.png/revision/latest/scale-to-width-down/182?cb=20240509205614"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/41/Patrol_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509205614"
   },
   {
     "name": "Plate Carriers",
+    "id": "plate-carriers",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Specter_icon.png/revision/latest/scale-to-width-down/132?cb=20240515140629"
   },
   {
     "name": "Rush 72 2.0",
+    "id": "rush-72-2.0",
     "type": "Backpack",
     "weight": "2.400kg",
+    "grid_size": "5x5",
+    "sold_by": "Handshake R.4",
     "slots": "25",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/Rush_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509054757"
+    "manufacturer": "5.11",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/Rush_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509054757"
   },
   {
     "name": "Scorpion OCP Convoy Pack",
+    "id": "scorpion-ocp-convoy-pack",
     "type": "Backpack",
     "weight": "1.360kg",
+    "grid_size": "4x4",
+    "sold_by": "Handshake R.3",
     "slots": "16",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/Scorpion_icon.png/revision/latest/scale-to-width-down/199?cb=20250622125342"
+    "manufacturer": "Condor Outdoor",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/51/Scorpion_icon.png/revision/latest?cb=20250622125342"
   },
   {
     "name": "Small Tourist Backpack",
+    "id": "small-tourist-backpack",
     "type": "Backpack",
     "weight": "0.072kg",
+    "grid_size": "2x3",
     "slots": "6",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/STourist_inspect.png/revision/latest/scale-to-width-down/171?cb=20240509070434"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/STourist_inspect.png/revision/latest?cb=20240509070434"
   },
   {
     "name": "Sport Backpack",
+    "id": "sport-backpack",
     "type": "Backpack",
     "weight": "0.490kg",
+    "grid_size": "3x3",
     "slots": "9",
-    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bf/Sport_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509070402"
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bf/Sport_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509070402"
   },
   {
     "name": "Tactical Rigs",
+    "id": "tactical-rigs",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/25/SRig_icon.png/revision/latest/scale-to-width-down/132?cb=20240509065540"
   },
   {
     "name": "Weapons",
+    "id": "weapons",
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/AK-12_inspect.png/revision/latest/scale-to-width-down/200?cb=20250602231732"
   },
   {
-    "name": "Weapons camouflage"
+    "name": "Weapons camouflage",
+    "id": "weapons-camouflage"
   }
 ]

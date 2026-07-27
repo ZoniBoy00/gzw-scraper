@@ -1,0 +1,136 @@
+[
+  {
+    "name": "AK Ratnik Dust Cover",
+    "id": "ak-ratnik-dust-cover",
+    "type": "Upper Receiver",
+    "weight": "0.210 kg",
+    "sold_by": "Artisan R.3 Turncoat R.2",
+    "buy_price": "$487",
+    "manufacturer": "Kalashnikov Concern",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/AK_Ratnik_Dust_Cover_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615191602"
+  },
+  {
+    "name": "AK-100 Series Dust Cover",
+    "id": "ak-100-series-dust-cover",
+    "type": "Upper Receiver",
+    "weight": "??? kg",
+    "sold_by": "????",
+    "manufacturer": "???"
+  },
+  {
+    "name": "AK-308 Dust Cover",
+    "id": "ak-308-dust-cover",
+    "type": "Upper Receiver",
+    "weight": "0.115 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Kalashnikov concern"
+  },
+  {
+    "name": "AK/AKM Dust Cover (late)",
+    "id": "ak/akm-dust-cover-late",
+    "type": "Upper Receiver",
+    "weight": "??? kg",
+    "sold_by": "????",
+    "manufacturer": "???"
+  },
+  {
+    "name": "AKS-74U Dust Cover",
+    "id": "aks-74u-dust-cover",
+    "type": "Upper Receiver",
+    "weight": "0.104 kg",
+    "sold_by": "Turncoat R.1",
+    "buy_price": "$107",
+    "manufacturer": "Kalashnikov concern"
+  },
+  {
+    "name": "CQ A1 Upper Receiver",
+    "id": "cq-a1-upper-receiver",
+    "type": "Upper Receiver",
+    "weight": "0.240 kg",
+    "sold_by": "Gunny R.2",
+    "buy_price": "$126",
+    "manufacturer": "Norinco"
+  },
+  {
+    "name": "DDMK18 Upper Receiver",
+    "id": "ddmk18-upper-receiver",
+    "type": "Upper Receiver",
+    "weight": "0.198 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Daniel Defense",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/71/DDMK18_Upper_inspect.png/revision/latest?cb=20250613222725"
+  },
+  {
+    "name": "Dog Leg Rail",
+    "id": "dog-leg-rail",
+    "type": "Upper Receiver",
+    "weight": "0.175 kg",
+    "sold_by": "Artisan R.3",
+    "manufacturer": "Texas Weapons Systems"
+  },
+  {
+    "name": "M16A1 Upper Receiver",
+    "id": "m16a1-upper-receiver",
+    "type": "Upper Receiver",
+    "weight": "0.388 kg",
+    "sold_by": "Gunny R.1",
+    "buy_price": "$214",
+    "manufacturer": "Colt",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9b/M16A1_Upper_inspect.png/revision/latest?cb=20250614164824"
+  },
+  {
+    "name": "M4 Upper Receiver",
+    "id": "m4-upper-receiver",
+    "type": "Upper Receiver",
+    "weight": "0.240 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Colt",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5b/M4_Upper_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509185726"
+  },
+  {
+    "name": "MP5 Upper Receiver",
+    "id": "mp5-upper-receiver",
+    "type": "Upper Receiver",
+    "weight": "0.580 kg",
+    "sold_by": "Gunny R.1",
+    "manufacturer": "Heckler & Koch",
+    "size_change_horizontal": "+1"
+  },
+  {
+    "name": "MP5SD Upper Receiver",
+    "id": "mp5sd-upper-receiver",
+    "type": "Upper Receiver",
+    "weight": "0.620 kg",
+    "sold_by": "Gunny R.???",
+    "manufacturer": "Heckler & Koch",
+    "size_change_horizontal": "+1"
+  },
+  {
+    "name": "Picatinny Dust Cover",
+    "id": "picatinny-dust-cover",
+    "type": "Upper Receiver",
+    "weight": "0.194 kg",
+    "sold_by": "Turncoat R.4",
+    "buy_price": "$326",
+    "manufacturer": "F.A.B."
+  },
+  {
+    "name": "SIG MCX Upper Receiver",
+    "id": "sig-mcx-upper-receiver",
+    "type": "Upper Receiver",
+    "weight": "0.700 kg",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$894",
+    "manufacturer": "Sig Sauer",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/MCX_Upper_inspect.png/revision/latest?cb=20250614021321"
+  },
+  {
+    "name": "SVD Dust Cover",
+    "id": "svd-dust-cover",
+    "type": "Upper Receiver",
+    "weight": "0.256 kg",
+    "sold_by": "Artisan R.4",
+    "buy_price": "$192",
+    "manufacturer": "Kalashnikov concern"
+  }
+]

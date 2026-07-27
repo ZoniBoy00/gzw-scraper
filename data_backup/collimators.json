@@ -1,0 +1,222 @@
+[
+  {
+    "name": "503CU Micro Sight",
+    "id": "503cu-micro-sight",
+    "type": "Collimator",
+    "weight": "0.085 kg",
+    "sold_by": "Gunny R.3",
+    "manufacturer": "Holosun",
+    "sighting_range": "300m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/503CU_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615220947"
+  },
+  {
+    "name": "510C Reflex Sight",
+    "id": "510c-reflex-sight",
+    "type": "Collimator",
+    "weight": "0.140 kg",
+    "sold_by": "Gunny R.4",
+    "manufacturer": "Holosun",
+    "magnification": "1x",
+    "sighting_range": "300m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/510C_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615221345"
+  },
+  {
+    "name": "Aimpoint ACRO P-2",
+    "id": "aimpoint-acro-p-2",
+    "type": "Collimator",
+    "weight": "0.060 kg",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$1,015",
+    "manufacturer": "Aimpoint",
+    "magnification": "1xx",
+    "sighting_range": "300m"
+  },
+  {
+    "name": "Aimpoint Micro H-2",
+    "id": "aimpoint-micro-h-2",
+    "type": "Collimator",
+    "weight": "0.093 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Aimpoint",
+    "magnification": "1x",
+    "sighting_range": "300m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/43/Aimpoint_Micro_H-2_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20260227152421"
+  },
+  {
+    "name": "Aimpoint Micro T-2",
+    "id": "aimpoint-micro-t-2",
+    "type": "Collimator",
+    "weight": "??? kg",
+    "sold_by": "???",
+    "manufacturer": "???",
+    "weapon_handling": "??? %",
+    "magnification": "???x",
+    "sighting_range": "???m"
+  },
+  {
+    "name": "HS507C X2 Reflex Sight",
+    "id": "hs507c-x2-reflex-sight",
+    "type": "Collimator",
+    "weight": "0.045 kg",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$989",
+    "manufacturer": "Holosun",
+    "magnification": "2x",
+    "sighting_range": "100m"
+  },
+  {
+    "name": "HWS EXPS2 Holographic Sight (1-Dot)",
+    "id": "hws-exps2-holographic-sight-1-dot",
+    "type": "Collimator",
+    "weight": "0.318 kg",
+    "sold_by": "Gunny R.2",
+    "manufacturer": "Eotech",
+    "magnification": "1xx",
+    "sighting_range": "300m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/85/EXPS2_inspect.png/revision/latest/scale-to-width-down/268?cb=20250615220654"
+  },
+  {
+    "name": "HWS EXPS2 Holographic Sight (Circle 1-Dot)",
+    "id": "hws-exps2-holographic-sight-circle-1-dot",
+    "type": "Collimator",
+    "weight": "0.318 kg",
+    "sold_by": "???",
+    "manufacturer": "Eotech",
+    "magnification": "1x",
+    "sighting_range": "300m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e9/EXPS2_%28Circle_1-Dot%29_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20250729001837"
+  },
+  {
+    "name": "HWS EXPS2 Holographic Sight (Circle 2-Dot) (FDE)",
+    "id": "hws-exps2-holographic-sight-circle-2-dot-fde",
+    "type": "Collimator",
+    "weight": "??? kg",
+    "sold_by": "???",
+    "manufacturer": "EOTECH",
+    "weapon_handling": "??? %",
+    "magnification": "1xx",
+    "sighting_range": "???m"
+  },
+  {
+    "name": "HWS EXPS3 Holographic Sight (Circle 1-Dot)",
+    "id": "hws-exps3-holographic-sight-circle-1-dot",
+    "type": "Collimator",
+    "weight": ".318 kg",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$1,043",
+    "manufacturer": "EOTECH",
+    "magnification": "1x",
+    "sighting_range": "300m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/EXPS3_inspect.png/revision/latest?cb=20240509143204"
+  },
+  {
+    "name": "HWS EXPS3 Holographic Sight (Circle 2-Dot)",
+    "id": "hws-exps3-holographic-sight-circle-2-dot",
+    "type": "Collimator",
+    "weight": "0.318 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Eotech",
+    "magnification": "1xx",
+    "sighting_range": "300m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/EXPS3_%28Circle_2-Dot%29_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20260227153514"
+  },
+  {
+    "name": "Kobra EKP-1S-03 Red Dot Sight",
+    "id": "kobra-ekp-1s-03-red-dot-sight",
+    "type": "Collimator",
+    "weight": "0.410 kg",
+    "sold_by": "Turncoat R.2",
+    "buy_price": "$678",
+    "manufacturer": "Kobra Axion",
+    "magnification": "1xx",
+    "sighting_range": "300m"
+  },
+  {
+    "name": "Kobra EKP-8-18 Red Dot Sight",
+    "id": "kobra-ekp-8-18-red-dot-sight",
+    "type": "Collimator",
+    "weight": "0.410 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Kobra Axion",
+    "magnification": "1x",
+    "sighting_range": "300m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c4/EKP-8-18_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20260227152926"
+  },
+  {
+    "name": "Micro T-1 Red Dot Sight",
+    "id": "micro-t-1-red-dot-sight",
+    "type": "Collimator",
+    "weight": "0.086 kg",
+    "sold_by": "Gunny R.2",
+    "manufacturer": "Aimpoint",
+    "magnification": "1xx",
+    "sighting_range": "300m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/T-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616004427"
+  },
+  {
+    "name": "Micro T-2 Red Dot Sight",
+    "id": "micro-t-2-red-dot-sight",
+    "type": "Collimator",
+    "weight": "0.084 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Aimpoint",
+    "magnification": "2x",
+    "sighting_range": "300m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/Micro_T-2_Red_Dot_Sight_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20260227152607"
+  },
+  {
+    "name": "OKP7 Red Dot Sight",
+    "id": "okp7-red-dot-sight",
+    "type": "Collimator",
+    "weight": "0.340 kg",
+    "sold_by": "Artisan R.2",
+    "manufacturer": "General East",
+    "magnification": "1xx",
+    "sighting_range": "300m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f2/OKP7_ingame_reticle.png/revision/latest/scale-to-width-down/200?cb=20251114142042"
+  },
+  {
+    "name": "Pilad P1x42 Red Dot Sight",
+    "id": "pilad-p1x42-red-dot-sight",
+    "type": "Collimator",
+    "weight": "0.160 kg",
+    "sold_by": "???",
+    "manufacturer": "VOMZ",
+    "weapon_handling": "??? %",
+    "magnification": "1xx",
+    "sighting_range": "300m"
+  },
+  {
+    "name": "Pilad Р2.5х24L Brevis Assault Scope",
+    "id": "pilad-р2.5х24l-brevis-assault-scope",
+    "type": "Collimator",
+    "weight": "0.290 kg",
+    "sold_by": "Turncoat R.2",
+    "buy_price": "$468",
+    "manufacturer": "VOMZ",
+    "magnification": "2.5xx",
+    "sighting_range": "600m"
+  },
+  {
+    "name": "PK-01 VS Red Dot Sight",
+    "id": "pk-01-vs-red-dot-sight",
+    "type": "Collimator",
+    "weight": "0.900 kg",
+    "sold_by": "Artisan R.2",
+    "buy_price": "$386",
+    "manufacturer": "Belomo",
+    "magnification": "2x",
+    "sighting_range": "300m"
+  },
+  {
+    "name": "Viper Red Dot Sight",
+    "id": "viper-red-dot-sight",
+    "type": "Collimator",
+    "weight": "0.031 kg",
+    "sold_by": "Banshee R.2",
+    "buy_price": "$578",
+    "manufacturer": "Vortex optics",
+    "magnification": "1xx",
+    "sighting_range": "100m"
+  }
+]

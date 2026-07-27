@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Cache Report IX",
+    "id": "cache-report-ix",
+    "vendor": "Gunny",
+    "location": "North of Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Cryptic Signals",
+    "id": "cryptic-signals",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/Cryptic_Signals_2nd_Station_Map_location.png/revision/latest/scale-to-width-down/200?cb=20260422002942"
+  },
+  {
+    "name": "Editions",
+    "id": "editions",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/Gzw_editions.jpg/revision/latest/scale-to-width-down/200?cb=20240511163725"
+  },
+  {
+    "name": "Hunter's Paradise Weapon Storage Key",
+    "id": "hunters-paradise-weapon-storage-key",
+    "type": "Key",
+    "size": "1x1",
+    "room_contains": "2 Weapon Crates, Random loose weapon parts",
+    "town": "Hunter's Paradise",
+    "map_location": "160x168",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/Hunter%27s_Paradise_Weapon_Storage_Key.png/revision/latest/scale-to-width-down/268?cb=20240504043117"
+  }
+]

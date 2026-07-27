@@ -1,0 +1,106 @@
+[
+  {
+    "name": "AK RP-1 Charging Handle",
+    "id": "ak-rp-1-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.017 kg",
+    "sold_by": "Artisan R.3",
+    "manufacturer": "Zenitco",
+    "reload_speed": "+6 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/91/RP1_Ch_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617011308"
+  },
+  {
+    "name": "AR-15 GRIP-N-RIP Charging Handle",
+    "id": "ar-15-grip-n-rip-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.036 kg",
+    "sold_by": "Gunny R.3",
+    "manufacturer": "Daniel Defense",
+    "reload_speed": "+4 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cc/GripNRip_Ch_inspect.png/revision/latest/scale-to-width-down/267?cb=20250613224642"
+  },
+  {
+    "name": "AR-15 Supreme Charging Handle",
+    "id": "ar-15-supreme-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.030 kg",
+    "sold_by": "Gunny R.4",
+    "buy_price": "$166",
+    "manufacturer": "Antreg",
+    "reload_speed": "+6.0 %"
+  },
+  {
+    "name": "CQ A1 Charging Handle",
+    "id": "cq-a1-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.028 kg",
+    "sold_by": "Gunny R.1",
+    "manufacturer": "Norinco",
+    "reload_speed": "-2 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/CQ_A1_Ch_inspect.png/revision/latest/scale-to-width-down/267?cb=20250614172556"
+  },
+  {
+    "name": "F1 Charging Handle",
+    "id": "f1-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.027 kg",
+    "sold_by": "Gunny R.2",
+    "manufacturer": "F1-firearms",
+    "reload_speed": "+2.0 %"
+  },
+  {
+    "name": "HK MP5 Cocking Handle",
+    "id": "hk-mp5-cocking-handle",
+    "type": "Charging Handle",
+    "weight": "0.120 kg",
+    "sold_by": "Gunny R.1",
+    "manufacturer": "Heckler & Koch"
+  },
+  {
+    "name": "SCH 5.56 Charging Handle",
+    "id": "sch-5.56-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.080 kg",
+    "sold_by": "Gunny R.3",
+    "manufacturer": "Geissele Automatics",
+    "reload_speed": "+4.0 %"
+  },
+  {
+    "name": "SCH 5.56 Charging Handle (DDC)",
+    "id": "sch-5.56-charging-handle-ddc",
+    "type": "Charging Handle",
+    "weight": "0,080 kg",
+    "sold_by": "Gunny R.3",
+    "buy_price": "$232",
+    "manufacturer": "Geissele Automatics",
+    "reload_speed": "+3.0 %"
+  },
+  {
+    "name": "SIG MCX Charging Handle",
+    "id": "sig-mcx-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.031 kg",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$162",
+    "manufacturer": "SIG Sauer",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/MCX_Ch_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614022933"
+  },
+  {
+    "name": "Standard GI Charging Handle",
+    "id": "standard-gi-charging-handle",
+    "type": "Charging Handle",
+    "weight": "0.028 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Colt",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6b/GI_M4_Ch_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135422"
+  },
+  {
+    "name": "Vz. 61 Charging Knobs",
+    "id": "vz.-61-charging-knobs",
+    "type": "Charging Handle",
+    "weight": "??? kg",
+    "sold_by": "???",
+    "manufacturer": "???",
+    "reload_speed": "+??? %"
+  }
+]

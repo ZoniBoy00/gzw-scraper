@@ -1,0 +1,38 @@
+[
+  {
+    "name": "M933 120mm HE Cartridge (High Range)",
+    "id": "m933-120mm-he-cartridge-high-range",
+    "weight": "13.650kg",
+    "sold_by": "Gunny level 4",
+    "grid_size": "1x3",
+    "manufacturer": "JPEO",
+    "sell_price": "$1,250",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/af/M993_High_inspect.PNG/revision/latest?cb=20251105181826"
+  },
+  {
+    "name": "M933 120mm HE Cartridge (Low Range)",
+    "id": "m933-120mm-he-cartridge-low-range",
+    "weight": "13.650kg",
+    "sold_by": "Gunny R.2",
+    "grid_size": "3x1",
+    "manufacturer": "JPEO",
+    "sell_price": "$6,500",
+    "buy_price": "$500",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/13/M993_Low_inspect.PNG/revision/latest?cb=20251105180737"
+  },
+  {
+    "name": "M933 120mm HE Cartridge (Medium Range)",
+    "id": "m933-120mm-he-cartridge-medium-range",
+    "weight": "13.650kgkg",
+    "sold_by": "Gunny R.3",
+    "grid_size": "3x1",
+    "manufacturer": "JPEO",
+    "sell_price": "$13,000",
+    "buy_price": "$1,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6c/M993_Med_inspect.PNG/revision/latest?cb=20251105182501"
+  },
+  {
+    "name": "Mortar Rounds",
+    "id": "mortar-rounds"
+  }
+]

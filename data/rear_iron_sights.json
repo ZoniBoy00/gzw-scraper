@@ -1,0 +1,222 @@
+[
+  {
+    "name": "AK Rear Iron Sight",
+    "id": "ak-rear-iron-sight",
+    "type": "Rear Iron Sight",
+    "weight": "0.060 kg",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$26",
+    "manufacturer": "Kalashnikov concern",
+    "magnification": "1x",
+    "sighting_range": "1,000m"
+  },
+  {
+    "name": "AK-12 Rear sight",
+    "id": "ak-12-rear-sight",
+    "type": "Rear Iron Sight",
+    "weight": "0.060 kg",
+    "sold_by": "Artisan R.3 Turncoat R.2",
+    "buy_price": "$41",
+    "manufacturer": "Kalashnikov concern",
+    "magnification": "1xx",
+    "sighting_range": "800m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/AK12_Rear_inspect.png/revision/latest/scale-to-width-down/267?cb=20250615190605"
+  },
+  {
+    "name": "AKS-74U Rear sight",
+    "id": "aks-74u-rear-sight",
+    "type": "Rear Iron Sight",
+    "weight": "0.040 kg",
+    "sold_by": "Turncoat R.1",
+    "buy_price": "$22",
+    "manufacturer": "Kalashnikov concern",
+    "magnification": "1xx",
+    "sighting_range": "500m"
+  },
+  {
+    "name": "AR-15 Carrying Handle",
+    "id": "ar-15-carrying-handle",
+    "type": "Rear Iron Sight",
+    "weight": "0.255 kg",
+    "sold_by": "Gunny R.2",
+    "manufacturer": "Colt",
+    "magnification": "1x",
+    "sighting_range": "600m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/Carry_inspect.png/revision/latest/scale-to-width-down/267?cb=20240507135421"
+  },
+  {
+    "name": "Back-Up 3 Rear Iron Sight",
+    "id": "back-up-3-rear-iron-sight",
+    "type": "Rear Iron Sight",
+    "weight": "0.030 kg",
+    "sold_by": "Gunny R.2",
+    "manufacturer": "Magpul",
+    "sighting_range": "0m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/MBUS_Rear_inspect.png/revision/latest/scale-to-width-down/268?cb=20250616005730"
+  },
+  {
+    "name": "Colt 1911 Commander Rear Sight",
+    "id": "colt-1911-commander-rear-sight",
+    "type": "Rear Iron Sight",
+    "weight": "0.023 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Novak",
+    "sighting_range": "25m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/23/1911_Com_Rear_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727223917"
+  },
+  {
+    "name": "Colt 1911 Rear Sight LPA",
+    "id": "colt-1911-rear-sight-lpa",
+    "type": "Rear Iron Sight",
+    "weight": "??? kg",
+    "sold_by": "???",
+    "manufacturer": "???",
+    "weapon_handling": "??? %",
+    "magnification": "???x",
+    "sighting_range": "???m"
+  },
+  {
+    "name": "Colt 1911 Tritium Rear Sight",
+    "id": "colt-1911-tritium-rear-sight",
+    "type": "Rear Iron Sight",
+    "weight": "0.045 kg",
+    "sold_by": "???",
+    "manufacturer": "Trijicon",
+    "weapon_handling": "??? %",
+    "magnification": "1xx",
+    "sighting_range": "25m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a0/1911_Tritium_Rear_inspect.png/revision/latest/scale-to-width-down/268?cb=20250617094856"
+  },
+  {
+    "name": "Folding Micro Rear Iron Sight",
+    "id": "folding-micro-rear-iron-sight",
+    "type": "Rear Iron Sight",
+    "weight": "0.070 kg",
+    "sold_by": "Gunny R.2",
+    "manufacturer": "KAC",
+    "weapon_handling": "??? %",
+    "magnification": "???x",
+    "sighting_range": "600m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/22/Micro_Rear_inspect.png/revision/latest?cb=20240509144616"
+  },
+  {
+    "name": "Glock 17 OEM Rear Tritium Sight",
+    "id": "glock-17-oem-rear-tritium-sight",
+    "type": "Rear Iron Sight",
+    "weight": "0.045 kg",
+    "sold_by": "Banshee R.2",
+    "buy_price": "$48",
+    "manufacturer": "GLOCK",
+    "magnification": "1xx",
+    "sighting_range": "25m"
+  },
+  {
+    "name": "Glock 17 Rear Iron Sight",
+    "id": "glock-17-rear-iron-sight",
+    "type": "Rear Iron Sight",
+    "weight": "0.021 kg",
+    "sold_by": "Gunny R.1 Banshee R.1",
+    "manufacturer": "Glock",
+    "magnification": "1x",
+    "sighting_range": "25m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/G17_Rear_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509115145"
+  },
+  {
+    "name": "HK MP5 Rear Sight",
+    "id": "hk-mp5-rear-sight",
+    "type": "Rear Iron Sight",
+    "weight": "0.025 kg",
+    "sold_by": "Gunny R.1",
+    "manufacturer": "Heckler & Koch",
+    "magnification": "1x",
+    "sighting_range": "100m"
+  },
+  {
+    "name": "M590 Rear Ghost Ring Sight",
+    "id": "m590-rear-ghost-ring-sight",
+    "type": "Rear Iron Sight",
+    "weight": "??? kg",
+    "sold_by": "???",
+    "manufacturer": "???",
+    "weapon_handling": "??? %",
+    "magnification": "???x",
+    "sighting_range": "25m"
+  },
+  {
+    "name": "Mosin-Nagant Rear Iron Sight",
+    "id": "mosin-nagant-rear-iron-sight",
+    "type": "Rear Iron Sight",
+    "weight": "0.060 kg",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$26",
+    "manufacturer": "Kalashnikov concern",
+    "magnification": "1x",
+    "sighting_range": "25m"
+  },
+  {
+    "name": "MP7 Flip Rear Sight",
+    "id": "mp7-flip-rear-sight",
+    "type": "Rear Iron Sight",
+    "weight": "0.045 kg",
+    "sold_by": "???",
+    "manufacturer": "Heckler & Koch",
+    "magnification": "1x",
+    "sighting_range": "500m"
+  },
+  {
+    "name": "Sig Sauer Flip Up Rear Iron Sights",
+    "id": "sig-sauer-flip-up-rear-iron-sights",
+    "type": "Rear Iron Sight",
+    "weight": "0.075 kg",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$52",
+    "manufacturer": "KAC",
+    "magnification": "SIG Sauerx",
+    "sighting_range": "0m",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/Sig_Fl_Rear_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614024138"
+  },
+  {
+    "name": "SKS Rear Iron Sight",
+    "id": "sks-rear-iron-sight",
+    "type": "Rear Iron Sight",
+    "weight": "0.090 kg",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$23",
+    "manufacturer": "Kalashnikov concern",
+    "magnification": "1x",
+    "sighting_range": "25m"
+  },
+  {
+    "name": "SVD Rear Sight",
+    "id": "svd-rear-sight",
+    "type": "Rear Iron Sight",
+    "weight": "??? kg",
+    "sold_by": "???",
+    "manufacturer": "???",
+    "weapon_handling": "??? %",
+    "magnification": "???x",
+    "sighting_range": "25m"
+  },
+  {
+    "name": "TT-33 Rear Iron Sight",
+    "id": "tt-33-rear-iron-sight",
+    "type": "Rear Iron Sight",
+    "weight": "??? kg",
+    "sold_by": "???",
+    "manufacturer": "???",
+    "weapon_handling": "??? %",
+    "magnification": "???x",
+    "sighting_range": "25m"
+  },
+  {
+    "name": "Type 51 Rear Iron Sight",
+    "id": "type-51-rear-iron-sight",
+    "type": "Rear Iron Sight",
+    "weight": "??? kg",
+    "sold_by": "???",
+    "manufacturer": "???",
+    "weapon_handling": "??? %",
+    "magnification": "???x",
+    "sighting_range": "25m"
+  }
+]

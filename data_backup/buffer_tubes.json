@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CQ A1 Buffer Tube",
+    "id": "cq-a1-buffer-tube",
+    "type": "Buffer Tube",
+    "weight": "0.108 kg",
+    "sold_by": "Gunny R.1",
+    "manufacturer": "Norinco",
+    "size_change_horizontal": "+1"
+  },
+  {
+    "name": "M4 Buffer Tube",
+    "id": "m4-buffer-tube",
+    "type": "Buffer Tube",
+    "weight": "0.108 kg",
+    "sold_by": "Gunny R.3",
+    "manufacturer": "Colt",
+    "recoil_control": "+2 %",
+    "size_change_horizontal": "+1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/M4_Buffer_Tube_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509190115"
+  },
+  {
+    "name": "M4 Buffer Tube (FDE)",
+    "id": "m4-buffer-tube-fde",
+    "type": "Buffer Tube",
+    "weight": "0.108 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Colt",
+    "recoil_control": "+2 %",
+    "size_change_horizontal": "+1"
+  }
+]

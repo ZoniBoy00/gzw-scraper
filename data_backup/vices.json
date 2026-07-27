@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Allanach Single Malt Scotch - 40y",
+    "id": "allanach-single-malt-scotch---40y",
+    "type": "Vices",
+    "weight": "2.100kg",
+    "grid_size": "1x2",
+    "manufacturer": "General West",
+    "sell_price": "$5,451",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0d/Allanch_inspect.png/revision/latest?cb=20250506173126"
+  },
+  {
+    "name": "Breda Rum - 30y",
+    "id": "breda-rum---30y",
+    "type": "Funds",
+    "weight": "1.000kg",
+    "grid_size": "1x2",
+    "manufacturer": "General West",
+    "sell_price": "$3,802",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0e/Breda_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718015056"
+  },
+  {
+    "name": "Delicate Perfume Bottle",
+    "id": "delicate-perfume-bottle",
+    "type": "Vices",
+    "weight": "0.300kg",
+    "grid_size": "1x1",
+    "sell_price": "$150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/21/Delicate_Perfume_Bottle_inspect.png/revision/latest?cb=20260331075651"
+  },
+  {
+    "name": "Fragrant Perfume Bottle",
+    "id": "fragrant-perfume-bottle",
+    "type": "Vices",
+    "weight": "0.250kg",
+    "grid_size": "1x2",
+    "sell_price": "$75",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/Fragrant_Perfume_Bottle_inspect.png/revision/latest?cb=20260331080331"
+  },
+  {
+    "name": "Goodlad Whiskey - 20y",
+    "id": "goodlad-whiskey---20y",
+    "type": "Vices",
+    "weight": "1.600kg",
+    "grid_size": "1x2",
+    "sell_price": "$450",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/99/Goodlad_inspect.png/revision/latest/scale-to-width-down/268?cb=20250509091054"
+  },
+  {
+    "name": "Heavenly Perfume Bottle",
+    "id": "heavenly-perfume-bottle",
+    "type": "Vices",
+    "weight": "???kg",
+    "grid_size": "1x1",
+    "sell_price": "$335"
+  },
+  {
+    "name": "Hyperborea Cigarettes",
+    "id": "hyperborea-cigarettes",
+    "type": "Vices",
+    "weight": "0.020kg",
+    "grid_size": "1x1",
+    "sell_price": "$139"
+  },
+  {
+    "name": "Lambert Cigars",
+    "id": "lambert-cigars",
+    "type": "Vices",
+    "weight": "???kg",
+    "grid_size": "1x1",
+    "sell_price": "$282"
+  },
+  {
+    "name": "Moutai - 50y",
+    "id": "moutai---50y",
+    "type": "Vices",
+    "weight": "1.500kg",
+    "grid_size": "1x2",
+    "manufacturer": "General East",
+    "sell_price": "$15,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6d/Moutai_inspect.png/revision/latest?cb=20250603170201"
+  },
+  {
+    "name": "Snake Wine",
+    "id": "snake-wine",
+    "type": "Vices",
+    "weight": "1.000kg",
+    "grid_size": "1x2",
+    "manufacturer": "General Local",
+    "sell_price": "$399",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/SWine_inspect.png/revision/latest?cb=20250507135254"
+  },
+  {
+    "name": "Tzintzimitl Tequila - 25y",
+    "id": "tzintzimitl-tequila---25y",
+    "type": "Vices",
+    "weight": "1.000kg",
+    "grid_size": "1x2",
+    "sell_price": "$2,020",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/Tzintzimitl_inspect.png/revision/latest/scale-to-width-down/268?cb=20250509090613"
+  }
+]

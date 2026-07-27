@@ -1,0 +1,321 @@
+[
+  {
+    "name": "1911 .45ACP 15-Round Extended Magazine",
+    "type": "Magazine",
+    "weight": "??? kg",
+    "caliber": ".45 ACP"
+  },
+  {
+    "name": "AK 5.45x39mm 30-Round PMAG Magazine",
+    "type": "Magazine",
+    "weight": "0.170 kg",
+    "caliber": "5.45x39mm"
+  },
+  {
+    "name": "AK 5.45×39mm 30-Round Bakelite Magazine",
+    "type": "Magazine",
+    "weight": "0.220 kg",
+    "caliber": "5.45x39mm"
+  },
+  {
+    "name": "AK 5.45×39mm 30-Round Black Magazine",
+    "type": "Magazine",
+    "weight": "??? kg",
+    "caliber": "5.45x39mm"
+  },
+  {
+    "name": "AK 7.62x39mm 10-Round Steel Magazine",
+    "type": "Magazine",
+    "weight": "0.080 kg",
+    "caliber": "7.62x39mm"
+  },
+  {
+    "name": "AK 7.62x39mm 30-Round Bakelite Magazine",
+    "type": "Magazine",
+    "weight": "0.240 kg",
+    "caliber": "7.62x39mm"
+  },
+  {
+    "name": "AK 7.62x39mm 30-Round PMAG Magazine",
+    "type": "Magazine",
+    "weight": "0.725 kg",
+    "caliber": "7.62x39mm",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/AK_7.62_Mag_PMAG%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20250617004309"
+  },
+  {
+    "name": "AK 7.62x39mm 30-Round Stamped Magazine",
+    "type": "Magazine",
+    "weight": "0.370 kg",
+    "caliber": "7.62x39mm"
+  },
+  {
+    "name": "AK12 5.45x39mm 30-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.181 kg",
+    "caliber": "5.45x39mm",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/93/AK12_Mag%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/182?cb=20250617011648"
+  },
+  {
+    "name": "AK15 7.62x39mm 30-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.670 kg",
+    "caliber": "7.62x39mm",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ed/AK_7.62_Mag_AK15%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/184?cb=20250615192239"
+  },
+  {
+    "name": "AK19 5.56x45mm 30-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.181 kg",
+    "caliber": "5.56x45mm NATO"
+  },
+  {
+    "name": "AK308 7.62x51mm 20-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.181 kg",
+    "caliber": "7.62x51mm NATO"
+  },
+  {
+    "name": "AK74 5.45x39mm 60-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.300 kg",
+    "caliber": "5.45x39mm"
+  },
+  {
+    "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.263 kg",
+    "caliber": "5.56x45mm NATO .300 AAC Blackout",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/52/ATI_5.56-.300_BLK_Mag%2860_rnds%29_inspect.png/revision/latest/scale-to-width-down/141?cb=20250620105945"
+  },
+  {
+    "name": "Buran's AK 5.45×39mm 30-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.220 kg",
+    "caliber": "5.45x39mm",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a9/Buran%27s_AK_5.45x39mm_30-Round_Magazine_inspect.png/revision/latest/scale-to-width-down/181?cb=20260606115706"
+  },
+  {
+    "name": "Colt 1911 .45ACP 7-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.215 kg",
+    "caliber": ".45 ACP",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/1911_Mag%287_rnds%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20250727212538"
+  },
+  {
+    "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.110 kg",
+    "caliber": ".300 BLK / 5.56x45mm 5.56x45mm NATO .300 AAC Blackout",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f8/DD_5.56-.300_BLK_Mag%2832_rnds%29_inspect.png/revision/latest/scale-to-width-down/135?cb=20250531195600"
+  },
+  {
+    "name": "Firebrand's AK 5.45x39mm 30-Round Black Magazine",
+    "type": "Magazine",
+    "weight": "0.220 kg",
+    "caliber": "5.45x39mm",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/Firebrands_AK_5.45_Mag_Black%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20260512120936"
+  },
+  {
+    "name": "Glock 17 9x19mm 17-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.048 kg",
+    "caliber": "9x19mm",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ea/G17_Mag%2817_rnds%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509115145"
+  },
+  {
+    "name": "Glock 17 9x19mm 27-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.056 kg",
+    "caliber": "9x19mm"
+  },
+  {
+    "name": "Grin's Colt 1911 .45ACP 7-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.068 kg",
+    "caliber": ".45 ACP",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/93/Grins_1911_Mag%287_rnds%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20260512044823"
+  },
+  {
+    "name": "M590 12GA 10-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.940 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/M590_Mag%2810_rnds%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20250614000956"
+  },
+  {
+    "name": "M590 12ga 6-Round Cap",
+    "type": "Magazine",
+    "weight": "??? kg"
+  },
+  {
+    "name": "M700 7.62x51mm 10-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.250 kg",
+    "caliber": "7.62x51mm NATO"
+  },
+  {
+    "name": "M700 7.62x51mm 10-Round PMAG AC Magazine",
+    "type": "Magazine",
+    "weight": "0.124 kg",
+    "caliber": "7.62x51mm NATO",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/M700_PMAG10_inspect.PNG/revision/latest/scale-to-width-down/139?cb=20251106021545"
+  },
+  {
+    "name": "M700 7.62x51mm 5-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.170 kg",
+    "caliber": "7.62x51mm NATO"
+  },
+  {
+    "name": "M870 12ga 10-Round Magazine",
+    "type": "Magazine",
+    "weight": "??? kg"
+  },
+  {
+    "name": "M870 12ga 4-Round Cap",
+    "type": "Magazine",
+    "weight": "0.100 kg"
+  },
+  {
+    "name": "M870 12ga 6-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.250 kg"
+  },
+  {
+    "name": "M9A1 9x19mm 15-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.065 kg",
+    "caliber": "9x19mm"
+  },
+  {
+    "name": "M9A1 9x19mm 30-Round Magazine",
+    "type": "Magazine",
+    "weight": "??? kg",
+    "caliber": "9x19mm"
+  },
+  {
+    "name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine",
+    "type": "Magazine",
+    "weight": "0.227 kg",
+    "caliber": "7.62x54mm R"
+  },
+  {
+    "name": "Mosin-Nagant 7.62x54R 5-Round Internal Magazine",
+    "type": "Magazine",
+    "weight": "0.200 kg",
+    "caliber": "7.62x54mm R"
+  },
+  {
+    "name": "MP5 Standard 30-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.140 kg",
+    "caliber": "9x19mm",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c0/MP5_Mag%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/168?cb=20250426121422"
+  },
+  {
+    "name": "MP7 20-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.100 kg",
+    "caliber": "4.6x30mm"
+  },
+  {
+    "name": "MP7 30-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.150 kg",
+    "caliber": "4.6x30mm"
+  },
+  {
+    "name": "MP7 40-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.200 kg",
+    "caliber": "4.6x30mm"
+  },
+  {
+    "name": "PMAG 5.56x45mm/.300 BLK 20-Round Magazine",
+    "type": "Magazine",
+    "weight": "??? kg",
+    "caliber": "5.56x45mm NATO .300 AAC Blackout"
+  },
+  {
+    "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.141 kg",
+    "caliber": "5.56x45mm NATO .300 AAC Blackout",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8b/PMAG_5.56-.300_BLK_Mag%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/134?cb=20250531201358"
+  },
+  {
+    "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (FDE)",
+    "type": "Magazine",
+    "weight": "0.441 kg",
+    "caliber": "5.56x45mm NATO .300 AAC Blackout",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a0/PMAG_5.56-.300_BLK_Mag%2830_rnds_FDE%29_inspect.png/revision/latest/scale-to-width-down/143?cb=20250617102736"
+  },
+  {
+    "name": "Schmeisser AK 7.62x39 60-round Magazine",
+    "type": "Magazine",
+    "weight": "0.300 kg",
+    "caliber": "7.62x39mm",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1b/AK_7.62_Mag%2860_rnds%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20250614011844"
+  },
+  {
+    "name": "SKS 7.62x39mm 10-Round Internal Magazine",
+    "type": "Magazine",
+    "weight": "0.185 kg",
+    "caliber": "7.62x39mm"
+  },
+  {
+    "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine",
+    "type": "Magazine",
+    "weight": "0.295 kg",
+    "caliber": "7.62x39mm"
+  },
+  {
+    "name": "SKS 7.62x39mm 35-Round Archangel Magazine",
+    "type": "Magazine",
+    "weight": "??? kg",
+    "caliber": "7.62x39mm"
+  },
+  {
+    "name": "STANAG 5.56x45mm/.300 BLK 20-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.068 kg",
+    "caliber": "5.56x45mm NATO .300 AAC Blackout",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/63/STANAG_5.56-.300_BLK_Mag%2820_rnds%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20250614172921"
+  },
+  {
+    "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.320 kg",
+    "caliber": "5.56x45mm NATO .300 AAC Blackout",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a7/STANAG_5.56-.300_BLK_Mag%2830_rnds%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20240507135556"
+  },
+  {
+    "name": "SVD Dragunov 10-Round Magazine",
+    "type": "Magazine",
+    "weight": "0.216 kg",
+    "caliber": "7.62x54mm R"
+  },
+  {
+    "name": "SVD Dragunov 20-Round Magazine",
+    "type": "Magazine",
+    "weight": "??? kg",
+    "caliber": "7.62x54mm R"
+  },
+  {
+    "name": "Type 51 7.62x25mm 8-Round Magazine",
+    "type": "Magazine",
+    "weight": "??? kg",
+    "caliber": "7.62x25mm"
+  },
+  {
+    "name": "Vz. 61 7.65 Browning 10-Round Magazine",
+    "type": "Magazine",
+    "weight": "??? kg",
+    "caliber": "7.65mm Browning"
+  },
+  {
+    "name": "Vz. 61 7.65 Browning 20-Round Magazine",
+    "type": "Magazine",
+    "weight": "??? kg",
+    "caliber": "7.65mm Browning"
+  }
+]

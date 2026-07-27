@@ -1,0 +1,53 @@
+[
+  {
+    "name": ".45 ACP AP",
+    "id": ".45-acp-ap",
+    "type": "Ammunition Round",
+    "grid_size": "1x1",
+    "manufacturer": "General West",
+    "sold_by": "Artisan R.3",
+    "muzzle_velocity": "299 m/s",
+    "accuracy_modifier": "+0 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/AP_.45_inspect.png/revision/latest/scale-to-width-down/268?cb=20250610112129"
+  },
+  {
+    "name": ".45 ACP FMJ",
+    "id": ".45-acp-fmj",
+    "type": "Ammunition Round",
+    "weight": "0.021kg",
+    "grid_size": "1x1",
+    "manufacturer": "General West",
+    "sold_by": "Artisan R.1",
+    "muzzle_velocity": "260 m/s",
+    "accuracy_modifier": "+0 %",
+    "stopped_by_armor_class": "NIJ I++",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/FMJ_.45_inspect.png/revision/latest?cb=20260414111029"
+  },
+  {
+    "name": ".45 ACP Hydra-Shok",
+    "id": ".45-acp-hydra-shok",
+    "type": "Ammunition Round",
+    "weight": "0.021kg",
+    "grid_size": "1x1",
+    "manufacturer": "General West",
+    "sold_by": "Artisan R.2",
+    "muzzle_velocity": "274 m/s",
+    "accuracy_modifier": "+0 %",
+    "durability_modifier": "-15 %",
+    "stopped_by_armor_class": "NIJ I+",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/24/Hydra-Shok_inspect.png/revision/latest?cb=20260414113205"
+  },
+  {
+    "name": ".45 ACP JHP +P",
+    "id": ".45-acp-jhp-+p",
+    "type": "Ammunition Round",
+    "weight": "0.021kg",
+    "grid_size": "1x1",
+    "manufacturer": "General West",
+    "sold_by": "Artisan R.1",
+    "muzzle_velocity": "290 m/s",
+    "accuracy_modifier": "-2 %",
+    "stopped_by_armor_class": "NIJ I",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/07/JHP_%2BP_.45_inspect.png/revision/latest?cb=20260414113246"
+  }
+]

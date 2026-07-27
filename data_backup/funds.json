@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Black Credit Card",
+    "id": "black-credit-card",
+    "type": "Funds",
+    "weight": "0.010kg",
+    "grid_size": "1x1",
+    "sell_price": "$15,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/BCCArd_inspect.png/revision/latest/scale-to-width-down/268?cb=20250621182734"
+  },
+  {
+    "name": "Common Credit Card",
+    "id": "common-credit-card",
+    "type": "Funds",
+    "weight": "0.005kg",
+    "grid_size": "1x1",
+    "sell_price": "$600",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/38/CCCard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422042432"
+  },
+  {
+    "name": "Gold Credit Card",
+    "id": "gold-credit-card",
+    "type": "Funds",
+    "weight": "0.005kg",
+    "grid_size": "1x1",
+    "sell_price": "$2,200",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8a/GCCard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250506122148"
+  },
+  {
+    "name": "Platinum Credit Card",
+    "id": "platinum-credit-card",
+    "type": "Funds",
+    "weight": "0.005kg",
+    "grid_size": "1x1",
+    "sell_price": "$6,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/PCCard_inspect.png/revision/latest/scale-to-width-down/268?cb=20250424014800"
+  }
+]

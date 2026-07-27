@@ -1,0 +1,118 @@
+[
+  {
+    "name": "ADE Advanced Red Laser",
+    "id": "ade-advanced-red-laser",
+    "type": "Tactical Device",
+    "weight": "0.032 kg",
+    "sold_by": "Gunny R.2",
+    "manufacturer": "ADE Advanced Optics",
+    "weapon_handling": "-1 %",
+    "modes": "Red laser",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/ADE_Laser_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530015732"
+  },
+  {
+    "name": "NcStar Compact Green Laser",
+    "id": "ncstar-compact-green-laser",
+    "type": "Tactical Device",
+    "weight": "0.093 kg",
+    "sold_by": "Gunny R.2",
+    "buy_price": "$350",
+    "manufacturer": "NcStar",
+    "weapon_handling": "-1 %",
+    "modes": "Green laser",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/NcStar_Laser_inspect.png/revision/latest/scale-to-width-down/267?cb=20250530022219"
+  },
+  {
+    "name": "NcStar LED FlashLight",
+    "id": "ncstar-led-flashlight",
+    "type": "Tactical Device",
+    "weight": "0.085 kg",
+    "sold_by": "Gunny R.1",
+    "buy_price": "$200",
+    "manufacturer": "NcStar",
+    "modes": "Flashlight",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/06/NcStar_Light_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530002005"
+  },
+  {
+    "name": "Steiner AN/PEQ-15A DBAL-A2",
+    "id": "steiner-an/peq-15a-dbal-a2",
+    "type": "Tactical Device",
+    "weight": "0.227 kg",
+    "manufacturer": "Steiner",
+    "modes": "Red Laser IR Laser IR Illuminator",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/AN-PEQ-15A_inspect.png/revision/latest/scale-to-width-down/268?cb=20250718014659"
+  },
+  {
+    "name": "Steiner CQBL-1",
+    "id": "steiner-cqbl-1",
+    "type": "Tactical Device",
+    "weight": "0.159 kg",
+    "sold_by": "Gunny R.2 and Banshee R.3",
+    "buy_price": "$964",
+    "manufacturer": "Steiner",
+    "modes": "Infrared laser Red Laser",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a1/CQBL-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250528002045"
+  },
+  {
+    "name": "Surefire M600 Scout light",
+    "id": "surefire-m600-scout-light",
+    "type": "Tactical Device",
+    "weight": "0.147 kg",
+    "sold_by": "Gunny R.3",
+    "manufacturer": "Surefire",
+    "weapon_handling": "+??? %",
+    "modes": "Flashlight",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/M600IB_inspect.png/revision/latest/scale-to-width-down/268?cb=20250602131118"
+  },
+  {
+    "name": "Surefire P1R Peacekeeper",
+    "id": "surefire-p1r-peacekeeper",
+    "type": "Tactical Device",
+    "weight": "0.176 kg",
+    "sold_by": "Banshee R.1",
+    "manufacturer": "Surefire",
+    "weapon_handling": "-3.0 %",
+    "modes": "Flashlight",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/20/P1R_inspect.png/revision/latest/scale-to-width-down/268?cb=20250529235203"
+  },
+  {
+    "name": "Surefire X400V-B-IRC",
+    "id": "surefire-x400v-b-irc",
+    "type": "Tactical Device",
+    "weight": "0.136 kg",
+    "manufacturer": "Surefire",
+    "modes": "Flashlight Green laser",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/X400_inspect.png/revision/latest/scale-to-width-down/268?cb=20250610110856"
+  },
+  {
+    "name": "Zenitco Klesch-1",
+    "id": "zenitco-klesch-1",
+    "type": "Tactical Device",
+    "weight": "0.082 kg",
+    "sold_by": "???",
+    "manufacturer": "Zenitco",
+    "weapon_handling": "+??? %",
+    "modes": "Flashlight",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/Klesch-1_inspect.png/revision/latest/scale-to-width-down/268?cb=20250530001021"
+  },
+  {
+    "name": "Zenitco Klesch-2",
+    "id": "zenitco-klesch-2",
+    "type": "Tactical Device",
+    "weight": "0.300 kg",
+    "sold_by": "Turncoat R.2",
+    "buy_price": "$260",
+    "manufacturer": "Zenitco",
+    "modes": "Flashlight"
+  },
+  {
+    "name": "Zenitco PERST-4",
+    "id": "zenitco-perst-4",
+    "type": "Tactical Device",
+    "weight": "0.210 kg",
+    "sold_by": "???",
+    "manufacturer": "Zenitco",
+    "modes": "IR laser Green laser",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/PERST-4_inspect.png/revision/latest/scale-to-width-down/268?cb=20250204123638"
+  }
+]

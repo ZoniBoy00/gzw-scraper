@@ -1,0 +1,32 @@
+[
+  {
+    "name": "AKU - Conero GTX",
+    "id": "aku---conero-gtx",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b5/AKU_-_Conero_GTX_icon.png/revision/latest?cb=20250706113259"
+  },
+  {
+    "name": "Lowa - Zephyr GTX Mid TF",
+    "id": "lowa---zephyr-gtx-mid-tf",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/Lowa_-_Zephyr_GTX_Mid_TF_icon.png/revision/latest?cb=20250706113229"
+  },
+  {
+    "name": "Magnum - Wild-Fire Tactical",
+    "id": "magnum---wild-fire-tactical",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fc/Magnum_-_Wild-Fire_Tactical_icon.png/revision/latest?cb=20250707153338"
+  },
+  {
+    "name": "Pentagon - Hybrid",
+    "id": "pentagon---hybrid",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ee/Pentagon_-_Hybrid_icon.png/revision/latest?cb=20250706113240"
+  },
+  {
+    "name": "Pentagon - Hybrid (Black)",
+    "id": "pentagon---hybrid-black",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/Pentagon_-_Hybrid_%28Black%29_icon.png/revision/latest?cb=20250706113238"
+  },
+  {
+    "name": "Rocky S2V",
+    "id": "rocky-s2v",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Rocky_S2V_icon.png/revision/latest?cb=20250706113241"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "name": "AR-15 Barrel - 10.5\"",
+    "type": "Barrel",
+    "weight": "0.538 kg"
+  },
+  {
+    "name": "AR-15 Barrel - 14.5\"",
+    "type": "Barrel",
+    "weight": ".725 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/AR-15_14.5%27_inspect.png/revision/latest/scale-to-width-down/200?cb=20240507135421"
+  },
+  {
+    "name": "AR-15 Barrel - 16\"",
+    "type": "Barrel",
+    "weight": "0.793 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4e/AR-15_16%27_inspect.png/revision/latest/scale-to-width-down/186?cb=20250718014723"
+  },
+  {
+    "name": "AR-15 Barrel - 18\"",
+    "type": "Barrel",
+    "weight": "1.270 kg"
+  },
+  {
+    "name": "AR-15 Barrel - 20\"",
+    "type": "Barrel",
+    "weight": "0.970 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f3/AR-15_20%27_inspect.png/revision/latest/scale-to-width-down/182?cb=20250718014754"
+  },
+  {
+    "name": "AR-15 CQA1 Barrel - 14.5\"",
+    "type": "Barrel",
+    "weight": "0.725 kg"
+  },
+  {
+    "name": "Glock 17 Match Grade Barrel",
+    "type": "Barrel",
+    "weight": "0.110 kg"
+  },
+  {
+    "name": "Glock 17 Match Grade Threaded Barrel (Gold)",
+    "type": "Barrel",
+    "weight": "???? kg"
+  },
+  {
+    "name": "Glock 17 Standard Barrel",
+    "type": "Barrel",
+    "weight": "0.113 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1f/G17_B_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509115143"
+  },
+  {
+    "name": "M700 Barrel - 22\"",
+    "type": "Barrel",
+    "weight": "1.000 kg"
+  },
+  {
+    "name": "M700 Heavy Barrel - 26\"",
+    "type": "Barrel",
+    "weight": "2.050 kg"
+  },
+  {
+    "name": "M700 Suppressed Barrel - 20\"",
+    "type": "Barrel",
+    "weight": "1.800 kg"
+  },
+  {
+    "name": "M700 Threaded Barrel - 18\"",
+    "type": "Barrel",
+    "weight": "1.120 kg"
+  },
+  {
+    "name": "M700 VTR Barrel - 22\"",
+    "type": "Barrel",
+    "weight": "1.500 kg"
+  },
+  {
+    "name": "M870 Barrel - 18.5\"",
+    "type": "Barrel",
+    "weight": "0.750 kg"
+  },
+  {
+    "name": "M870 Barrel - 23\"",
+    "type": "Barrel",
+    "weight": "0.930 kg"
+  },
+  {
+    "name": "M870 Barrel - 26\"",
+    "type": "Barrel",
+    "weight": "1.100 kg"
+  },
+  {
+    "name": "M9A1 Standard Barrel",
+    "type": "Barrel",
+    "weight": "0.149 kg"
+  },
+  {
+    "name": "M9A1 Threaded Barrel",
+    "type": "Barrel",
+    "weight": "0.207 kg"
+  },
+  {
+    "name": "Mosin-Nagant Barrel - 514mm",
+    "type": "Barrel",
+    "weight": "1.000 kg"
+  },
+  {
+    "name": "Mosin-Nagant Barrel - 730mm",
+    "type": "Barrel",
+    "weight": "???? kg"
+  },
+  {
+    "name": "Optimized Glock 17 Match Grade Threaded Barrel",
+    "type": "Barrel",
+    "weight": "0.105 kg"
+  },
+  {
+    "name": "SIG MCX Barrel - 16\"",
+    "type": "Barrel",
+    "weight": "0.700 kg"
+  },
+  {
+    "name": "SIG MCX Barrel - 6.75\"",
+    "type": "Barrel",
+    "weight": "0.350 kg"
+  },
+  {
+    "name": "SIG MCX Barrel - 9\"",
+    "type": "Barrel",
+    "weight": "0.450 kg"
+  },
+  {
+    "name": "SVD Barrel - 620mm",
+    "type": "Barrel",
+    "weight": "1.300 kg"
+  },
+  {
+    "name": "Type 51 Barrel",
+    "type": "Barrel",
+    "weight": "0.060 kg"
+  },
+  {
+    "name": "Type 51 Threaded Barrel",
+    "type": "Barrel",
+    "weight": "0.062 kg"
+  }
+]

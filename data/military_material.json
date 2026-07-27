@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Camouflage Fabric",
+    "id": "camouflage-fabric",
+    "type": "Military Material",
+    "weight": "0.480kg",
+    "grid_size": "2x1",
+    "sell_price": "$10",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Camouflage_Fabric_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331075042"
+  },
+  {
+    "name": "Low-Grade Gunpowder",
+    "id": "low-grade-gunpowder",
+    "type": "Military Material",
+    "weight": "0.450kg",
+    "grid_size": "1x2",
+    "sell_price": "$23",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7d/Low-Grade_Gunpowder_inspect.png/revision/latest?cb=20260331082737"
+  },
+  {
+    "name": "Paracord",
+    "id": "paracord",
+    "type": "Military Material",
+    "weight": "0.100kg",
+    "grid_size": "2x1",
+    "sell_price": "$9",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/Paracord_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331084247"
+  },
+  {
+    "name": "Weapon Oil",
+    "id": "weapon-oil",
+    "type": "Military Material",
+    "weight": "0.272kg",
+    "grid_size": "1x2",
+    "sell_price": "$9",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f9/Weapon_Oil_inspect.png/revision/latest?cb=20260331090618"
+  }
+]

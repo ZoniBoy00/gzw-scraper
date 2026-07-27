@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Colt 1911 Commander Hammer",
+    "id": "colt-1911-commander-hammer",
+    "type": "Auxiliary",
+    "weight": "0.016 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "MidwayUSA",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/22/1911_Com_Ham_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727223559"
+  },
+  {
+    "name": "Colt 1911 Hammer",
+    "id": "colt-1911-hammer",
+    "type": "Auxiliary",
+    "weight": "??? kg",
+    "sold_by": "???",
+    "manufacturer": "???"
+  },
+  {
+    "name": "M9A1 Hammer",
+    "id": "m9a1-hammer",
+    "type": "Auxiliary",
+    "weight": "0.050 kg",
+    "sold_by": "Gunny R.1",
+    "manufacturer": "Beretta"
+  },
+  {
+    "name": "SKS Receiver Cover Retaining Pin",
+    "id": "sks-receiver-cover-retaining-pin",
+    "type": "Auxiliary",
+    "weight": "0.050 kg",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$29",
+    "manufacturer": "Kalashnikov concern"
+  },
+  {
+    "name": "SVD Rear Sight Ring",
+    "id": "svd-rear-sight-ring",
+    "type": "Auxiliary",
+    "weight": "0.150 kg",
+    "sold_by": "Artisan R.4",
+    "buy_price": "$81",
+    "manufacturer": "Kalashnikov concern"
+  }
+]

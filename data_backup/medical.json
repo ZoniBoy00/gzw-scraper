@@ -1,0 +1,238 @@
+[
+  {
+    "name": "Activated Charcoal",
+    "type": "Pill",
+    "weight": "0.060kg",
+    "effect": "Intoxication: -10",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d6/Charcoal_inspect.png/revision/latest/scale-to-width-down/160?cb=20250502211847"
+  },
+  {
+    "name": "ARF Trauma Bandage 4",
+    "type": "Bandage",
+    "weight": "0.070kg",
+    "effect": "Heals wounds",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Bandage_inspect.png/revision/latest/scale-to-width-down/200?cb=20250502181823"
+  },
+  {
+    "name": "Basic Surgical & Suture Kit",
+    "type": "Surgery Kit",
+    "weight": "0.600kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/SurKit_inspect.png/revision/latest/scale-to-width-down/200?cb=20250501082435"
+  },
+  {
+    "name": "Civilian Flexible Splint",
+    "type": "Splint",
+    "weight": "0.150kg",
+    "effect": "Removes Limping effect",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/32/CivilianSplint_inspect.png/revision/latest/scale-to-width-down/200?cb=20250502211703"
+  },
+  {
+    "name": "Civilian Gauze",
+    "type": "Bandage",
+    "weight": "0.020kg",
+    "effect": "Heals wounds",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/Gauze_inspect.png/revision/latest/scale-to-width-down/200?cb=20250504074656"
+  },
+  {
+    "name": "Combat Tourniquet",
+    "type": "Tourniquet",
+    "weight": "0.090kg",
+    "effect": "Stops heavy bleeding.",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/66/CT_inspect.png/revision/latest/scale-to-width-down/200?cb=20250501090154"
+  },
+  {
+    "name": "DT-0X",
+    "type": "Stimulator",
+    "weight": "0.100kg",
+    "effect": "Removes up to 100% of intoxication Increase Hydration Drain Increase Liver Damange",
+    "duration": "90 seconds",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f9/DT-0X_inspect.png/revision/latest/scale-to-width-down/200?cb=20260428085209"
+  },
+  {
+    "name": "Emergency Suture Kit",
+    "type": "Surgery Kit",
+    "weight": "0.200kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/EKit_inspect.png/revision/latest/scale-to-width-down/200?cb=20260404064048"
+  },
+  {
+    "name": "EPO",
+    "type": "Stimulator",
+    "weight": "0.100kg",
+    "effect": "Increase Blood Regeneration Increase intoxication Increase hydration drain Increase energy drain",
+    "duration": "3 minutes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/EPO_inspect.png/revision/latest/scale-to-width-down/200?cb=20260428091737"
+  },
+  {
+    "name": "EPO V2",
+    "type": "Stimulator",
+    "weight": "0.100kg",
+    "effect": "Increases Blood Regeneration Increase intoxication Increase hydration drain Increase energy drain",
+    "duration": "3 min",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bb/EPO_inspect.png/revision/latest/scale-to-width-down/200?cb=20260428091737"
+  },
+  {
+    "name": "Fenethylline",
+    "type": "Stimulator",
+    "weight": "0.050kg",
+    "effect": "Increases Stamina Regeneration",
+    "duration": "3 min",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/de/Fenethyl_inspect.png/revision/latest/scale-to-width-down/140?cb=20250621182751"
+  },
+  {
+    "name": "Flexible Splint",
+    "type": "Splint",
+    "weight": "0.130kg",
+    "effect": "Removes Fracture"
+  },
+  {
+    "name": "HpR 3-S",
+    "type": "Stimulator",
+    "weight": "0.100kg",
+    "effect": "Regenerates up to 50% of organs Increase intoxication Gives pain",
+    "duration": "4 minutes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/HpR_3-S_inspect.png/revision/latest/scale-to-width-down/200?cb=20260428090404"
+  },
+  {
+    "name": "HpR 3-S V2",
+    "type": "Stimulator",
+    "weight": "0.100kg",
+    "effect": "Regenerates up to 50% of organs Increase intoxication Gives pain",
+    "duration": "5 min",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fe/HpR_3-S_V2_inspect.png/revision/latest/scale-to-width-down/200?cb=20260427014740"
+  },
+  {
+    "name": "Ibalin",
+    "type": "Pill",
+    "weight": "0.050kg",
+    "effect": "150s Duration: Efficiency: +33%",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Ibalin_inspect.png/revision/latest/scale-to-width-down/200?cb=20250502210313"
+  },
+  {
+    "name": "Large Blood Bag",
+    "type": "IV",
+    "weight": "1.000kg",
+    "effect": "+500 ml of blood per charge",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/LargeBloodBag.png/revision/latest/scale-to-width-down/200?cb=20250501081851"
+  },
+  {
+    "name": "Large Hemostatic Syringe",
+    "type": "Syringe",
+    "weight": "0.150kg",
+    "effect": "Stops heavy bleeding.",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/95/LHem_inspect.png/revision/latest?cb=20260421080856"
+  },
+  {
+    "name": "M.F.A.T. Tourniquet",
+    "type": "Tourniquet",
+    "weight": "0.080kg",
+    "effect": "Stops one bleeding status: Severe Bleeding Medium Bleeding Light Bleeding",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/MFAT_inspect.png/revision/latest/scale-to-width-down/199?cb=20250502211227"
+  },
+  {
+    "name": "Medical"
+  },
+  {
+    "name": "Medium Blood Bag",
+    "type": "IV",
+    "weight": "1.600kg",
+    "effect": "+750ml of blood per charge",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/Screenshot_2026-04-03_235410.png/revision/latest/scale-to-width-down/200?cb=20260404065601"
+  },
+  {
+    "name": "Meloxicam",
+    "type": "Pill",
+    "weight": "0.050kg",
+    "effect": "300s Duration: Remove pain effects",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ae/Melox_inspect.png/revision/latest/scale-to-width-down/200?cb=20250502211523"
+  },
+  {
+    "name": "Methylphenidate",
+    "type": "Stimulator",
+    "weight": "0.050kg",
+    "effect": "Increases Stamina Regeneration Increase hydration drain",
+    "duration": "5 min"
+  },
+  {
+    "name": "Morphine",
+    "type": "Painkiller (Autoinjector)",
+    "weight": "0.100kg",
+    "effect": "Completely suppresses pain Completely suppresses tremors and limping Increase intoxication Increase Liver Damage",
+    "duration": "4 minutes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/de/Morphine_inspect.png/revision/latest/scale-to-width-down/200?cb=20260428092328"
+  },
+  {
+    "name": "Moxifloxacin",
+    "type": "Pill",
+    "weight": "0.050kg",
+    "effect": "Intoxication: -25"
+  },
+  {
+    "name": "ORI-12",
+    "type": "Stimulator",
+    "weight": "0.100kg",
+    "effect": "Regenerate up to 50% of all bones Increase intoxication Gives pain",
+    "duration": "4 minutes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/88/ORI-12_inspect.png/revision/latest/scale-to-width-down/200?cb=20260428091006"
+  },
+  {
+    "name": "ORI-12 V2",
+    "type": "Stimulator",
+    "weight": "0.080kg",
+    "effect": "Regenerate up to 65% of all bones Increase intoxication Gives pain",
+    "duration": "5 Minute",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/22/ORI-12V2_inspect.png/revision/latest/scale-to-width-down/200?cb=20260427014950"
+  },
+  {
+    "name": "Paracetamol",
+    "type": "Pill",
+    "weight": "0.050kg",
+    "effect": "Removes Pain",
+    "duration": "300s"
+  },
+  {
+    "name": "Potassium Iodide",
+    "type": "Pill",
+    "weight": "0.050kg",
+    "effect": "Radiation: -4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4f/Ki_inspect.png/revision/latest/scale-to-width-down/200?cb=20250502210111"
+  },
+  {
+    "name": "Retractable Tourniquet",
+    "type": "Bleeding",
+    "weight": "0.050kgkg",
+    "effect": "Stops one bleeding status: Severe Bleeding Medium Bleeding Light Bleeding"
+  },
+  {
+    "name": "Seal modular bandage",
+    "type": "Wound Care",
+    "weight": "0.090kg",
+    "effect": "Heals 4 Wounds per Charge"
+  },
+  {
+    "name": "Small Blood Bag",
+    "type": "IV",
+    "weight": "0.500kg",
+    "effect": "+500ml of blood",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/47/SBlood_inspect.png/revision/latest/scale-to-width-down/200?cb=20250502211339"
+  },
+  {
+    "name": "Small Hemostatic Syringe",
+    "type": "Syringe",
+    "weight": "0.060kg",
+    "effect": "Stops heavy bleeding.",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/77/SHem_inspect.png/revision/latest?cb=20260404062657"
+  },
+  {
+    "name": "Small Suture Kit",
+    "type": "Surgery Kit",
+    "weight": "0.350kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/SutKit_inspect.png/revision/latest/scale-to-width-down/200?cb=20250501090058"
+  },
+  {
+    "name": "Strychnine",
+    "type": "Strimulator",
+    "weight": "0.10kg",
+    "effect": "Blocks Stamina Drain Drain arm stamina Increase intoxication Increase energy drain Gives pain",
+    "duration": "1 min"
+  }
+]

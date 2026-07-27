@@ -1,0 +1,334 @@
+[
+  {
+    "name": "Box of IDs",
+    "id": "box-of-ids",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Compromising Folder",
+    "id": "compromising-folder",
+    "weight": "?kg",
+    "grid_size": "1x1"
+  },
+  {
+    "name": "Eugene L. Fleming File",
+    "id": "eugene-l.-fleming-file",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "First Drug Note",
+    "id": "first-drug-note",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "First Medical Samples",
+    "id": "first-medical-samples",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "First Military Box",
+    "id": "first-military-box",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "First Prototype Part Crate",
+    "id": "first-prototype-part-crate",
+    "weight": "?kg",
+    "grid_size": "3x3"
+  },
+  {
+    "name": "First Stolen Box",
+    "id": "first-stolen-box",
+    "weight": "???kg",
+    "grid_size": "????"
+  },
+  {
+    "name": "First Supply Box",
+    "id": "first-supply-box",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "First Supply Box (Victor Charlie Heritage)",
+    "id": "first-supply-box-victor-charlie-heritage",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "First Suspicious Package",
+    "id": "first-suspicious-package",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "First Weapon Cargo Crate",
+    "id": "first-weapon-cargo-crate",
+    "weight": "??kg",
+    "grid_size": "??"
+  },
+  {
+    "name": "Floppy Disks",
+    "id": "floppy-disks",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Fourth Military Box",
+    "id": "fourth-military-box",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Fourth Suspicious Package",
+    "id": "fourth-suspicious-package",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Gang Folder",
+    "id": "gang-folder",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Gang Note",
+    "id": "gang-note",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Hacking Tool",
+    "id": "hacking-tool",
+    "weight": "??kg",
+    "grid_size": "1x1"
+  },
+  {
+    "name": "Intel Folder",
+    "id": "intel-folder",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Interrogation Transcript (It's Like Cutting)",
+    "id": "interrogation-transcript-its-like-cutting",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "LAF Documents",
+    "id": "laf-documents",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "LAF Hardware Key (Technoarcheologist)",
+    "id": "laf-hardware-key-technoarcheologist",
+    "weight": "???kg",
+    "grid_size": "???",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/72/LAF_Hardware_Key_inspect.png/revision/latest?cb=20260409200705"
+  },
+  {
+    "name": "LAF Suitcase",
+    "id": "laf-suitcase",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "List of Names (His Majesty's Secrets)",
+    "id": "list-of-names-his-majestys-secrets",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "List of Names (Mob Job)",
+    "id": "list-of-names-mob-job",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Medallion",
+    "id": "medallion",
+    "weight": "???kg",
+    "grid_size": "1x1"
+  },
+  {
+    "name": "Metal Suitcase",
+    "id": "metal-suitcase",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Micro SD Autocracker",
+    "id": "micro-sd-autocracker",
+    "weight": "?kg",
+    "grid_size": "1x1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/Micro_SD_Autocracker_inspect.png/revision/latest/scale-to-width-down/268?cb=20260411101500"
+  },
+  {
+    "name": "Micro SD Autocracker 003",
+    "id": "micro-sd-autocracker-003",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Military Suitcase",
+    "id": "military-suitcase",
+    "weight": "?kg",
+    "grid_size": "?"
+  },
+  {
+    "name": "Mysterious Cargo Crate",
+    "id": "mysterious-cargo-crate",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Old Diary",
+    "id": "old-diary",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Old Hard Disk Drive",
+    "id": "old-hard-disk-drive",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Prisoner Info Folder 193",
+    "id": "prisoner-info-folder-193",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Prisoner Info Folder 251",
+    "id": "prisoner-info-folder-251",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Prisoner Info Folder 712",
+    "id": "prisoner-info-folder-712",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Second Drug Note",
+    "id": "second-drug-note",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Second Medical Samples",
+    "id": "second-medical-samples",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Second Military Box",
+    "id": "second-military-box",
+    "weight": "??kg",
+    "grid_size": "??"
+  },
+  {
+    "name": "Second Prototype Part Crate",
+    "id": "second-prototype-part-crate",
+    "weight": "???kg",
+    "grid_size": "3x3"
+  },
+  {
+    "name": "Second Stolen Box",
+    "id": "second-stolen-box",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Second Supply Box",
+    "id": "second-supply-box",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Second Supply Box (Victor Charlie Heritage)",
+    "id": "second-supply-box-victor-charlie-heritage",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Second Suspicious Package",
+    "id": "second-suspicious-package",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Second Weapon Cargo Crate",
+    "id": "second-weapon-cargo-crate",
+    "weight": "??kg",
+    "grid_size": "??"
+  },
+  {
+    "name": "Third Military Box",
+    "id": "third-military-box",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Third Stolen Box",
+    "id": "third-stolen-box",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Third Supply Box",
+    "id": "third-supply-box",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Third Supply Box (Victor Charlie Heritage)",
+    "id": "third-supply-box-victor-charlie-heritage",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Third Suspicious Package",
+    "id": "third-suspicious-package",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Third Weapon Cargo Crate",
+    "id": "third-weapon-cargo-crate",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "Transcript of Conversations",
+    "id": "transcript-of-conversations",
+    "weight": "?kg",
+    "grid_size": "1x1"
+  },
+  {
+    "name": "USB Drive Autocracker",
+    "id": "usb-drive-autocracker",
+    "weight": "?kg",
+    "grid_size": "1x1"
+  },
+  {
+    "name": "USB Drive Autocracker 001",
+    "id": "usb-drive-autocracker-001",
+    "weight": "???kg",
+    "grid_size": "???"
+  },
+  {
+    "name": "USB Drive Autocracker 002",
+    "id": "usb-drive-autocracker-002",
+    "weight": "??kg",
+    "grid_size": "???"
+  }
+]

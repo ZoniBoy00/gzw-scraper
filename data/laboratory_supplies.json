@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Acetylene Cylinder",
+    "id": "acetylene-cylinder",
+    "type": "Laboratory Supplies",
+    "weight": "11.50kg",
+    "grid_size": "2x4",
+    "manufacturer": "General Local",
+    "sell_price": "$56$",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/Acetylene_Cylinder_Inspect.png/revision/latest?cb=20260523030118"
+  },
+  {
+    "name": "Disinfectant",
+    "id": "disinfectant",
+    "type": "Laboratory Supplies",
+    "weight": "1.000kg",
+    "grid_size": "1x1",
+    "sell_price": "$199",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/00/Disinfectant_inspect.png/revision/latest?cb=20260403101852"
+  },
+  {
+    "name": "Drain Cleaner",
+    "id": "drain-cleaner",
+    "type": "Laboratory Supplies",
+    "weight": "5.000kg",
+    "grid_size": "2x2",
+    "sell_price": "$15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/15/Drain_Cleaner_inspect.png/revision/latest?cb=20260403095335"
+  },
+  {
+    "name": "Industrial Solvent",
+    "id": "industrial-solvent",
+    "type": "Laboratory Supplies",
+    "weight": "3.800kg",
+    "grid_size": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$29",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a7/Industrial_Solvent_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331081657"
+  },
+  {
+    "name": "Sulfuric Acid",
+    "id": "sulfuric-acid",
+    "type": "Laboratory Supplies",
+    "weight": "5.030kg",
+    "grid_size": "2x2",
+    "sell_price": "$99",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a2/Sulfuric_Acid_inspect.png/revision/latest?cb=20260403095547"
+  },
+  {
+    "name": "Thermal Blanket",
+    "id": "thermal-blanket",
+    "type": "Laboratory Supplies",
+    "weight": "0.057kg",
+    "grid_size": "1x1",
+    "sell_price": "$1"
+  },
+  {
+    "name": "UN Medical Tools",
+    "id": "un-medical-tools",
+    "type": "Laboratory Supplies",
+    "weight": "0.500kg",
+    "grid_size": "2x1",
+    "sell_price": "$15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0c/UN_Medical_Tools_inspect.png/revision/latest/scale-to-width-down/268?cb=20260403094658"
+  },
+  {
+    "name": "Vial of Antigens",
+    "id": "vial-of-antigens",
+    "type": "Laboratory Supplies",
+    "weight": "0.030kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$947",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1b/Vial_of_Antigens_inspect.png/revision/latest?cb=20260416140534"
+  },
+  {
+    "name": "Water Purification Tablets",
+    "id": "water-purification-tablets",
+    "type": "Laboratory Supplies",
+    "weight": "0.125kg",
+    "grid_size": "1x1",
+    "sell_price": "$27",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ab/Water_Purification_Tablets_inspect.png/revision/latest?cb=20260403100306"
+  }
+]

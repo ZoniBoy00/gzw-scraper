@@ -1,0 +1,760 @@
+[
+  {
+    "name": "A102 Key",
+    "id": "a102-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "A103 Key",
+    "id": "a103-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest/scale-to-width-down/200?cb=20250528145533"
+  },
+  {
+    "name": "A208 Key",
+    "id": "a208-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest/scale-to-width-down/200?cb=20250528145533"
+  },
+  {
+    "name": "A210 Key",
+    "id": "a210-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest/scale-to-width-down/200?cb=20250528145533"
+  },
+  {
+    "name": "Airport Storage Shed Key",
+    "id": "airport-storage-shed-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "Ban Khamphet House Key",
+    "id": "ban-khamphet-house-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "Ban Pa Elder's House Key",
+    "id": "ban-pa-elders-house-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Ban Pa Elder's Room Key",
+    "id": "ban-pa-elders-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest/scale-to-width-down/200?cb=20250528145533"
+  },
+  {
+    "name": "Ban Pa Fishing Hut Key",
+    "id": "ban-pa-fishing-hut-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Key-Type3.png/revision/latest/scale-to-width-down/200?cb=20250528145150"
+  },
+  {
+    "name": "Ban Pa Warehouse Key",
+    "id": "ban-pa-warehouse-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Ban Phouphienge Room Key",
+    "id": "ban-phouphienge-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Blue Lagoon Office Storage Key",
+    "id": "blue-lagoon-office-storage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "Blue Lagoon Restaurant Storage Key",
+    "id": "blue-lagoon-restaurant-storage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Key-Type3.png/revision/latest/scale-to-width-down/200?cb=20250528145150"
+  },
+  {
+    "name": "Blue Lagoon Shack Key",
+    "id": "blue-lagoon-shack-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "C101 Key",
+    "id": "c101-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest/scale-to-width-down/200?cb=20250528145533"
+  },
+  {
+    "name": "C108 Key",
+    "id": "c108-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest/scale-to-width-down/200?cb=20250528145533"
+  },
+  {
+    "name": "Cement Factory Storage Key",
+    "id": "cement-factory-storage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "Construction Site Storage Key",
+    "id": "construction-site-storage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Dongphou Hiking Camp Cottage Key",
+    "id": "dongphou-hiking-camp-cottage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Fanny Paradise Office Key",
+    "id": "fanny-paradise-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Fort Narith Air Traffic Control Tower Key",
+    "id": "fort-narith-air-traffic-control-tower-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest/scale-to-width-down/200?cb=20250528145533"
+  },
+  {
+    "name": "Fort Narith Dumping Ground Storage Shed Key",
+    "id": "fort-narith-dumping-ground-storage-shed-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "Fort Narith Garage Office Key",
+    "id": "fort-narith-garage-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest/scale-to-width-down/200?cb=20250528145207"
+  },
+  {
+    "name": "Fort Narith HQ Archive Key",
+    "id": "fort-narith-hq-archive-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "Fort Narith HQ Reception Storage Key Card",
+    "id": "fort-narith-hq-reception-storage-key-card",
+    "type": "Keycard",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/FN_HQRec_inspect.png/revision/latest/scale-to-width-down/200?cb=20260502075303"
+  },
+  {
+    "name": "Fort Narith HQ Storage Room Key",
+    "id": "fort-narith-hq-storage-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Key-Type3.png/revision/latest/scale-to-width-down/200?cb=20250528145150"
+  },
+  {
+    "name": "Fort Narith Infirmary ICU Key",
+    "id": "fort-narith-infirmary-icu-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Key-Type4.png/revision/latest/scale-to-width-down/200?cb=20250528145158"
+  },
+  {
+    "name": "Fort Narith Motel Makeshift Armory Key",
+    "id": "fort-narith-motel-makeshift-armory-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Fort Narith Operations Room Key Card",
+    "id": "fort-narith-operations-room-key-card",
+    "type": "Keycard",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2a/FN_OR_inspect.png/revision/latest/scale-to-width-down/200?cb=20260502075206"
+  },
+  {
+    "name": "Fort Narith Outskirts Makeshift Armory Key",
+    "id": "fort-narith-outskirts-makeshift-armory-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "Fort Narith Shooting Range Office Key",
+    "id": "fort-narith-shooting-range-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest/scale-to-width-down/200?cb=20250528145207"
+  },
+  {
+    "name": "Forth Narith HQ Comms Room Key",
+    "id": "forth-narith-hq-comms-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Golf Club Storage Key",
+    "id": "golf-club-storage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Hangar 03 Key",
+    "id": "hangar-03-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Key-Type4.png/revision/latest/scale-to-width-down/200?cb=20250528145158"
+  },
+  {
+    "name": "Hidden Fields 02 Hut Key",
+    "id": "hidden-fields-02-hut-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "Hidden Fields 03 Hut Key",
+    "id": "hidden-fields-03-hut-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "Hotel Supply Closet Key Card",
+    "id": "hotel-supply-closet-key-card",
+    "type": "Keycard",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6f/Keycard-Type2.png/revision/latest/scale-to-width-down/200?cb=20250531203648"
+  },
+  {
+    "name": "House by the Pond Key",
+    "id": "house-by-the-pond-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Hunter's Paradise Makeshift Motel Armory Key",
+    "id": "hunters-paradise-makeshift-motel-armory-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Hunter's Paradise Motel Room 101 Key",
+    "id": "hunters-paradise-motel-room-101-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Hunter's Paradise Motel Room 102 Key",
+    "id": "hunters-paradise-motel-room-102-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Hunter's Paradise Shooting Lines Storage Key",
+    "id": "hunters-paradise-shooting-lines-storage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Hunter's Paradise Weapon Storage Key",
+    "id": "hunters-paradise-weapon-storage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/53/Hunter%27s_Paradise_Weapon_Storage_Key.png/revision/latest/scale-to-width-down/200?cb=20240504043117"
+  },
+  {
+    "name": "Hunter\u2019s Paradise Bunker Key",
+    "id": "hunter\u2019s-paradise-bunker-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Hunter\u2019s Paradise Motel Room 101 Key",
+    "id": "hunter\u2019s-paradise-motel-room-101-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Hunter\u2019s Paradise Weapon Storage Key",
+    "id": "hunter\u2019s-paradise-weapon-storage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "Inthavong Farm Shed Key",
+    "id": "inthavong-farm-shed-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "Keys",
+    "id": "keys"
+  },
+  {
+    "name": "Khamhao Rice Depot Room Key",
+    "id": "khamhao-rice-depot-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Khonwan Village House Key",
+    "id": "khonwan-village-house-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Key-Type3.png/revision/latest/scale-to-width-down/200?cb=20250528145150"
+  },
+  {
+    "name": "Kiu Vongsa Doctor's Office Key",
+    "id": "kiu-vongsa-doctors-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest/scale-to-width-down/200?cb=20250528145207"
+  },
+  {
+    "name": "Kiu Vongsa Lumberyard Maintenance Room Key",
+    "id": "kiu-vongsa-lumberyard-maintenance-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest/scale-to-width-down/200?cb=20250528145533"
+  },
+  {
+    "name": "Kiu Vongsa Marketplace Broom Closet Key",
+    "id": "kiu-vongsa-marketplace-broom-closet-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Kiu Vongsa Marketplace Office Key",
+    "id": "kiu-vongsa-marketplace-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Kiu Vongsa Marketplace Storeroom Key",
+    "id": "kiu-vongsa-marketplace-storeroom-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Kiu Vongsa Mayor's Mansion Room Key",
+    "id": "kiu-vongsa-mayors-mansion-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Kiu Vongsa Motel Room Key",
+    "id": "kiu-vongsa-motel-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Kiu Vongsa Occupied Villa Bedroom Key",
+    "id": "kiu-vongsa-occupied-villa-bedroom-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest/scale-to-width-down/200?cb=20250528145533"
+  },
+  {
+    "name": "Kiu Vongsa Restaurant Storage Key",
+    "id": "kiu-vongsa-restaurant-storage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Kiu Vongsa Town Hall Finance Department Key Card",
+    "id": "kiu-vongsa-town-hall-finance-department-key-card",
+    "type": "Keycard",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest/scale-to-width-down/160?cb=20250531203658"
+  },
+  {
+    "name": "Kiu Vongsa UNLRA Office Key",
+    "id": "kiu-vongsa-unlra-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "LAF Radio Tower Room Key",
+    "id": "laf-radio-tower-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Makeshift Bandit Lookout Key",
+    "id": "makeshift-bandit-lookout-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Midnight Sapphire Employee Housing Office Key",
+    "id": "midnight-sapphire-employee-housing-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Midnight Sapphire Hotel \"Party Room\" Key",
+    "id": "midnight-sapphire-hotel-\"party-room\"-key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/28/MSH_PR_inspect.png/revision/latest/scale-to-width-down/200?cb=20260404173624"
+  },
+  {
+    "name": "Midnight Sapphire Hotel Office Key",
+    "id": "midnight-sapphire-hotel-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Nam Thaven Doctor's Office Key",
+    "id": "nam-thaven-doctors-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Nam Thaven Lumberyard Maintenance Room Key",
+    "id": "nam-thaven-lumberyard-maintenance-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest/scale-to-width-down/200?cb=20250528145533"
+  },
+  {
+    "name": "Nam Thaven Marketplace Broom Closet Key",
+    "id": "nam-thaven-marketplace-broom-closet-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Nam Thaven Marketplace Office Key",
+    "id": "nam-thaven-marketplace-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Nam Thaven Marketplace Storeroom Key",
+    "id": "nam-thaven-marketplace-storeroom-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Nam Thaven Motel Room Key",
+    "id": "nam-thaven-motel-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Nam Thaven Occupied Villa Bedroom Key",
+    "id": "nam-thaven-occupied-villa-bedroom-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest/scale-to-width-down/200?cb=20250528145533"
+  },
+  {
+    "name": "Nam Thaven Restaurant Storage Key",
+    "id": "nam-thaven-restaurant-storage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Nam Thaven Town Hall Finance Department Key Card",
+    "id": "nam-thaven-town-hall-finance-department-key-card",
+    "type": "Keycard",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest/scale-to-width-down/160?cb=20250531203658"
+  },
+  {
+    "name": "Nam Thaven UNLRA Office Key",
+    "id": "nam-thaven-unlra-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Pha Lang Airfield Meeting Room Key",
+    "id": "pha-lang-airfield-meeting-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Pha Lang Airfield Storage Office Key",
+    "id": "pha-lang-airfield-storage-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "Pha Lang Doctor's Office Key",
+    "id": "pha-lang-doctors-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest/scale-to-width-down/200?cb=20250528145207"
+  },
+  {
+    "name": "Pha Lang Lumberyard Maintenance Room Key",
+    "id": "pha-lang-lumberyard-maintenance-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest/scale-to-width-down/200?cb=20250528145533"
+  },
+  {
+    "name": "Pha Lang Marketplace Broom Closet Key",
+    "id": "pha-lang-marketplace-broom-closet-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Pha Lang Marketplace Office Key",
+    "id": "pha-lang-marketplace-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Pha Lang Marketplace Storeroom Key",
+    "id": "pha-lang-marketplace-storeroom-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Pha Lang Motel Room Key",
+    "id": "pha-lang-motel-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest/scale-to-width-down/200?cb=20250528145207"
+  },
+  {
+    "name": "Pha Lang Occupied Villa Bedroom Key",
+    "id": "pha-lang-occupied-villa-bedroom-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest/scale-to-width-down/200?cb=20250528145533"
+  },
+  {
+    "name": "Pha Lang Restaurant Storage Key",
+    "id": "pha-lang-restaurant-storage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Pha Lang Town Hall Finance Department Key Card",
+    "id": "pha-lang-town-hall-finance-department-key-card",
+    "type": "Keycard",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest/scale-to-width-down/160?cb=20250531203658"
+  },
+  {
+    "name": "Pha Lang UNLRA Office Key",
+    "id": "pha-lang-unlra-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Phouarun Restaurant Attic Room Key",
+    "id": "phouarun-restaurant-attic-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Phousai Village House Key",
+    "id": "phousai-village-house-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Pier Storage Key",
+    "id": "pier-storage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest/scale-to-width-down/200?cb=20250528145207"
+  },
+  {
+    "name": "PLA Shed",
+    "id": "pla-shed",
+    "type": "key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8f/PLA_Shed_Key.png/revision/latest/scale-to-width-down/200?cb=20240512174016"
+  },
+  {
+    "name": "Sawmill Office Key",
+    "id": "sawmill-office-key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest/scale-to-width-down/200?cb=20250528145207"
+  },
+  {
+    "name": "Sawmill Office Storage Room Key",
+    "id": "sawmill-office-storage-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "Sawmill Storage Shed Key",
+    "id": "sawmill-storage-shed-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Sawmill Toilet Key",
+    "id": "sawmill-toilet-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "SC Case",
+    "id": "sc-case",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dc/Sccase.png/revision/latest/scale-to-width-down/200?cb=20250525182046"
+  },
+  {
+    "name": "School Room Key",
+    "id": "school-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Siang Radio Station Room Key",
+    "id": "siang-radio-station-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Small Marketplace House Key",
+    "id": "small-marketplace-house-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Sunset Chalet Cottage Key",
+    "id": "sunset-chalet-cottage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest/scale-to-width-down/200?cb=20250528145207"
+  },
+  {
+    "name": "Sunset Chalet Firearms Case Key",
+    "id": "sunset-chalet-firearms-case-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3a/Key-Type7.png/revision/latest/scale-to-width-down/200?cb=20250531231310"
+  },
+  {
+    "name": "Tiger Bay Central Armory Card",
+    "id": "tiger-bay-central-armory-card",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest/scale-to-width-down/160?cb=20250531203658"
+  },
+  {
+    "name": "Tiger Bay Outskirts Garage Key",
+    "id": "tiger-bay-outskirts-garage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Tiger Bay Trade Depot Office Key",
+    "id": "tiger-bay-trade-depot-office-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest/scale-to-width-down/200?cb=20250528145207"
+  },
+  {
+    "name": "Toto Hardware Storage Key",
+    "id": "toto-hardware-storage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Key-Type4.png/revision/latest/scale-to-width-down/200?cb=20250528145158"
+  },
+  {
+    "name": "Turncoat's House Key",
+    "id": "turncoats-house-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "UNLRA Equipment Container Key",
+    "id": "unlra-equipment-container-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e1/Key-Type8.png/revision/latest/scale-to-width-down/200?cb=20250531231320"
+  },
+  {
+    "name": "UNLRA HQ Office Key Card",
+    "id": "unlra-hq-office-key-card",
+    "type": "Keycard",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f5/Keycard-Type1.png/revision/latest/scale-to-width-down/160?cb=20250531203658"
+  },
+  {
+    "name": "UNLRA Medical Container Key",
+    "id": "unlra-medical-container-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e1/Key-Type8.png/revision/latest/scale-to-width-down/200?cb=20250531231320"
+  },
+  {
+    "name": "UNLRA Quarantine Key",
+    "id": "unlra-quarantine-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest/scale-to-width-down/200?cb=20250528145207"
+  },
+  {
+    "name": "UNRLA Dorm Container Key",
+    "id": "unrla-dorm-container-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e2/UNDrm.png/revision/latest/scale-to-width-down/200?cb=20240509035228"
+  },
+  {
+    "name": "Unter\u2019s Paradise Motel Room 102 Key",
+    "id": "unter\u2019s-paradise-motel-room-102-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Villa Anna Jana Key",
+    "id": "villa-anna-jana-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Key-Type4.png/revision/latest/scale-to-width-down/200?cb=20250528145158"
+  },
+  {
+    "name": "Villa Elena Garage Key",
+    "id": "villa-elena-garage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Villa Katherine Key",
+    "id": "villa-katherine-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Villa Luisa Key",
+    "id": "villa-luisa-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Villa Lusia Key",
+    "id": "villa-lusia-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/Villa_Lusia_Key-1.png/revision/latest/scale-to-width-down/200?cb=20240513215914"
+  },
+  {
+    "name": "Villa Marta Monica Garage Key",
+    "id": "villa-marta-monica-garage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "Villa Vongphet Room Key",
+    "id": "villa-vongphet-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "YBL-1 Bedroom Key",
+    "id": "ybl-1-bedroom-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "YBL-1 Corridor D Storage Room Key",
+    "id": "ybl-1-corridor-d-storage-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/34/Key-Type2.png/revision/latest/scale-to-width-down/200?cb=20250528145142"
+  },
+  {
+    "name": "YBL-1 Generator Room Key",
+    "id": "ybl-1-generator-room-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Key-Type6.png/revision/latest/scale-to-width-down/200?cb=20250528145215"
+  },
+  {
+    "name": "YBL-1 Maintenance Door Key",
+    "id": "ybl-1-maintenance-door-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/Key-Type1.png/revision/latest/scale-to-width-down/200?cb=20250528145533"
+  },
+  {
+    "name": "YBL-1 Office 02 Key",
+    "id": "ybl-1-office-02-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest/scale-to-width-down/200?cb=20250528145207"
+  },
+  {
+    "name": "YBL-1 Office Key 01",
+    "id": "ybl-1-office-key-01",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest/scale-to-width-down/200?cb=20250528145207"
+  },
+  {
+    "name": "YBL-1 Weapon Storage Key",
+    "id": "ybl-1-weapon-storage-key",
+    "type": "Key",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c1/Key-Type5.png/revision/latest/scale-to-width-down/200?cb=20250528145207"
+  }
+]

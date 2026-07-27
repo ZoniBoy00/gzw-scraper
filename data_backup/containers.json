@@ -1,0 +1,199 @@
+[
+  {
+    "name": "Admin Desk",
+    "type": "Container",
+    "weight": "38.600kg",
+    "slots": "210",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/Admin_Desk_inspect.png/revision/latest/scale-to-width-down/200?cb=20260331091140"
+  },
+  {
+    "name": "Admin Pouch",
+    "type": "Container",
+    "weight": "0.180kg",
+    "slots": "6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e6/Admin_Pouch_inspect.png/revision/latest/scale-to-width-down/200?cb=20260404034238"
+  },
+  {
+    "name": "Containers",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/2x2_Inventory.png/revision/latest?cb=20240509033218"
+  },
+  {
+    "name": "First Aid Case",
+    "type": "Container",
+    "weight": "1.500kg",
+    "slots": "30",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bd/Med_Case_inspect.png/revision/latest/scale-to-width-down/200?cb=20250427173539"
+  },
+  {
+    "name": "Hand Grenade Storage Box",
+    "type": "Container",
+    "weight": "0.900kg",
+    "slots": "20",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b4/Hand_Grenade_Storage_Box_inspect.png/revision/latest/scale-to-width-down/200?cb=20260404032855"
+  },
+  {
+    "name": "Hard Case First Aid Kit",
+    "type": "Container",
+    "slots": "2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/02/HCKit_inspect.png/revision/latest/scale-to-width-down/161?cb=20250621182758"
+  },
+  {
+    "name": "HARDE Case",
+    "type": "Container",
+    "weight": "4.900kg",
+    "slots": "60",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f0/HARDE_Case_inspect.png/revision/latest/scale-to-width-down/200?cb=20250505043322"
+  },
+  {
+    "name": "Injector Case",
+    "type": "Container",
+    "weight": "0.360kg",
+    "slots": "9",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/30/Injector_Case_inspect.png/revision/latest/scale-to-width-down/200?cb=20260331091421"
+  },
+  {
+    "name": "IV Truncase",
+    "type": "Container",
+    "weight": "2.700kg",
+    "slots": "63",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/IV_Truncase_inspect.png/revision/latest/scale-to-width-down/200?cb=20250612202955"
+  },
+  {
+    "name": "Key Case",
+    "type": "Container",
+    "weight": "0.020kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1d/5x3_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240510002937"
+  },
+  {
+    "name": "Kombat Folder",
+    "type": "Container",
+    "weight": "0.420kg",
+    "slots": "16",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/Kombat_Folder_inspect.png/revision/latest/scale-to-width-down/200?cb=20260331091502"
+  },
+  {
+    "name": "Large Key Case",
+    "type": "Container",
+    "weight": "0.170kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/46/6x5_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250619195900"
+  },
+  {
+    "name": "Large Safe",
+    "type": "Container",
+    "weight": "15.000kg",
+    "slots": "108",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/dd/Large_Safe_inspect.png/revision/latest/scale-to-width-down/188?cb=20260416205057"
+  },
+  {
+    "name": "Leather Key Holder",
+    "type": "Container",
+    "weight": "0.048kg",
+    "slots": "6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/Leather_Key_Holder_inspect.png/revision/latest/scale-to-width-down/200?cb=20240509224936"
+  },
+  {
+    "name": "Magazine Case",
+    "type": "Container",
+    "weight": "2.860kg",
+    "slots": "36",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/6c/Magazine_Case_inspect.png/revision/latest/scale-to-width-down/200?cb=20260331091643"
+  },
+  {
+    "name": "Medical Box",
+    "type": "Container",
+    "weight": "4.700kg",
+    "slots": "80",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/97/Medical_Box_Inspect.png/revision/latest/scale-to-width-down/200?cb=20260525132324"
+  },
+  {
+    "name": "Metal Ammo Box",
+    "type": "Container",
+    "weight": "2.400kg",
+    "slots": "20",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0a/Metal_Ammo_Box_inspect.png/revision/latest/scale-to-width-down/200?cb=20260404032325"
+  },
+  {
+    "name": "Mini First Aid Kit",
+    "type": "Container",
+    "weight": "0.400kg",
+    "slots": "3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9f/M-FAK_inspect.png/revision/latest/scale-to-width-down/200?cb=20250218093903"
+  },
+  {
+    "name": "MM Ammo Box",
+    "type": "Container",
+    "weight": "0.450kg",
+    "slots": "42",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/MM_Ammo_Box_Inspect.png/revision/latest/scale-to-width-down/200?cb=20260525132730"
+  },
+  {
+    "name": "MM24 Case",
+    "type": "Container",
+    "weight": "28kg",
+    "slots": "120",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/MM24_Case_Inspect.png/revision/latest/scale-to-width-down/200?cb=20260525132939"
+  },
+  {
+    "name": "Mortar Round Crate",
+    "type": "Container",
+    "weight": "12.000kg",
+    "slots": "15",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c3/Mortar_Round_Crate_inspect.png/revision/latest/scale-to-width-down/200?cb=20260416205255"
+  },
+  {
+    "name": "Muxxum Rifle Case",
+    "type": "Container",
+    "weight": "6.200kg",
+    "slots": "96",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f8/Muxxum_Rifle_Case_inspect.png/revision/latest/scale-to-width-down/200?cb=20260404031307"
+  },
+  {
+    "name": "Personal Cooler",
+    "type": "Container",
+    "weight": "0.820kg",
+    "slots": "36",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/Personal_Cooler_inspect.png/revision/latest/scale-to-width-down/200?cb=20250218100135"
+  },
+  {
+    "name": "Quick Release First Aid Kit",
+    "type": "Container",
+    "weight": "0.550kg",
+    "slots": "6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/e8/QRKit_inspect.png/revision/latest/scale-to-width-down/200?cb=20240516232543"
+  },
+  {
+    "name": "RIP-AWAY EMT POUCH",
+    "type": "Container",
+    "weight": "0.400kg",
+    "slots": "9",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4c/EMT_inspect.png/revision/latest/scale-to-width-down/186?cb=20260412135910"
+  },
+  {
+    "name": "Small Safe",
+    "type": "Container",
+    "weight": "3.000kg",
+    "slots": "24",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/96/Small_Safe_inspect.png/revision/latest/scale-to-width-down/200?cb=20260416204951"
+  },
+  {
+    "name": "Tactical Wallet",
+    "type": "Container",
+    "weight": "0.130kg",
+    "slots": "12",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/Tactical_Wallet_inspect.png/revision/latest/scale-to-width-down/161?cb=20260331091901"
+  },
+  {
+    "name": "Wallet",
+    "type": "Container",
+    "weight": "0.060kg",
+    "slots": "4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/50/Wallet_inspect.png/revision/latest/scale-to-width-down/200?cb=20240506162636"
+  },
+  {
+    "name": "Weapon Parts Case",
+    "type": "Container",
+    "weight": "6.200kg",
+    "slots": "42",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/89/7x6_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250718215520"
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "name": "AK-74 Gas Tube",
+    "id": "ak-74-gas-tube",
+    "type": "Gas Block",
+    "weight": "0.085 kg",
+    "sold_by": "Turncoat R.1",
+    "buy_price": "$7",
+    "manufacturer": "Kalashnikov concern"
+  },
+  {
+    "name": "AKM Gas Tube",
+    "id": "akm-gas-tube",
+    "type": "Gas Block",
+    "slot": "Gas Block",
+    "weight": "0.085 kg",
+    "sold_by": "Artisan R.1",
+    "buy_price": "$10",
+    "manufacturer": "Kalashnikov concern"
+  },
+  {
+    "name": "AKS-74U Gas Tube",
+    "id": "aks-74u-gas-tube",
+    "type": "Gas Block",
+    "weight": "0.045 kg",
+    "sold_by": "Turncoat R.1",
+    "buy_price": "$68",
+    "manufacturer": "Kalashnikov concern"
+  },
+  {
+    "name": "AR-15 JPGS-10D Gas Block",
+    "id": "ar-15-jpgs-10d-gas-block",
+    "type": "Gas Block",
+    "weight": "0.068 kg",
+    "sold_by": "Gunny R.3",
+    "manufacturer": "General West",
+    "fire_rate": "+6 %",
+    "muzzle_device_efficiency": "+7 %"
+  },
+  {
+    "name": "CQA1 Standard Gas Block",
+    "id": "cqa1-standard-gas-block",
+    "type": "Gas Block",
+    "weight": "0.130 kg",
+    "sold_by": "Gunny R.1",
+    "manufacturer": "Norinco",
+    "muzzle_device_efficiency": "-2.0 %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/83/CQA1_Gas_inspect.png/revision/latest/scale-to-width-down/268?cb=20250614170027"
+  },
+  {
+    "name": "DD MK12 Low Profile Gas Block",
+    "id": "dd-mk12-low-profile-gas-block",
+    "type": "Gas Block",
+    "weight": "0.053 kg",
+    "sold_by": "???",
+    "manufacturer": "Daniel Defense",
+    "fire_rate": "+??? RPM",
+    "muzzle_device_efficiency": "???? %",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7e/MK12_Low_inspect.png/revision/latest?cb=20240509152813"
+  },
+  {
+    "name": "M4A1 Standard Gas Block",
+    "id": "m4a1-standard-gas-block",
+    "type": "Gas Block",
+    "weight": "0.130 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Colt",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ac/M4A1_Gas_inspect.png/revision/latest/scale-to-width-down/268?cb=20240507135422"
+  },
+  {
+    "name": "Ratnik Gas Tube",
+    "id": "ratnik-gas-tube",
+    "type": "Gas Block",
+    "weight": "0.080 kg",
+    "sold_by": "Artisan R.3 Turncoat R.2",
+    "buy_price": "$244",
+    "manufacturer": "Kalashnikov concern",
+    "fire_rate": "+3 %",
+    "muzzle_device_efficiency": "+3 %"
+  },
+  {
+    "name": "SIG MCX Gas Block",
+    "id": "sig-mcx-gas-block",
+    "type": "Gas Block",
+    "weight": "0.150 kg",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$312",
+    "manufacturer": "SIG Sauer",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9b/MCX_Gas_inspect.png/revision/latest/scale-to-width-down/267?cb=20250614022229"
+  }
+]

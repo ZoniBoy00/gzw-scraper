@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Advanced Tracking Tag",
+    "id": "advanced-tracking-tag",
+    "weight": "0,014kg",
+    "sold_by": "Banshee R.3",
+    "grid_size": "1x1",
+    "duration": "12h",
+    "manufacturer": "General West",
+    "sell_price": "$269",
+    "buy_price": "$899",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a5/Advanced_Tracking_Tag.png/revision/latest?cb=20250523224603"
+  },
+  {
+    "name": "Basic Tracking Tag",
+    "id": "basic-tracking-tag",
+    "weight": "0.007kg",
+    "sold_by": "Banshee R.1",
+    "grid_size": "1x1",
+    "duration": "3h",
+    "manufacturer": "General Local",
+    "sell_price": "$104",
+    "buy_price": "$349",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0b/Basic_Tracking_Tag.png/revision/latest/scale-to-width-down/268?cb=20250523224626"
+  },
+  {
+    "name": "Tracking Tag",
+    "id": "tracking-tag",
+    "weight": "0.015kg",
+    "sold_by": "Banshee R.2",
+    "grid_size": "1x1",
+    "duration": "6h",
+    "manufacturer": "General Local",
+    "sell_price": "$194",
+    "buy_price": "$649",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b6/Tracking_Tag.png/revision/latest/scale-to-width-down/268?cb=20250523224614"
+  }
+]

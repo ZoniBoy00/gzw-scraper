@@ -1,0 +1,122 @@
+[
+  {
+    "name": "1911 Commander Slide",
+    "id": "1911-commander-slide",
+    "type": "Slide",
+    "weight": "0.349 kg",
+    "sold_by": "Loot only",
+    "manufacturer": "Fusion Firearms",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/15/1911_Com_Slide_inspect.png/revision/latest/scale-to-width-down/268?cb=20250727222408"
+  },
+  {
+    "name": "Colt 1911 Long Slide",
+    "id": "colt-1911-long-slide",
+    "type": "Slide",
+    "weight": "??? kg",
+    "sold_by": "???",
+    "manufacturer": "???",
+    "recoil_control": "+??? %",
+    "reload_speed": "+??? %"
+  },
+  {
+    "name": "Colt 1911 Slide",
+    "id": "colt-1911-slide",
+    "type": "Slide",
+    "weight": "??? kg",
+    "sold_by": "???",
+    "manufacturer": "???",
+    "recoil_control": "+??? %",
+    "reload_speed": "+??? %"
+  },
+  {
+    "name": "Glock 17 Slide",
+    "id": "glock-17-slide",
+    "type": "Slide",
+    "weight": "0.370 kg",
+    "sold_by": "Gunny R.1 Banshee R.1",
+    "manufacturer": "Glock",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/74/G17_Slide_inspect.png/revision/latest/scale-to-width-down/268?cb=20240509115145"
+  },
+  {
+    "name": "Glock 17 ZPS.6 Slide",
+    "id": "glock-17-zps.6-slide",
+    "type": "Slide",
+    "weight": "0.280 kg",
+    "sold_by": "Banshee R.2",
+    "buy_price": "$353",
+    "manufacturer": "Zaffiri Precision",
+    "recoil_control": "+6 %",
+    "reload_speed": "-4 %"
+  },
+  {
+    "name": "M9A1 Slide",
+    "id": "m9a1-slide",
+    "type": "Slide",
+    "weight": "0.290 kg",
+    "sold_by": "Gunny R.1",
+    "manufacturer": "Beretta"
+  },
+  {
+    "name": "N17 Reptile EDC Slide",
+    "id": "n17-reptile-edc-slide",
+    "type": "Slide",
+    "weight": "0.370 kg",
+    "sold_by": "Banshee R.4",
+    "buy_price": "$817",
+    "manufacturer": "Norsso",
+    "reload_speed": "+10 %"
+  },
+  {
+    "name": "P40 Warhawk Slide",
+    "id": "p40-warhawk-slide",
+    "type": "Slide",
+    "weight": "0.330 kg",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$752",
+    "manufacturer": "Steel City Arsenal",
+    "recoil_control": "-4 %",
+    "reload_speed": "+8 %"
+  },
+  {
+    "name": "TT-33 Slide",
+    "id": "tt-33-slide",
+    "type": "Slide",
+    "weight": "??? kg",
+    "sold_by": "???",
+    "manufacturer": "???",
+    "recoil_control": "+??? %",
+    "reload_speed": "+??? %"
+  },
+  {
+    "name": "Type 51 Slide",
+    "id": "type-51-slide",
+    "type": "Slide",
+    "weight": "??? kg",
+    "sold_by": "???",
+    "manufacturer": "???",
+    "recoil_control": "+??? %",
+    "reload_speed": "+??? %"
+  },
+  {
+    "name": "Tyton Glock 17 Slide",
+    "id": "tyton-glock-17-slide",
+    "type": "Slide",
+    "weight": "0.290 kg",
+    "sold_by": "Banshee R.2",
+    "buy_price": "$661",
+    "manufacturer": "L2D Combat",
+    "recoil_control": "-8 %",
+    "reload_speed": "+6 %"
+  },
+  {
+    "name": "Z17 Citadel Slide",
+    "id": "z17-citadel-slide",
+    "type": "Slide",
+    "weight": "0.330 kg",
+    "sold_by": "Banshee R.3",
+    "buy_price": "$864",
+    "manufacturer": "ZEV Technologies",
+    "recoil_control": "-4 %",
+    "reload_speed": "+6 %"
+  }
+]

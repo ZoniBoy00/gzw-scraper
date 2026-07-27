@@ -1,3738 +1,929 @@
 [
   {
-    "id": "cache-report-ii",
-    "name": "Cache Report II",
-    "vendor": "",
-    "area": "North of Fort Narith",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "cache-report-ix",
-    "name": "Cache Report IX",
-    "vendor": "",
-    "area": "North of Blue Lagoon",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "they-are-everywhere",
-    "name": "They Are Everywhere",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "a-small-favor",
     "name": "A Small Favor",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "a-small-favor",
+    "vendor": "Turncoat",
+    "location": "Fort Narith",
+    "alternate": "No Escape",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "artisans-list",
     "name": "Artisan's List",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "artisans-list",
+    "vendor": "Artisan",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "artisans-list-ii",
     "name": "Artisan's List II",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "artisans-list-ii",
+    "vendor": "Artisan",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "at-dooms-gate",
     "name": "At Doom's Gate",
-    "vendor": "",
-    "area": "Lamang Island",
-    "type": "unknown",
-    "objectives": []
+    "id": "at-dooms-gate",
+    "vendor": "Handshake",
+    "location": "Lamang Island",
+    "hidden_task": "True",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "at-the-mounds-of-madness",
     "name": "At the Mounds of Madness",
-    "vendor": "",
-    "area": "Ban pa",
-    "type": "unknown",
-    "objectives": []
+    "id": "at-the-mounds-of-madness",
+    "vendor": "Artisan",
+    "location": "Ban pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "at-the-mounds-of-madness-ii",
     "name": "At the Mounds of Madness II",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "unknown",
-    "objectives": []
+    "id": "at-the-mounds-of-madness-ii",
+    "vendor": "Artisan",
+    "location": "Ban Pa",
+    "alternate": "The Shadow Over Ban Pa II",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "aye-aye-captain",
     "name": "Aye Aye, Captain",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "aye-aye,-captain",
+    "vendor": "Gunny",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "baked",
     "name": "Baked",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "baked",
+    "vendor": "Banshee",
+    "location": "Tiger Bay",
+    "alternate": "Narcotic Bargain",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
-    "id": "big-entrance",
     "name": "Big Entrance",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "big-entrance",
+    "vendor": "Gunny",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "buyer-of-untold-truths",
     "name": "Buyer of Untold Truths",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "buyer-of-untold-truths",
+    "vendor": "Turncoat",
+    "location": "Tiger Bay",
+    "alternate": "Crumb Collector",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "carnivore",
     "name": "Carnivore",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "unknown",
-    "objectives": []
+    "id": "carnivore",
+    "vendor": "Lab Rat",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "crumb-collector",
     "name": "Crumb Collector",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "crumb-collector",
+    "vendor": "Lab Rat",
+    "location": "Tiger Bay",
+    "alternate": "Buyer of Untold Truths",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "deal-of-the-century",
     "name": "Deal of the Century",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "deal-of-the-century",
+    "vendor": "Banshee",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
-    "id": "deep-depravity",
     "name": "Deep Depravity",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "unknown",
-    "objectives": []
+    "id": "deep-depravity",
+    "vendor": "Banshee",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
-    "id": "dishonest-practices",
     "name": "Dishonest Practices",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "dishonest-practices",
+    "vendor": "Turncoat",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "domesticated-rat",
     "name": "Domesticated Rat",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "unknown",
-    "objectives": []
+    "id": "domesticated-rat",
+    "vendor": "Handshake",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "double-exposure",
     "name": "Double Exposure",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "double-exposure",
+    "vendor": "Turncoat",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "downsizing",
     "name": "Downsizing",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "downsizing",
+    "vendor": "Turncoat",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "dragonslayer",
     "name": "Dragonslayer",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "dragonslayer",
+    "vendor": "Turncoat",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "evacuation-question",
     "name": "Evacuation Question",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "evacuation-question",
+    "vendor": "Artisan",
+    "location": "Fort Narith",
+    "alternate": "In The Right Hands",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "expansion",
     "name": "Expansion",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "unknown",
-    "objectives": []
+    "id": "expansion",
+    "vendor": "Gunny",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "family-heirloom",
     "name": "Family Heirloom",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "family-heirloom",
+    "vendor": "Turncoat",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "final-liberation",
     "name": "Final Liberation",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "unknown",
-    "objectives": []
+    "id": "final-liberation",
+    "vendor": "Turncoat",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "firestarter",
     "name": "Firestarter",
-    "vendor": "",
-    "area": "Lamang Island",
-    "type": "unknown",
-    "objectives": []
+    "id": "firestarter",
+    "vendor": "Lab Rat",
+    "location": "Lamang Island",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "first-hit",
     "name": "First Hit",
-    "vendor": "",
-    "area": "Starting town",
-    "type": "unknown",
-    "objectives": []
+    "id": "first-hit",
+    "vendor": "Handshake",
+    "location": "Starting town",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "fort-narith-stroll",
     "name": "Fort Narith Stroll",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "fort-narith-stroll",
+    "vendor": "Handshake",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "fresh-meat-ii",
     "name": "Fresh Meat II",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "unknown",
-    "objectives": []
+    "id": "fresh-meat-ii",
+    "vendor": "Banshee",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
-    "id": "fresh-meat-iii",
     "name": "Fresh Meat III",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "unknown",
-    "objectives": []
+    "id": "fresh-meat-iii",
+    "vendor": "Banshee",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
-    "id": "friendly-suggestion",
     "name": "Friendly Suggestion",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "friendly-suggestion",
+    "vendor": "Turncoat",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "garbage-disposal",
     "name": "Garbage Disposal",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "garbage-disposal",
+    "vendor": "Artisan",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "girls-just-wanna-have-fun",
     "name": "Girls Just Wanna Have Fun",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "unknown",
-    "objectives": []
+    "id": "girls-just-wanna-have-fun",
+    "vendor": "Artisan",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "goods-hunting",
     "name": "Goods Hunting",
-    "vendor": "",
-    "area": "Khonwan Village (East of Nam Thaven)",
-    "type": "unknown",
-    "objectives": []
+    "id": "goods-hunting",
+    "vendor": "Gunny",
+    "location": "Khonwan Village (East of Nam Thaven)",
+    "hidden_task": "Yes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "hacker-ii",
     "name": "Hacker II",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "hacker-ii",
+    "vendor": "Handshake",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "hazardous-treasures",
     "name": "Hazardous Treasures",
-    "vendor": "",
-    "area": "Sawmill Blue Lagoon Hunter's Paradise Ban Pa Pha Lang Airfield YBL-1",
-    "type": "unknown",
-    "objectives": []
+    "id": "hazardous-treasures",
+    "vendor": "Handshake",
+    "location": "Sawmill Blue Lagoon Hunter's Paradise Ban Pa Pha Lang Airfield YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "hide-and-seek",
     "name": "Hide And Seek",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "hide-and-seek",
+    "vendor": "Gunny",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "i-went-i-saw-i-conquered-ii",
     "name": "I Went, I Saw, I Conquered II",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "unknown",
-    "objectives": []
+    "id": "i-went,-i-saw,-i-conquered-ii",
+    "vendor": "Handshake",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "i-went-i-saw-i-conquered-iii",
     "name": "I Went, I Saw, I Conquered III",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "unknown",
-    "objectives": []
+    "id": "i-went,-i-saw,-i-conquered-iii",
+    "vendor": "Handshake",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "in-the-right-hands",
     "name": "In The Right Hands",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "in-the-right-hands",
+    "vendor": "Turncoat",
+    "location": "Fort Narith",
+    "alternate": "Evacuation Question",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "incognito",
     "name": "Incognito",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "incognito",
+    "vendor": "Gunny",
+    "location": "Tiger Bay",
+    "hidden_task": "True",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "interrupted-aid",
     "name": "Interrupted Aid",
-    "vendor": "",
-    "area": "Lamang Island",
-    "type": "unknown",
-    "objectives": []
+    "id": "interrupted-aid",
+    "vendor": "Lab Rat",
+    "faction": "Lamang Recovery Initiative",
+    "location": "Lamang Island",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "invaders-from-afar",
     "name": "Invaders From Afar",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "unknown",
-    "objectives": []
+    "id": "invaders-from-afar",
+    "vendor": "Artisan",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Invaders_from_Afar_Map.png/revision/latest/scale-to-width-down/200?cb=20250106000241"
   },
   {
-    "id": "its-in-the-water",
     "name": "It's in the Water",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "unknown",
-    "objectives": []
+    "id": "its-in-the-water",
+    "vendor": "Lab Rat",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "its-in-the-water-ii",
     "name": "It's in the Water II",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "unknown",
-    "objectives": []
+    "id": "its-in-the-water-ii",
+    "vendor": "Lab Rat",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "jetsnmarks",
     "name": "Jets'N'Marks",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "jetsnmarks",
+    "vendor": "Banshee",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
-    "id": "king-of-the-crossroads",
     "name": "King of the Crossroads",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "unknown",
-    "objectives": []
+    "id": "king-of-the-crossroads",
+    "vendor": "Handshake",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "lamang-connection",
     "name": "Lamang Connection",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "unknown",
-    "objectives": []
+    "id": "lamang-connection",
+    "vendor": "Banshee",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
-    "id": "last-farewell-ii",
     "name": "Last Farewell II",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
+    "id": "last-farewell-ii",
+    "vendor": "Gunny",
+    "alternate": "Left Behind II",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "last-flight",
     "name": "Last Flight",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "unknown",
-    "objectives": []
+    "id": "last-flight",
+    "vendor": "Artisan",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "last-resort",
     "name": "Last Resort",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "unknown",
-    "objectives": []
+    "id": "last-resort",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "left-behind-ii",
     "name": "Left Behind II",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
+    "id": "left-behind-ii",
+    "vendor": "Handshake",
+    "alternate": "Last Farewell II",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "line-in-the-sand",
     "name": "Line in the sand",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "unknown",
-    "objectives": []
+    "id": "line-in-the-sand",
+    "vendor": "Gunny",
+    "location": "Ban Pa",
+    "alternate": "The Value of Sharing",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "lip-out",
     "name": "Lip Out",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "unknown",
-    "objectives": []
+    "id": "lip-out",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "living-in-burrows",
     "name": "Living In Burrows",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "unknown",
-    "objectives": []
+    "id": "living-in-burrows",
+    "vendor": "Lab Rat",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "lost-girl-ii",
     "name": "Lost Girl II",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "unknown",
-    "objectives": []
+    "id": "lost-girl-ii",
+    "vendor": "Gunny",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "lost-hope",
     "name": "Lost Hope",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "unknown",
-    "objectives": []
+    "id": "lost-hope",
+    "vendor": "Artisan",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "lost-lover",
     "name": "Lost Lover",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "lost-lover",
+    "vendor": "Lab Rat",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "mall-vigilante",
     "name": "Mall Vigilante",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "mall-vigilante",
+    "vendor": "Handshake",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "manifest-destiny",
     "name": "Manifest Destiny",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "unknown",
-    "objectives": []
+    "id": "manifest-destiny",
+    "vendor": "Handshake",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "missing-colleague",
     "name": "Missing Colleague",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "missing-colleague",
+    "vendor": "Artisan",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "missing-colleague-ii",
     "name": "Missing Colleague II",
-    "vendor": "",
-    "area": "Fort narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "missing-colleague-ii",
+    "vendor": "Artisan",
+    "location": "Fort narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "name-your-poison",
     "name": "Name Your Poison",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "name-your-poison",
+    "vendor": "Turncoat",
+    "location": "Fort Narith",
+    "alternate": "Spit Out the Poison",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "narcotic-bargain",
     "name": "Narcotic Bargain",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "narcotic-bargain",
+    "vendor": "Turncoat",
+    "location": "Tiger Bay",
+    "alternate": "Baked",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "native-negotiations",
     "name": "Native Negotiations",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "unknown",
-    "objectives": []
+    "id": "native-negotiations",
+    "vendor": "Handshake",
+    "location": "Kiu Vongsa , Nam Thaven , Pha Lang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "neighborly-help",
     "name": "Neighborly Help",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "neighborly-help",
+    "vendor": "Gunny",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "no-casualties",
     "name": "No Casualties",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "unknown",
-    "objectives": []
+    "id": "no-casualties",
+    "vendor": "Artisan",
+    "task_type": "Contract",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "no-escape",
     "name": "No Escape",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "no-escape",
+    "vendor": "Banshee",
+    "location": "Fort Narith",
+    "alternate": "A Small Favor",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
-    "id": "no-questions-asked",
     "name": "No Questions Asked",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "unknown",
-    "objectives": []
+    "id": "no-questions-asked",
+    "vendor": "Turncoat",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "observation-duty",
     "name": "Observation Duty",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "observation-duty",
+    "vendor": "Gunny",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "on-the-range",
     "name": "On the Range",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "unknown",
-    "objectives": []
+    "id": "on-the-range",
+    "vendor": "Gunny",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "one-mans-trash",
     "name": "One Man's Trash",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "unknown",
-    "objectives": []
+    "id": "one-mans-trash",
+    "vendor": "Turncoat",
+    "location": "Blue Lagoon",
+    "alternate": "What Was Left",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "one-shot-one-kill",
     "name": "One Shot, One Kill",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "unknown",
-    "objectives": []
+    "id": "one-shot,-one-kill",
+    "vendor": "Handshake",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "out-of-the-blue",
     "name": "Out Of the Blue",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "unknown",
-    "objectives": []
+    "id": "out-of-the-blue",
+    "vendor": "Gunny",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "paparazzi",
     "name": "Paparazzi",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "unknown",
-    "objectives": []
+    "id": "paparazzi",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "peacekeeper",
     "name": "Peacekeeper",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "peacekeeper",
+    "vendor": "Lab Rat",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "postman-rings-twice",
     "name": "Postman Rings Twice",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "unknown",
-    "objectives": []
+    "id": "postman-rings-twice",
+    "vendor": "Lab Rat",
+    "faction": "LRI",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "prisoner-23",
     "name": "Prisoner 23",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "unknown",
-    "objectives": []
+    "id": "prisoner-23",
+    "vendor": "Artisan",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "propaganda-problems",
     "name": "Propaganda Problems",
-    "vendor": "",
-    "area": "Lamang Island",
-    "type": "unknown",
-    "objectives": []
+    "id": "propaganda-problems",
+    "vendor": "Gunny",
+    "faction": "CSI",
+    "location": "Lamang Island",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "radio-star",
     "name": "Radio Star",
-    "vendor": "",
-    "area": "Lamang",
-    "type": "unknown",
-    "objectives": []
+    "id": "radio-star",
+    "vendor": "Handshake",
+    "location": "Lamang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "rebel-scum",
     "name": "Rebel Scum",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "unknown",
-    "objectives": []
+    "id": "rebel-scum",
+    "vendor": "Handshake",
+    "location": "YBL-1",
+    "alternate": "Save The Rebellion",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "reconnaissance-in-force",
     "name": "Reconnaissance-in-Force",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "reconnaissance-in-force",
+    "vendor": "Handshake",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "ripper",
     "name": "Ripper",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "ripper",
+    "vendor": "Lab Rat",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "riverfront-view",
     "name": "Riverfront View",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "unknown",
-    "objectives": []
+    "id": "riverfront-view",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "save-the-rebellion",
     "name": "Save The Rebellion",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "unknown",
-    "objectives": []
+    "id": "save-the-rebellion",
+    "vendor": "Artisan",
+    "location": "YBL-1",
+    "alternate": "Rebel Scum",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "shooting-gallery",
     "name": "Shooting Gallery",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "unknown",
-    "objectives": []
+    "id": "shooting-gallery",
+    "vendor": "Handshake",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "shortcut",
     "name": "Shortcut",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "unknown",
-    "objectives": []
+    "id": "shortcut",
+    "vendor": "Handshake",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "sisyphus",
     "name": "Sisyphus",
-    "vendor": "",
-    "area": "Lamang Island",
-    "type": "unknown",
-    "objectives": []
+    "id": "sisyphus",
+    "vendor": "Handshake",
+    "location": "Lamang Island",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "skycrawlers-ii",
     "name": "Skycrawlers II",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "unknown",
-    "objectives": []
+    "id": "skycrawlers-ii",
+    "vendor": "Banshee",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
-    "id": "snooper",
     "name": "Snooper",
-    "vendor": "",
-    "area": "Lamang Island",
-    "type": "unknown",
-    "objectives": []
+    "id": "snooper",
+    "vendor": "Gunny",
+    "location": "Lamang Island",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "snow-white",
     "name": "Snow White",
-    "vendor": "",
-    "area": "Lamang Island",
-    "type": "unknown",
-    "objectives": []
+    "id": "snow-white",
+    "vendor": "Artisan",
+    "faction": "CSI,LRI",
+    "location": "Lamang Island",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "spit-out-the-poison",
     "name": "Spit Out the Poison",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "spit-out-the-poison",
+    "vendor": "Lab Rat",
+    "location": "Fort Narith",
+    "alternate": "Name Your Poison",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "state-of-weapon-shipment",
     "name": "State of Weapon Shipment",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "state-of-weapon-shipment",
+    "vendor": "Banshee",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
-    "id": "supernatural",
     "name": "Supernatural",
-    "vendor": "",
-    "area": "North of Ban Pa",
-    "type": "unknown",
-    "objectives": []
+    "id": "supernatural",
+    "vendor": "Gunny",
+    "faction": "Lamang Recovery Initiative",
+    "location": "North of Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "sweet-little-lies",
     "name": "Sweet Little Lies",
-    "vendor": "",
-    "area": "Midnight Sapphire Tiger Bay Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "sweet-little-lies",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire Tiger Bay Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "tasks",
     "name": "Tasks",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
+    "id": "tasks",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8a/HandshakePortraitTasks.png/revision/latest/scale-to-width-down/200?cb=20260326025352"
   },
   {
-    "id": "test-results",
     "name": "Test Results",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "test-results",
+    "vendor": "Lab Rat",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "the-art-of-deception",
     "name": "The Art of Deception",
-    "vendor": "",
-    "area": "Fort Narith Midnight Sapphire",
-    "type": "unknown",
-    "objectives": []
+    "id": "the-art-of-deception",
+    "vendor": "Handshake",
+    "location": "Fort Narith Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "the-brave",
     "name": "The Brave",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "unknown",
-    "objectives": []
+    "id": "the-brave",
+    "vendor": "Lab Rat",
+    "location": "Hunter's Paradise",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "the-cleaner",
     "name": "The Cleaner",
-    "vendor": "",
-    "area": "Lamang Island",
-    "type": "unknown",
-    "objectives": []
+    "id": "the-cleaner",
+    "vendor": "Handshake",
+    "location": "Lamang Island",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "the-man-who-disappeared",
     "name": "The Man Who Disappeared",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "unknown",
-    "objectives": []
+    "id": "the-man-who-disappeared",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "the-mistress",
     "name": "The Mistress",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "the-mistress",
+    "vendor": "Artisan",
+    "task_type": "Side Task",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Artisan_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094322"
   },
   {
-    "id": "the-more-the-merrier",
     "name": "The More the Merrier",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "the-more-the-merrier",
+    "vendor": "Handshake",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "the-rebel-path",
     "name": "The Rebel Path",
-    "vendor": "",
-    "area": "YBL-1 , Tiger Bay , Ban Pa , Midnight Sapphire",
-    "type": "unknown",
-    "objectives": []
+    "id": "the-rebel-path",
+    "vendor": "Gunny",
+    "location": "YBL-1 , Tiger Bay , Ban Pa , Midnight Sapphire",
+    "hidden_task": "True",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "the-runaway",
     "name": "The Runaway",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "unknown",
-    "objectives": []
+    "id": "the-runaway",
+    "vendor": "Lab Rat",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "the-shadow-over-ban-pa-ii",
     "name": "The Shadow Over Ban Pa II",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "unknown",
-    "objectives": []
+    "id": "the-shadow-over-ban-pa-ii",
+    "vendor": "Handshake",
+    "location": "Ban Pa",
+    "alternate": "At the Mounds of Madness II",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "the-snitch",
     "name": "The Snitch",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "the-snitch",
+    "vendor": "Turncoat",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "the-trickster",
     "name": "The Trickster",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "the-trickster",
+    "vendor": "Lab Rat",
+    "faction": "LRI",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "the-value-of-sharing",
     "name": "The Value of Sharing",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "unknown",
-    "objectives": []
+    "id": "the-value-of-sharing",
+    "vendor": "Turncoat",
+    "location": "Ban Pa",
+    "alternate": "Line in the sand",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "the-way-below",
     "name": "The Way Below",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "unknown",
-    "objectives": []
+    "id": "the-way-below",
+    "vendor": "Gunny",
+    "location": "YBL-1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "timber",
     "name": "Timber",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "unknown",
-    "objectives": []
+    "id": "timber",
+    "vendor": "Banshee",
+    "location": "Sawmill",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
-    "id": "troll-bridge",
     "name": "Troll Bridge",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "troll-bridge",
+    "vendor": "Handshake",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "uncanny-files",
     "name": "Uncanny Files",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "uncanny-files",
+    "vendor": "Lab Rat",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "under-our-noses",
     "name": "Under Our Noses",
-    "vendor": "",
-    "area": "Lamang Island",
-    "type": "unknown",
-    "objectives": []
+    "id": "under-our-noses",
+    "vendor": "Gunny",
+    "faction": "MSS / CSI",
+    "location": "Lamang Island",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "uninvited-guests",
     "name": "Uninvited Guests",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "unknown",
-    "objectives": []
+    "id": "uninvited-guests",
+    "vendor": "Turncoat",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "unlra",
     "name": "UNLRA",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "unlra",
+    "vendor": "Handshake",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "unlra-ii",
     "name": "UNLRA II",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "unlra-ii",
+    "vendor": "Handshake",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "unlra-iii",
     "name": "UNLRA III",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "unlra-iii",
+    "vendor": "Handshake",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "unnameable",
     "name": "Unnameable",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "unnameable",
+    "vendor": "Gunny",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "unrefusable-offer",
     "name": "Unrefusable Offer",
-    "vendor": "",
-    "area": "Lamang Island",
-    "type": "unknown",
-    "objectives": []
+    "id": "unrefusable-offer",
+    "vendor": "Handshake",
+    "faction": "CSI",
+    "location": "Lamang Island",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "wanted-man",
     "name": "Wanted Man",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "wanted-man",
+    "vendor": "Gunny",
+    "task_type": "Main Task",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "wanted-man-ii",
     "name": "Wanted Man II",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "wanted-man-ii",
+    "vendor": "Gunny",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "warm-welcome",
     "name": "Warm Welcome",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "unknown",
-    "objectives": []
+    "id": "warm-welcome",
+    "vendor": "Turncoat",
+    "location": "Ban Pa",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "weeding",
     "name": "Weeding",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "unknown",
-    "objectives": []
+    "id": "weeding",
+    "vendor": "Handshake",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   },
   {
-    "id": "what-remains",
     "name": "What Remains",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "what-remains",
+    "vendor": "Lab Rat",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
   },
   {
-    "id": "what-was-left",
     "name": "What Was Left",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "unknown",
-    "objectives": []
+    "id": "what-was-left",
+    "vendor": "Banshee",
+    "location": "Blue Lagoon",
+    "alternate": "One Man's Trash",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
-    "id": "whats-in-store",
     "name": "What's in Store",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "unknown",
-    "objectives": []
+    "id": "whats-in-store",
+    "vendor": "Gunny",
+    "location": "Tiger Bay",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
   },
   {
-    "id": "whats-in-the-box",
     "name": "What's in the Box",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "unknown",
-    "objectives": []
+    "id": "whats-in-the-box",
+    "vendor": "Banshee",
+    "location": "Midnight Sapphire",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a4/Banshee_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094342"
   },
   {
-    "id": "whos-in-charge",
     "name": "Who's In Charge",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "unknown",
-    "objectives": []
+    "id": "whos-in-charge",
+    "vendor": "Turncoat",
+    "location": "Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
   },
   {
-    "id": "wing-clipping",
     "name": "Wing Clipping",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "box-of-ids",
-    "name": "Box of IDs",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "compromising-folder",
-    "name": "Compromising Folder",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "eugene-l.-fleming-file",
-    "name": "Eugene L. Fleming File",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "first-drug-note",
-    "name": "First Drug Note",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "first-medical-samples",
-    "name": "First Medical Samples",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "first-military-box",
-    "name": "First Military Box",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "first-prototype-part-crate",
-    "name": "First Prototype Part Crate",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "first-stolen-box",
-    "name": "First Stolen Box",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "first-supply-box",
-    "name": "First Supply Box",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "first-supply-box-(victor-charlie-heritage)",
-    "name": "First Supply Box (Victor Charlie Heritage)",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "first-suspicious-package",
-    "name": "First Suspicious Package",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "first-weapon-cargo-crate",
-    "name": "First Weapon Cargo Crate",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "floppy-disks",
-    "name": "Floppy Disks",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "fourth-military-box",
-    "name": "Fourth Military Box",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "fourth-suspicious-package",
-    "name": "Fourth Suspicious Package",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "gang-folder",
-    "name": "Gang Folder",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "gang-note",
-    "name": "Gang Note",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "hacking-tool",
-    "name": "Hacking Tool",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "intel-folder",
-    "name": "Intel Folder",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "interrogation-transcript-(its-like-cutting)",
-    "name": "Interrogation Transcript (It's Like Cutting)",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "laf-documents",
-    "name": "LAF Documents",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "laf-hardware-key-(technoarcheologist)",
-    "name": "LAF Hardware Key (Technoarcheologist)",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "laf-suitcase",
-    "name": "LAF Suitcase",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "list-of-names-(his-majestys-secrets)",
-    "name": "List of Names (His Majesty's Secrets)",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "list-of-names-(mob-job)",
-    "name": "List of Names (Mob Job)",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "medallion",
-    "name": "Medallion",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "metal-suitcase",
-    "name": "Metal Suitcase",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "micro-sd-autocracker",
-    "name": "Micro SD Autocracker",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "micro-sd-autocracker-003",
-    "name": "Micro SD Autocracker 003",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "military-suitcase",
-    "name": "Military Suitcase",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "mysterious-cargo-crate",
-    "name": "Mysterious Cargo Crate",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "old-diary",
-    "name": "Old Diary",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "old-hard-disk-drive",
-    "name": "Old Hard Disk Drive",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "prisoner-info-folder-193",
-    "name": "Prisoner Info Folder 193",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "prisoner-info-folder-251",
-    "name": "Prisoner Info Folder 251",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "prisoner-info-folder-712",
-    "name": "Prisoner Info Folder 712",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "second-drug-note",
-    "name": "Second Drug Note",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "second-medical-samples",
-    "name": "Second Medical Samples",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "second-military-box",
-    "name": "Second Military Box",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "second-prototype-part-crate",
-    "name": "Second Prototype Part Crate",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "second-stolen-box",
-    "name": "Second Stolen Box",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "second-supply-box",
-    "name": "Second Supply Box",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "second-supply-box-(victor-charlie-heritage)",
-    "name": "Second Supply Box (Victor Charlie Heritage)",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "second-suspicious-package",
-    "name": "Second Suspicious Package",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "second-weapon-cargo-crate",
-    "name": "Second Weapon Cargo Crate",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "third-military-box",
-    "name": "Third Military Box",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "third-stolen-box",
-    "name": "Third Stolen Box",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "third-supply-box",
-    "name": "Third Supply Box",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "third-supply-box-(victor-charlie-heritage)",
-    "name": "Third Supply Box (Victor Charlie Heritage)",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "third-suspicious-package",
-    "name": "Third Suspicious Package",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "third-weapon-cargo-crate",
-    "name": "Third Weapon Cargo Crate",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "transcript-of-conversations",
-    "name": "Transcript of Conversations",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "usb-drive-autocracker",
-    "name": "USB Drive Autocracker",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "usb-drive-autocracker-001",
-    "name": "USB Drive Autocracker 001",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "usb-drive-autocracker-002",
-    "name": "USB Drive Autocracker 002",
-    "vendor": "",
-    "area": "",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "a-walk-in-the-park",
-    "name": "A Walk in the Park",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "big-fish",
-    "name": "Big Fish",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "business-or-pleasure",
-    "name": "Business or Pleasure",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "covert-research",
-    "name": "Covert Research",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "cult-business",
-    "name": "Cult Business",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "first-recon",
-    "name": "First Recon",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "fresh-meat",
-    "name": "Fresh Meat",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "guns-&-ammo",
-    "name": "Guns & Ammo",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "hacker",
-    "name": "Hacker",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "helping-hand",
-    "name": "Helping Hand",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "i-went-i-saw-i-conquered",
-    "name": "I went, I saw, I conquered",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "know-your-enemy",
-    "name": "Know Your Enemy",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "little-bird-down",
-    "name": "Little Bird Down",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "lost-girl",
-    "name": "Lost Girl",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "memory-leak",
-    "name": "Memory Leak",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "mystery-machines",
-    "name": "Mystery Machines",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "radio-silence",
-    "name": "Radio Silence",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "rats-nest",
-    "name": "Rat's Nest",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "reclamation",
-    "name": "Reclamation",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "seeker-of-change",
-    "name": "Seeker of Change",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "skycrawlers",
-    "name": "Skycrawlers",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "terminal-initiative",
-    "name": "Terminal Initiative",
-    "vendor": "",
-    "area": "Fort Narith , Tiger Bay , Midnight Sapphire",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "the-most-dangerous-game",
-    "name": "The Most Dangerous Game",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "the-negotiator",
-    "name": "The Negotiator",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "the-shadow-over-ban-pa",
-    "name": "The Shadow over Ban Pa",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "unlisted-flight",
-    "name": "Unlisted Flight",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "main",
-    "objectives": []
-  },
-  {
-    "id": "a-shot-in-the-dark",
-    "name": "A Shot in the Dark",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "a-single-drop",
-    "name": "A Single Drop",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "a-tiding-of-magpies",
-    "name": "A Tiding of Magpies",
-    "vendor": "",
-    "area": "",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "a-voice-from-the-stars",
-    "name": "A Voice from the Stars",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "academic-interest",
-    "name": "Academic Interest",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "atrocity-probe",
-    "name": "Atrocity Probe",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "buried-on-paper",
-    "name": "Buried on Paper",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "cache-retrieval",
-    "name": "Cache Retrieval",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "celebrity-crash",
-    "name": "Celebrity Crash",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "chameleon---ak-308-(ht)",
-    "name": "Chameleon - AK-308 (HT)",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "chameleon---akmn-(jc)",
-    "name": "Chameleon - AKMN (JC)",
-    "vendor": "",
-    "area": "Lamang Island",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "chameleon---ddm4-(pl)",
-    "name": "Chameleon - DDM4 (PL)",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "chameleon---m14-(bh)",
-    "name": "Chameleon - M14 (BH)",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "chameleon---m700-(gc)",
-    "name": "Chameleon - M700 (GC)",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "chameleon---mossberg-590-(rt)",
-    "name": "Chameleon - Mossberg 590 (RT)",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "chameleon---mp7a2-(sc)",
-    "name": "Chameleon - MP7A2 (SC)",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "chameleon---sig-mcx-(gn)",
-    "name": "Chameleon - SIG MCX (GN)",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "chameleon---svd-dragunov-(sw)",
-    "name": "Chameleon - SVD Dragunov (SW)",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "crash",
-    "name": "Crash",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "crime-doesnt-pay",
-    "name": "Crime Doesn't Pay",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "deepest-darkest-fantasies",
-    "name": "Deepest, Darkest Fantasies",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "delayed-package",
-    "name": "Delayed Package",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "dirt-digger",
-    "name": "Dirt Digger",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "dont-speak",
-    "name": "Don't Speak",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "double-agent",
-    "name": "Double Agent",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "draw-no-bet",
-    "name": "Draw No Bet",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "duty-to-the-country",
-    "name": "Duty to the Country",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "echoes-of-exposure",
-    "name": "Echoes of Exposure",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "elderly-delivery",
-    "name": "Elderly Delivery",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "emergency-response",
-    "name": "Emergency Response",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "eod",
-    "name": "EOD",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "exodus",
-    "name": "Exodus",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "false-positive",
-    "name": "False Positive",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "felony-and-punishment",
-    "name": "Felony and Punishment",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "final-check-out",
-    "name": "Final Check Out",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "fire-and-water",
-    "name": "Fire and Water",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "freedom-fighter",
-    "name": "Freedom Fighter",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "freedom-for-all",
-    "name": "Freedom for All",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "from-the-sky",
-    "name": "From the Sky",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "handyman",
-    "name": "Handyman",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "harvest-moon",
-    "name": "Harvest Moon",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "hoarder",
-    "name": "Hoarder",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "in-the-trenches",
-    "name": "In the Trenches",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "last-farewell",
-    "name": "Last Farewell",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "last-letter",
-    "name": "Last Letter",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "leave-no-man-behind",
-    "name": "Leave No Man Behind",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "left-behind",
-    "name": "Left Behind",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "lethal-dose",
-    "name": "Lethal Dose",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "letters-from-lamang",
-    "name": "Letters from Lamang",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "like-a-boss---brokers-m9a1",
-    "name": "Like a Boss - Broker's M9A1",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "like-a-boss---burans-ak-74n",
-    "name": "Like a Boss - Buran's AK-74N",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "like-a-boss---colonels-type-51",
-    "name": "Like a Boss - Colonel's Type 51",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "like-a-boss---firebrands-aks-74u",
-    "name": "Like a Boss - Firebrand's AKS-74u",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "like-a-boss---grins-1911-c",
-    "name": "Like a Boss - Grin's 1911 C",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "like-a-boss---kapteis-glock-17",
-    "name": "Like a Boss - Kaptei's Glock 17",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "like-a-boss---nagas-type-51",
-    "name": "Like a Boss - Naga's Type 51",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "like-a-boss---vipers-1911-c",
-    "name": "Like a Boss - Viper's 1911 C",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "like-a-boss---yens-m700",
-    "name": "Like a Boss - Yen's M700",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "livestock",
-    "name": "Livestock",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "local-golf-star",
-    "name": "Local Golf Star",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "lost-and-found",
-    "name": "Lost and Found",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "medical-detective",
-    "name": "Medical Detective",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "meds-wanted",
-    "name": "Meds Wanted",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "mire-job",
-    "name": "Mire Job",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "missing-children",
-    "name": "Missing Children",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "needle-in-a-jungle",
-    "name": "Needle in a Jungle",
-    "vendor": "",
-    "area": "Lamang Island",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "new-neighbors",
-    "name": "New Neighbors",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "no-way-up",
-    "name": "No Way Up",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "noble-powder",
-    "name": "Noble Powder",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "ordnance-delivery",
-    "name": "Ordnance Delivery",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "paranoia-agent",
-    "name": "Paranoia Agent",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "plan-b",
-    "name": "Plan B",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "priceless-possessions",
-    "name": "Priceless Possessions",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "questionable-shipment",
-    "name": "Questionable Shipment",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "revolutionary-road",
-    "name": "Revolutionary Road",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "sanctioned-exploitation",
-    "name": "Sanctioned Exploitation",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "secret-compassion",
-    "name": "Secret Compassion",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "silent-village",
-    "name": "Silent Village",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "so-close",
-    "name": "So Close",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "street-spotter",
-    "name": "Street Spotter",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "sunken-bird",
-    "name": "Sunken Bird",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "sunny-skies",
-    "name": "Sunny Skies",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "the-congressman",
-    "name": "The Congressman",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "the-last-broadcast",
-    "name": "The Last Broadcast",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "the-lull",
-    "name": "The Lull",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "the-stand",
-    "name": "The Stand",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "too-close-to-the-sun",
-    "name": "Too Close to the Sun",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "tools-of-the-trade",
-    "name": "Tools of the Trade",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "true-grit",
-    "name": "True Grit",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "unattainable-luxury",
-    "name": "Unattainable Luxury",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "unprotected",
-    "name": "Unprotected",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "unresponsive",
-    "name": "Unresponsive",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "up-the-stream",
-    "name": "Up the Stream",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "up-to-snuff",
-    "name": "Up to Snuff",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "what-comes-up",
-    "name": "What Comes Up",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "when-a-tree-falls",
-    "name": "When a Tree Falls",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "side",
-    "objectives": []
-  },
-  {
-    "id": "breadcrumbs",
-    "name": "Breadcrumbs",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "cache-report",
-    "name": "Cache Report",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "cache-report-iii",
-    "name": "Cache Report III",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "cache-report-iv",
-    "name": "Cache Report IV",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "cache-report-v",
-    "name": "Cache Report V",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "cache-report-vi",
-    "name": "Cache Report VI",
-    "vendor": "",
-    "area": "South east of Pha Lang Airfield",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "cache-report-vii",
-    "name": "Cache Report VII",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "cache-report-viii",
-    "name": "Cache Report VIII",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "combat-sweep-ii",
-    "name": "Combat Sweep II",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "combat-sweep-v",
-    "name": "Combat Sweep V",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "combat-sweep-vii",
-    "name": "Combat Sweep VII",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "escort-ii",
-    "name": "Escort II",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "fuel-shortage",
-    "name": "Fuel Shortage",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "muddy-buddy",
-    "name": "Muddy Buddy",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "nicked-shipment",
-    "name": "Nicked Shipment",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "repossession",
-    "name": "Repossession",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "repossession-iii",
-    "name": "Repossession III",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "repossession-iv",
-    "name": "Repossession IV",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "repossession-ix",
-    "name": "Repossession IX",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "repossession-v",
-    "name": "Repossession V",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "repossession-vi",
-    "name": "Repossession VI",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "repossession-vii",
-    "name": "Repossession VII",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "repossession-viii",
-    "name": "Repossession VIII",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "restoring-order",
-    "name": "Restoring Order",
-    "vendor": "",
-    "area": "Kiu Vongsa , Nam Thaven , Pha Lang",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "the-liberator",
-    "name": "The Liberator",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "unstable-meeting",
-    "name": "Unstable Meeting",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "binary-choir",
-    "name": "Binary Choir",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "blacktop-wasteland",
-    "name": "Blacktop Wasteland",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "coastal-signals",
-    "name": "Coastal Signals",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "concrete-whisperers",
-    "name": "Concrete Whisperers",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "cutthroat-island",
-    "name": "Cutthroat Island",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "data-in-the-sawdust",
-    "name": "Data in the Sawdust",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "dirge-of-the-fallen",
-    "name": "Dirge of the Fallen",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "enigmatic-unlra",
-    "name": "Enigmatic UNLRA",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "ethical-issues",
-    "name": "Ethical Issues",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "ethnographer",
-    "name": "Ethnographer",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "fragile-goods",
-    "name": "Fragile Goods",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "groundbreaking-prototype",
-    "name": "Groundbreaking Prototype",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "hacking-to-the-limit",
-    "name": "Hacking to the Limit",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "his-majestys-secrets",
-    "name": "His Majesty's Secrets",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "its-like-cutting",
-    "name": "It's Like Cutting",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "lagoon-shipment",
-    "name": "Lagoon Shipment",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "mall-quickie",
-    "name": "Mall Quickie",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "mob-job",
-    "name": "Mob Job",
-    "vendor": "",
-    "area": "Pha Lang Airfield",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "on-the-green",
-    "name": "On the Green",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "paperwork",
-    "name": "Paperwork",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "resorting-to-help",
-    "name": "Resorting to Help",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "scandal-snatcher",
-    "name": "Scandal Snatcher",
-    "vendor": "",
-    "area": "Midnight Sapphire",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "shimmer-on-the-surface",
-    "name": "Shimmer on the Surface",
-    "vendor": "",
-    "area": "Blue Lagoon",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "shoot-your-shot",
-    "name": "Shoot Your Shot",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "shopping-spree",
-    "name": "Shopping Spree",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "specter-in-the-computer",
-    "name": "Specter in the Computer",
-    "vendor": "",
-    "area": "Tiger Bay",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "static-echoes",
-    "name": "Static Echoes",
-    "vendor": "",
-    "area": "Fort Narith",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "stationary-targets",
-    "name": "Stationary Targets",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "technoarcheologist",
-    "name": "Technoarcheologist",
-    "vendor": "",
-    "area": "YBL-1",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "the-scent-of-salt-and-horror",
-    "name": "The Scent of Salt and Horror",
-    "vendor": "",
-    "area": "Ban Pa",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "victor-charlie-heritage",
-    "name": "Victor Charlie Heritage",
-    "vendor": "",
-    "area": "Hunter's Paradise",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "weapon-redistribution",
-    "name": "Weapon Redistribution",
-    "vendor": "",
-    "area": "Sawmill",
-    "type": "squad",
-    "objectives": []
-  },
-  {
-    "id": "appeal-to-the-rebels",
-    "name": "Appeal to the Rebels",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "army-codebook",
-    "name": "Army Codebook",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "arrest-warrant",
-    "name": "Arrest Warrant",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "artisans-toolbox",
-    "name": "Artisan's Toolbox",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "avian-tissue-samples",
-    "name": "Avian Tissue Samples",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "blue-lagoon-intel",
-    "name": "Blue Lagoon Intel",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "box-of-food-supplies",
-    "name": "Box of Food Supplies",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "box-of-medical-supplies",
-    "name": "Box of Medical Supplies",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "box-of-passports",
-    "name": "Box of Passports",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "briefcase",
-    "name": "Briefcase",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "bunker-computer-data",
-    "name": "Bunker Computer Data",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "case-with-a-revolver",
-    "name": "Case with a Revolver",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "clients-passport",
-    "name": "Client's Passport",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "clients-phone",
-    "name": "Client's Phone",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "commander-details-folder",
-    "name": "Commander Details Folder",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "compromising-materials",
-    "name": "Compromising Materials",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "convicts-notepad",
-    "name": "Convict's Notepad",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "detonator-case",
-    "name": "Detonator Case",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "elisa-testing-kit",
-    "name": "ELISA Testing Kit",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "encrypted-letter",
-    "name": "Encrypted Letter",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "evacuation-orders",
-    "name": "Evacuation Orders",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "evacuation-restrictions-memorandum",
-    "name": "Evacuation Restrictions Memorandum",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "fake-intel",
-    "name": "Fake Intel",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "fighter-jet-deal",
-    "name": "Fighter Jet Deal",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "flight-manifest-database",
-    "name": "Flight Manifest Database",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "flight-recorder",
-    "name": "Flight Recorder",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "fn-infirmary-samples",
-    "name": "FN Infirmary Samples",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "goodbye-letter",
-    "name": "Goodbye Letter",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "government-laptop",
-    "name": "Government Laptop",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "ground-samples",
-    "name": "Ground Samples",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "guest-list",
-    "name": "Guest List",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "hardware-key",
-    "name": "Hardware Key",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "hp-bio-samples",
-    "name": "HP Bio Samples",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "industrial-air-filter",
-    "name": "Industrial Air Filter",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "infirmary-code",
-    "name": "Infirmary Code",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "informants-smartphone",
-    "name": "Informant's Smartphone",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "intelligence-folder",
-    "name": "Intelligence Folder",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "interrogation-orders",
-    "name": "Interrogation Orders",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "interrogation-transcript",
-    "name": "Interrogation Transcript",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "kanoas-camera",
-    "name": "Kanoa's Camera",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "laf-dog-tag",
-    "name": "LAF Dog Tag",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "laf-gz-laptop",
-    "name": "LAF GZ Laptop",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "laf-hardware-key",
-    "name": "LAF Hardware Key",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "laf-medical-records",
-    "name": "LAF Medical Records",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "laf-orders",
-    "name": "LAF Orders",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "laf-orders-2",
-    "name": "LAF Orders 2",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "list-of-evacuees",
-    "name": "List of Evacuees",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "list-of-names",
-    "name": "List of Names",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "list-of-orders",
-    "name": "List of Orders",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "lla-attack-plans",
-    "name": "LLA Attack Plans",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "lla-expansion-plans",
-    "name": "LLA Expansion Plans",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "lost-smartphone",
-    "name": "Lost Smartphone",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "medics-notes",
-    "name": "Medic's Notes",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "mercenarys-diary",
-    "name": "Mercenary's Diary",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "metal-container",
-    "name": "Metal Container",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "military-flash-drive",
-    "name": "Military Flash Drive",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "military-intel",
-    "name": "Military Intel",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "military-patrol-schedule",
-    "name": "Military Patrol Schedule",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "ms-intel-phone",
-    "name": "MS Intel Phone",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "ms-usb-drive",
-    "name": "MS USB Drive",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "non-evacuable-households",
-    "name": "Non-Evacuable Households",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "ospreys-laptop",
-    "name": "Osprey's laptop",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "personal-folder-00616",
-    "name": "Personal Folder 00616",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "pile-of-gold",
-    "name": "Pile of Gold",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "pilot-logbook",
-    "name": "Pilot Logbook",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "poison-vial",
-    "name": "Poison Vial",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "politicians-flash-drive",
-    "name": "Politician's Flash Drive",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "precious-cigars",
-    "name": "Precious Cigars",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "precious-golf-club",
-    "name": "Precious Golf Club",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "prisoner-info-folder",
-    "name": "Prisoner Info Folder",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "r.-taylor-unlra-employee-card",
-    "name": "R. Taylor UNLRA Employee Card",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "range-&-rifle:-ak-308",
-    "name": "Range & Rifle: AK-308",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "range-&-rifle:-akmn",
-    "name": "Range & Rifle: AKMN",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "range-&-rifle:-ddm4",
-    "name": "Range & Rifle: DDM4",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "range-&-rifle:-m14",
-    "name": "Range & Rifle: M14",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "range-&-rifle:-m700",
-    "name": "Range & Rifle: M700",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "range-&-rifle:-mcx",
-    "name": "Range & Rifle: MCX",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "range-&-rifle:-mossberg-590",
-    "name": "Range & Rifle: Mossberg 590",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "range-&-rifle:-mp7a2",
-    "name": "Range & Rifle: MP7A2",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "range-&-rifle:-svd",
-    "name": "Range & Rifle: SVD",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "recovered-vhs",
-    "name": "Recovered VHS",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "sd-card",
-    "name": "SD Card",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "security-footage",
-    "name": "Security Footage",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "soldiers-diary",
-    "name": "Soldier's Diary",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "suspicious-box",
-    "name": "Suspicious Box",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "thugs-smartphone",
-    "name": "Thug's Smartphone",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "tourists-diary",
-    "name": "Tourist's Diary",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "turncoats-box",
-    "name": "Turncoat's Box",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "turncoats-valuables",
-    "name": "Turncoat's Valuables",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "unlra-bio-samples",
-    "name": "UNLRA Bio Samples",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "unlra-details",
-    "name": "UNLRA Details",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "unlra-file",
-    "name": "UNLRA File",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "unlra-hq-orders",
-    "name": "UNLRA HQ Orders",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "unlra-medical-records",
-    "name": "UNLRA Medical Records",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "unlra-medical-supplies",
-    "name": "UNLRA Medical Supplies",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "unlra-peacekeeper-bio-samples",
-    "name": "UNLRA Peacekeeper Bio Samples",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "unlra-usb-drive",
-    "name": "UNLRA USB Drive",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "vip-program-info",
-    "name": "VIP Program Info",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "water-samples",
-    "name": "Water Samples",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "weird-book",
-    "name": "Weird book",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
-  },
-  {
-    "id": "ybl-1-interrogation-footage",
-    "name": "YBL-1 Interrogation Footage",
-    "vendor": "",
-    "area": "",
-    "type": "unknown",
-    "objectives": []
+    "id": "wing-clipping",
+    "vendor": "Handshake",
+    "location": "Pha Lang Airfield",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
   }
 ]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Specter",
+    "id": "specter",
+    "weight": "2.800kg",
+    "sold_by": "Handshake R.1 Looting",
+    "material": "Aramid",
+    "nij_class": "IIIA",
+    "armor_locations": "Front,Back",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2c/Specter_inspect.png/revision/latest/scale-to-width-down/268?cb=20240515140641"
+  }
+]

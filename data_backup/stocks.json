@@ -1,0 +1,302 @@
+[
+  {
+    "name": "AK MOE Stock",
+    "type": "Stock",
+    "weight": "0.354 kg"
+  },
+  {
+    "name": "AK MOE Stock (FDE)",
+    "type": "Stock",
+    "weight": "0.354 kg"
+  },
+  {
+    "name": "AK PT-1 Stock",
+    "type": "Stock",
+    "weight": "0.480 kg"
+  },
+  {
+    "name": "AK PT-3 Stock",
+    "type": "Stock",
+    "weight": "0.550 kg"
+  },
+  {
+    "name": "AK Zhukov Stock",
+    "type": "Stock",
+    "weight": "0.425 kg"
+  },
+  {
+    "name": "AK Zhukov Stock (FDE)",
+    "type": "Stock",
+    "weight": "0.425 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/ff/Zhukov_Stock%28FDE%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20251130172233"
+  },
+  {
+    "name": "AK-47/AKM Wooden Stock",
+    "type": "Stock",
+    "weight": "0.450 kg"
+  },
+  {
+    "name": "AK-74M Polymer Stock",
+    "type": "Stock",
+    "weight": "0.350 kg kg"
+  },
+  {
+    "name": "AK-74N Wooden Stock",
+    "type": "Stock",
+    "weight": "0.450 kg"
+  },
+  {
+    "name": "AKMSN Foldable Stock",
+    "type": "Stock",
+    "weight": "0.372 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/ab/AKMSN_Folding_inspect.png/revision/latest/scale-to-width-down/200?cb=20250718014345"
+  },
+  {
+    "name": "AKS-74U Foldable Stock",
+    "type": "Stock",
+    "weight": "0.226 kg"
+  },
+  {
+    "name": "AKS-74U M4 Foldable Stock",
+    "type": "Stock",
+    "weight": "0.290 kg"
+  },
+  {
+    "name": "AR-15 Archangel Low-Profile Buttstock",
+    "type": "Stock",
+    "weight": "0.270 kg"
+  },
+  {
+    "name": "AR-15 CTR Stock",
+    "type": "Stock",
+    "weight": "0.249 kg"
+  },
+  {
+    "name": "AR-15 CTR Stock (FDE)",
+    "type": "Stock",
+    "weight": "0.249 kg"
+  },
+  {
+    "name": "AR-15 M401 Nylon Stock",
+    "type": "Stock",
+    "weight": "0.600 kg"
+  },
+  {
+    "name": "AR-15 SOPMOD Stock",
+    "type": "Stock",
+    "weight": "??? kg"
+  },
+  {
+    "name": "AR-15 SOPMOD Stock (FDE)",
+    "type": "Stock",
+    "weight": "0.352 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f4/SOPMOD_Stock%28FDE%29_inspect.png/revision/latest/scale-to-width-down/200?cb=20250617103521"
+  },
+  {
+    "name": "AR15 MOE Stock",
+    "type": "Stock",
+    "weight": "0.226 kg"
+  },
+  {
+    "name": "CQ A1 Buttstock",
+    "type": "Stock",
+    "weight": "0.361 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fd/CQA1_Stock_inspect.png/revision/latest/scale-to-width-down/200?cb=20250614172330"
+  },
+  {
+    "name": "CTR Cheek Riser",
+    "type": "Stock",
+    "weight": "??? kg"
+  },
+  {
+    "name": "DD Adjustable Buttstock",
+    "type": "Stock",
+    "weight": "0.227 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/DD_Buttstock_inspect.png/revision/latest/scale-to-width-down/200?cb=20250613220925"
+  },
+  {
+    "name": "DD Adjustable Buttstock (Black)",
+    "type": "Stock",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Extended Rubber Butt-Pad",
+    "type": "Stock",
+    "weight": "0.087 kg"
+  },
+  {
+    "name": "H-S Precision Pro-Series 2000",
+    "type": "Stock",
+    "weight": "1.179 kg"
+  },
+  {
+    "name": "M590 SGA Stock",
+    "type": "Stock",
+    "weight": "??? kg"
+  },
+  {
+    "name": "M590 Stock",
+    "type": "Stock",
+    "weight": "??? kg"
+  },
+  {
+    "name": "M700 Hunter Stock",
+    "type": "Stock",
+    "weight": "1.450 kg"
+  },
+  {
+    "name": "M700 Hunter Stock (FDE)",
+    "type": "Stock",
+    "weight": "??? kg"
+  },
+  {
+    "name": "M700 MOD*X Stock",
+    "type": "Stock",
+    "weight": "1.450 kg"
+  },
+  {
+    "name": "M700 Stock",
+    "type": "Stock",
+    "weight": "1.171 kg"
+  },
+  {
+    "name": "M870 Express Stock",
+    "type": "Stock",
+    "weight": "0.476 kg"
+  },
+  {
+    "name": "M870 SGA Stock",
+    "type": "Stock",
+    "weight": "0.680 kg"
+  },
+  {
+    "name": "M870 SGA Stock (FDE)",
+    "type": "Stock",
+    "weight": "??? kg"
+  },
+  {
+    "name": "M870 Stock (OD Green)",
+    "type": "Stock",
+    "weight": "0.640 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/2d/M870_OD_inspect.png/revision/latest/scale-to-width-down/200?cb=20260306021856"
+  },
+  {
+    "name": "MCX/MPX Folding Visor Stock",
+    "type": "Stock",
+    "weight": "0.350 kg"
+  },
+  {
+    "name": "MCX/MPX Minimalist Folding Stock",
+    "type": "Stock",
+    "weight": "0.311 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/MCX_Min_inspect.png/revision/latest/scale-to-width-down/200?cb=20250620104210"
+  },
+  {
+    "name": "MCX/MPX Skel Folding Stock",
+    "type": "Stock",
+    "weight": "??? kg"
+  },
+  {
+    "name": "MCX/MPX Standard Folding Stock",
+    "type": "Stock",
+    "weight": "0.385 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8a/MCX_Stock_inspect.png/revision/latest/scale-to-width-down/200?cb=20250614023207"
+  },
+  {
+    "name": "MCX/MPX Telescoping Stock",
+    "type": "Stock",
+    "weight": "0.385 kg"
+  },
+  {
+    "name": "Mosin-Nagant Archangel Stock",
+    "type": "Stock",
+    "weight": "1.620 kg"
+  },
+  {
+    "name": "Mosin-Nagant Folding Stock",
+    "type": "Stock",
+    "weight": "1.076 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/2/26/Mosin_Stock_F_inspect.png/revision/latest/scale-to-width-down/200?cb=20260307190226"
+  },
+  {
+    "name": "Mosin-Nagant Wooden Stock (Carbine)",
+    "type": "Stock",
+    "weight": "1.200 kg"
+  },
+  {
+    "name": "Mosin-Nagant Wooden Stock (Rifle)",
+    "type": "Stock",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Mosin-Nagant Wooden Stock (Sniper)",
+    "type": "Stock",
+    "weight": "??? kg"
+  },
+  {
+    "name": "MP5 A2 Stock",
+    "type": "Stock",
+    "weight": "0.453 kg"
+  },
+  {
+    "name": "MP5 A3 Stock",
+    "type": "Stock",
+    "weight": "0.307 kg"
+  },
+  {
+    "name": "MP5/HK33/53 Stock",
+    "type": "Stock",
+    "weight": "0.455 kg"
+  },
+  {
+    "name": "MP7A1 Retractable Stock",
+    "type": "Stock",
+    "weight": "0.200 kg"
+  },
+  {
+    "name": "MP7A2 Retractable Stock",
+    "type": "Stock",
+    "weight": "0.200 kg"
+  },
+  {
+    "name": "Ratnik Foldable Stock",
+    "type": "Stock",
+    "weight": "0.400 kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c6/Ratnik_Folding_inspect.png/revision/latest/scale-to-width-down/200?cb=20250615191820"
+  },
+  {
+    "name": "Recoil Reducing Pad",
+    "type": "Stock",
+    "weight": "0.164 kg"
+  },
+  {
+    "name": "SKS Sabertooth MKII Stock",
+    "type": "Stock",
+    "weight": "0.997 kg"
+  },
+  {
+    "name": "SKS Stock",
+    "type": "Stock",
+    "weight": "0.760 kg"
+  },
+  {
+    "name": "SKS Strikeforce TactLite Stock",
+    "type": "Stock",
+    "weight": "1.260 kg"
+  },
+  {
+    "name": "SVD Polymer Stock with Grip",
+    "type": "Stock",
+    "weight": "0.560 kg"
+  },
+  {
+    "name": "SVD Wooden Stock with Grip",
+    "type": "Stock",
+    "weight": "??? kg"
+  },
+  {
+    "name": "Vz. 61 Wire Stock",
+    "type": "Stock",
+    "weight": "??? kg"
+  }
+]

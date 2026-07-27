@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Motorbike Battery",
+    "id": "motorbike-battery",
+    "type": "Household Item",
+    "weight": "2.000kg",
+    "grid_size": "2x1",
+    "manufacturer": "General Local",
+    "sell_price": "$36",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d8/Motorbike_Battery_inspect.png/revision/latest?cb=20260331083650"
+  }
+]

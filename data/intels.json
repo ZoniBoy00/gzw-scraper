@@ -1,0 +1,39 @@
+[
+  {
+    "name": "George's love letter",
+    "id": "georges-love-letter",
+    "type": "Intel",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/George%27s_love_letter_inspect.png/revision/latest/scale-to-width-down/267?cb=20260311175535"
+  },
+  {
+    "name": "Intels",
+    "id": "intels",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/37/George%27s_love_letter_inspect.png/revision/latest/scale-to-width-down/176?cb=20260311175535"
+  },
+  {
+    "name": "Mysterious codebook",
+    "id": "mysterious-codebook",
+    "type": "Intel"
+  },
+  {
+    "name": "Newspaper - 50 Years since liberation from Japan",
+    "id": "newspaper---50-years-since-liberation-from-japan",
+    "type": "Intel"
+  },
+  {
+    "name": "Newspaper - Rebel Forces Seize Control in Lamang",
+    "id": "newspaper---rebel-forces-seize-control-in-lamang",
+    "type": "Intel",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/47/Newspaper_-_Rebel_Forces_Seize_Control_in_Lamang_Spawn.png/revision/latest/scale-to-width-down/200?cb=20260402160350"
+  },
+  {
+    "name": "Newspaper - Safety Secured",
+    "id": "newspaper---safety-secured",
+    "type": "Intel"
+  },
+  {
+    "name": "Poster",
+    "id": "poster",
+    "type": "Intel"
+  }
+]

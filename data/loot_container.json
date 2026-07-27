@@ -1,0 +1,263 @@
+[
+  {
+    "name": "Ammo Box (Container)",
+    "id": "ammo-box-container",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "XXX",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/81/Ammo_Box_%28Container%29.png/revision/latest/scale-to-width-down/268?cb=20260419190216"
+  },
+  {
+    "name": "Briefcase (Container)",
+    "id": "briefcase-container",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "3x3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bc/Briefcase%28Container%29.png/revision/latest/scale-to-width-down/268?cb=20250621131129"
+  },
+  {
+    "name": "Buried Cache",
+    "id": "buried-cache",
+    "type": "Loot container",
+    "grid_size": "2x6 / 3x6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/05/Buried_cache.png/revision/latest/scale-to-width-down/268?cb=20250606195430"
+  },
+  {
+    "name": "Cash Register",
+    "id": "cash-register",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "2x2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/35/2x2_Inventory.png/revision/latest?cb=20240509033218"
+  },
+  {
+    "name": "Civilian Chest",
+    "id": "civilian-chest",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "3x3"
+  },
+  {
+    "name": "Cooler",
+    "id": "cooler",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "3x3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/62/Cooler.png/revision/latest/scale-to-width-down/268?cb=20250621131200"
+  },
+  {
+    "name": "CSI Firearms Box",
+    "id": "csi-firearms-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "8x6"
+  },
+  {
+    "name": "CSI Gear Box",
+    "id": "csi-gear-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "8x6"
+  },
+  {
+    "name": "Dead Body",
+    "id": "dead-body",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "2x2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/Dead_Body.png/revision/latest/scale-to-width-down/268?cb=20250621131229"
+  },
+  {
+    "name": "Donation Box",
+    "id": "donation-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "8x10",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b8/Donation_Box.png/revision/latest/scale-to-width-down/267?cb=20250621131213"
+  },
+  {
+    "name": "Duffle Bag",
+    "id": "duffle-bag",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "5x3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3d/Duffle_Bag.png/revision/latest/scale-to-width-down/268?cb=20250621131136"
+  },
+  {
+    "name": "Equipment Box",
+    "id": "equipment-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "7x4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9b/Equipment_Box.png/revision/latest/scale-to-width-down/268?cb=20250621131222"
+  },
+  {
+    "name": "Firearms Box",
+    "id": "firearms-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "8x3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/aa/Firearms_Box.png/revision/latest/scale-to-width-down/268?cb=20250621131244"
+  },
+  {
+    "name": "First Aid Cabinet",
+    "id": "first-aid-cabinet",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "3x4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/01/First_Aid_Cabinet.png/revision/latest/scale-to-width-down/268?cb=20250621131235"
+  },
+  {
+    "name": "Food Storage",
+    "id": "food-storage",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "3x3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cf/Food_Storage.png/revision/latest?cb=20250813183857"
+  },
+  {
+    "name": "Jewelry Box",
+    "id": "jewelry-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "3x3 / 2x2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5e/Jewelry_Box.png/revision/latest?cb=20250621131253"
+  },
+  {
+    "name": "LRI Firearms Box",
+    "id": "lri-firearms-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "8x6"
+  },
+  {
+    "name": "LRI Gear Box",
+    "id": "lri-gear-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "8x6"
+  },
+  {
+    "name": "Medical Bag",
+    "id": "medical-bag",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "4x4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/87/Medical_Bag.png/revision/latest/scale-to-width-down/268?cb=20250813162925"
+  },
+  {
+    "name": "Medical box",
+    "id": "medical-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "4x4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/4x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240509033911"
+  },
+  {
+    "name": "Metal Box",
+    "id": "metal-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "2x2",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8c/Metal_Box.png/revision/latest/scale-to-width-down/268?cb=20250813162943"
+  },
+  {
+    "name": "Military Food Transport Crate",
+    "id": "military-food-transport-crate",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "3x3"
+  },
+  {
+    "name": "Military Medical Crate",
+    "id": "military-medical-crate",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "3x3"
+  },
+  {
+    "name": "MSS Firearms Box",
+    "id": "mss-firearms-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "8x6"
+  },
+  {
+    "name": "MSS Gear Box",
+    "id": "mss-gear-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "8x6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/fa/MSS_Gear_Box.png/revision/latest/scale-to-width-down/267?cb=20250813163002"
+  },
+  {
+    "name": "Plastic Container",
+    "id": "plastic-container",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "3x3"
+  },
+  {
+    "name": "PMC Firearms Box",
+    "id": "pmc-firearms-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "8x6"
+  },
+  {
+    "name": "PMC Gear Box",
+    "id": "pmc-gear-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "8x6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/de/PMC_Gear_Box.png/revision/latest/scale-to-width-down/268?cb=20250621131331"
+  },
+  {
+    "name": "Purse",
+    "id": "purse",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "3x3"
+  },
+  {
+    "name": "Safe",
+    "id": "safe",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "4x4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/73/Safe.png/revision/latest?cb=20250813182001"
+  },
+  {
+    "name": "Supply Crate",
+    "id": "supply-crate",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "6x4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/48/Supply_Crate.png/revision/latest/scale-to-width-down/268?cb=20250621131311"
+  },
+  {
+    "name": "UN Cooler",
+    "id": "un-cooler",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "4x4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/4x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240509033911"
+  },
+  {
+    "name": "UN Equipment Box",
+    "id": "un-equipment-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "4x4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/4x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240509033911"
+  },
+  {
+    "name": "UN Firearms Box",
+    "id": "un-firearms-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "7x4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b2/UN_Firearms_Box.png/revision/latest/scale-to-width-down/268?cb=20250813163047"
+  },
+  {
+    "name": "UN Firearms Crate",
+    "id": "un-firearms-crate",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "7x4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7a/7x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20250813163531"
+  },
+  {
+    "name": "UN Food Transport Crate",
+    "id": "un-food-transport-crate",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "4x4",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/4x4_Inventory.png/revision/latest/scale-to-width-down/200?cb=20240509033911"
+  },
+  {
+    "name": "UN Gear Crate",
+    "id": "un-gear-crate",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "8x6"
+  },
+  {
+    "name": "Wooden Equipment Box",
+    "id": "wooden-equipment-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "6x5",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Wooden_Equipment_Box.png/revision/latest/scale-to-width-down/268?cb=20250813163025"
+  },
+  {
+    "name": "Wooden Firearms Box",
+    "id": "wooden-firearms-box",
+    "type": "Loot container",
+    "inventory_layout_(x/y)": "8x3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d9/Wooden_Firearms_Box.png/revision/latest/scale-to-width-down/268?cb=20250813163015"
+  }
+]

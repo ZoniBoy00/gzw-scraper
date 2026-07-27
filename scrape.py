@@ -530,6 +530,25 @@ def safe_save(filename, items, previous_count=None):
         except Exception as e:
             logger.debug("Backup failed for %s: %s", filename, e)
 
+    # Load old items for field preservation
+    old_items = []
+    existing_path = OUTPUT_DIR / filename
+    if existing_path.exists():
+        try:
+            with open(existing_path, "r") as fh:
+                old_items = json.load(fh)
+        except Exception:
+            pass
+
+    if old_items and isinstance(old_items, list):
+        old_map = {oi.get("name", ""): oi for oi in old_items if oi.get("name")}
+        for item in items:
+            name = item.get("name", "")
+            if name in old_map:
+                for key in old_map[name]:
+                    if key not in item:
+                        item[key] = old_map[name][key]
+
     # Save
     try:
         path = OUTPUT_DIR / filename

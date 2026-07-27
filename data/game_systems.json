@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Apparel",
+    "id": "apparel",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/1a/US_Army_-_Blouse_%28M64_Vietnam%29_icon.png/revision/latest/scale-to-width-down/151?cb=20250706063049"
+  },
+  {
+    "name": "Editions",
+    "id": "editions",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/cd/Gzw_editions.jpg/revision/latest/scale-to-width-down/200?cb=20240511163725"
+  },
+  {
+    "name": "Experience",
+    "id": "experience"
+  },
+  {
+    "name": "Locations",
+    "id": "locations",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/8b/Lamang_Island_Full_Map_Large.png/revision/latest/scale-to-width-down/200?cb=20260405084540"
+  }
+]

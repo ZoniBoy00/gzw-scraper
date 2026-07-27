@@ -1,0 +1,38 @@
+[
+  {
+    "name": "M1050 LRF Rangefinder",
+    "id": "m1050-lrf-rangefinder",
+    "type": "Rangefinder",
+    "weight": "1.270kg",
+    "grid_size": "???",
+    "sold_by": "???",
+    "manufacturer": "Safran Group"
+  },
+  {
+    "name": "M1050R Binocular",
+    "id": "m1050r-binocular",
+    "type": "Binoculars",
+    "weight": "1.000kg",
+    "grid_size": "2x1",
+    "sold_by": "Banshee R.3",
+    "manufacturer": "Steiner"
+  },
+  {
+    "name": "M830R Binocular",
+    "id": "m830r-binocular",
+    "type": "Binoculars",
+    "weight": "0.530kg",
+    "grid_size": "2x1",
+    "sold_by": "Banshee R.1",
+    "manufacturer": "Steiner"
+  },
+  {
+    "name": "Triumph HD binocular",
+    "id": "triumph-hd-binocular",
+    "type": "Binoculars",
+    "weight": "0.650kg",
+    "grid_size": "2x1",
+    "sold_by": "Banshee R.2",
+    "manufacturer": "Vortex optics"
+  }
+]

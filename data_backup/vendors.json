@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Artisan",
+    "id": "artisan",
+    "full_name": "Laya Hoang",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/49/Artisan_square.png/revision/latest/scale-to-width-down/268?cb=20260411114656"
+  },
+  {
+    "name": "Banshee",
+    "id": "banshee",
+    "full_name": "James Miller",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/55/Vendor-Banshee.png/revision/latest/scale-to-width-down/268?cb=20240505160347"
+  },
+  {
+    "name": "Gunny",
+    "id": "gunny",
+    "full_name": "Anton Jackson",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Gunny_square.png/revision/latest/scale-to-width-down/268?cb=20240502171554"
+  },
+  {
+    "name": "Handshake",
+    "id": "handshake",
+    "full_name": "Lewis Pell",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9c/Handshake_square.png/revision/latest/scale-to-width-down/268?cb=20240502171644"
+  },
+  {
+    "name": "Lab Rat",
+    "id": "lab-rat",
+    "full_name": "Jie Xianlong",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/09/Labrat_square.png/revision/latest/scale-to-width-down/268?cb=20240502171433"
+  },
+  {
+    "name": "Turncoat",
+    "id": "turncoat",
+    "full_name": "Unknown",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a0/Turncoat_square.png/revision/latest/scale-to-width-down/268?cb=20240502171507"
+  },
+  {
+    "name": "Vulture",
+    "id": "vulture",
+    "full_name": "Unknown",
+    "wares": "Any",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/80/Vendor-Vulture.png/revision/latest/scale-to-width-down/268?cb=20260328020207"
+  }
+]

@@ -600,6 +600,12 @@
     "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d7/Deck_of_Cards_icon.png/revision/latest?cb=20260331075443"
   },
   {
+    "name": "Disinfectant",
+    "id": "disinfectant",
+    "weight": "1.000kg",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/33/Disinfectant_icon.png/revision/latest?cb=20260402215318"
+  },
+  {
     "name": "Fishing Line",
     "id": "fishing-line",
     "weight": "0.130kg",

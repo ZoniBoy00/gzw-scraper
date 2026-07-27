@@ -1,0 +1,58 @@
+[
+  {
+    "name": "At Doom's Gate",
+    "id": "at-dooms-gate",
+    "vendor": "Handshake",
+    "location": "Lamang Island",
+    "hidden_task": "True",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Handshake_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094222"
+  },
+  {
+    "name": "Goods Hunting",
+    "id": "goods-hunting",
+    "vendor": "Gunny",
+    "location": "Khonwan Village (East of Nam Thaven)",
+    "hidden_task": "Yes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Incognito",
+    "id": "incognito",
+    "vendor": "Gunny",
+    "location": "Tiger Bay",
+    "hidden_task": "True",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Letters from Lamang",
+    "id": "letters-from-lamang",
+    "vendor": "Turncoat",
+    "location": "Blue Lagoon",
+    "hidden_task": "Yes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/da/Turncoat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094305"
+  },
+  {
+    "name": "Needle in a Jungle",
+    "id": "needle-in-a-jungle",
+    "vendor": "Gunny",
+    "location": "Lamang Island",
+    "hidden_task": "Yes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "The Last Broadcast",
+    "id": "the-last-broadcast",
+    "vendor": "Lab Rat",
+    "location": "Ban Pa",
+    "hidden_task": "Yes",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/6/69/Lab_Rat_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094249"
+  },
+  {
+    "name": "The Rebel Path",
+    "id": "the-rebel-path",
+    "vendor": "Gunny",
+    "location": "YBL-1 , Tiger Bay , Ban Pa , Midnight Sapphire",
+    "hidden_task": "True",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  }
+]

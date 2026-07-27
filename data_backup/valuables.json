@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Dollars",
+    "id": "dollars",
+    "type": "Currency",
+    "weight": "0.0001kg",
+    "grid_size": "1x1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a8/USD_inspect.png/revision/latest/scale-to-width-down/268?cb=20260404171640"
+  }
+]

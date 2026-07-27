@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Cache Report II",
+    "id": "cache-report-ii",
+    "vendor": "Gunny",
+    "location": "North of Fort Narith",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "Cache Report IX",
+    "id": "cache-report-ix",
+    "vendor": "Gunny",
+    "location": "North of Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  },
+  {
+    "name": "They Are Everywhere",
+    "id": "they-are-everywhere",
+    "vendor": "Gunny",
+    "location": "Blue Lagoon",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5d/Gunny_banner.png/revision/latest/scale-to-width-down/266?cb=20260329094358"
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Aramid Cloth",
+    "id": "aramid-cloth",
+    "type": "Military Material",
+    "weight": "0.061kg",
+    "grid_size": "1x2",
+    "sell_price": "$42"
+  },
+  {
+    "name": "Bleach",
+    "id": "bleach",
+    "type": "Household Item",
+    "weight": "3.570kg",
+    "grid_size": "1x1",
+    "sell_price": "$19",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/36/Bleach_inspect.png/revision/latest?cb=20260331074659"
+  },
+  {
+    "name": "Car Battery",
+    "id": "car-battery",
+    "type": "Household Item",
+    "weight": "12.660kg",
+    "grid_size": "2x2",
+    "manufacturer": "General Local",
+    "sell_price": "$56",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Car_Battery_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331075125"
+  },
+  {
+    "name": "Carton of Tahirs Cigarettes",
+    "id": "carton-of-tahirs-cigarettes",
+    "type": "Household Item",
+    "weight": "0.250kg",
+    "grid_size": "3x1",
+    "sell_price": "$27",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/a/a6/Carton_of_Tahirs_Cigarettes_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331075357"
+  },
+  {
+    "name": "Deck of Cards",
+    "id": "deck-of-cards",
+    "type": "Household Item",
+    "weight": "0.088kg",
+    "grid_size": "1x1",
+    "sell_price": "$3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/8/86/Deck_of_Cards_inspect.png/revision/latest?cb=20260331075444"
+  },
+  {
+    "name": "Fishing Line",
+    "id": "fishing-line",
+    "type": "Household Item",
+    "weight": "0.130kg",
+    "grid_size": "1x1",
+    "sell_price": "$3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b1/Fishing_Line_inspect.png/revision/latest?cb=20260331080253"
+  },
+  {
+    "name": "Hand Mirror",
+    "id": "hand-mirror",
+    "type": "Household Item",
+    "weight": "0.400kg",
+    "grid_size": "1x2",
+    "sell_price": "$9",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/57/Hand_Mirror_inspect.png/revision/latest?cb=20260331080643"
+  },
+  {
+    "name": "Insect Repellant Spray",
+    "id": "insect-repellant-spray",
+    "type": "Household Item",
+    "weight": "0.258kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$6",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f7/Insect_Repellant_Spray_inspect.png/revision/latest?cb=20260331081404"
+  },
+  {
+    "name": "Lamp Oil",
+    "id": "lamp-oil",
+    "type": "Household Item",
+    "weight": "1.000kg",
+    "grid_size": "1x2",
+    "sell_price": "$3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/77/Lamp_Oil_inspect.png/revision/latest?cb=20260331082338"
+  },
+  {
+    "name": "Lighter",
+    "id": "lighter",
+    "type": "Household Item",
+    "weight": "0.040kg",
+    "grid_size": "1x1",
+    "sell_price": "$1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/0/0f/Lighter_inspect.png/revision/latest?cb=20260331082552"
+  },
+  {
+    "name": "Motorcyle Battery",
+    "id": "motorcyle-battery",
+    "type": "Household Item",
+    "weight": "2.000kg",
+    "grid_size": "1x2",
+    "manufacturer": "General Local",
+    "sell_price": "$36",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4d/Motorcycle_Battery_inspect.png/revision/latest/scale-to-width-down/268?cb=20260516064534"
+  },
+  {
+    "name": "Naosaoad 100% Clean",
+    "id": "naosaoad-100%-clean",
+    "type": "Household Item",
+    "weight": "0.500kg",
+    "grid_size": "1x2",
+    "sell_price": "$18",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/Naosaoad_100%25_Clean_inspect.png/revision/latest?cb=20260331083856"
+  },
+  {
+    "name": "Pack of AA Batteries",
+    "id": "pack-of-aa-batteries",
+    "type": "Household Item",
+    "weight": "0.024kg",
+    "grid_size": "1x1",
+    "sell_price": "$7",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/59/Pack_of_AA_Batteries_inspect.png/revision/latest?cb=20260331084204"
+  },
+  {
+    "name": "Pack of Premium Coffee",
+    "id": "pack-of-premium-coffee",
+    "type": "Household Item",
+    "weight": "0.600kg",
+    "grid_size": "1x2",
+    "sell_price": "$27",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/f/f6/Pack_of_Premium_Coffee_inspect.png/revision/latest?cb=20260331084221"
+  },
+  {
+    "name": "Petrolatum",
+    "id": "petrolatum",
+    "type": "Household Item",
+    "weight": "0.370kg",
+    "grid_size": "1x1",
+    "sell_price": "$9",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4a/Petrolatum_inspect.png/revision/latest?cb=20260331084513"
+  },
+  {
+    "name": "Phone Charger",
+    "id": "phone-charger",
+    "type": "Household Item",
+    "weight": "0.075kg",
+    "grid_size": "1x1",
+    "sell_price": "$9",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/45/Phone_Charger_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331084626"
+  },
+  {
+    "name": "Propane Bottle",
+    "id": "propane-bottle",
+    "type": "Household Item",
+    "weight": "0.453kg",
+    "grid_size": "1x2",
+    "sell_price": "$31"
+  },
+  {
+    "name": "Refillable Lighter",
+    "id": "refillable-lighter",
+    "type": "Household Item",
+    "weight": "0.080kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$27",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/58/Refillable_Lighter_inspect.png/revision/latest?cb=20260331085447"
+  },
+  {
+    "name": "Sewing Set",
+    "id": "sewing-set",
+    "type": "Household Item",
+    "weight": "0.146kg",
+    "grid_size": "1x1",
+    "sell_price": "$1",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/90/Sewing_Set_inspect.png/revision/latest/scale-to-width-down/268?cb=20260331085846"
+  },
+  {
+    "name": "Tahirs Cigarettes",
+    "id": "tahirs-cigarettes",
+    "type": "Household Item",
+    "weight": "0.013kg",
+    "grid_size": "1x1",
+    "sell_price": "$5"
+  }
+]

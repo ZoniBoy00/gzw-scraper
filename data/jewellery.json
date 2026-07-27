@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Dark Pearl Necklace",
+    "id": "dark-pearl-necklace",
+    "type": "Jewellery",
+    "weight": "0.050kg",
+    "grid_size": "1x1",
+    "sell_price": "$1,350",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/c/c2/DNeck_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422120749"
+  },
+  {
+    "name": "Diamond Earrings",
+    "id": "diamond-earrings",
+    "type": "Jewellery",
+    "weight": "0.020kg",
+    "grid_size": "1x1",
+    "sell_price": "$5,700",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/98/DAEarrings_inspect.png/revision/latest?cb=20250629141908"
+  },
+  {
+    "name": "Diamond Ring",
+    "id": "diamond-ring",
+    "type": "Jewellery",
+    "weight": "0.010kg",
+    "grid_size": "1x1",
+    "manufacturer": "General West",
+    "sell_price": "$7,700",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3e/GDRing_inspect.png/revision/latest?cb=20250514034521"
+  },
+  {
+    "name": "Diamond-Coral Ring",
+    "id": "diamond-coral-ring",
+    "type": "Jewellery",
+    "weight": "0.020kg",
+    "grid_size": "1x1",
+    "manufacturer": "General West",
+    "sell_price": "$5,250",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/e/ed/DCRing_inspect.png/revision/latest?cb=20250522052548"
+  },
+  {
+    "name": "Elaborate Ring",
+    "id": "elaborate-ring",
+    "type": "Jewellery",
+    "weight": "0.020kg",
+    "grid_size": "1x1",
+    "sell_price": "$4,400",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5c/ERing_inspect.png/revision/latest?cb=20250425032354"
+  },
+  {
+    "name": "Emerald Necklace",
+    "id": "emerald-necklace",
+    "type": "Jewellery",
+    "weight": "0.010kg",
+    "grid_size": "1x1",
+    "sell_price": "$5,300",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/72/ENecklace_inspect.png/revision/latest/scale-to-width-down/268?cb=20250423040427"
+  },
+  {
+    "name": "Gemstone Ring",
+    "id": "gemstone-ring",
+    "type": "Jewellery",
+    "weight": "0.010kg",
+    "grid_size": "1x1",
+    "sell_price": "$820",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/7f/GRing_inspect.png/revision/latest?cb=20250422042515"
+  },
+  {
+    "name": "Gold Necklace",
+    "id": "gold-necklace",
+    "type": "Jewellery",
+    "weight": "0.020kg",
+    "grid_size": "1x1",
+    "manufacturer": "General Local",
+    "sell_price": "$180",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/3a/Necklace_inspect.png/revision/latest/scale-to-width-down/268?cb=20250507135727"
+  },
+  {
+    "name": "Gold Ring",
+    "id": "gold-ring",
+    "type": "Jewellery",
+    "weight": "0.010kg",
+    "grid_size": "1x1",
+    "sell_price": "$150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/bd/Ring_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422042524"
+  },
+  {
+    "name": "Luxury Smartwatch",
+    "id": "luxury-smartwatch",
+    "type": "Jewellery",
+    "weight": "0.050kg",
+    "grid_size": "1x1",
+    "sell_price": "$600",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d0/LWatch_inspect.png/revision/latest/scale-to-width-down/268?cb=20250422203410"
+  },
+  {
+    "name": "Majestic Titanium Watch",
+    "id": "majestic-titanium-watch",
+    "type": "Jewellery",
+    "weight": "0.100kg",
+    "grid_size": "1x1",
+    "manufacturer": "General West",
+    "sell_price": "$8,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/54/MTWatch_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508224938"
+  },
+  {
+    "name": "Master Carbon SEAL Automatic Watch",
+    "id": "master-carbon-seal-automatic-watch",
+    "type": "Jewellery",
+    "weight": "0.170kg",
+    "grid_size": "1x1",
+    "manufacturer": "Luminox",
+    "sell_price": "$1,450"
+  },
+  {
+    "name": "Modern Watch",
+    "id": "modern-watch",
+    "type": "Jewellery",
+    "weight": "0.050kg",
+    "grid_size": "1x1",
+    "sell_price": "$150",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/3/32/MWatch_inspect.png/revision/latest?cb=20250502160135"
+  },
+  {
+    "name": "Perfect Pearl Earrings",
+    "id": "perfect-pearl-earrings",
+    "type": "Jewellery",
+    "weight": "0.010kg",
+    "grid_size": "1x1",
+    "manufacturer": "General West",
+    "sell_price": "$5,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5e/PPEarrings_inspect.png/revision/latest?cb=20250513044118"
+  },
+  {
+    "name": "Platinum Ring",
+    "id": "platinum-ring",
+    "type": "Jewellery",
+    "weight": "0.010kg",
+    "grid_size": "1x1",
+    "sell_price": "$10,000",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/7/72/PDRing_inspect.png/revision/latest/scale-to-width-down/268?cb=20250508233240"
+  },
+  {
+    "name": "Sapphire Pendant",
+    "id": "sapphire-pendant",
+    "type": "Jewellery",
+    "weight": "0.010kg",
+    "grid_size": "1x1",
+    "manufacturer": "General West",
+    "sell_price": "$3,600",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/1/17/SPendant_inspect.png/revision/latest/scale-to-width-down/268?cb=20250513043052"
+  },
+  {
+    "name": "Sleek Luxury Watch",
+    "id": "sleek-luxury-watch",
+    "type": "Jewellery",
+    "weight": "0.050kg",
+    "grid_size": "1x1",
+    "manufacturer": "General West",
+    "sell_price": "$1,700",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/4/4b/SWatch_inspect.png/revision/latest?cb=20250507140050"
+  }
+]

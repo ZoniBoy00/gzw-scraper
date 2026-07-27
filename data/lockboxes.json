@@ -1,0 +1,32 @@
+[
+  {
+    "name": "SafeLock Protected Ruck Case",
+    "id": "safelock-protected-ruck-case",
+    "type": "Secure Lockbox",
+    "weight": "0.800kg",
+    "grid_size": "2x2",
+    "slots": "Lockbox",
+    "inventory_layout_(x/y)": "2x2 grid (4 slots)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/b/b3/Safelock_inspect.png/revision/latest/scale-to-width-down/268?cb=20250506172017"
+  },
+  {
+    "name": "Snuck 908 Portable Lockbox",
+    "id": "snuck-908-portable-lockbox",
+    "type": "Secure Lockbox",
+    "weight": "1.400kg",
+    "grid_size": "2x3",
+    "slots": "Lockbox",
+    "inventory_layout_(x/y)": "2x3 grid (6 slots)",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/9/9a/Snuck908_inspect.png/revision/latest/scale-to-width-down/268?cb=20250506172119"
+  },
+  {
+    "name": "TAS Secure Case",
+    "id": "tas-secure-case",
+    "type": "Secure Lockbox",
+    "weight": "2.440kg",
+    "grid_size": "3x3",
+    "slots": "9",
+    "inventory_layout_(x/y)": "3x3",
+    "image": "https://static.wikia.nocookie.net/gray-zone-warfare/images/d/d2/Tas_inspect.png/revision/latest/scale-to-width-down/268?cb=20250506172212"
+  }
+]
