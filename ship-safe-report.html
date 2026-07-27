@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ship Safe Full Audit Report — gzw-scraper</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#0f172a;color:#e2e8f0;padding:2rem}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:2rem;margin-bottom:0.5rem;color:#38bdf8}
+h2{font-size:1.3rem;margin:2rem 0 1rem;color:#94a3b8;border-bottom:1px solid #1e293b;padding-bottom:0.5rem}
+.meta{color:#64748b;margin-bottom:2rem}
+.score-card{display:flex;align-items:center;gap:2rem;background:#1e293b;padding:2rem;border-radius:12px;margin-bottom:2rem}
+.score-number{font-size:4rem;font-weight:bold}
+.grade{font-size:3rem;font-weight:bold;width:80px;height:80px;display:flex;align-items:center;justify-content:center;border-radius:12px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:2rem}
+.stat{background:#1e293b;padding:1.5rem;border-radius:8px;text-align:center;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.stat:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.3)}
+.stat.active{outline:2px solid #38bdf8}
+.stat-number{font-size:2rem;font-weight:bold}
+.stat-label{color:#64748b;font-size:0.85rem}
+.summary-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem}
+.summary-card{background:#1e293b;padding:1.5rem;border-radius:8px}
+.summary-card h3{color:#38bdf8;font-size:1rem;margin-bottom:0.5rem}
+.summary-card .big{font-size:2.5rem;font-weight:bold}
+/* Bar chart */
+.chart{background:#1e293b;border-radius:8px;padding:1.5rem;margin-bottom:2rem}
+.bar-row{display:flex;align-items:center;gap:0.75rem;padding:0.4rem 0}
+.bar-label{width:160px;font-size:0.8rem;color:#94a3b8;text-align:right;flex-shrink:0}
+.bar-track{flex:1;height:20px;background:#0f172a;border-radius:4px;overflow:hidden}
+.bar-fill{height:100%;border-radius:4px;transition:width .4s ease}
+.bar-value{width:70px;font-size:0.8rem;font-weight:bold;flex-shrink:0}
+.bar-count{width:80px;font-size:0.75rem;color:#64748b;flex-shrink:0}
+/* Filter bar */
+.filter-bar{display:flex;align-items:center;gap:1rem;background:#1e293b;padding:1rem 1.5rem;border-radius:8px;margin-bottom:1rem;flex-wrap:wrap}
+.filter-bar label{font-size:0.8rem;color:#94a3b8}
+.filter-btn{padding:4px 12px;border-radius:4px;border:1px solid #334155;background:#0f172a;color:#e2e8f0;cursor:pointer;font-size:0.8rem;transition:background .15s}
+.filter-btn.active{border-color:#38bdf8;background:#38bdf822}
+.filter-btn:hover{background:#334155}
+.search-input{background:#0f172a;border:1px solid #334155;border-radius:4px;padding:6px 12px;color:#e2e8f0;font-size:0.8rem;width:200px}
+.search-input:focus{outline:none;border-color:#38bdf8}
+.filter-bar .count-label{margin-left:auto;font-size:0.8rem;color:#64748b}
+/* Table */
+table{width:100%;border-collapse:collapse;background:#1e293b;border-radius:8px;overflow:hidden;margin-bottom:2rem}
+th{background:#334155;text-align:left;padding:0.75rem 1rem;font-size:0.8rem;text-transform:uppercase;color:#94a3b8;cursor:pointer;user-select:none}
+th:hover{color:#e2e8f0}
+td{padding:0.75rem 1rem;border-top:1px solid #0f172a;font-size:0.85rem;vertical-align:top}
+tr:hover{background:#334155}
+code{background:#0f172a;padding:2px 6px;border-radius:4px;font-size:0.8rem;color:#38bdf8;word-break:break-all}
+small{color:#94a3b8}
+.sev{padding:2px 8px;border-radius:4px;font-size:0.7rem;font-weight:bold;text-transform:uppercase;white-space:nowrap}
+.sev-critical{background:#dc262633;color:#fca5a5}
+.sev-high{background:#f9731633;color:#fdba74}
+.sev-medium,.sev-moderate{background:#eab30833;color:#fde047}
+.sev-low{background:#3b82f633;color:#93c5fd}
+/* Collapsible findings */
+.finding-title{cursor:pointer;border-bottom:1px dashed #475569}
+.finding-title:hover{color:#38bdf8}
+.finding-detail{margin-top:0.5rem;padding:0.75rem;background:#0f172a;border-radius:6px;border-left:3px solid #38bdf8}
+.finding-detail p{font-size:0.8rem;color:#94a3b8;margin-bottom:0.4rem}
+.finding-meta{font-size:0.75rem;color:#64748b}
+.finding-fix{color:#22c55e;font-size:0.8rem}
+.code-block{background:#020617;padding:0.5rem;border-radius:4px;font-size:0.75rem;margin:0.5rem 0;overflow-x:auto;line-height:1.4}
+.copy-btn{background:#334155;color:#38bdf8;border:1px solid #475569;border-radius:4px;padding:3px 10px;font-size:0.7rem;cursor:pointer;margin-top:0.4rem}
+.copy-btn:hover{background:#475569}
+.copy-btn.copied{background:#22c55e33;color:#22c55e;border-color:#22c55e}
+/* TOC */
+.toc{background:#1e293b;padding:1.5rem 2rem;border-radius:8px;margin-bottom:2rem}
+.toc a{color:#38bdf8;text-decoration:none;display:block;padding:0.3rem 0}
+.toc a:hover{text-decoration:underline}
+.footer{text-align:center;color:#475569;margin-top:3rem;padding:2rem;border-top:1px solid #1e293b}
+.footer a{color:#38bdf8}
+.share-bar{display:flex;justify-content:center;gap:0.75rem;margin:1.5rem 0}
+.share-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 18px;border-radius:6px;font-size:0.85rem;font-weight:600;text-decoration:none;cursor:pointer;border:none;transition:opacity .15s}
+.share-btn:hover{opacity:0.85}
+.share-btn-x{background:#000;color:#fff}
+.share-btn-li{background:#0a66c2;color:#fff}
+.share-btn-copy{background:#334155;color:#38bdf8;border:1px solid #475569}
+.share-btn-copy.copied{background:#22c55e33;color:#22c55e;border-color:#22c55e}
+.badge-section{background:#1e293b;border-radius:8px;padding:1.5rem;margin-top:1.5rem;text-align:center}
+.badge-section img{margin-bottom:0.75rem}
+.badge-section code{display:block;background:#0f172a;padding:8px 12px;border-radius:4px;font-size:0.75rem;margin-top:0.5rem;word-break:break-all;user-select:all}
+/* Hidden row */
+.hidden-row{display:none}
+/* Print */
+@media print{
+  body{background:#fff;color:#1e293b}
+  table,th,td{border:1px solid #e2e8f0}
+  .score-card,.stat,.summary-card,.toc,.chart,.filter-bar{background:#f8fafc}
+  .copy-btn,.search-input{display:none}
+  .finding-detail{display:block!important}
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Ship Safe — Full Security Audit Report</h1>
+  <p class="meta">gzw-scraper — July 23, 2026 at 02:20 PM</p>
+
+  <div class="toc">
+    <strong>Contents</strong>
+    <a href="#score">1. Security Score</a>
+    <a href="#summary">2. Executive Summary</a>
+    <a href="#categories">3. Category Breakdown</a>
+    <a href="#plan">4. Remediation Plan (3 items)</a>
+    <a href="#findings">5. All Findings (10)</a>
+    <a href="#deps">6. Dependency Vulnerabilities (0)</a>
+    <a href="#surface">7. Attack Surface</a>
+  </div>
+
+  <h2 id="score">1. Security Score</h2>
+  <div class="score-card">
+    <div class="grade" style="background:#06b6d422;color:#06b6d4">B</div>
+    <div>
+      <div class="score-number" style="color:#06b6d4">82/100</div>
+      <div style="color:#94a3b8">Minor issues to review</div>
+    </div>
+  </div>
+
+  <div class="stats" id="severity-stats">
+    <div class="stat" onclick="toggleSevFilter('critical')" id="stat-critical"><div class="stat-number" style="color:#dc2626">0</div><div class="stat-label">Critical</div></div>
+    <div class="stat" onclick="toggleSevFilter('high')" id="stat-high"><div class="stat-number" style="color:#f97316">10</div><div class="stat-label">High</div></div>
+    <div class="stat" onclick="toggleSevFilter('medium')" id="stat-medium"><div class="stat-number" style="color:#eab308">0</div><div class="stat-label">Medium</div></div>
+    <div class="stat" onclick="toggleSevFilter('low')" id="stat-low"><div class="stat-number" style="color:#3b82f6">0</div><div class="stat-label">Low</div></div>
+  </div>
+
+  <h2 id="summary">2. Executive Summary</h2>
+  <div class="summary-grid">
+    <div class="summary-card">
+      <h3>Code Findings</h3>
+      <div class="big" style="color:#ef4444">10</div>
+      <small>Across 8 categories</small>
+    </div>
+    <div class="summary-card">
+      <h3>Dependency CVEs</h3>
+      <div class="big" style="color:#22c55e">0</div>
+      <small>From npm/pip/bundler audit</small>
+    </div>
+  </div>
+
+  <h2 id="categories">3. Category Breakdown</h2>
+  <div class="chart">
+    <div class="bar-row">
+        <span class="bar-label">Secrets</span>
+        <div class="bar-track"><div class="bar-fill" style="width:0%;background:#22c55e"></div></div>
+        <span class="bar-value" style="color:#22c55e">0 pts</span>
+        <span class="bar-count">0 findings</span>
+      </div>
+<div class="bar-row">
+        <span class="bar-label">Code Vulnerabilities</span>
+        <div class="bar-track"><div class="bar-fill" style="width:0%;background:#22c55e"></div></div>
+        <span class="bar-value" style="color:#22c55e">0 pts</span>
+        <span class="bar-count">0 findings</span>
+      </div>
+<div class="bar-row">
+        <span class="bar-label">Dependencies</span>
+        <div class="bar-track"><div class="bar-fill" style="width:0%;background:#22c55e"></div></div>
+        <span class="bar-value" style="color:#22c55e">0 pts</span>
+        <span class="bar-count">0 findings</span>
+      </div>
+<div class="bar-row">
+        <span class="bar-label">Auth &amp; Access Control</span>
+        <div class="bar-track"><div class="bar-fill" style="width:0%;background:#22c55e"></div></div>
+        <span class="bar-value" style="color:#22c55e">0 pts</span>
+        <span class="bar-count">0 findings</span>
+      </div>
+<div class="bar-row">
+        <span class="bar-label">Configuration</span>
+        <div class="bar-track"><div class="bar-fill" style="width:80%;background:#ef4444"></div></div>
+        <span class="bar-value" style="color:#ef4444">-8 pts</span>
+        <span class="bar-count">3 findings</span>
+      </div>
+<div class="bar-row">
+        <span class="bar-label">Supply Chain</span>
+        <div class="bar-track"><div class="bar-fill" style="width:0%;background:#22c55e"></div></div>
+        <span class="bar-value" style="color:#22c55e">0 pts</span>
+        <span class="bar-count">0 findings</span>
+      </div>
+<div class="bar-row">
+        <span class="bar-label">API Security</span>
+        <div class="bar-track"><div class="bar-fill" style="width:100%;background:#ef4444"></div></div>
+        <span class="bar-value" style="color:#ef4444">-10 pts</span>
+        <span class="bar-count">7 findings</span>
+      </div>
+<div class="bar-row">
+        <span class="bar-label">AI/LLM Security</span>
+        <div class="bar-track"><div class="bar-fill" style="width:0%;background:#22c55e"></div></div>
+        <span class="bar-value" style="color:#22c55e">0 pts</span>
+        <span class="bar-count">0 findings</span>
+      </div>
+  </div>
+
+  <h2 id="plan">4. Remediation Plan</h2>
+  <p style="color:#94a3b8;margin-bottom:1rem">Prioritized list of fixes. Address critical items first.</p>
+  <table>
+    <thead><tr><th>#</th><th>Category</th><th>Issue</th><th>Location</th><th>Fix</th></tr></thead>
+    <tbody><tr class="sev-header"><td colspan="5" style="background:#1e293b;padding:1rem;font-weight:bold;color:#f97316">&#x1F7E0; HIGH — fix before deploy</td></tr>
+<tr>
+        <td>1</td>
+        <td><span class="sev sev-high">CICD</span></td>
+        <td><strong>CI/CD: Unpinned GitHub Action (mutable tag)</strong></td>
+        <td><code>.github/workflows/scrape.yml:15</code></td>
+        <td><small>Pin to full 40-char commit SHA: uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2</small></td>
+      </tr>
+<tr>
+        <td>2</td>
+        <td><span class="sev sev-high">CICD</span></td>
+        <td><strong>CI/CD: Unpinned GitHub Action (mutable tag)</strong></td>
+        <td><code>.github/workflows/scrape.yml:17</code></td>
+        <td><small>Pin to full 40-char commit SHA: uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2</small></td>
+      </tr>
+<tr>
+        <td>3</td>
+        <td><span class="sev sev-high">CICD</span></td>
+        <td><strong>CI/CD: Unpinned GitHub Action (mutable tag)</strong></td>
+        <td><code>.github/workflows/scrape.yml:33</code></td>
+        <td><small>Pin to full 40-char commit SHA: uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2</small></td>
+      </tr>
+</tbody>
+  </table>
+
+  <h2 id="findings">5. All Findings (10)</h2>
+  <div class="filter-bar">
+    <label>Filter:</label>
+    <button class="filter-btn active" data-sev="all" onclick="filterSev('all',this)">All</button>
+    <button class="filter-btn" data-sev="critical" onclick="filterSev('critical',this)">Critical (0)</button>
+    <button class="filter-btn" data-sev="high" onclick="filterSev('high',this)">High (10)</button>
+    <button class="filter-btn" data-sev="medium" onclick="filterSev('medium',this)">Medium (0)</button>
+    <button class="filter-btn" data-sev="low" onclick="filterSev('low',this)">Low (0)</button>
+    <input class="search-input" type="text" placeholder="Search findings..." oninput="searchFindings(this.value)">
+    <span class="count-label" id="visible-count">10 shown</span>
+  </div>
+  <table id="findings-table">
+    <thead><tr><th>Severity</th><th>Location</th><th>Issue</th><th>Code</th><th>Fix</th></tr></thead>
+    <tbody><tr class="finding-row" data-sev="high" data-rule="CICD_UNPINNED_ACTION" data-text="ci/cd: unpinned github action (mutable tag) github action not pinned to a full commit sha. mutable tags (@main, @master, @v1, @v1.2.3) can be force-pushed to malicious commits — the technique used in the 2026 trivy/teampcp attack that compromised 10,000+ pipelines. .github/workflows/scrape.yml">
+        <td><span class="sev sev-high">HIGH</span></td>
+        <td><code>.github/workflows/scrape.yml:15</code></td>
+        <td>
+          <strong class="finding-title" onclick="toggleDetail(0)">CI/CD: Unpinned GitHub Action (mutable tag)</strong>
+          <div id="detail-0" class="finding-detail" style="display:none">
+            <p>GitHub Action not pinned to a full commit SHA. Mutable tags (@main, @master, @v1, @v1.2.3) can be force-pushed to malicious commits — the technique used in the 2026 Trivy/TeamPCP attack that compromised 10,000+ pipelines.</p>
+            <p class="finding-meta">CWE: CWE-829 | OWASP: CICD-SEC-8</p>
+            <pre class="code-block"><code><span style="">  12   scrape:</span><span style="">  13     runs-on: ubuntu-latest</span><span style="">  14     steps:</span><span style="background:#dc262633;display:block;">  15       - uses: actions/checkout@v4</span><span style="">  16 </span><span style="">  17       - uses: actions/setup-python@v5</span><span style="">  18         with:</span></code></pre>
+            <p class="finding-fix">Fix: Pin to full 40-char commit SHA: uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2</p>
+            <button class="copy-btn" onclick="copyIgnore('ship-safe-ignore CICD_UNPINNED_ACTION',this);event.stopPropagation()">Copy ignore annotation</button>
+          </div>
+        </td>
+        <td><code>uses: actions/checkout@v4</code></td>
+        <td><small>Pin to full 40-char commit SHA: uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4</small></td>
+      </tr>
+<tr class="finding-row" data-sev="high" data-rule="CICD_UNPINNED_ACTION" data-text="ci/cd: unpinned github action (mutable tag) github action not pinned to a full commit sha. mutable tags (@main, @master, @v1, @v1.2.3) can be force-pushed to malicious commits — the technique used in the 2026 trivy/teampcp attack that compromised 10,000+ pipelines. .github/workflows/scrape.yml">
+        <td><span class="sev sev-high">HIGH</span></td>
+        <td><code>.github/workflows/scrape.yml:17</code></td>
+        <td>
+          <strong class="finding-title" onclick="toggleDetail(1)">CI/CD: Unpinned GitHub Action (mutable tag)</strong>
+          <div id="detail-1" class="finding-detail" style="display:none">
+            <p>GitHub Action not pinned to a full commit SHA. Mutable tags (@main, @master, @v1, @v1.2.3) can be force-pushed to malicious commits — the technique used in the 2026 Trivy/TeamPCP attack that compromised 10,000+ pipelines.</p>
+            <p class="finding-meta">CWE: CWE-829 | OWASP: CICD-SEC-8</p>
+            <pre class="code-block"><code><span style="">  14     steps:</span><span style="">  15       - uses: actions/checkout@v4</span><span style="">  16 </span><span style="background:#dc262633;display:block;">  17       - uses: actions/setup-python@v5</span><span style="">  18         with:</span><span style="">  19           python-version: '3.11'</span><span style="">  20 </span></code></pre>
+            <p class="finding-fix">Fix: Pin to full 40-char commit SHA: uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2</p>
+            <button class="copy-btn" onclick="copyIgnore('ship-safe-ignore CICD_UNPINNED_ACTION',this);event.stopPropagation()">Copy ignore annotation</button>
+          </div>
+        </td>
+        <td><code>uses: actions/setup-python@v5</code></td>
+        <td><small>Pin to full 40-char commit SHA: uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4</small></td>
+      </tr>
+<tr class="finding-row" data-sev="high" data-rule="CICD_UNPINNED_ACTION" data-text="ci/cd: unpinned github action (mutable tag) github action not pinned to a full commit sha. mutable tags (@main, @master, @v1, @v1.2.3) can be force-pushed to malicious commits — the technique used in the 2026 trivy/teampcp attack that compromised 10,000+ pipelines. .github/workflows/scrape.yml">
+        <td><span class="sev sev-high">HIGH</span></td>
+        <td><code>.github/workflows/scrape.yml:33</code></td>
+        <td>
+          <strong class="finding-title" onclick="toggleDetail(2)">CI/CD: Unpinned GitHub Action (mutable tag)</strong>
+          <div id="detail-2" class="finding-detail" style="display:none">
+            <p>GitHub Action not pinned to a full commit SHA. Mutable tags (@main, @master, @v1, @v1.2.3) can be force-pushed to malicious commits — the technique used in the 2026 Trivy/TeamPCP attack that compromised 10,000+ pipelines.</p>
+            <p class="finding-meta">CWE: CWE-829 | OWASP: CICD-SEC-8</p>
+            <pre class="code-block"><code><span style="">  30 </span><span style="">  31       # ── Push data to gzw-data ──</span><span style="">  32       - name: Checkout gzw-data</span><span style="background:#dc262633;display:block;">  33         uses: actions/checkout@v4</span><span style="">  34         with:</span><span style="">  35           repository: ZoniBoy00/gzw-data</span><span style="">  36           path: gzw-data</span></code></pre>
+            <p class="finding-fix">Fix: Pin to full 40-char commit SHA: uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2</p>
+            <button class="copy-btn" onclick="copyIgnore('ship-safe-ignore CICD_UNPINNED_ACTION',this);event.stopPropagation()">Copy ignore annotation</button>
+          </div>
+        </td>
+        <td><code>uses: actions/checkout@v4</code></td>
+        <td><small>Pin to full 40-char commit SHA: uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4</small></td>
+      </tr>
+<tr class="finding-row" data-sev="high" data-rule="API_UPLOAD_NO_TYPE_CHECK" data-text="api: file upload without type validation file upload using original filename without type validation. scrape.py">
+        <td><span class="sev sev-high">HIGH</span></td>
+        <td><code>scrape.py:509</code></td>
+        <td>
+          <strong class="finding-title" onclick="toggleDetail(3)">API: File Upload Without Type Validation</strong>
+          <div id="detail-3" class="finding-detail" style="display:none">
+            <p>File upload using original filename without type validation.</p>
+            <p class="finding-meta">CWE: CWE-434 | OWASP: A04:2021</p>
+            <pre class="code-block"><code><span style=""> 506     - Creates backup of previous data</span><span style=""> 507     &quot;&quot;&quot;</span><span style=""> 508     # Validate</span><span style="background:#dc262633;display:block;"> 509     valid, reason = validate_items(items, filename)</span><span style=""> 510     if not valid:</span><span style=""> 511         logger.error(&quot;  ❌ Validation FAILED for %s: %s&quot;, filename, reason)</span><span style=""> 512         return False</span></code></pre>
+            <p class="finding-fix">Fix: Validate file extension and MIME type. Generate random filenames for storage.</p>
+            <button class="copy-btn" onclick="copyIgnore('ship-safe-ignore API_UPLOAD_NO_TYPE_CHECK',this);event.stopPropagation()">Copy ignore annotation</button>
+          </div>
+        </td>
+        <td><code>filename)</code></td>
+        <td><small>Validate file extension and MIME type. Generate random filenames for storage.</small></td>
+      </tr>
+<tr class="finding-row" data-sev="high" data-rule="API_UPLOAD_NO_TYPE_CHECK" data-text="api: file upload without type validation file upload using original filename without type validation. scrape.py">
+        <td><span class="sev sev-high">HIGH</span></td>
+        <td><code>scrape.py:546</code></td>
+        <td>
+          <strong class="finding-title" onclick="toggleDetail(4)">API: File Upload Without Type Validation</strong>
+          <div id="detail-4" class="finding-detail" style="display:none">
+            <p>File upload using original filename without type validation.</p>
+            <p class="finding-meta">CWE: CWE-434 | OWASP: A04:2021</p>
+            <pre class="code-block"><code><span style=""> 543         if backup_path.exists():</span><span style=""> 544             try:</span><span style=""> 545                 shutil.copy2(backup_path, existing)</span><span style="background:#dc262633;display:block;"> 546                 logger.info(&quot;  ↩️ Restored backup for %s&quot;, filename)</span><span style=""> 547             except Exception:</span><span style=""> 548                 pass</span><span style=""> 549         return False</span></code></pre>
+            <p class="finding-fix">Fix: Validate file extension and MIME type. Generate random filenames for storage.</p>
+            <button class="copy-btn" onclick="copyIgnore('ship-safe-ignore API_UPLOAD_NO_TYPE_CHECK',this);event.stopPropagation()">Copy ignore annotation</button>
+          </div>
+        </td>
+        <td><code>filename)</code></td>
+        <td><small>Validate file extension and MIME type. Generate random filenames for storage.</small></td>
+      </tr>
+<tr class="finding-row" data-sev="high" data-rule="API_UPLOAD_NO_TYPE_CHECK" data-text="api: file upload without type validation file upload using original filename without type validation. scrape.py">
+        <td><span class="sev sev-high">HIGH</span></td>
+        <td><code>scrape.py:614</code></td>
+        <td>
+          <strong class="finding-title" onclick="toggleDetail(5)">API: File Upload Without Type Validation</strong>
+          <div id="detail-5" class="finding-detail" style="display:none">
+            <p>File upload using original filename without type validation.</p>
+            <p class="finding-meta">CWE: CWE-434 | OWASP: A04:2021</p>
+            <pre class="code-block"><code><span style=""> 611         items = scrape_category(name, title)</span><span style=""> 612 </span><span style=""> 613         # Save with validation</span><span style="background:#dc262633;display:block;"> 614         prev_count = previous_counts.get(filename)</span><span style=""> 615         if safe_save(filename, items, prev_count):</span><span style=""> 616             scraped_files.add(filename)</span><span style=""> 617             if filename not in [CATEGORY_TO_FILENAME.get(t) + &quot;.json&quot; for t in CATEGORY_TO_FILENAME if</span></code></pre>
+            <p class="finding-fix">Fix: Validate file extension and MIME type. Generate random filenames for storage.</p>
+            <button class="copy-btn" onclick="copyIgnore('ship-safe-ignore API_UPLOAD_NO_TYPE_CHECK',this);event.stopPropagation()">Copy ignore annotation</button>
+          </div>
+        </td>
+        <td><code>filename)</code></td>
+        <td><small>Validate file extension and MIME type. Generate random filenames for storage.</small></td>
+      </tr>
+<tr class="finding-row" data-sev="high" data-rule="API_UPLOAD_NO_TYPE_CHECK" data-text="api: file upload without type validation file upload using original filename without type validation. scrape.py">
+        <td><span class="sev sev-high">HIGH</span></td>
+        <td><code>scrape.py:616</code></td>
+        <td>
+          <strong class="finding-title" onclick="toggleDetail(6)">API: File Upload Without Type Validation</strong>
+          <div id="detail-6" class="finding-detail" style="display:none">
+            <p>File upload using original filename without type validation.</p>
+            <p class="finding-meta">CWE: CWE-434 | OWASP: A04:2021</p>
+            <pre class="code-block"><code><span style=""> 613         # Save with validation</span><span style=""> 614         prev_count = previous_counts.get(filename)</span><span style=""> 615         if safe_save(filename, items, prev_count):</span><span style="background:#dc262633;display:block;"> 616             scraped_files.add(filename)</span><span style=""> 617             if filename not in [CATEGORY_TO_FILENAME.get(t) + &quot;.json&quot; for t in CATEGORY_TO_FILENAME if</span><span style=""> 618                                 CATEGORY_TO_FILENAME[t] + &quot;.json&quot; in previous_counts]:</span><span style=""> 619                 auto_discovered += 1</span></code></pre>
+            <p class="finding-fix">Fix: Validate file extension and MIME type. Generate random filenames for storage.</p>
+            <button class="copy-btn" onclick="copyIgnore('ship-safe-ignore API_UPLOAD_NO_TYPE_CHECK',this);event.stopPropagation()">Copy ignore annotation</button>
+          </div>
+        </td>
+        <td><code>filename)</code></td>
+        <td><small>Validate file extension and MIME type. Generate random filenames for storage.</small></td>
+      </tr>
+<tr class="finding-row" data-sev="high" data-rule="API_UPLOAD_NO_TYPE_CHECK" data-text="api: file upload without type validation file upload using original filename without type validation. scrape.py">
+        <td><span class="sev sev-high">HIGH</span></td>
+        <td><code>scrape.py:629</code></td>
+        <td>
+          <strong class="finding-title" onclick="toggleDetail(7)">API: File Upload Without Type Validation</strong>
+          <div id="detail-7" class="finding-detail" style="display:none">
+            <p>File upload using original filename without type validation.</p>
+            <p class="finding-meta">CWE: CWE-434 | OWASP: A04:2021</p>
+            <pre class="code-block"><code><span style=""> 626     }</span><span style=""> 627 </span><span style=""> 628     for filename, page_title in listing_pages.items():</span><span style="background:#dc262633;display:block;"> 629         prev_count = previous_counts.get(filename)</span><span style=""> 630         items = scrape_listing_page(filename, page_title)</span><span style=""> 631         if safe_save(filename, items, prev_count):</span><span style=""> 632             scraped_files.add(filename)</span></code></pre>
+            <p class="finding-fix">Fix: Validate file extension and MIME type. Generate random filenames for storage.</p>
+            <button class="copy-btn" onclick="copyIgnore('ship-safe-ignore API_UPLOAD_NO_TYPE_CHECK',this);event.stopPropagation()">Copy ignore annotation</button>
+          </div>
+        </td>
+        <td><code>filename)</code></td>
+        <td><small>Validate file extension and MIME type. Generate random filenames for storage.</small></td>
+      </tr>
+<tr class="finding-row" data-sev="high" data-rule="API_UPLOAD_NO_TYPE_CHECK" data-text="api: file upload without type validation file upload using original filename without type validation. scrape.py">
+        <td><span class="sev sev-high">HIGH</span></td>
+        <td><code>scrape.py:632</code></td>
+        <td>
+          <strong class="finding-title" onclick="toggleDetail(8)">API: File Upload Without Type Validation</strong>
+          <div id="detail-8" class="finding-detail" style="display:none">
+            <p>File upload using original filename without type validation.</p>
+            <p class="finding-meta">CWE: CWE-434 | OWASP: A04:2021</p>
+            <pre class="code-block"><code><span style=""> 629         prev_count = previous_counts.get(filename)</span><span style=""> 630         items = scrape_listing_page(filename, page_title)</span><span style=""> 631         if safe_save(filename, items, prev_count):</span><span style="background:#dc262633;display:block;"> 632             scraped_files.add(filename)</span><span style=""> 633 </span><span style=""> 634     # ── Phase 4: Clean up stale files ──</span><span style=""> 635     # Files that exist in data/ but no longer have a corresponding wiki category</span></code></pre>
+            <p class="finding-fix">Fix: Validate file extension and MIME type. Generate random filenames for storage.</p>
+            <button class="copy-btn" onclick="copyIgnore('ship-safe-ignore API_UPLOAD_NO_TYPE_CHECK',this);event.stopPropagation()">Copy ignore annotation</button>
+          </div>
+        </td>
+        <td><code>filename)</code></td>
+        <td><small>Validate file extension and MIME type. Generate random filenames for storage.</small></td>
+      </tr>
+<tr class="finding-row" data-sev="high" data-rule="API_UPLOAD_NO_TYPE_CHECK" data-text="api: file upload without type validation file upload using original filename without type validation. scrape.py">
+        <td><span class="sev sev-high">HIGH</span></td>
+        <td><code>scrape.py:653</code></td>
+        <td>
+          <strong class="finding-title" onclick="toggleDetail(9)">API: File Upload Without Type Validation</strong>
+          <div id="detail-9" class="finding-detail" style="display:none">
+            <p>File upload using original filename without type validation.</p>
+            <p class="finding-meta">CWE: CWE-434 | OWASP: A04:2021</p>
+            <pre class="code-block"><code><span style=""> 650     items = scrape_category(category_name, category_name)</span><span style=""> 651     filename = category_name.lower().replace(&quot; &quot;, &quot;_&quot;) + &quot;.json&quot;</span><span style=""> 652     safe_save(filename, items)</span><span style="background:#dc262633;display:block;"> 653     logger.info(&quot;Done: %d items in %s&quot;, len(items), filename)</span><span style=""> 654     return True</span><span style=""> 655 </span><span style=""> 656 </span></code></pre>
+            <p class="finding-fix">Fix: Validate file extension and MIME type. Generate random filenames for storage.</p>
+            <button class="copy-btn" onclick="copyIgnore('ship-safe-ignore API_UPLOAD_NO_TYPE_CHECK',this);event.stopPropagation()">Copy ignore annotation</button>
+          </div>
+        </td>
+        <td><code>filename)</code></td>
+        <td><small>Validate file extension and MIME type. Generate random filenames for storage.</small></td>
+      </tr></tbody>
+  </table>
+
+  <h2 id="deps">6. Dependency Vulnerabilities (0)</h2>
+  <p style="color:#22c55e;font-weight:bold">No vulnerable dependencies found.</p>
+
+  <h2 id="surface">7. Attack Surface</h2>
+  <table>
+    <tbody>
+      <tr><td>Frameworks</td><td>None detected</td></tr>
+      <tr><td>Languages</td><td>python</td></tr>
+      <tr><td>Databases</td><td>None detected</td></tr>
+      <tr><td>Cloud Providers</td><td>None detected</td></tr>
+      <tr><td>Auth Patterns</td><td>None detected</td></tr>
+      <tr><td>CI/CD</td><td>github-actions</td></tr>
+      <tr><td>API Routes</td><td>0 discovered</td></tr>
+    </tbody>
+  </table>
+
+  <div class="share-bar">
+    <a class="share-btn share-btn-x" href="https://twitter.com/intent/tweet?text=My%20project%20scored%2082%2F100%20(Grade%20B)%20on%20Ship%20Safe%20security%20audit!%2018%20AI%20agents%2C%2080%2B%20attack%20classes.%0A%0AScan%20yours%3A%20npx%20ship-safe%20audit%20.%0A%0Ahttps%3A%2F%2Fshipsafecli.com" target="_blank" rel="noopener">Share on X</a>
+    <a class="share-btn share-btn-li" href="https://www.linkedin.com/sharing/share-offsite/?url=https://shipsafecli.com" target="_blank" rel="noopener">Share on LinkedIn</a>
+    <button class="share-btn share-btn-copy" onclick="copyShareText(this)">Copy Score Summary</button>
+  </div>
+
+  <div class="badge-section">
+    <p style="color:#94a3b8;margin-bottom:0.75rem"><strong>Add a security badge to your README:</strong></p>
+    <img src="https://img.shields.io/badge/Ship_Safe-B-06b6d4" alt="Ship Safe Grade B" />
+    <code>[![Ship Safe](https://img.shields.io/badge/Ship_Safe-B-06b6d4)](https://shipsafecli.com)</code>
+  </div>
+
+  <div class="footer">
+    Generated by <strong>Ship Safe v6.1</strong> — Full Security Audit<br>
+    <a href="https://shipsafecli.com">shipsafecli.com</a> &middot; <a href="https://shipsafecli.com/pricing">Cloud Dashboard</a>
+  </div>
+</div>
+
+<script>
+function copyShareText(btn) {
+  const text = 'My project scored 82/100 (Grade B) on Ship Safe security audit!\nScan yours: npx ship-safe audit .\nhttps://shipsafecli.com';
+  navigator.clipboard.writeText(text).then(() => {
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'Copy Score Summary'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+
+// ── Severity filter ────────────────────────────────────────────────────────
+let activeSev = 'all';
+let searchTerm = '';
+
+function filterSev(sev, btn) {
+  activeSev = sev;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  applyFilters();
+}
+
+function toggleSevFilter(sev) {
+  const btn = document.querySelector('.filter-btn[data-sev="' + sev + '"]');
+  if (activeSev === sev) {
+    filterSev('all', document.querySelector('.filter-btn[data-sev="all"]'));
+  } else if (btn) {
+    filterSev(sev, btn);
+  }
+}
+
+function searchFindings(term) {
+  searchTerm = term.toLowerCase();
+  applyFilters();
+}
+
+function applyFilters() {
+  const rows = document.querySelectorAll('.finding-row');
+  let visible = 0;
+  rows.forEach(row => {
+    const matchSev = activeSev === 'all' || row.dataset.sev === activeSev;
+    const matchSearch = !searchTerm || row.dataset.text.includes(searchTerm);
+    if (matchSev && matchSearch) {
+      row.classList.remove('hidden-row');
+      visible++;
+    } else {
+      row.classList.add('hidden-row');
+    }
+  });
+  document.getElementById('visible-count').textContent = visible + ' shown';
+
+  // Highlight active stat card
+  document.querySelectorAll('.stat').forEach(s => s.classList.remove('active'));
+  if (activeSev !== 'all') {
+    const el = document.getElementById('stat-' + activeSev);
+    if (el) el.classList.add('active');
+  }
+}
+
+// ── Collapsible detail ─────────────────────────────────────────────────────
+function toggleDetail(idx) {
+  const el = document.getElementById('detail-' + idx);
+  if (el) el.style.display = el.style.display === 'none' ? 'block' : 'none';
+}
+
+// ── Copy ignore annotation ─────────────────────────────────────────────────
+function copyIgnore(text, btn) {
+  navigator.clipboard.writeText('// ' + text).then(() => {
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'Copy ignore annotation'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+</script>
+</body>
+</html>

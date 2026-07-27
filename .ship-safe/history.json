@@ -1,0 +1,164 @@
+[
+  {
+    "timestamp": "2026-07-23T11:20:43.188Z",
+    "score": 82,
+    "grade": "B",
+    "totalFindings": 10,
+    "totalDepVulns": 0,
+    "categoryScores": {
+      "secrets": {
+        "deduction": 0,
+        "counts": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "injection": {
+        "deduction": 0,
+        "counts": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "deps": {
+        "deduction": 0,
+        "counts": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "auth": {
+        "deduction": 0,
+        "counts": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "config": {
+        "deduction": 8,
+        "counts": {
+          "critical": 0,
+          "high": 3,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "supply-chain": {
+        "deduction": 0,
+        "counts": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "api": {
+        "deduction": 10,
+        "counts": {
+          "critical": 0,
+          "high": 7,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "llm": {
+        "deduction": 0,
+        "counts": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-23T11:20:55.245Z",
+    "score": 82,
+    "grade": "B",
+    "totalFindings": 10,
+    "totalDepVulns": 0,
+    "categoryScores": {
+      "secrets": {
+        "deduction": 0,
+        "counts": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "injection": {
+        "deduction": 0,
+        "counts": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "deps": {
+        "deduction": 0,
+        "counts": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "auth": {
+        "deduction": 0,
+        "counts": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "config": {
+        "deduction": 8,
+        "counts": {
+          "critical": 0,
+          "high": 3,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "supply-chain": {
+        "deduction": 0,
+        "counts": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "api": {
+        "deduction": 10,
+        "counts": {
+          "critical": 0,
+          "high": 7,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "llm": {
+        "deduction": 0,
+        "counts": {
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      }
+    }
+  }
+]
