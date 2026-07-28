@@ -121,6 +121,19 @@ def load_config(config_path: Path = CONFIG_PATH) -> Dict[str, Any]:
                 "Newspapers",
                 "Factions",
                 "Regions",
+                # Wiki infrastructure leaks
+                "Front page", "Basics", "Characters", "Locations", "Media",
+                "Maintenance", "Your locker",
+                # Template families
+                "Navbox templates", "Section formatting templates",
+                "Formatting templates", "General wiki templates",
+                "Auxiliary templates", "Design template", "Quote templates",
+                "Link Template",
+                # Wiki technical
+                "Noindexed pages", "Wiki skin images", "Wiki maintenance",
+                "Front page sections",
+                "Pages using duplicate arguments in template calls",
+                "Image and media templates",
             ],
         },
         "category_to_filename": {
@@ -158,6 +171,7 @@ def load_config(config_path: Path = CONFIG_PATH) -> Dict[str, Any]:
         "listing_pages": {
             "loot_items": "Loot",
             "apparel_items": "Apparel",
+            "provisions": "Provisions",
         },
     }
 
