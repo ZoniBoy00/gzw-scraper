@@ -167,10 +167,10 @@ def load_config(config_path: Path = CONFIG_PATH) -> Dict[str, Any]:
             "Foregrips": "foregrips",
             "Stocks": "stocks",
             "Suppressors": "suppressors",
-            # Ammo subcategories — merge into master ammo.json
+            # Ammo subcategories — merged into master ammo.json
             ".222 Remington ammunition": "ammo",
             ".300 AAC Blackout ammunition": "ammo",
-            ".45 ACP ammunition": "ammo",
+            ".45 ACP Ammunition": "ammo",
             ".SX 4.6x30 ammunition": "ammo",
         },
         "listing_pages": {
@@ -839,15 +839,15 @@ def get_output_filename(category_title: str) -> str:
     return base + ".json"
 
 
-def scrape_single_category_task(cat: Dict[str, Any], previous_counts: Dict[str, int]) -> Optional[str]:
-    """Scrape a single category and save results. Used by ThreadPoolExecutor.
+def scrape_single_category_task(cat: Dict[str, Any], previous_counts: Dict[str, int]) -> Optional[Tuple[str, List[Dict[str, Any]]]]:
+    """Scrape a single category. Used by ThreadPoolExecutor.
 
     Args:
         cat: Category dict with 'name', 'title', 'pages' keys.
         previous_counts: Previous item counts for anomaly detection.
 
     Returns:
-        Output filename if saved successfully, None otherwise.
+        Tuple of (filename, items) if items found, None otherwise.
     """
     name: str = cat["name"]
     title: str = cat["title"]
@@ -859,14 +859,49 @@ def scrape_single_category_task(cat: Dict[str, Any], previous_counts: Dict[str, 
         return None
 
     items: List[Dict[str, Any]] = scrape_category(name, title)
-    prev_count: Optional[int] = previous_counts.get(filename)
-    if safe_save(filename, items, prev_count):
-        return filename
-    return None
+    if not items:
+        return None
+    return (filename, items)
+
+
+def merge_items(existing: List[Dict[str, Any]], incoming: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Merge incoming items into existing list, deduplicating by name.
+
+    When two items have the same name, fields from the incoming item
+    overwrite existing fields, but existing fields not present in the
+    incoming item are preserved.
+
+    Args:
+        existing: Current list of items.
+        incoming: New items to merge in.
+
+    Returns:
+        Merged list of items.
+    """
+    item_map: Dict[str, Dict[str, Any]] = {
+        item.get("name", ""): dict(item)
+        for item in existing
+        if item.get("name")
+    }
+    for item in incoming:
+        name: str = item.get("name", "")
+        if not name:
+            continue
+        if name in item_map:
+            # Merge: incoming overwrites, but preserve existing fields not in incoming
+            for key, val in item.items():
+                item_map[name][key] = val
+        else:
+            item_map[name] = dict(item)
+    return list(item_map.values())
 
 
 def run_full_scrape() -> bool:
     """Run the complete bulletproof scrape.
+
+    Scraped items are merged across categories that map to the same
+    output filename (e.g. 'Helmet' + 'Headwear' → helmets.json,
+    '.222 Remington ammunition' + 'Ammo' → ammo.json).
 
     Returns:
         True if scrape completed (even with some failures).
@@ -890,7 +925,8 @@ def run_full_scrape() -> bool:
     # ── Phase 2: Scrape page-based categories in parallel ──
     logger.info("\n🔍 Phase 2: Scraping page-based categories (max %d workers)...", MAX_WORKERS)
 
-    scraped_files: Set[str] = set()
+    # Collect all scraped items per filename (supports merging)
+    merged: Dict[str, List[Dict[str, Any]]] = {}
     auto_discovered: int = 0
 
     # Use ThreadPoolExecutor for parallel scraping
@@ -908,9 +944,14 @@ def run_full_scrape() -> bool:
         for future in future_iter:
             cat = futures[future]
             try:
-                result: Optional[str] = future.result()
+                result: Optional[Tuple[str, List[Dict[str, Any]]]] = future.result()
                 if result:
-                    scraped_files.add(result)
+                    filename: str
+                    items: List[Dict[str, Any]]
+                    filename, items = result
+                    if filename not in merged:
+                        merged[filename] = []
+                    merged[filename] = merge_items(merged[filename], items)
                     # Check if this is a newly discovered category
                     expected_filename: str = get_output_filename(cat["title"])
                     if expected_filename not in previous_counts:
@@ -921,17 +962,27 @@ def run_full_scrape() -> bool:
     # ── Phase 3: Scrape listing-page-only categories ──
     logger.info("\n📋 Phase 3: Scraping listing-page-only categories...")
 
-    for filename, page_title in LISTING_PAGES.items():
-        full_filename: str = f"{filename}.json" if not filename.endswith(".json") else filename
-        prev_count: Optional[int] = previous_counts.get(full_filename)
-        items: List[Dict[str, Any]] = scrape_listing_page(full_filename, page_title)
-        if safe_save(full_filename, items, prev_count):
-            scraped_files.add(full_filename)
+    for filename_key, page_title in LISTING_PAGES.items():
+        full_filename: str = f"{filename_key}.json" if not filename_key.endswith(".json") else filename_key
+        items = scrape_listing_page(full_filename, page_title)
+        if items:
+            if full_filename not in merged:
+                merged[full_filename] = []
+            merged[full_filename] = merge_items(merged[full_filename], items)
+
+    # ── Phase 4: Save all merged files ──
+    logger.info("\n💾 Phase 4: Saving %d merged files...", len(merged))
+
+    saved_count: int = 0
+    for filename, items in merged.items():
+        prev_count: Optional[int] = previous_counts.get(filename)
+        if safe_save(filename, items, prev_count):
+            saved_count += 1
 
     # ── Summary ──
     logger.info("\n" + "=" * 60)
     logger.info("📊 Scrape Complete!")
-    logger.info("  Files updated: %d", len(scraped_files))
+    logger.info("  Files saved: %d/%d", saved_count, len(merged))
     if auto_discovered:
         logger.info("  🆕 New categories discovered: %d", auto_discovered)
     logger.info("=" * 60)
