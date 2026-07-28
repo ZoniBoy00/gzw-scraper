@@ -326,13 +326,22 @@ def filter_game_categories(categories: List[Dict[str, Any]]) -> List[Dict[str, A
     skip_patterns: List[str] = [
         r"^\d", r"^[A-Z]{2,}_", r"^[a-z]",
     ]
+    # Titles containing these words (case-insensitive) are likely wiki infrastructure
+    skip_words: List[str] = [
+        "template", "maintenance", "formatting", "noindexed", "skin image",
+    ]
+    # Categories starting with these are non-game
+    skip_prefixes: List[str] = [
+        "pages using", "pages with", "front page",
+    ]
 
     for cat in categories:
         name: str = cat.get("*", "")
         title: str = name.replace("_", " ")
+        title_lower: str = title.lower()
         pages: int = cat.get("size", 0)
 
-        # Skip internal categories
+        # Skip by exact title match
         if title in SKIP_CATEGORIES:
             continue
 
@@ -340,7 +349,15 @@ def filter_game_categories(categories: List[Dict[str, Any]]) -> List[Dict[str, A
         if pages == 0:
             continue
 
-        # Skip by pattern
+        # Skip by prefix
+        if any(title_lower.startswith(p) for p in skip_prefixes):
+            continue
+
+        # Skip by word match in title (catches "X templates", "Y formatting", etc.)
+        if any(word in title_lower for word in skip_words):
+            continue
+
+        # Skip by regex pattern on wiki name
         if any(re.match(p, name) for p in skip_patterns):
             continue
 
@@ -817,8 +834,9 @@ def scrape_single_category_task(cat: Dict[str, Any], previous_counts: Dict[str, 
     title: str = cat["title"]
     filename: str = get_output_filename(title)
 
-    # Skip listing-page-only categories
-    if filename in LISTING_PAGES:
+    # Skip listing-page-only categories (compare basename without .json)
+    base_name: str = filename.replace(".json", "")
+    if base_name in LISTING_PAGES:
         return None
 
     items: List[Dict[str, Any]] = scrape_category(name, title)

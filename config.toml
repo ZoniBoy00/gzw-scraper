@@ -62,6 +62,20 @@ infrastructure = [
     "Newspapers",
     "Factions",
     "Regions",
+    # Auto-discovered leaks from run — wiki infrastructure
+    "Front page", "Basics", "Characters", "Locations", "Media",
+    "Maintenance", "Your locker",
+    # Template families (catch-all)
+    "Navbox templates", "Section formatting templates",
+    "Formatting templates", "General wiki templates",
+    "Auxiliary templates", "Design template", "Quote templates",
+    "Link Template", "Infobox templates", "Documentation templates",
+    "Notice templates", "Image license templates",
+    # Wiki technical
+    "Noindexed pages", "Wiki skin images", "Wiki maintenance",
+    "Front page sections",
+    "Pages using duplicate arguments in template calls",
+    "Image and media templates",
 ]
 
 [category_to_filename]
@@ -79,7 +93,6 @@ infrastructure = [
 "Weapons camouflage" = "weapon_camos"
 "Military Equipment" = "military_equipment"
 "Face Cover" = "face_cover"
-"Headwear" = "helmets"
 "Tactical Rigs" = "rigs"
 "Loot Containers" = "loot_containers"
 "Task Item" = "task_items"
