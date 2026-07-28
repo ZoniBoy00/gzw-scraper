@@ -76,6 +76,8 @@ infrastructure = [
     "Front page sections",
     "Pages using duplicate arguments in template calls",
     "Image and media templates",
+    "Pages missing details",
+    "Candidates for deletion",
 ]
 
 [category_to_filename]
@@ -127,6 +129,7 @@ infrastructure = [
 "7.65 Browning ammunition" = "ammo"
 "7.65mm Browning ammunition" = "ammo"
 "9x19mm ammunition" = "ammo"
+"4.6x30mm" = "ammo"
 
 [listing_pages]
 # Categories whose items are listed only on a single wiki page (not individual pages)

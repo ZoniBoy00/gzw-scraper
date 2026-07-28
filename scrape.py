@@ -134,6 +134,8 @@ def load_config(config_path: Path = CONFIG_PATH) -> Dict[str, Any]:
                 "Front page sections",
                 "Pages using duplicate arguments in template calls",
                 "Image and media templates",
+                "Pages missing details",
+                "Candidates for deletion",
             ],
         },
         "category_to_filename": {
@@ -184,6 +186,7 @@ def load_config(config_path: Path = CONFIG_PATH) -> Dict[str, Any]:
             "7.65 Browning ammunition": "ammo",
             "7.65mm Browning ammunition": "ammo",
             "9x19mm ammunition": "ammo",
+            "4.6x30mm": "ammo",
         },
         "listing_pages": {
             "loot_items": "Loot",
@@ -355,8 +358,10 @@ def filter_game_categories(categories: List[Dict[str, Any]]) -> List[Dict[str, A
     """
     game_cats: List[Dict[str, Any]] = []
     skip_patterns: List[str] = [
-        r"^\d", r"^[A-Z]{2,}_", r"^[a-z]",
+        r"^[A-Z]{2,}_", r"^[a-z]",
     ]
+    # NOTE: r"^\d" was removed — all digit-starting categories on this
+    # wiki are valid game data (ammo calibers: 5.45x39mm, 7.62x39mm, etc.)
     # Titles containing these words (case-insensitive) are likely wiki infrastructure
     skip_words: List[str] = [
         "template", "maintenance", "formatting", "noindexed", "skin image",
