@@ -3,6 +3,7 @@
 **Gray Zone Warfare** — Complete wiki data scraper.
 
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
 **v4 — Configurable & Bulletproof.** Automatically discovers ALL game categories from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and scrapes every page into structured JSON.
 
