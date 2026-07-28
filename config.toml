@@ -113,6 +113,8 @@ infrastructure = [
 
 [listing_pages]
 # Categories whose items are listed only on a single wiki page (not individual pages)
-# Format: "output_filename.json" = "Wiki Page Title"
+# Format: "output_filename_key" = "Wiki Page Title"
+# The output filename will be <key>.json
 loot_items = "Loot"
 apparel_items = "Apparel"
+provisions = "Provisions"
