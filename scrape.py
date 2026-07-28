@@ -467,15 +467,20 @@ def parse_page(title: str) -> Optional[bs4.BeautifulSoup]:
         return None
 
 
-def get_page_image(title: str) -> Optional[str]:
+def get_page_image(title: str, soup: Optional[bs4.BeautifulSoup] = None) -> Optional[str]:
     """Get thumbnail URL for a wiki page.
 
+    Uses the MediaWiki pageimages API first, then falls back to
+    searching the page HTML for any wiki-hosted image.
+
     Args:
-        title: The wiki page title.
+        title: The wiki page title (used for API lookup).
+        soup: Already-parsed page HTML (avoids a second API call).
 
     Returns:
-        Thumbnail URL string, or None if not found.
+        Image URL string, or None if not found.
     """
+    # Method 1: pageimages API (fast, works for most pages)
     params: Dict[str, Any] = {
         "action": "query",
         "titles": title,
@@ -488,6 +493,23 @@ def get_page_image(title: str) -> Optional[str]:
         for page in data.get("query", {}).get("pages", {}).values():
             if isinstance(page, dict) and page.get("thumbnail"):
                 return page["thumbnail"]["source"]
+
+    # Method 2: search parsed page HTML for any wiki-hosted image
+    if soup is None:
+        soup = parse_page(title)
+    if soup:
+        for img in soup.find_all("img"):
+            src: str = img.get("src", "")
+            if "inspect" in src and src.startswith("https://static.wikia.nocookie.net"):
+                return src
+        for img in soup.find_all("img"):
+            src = img.get("src", "")
+            if src.startswith("https://static.wikia.nocookie.net") and "icon" in src:
+                return src
+            if "data-src" in img.attrs:
+                data_src: str = img["data-src"]
+                if data_src.startswith("https://static.wikia.nocookie.net"):
+                    return data_src
     return None
 
 
@@ -538,11 +560,25 @@ def parse_infobox(soup: Optional[bs4.BeautifulSoup]) -> Dict[str, str]:
                     data[label] = value
             except Exception:
                 continue
-        # Get image
+        # Get image from infobox (including image collections)
         try:
+            # Try direct img first (most common)
             img = infobox.find("img")
             if img and img.get("src"):
-                data["_image"] = img["src"]
+                src = img["src"]
+                if "data-src" in img.attrs and ("base64" in src or not src.startswith("http")):
+                    src = img["data-src"]
+                data["_image"] = src
+            else:
+                # Try pi-image-collection (some pages use this)
+                collection = infobox.find("div", class_="pi-image-collection")
+                if collection:
+                    img = collection.find("img")
+                    if img and img.get("src"):
+                        src = img["src"]
+                        if "data-src" in img.attrs and ("base64" in src or not src.startswith("http")):
+                            src = img["data-src"]
+                        data["_image"] = src
         except Exception:
             pass
     except Exception as exc:
@@ -607,9 +643,9 @@ def scrape_category(name: str, title: str) -> List[Dict[str, Any]]:
                 else:
                     item[wiki_key] = val
 
-            # Get image if not already found
+            # Get image if not already found (use parsed soup to avoid extra API call)
             if "image" not in item:
-                img: Optional[str] = get_page_image(page_title) or info.get("_image")
+                img: Optional[str] = info.get("_image") or get_page_image(page_title, soup)
                 if img:
                     item["image"] = img
 
