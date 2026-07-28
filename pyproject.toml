@@ -1,3 +1,27 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "gzw-scraper"
+version = "4.0.0"
+description = "Gray Zone Warfare — Complete wiki data scraper"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "tqdm>=4.66",
+]
+
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["gzw_scraper*"]
+
+[tool.setuptools.package-data]
+"*" = ["config.toml"]

@@ -1,7 +1,8 @@
 """
-GZW Wiki Scraper v3 — Universal & Bulletproof
-==============================================
+GZW Wiki Scraper v4 — Configurable & Bulletproof
+==================================================
 Automatically discovers ALL game categories from the wiki and scrapes every page.
+
 Features:
   - Auto-discovers new categories (Crafting, Ammo types, etc.)
   - Validates all data before saving
@@ -9,163 +10,273 @@ Features:
   - Preserves existing data if scrape fails entirely
   - Backups previous data before overwriting
   - Skips wiki-internal categories (Images, Templates, Users, etc.)
+  - Config-driven via config.toml
+  - Parallel scraping for better performance
+  - Progress bar with tqdm
+  - Type hints throughout
 """
+
+from __future__ import annotations
 
 import argparse
 import json
 import logging
 import os
 import re
+import shutil
 import sys
 import time
-import shutil
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+from typing import Any, Dict, List, Optional, Set, Tuple
 
-import requests
 import bs4
+import requests
+from requests import Response
+
+# Try to load config; fall back to defaults if config.toml is missing
+try:
+    import tomllib
+except ImportError:
+    # Python <3.11 fallback — use toml if available
+    try:
+        import tomllib as toml  # type: ignore[no-redef]
+    except ImportError:
+        tomllib = None  # type: ignore[assignment]
+
+try:
+    from tqdm import tqdm
+except ImportError:
+    tqdm = None  # type: ignore[assignment]
 
 sys.path.insert(0, str(Path(__file__).parent))
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("gzw-scraper")
 
-OUTPUT_DIR = Path(__file__).parent / "data"
-BACKUP_DIR = Path(__file__).parent / "data_backup"
+# ─── Config loading ───
+
+CONFIG_PATH = Path(__file__).parent / "config.toml"
+
+def load_config(config_path: Path = CONFIG_PATH) -> Dict[str, Any]:
+    """Load configuration from TOML file, with fallback defaults.
+
+    Args:
+        config_path: Path to the TOML configuration file.
+
+    Returns:
+        Dictionary with all config values merged from file and defaults.
+    """
+    defaults: Dict[str, Any] = {
+        "wiki": {
+            "api_url": "https://gray-zone-warfare.fandom.com/api.php",
+            "user_agent": "GZW-Tools/4.0 (community tool; github.com/ZoniBoy00/gzw-tools)",
+        },
+        "scraper": {
+            "max_retries": 3,
+            "base_delay": 1.0,
+            "page_delay": 0.5,
+            "max_safe_deviation": 0.7,
+            "category_page_limit": 500,
+            "max_workers": 4,
+        },
+        "output": {
+            "directory": "data",
+            "backup_directory": "data_backup",
+        },
+        "skip_categories": {
+            "infrastructure": [
+                "Images", "Image", "Videos", "Video", "Audio", "Audio files",
+                "Templates", "Template", "Template documentation",
+                "Users", "User", "User blog", "User blog comment",
+                "Blog posts", "Blog listing", "Blog feed",
+                "Files", "File",
+                "Pages", "Pages with",
+                "Articles", "Stubs", "Disambiguation",
+                "Candidates for deletion", "Protected pages",
+                "Infobox templates", "Navigation templates",
+                "Featured articles", "Good articles",
+                "Pages with broken file links",
+                "Categories", "Category",
+                "Need images", "Pages with missing images",
+                "Pages with unavailable images",
+                "Redlinks", "Broken redirects",
+                "Community", "Help",
+                "Real world", "Staff", "Administration",
+                "Screenshots", "Concept art",
+                "Gameplay", "Multiplayer",
+                "Documentation templates",
+                "Notice templates",
+                "Image license templates",
+                "Pages missing details",
+                "Images needing improvement",
+                "Citation needed",
+                "Verification needed",
+                "Archive",
+                "Maps",
+                "Removed Content",
+                "Upcoming Content",
+                "Newspaper",
+                "Gray Zone Warfare Wiki",
+                "Evidence",
+                "Newspapers",
+                "Factions",
+                "Regions",
+            ],
+        },
+        "category_to_filename": {
+            "Weapons": "weapons",
+            "Armor Vest": "vests",
+            "Helmet": "helmets",
+            "Headwear": "helmets",
+            "Throwables": "throwables",
+            "Weapon Parts": "weapon_parts",
+            "Magazines": "magazines",
+            "Night Vision Devices": "night_vision",
+            "Helmet Mods": "helmet_mods",
+            "Helmet Mounts": "helmet_mounts",
+            "Weapons camouflage": "weapon_camos",
+            "Military Equipment": "military_equipment",
+            "Face Cover": "face_cover",
+            "Tactical Rigs": "rigs",
+            "Loot Containers": "loot_containers",
+            "Task Item": "task_items",
+            "Repair Kits": "repair_kits",
+            "Medical Item": "medical",
+            "Tool": "tools",
+            "Muzzle Devices": "muzzle_devices",
+            "Stock Adapters": "stock_adapters",
+            "Pistol Grips": "pistol_grips",
+            "Night vision": "night_vision",
+            "Main tasks": "tasks",
+            "Side tasks": "tasks",
+            "Task items": "task_items",
+            "Barrels": "barrels",
+            "Foregrips": "foregrips",
+            "Stocks": "stocks",
+            "Suppressors": "suppressors",
+        },
+        "listing_pages": {
+            "loot_items": "Loot",
+            "apparel_items": "Apparel",
+        },
+    }
+
+    if not config_path.exists():
+        logger.warning("config.toml not found at %s — using defaults", config_path)
+        return defaults
+
+    try:
+        with open(config_path, "rb") as fh:
+            user_config = tomllib.load(fh)
+    except Exception as exc:
+        logger.warning("Failed to load config.toml: %s — using defaults", exc)
+        return defaults
+
+    # Deep-merge user config into defaults
+    return _deep_merge(defaults, user_config)
+
+
+def _deep_merge(base: Dict[str, Any], override: Dict[str, Any]) -> Dict[str, Any]:
+    """Recursively merge two dictionaries. Override values take precedence."""
+    result = base.copy()
+    for key, val in override.items():
+        if key in result and isinstance(result[key], dict) and isinstance(val, dict):
+            result[key] = _deep_merge(result[key], val)
+        else:
+            result[key] = val
+    return result
+
+
+# ─── Load config on module import ───
+CONFIG = load_config()
+
+# Extract top-level config values for easy access
+WIKI_CONFIG = CONFIG["wiki"]
+SCRAPER_CONFIG = CONFIG["scraper"]
+OUTPUT_CONFIG = CONFIG["output"]
+SKIP_CATEGORIES: Set[str] = set(CONFIG["skip_categories"]["infrastructure"])
+CATEGORY_TO_FILENAME: Dict[str, str] = CONFIG["category_to_filename"]
+LISTING_PAGES: Dict[str, str] = CONFIG["listing_pages"]
+
+API_URL: str = WIKI_CONFIG["api_url"]
+HEADERS: Dict[str, str] = {
+    "User-Agent": WIKI_CONFIG["user_agent"],
+}
+MAX_RETRIES: int = SCRAPER_CONFIG["max_retries"]
+BASE_DELAY: float = SCRAPER_CONFIG["base_delay"]
+PAGE_DELAY: float = SCRAPER_CONFIG["page_delay"]
+MAX_SAFE_DEVIATION: float = SCRAPER_CONFIG["max_safe_deviation"]
+CATEGORY_PAGE_LIMIT: int = SCRAPER_CONFIG["category_page_limit"]
+MAX_WORKERS: int = SCRAPER_CONFIG.get("max_workers", 4)
+
+OUTPUT_DIR: Path = Path(__file__).parent / OUTPUT_CONFIG["directory"]
+BACKUP_DIR: Path = Path(__file__).parent / OUTPUT_CONFIG["backup_directory"]
 OUTPUT_DIR.mkdir(exist_ok=True)
-
-# ─── Wiki API ───
-API_URL = "https://gray-zone-warfare.fandom.com/api.php"
-HEADERS = {
-    "User-Agent": "GZW-Tools/3.0 (community tool; github.com/ZoniBoy00/gzw-tools; zoni@example.com)"
-}
-MAX_RETRIES = 3
-BASE_DELAY = 1.0  # per-page delay to avoid rate limiting
-MAX_SAFE_DEVIATION = 0.7  # if >70% fewer items than previous scrape, abort
-
-# Categories to ALWAYS skip (wiki-internal)
-SKIP_CATEGORIES = {
-    # Wiki infrastructure
-    "Images", "Image", "Videos", "Video", "Audio", "Audio files",
-    "Templates", "Template", "Template documentation",
-    "Users", "User", "User blog", "User blog comment",
-    "Blog posts", "Blog listing", "Blog feed",
-    "Files", "File",
-    "Pages", "Pages with",
-    "Articles", "Stubs", "Disambiguation",
-    "Candidates for deletion", "Protected pages",
-    "Infobox templates", "Navigation templates",
-    "Featured articles", "Good articles",
-    "Pages with broken file links",
-    "Categories", "Category",
-    "Need images", "Pages with missing images",
-    "Pages with unavailable images",
-    "Redlinks", "Broken redirects",
-    "Community", "Help",
-    # Non-game
-    "Real world", "Staff", "Administration",
-    "Screenshots", "Concept art",
-    "Gameplay", "Multiplayer",
-    # Wiki maintenance categories
-    "Documentation templates",
-    "Notice templates",
-    "Image license templates",
-    "Pages missing details",
-    "Images needing improvement",
-    "Citation needed",
-    "Verification needed",
-    "Archive",
-    "Maps",
-    # Non-item categories
-    "Removed Content",
-    "Upcoming Content",
-    "Newspaper",
-    "Gray Zone Warfare Wiki",
-    "Evidence",
-    "Newspapers",
-    "Factions",
-    "Regions",
-}
-
-# Category → filename overrides for special cases
-CATEGORY_TO_FILENAME = {
-    "Weapons": "weapons",
-    "Armor Vest": "vests",
-    "Helmet": "helmets",
-    "Headwear": "helmets",
-    "Throwables": "throwables",
-    "Weapon Parts": "weapon_parts",
-    "Magazines": "magazines",
-    "Night Vision Devices": "night_vision",
-    "Helmet Mods": "helmet_mods",
-    "Helmet Mounts": "helmet_mounts",
-    "Weapons camouflage": "weapon_camos",
-    "Military Equipment": "military_equipment",
-    "Face Cover": "face_cover",
-    "Headwear": "helmets",
-    "Tactical Rigs": "rigs",
-    "Loot Containers": "loot_containers",
-    "Task Item": "task_items",
-    "Repair Kits": "repair_kits",
-    "Medical Item": "medical",
-    "Tool": "tools",
-    "Muzzle Devices": "muzzle_devices",
-    "Stock Adapters": "stock_adapters",
-    "Pistol Grips": "pistol_grips",
-    "Night vision": "night_vision",
-    "Main tasks": "tasks",
-    "Side tasks": "tasks",
-    "Task items": "task_items",
-    "Barrels": "barrels",
-    "Foregrips": "foregrips",
-    "Stocks": "stocks",
-    "Suppressors": "suppressors",
-}
 
 
 # ─── Bulletproof API helpers ───
 
-def api_call(params, max_retries=MAX_RETRIES):
-    """Make a MediaWiki API call with exponential backoff retry."""
+def api_call(params: Dict[str, Any], max_retries: int = MAX_RETRIES) -> Optional[Dict[str, Any]]:
+    """Make a MediaWiki API call with exponential backoff retry.
+
+    Args:
+        params: Query parameters for the API call.
+        max_retries: Maximum number of retries on failure.
+
+    Returns:
+        Parsed JSON response, or None if all retries failed.
+    """
     params["format"] = "json"
-    last_error = None
+    last_error: str = ""
     for attempt in range(max_retries):
         try:
-            r = requests.get(API_URL, params=params, headers=HEADERS, timeout=30)
+            r: Response = requests.get(API_URL, params=params, headers=HEADERS, timeout=30)
             r.raise_for_status()
             return r.json()
-        except requests.exceptions.Timeout as e:
-            last_error = f"Timeout: {e}"
-        except requests.exceptions.HTTPError as e:
-            status = e.response.status_code if e.response is not None else "unknown"
-            # 429 = rate limited, back off longer
+        except requests.exceptions.Timeout as exc:
+            last_error = f"Timeout: {exc}"
+        except requests.exceptions.HTTPError as exc:
+            status: int = exc.response.status_code if exc.response is not None else 0
             if status == 429:
-                wait = (2 ** attempt) * 5
+                wait: float = (2 ** attempt) * 5
                 logger.warning("Rate limited (429), waiting %ds...", wait)
                 time.sleep(wait)
                 continue
-            last_error = f"HTTP {status}: {e}"
-        except requests.exceptions.ConnectionError as e:
-            last_error = f"Connection error: {e}"
-        except Exception as e:
-            last_error = f"Unknown error: {e}"
+            last_error = f"HTTP {status}: {exc}"
+        except requests.exceptions.ConnectionError as exc:
+            last_error = f"Connection error: {exc}"
+        except Exception as exc:
+            last_error = f"Unknown error: {exc}"
 
         if attempt < max_retries - 1:
             wait = (2 ** attempt) * BASE_DELAY
-            logger.debug("API call failed (attempt %d/%d): %s — retrying in %.1fs",
-                         attempt + 1, max_retries, last_error, wait)
+            logger.debug(
+                "API call failed (attempt %d/%d): %s — retrying in %.1fs",
+                attempt + 1, max_retries, last_error, wait,
+            )
             time.sleep(wait)
+
     logger.error("API call failed after %d attempts: %s", max_retries, last_error)
     return None
 
 
-def safe_get(url, max_retries=MAX_RETRIES):
-    """Safely fetch a URL with retries."""
+def safe_get(url: str, max_retries: int = MAX_RETRIES) -> Optional[Response]:
+    """Safely fetch a URL with retries.
+
+    Args:
+        url: The URL to fetch.
+        max_retries: Maximum number of retries.
+
+    Returns:
+        Response object, or None on failure.
+    """
     for attempt in range(max_retries):
         try:
-            r = requests.get(url, headers=HEADERS, timeout=30)
+            r: Response = requests.get(url, headers=HEADERS, timeout=30)
             r.raise_for_status()
             return r
-        except Exception as e:
-            logger.debug("safe_get failed (attempt %d/%d): %s", attempt + 1, max_retries, e)
+        except Exception as exc:
+            logger.debug("safe_get failed (attempt %d/%d): %s", attempt + 1, max_retries, exc)
             if attempt < max_retries - 1:
                 time.sleep((2 ** attempt) * BASE_DELAY)
     return None
@@ -173,22 +284,28 @@ def safe_get(url, max_retries=MAX_RETRIES):
 
 # ─── Category discovery ───
 
-def get_all_categories():
-    """Get ALL categories from the wiki, excluding internal ones."""
-    all_cats = []
-    params = {
+def get_all_categories() -> List[Dict[str, Any]]:
+    """Get ALL categories from the wiki, excluding internal ones.
+
+    Iterates through the wiki's category list using the MediaWiki API.
+
+    Returns:
+        List of category objects with 'name', 'title', and 'pages' fields.
+    """
+    all_cats: List[Dict[str, Any]] = []
+    params: Dict[str, Any] = {
         "action": "query",
         "list": "allcategories",
         "aclimit": 500,
         "acprop": "size",
     }
     while True:
-        data = api_call(params)
+        data: Optional[Dict[str, Any]] = api_call(params)
         if not data:
             break
-        cats = data.get("query", {}).get("allcategories", [])
+        cats: List[Dict[str, Any]] = data.get("query", {}).get("allcategories", [])
         all_cats.extend(cats)
-        cont = data.get("continue", {})
+        cont: Dict[str, Any] = data.get("continue", {})
         if "accontinue" in cont:
             params["accontinue"] = cont["accontinue"]
         else:
@@ -196,17 +313,24 @@ def get_all_categories():
     return all_cats
 
 
-def filter_game_categories(categories):
-    """Filter out wiki-internal categories, keep only game-relevant ones."""
-    game_cats = []
-    skip_patterns = [
-        r"^\d", r"^[A-Z]{2,}_", r"^[a-z]",  # starts with digit or underscore-prefixed
+def filter_game_categories(categories: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Filter out wiki-internal categories, keep only game-relevant ones.
+
+    Args:
+        categories: Raw category list from get_all_categories().
+
+    Returns:
+        Filtered list of game-relevant categories.
+    """
+    game_cats: List[Dict[str, Any]] = []
+    skip_patterns: List[str] = [
+        r"^\d", r"^[A-Z]{2,}_", r"^[a-z]",
     ]
 
     for cat in categories:
-        name = cat.get("*", "")
-        title = name.replace("_", " ")
-        pages = cat.get("size", 0)
+        name: str = cat.get("*", "")
+        title: str = name.replace("_", " ")
+        pages: int = cat.get("size", 0)
 
         # Skip internal categories
         if title in SKIP_CATEGORIES:
@@ -231,10 +355,18 @@ def filter_game_categories(categories):
 
 # ─── Page fetching & parsing ───
 
-def get_category_members(category, limit=500):
-    """Get all pages in a wiki category."""
-    pages = []
-    params = {
+def get_category_members(category: str, limit: int = CATEGORY_PAGE_LIMIT) -> List[Dict[str, Any]]:
+    """Get all pages in a wiki category.
+
+    Args:
+        category: The wiki category name (without Category: prefix).
+        limit: Max pages to fetch per API call.
+
+    Returns:
+        List of page objects with 'title', 'pageid', etc.
+    """
+    pages: List[Dict[str, Any]] = []
+    params: Dict[str, Any] = {
         "action": "query",
         "list": "categorymembers",
         "cmtitle": f"Category:{category}",
@@ -242,12 +374,12 @@ def get_category_members(category, limit=500):
         "cmtype": "page",
     }
     while True:
-        data = api_call(params)
+        data: Optional[Dict[str, Any]] = api_call(params)
         if not data:
             break
-        members = data.get("query", {}).get("categorymembers", [])
+        members: List[Dict[str, Any]] = data.get("query", {}).get("categorymembers", [])
         pages.extend(members)
-        cont = data.get("continue", {})
+        cont: Dict[str, Any] = data.get("continue", {})
         if "cmcontinue" in cont:
             params["cmcontinue"] = cont["cmcontinue"]
         else:
@@ -255,51 +387,75 @@ def get_category_members(category, limit=500):
     return pages
 
 
-def parse_page(title):
-    """Get parsed HTML of a wiki page."""
-    params = {
+def parse_page(title: str) -> Optional[bs4.BeautifulSoup]:
+    """Get parsed HTML of a wiki page.
+
+    Args:
+        title: The wiki page title.
+
+    Returns:
+        BeautifulSoup object of the page HTML, or None on failure.
+    """
+    params: Dict[str, Any] = {
         "action": "parse",
         "page": title,
         "prop": "text",
         "formatversion": "2",
     }
-    data = api_call(params)
+    data: Optional[Dict[str, Any]] = api_call(params)
     if not data:
         return None
-    html = data.get("parse", {}).get("text", "")
+    html: str = data.get("parse", {}).get("text", "")
     if not html:
         return None
     try:
         return bs4.BeautifulSoup(html, "lxml")
-    except Exception as e:
-        logger.debug("Failed to parse HTML for '%s': %s", title, e)
+    except Exception as exc:
+        logger.debug("Failed to parse HTML for '%s': %s", title, exc)
         return None
 
 
-def get_page_image(title):
-    """Get thumbnail URL for a wiki page."""
-    params = {
+def get_page_image(title: str) -> Optional[str]:
+    """Get thumbnail URL for a wiki page.
+
+    Args:
+        title: The wiki page title.
+
+    Returns:
+        Thumbnail URL string, or None if not found.
+    """
+    params: Dict[str, Any] = {
         "action": "query",
         "titles": title,
         "prop": "pageimages",
         "piprop": "thumbnail",
         "pithumbsize": 200,
     }
-    data = api_call(params)
+    data: Optional[Dict[str, Any]] = api_call(params)
     if data:
-        for p in data.get("query", {}).get("pages", {}).values():
-            if isinstance(p, dict) and p.get("thumbnail"):
-                return p["thumbnail"]["source"]
+        for page in data.get("query", {}).get("pages", {}).values():
+            if isinstance(page, dict) and page.get("thumbnail"):
+                return page["thumbnail"]["source"]
     return None
 
 
-def parse_infobox(soup):
-    """Extract key-value pairs from a portable infobox, safely."""
-    data = {}
+def parse_infobox(soup: Optional[bs4.BeautifulSoup]) -> Dict[str, str]:
+    """Extract key-value pairs from a portable infobox, safely.
+
+    Args:
+        soup: BeautifulSoup object of a wiki page.
+
+    Returns:
+        Dictionary of infobox field -> value, plus optional '_image' key.
+    """
+    data: Dict[str, str] = {}
     if not soup:
         return data
     try:
-        infobox = soup.find("aside", class_=lambda c: c and "portable-infobox" in str(c)) if soup else None
+        infobox = (
+            soup.find("aside", class_=lambda c: c and "portable-infobox" in str(c))
+            if soup else None
+        )
         if not infobox:
             return data
         for data_item in infobox.find_all("div", class_="pi-data"):
@@ -307,8 +463,8 @@ def parse_infobox(soup):
                 label_el = data_item.find("h3", class_="pi-data-label")
                 value_el = data_item.find("div", class_="pi-data-value")
                 if label_el and value_el:
-                    label = label_el.get_text(" ", strip=True).lower().replace(" ", "_")
-                    value = value_el.get_text(" ", strip=True)
+                    label: str = label_el.get_text(" ", strip=True).lower().replace(" ", "_")
+                    value: str = value_el.get_text(" ", strip=True)
                     value = re.sub(r'\s+', ' ', value).strip()
                     data[label] = value
             except Exception:
@@ -320,53 +476,60 @@ def parse_infobox(soup):
                 data["_image"] = img["src"]
         except Exception:
             pass
-    except Exception as e:
-        logger.debug("parse_infobox error: %s", e)
+    except Exception as exc:
+        logger.debug("parse_infobox error: %s", exc)
     return data
 
 
 # ─── Universal scraper ───
 
-def scrape_category(name, title):
+def scrape_category(name: str, title: str) -> List[Dict[str, Any]]:
     """Scrape ANY game category with a universal parser.
-    
+
     Args:
-        name: Category name on the wiki (e.g. 'Weapons')
-        title: Human-readable name for logging
-        
+        name: Category name on the wiki (e.g. 'Weapons').
+        title: Human-readable name for logging.
+
     Returns:
-        List of scraped items, or empty list on failure
+        List of scraped item dictionaries.
     """
     logger.info("Scraping: %s...", title)
     try:
-        pages = get_category_members(name, limit=500)
-    except Exception as e:
-        logger.warning("  Failed to get members for '%s': %s", name, e)
+        pages: List[Dict[str, Any]] = get_category_members(name, limit=CATEGORY_PAGE_LIMIT)
+    except Exception as exc:
+        logger.warning("  Failed to get members for '%s': %s", name, exc)
         return []
 
     if not pages:
         logger.info("  No pages found in '%s'", title)
         return []
 
-    items = []
-    skipped = 0
-    for i, p in enumerate(pages):
-        page_title = p["title"]
+    items: List[Dict[str, Any]] = []
+    skipped: int = 0
+
+    # Use tqdm for progress if available
+    page_iter = pages
+    if tqdm:
+        page_iter = tqdm(pages, desc=f"  {title}", leave=False, unit="page")
+
+    for page in page_iter:
+        page_title: str = page["title"]
+
         # Skip non-article pages
         if page_title.startswith("Category:") or page_title.startswith("Template:") or page_title.startswith("User:"):
             skipped += 1
             continue
 
         try:
-            soup = parse_page(page_title)
-            info = parse_infobox(soup)
+            soup: Optional[bs4.BeautifulSoup] = parse_page(page_title)
+            info: Dict[str, str] = parse_infobox(soup)
 
-            item = {
+            item: Dict[str, Any] = {
                 "name": page_title,
                 "id": page_title.lower().replace(" ", "-").replace("'", "").replace("(", "").replace(")", ""),
             }
 
-            # Universal field extraction — just grab every field the infobox has
+            # Universal field extraction — grab every field the infobox has
             for wiki_key, val in info.items():
                 if wiki_key == "_image":
                     item["image"] = val
@@ -377,17 +540,17 @@ def scrape_category(name, title):
 
             # Get image if not already found
             if "image" not in item:
-                img = get_page_image(page_title) or info.get("_image")
+                img: Optional[str] = get_page_image(page_title) or info.get("_image")
                 if img:
                     item["image"] = img
 
             items.append(item)
-        except Exception as e:
-            logger.debug("  Error scraping '%s': %s", page_title, e)
+        except Exception as exc:
+            logger.debug("  Error scraping '%s': %s", page_title, exc)
             skipped += 1
 
         # Rate limiting — be nice to the wiki
-        time.sleep(BASE_DELAY * 0.5)
+        time.sleep(PAGE_DELAY)
 
     if skipped:
         logger.info("  %s: %d items (+ %d skipped)", title, len(items), skipped)
@@ -397,32 +560,42 @@ def scrape_category(name, title):
     return items
 
 
-def scrape_listing_page(key, page_title, existing_names=None):
+def scrape_listing_page(key: str, page_title: str, existing_names: Optional[Set[str]] = None) -> List[Dict[str, Any]]:
     """Scrape items from a listing page (wikitable-based).
-    
-    Some categories (Loot, Apparel, Provisions) have items ONLY in tables
+
+    Some categories (Loot, Apparel) have items ONLY in tables
     on their listing pages, not as individual wiki pages.
+
+    Args:
+        key: Output key for the dataset (e.g. 'loot_items').
+        page_title: Wiki page title containing the listing tables.
+        existing_names: Optional set of already-known item names to avoid duplicates.
+
+    Returns:
+        List of scraped item dictionaries.
     """
     logger.info("Listing page: %s -> %s...", page_title, key)
-    soup = parse_page(page_title)
+    soup: Optional[bs4.BeautifulSoup] = parse_page(page_title)
     if not soup:
         logger.warning("  Could not parse '%s'", page_title)
         return []
 
-    items = []
+    items: List[Dict[str, Any]] = []
+    seen_names: Set[str] = set(existing_names) if existing_names else set()
+
     for table in soup.find_all("table", class_=re.compile(r"wikitable|article-table|sortable|fandom-table")):
         rows = table.find_all("tr")
         if len(rows) < 2:
             continue
 
-        headers = []
+        headers: List[str] = []
         for cell in rows[0].find_all(["th", "td"]):
-            text = cell.get_text(" ", strip=True)
+            text: str = cell.get_text(" ", strip=True)
             text = re.sub(r"\s+", " ", text).strip()
             headers.append(text.lower())
 
-        has_name = any("name" in h for h in headers)
-        has_icon = any("icon" in h for h in headers)
+        has_name: bool = any("name" in h for h in headers)
+        has_icon: bool = any("icon" in h for h in headers)
         if not has_name and not has_icon:
             continue
 
@@ -431,17 +604,17 @@ def scrape_listing_page(key, page_title, existing_names=None):
             if not cells:
                 continue
 
-            row_data = {}
-            img_url = ""
+            row_data: Dict[str, str] = {}
+            img_url: str = ""
             for j, cell in enumerate(cells):
-                col_name = headers[j] if j < len(headers) else f"col_{j}"
+                col_name: str = headers[j] if j < len(headers) else f"col_{j}"
                 text = cell.get_text(" ", strip=True)
                 text = re.sub(r"\s+", " ", text).strip()
                 img_tag = cell.find("img")
                 if img_tag:
-                    src = img_tag.get("src", "")
+                    src: str = img_tag.get("src", "")
                     if "base64" in src or not src.startswith("http"):
-                        data_src = img_tag.get("data-src", "")
+                        data_src: str = img_tag.get("data-src", "")
                         if data_src.startswith("http"):
                             src = data_src
                     if src.startswith("http"):
@@ -449,26 +622,30 @@ def scrape_listing_page(key, page_title, existing_names=None):
                 row_data[col_name] = text
 
             # Extract name
-            name = ""
+            name: str = ""
             for col_name in [h for h in headers if "name" in h or "type" in h]:
                 name = row_data.get(col_name, "")
                 if name:
                     break
             if not name:
-                first_val = row_data.get(headers[0], "") if headers else ""
+                first_val: str = row_data.get(headers[0], "") if headers else ""
                 if first_val and len(first_val) > 1 and first_val.lower() not in ("icon", "image", ""):
                     name = first_val
 
-            if name and len(name) > 1:
-                item = {
+            if name and len(name) > 1 and name.lower() not in seen_names:
+                seen_names.add(name.lower())
+                item: Dict[str, Any] = {
                     "name": name,
                     "id": name.lower().replace(" ", "-").replace("'", ""),
                 }
+                meaningful_keys: Tuple[str, ...] = (
+                    "type", "category", "class", "rarity", "source",
+                    "location", "weight", "value", "price", "grid",
+                    "slots", "description", "caliber", "material",
+                )
                 for hdr, val in row_data.items():
-                    h = hdr.lower().strip()
-                    if h in ("type", "category", "class", "rarity", "source",
-                             "location", "weight", "value", "price", "grid",
-                             "slots", "description", "caliber", "material"):
+                    h: str = hdr.lower().strip()
+                    if h in meaningful_keys:
                         item[h] = val
                 if img_url:
                     item["image"] = img_url
@@ -480,8 +657,16 @@ def scrape_listing_page(key, page_title, existing_names=None):
 
 # ─── Validation ───
 
-def validate_items(items, category_name):
-    """Validate scraped items before saving. Returns (valid, reason)."""
+def validate_items(items: List[Dict[str, Any]], category_name: str) -> Tuple[bool, str]:
+    """Validate scraped items before saving.
+
+    Args:
+        items: List of scraped item dictionaries.
+        category_name: Name of the category (for logging).
+
+    Returns:
+        Tuple of (is_valid, reason_string).
+    """
     if not items:
         return False, "No items scraped"
 
@@ -491,22 +676,33 @@ def validate_items(items, category_name):
             return False, "Item missing name"
 
     # Check for excessive duplicates
-    names = [i.get("name", "").lower() for i in items]
-    unique_count = len(set(names))
-    if unique_count < len(names) * 0.5:
+    names: List[str] = [i.get("name", "").lower() for i in items if i.get("name")]
+    unique_count: int = len(set(names))
+    if unique_count < len(names) * 0.5 and len(names) > 1:
         return False, f"Too many duplicates ({unique_count}/{len(names)} unique)"
 
     return True, f"{len(items)} items"
 
 
-def safe_save(filename, items, previous_count=None):
+def safe_save(filename: str, items: List[Dict[str, Any]], previous_count: Optional[int] = None) -> bool:
     """Safely save scraped data with rollback protection.
-    
+
     - Validates data before saving
     - Checks for suspicious drops in item count
     - Creates backup of previous data
+    - Preserves old fields that new scrape doesn't have
+
+    Args:
+        filename: Output filename (e.g. 'weapons.json').
+        items: List of item dictionaries to save.
+        previous_count: Item count from previous scrape (for anomaly detection).
+
+    Returns:
+        True if save succeeded, False on failure.
     """
     # Validate
+    valid: bool
+    reason: str
     valid, reason = validate_items(items, filename)
     if not valid:
         logger.error("  ❌ Validation FAILED for %s: %s", filename, reason)
@@ -514,52 +710,55 @@ def safe_save(filename, items, previous_count=None):
 
     # Check for suspicious drops in count
     if previous_count is not None and previous_count > 0:
-        if len(items) < previous_count * (1 - MAX_SAFE_DEVIATION):
+        drop_ratio: float = len(items) / previous_count if previous_count > 0 else 1.0
+        if drop_ratio < (1 - MAX_SAFE_DEVIATION):
             logger.warning(
                 "  ⚠️  %s: %d items vs %d previous (>%.0f%% drop). Saving but flagging.",
-                filename, len(items), previous_count, MAX_SAFE_DEVIATION * 100
+                filename, len(items), previous_count, MAX_SAFE_DEVIATION * 100,
             )
 
     # Backup existing file
-    existing = OUTPUT_DIR / filename
+    existing: Path = OUTPUT_DIR / filename
     if existing.exists():
-        backup_path = BACKUP_DIR / filename
         try:
             BACKUP_DIR.mkdir(exist_ok=True)
-            shutil.copy2(existing, backup_path)
-        except Exception as e:
-            logger.debug("Backup failed for %s: %s", filename, e)
+            shutil.copy2(existing, BACKUP_DIR / filename)
+        except Exception as exc:
+            logger.debug("Backup failed for %s: %s", filename, exc)
 
     # Load old items for field preservation
-    old_items = []
-    existing_path = OUTPUT_DIR / filename
-    if existing_path.exists():
+    old_items: List[Dict[str, Any]] = []
+    if existing.exists():
         try:
-            with open(existing_path, "r") as fh:
+            with open(existing, "r", encoding="utf-8") as fh:
                 old_items = json.load(fh)
         except Exception:
             pass
 
     if old_items and isinstance(old_items, list):
-        old_map = {oi.get("name", ""): oi for oi in old_items if oi.get("name")}
+        old_map: Dict[str, Dict[str, Any]] = {
+            oi.get("name", ""): oi
+            for oi in old_items
+            if oi.get("name")
+        }
         for item in items:
-            name = item.get("name", "")
+            name: str = item.get("name", "")
             if name in old_map:
-                for key in old_map[name]:
-                    if key not in item:
-                        item[key] = old_map[name][key]
+                for key, val in old_map[name].items():
+                    if key not in item and val is not None:
+                        item[key] = val
 
     # Save
     try:
-        path = OUTPUT_DIR / filename
+        path: Path = OUTPUT_DIR / filename
         with open(path, "w", encoding="utf-8") as f:
             json.dump(items, f, indent=2, ensure_ascii=False)
         logger.info("  ✅ %s: %s", filename, reason)
         return True
-    except Exception as e:
-        logger.error("  ❌ Failed to save %s: %s", filename, e)
+    except Exception as exc:
+        logger.error("  ❌ Failed to save %s: %s", filename, exc)
         # Try to restore backup
-        backup_path = BACKUP_DIR / filename
+        backup_path: Path = BACKUP_DIR / filename
         if backup_path.exists():
             try:
                 shutil.copy2(backup_path, existing)
@@ -571,89 +770,126 @@ def safe_save(filename, items, previous_count=None):
 
 # ─── Main scraper orchestrator ───
 
-def get_previous_counts():
-    """Get item counts from previous scrape for anomaly detection."""
-    counts = {}
+def get_previous_counts() -> Dict[str, int]:
+    """Get item counts from previous scrape for anomaly detection.
+
+    Returns:
+        Dictionary mapping filename -> item count.
+    """
+    counts: Dict[str, int] = {}
     for f in OUTPUT_DIR.glob("*.json"):
         try:
-            with open(f, "r") as fh:
-                data = json.load(fh)
+            with open(f, "r", encoding="utf-8") as fh:
+                data: Any = json.load(fh)
                 counts[f.name] = len(data) if isinstance(data, list) else 0
         except Exception:
             pass
     return counts
 
 
-def run_full_scrape():
-    """Run the complete bulletproof scrape."""
+def get_output_filename(category_title: str) -> str:
+    """Determine the output filename for a wiki category.
+
+    Args:
+        category_title: Display name of the wiki category.
+
+    Returns:
+        Filename with .json extension.
+    """
+    base: str = CATEGORY_TO_FILENAME.get(
+        category_title,
+        category_title.lower().replace(" ", "_").replace("-", "_"),
+    )
+    return base + ".json"
+
+
+def scrape_single_category_task(cat: Dict[str, Any], previous_counts: Dict[str, int]) -> Optional[str]:
+    """Scrape a single category and save results. Used by ThreadPoolExecutor.
+
+    Args:
+        cat: Category dict with 'name', 'title', 'pages' keys.
+        previous_counts: Previous item counts for anomaly detection.
+
+    Returns:
+        Output filename if saved successfully, None otherwise.
+    """
+    name: str = cat["name"]
+    title: str = cat["title"]
+    filename: str = get_output_filename(title)
+
+    # Skip listing-page-only categories
+    if filename in LISTING_PAGES:
+        return None
+
+    items: List[Dict[str, Any]] = scrape_category(name, title)
+    prev_count: Optional[int] = previous_counts.get(filename)
+    if safe_save(filename, items, prev_count):
+        return filename
+    return None
+
+
+def run_full_scrape() -> bool:
+    """Run the complete bulletproof scrape.
+
+    Returns:
+        True if scrape completed (even with some failures).
+    """
     logger.info("=" * 60)
-    logger.info("GZW Wiki Scraper v3 — Universal & Bulletproof")
+    logger.info("GZW Wiki Scraper v4 — Configurable & Bulletproof")
     logger.info("=" * 60)
 
     # Get previous counts for change detection
-    previous_counts = get_previous_counts()
+    previous_counts: Dict[str, int] = get_previous_counts()
 
     # ── Phase 1: Discover categories ──
     logger.info("\n📡 Phase 1: Discovering wiki categories...")
-    all_cats = get_all_categories()
-    game_cats = filter_game_categories(all_cats)
+    all_cats: List[Dict[str, Any]] = get_all_categories()
+    game_cats: List[Dict[str, Any]] = filter_game_categories(all_cats)
     logger.info("Found %d total categories, %d game-relevant", len(all_cats), len(game_cats))
 
     # Sort by number of pages (smallest first for quick wins)
     game_cats.sort(key=lambda c: c["pages"])
 
-    # Known categories that need special handling (page-based items)
-    page_based = {c["title"] for c in game_cats if c["pages"] > 1}
-    
-    # ── Phase 2: Scrape page-based categories ──
-    logger.info("\n🔍 Phase 2: Scraping page-based categories...")
-    scraped_files = set()
-    auto_discovered = 0
+    # ── Phase 2: Scrape page-based categories in parallel ──
+    logger.info("\n🔍 Phase 2: Scraping page-based categories (max %d workers)...", MAX_WORKERS)
 
-    for cat in game_cats:
-        name = cat["name"]
-        title = cat["title"]
-        pages = cat["pages"]
+    scraped_files: Set[str] = set()
+    auto_discovered: int = 0
 
-        if pages < 1:
-            continue
+    # Use ThreadPoolExecutor for parallel scraping
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = {
+            executor.submit(scrape_single_category_task, cat, previous_counts): cat
+            for cat in game_cats
+        }
 
-        # Determine output filename
-        filename = CATEGORY_TO_FILENAME.get(title, name.lower().replace(" ", "_").replace("-", "_"))
-        filename += ".json"
+        if tqdm:
+            future_iter = tqdm(as_completed(futures), total=len(futures), desc="Categories", unit="cat")
+        else:
+            future_iter = as_completed(futures)
 
-        # Skip if already going to be scraped via listing page
-        # (Loot, Apparel, Provisions are listing-page-only)
-        if title in ("Loot", "Apparel", "Provisions"):
-            continue
-
-        # Scrape
-        items = scrape_category(name, title)
-
-        # Save with validation
-        prev_count = previous_counts.get(filename)
-        if safe_save(filename, items, prev_count):
-            scraped_files.add(filename)
-            if filename not in [CATEGORY_TO_FILENAME.get(t) + ".json" for t in CATEGORY_TO_FILENAME if
-                                CATEGORY_TO_FILENAME[t] + ".json" in previous_counts]:
-                auto_discovered += 1
+        for future in future_iter:
+            cat = futures[future]
+            try:
+                result: Optional[str] = future.result()
+                if result:
+                    scraped_files.add(result)
+                    # Check if this is a newly discovered category
+                    expected_filename: str = get_output_filename(cat["title"])
+                    if expected_filename not in previous_counts:
+                        auto_discovered += 1
+            except Exception as exc:
+                logger.error("  Failed to scrape '%s': %s", cat["title"], exc)
 
     # ── Phase 3: Scrape listing-page-only categories ──
     logger.info("\n📋 Phase 3: Scraping listing-page-only categories...")
-    listing_pages = {
-        "loot_items.json": "Loot",
-        "apparel_items.json": "Apparel",
-    }
 
-    for filename, page_title in listing_pages.items():
-        prev_count = previous_counts.get(filename)
-        items = scrape_listing_page(filename, page_title)
-        if safe_save(filename, items, prev_count):
-            scraped_files.add(filename)
-
-    # ── Phase 4: Clean up stale files ──
-    # Files that exist in data/ but no longer have a corresponding wiki category
-    # are likely obsolete. Keep them (don't delete) but log it.
+    for filename, page_title in LISTING_PAGES.items():
+        full_filename: str = f"{filename}.json" if not filename.endswith(".json") else filename
+        prev_count: Optional[int] = previous_counts.get(full_filename)
+        items: List[Dict[str, Any]] = scrape_listing_page(full_filename, page_title)
+        if safe_save(full_filename, items, prev_count):
+            scraped_files.add(full_filename)
 
     # ── Summary ──
     logger.info("\n" + "=" * 60)
@@ -665,10 +901,17 @@ def run_full_scrape():
     return True
 
 
-def run_single_category(category_name):
-    """Scrape a single category by exact wiki name (for testing)."""
-    items = scrape_category(category_name, category_name)
-    filename = category_name.lower().replace(" ", "_") + ".json"
+def run_single_category(category_name: str) -> bool:
+    """Scrape a single category by exact wiki name (for testing).
+
+    Args:
+        category_name: Wiki category name to scrape.
+
+    Returns:
+        True if successful.
+    """
+    items: List[Dict[str, Any]] = scrape_category(category_name, category_name)
+    filename: str = get_output_filename(category_name)
     safe_save(filename, items)
     logger.info("Done: %d items in %s", len(items), filename)
     return True
@@ -676,15 +919,19 @@ def run_single_category(category_name):
 
 # ─── CLI ───
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="GZW Wiki Scraper v3")
+    parser = argparse.ArgumentParser(description="GZW Wiki Scraper v4")
     parser.add_argument("--category", help="Scrape a single category by name")
     parser.add_argument("--all", action="store_true", help="Run full scrape (all categories)")
+    parser.add_argument("--config", default=str(CONFIG_PATH), help="Path to config.toml")
     args = parser.parse_args()
+
+    if args.config != str(CONFIG_PATH):
+        # Reload config from custom path
+        CONFIG = load_config(Path(args.config))
 
     if args.category:
         run_single_category(args.category)
     elif args.all:
         run_full_scrape()
     else:
-        # Default: full scrape
         run_full_scrape()

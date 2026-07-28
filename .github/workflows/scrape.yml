@@ -17,12 +17,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 lxml pytest 2>&1 | tail -5
+        run: |
+          pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml tqdm pytest 2>&1 | tail -5
+          pip list 2>&1 | grep -E "requests|beautifulsoup|lxml|tqdm"
 
       - name: Run tests
-        run: python3 -m pytest tests/ -v 2>&1
+        run: python -m pytest tests/ -v 2>&1
 
       - name: Run scraper
         run: python scrape.py --all 2>&1
@@ -45,6 +49,22 @@ jobs:
             cp "$f" "$DST/$name"
             echo "  ✅ $name"
           done
+
+      - name: Validate copied data
+        run: |
+          cd gzw-data
+          ERROR=0
+          for f in data/*.json; do
+            if ! python -c "import json; json.load(open('$f'))" 2>/dev/null; then
+              echo "  ❌ Invalid JSON: $f"
+              ERROR=1
+            fi
+          done
+          if [ "$ERROR" -eq 1 ]; then
+            echo "Data validation failed — aborting push"
+            exit 1
+          fi
+          echo "✅ All JSON files valid"
 
       - name: Commit and push
         run: |
