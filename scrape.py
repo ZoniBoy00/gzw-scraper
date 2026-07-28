@@ -167,6 +167,11 @@ def load_config(config_path: Path = CONFIG_PATH) -> Dict[str, Any]:
             "Foregrips": "foregrips",
             "Stocks": "stocks",
             "Suppressors": "suppressors",
+            # Ammo subcategories — merge into master ammo.json
+            ".222 Remington ammunition": "ammo",
+            ".300 AAC Blackout ammunition": "ammo",
+            ".45 ACP ammunition": "ammo",
+            ".SX 4.6x30 ammunition": "ammo",
         },
         "listing_pages": {
             "loot_items": "Loot",

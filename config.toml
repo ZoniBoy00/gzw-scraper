@@ -110,6 +110,11 @@ infrastructure = [
 "Foregrips" = "foregrips"
 "Stocks" = "stocks"
 "Suppressors" = "suppressors"
+# Ammo subcategories — merge into master ammo.json
+".222 Remington ammunition" = "ammo"
+".300 AAC Blackout ammunition" = "ammo"
+".45 ACP ammunition" = "ammo"
+".SX 4.6x30 ammunition" = "ammo"
 
 [listing_pages]
 # Categories whose items are listed only on a single wiki page (not individual pages)
