@@ -492,6 +492,23 @@ def get_page_image(title: str) -> Optional[str]:
     return None
 
 
+def sanitize_value(value: str) -> str:
+    """Clean up common wiki formatting artifacts in scraped values.
+
+    Fixes issues like duplicated units (kgkg, m/s m/s), double percent
+    signs, and inconsistent whitespace.
+    """
+    # Collapse whitespace first
+    v: str = re.sub(r'\s+', ' ', value).strip()
+    # Fix duplicated units: "0.01 kgkg" → "0.01 kg", "830 m/s m/s" → "830 m/s"
+    v = re.sub(r'\b(kg|g|lb|oz)\1\b', r'\1', v, flags=re.IGNORECASE)
+    v = re.sub(r'\b(m/s)\s*\1\b', r'\1', v, flags=re.IGNORECASE)
+    # Fix double percent: "+3% %" → "+3%", "-2% %" → "-2%"
+    v = re.sub(r'%(\s*%)+', '%', v)
+    # Remove trailing/leading whitespace again after fixes
+    return v.strip()
+
+
 def parse_infobox(soup: Optional[bs4.BeautifulSoup]) -> Dict[str, str]:
     """Extract key-value pairs from a portable infobox, safely.
 
@@ -518,7 +535,7 @@ def parse_infobox(soup: Optional[bs4.BeautifulSoup]) -> Dict[str, str]:
                 if label_el and value_el:
                     label: str = label_el.get_text(" ", strip=True).lower().replace(" ", "_")
                     value: str = value_el.get_text(" ", strip=True)
-                    value = re.sub(r'\s+', ' ', value).strip()
+                    value = sanitize_value(value)
                     data[label] = value
             except Exception:
                 continue
@@ -662,7 +679,7 @@ def scrape_listing_page(key: str, page_title: str, existing_names: Optional[Set[
             for j, cell in enumerate(cells):
                 col_name: str = headers[j] if j < len(headers) else f"col_{j}"
                 text = cell.get_text(" ", strip=True)
-                text = re.sub(r"\s+", " ", text).strip()
+                text = sanitize_value(text)
                 img_tag = cell.find("img")
                 if img_tag:
                     src: str = img_tag.get("src", "")
@@ -800,6 +817,9 @@ def safe_save(filename: str, items: List[Dict[str, Any]], previous_count: Option
                 for key, val in old_map[name].items():
                     if key not in item and val is not None:
                         item[key] = val
+
+    # Sort items alphabetically by name for consistent ordering
+    items.sort(key=lambda x: (x.get("name") or "").lower())
 
     # Save
     try:
