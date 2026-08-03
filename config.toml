@@ -78,6 +78,13 @@ infrastructure = [
     "Image and media templates",
     "Pages missing details",
     "Candidates for deletion",
+    # Landing-page / index-only categories — the category itself is the only
+    # page (or content is misfiled/duplicated elsewhere). Real item data lives
+    # in subcategory datasets or listing-page datasets (loot_items, apparel_items, ...).
+    "Loot", "Apparel", "Items", "Weapon Parts", "Helmet Mods",
+    "Patches", "Player", "Systems", "Tech", "Tiger Bay",
+    "Game System", "Game Systems", "Weapons camouflage",
+    "Secure Lockboxes", "Task",
 ]
 
 [category_to_filename]

@@ -50,6 +50,18 @@ jobs:
             echo "  ✅ $name"
           done
 
+      # ── Prune stale files no longer produced by the scraper ──
+      - name: Prune stale data files
+        run: |
+          DST="gzw-data/data"
+          for f in "$DST"/*.json; do
+            name=$(basename "$f")
+            if [ ! -f "data/$name" ]; then
+              rm "$f"
+              echo "  🗑️ removed stale: $name"
+            fi
+          done
+
       - name: Validate copied data
         run: |
           cd gzw-data
