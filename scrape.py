@@ -649,6 +649,12 @@ def scrape_category(name: str, title: str) -> List[Dict[str, Any]]:
                 if img:
                     item["image"] = img
 
+            # Skip the category's own index page (e.g. the "Weapon Parts" page
+            # inside the Weapon Parts category) — it is not a real item.
+            if page_title == title:
+                skipped += 1
+                continue
+
             items.append(item)
         except Exception as exc:
             logger.debug("  Error scraping '%s': %s", page_title, exc)
