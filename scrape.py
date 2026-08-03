@@ -999,6 +999,9 @@ def run_full_scrape() -> bool:
 
     # Collect all scraped items per filename (supports merging)
     merged: Dict[str, List[Dict[str, Any]]] = {}
+    # Per-category task files (main_task.json, side_task.json) kept separate for
+    # frontend compatibility — gzw-tools MissionFinder fetches them individually.
+    task_split: Dict[str, List[Dict[str, Any]]] = {}
     auto_discovered: int = 0
 
     # Use ThreadPoolExecutor for parallel scraping
@@ -1024,6 +1027,13 @@ def run_full_scrape() -> bool:
                     if filename not in merged:
                         merged[filename] = []
                     merged[filename] = merge_items(merged[filename], items)
+                    # Keep per-category task files (main_task, side_task) so the
+                    # frontend can still categorize missions by type.
+                    if cat["title"] in ("Main task", "Side task"):
+                        split_name: str = cat["title"].lower().replace(" ", "_")
+                        if split_name not in task_split:
+                            task_split[split_name] = []
+                        task_split[split_name] = merge_items(task_split[split_name], items)
                     # Check if this is a newly discovered category
                     expected_filename: str = get_output_filename(cat["title"])
                     if expected_filename not in previous_counts:
@@ -1049,6 +1059,13 @@ def run_full_scrape() -> bool:
     for filename, items in merged.items():
         prev_count: Optional[int] = previous_counts.get(filename)
         if safe_save(filename, items, prev_count):
+            saved_count += 1
+
+    # Save per-category task files (main_task.json, side_task.json)
+    for filename, items in task_split.items():
+        full_name: str = f"{filename}.json"
+        prev_count = previous_counts.get(full_name)
+        if safe_save(full_name, items, prev_count):
             saved_count += 1
 
     # ── Summary ──
