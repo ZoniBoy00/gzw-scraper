@@ -81,10 +81,10 @@ infrastructure = [
     # Landing-page / index-only categories — the category itself is the only
     # page (or content is misfiled/duplicated elsewhere). Real item data lives
     # in subcategory datasets or listing-page datasets (loot_items, apparel_items, ...).
-    # NOTE: "Weapon Parts" is intentionally NOT skipped — it contains the unique
-    # SIG MCX Pistol Grip page; the scraper drops the category's own index page
-    # via the page_title == title filter in scrape_category().
-    "Loot", "Apparel", "Items", "Helmet Mods",
+    # NOTE: "Weapon Parts" and "Items" are intentionally NOT skipped — they
+    # contain unique real items (SIG MCX Pistol Grip, Tracking Tags); the scraper
+    # drops the category's own index page via the page_title == title filter.
+    "Loot", "Apparel", "Helmet Mods",
     "Patches", "Player", "Systems", "Tech", "Tiger Bay",
     "Game System", "Game Systems", "Weapons camouflage",
     "Secure Lockboxes", "Task",
