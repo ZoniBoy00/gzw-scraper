@@ -6,8 +6,13 @@ rely on Fandom wiki HTML structure (portable-infobox / wikitable).
 If Fandom changes their templates, these tests will break first —
 before production data silently degrades.
 
+Also covers the data-loss guards: category filtering (real game
+categories must never be skipped) and safe_save's >70% drop-guard.
+
 Run: pytest test_scrape.py -v
 """
+
+import json
 
 import bs4
 import pytest
@@ -208,6 +213,107 @@ def test_scrape_listing_page_falls_back_to_data_src_for_lazy_loaded_images(monke
     items = scrape.scrape_listing_page("medical", "Medical Items")
     assert len(items) == 1
     assert items[0]["image"] == "https://static.wikia.nocookie.net/gzw/images/real.png"
+
+
+# ─── Category filtering ───
+# Regression: real game categories (Tasks, Keys, Tech, Task, Tiger Bay) were
+# once added to the infrastructure skip list, which silently wiped their
+# datasets from gzw-data. They MUST survive filtering.
+
+def test_filter_game_categories_keeps_real_game_categories():
+    cats = [
+        {"*": "Weapons", "size": 44},
+        {"*": "Tasks", "size": 128},
+        {"*": "Keys", "size": 127},
+        {"*": "Tech", "size": 1},
+        {"*": "Task", "size": 1},
+        {"*": "Tiger Bay", "size": 1},
+        {"*": "Squad Strike Missions", "size": 32},
+        {"*": "Loot", "size": 1},
+        {"*": "Apparel", "size": 1},
+    ]
+    kept = scrape.filter_game_categories(cats)
+    titles = {k["title"] for k in kept}
+    for expected in ("Weapons", "Tasks", "Keys", "Tech", "Task",
+                     "Tiger Bay", "Squad Strike Missions", "Loot", "Apparel"):
+        assert expected in titles, f"{expected} was filtered out!"
+
+
+def test_filter_game_categories_skips_wiki_infrastructure():
+    cats = [
+        {"*": "Templates", "size": 16},
+        {"*": "Images", "size": 3},
+        {"*": "Front page", "size": 1},
+        {"*": "Pages missing details", "size": 334},
+        {"*": "Navbox templates", "size": 9},
+    ]
+    kept = scrape.filter_game_categories(cats)
+    assert kept == []
+
+
+# ─── Data-loss guards ───
+# A failed scrape (rate limit / wiki down) must NEVER overwrite good data.
+
+def test_get_category_members_returns_none_on_api_failure(monkeypatch):
+    monkeypatch.setattr(scrape, "api_call", lambda params: None)
+    assert scrape.get_category_members("Weapons") is None
+
+
+def test_scrape_category_returns_none_when_members_fetch_fails(monkeypatch):
+    monkeypatch.setattr(scrape, "get_category_members", lambda name, limit: None)
+    assert scrape.scrape_category("Weapons", "Weapons") is None
+
+
+def test_safe_save_aborts_on_major_drop_preserving_previous_data(tmp_path, monkeypatch):
+    out = tmp_path / "data"
+    bak = tmp_path / "data_backup"
+    out.mkdir()
+    old_items = [{"name": f"Item {i}", "id": f"item-{i}"} for i in range(42)]
+    (out / "helmets.json").write_text(json.dumps(old_items), encoding="utf-8")
+    monkeypatch.setattr(scrape, "OUTPUT_DIR", out)
+    monkeypatch.setattr(scrape, "BACKUP_DIR", bak)
+
+    # 42 -> 2 items is a >70% drop: must be rejected, file stays intact
+    new_items = [
+        {"name": "AMP-1 TP LC (Ranger Green)"},
+        {"name": "AMP-1 TP LC (UNLRA)"},
+    ]
+    ok = scrape.safe_save("helmets.json", new_items, previous_count=42)
+    assert ok is False
+    saved = json.loads((out / "helmets.json").read_text(encoding="utf-8"))
+    assert len(saved) == 42
+
+
+def test_safe_save_force_overrides_drop_guard(tmp_path, monkeypatch):
+    out = tmp_path / "data"
+    bak = tmp_path / "data_backup"
+    out.mkdir()
+    old_items = [{"name": f"Item {i}"} for i in range(42)]
+    (out / "helmets.json").write_text(json.dumps(old_items), encoding="utf-8")
+    monkeypatch.setattr(scrape, "OUTPUT_DIR", out)
+    monkeypatch.setattr(scrape, "BACKUP_DIR", bak)
+
+    new_items = [{"name": "AMP-1 TP LC (Ranger Green)"}]
+    ok = scrape.safe_save("helmets.json", new_items, previous_count=42, force=True)
+    assert ok is True
+    saved = json.loads((out / "helmets.json").read_text(encoding="utf-8"))
+    assert len(saved) == 1
+
+
+def test_safe_save_accepts_normal_growth(tmp_path, monkeypatch):
+    out = tmp_path / "data"
+    bak = tmp_path / "data_backup"
+    out.mkdir()
+    old_items = [{"name": f"Item {i}"} for i in range(10)]
+    (out / "test.json").write_text(json.dumps(old_items), encoding="utf-8")
+    monkeypatch.setattr(scrape, "OUTPUT_DIR", out)
+    monkeypatch.setattr(scrape, "BACKUP_DIR", bak)
+
+    new_items = [{"name": f"Item {i}"} for i in range(12)]
+    ok = scrape.safe_save("test.json", new_items, previous_count=10)
+    assert ok is True
+    saved = json.loads((out / "test.json").read_text(encoding="utf-8"))
+    assert len(saved) == 12
 
 
 if __name__ == "__main__":

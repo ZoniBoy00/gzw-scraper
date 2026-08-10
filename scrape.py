@@ -246,6 +246,9 @@ OUTPUT_DIR: Path = Path(__file__).parent / OUTPUT_CONFIG["directory"]
 BACKUP_DIR: Path = Path(__file__).parent / OUTPUT_CONFIG["backup_directory"]
 OUTPUT_DIR.mkdir(exist_ok=True)
 
+# Set to True via --force to bypass the >70% item-drop guard in safe_save.
+FORCE_SAVE: bool = False
+
 
 # ─── Bulletproof API helpers ───
 
@@ -407,7 +410,7 @@ def filter_game_categories(categories: List[Dict[str, Any]]) -> List[Dict[str, A
 
 # ─── Page fetching & parsing ───
 
-def get_category_members(category: str, limit: int = CATEGORY_PAGE_LIMIT) -> List[Dict[str, Any]]:
+def get_category_members(category: str, limit: int = CATEGORY_PAGE_LIMIT) -> Optional[List[Dict[str, Any]]]:
     """Get all pages in a wiki category.
 
     Args:
@@ -415,7 +418,10 @@ def get_category_members(category: str, limit: int = CATEGORY_PAGE_LIMIT) -> Lis
         limit: Max pages to fetch per API call.
 
     Returns:
-        List of page objects with 'title', 'pageid', etc.
+        List of page objects with 'title', 'pageid', etc. Returns None if the
+        API failed completely (rate limit, wiki down) so callers can tell a
+        real empty category apart from a failed fetch — a failed fetch must
+        NOT be written as an empty dataset.
     """
     pages: List[Dict[str, Any]] = []
     params: Dict[str, Any] = {
@@ -425,9 +431,11 @@ def get_category_members(category: str, limit: int = CATEGORY_PAGE_LIMIT) -> Lis
         "cmlimit": min(limit, 500),
         "cmtype": "page",
     }
+    api_failed: bool = False
     while True:
         data: Optional[Dict[str, Any]] = api_call(params)
         if not data:
+            api_failed = True
             break
         members: List[Dict[str, Any]] = data.get("query", {}).get("categorymembers", [])
         pages.extend(members)
@@ -436,6 +444,8 @@ def get_category_members(category: str, limit: int = CATEGORY_PAGE_LIMIT) -> Lis
             params["cmcontinue"] = cont["cmcontinue"]
         else:
             break
+    if api_failed and not pages:
+        return None
     return pages
 
 
@@ -588,7 +598,7 @@ def parse_infobox(soup: Optional[bs4.BeautifulSoup]) -> Dict[str, str]:
 
 # ─── Universal scraper ───
 
-def scrape_category(name: str, title: str) -> List[Dict[str, Any]]:
+def scrape_category(name: str, title: str) -> Optional[List[Dict[str, Any]]]:
     """Scrape ANY game category with a universal parser.
 
     Args:
@@ -596,14 +606,20 @@ def scrape_category(name: str, title: str) -> List[Dict[str, Any]]:
         title: Human-readable name for logging.
 
     Returns:
-        List of scraped item dictionaries.
+        List of scraped item dictionaries. Returns None if the category member
+        fetch failed entirely (API down / rate limited) — callers must NOT
+        write an empty dataset in that case, otherwise existing data is lost.
     """
     logger.info("Scraping: %s...", title)
     try:
-        pages: List[Dict[str, Any]] = get_category_members(name, limit=CATEGORY_PAGE_LIMIT)
+        pages: Optional[List[Dict[str, Any]]] = get_category_members(name, limit=CATEGORY_PAGE_LIMIT)
     except Exception as exc:
         logger.warning("  Failed to get members for '%s': %s", name, exc)
-        return []
+        return None
+
+    if pages is None:
+        logger.error("  ❌ API failed for '%s' — category NOT scraped, preserving previous data", title)
+        return None
 
     if not pages:
         logger.info("  No pages found in '%s'", title)
@@ -795,11 +811,15 @@ def validate_items(items: List[Dict[str, Any]], category_name: str) -> Tuple[boo
     return True, f"{len(items)} items"
 
 
-def safe_save(filename: str, items: List[Dict[str, Any]], previous_count: Optional[int] = None) -> bool:
+def safe_save(filename: str, items: List[Dict[str, Any]], previous_count: Optional[int] = None,
+              force: bool = False) -> bool:
     """Safely save scraped data with rollback protection.
 
     - Validates data before saving
-    - Checks for suspicious drops in item count
+    - Checks for suspicious drops in item count and ABORTS the save when a
+      category collapsed by more than (1 - max_safe_deviation) — a >70% drop
+      is almost always a scrape failure (rate limit, wiki hiccup), not the
+      wiki actually losing content. Writing it would destroy good data.
     - Creates backup of previous data
     - Preserves old fields that new scrape doesn't have
 
@@ -807,6 +827,7 @@ def safe_save(filename: str, items: List[Dict[str, Any]], previous_count: Option
         filename: Output filename (e.g. 'weapons.json').
         items: List of item dictionaries to save.
         previous_count: Item count from previous scrape (for anomaly detection).
+        force: Skip the drop-guard (used when the wiki genuinely shrank).
 
     Returns:
         True if save succeeded, False on failure.
@@ -819,14 +840,16 @@ def safe_save(filename: str, items: List[Dict[str, Any]], previous_count: Option
         logger.error("  ❌ Validation FAILED for %s: %s", filename, reason)
         return False
 
-    # Check for suspicious drops in count
-    if previous_count is not None and previous_count > 0:
+    # Check for suspicious drops in count — abort BEFORE touching the file
+    if previous_count is not None and previous_count > 0 and not force:
         drop_ratio: float = len(items) / previous_count if previous_count > 0 else 1.0
         if drop_ratio < (1 - MAX_SAFE_DEVIATION):
-            logger.warning(
-                "  ⚠️  %s: %d items vs %d previous (>%.0f%% drop). Saving but flagging.",
+            logger.error(
+                "  ❌ %s: %d items vs %d previous (>%.0f%% drop). "
+                "ABORTING save to prevent data loss. Use --force to override.",
                 filename, len(items), previous_count, MAX_SAFE_DEVIATION * 100,
             )
+            return False
 
     # Backup existing file
     existing: Path = OUTPUT_DIR / filename
@@ -936,8 +959,9 @@ def scrape_single_category_task(cat: Dict[str, Any], previous_counts: Dict[str, 
     if base_name in LISTING_PAGES:
         return None
 
-    items: List[Dict[str, Any]] = scrape_category(name, title)
+    items: Optional[List[Dict[str, Any]]] = scrape_category(name, title)
     if not items:
+        # None = API failure (preserve previous data), [] = genuinely empty
         return None
     return (filename, items)
 
@@ -1064,14 +1088,14 @@ def run_full_scrape() -> bool:
     saved_count: int = 0
     for filename, items in merged.items():
         prev_count: Optional[int] = previous_counts.get(filename)
-        if safe_save(filename, items, prev_count):
+        if safe_save(filename, items, prev_count, force=FORCE_SAVE):
             saved_count += 1
 
     # Save per-category task files (main_task.json, side_task.json)
     for filename, items in task_split.items():
         full_name: str = f"{filename}.json"
         prev_count = previous_counts.get(full_name)
-        if safe_save(full_name, items, prev_count):
+        if safe_save(full_name, items, prev_count, force=FORCE_SAVE):
             saved_count += 1
 
     # ── Summary ──
@@ -1093,9 +1117,12 @@ def run_single_category(category_name: str) -> bool:
     Returns:
         True if successful.
     """
-    items: List[Dict[str, Any]] = scrape_category(category_name, category_name)
+    items: Optional[List[Dict[str, Any]]] = scrape_category(category_name, category_name)
+    if not items:
+        logger.error("No items scraped for '%s' (and previous data preserved)", category_name)
+        return False
     filename: str = get_output_filename(category_name)
-    safe_save(filename, items)
+    safe_save(filename, items, force=FORCE_SAVE)
     logger.info("Done: %d items in %s", len(items), filename)
     return True
 
@@ -1106,7 +1133,15 @@ if __name__ == "__main__":
     parser.add_argument("--category", help="Scrape a single category by name")
     parser.add_argument("--all", action="store_true", help="Run full scrape (all categories)")
     parser.add_argument("--config", default=str(CONFIG_PATH), help="Path to config.toml")
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Override the >70%% item-drop guard and write data even when a "
+             "category collapsed (only use if the wiki really lost content)",
+    )
     args = parser.parse_args()
+
+    FORCE_SAVE: bool = args.force
 
     if args.config != str(CONFIG_PATH):
         # Reload config from custom path

@@ -78,16 +78,19 @@ infrastructure = [
     "Image and media templates",
     "Pages missing details",
     "Candidates for deletion",
-    # Landing-page / index-only categories — the category itself is the only
-    # page (or content is misfiled/duplicated elsewhere). Real item data lives
-    # in subcategory datasets or listing-page datasets (loot_items, apparel_items, ...).
-    # NOTE: "Weapon Parts" and "Items" are intentionally NOT skipped — they
-    # contain unique real items (SIG MCX Pistol Grip, Tracking Tags); the scraper
-    # drops the category's own index page via the page_title == title filter.
-    "Loot", "Apparel", "Helmet Mods",
-    "Patches", "Player", "Systems", "Tech", "Tiger Bay",
+    # Landing-page / index-only categories — these are handled via
+    # [listing_pages] below (Loot -> loot_items, Apparel -> apparel_items,
+    # Provisions -> provisions). They only contain an index page themselves,
+    # so leaving them OUT of this skip list is safe: the category scraper
+    # drops the category's own index page via the page_title == title filter
+    # and the listing-page scraper collects the real table rows.
+    # NOTE: "Weapon Parts", "Items", "Tech", "Task" and "Tiger Bay" are
+    # intentionally NOT skipped — they contain unique real items/missions
+    # (SIG MCX Pistol Grip, Tracking Tags, Motorbike Battery,
+    # Sanctioned Exploitation task).
+    "Patches", "Player", "Systems",
     "Game System", "Game Systems", "Weapons camouflage",
-    "Secure Lockboxes", "Task",
+    "Secure Lockboxes",
 ]
 
 [category_to_filename]
@@ -117,6 +120,30 @@ infrastructure = [
 "Night vision" = "night_vision"
 "Main task" = "tasks"
 "Side task" = "tasks"
+"Tasks" = "tasks"
+"Task" = "tasks"
+"Tiger Bay" = "tasks"
+"Keys" = "keys"
+"Squad Strike Missions" = "squad_strike_missions"
+"Squad Strike Missions Item" = "squad_strike_missions_item"
+"Contract" = "contract"
+"Containers" = "containers"
+"Gear" = "gear"
+"Loot container" = "loot_container"
+"Trousers" = "trousers"
+"Handguards" = "handguards"
+"Mounts" = "mounts"
+"Rear Iron Sights" = "rear_iron_sights"
+"Shirts" = "shirts"
+"Household Item" = "household_item"
+"Tech" = "electronics"
+"Plate Carrier" = "plate_carriers"
+# Listing-page categories — mapped here so the category scraper skips them
+# (the base filename matches [listing_pages], so Phase 3 collects the real
+# table rows from the Loot / Apparel / Provisions pages).
+"Loot" = "loot_items"
+"Apparel" = "apparel_items"
+"Provisions" = "provisions"
 "Barrels" = "barrels"
 "Foregrips" = "foregrips"
 "Stocks" = "stocks"
@@ -126,6 +153,7 @@ infrastructure = [
 ".222 Remington ammunition" = "ammo"
 ".300 AAC Blackout ammunition" = "ammo"
 ".45 ACP Ammunition" = "ammo"
+".45 ACP ammunition" = "ammo"
 ".SX 4.6x30 ammunition" = "ammo"
 "12-Gauge ammunition" = "ammo"
 "5.45x39mm ammunition" = "ammo"

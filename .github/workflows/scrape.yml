@@ -28,18 +28,33 @@ jobs:
       - name: Run tests
         run: python -m pytest tests/ -v 2>&1
 
-      - name: Run scraper
-        run: python scrape.py --all 2>&1
-        continue-on-error: false
-
-      # ── Push data to gzw-data ──
-      - name: Checkout gzw-data
+      # ── Pull previous data BEFORE scraping ──
+      # This serves two purposes:
+      #   1. The scraper's >70% drop-guard (safe_save) can compare against the
+      #      previous run and ABORT writing when a category collapsed due to a
+      #      scrape failure (rate limit, wiki hiccup) instead of destroying it.
+      #   2. Files the scraper fails to produce keep their previous version —
+      #      there is NO pruning step anymore. Data never silently disappears.
+      - name: Checkout gzw-data (previous data)
         uses: actions/checkout@v4
         with:
           repository: ZoniBoy00/gzw-data
           path: gzw-data
           token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
 
+      - name: Seed scraper data dir with previous data
+        run: |
+          mkdir -p data
+          cp gzw-data/data/*.json data/ 2>/dev/null || true
+          echo "Seeded $(ls data | wc -l) previous files"
+
+      - name: Run scraper
+        run: python scrape.py --all 2>&1
+        continue-on-error: false
+
+      # ── Copy data to gzw-data/data/ ──
+      # No pruning: if the scraper did not produce a file (category fetch
+      # failed / wiki hiccup), the previous version stays untouched.
       - name: Copy data to gzw-data/data/
         run: |
           DST="gzw-data/data"
@@ -49,18 +64,7 @@ jobs:
             cp "$f" "$DST/$name"
             echo "  ✅ $name"
           done
-
-      # ── Prune stale files no longer produced by the scraper ──
-      - name: Prune stale data files
-        run: |
-          DST="gzw-data/data"
-          for f in "$DST"/*.json; do
-            name=$(basename "$f")
-            if [ ! -f "data/$name" ]; then
-              rm "$f"
-              echo "  🗑️ removed stale: $name"
-            fi
-          done
+          echo "→ Stale-file pruning disabled: missing datasets keep previous data"
 
       - name: Validate copied data
         run: |
