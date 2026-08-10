@@ -84,19 +84,22 @@ infrastructure = [
     "Image and media templates",
     "Pages missing details",
     "Candidates for deletion",
-    # Landing-page / index-only categories — these are handled via
-    # [listing_pages] below (Loot -> loot_items, Apparel -> apparel_items,
-    # Provisions -> provisions). They only contain an index page themselves,
-    # so leaving them OUT of this skip list is safe: the category scraper
-    # drops the category's own index page via the page_title == title filter
-    # and the listing-page scraper collects the real table rows.
-    # NOTE: "Weapon Parts", "Items", "Tech", "Task" and "Tiger Bay" are
-    # intentionally NOT skipped — they contain unique real items/missions
-    # (SIG MCX Pistol Grip, Tracking Tags, Motorbike Battery,
-    # Sanctioned Exploitation task).
+    # NOTE: "Removed Content" and "Upcoming Content" ARE scraped — they contain
+    # real items/weapons that were removed from or are coming to the game
+    # (removed_content.json / upcoming_content.json).
     "Patches", "Player", "Systems",
     "Game System", "Game Systems", "Weapons camouflage",
     "Secure Lockboxes",
+]
+
+[skip_pages]
+# Specific pages that are NOT items/missions even though they sit in a game
+# category (redirects, index pages, lore articles). Scraper drops them by title.
+titles = [
+    "Intels",
+    "Newspaper - 50 Years since liberation from Japan",
+    "Weapons camouflage",
+    "Lockboxes",
 ]
 
 [category_to_filename]
@@ -144,6 +147,8 @@ infrastructure = [
 "Household Item" = "household_item"
 "Tech" = "electronics"
 "Plate Carrier" = "plate_carriers"
+"Removed Content" = "removed_content"
+"Upcoming Content" = "upcoming_content"
 # Listing-page categories — mapped here so the category scraper skips them
 # (the base filename matches [listing_pages], so Phase 3 collects the real
 # table rows from the Loot / Apparel / Provisions pages).

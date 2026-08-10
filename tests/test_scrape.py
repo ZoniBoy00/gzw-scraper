@@ -264,6 +264,19 @@ def test_scrape_category_returns_none_when_members_fetch_fails(monkeypatch):
     assert scrape.scrape_category("Weapons", "Weapons") is None
 
 
+def test_scrape_category_skips_explicitly_listed_pages(monkeypatch):
+    # Pages in the config [skip_pages] list (redirects/index/lore articles)
+    # must be dropped even though they sit in a game category.
+    monkeypatch.setattr(
+        scrape, "get_category_members",
+        lambda name, limit: [{"title": "Intels"}, {"title": "M14 Rifle"}],
+    )
+    monkeypatch.setattr(scrape, "parse_page", lambda title: soup_of(INFOBOX_HTML_MISSING))
+    monkeypatch.setattr(scrape, "SKIP_PAGES", {"Intels"})
+    items = scrape.scrape_category("Upcoming Content", "Upcoming Content")
+    assert [i["name"] for i in items] == ["M14 Rifle"]
+
+
 def test_safe_save_aborts_on_major_drop_preserving_previous_data(tmp_path, monkeypatch):
     out = tmp_path / "data"
     bak = tmp_path / "data_backup"

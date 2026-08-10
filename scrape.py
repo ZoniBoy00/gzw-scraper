@@ -141,6 +141,9 @@ def load_config(config_path: Path = CONFIG_PATH) -> Dict[str, Any]:
                 "Candidates for deletion",
             ],
         },
+        "skip_pages": {
+            "titles": [],
+        },
         "category_to_filename": {
             "Weapons": "weapons",
             "Armor Vest": "vests",
@@ -231,6 +234,7 @@ WIKI_CONFIG = CONFIG["wiki"]
 SCRAPER_CONFIG = CONFIG["scraper"]
 OUTPUT_CONFIG = CONFIG["output"]
 SKIP_CATEGORIES: Set[str] = set(CONFIG["skip_categories"]["infrastructure"])
+SKIP_PAGES: Set[str] = set(CONFIG.get("skip_pages", {}).get("titles", []))
 CATEGORY_TO_FILENAME: Dict[str, str] = CONFIG["category_to_filename"]
 LISTING_PAGES: Dict[str, str] = CONFIG["listing_pages"]
 
@@ -665,6 +669,12 @@ def scrape_category(name: str, title: str) -> Optional[List[Dict[str, Any]]]:
 
         # Skip non-article pages
         if page_title.startswith("Category:") or page_title.startswith("Template:") or page_title.startswith("User:"):
+            skipped += 1
+            continue
+
+        # Skip explicitly-listed pages (redirects, index pages, lore articles
+        # that sit in a game category but are not items/missions)
+        if page_title in SKIP_PAGES:
             skipped += 1
             continue
 
