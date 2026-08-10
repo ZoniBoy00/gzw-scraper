@@ -22,9 +22,11 @@ import argparse
 import json
 import logging
 import os
+import random
 import re
 import shutil
 import sys
+import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -72,12 +74,13 @@ def load_config(config_path: Path = CONFIG_PATH) -> Dict[str, Any]:
             "user_agent": "GZW-Tools/4.0 (community tool; github.com/ZoniBoy00/gzw-tools)",
         },
         "scraper": {
-            "max_retries": 3,
+            "max_retries": 5,
             "base_delay": 1.0,
-            "page_delay": 0.5,
+            "page_delay": 0.8,
             "max_safe_deviation": 0.7,
             "category_page_limit": 500,
-            "max_workers": 4,
+            "max_workers": 3,
+            "request_interval": 0.5,
         },
         "output": {
             "directory": "data",
@@ -240,7 +243,8 @@ BASE_DELAY: float = SCRAPER_CONFIG["base_delay"]
 PAGE_DELAY: float = SCRAPER_CONFIG["page_delay"]
 MAX_SAFE_DEVIATION: float = SCRAPER_CONFIG["max_safe_deviation"]
 CATEGORY_PAGE_LIMIT: int = SCRAPER_CONFIG["category_page_limit"]
-MAX_WORKERS: int = SCRAPER_CONFIG.get("max_workers", 4)
+MAX_WORKERS: int = SCRAPER_CONFIG.get("max_workers", 3)
+REQUEST_INTERVAL: float = SCRAPER_CONFIG.get("request_interval", 0.5)
 
 OUTPUT_DIR: Path = Path(__file__).parent / OUTPUT_CONFIG["directory"]
 BACKUP_DIR: Path = Path(__file__).parent / OUTPUT_CONFIG["backup_directory"]
@@ -248,6 +252,26 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Set to True via --force to bypass the >70% item-drop guard in safe_save.
 FORCE_SAVE: bool = False
+
+
+# ─── Global rate limiting ───
+# Fandom rate-limits aggressively (HTTP 429) when several worker threads hit
+# the API at once. All HTTP calls go through a single shared throttle so the
+# whole scraper never exceeds ~1/request_interval requests per second.
+
+_request_lock: threading.Lock = threading.Lock()
+_last_request_time: float = 0.0
+
+
+def throttle_request() -> None:
+    """Block until at least request_interval seconds since the last HTTP call."""
+    global _last_request_time
+    with _request_lock:
+        now: float = time.monotonic()
+        elapsed: float = now - _last_request_time
+        if elapsed < REQUEST_INTERVAL:
+            time.sleep(REQUEST_INTERVAL - elapsed)
+        _last_request_time = time.monotonic()
 
 
 # ─── Bulletproof API helpers ───
@@ -266,6 +290,7 @@ def api_call(params: Dict[str, Any], max_retries: int = MAX_RETRIES) -> Optional
     last_error: str = ""
     for attempt in range(max_retries):
         try:
+            throttle_request()
             r: Response = requests.get(API_URL, params=params, headers=HEADERS, timeout=30)
             r.raise_for_status()
             return r.json()
@@ -274,8 +299,9 @@ def api_call(params: Dict[str, Any], max_retries: int = MAX_RETRIES) -> Optional
         except requests.exceptions.HTTPError as exc:
             status: int = exc.response.status_code if exc.response is not None else 0
             if status == 429:
-                wait: float = (2 ** attempt) * 5
-                logger.warning("Rate limited (429), waiting %ds...", wait)
+                # Long, jittered backoff — the wiki is telling us to slow down
+                wait: float = (2 ** attempt) * 10 + random.uniform(0, 2)
+                logger.warning("Rate limited (429), waiting %ds...", int(wait))
                 time.sleep(wait)
                 continue
             last_error = f"HTTP {status}: {exc}"
@@ -308,6 +334,7 @@ def safe_get(url: str, max_retries: int = MAX_RETRIES) -> Optional[Response]:
     """
     for attempt in range(max_retries):
         try:
+            throttle_request()
             r: Response = requests.get(url, headers=HEADERS, timeout=30)
             r.raise_for_status()
             return r

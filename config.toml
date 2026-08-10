@@ -7,15 +7,21 @@ user_agent = "GZW-Tools/3.0 (community tool; github.com/ZoniBoy00/gzw-tools; scr
 
 [scraper]
 # Maximum retries for API calls and page fetches
-max_retries = 3
+max_retries = 5
 # Base delay (seconds) for exponential backoff
 base_delay = 1.0
 # Delay between page scrapes (seconds) — be nice to the wiki
-page_delay = 0.5
-# If item count drops more than this fraction from previous scrape, flag it
+page_delay = 0.8
+# Global minimum interval between ANY two HTTP requests (seconds).
+# The wiki rate-limits aggressively (HTTP 429) when scraped in parallel,
+# so all threads share this single throttle.
+request_interval = 0.5
+# If item count drops more than this fraction from previous scrape, abort the save
 max_safe_deviation = 0.7
 # Max items per API call
 category_page_limit = 500
+# Parallel category workers (lower = gentler on the wiki)
+max_workers = 3
 
 [output]
 # Directory for scraped JSON files
@@ -152,6 +158,8 @@ infrastructure = [
 "Ammunition" = "ammo"
 ".222 Remington ammunition" = "ammo"
 ".300 AAC Blackout ammunition" = "ammo"
+# NOTE: these are two DIFFERENT wiki categories (case differs):
+# ".45 ACP Ammunition" (4 pages) vs ".45 ACP ammunition" (1 page) — both map to ammo.json
 ".45 ACP Ammunition" = "ammo"
 ".45 ACP ammunition" = "ammo"
 ".SX 4.6x30 ammunition" = "ammo"
