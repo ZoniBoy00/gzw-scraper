@@ -26,14 +26,21 @@ If the wiki gets a new category (e.g., `Crafting`), the scraper **finds it autom
 |---------|-------------|
 | 🔄 Exponential backoff | Retries API calls with 2s, 4s, 8s delay |
 | ✅ Data validation | Rejects empty or corrupt data before saving |
-| 📉 Anomaly detection | Flags if item count drops >70% |
-| 💾 Backup/restore | Previous data is backed up before overwrite |
+| 📉 Drop-guard | A category that drops >70% is NOT saved (rate limit / wiki hiccup can't wipe data) — `--force` overrides |
+| 💾 Previous-data seeding | CI seeds the previous gzw-data before scraping; missing datasets keep their last good version |
+| 🚫 No pruning | Stale-file deletion removed — data never silently disappears from gzw-data |
 | 🛡️ Per-item error handling | One bad page won't crash the whole scrape |
 | ⏱️ Rate limiting | 0.5s delay between pages, handles 429s gracefully |
 | ⚡ Parallel scraping | Scrapes multiple categories at once (configurable workers) |
 | 📊 Progress bar | Real-time progress with tqdm |
 | 🔧 Config-driven | All settings in `config.toml`, no hardcoded values |
 | 🏷️ Type hints | Full type annotations for better IDE support |
+
+> **Why the drop-guard?** On 2026-08-10 the wiki rate-limited the scraper and
+> 27 datasets (weapons, keys, tasks, …) collapsed. The old workflow pruned the
+> "missing" files and gzw-data lost 11k+ lines. Now a >70% drop aborts the
+> save instead of overwriting, and the workflow seeds the previous data so a
+> failed scrape keeps the last good version.
 
 ## Configuration
 
