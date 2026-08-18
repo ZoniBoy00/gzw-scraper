@@ -1,13 +1,13 @@
 [build-system]
 requires = ["setuptools>=64", "wheel"]
-build-backend = "setuptools.backends._legacy:_Backend"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "gzw-scraper"
 version = "4.0.0"
 description = "Gray Zone Warfare — Complete wiki data scraper"
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
 requires-python = ">=3.11"
 dependencies = [
     "requests>=2.31",
