@@ -12,9 +12,9 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.11'
           cache: 'pip'
@@ -36,7 +36,7 @@ jobs:
       #   2. Files the scraper fails to produce keep their previous version —
       #      there is NO pruning step anymore. Data never silently disappears.
       - name: Checkout gzw-data (previous data)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: ZoniBoy00/gzw-data
           path: gzw-data
@@ -61,7 +61,7 @@ jobs:
             --json-out scrape-report.json | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Upload scrape report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: scrape-report-${{ github.run_number }}
           path: |
