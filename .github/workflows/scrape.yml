@@ -12,9 +12,9 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
           cache: 'pip'
@@ -49,8 +49,25 @@ jobs:
           echo "Seeded $(ls data | wc -l) previous files"
 
       - name: Run scraper
-        run: python scrape.py --all 2>&1
+        run: python scrape.py --all 2>&1 | tee scrape.log
         continue-on-error: false
+
+      - name: Generate data change report
+        run: |
+          python scripts/report_data_changes.py \
+            --before gzw-data/data \
+            --after data \
+            --log scrape.log \
+            --json-out scrape-report.json | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload scrape report
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-report-${{ github.run_number }}
+          path: |
+            scrape-report.json
+            scrape.log
+          retention-days: 30
 
       # ── Copy data to gzw-data/data/ ──
       # No pruning: if the scraper did not produce a file (category fetch

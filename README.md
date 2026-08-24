@@ -69,7 +69,17 @@ All `.json` files go to `data/` — each file is an array of items with `name`, 
 
 ## Automation
 
-GitHub Actions runs `python scrape.py --all` every Monday at 06:00 UTC. Can also be triggered manually via `workflow_dispatch`.
+GitHub Actions runs `python scrape.py --all` every Monday at 06:00 UTC. It can also be triggered manually via `workflow_dispatch`.
+
+Each run now publishes a `scrape-report` artifact containing `scrape-report.json` and the raw `scrape.log`. The GitHub Actions summary shows:
+
+- dataset files added, removed, changed, and unchanged
+- item counts before and after the scrape
+- items added, removed, and changed
+- changed fields by name
+- scraper errors, warnings, and rate-limit matches
+
+If the report says **No captured data changes**, the scraper completed and produced JSON matching the previous `gzw-data` snapshot. This does not claim that every wiki edit was unchanged; only the fields captured by this scraper were unchanged.
 
 ## Requirements
 
