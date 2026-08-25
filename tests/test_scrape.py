@@ -329,6 +329,18 @@ def test_safe_save_accepts_normal_growth(tmp_path, monkeypatch):
     assert len(saved) == 12
 
 
+def test_write_scrape_metadata(tmp_path, monkeypatch):
+    out = tmp_path / "data"
+    out.mkdir()
+    monkeypatch.setattr(scrape, "OUTPUT_DIR", out)
+
+    scrape.write_scrape_metadata()
+
+    metadata = json.loads((out / scrape.METADATA_FILENAME).read_text(encoding="utf-8"))
+    assert metadata["source"] == "gzw-scraper"
+    assert metadata["lastScrapedAt"].endswith("Z")
+
+
 if __name__ == "__main__":
     import sys
     sys.exit(pytest.main([__file__, "-v"]))

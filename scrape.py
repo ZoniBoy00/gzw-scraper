@@ -19,6 +19,7 @@ Features:
 from __future__ import annotations
 
 import argparse
+from datetime import datetime, timezone
 import json
 import logging
 import os
@@ -251,6 +252,7 @@ MAX_WORKERS: int = SCRAPER_CONFIG.get("max_workers", 3)
 REQUEST_INTERVAL: float = SCRAPER_CONFIG.get("request_interval", 0.5)
 
 OUTPUT_DIR: Path = Path(__file__).parent / OUTPUT_CONFIG["directory"]
+METADATA_FILENAME = "_metadata.json"
 BACKUP_DIR: Path = Path(__file__).parent / OUTPUT_CONFIG["backup_directory"]
 OUTPUT_DIR.mkdir(exist_ok=True)
 
@@ -961,6 +963,18 @@ def get_previous_counts() -> Dict[str, int]:
     return counts
 
 
+def write_scrape_metadata() -> None:
+    """Write the timestamp for the latest completed full scrape."""
+    payload = {
+        "lastScrapedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "source": "gzw-scraper",
+    }
+    target = OUTPUT_DIR / METADATA_FILENAME
+    temporary = target.with_suffix(".tmp")
+    temporary.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    temporary.replace(target)
+
+
 def get_output_filename(category_title: str) -> str:
     """Determine the output filename for a wiki category.
 
@@ -1141,6 +1155,8 @@ def run_full_scrape() -> bool:
     logger.info("  Files saved: %d/%d", saved_count, len(merged))
     if auto_discovered:
         logger.info("  🆕 New categories discovered: %d", auto_discovered)
+    write_scrape_metadata()
+    logger.info("  Metadata updated: %s", METADATA_FILENAME)
     logger.info("=" * 60)
     return True
 

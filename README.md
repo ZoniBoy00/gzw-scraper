@@ -7,6 +7,10 @@
 
 **v4 — Configurable & Bulletproof.** Automatically discovers ALL game categories from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and scrapes every page into structured JSON.
 
+## Output metadata
+
+After a successful full scrape, the scraper writes `data/_metadata.json` with the UTC `lastScrapedAt` timestamp. The gzw-data deployment copies this metadata file so the API and dashboard can show the actual data update time separately from the API request time.
+
 ## How it works
 
 ```bash
