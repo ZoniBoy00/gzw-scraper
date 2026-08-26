@@ -13,6 +13,7 @@ from typing import Any
 
 
 Item = dict[str, Any]
+EXCLUDED_FILES = frozenset({"_metadata.json"})
 
 
 def load_json(path: Path) -> Any:
@@ -71,8 +72,8 @@ def compare_items(before: Any, after: Any) -> dict[str, Any]:
 
 
 def build_report(before_dir: Path, after_dir: Path, log_path: Path | None = None) -> dict[str, Any]:
-    before_files = {path.name for path in before_dir.glob("*.json")}
-    after_files = {path.name for path in after_dir.glob("*.json")}
+    before_files = {path.name for path in before_dir.glob("*.json") if path.name not in EXCLUDED_FILES}
+    after_files = {path.name for path in after_dir.glob("*.json") if path.name not in EXCLUDED_FILES}
     datasets: list[dict[str, Any]] = []
 
     for filename in sorted(before_files | after_files):
@@ -100,6 +101,7 @@ def build_report(before_dir: Path, after_dir: Path, log_path: Path | None = None
             "changed": sum(item["status"] == "changed" for item in datasets),
             "unchanged": sum(item["status"] == "unchanged" for item in datasets),
         },
+        "excluded_files": sorted(EXCLUDED_FILES),
         "datasets": datasets,
         "totals": {
             "items_before": sum(item["before_count"] for item in datasets),
