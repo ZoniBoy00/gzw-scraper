@@ -2,7 +2,7 @@
 
 **Gray Zone Warfare** — Complete wiki data scraper.
 
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
 **v4 — Configurable & Bulletproof.** Automatically discovers ALL game categories from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and scrapes every page into structured JSON.
@@ -85,20 +85,25 @@ Each run now publishes a `scrape-report` artifact containing `scrape-report.json
 
 If the report says **No captured data changes**, the scraper completed and produced JSON matching the previous `gzw-data` snapshot. This does not claim that every wiki edit was unchanged; only the fields captured by this scraper were unchanged.
 
-## Requirements
+## Requirements and installation
 
 - Python 3.11+
-- `requests`, `beautifulsoup4`, `lxml`, `tqdm`
+- `requests>=2.31`
+- `beautifulsoup4>=4.12`
+- `lxml>=5.0`
+- `tqdm>=4.66`
+
+The dependencies are defined in `pyproject.toml`. Install the scraper locally with:
 
 ```bash
-pip install requests beautifulsoup4 lxml tqdm
+python -m pip install -e .
 ```
 
 ## Development
 
 ```bash
-# Install dev dependencies
-pip install pytest
+# Install the test dependency
+python -m pip install pytest
 
 # Run tests
 python -m pytest tests/ -v
