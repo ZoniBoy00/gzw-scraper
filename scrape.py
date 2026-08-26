@@ -37,6 +37,8 @@ import bs4
 import requests
 from requests import Response
 
+from scripts.generate_metadata import write_metadata
+
 # Try to load config; fall back to defaults if config.toml is missing
 try:
     import tomllib
@@ -964,15 +966,9 @@ def get_previous_counts() -> Dict[str, int]:
 
 
 def write_scrape_metadata() -> None:
-    """Write the timestamp for the latest completed full scrape."""
-    payload = {
-        "lastScrapedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "source": "gzw-scraper",
-    }
-    target = OUTPUT_DIR / METADATA_FILENAME
-    temporary = target.with_suffix(".tmp")
-    temporary.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
-    temporary.replace(target)
+    """Write scrape timestamp and deterministic dataset schema metadata."""
+    timestamp = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    write_metadata(OUTPUT_DIR, last_scraped_at=timestamp)
 
 
 def get_output_filename(category_title: str) -> str:

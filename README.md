@@ -9,7 +9,13 @@
 
 ## Output metadata
 
-After a successful full scrape, the scraper writes `data/_metadata.json` with the UTC `lastScrapedAt` timestamp. The gzw-data deployment copies this metadata file so the API and dashboard can show the actual data update time separately from the API request time.
+After a successful full scrape, the scraper writes `data/_metadata.json`. It contains the UTC `lastScrapedAt` timestamp plus deterministic metadata for every dataset: dataset name and file, item count, observed fields, detected JSON types, present-field counts, optional/nullable flags, and a stable example value. The gzw-data deployment copies this metadata file so the API and dashboard can show the actual data update time and inspect the generated dataset shape separately from the API request time.
+
+Generate metadata manually for an existing data directory with:
+
+```bash
+python scripts/generate_metadata.py data
+```
 
 ## How it works
 
