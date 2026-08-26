@@ -84,7 +84,7 @@ jobs:
           echo "→ Stale-file pruning disabled: missing datasets keep previous data"
 
       - name: Record gzw-data snapshot
-        run: node scripts/record-snapshot.js
+        run: node gzw-data/scripts/record-snapshot.js
 
       - name: Validate copied data
         run: |
