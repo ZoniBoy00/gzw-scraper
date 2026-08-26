@@ -67,7 +67,7 @@ def generate_metadata(data_dir: Path, last_scraped_at: str | None = None) -> dic
     datasets = [
         describe_dataset(path)
         for path in sorted(data_dir.glob("*.json"))
-        if path.name != "_metadata.json"
+        if not path.name.startswith("_")
     ]
     metadata: dict[str, Any] = {
         "source": "gzw-scraper",

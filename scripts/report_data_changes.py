@@ -13,7 +13,7 @@ from typing import Any
 
 
 Item = dict[str, Any]
-EXCLUDED_FILES = frozenset({"_metadata.json"})
+EXCLUDED_FILES = frozenset({"_metadata.json", "_history.json"})
 
 
 def load_json(path: Path) -> Any:

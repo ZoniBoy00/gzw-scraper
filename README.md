@@ -89,7 +89,7 @@ Each run now publishes a `scrape-report` artifact containing `scrape-report.json
 - changed fields by name
 - scraper errors, warnings, and rate-limit matches
 
-`_metadata.json` is intentionally excluded from the content diff. Its scrape timestamp changes on every successful run, but the file is still published to `data/` for API metadata consumers.
+`_metadata.json` is intentionally excluded from the content diff. Its scrape timestamp changes on every successful run, but the file is still published to `data/` for API metadata consumers. The downstream `gzw-data` workflow also records `data/_history.json` after copying the scrape output, so the API can compare future dataset snapshots.
 
 If the report says **No captured data changes**, the scraper completed and produced JSON matching the previous `gzw-data` snapshot. This does not claim that every wiki edit was unchanged; only the fields captured by this scraper were unchanged.
 

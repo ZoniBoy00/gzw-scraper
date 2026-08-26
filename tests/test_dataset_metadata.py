@@ -35,6 +35,7 @@ def test_generate_metadata_is_sorted_and_ignores_metadata_file(tmp_path):
     (tmp_path / "zeta.json").write_text(json.dumps([{"id": "z"}]), encoding="utf-8")
     (tmp_path / "alpha.json").write_text(json.dumps([{"id": "a"}]), encoding="utf-8")
     (tmp_path / "_metadata.json").write_text("{}", encoding="utf-8")
+    (tmp_path / "_history.json").write_text("[]", encoding="utf-8")
 
     metadata = generate_metadata(tmp_path)
 
