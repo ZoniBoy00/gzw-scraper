@@ -11,6 +11,47 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 - **Output:** generated JSON datasets plus `_metadata.json`
 - **License:** MIT
 
+## Version targets
+
+These are planning milestones, not promises to run live scrapes or publish data without review.
+
+### `4.0.x` — current scraper line
+
+- [x] Automatic category discovery and universal wiki parsing.
+- [x] Retries, pacing, validation, drop guard, previous-data seeding, and no-pruning behavior.
+- [x] Deterministic metadata and machine-readable scrape reporting.
+- [x] Reviewed data handoff and snapshot recording for `gzw-data`.
+
+Current scraper version: `4.0.0`.
+
+### `4.1.0` — parser reliability
+
+- [ ] Add representative sanitized HTML fixtures.
+- [ ] Add regression tests for infobox changes, missing fields, duplicate IDs, and malformed pages.
+- [ ] Add anomaly detection for mass changes and null-heavy output.
+- [ ] Keep thresholds configurable and test safe/rejected paths.
+
+### `4.2.0` — schema-aware data pipeline
+
+- [ ] Detect added fields, removed fields, and field-type changes.
+- [ ] Make field preservation aware of schema coverage and parser confidence.
+- [ ] Publish schema warnings in the scrape report.
+- [ ] Add scraper version and parser revision to metadata.
+- [ ] Add run manifest and dataset checksums when useful.
+
+### `4.3.0` — CI and release integration
+
+- [ ] Add lightweight push/pull-request CI without a live scrape.
+- [ ] Validate fixtures, metadata, and generated output in pull-request CI.
+- [ ] Add a reviewed-data handoff check for `gzw-data`.
+- [ ] Remove tracked `__pycache__` files.
+
+### `5.0.0` — breaking output contract, only if required
+
+- [ ] Publish only for an intentional breaking change to generated data semantics.
+- [ ] Document field migrations and affected API/SDK consumers.
+- [ ] Coordinate scraper, API metadata, OpenAPI, and SDK changes.
+
 ## Completed
 
 - [x] Discover wiki categories automatically.
