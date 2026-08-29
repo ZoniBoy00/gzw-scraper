@@ -28,13 +28,7 @@ jobs:
       - name: Run tests
         run: python -m pytest tests/ -v 2>&1
 
-      # ── Pull previous data BEFORE scraping ──
-      # This serves two purposes:
-      #   1. The scraper's >70% drop-guard (safe_save) can compare against the
-      #      previous run and ABORT writing when a category collapsed due to a
-      #      scrape failure (rate limit, wiki hiccup) instead of destroying it.
-      #   2. Files the scraper fails to produce keep their previous version —
-      #      there is NO pruning step anymore. Data never silently disappears.
+      # Pull previous data before scraping so failed categories are preserved.
       - name: Checkout gzw-data (previous data)
         uses: actions/checkout@v7
         with:
@@ -51,6 +45,9 @@ jobs:
       - name: Run scraper
         run: python scrape.py --all 2>&1 | tee scrape.log
         continue-on-error: false
+
+      - name: Create scraper manifest
+        run: python scripts/create_manifest.py
 
       - name: Generate data change report
         run: |
@@ -69,9 +66,7 @@ jobs:
             scrape.log
           retention-days: 30
 
-      # ── Copy data to gzw-data/data/ ──
-      # No pruning: if the scraper did not produce a file (category fetch
-      # failed / wiki hiccup), the previous version stays untouched.
+      # No pruning: if a category failed, the previous version stays intact.
       - name: Copy data to gzw-data/data/
         run: |
           DST="gzw-data/data"
