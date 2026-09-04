@@ -81,7 +81,7 @@ All `.json` files go to `data/` — each file is an array of items with `name`, 
 
 GitHub Actions runs `python scrape.py --all` every Monday at 06:00 UTC. It can also be triggered manually via `workflow_dispatch`.
 
-Each run now publishes a `scrape-report` artifact containing `scrape-report.json` and the raw `scrape.log`. The GitHub Actions summary shows:
+Each run now publishes a `scrape-report` artifact containing `scrape-report.json` and the raw `scrape.log`. Before data is copied to `gzw-data`, the workflow validates that the manifest and scrape report are present and structurally valid. The GitHub Actions summary shows:
 
 - dataset files added, removed, changed, and unchanged
 - item counts before and after the scrape

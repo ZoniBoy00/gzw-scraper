@@ -43,7 +43,7 @@ Current scraper version: `4.1.0`.
 
 - [x] Add lightweight push/pull-request CI without a live scrape.
 - [x] Validate fixtures, metadata, and generated output in pull-request CI.
-- [ ] Add a reviewed-data handoff check for `gzw-data`.
+- [x] Add a validated data handoff check for `gzw-data`.
 - [x] Remove tracked `__pycache__` files.
 
 ### `5.0.0` — breaking output contract, only if required
@@ -96,7 +96,7 @@ Current scraper version: `4.1.0`.
 - [x] Add a lightweight push/pull-request CI workflow that does not run a live scrape.
 - [x] Run parser fixtures, metadata generation, and validation in pull-request CI.
 - [ ] Keep the scheduled live scrape separate from normal code CI.
-- [ ] Add a clear reviewed-data handoff to `gzw-data`.
+- [x] Add a validated data handoff check for `gzw-data`.
 - [x] Remove any tracked `__pycache__` files and keep the repository clean.
 
 ## Live scrape checklist

@@ -66,6 +66,13 @@ jobs:
             scrape.log
           retention-days: 30
 
+      - name: Validate reviewed-data handoff inputs
+        run: |
+          test -s data/_manifest.json
+          python -c "import json; m=json.load(open('data/_manifest.json')); assert m['source'] == 'gzw-scraper'; assert m['datasets']"
+          python -c "import json; r=json.load(open('scrape-report.json')); assert 'files' in r and 'totals' in r and 'log' in r"
+          echo "✅ Manifest and scrape report are ready for gzw-data handoff"
+
       # No pruning: if a category failed, the previous version stays intact.
       - name: Copy data to gzw-data/data/
         run: |
