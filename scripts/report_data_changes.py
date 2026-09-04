@@ -13,7 +13,7 @@ from typing import Any
 
 
 Item = dict[str, Any]
-EXCLUDED_FILES = frozenset({"_metadata.json", "_history.json"})
+EXCLUDED_FILES = frozenset({"_metadata.json", "_history.json", "_manifest.json"})
 
 
 def load_json(path: Path) -> Any:
@@ -71,6 +71,52 @@ def compare_items(before: Any, after: Any) -> dict[str, Any]:
     }
 
 
+def schema_warnings(before: Any, after: Any) -> list[dict[str, Any]]:
+    """Report field additions, removals, type changes, and null-heavy fields."""
+    def field_types(items: Any) -> dict[str, set[str]]:
+        result: dict[str, set[str]] = {}
+        if not isinstance(items, list):
+            return result
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+            for field, value in item.items():
+                result.setdefault(field, set()).add(type(value).__name__)
+        return result
+
+    old = field_types(before)
+    new = field_types(after)
+    warnings: list[dict[str, Any]] = []
+    for field in sorted(set(old) | set(new)):
+        if field not in old:
+            warnings.append({"field": field, "kind": "added"})
+        elif field not in new:
+            warnings.append({"field": field, "kind": "removed"})
+        elif old[field] != new[field]:
+            warnings.append({"field": field, "kind": "type_changed", "before": sorted(old[field]), "after": sorted(new[field])})
+
+    if isinstance(after, list) and after:
+        present: Counter[str] = Counter(
+            field for item in after if isinstance(item, dict) for field, value in item.items() if value is None
+        )
+        for field, null_count in sorted(present.items()):
+            if null_count / len(after) >= 0.5:
+                warnings.append({"field": field, "kind": "null_heavy", "nullCount": null_count, "itemCount": len(after)})
+    return warnings
+
+
+def anomaly_warnings(before: Any, after: Any) -> list[dict[str, Any]]:
+    """Report suspicious output changes for human review."""
+    if not isinstance(before, list) or not isinstance(after, list) or not before:
+        return []
+    if not after:
+        return [{"kind": "empty_dataset", "before": len(before), "after": 0}]
+    ratio = len(after) / len(before)
+    if ratio < 0.3:
+        return [{"kind": "massive_count_drop", "before": len(before), "after": len(after), "ratio": ratio}]
+    return []
+
+
 def build_report(before_dir: Path, after_dir: Path, log_path: Path | None = None) -> dict[str, Any]:
     before_files = {path.name for path in before_dir.glob("*.json") if path.name not in EXCLUDED_FILES}
     after_files = {path.name for path in after_dir.glob("*.json") if path.name not in EXCLUDED_FILES}
@@ -88,7 +134,13 @@ def build_report(before_dir: Path, after_dir: Path, log_path: Path | None = None
             status = "unchanged"
         else:
             status = "changed"
-        datasets.append({"file": filename, "status": status, **diff})
+        datasets.append({
+            "file": filename,
+            "status": status,
+            **diff,
+            "schema_warnings": schema_warnings(before, after),
+            "anomalies": anomaly_warnings(before, after),
+        })
 
     log_text = log_path.read_text(encoding="utf-8", errors="replace") if log_path and log_path.exists() else ""
     report = {
@@ -135,6 +187,9 @@ def markdown_summary(report: dict[str, Any]) -> str:
         f"- Items: {totals['items_after']} after scrape ({totals['items_added']} added, {totals['items_removed']} removed, {totals['items_changed']} changed)",
         f"- Log: {log['errors']} errors, {log['warnings']} warnings, {log['rate_limits']} rate-limit matches",
     ]
+    schema_warning_count = sum(len(item["schema_warnings"]) for item in report["datasets"])
+    anomaly_count = sum(len(item["anomalies"]) for item in report["datasets"])
+    lines.append(f"- Review signals: {schema_warning_count} schema warnings, {anomaly_count} anomalies")
     changed = [item for item in report["datasets"] if item["status"] != "unchanged"]
     if changed:
         lines.append("")

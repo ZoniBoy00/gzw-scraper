@@ -4,10 +4,10 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 
 ## Current status
 
-- **Version:** `4.0.0`
+- **Version:** `4.1.0`
 - **Runtime:** Python 3.11+
 - **Source:** GZW Fandom Wiki
-- **Tests:** 28 passing on 2026-08-27
+- **Tests:** 32 passing on 2026-09-04
 - **Output:** generated JSON datasets plus `_metadata.json`
 - **License:** MIT
 
@@ -22,29 +22,29 @@ These are planning milestones, not promises to run live scrapes or publish data 
 - [x] Deterministic metadata and machine-readable scrape reporting.
 - [x] Reviewed data handoff and snapshot recording for `gzw-data`.
 
-Current scraper version: `4.0.0`.
+Current scraper version: `4.1.0`.
 
 ### `4.1.0` — parser reliability
 
-- [ ] Add representative sanitized HTML fixtures.
-- [ ] Add regression tests for infobox changes, missing fields, duplicate IDs, and malformed pages.
-- [ ] Add anomaly detection for mass changes and null-heavy output.
-- [ ] Keep thresholds configurable and test safe/rejected paths.
+- [x] Add representative sanitized HTML fixtures.
+- [x] Add regression tests for infobox changes, missing fields, duplicate IDs, and malformed pages.
+- [x] Add anomaly detection for mass changes and null-heavy output.
+- [x] Keep thresholds configurable and test safe/rejected paths.
 
 ### `4.2.0` — schema-aware data pipeline
 
-- [ ] Detect added fields, removed fields, and field-type changes.
+- [x] Detect added fields, removed fields, and field-type changes.
 - [ ] Make field preservation aware of schema coverage and parser confidence.
-- [ ] Publish schema warnings in the scrape report.
-- [ ] Add scraper version and parser revision to metadata.
-- [ ] Add run manifest and dataset checksums when useful.
+- [x] Publish schema warnings in the scrape report.
+- [x] Add scraper version and parser revision to metadata.
+- [x] Add run manifest and dataset checksums when useful.
 
 ### `4.3.0` — CI and release integration
 
-- [ ] Add lightweight push/pull-request CI without a live scrape.
-- [ ] Validate fixtures, metadata, and generated output in pull-request CI.
+- [x] Add lightweight push/pull-request CI without a live scrape.
+- [x] Validate fixtures, metadata, and generated output in pull-request CI.
 - [ ] Add a reviewed-data handoff check for `gzw-data`.
-- [ ] Remove tracked `__pycache__` files.
+- [x] Remove tracked `__pycache__` files.
 
 ### `5.0.0` — breaking output contract, only if required
 
@@ -71,18 +71,18 @@ Current scraper version: `4.0.0`.
 
 ### 1. Schema-aware scraping
 
-- [ ] Compare the new result against the previous schema.
-- [ ] Detect added fields, removed fields, and field-type changes.
+- [x] Compare the new result against the previous schema.
+- [x] Detect added fields, removed fields, and field-type changes.
 - [ ] Make field preservation aware of schema coverage and parser confidence.
 - [ ] Prevent a partial scrape from silently preserving stale fields indefinitely.
-- [ ] Publish schema warnings in the scrape report.
+- [x] Publish schema warnings in the scrape report.
 
 ### 2. Parser reliability
 
-- [ ] Add sanitized HTML fixtures for representative wiki layouts.
-- [ ] Add regression tests for infobox changes, missing fields, duplicate IDs, and malformed pages.
-- [ ] Add anomaly detection for mass name changes, mass ID changes, null-heavy output, and important-field loss.
-- [ ] Keep thresholds configurable and test both safe and rejected paths.
+- [x] Add sanitized HTML fixtures for representative wiki layouts.
+- [x] Add regression tests for infobox changes, missing fields, duplicate IDs, and malformed pages.
+- [x] Add anomaly detection for mass name changes, mass ID changes, null-heavy output, and important-field loss.
+- [x] Keep thresholds configurable and test both safe and rejected paths.
 
 ### 3. Run provenance
 
@@ -93,11 +93,11 @@ Current scraper version: `4.0.0`.
 
 ### 4. CI and publishing
 
-- [ ] Add a lightweight push/pull-request CI workflow that does not run a live scrape.
-- [ ] Run parser fixtures, metadata generation, and validation in pull-request CI.
+- [x] Add a lightweight push/pull-request CI workflow that does not run a live scrape.
+- [x] Run parser fixtures, metadata generation, and validation in pull-request CI.
 - [ ] Keep the scheduled live scrape separate from normal code CI.
 - [ ] Add a clear reviewed-data handoff to `gzw-data`.
-- [ ] Remove any tracked `__pycache__` files and keep the repository clean.
+- [x] Remove any tracked `__pycache__` files and keep the repository clean.
 
 ## Live scrape checklist
 

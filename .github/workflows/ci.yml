@@ -1,0 +1,45 @@
+name: Quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install package and test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e . pytest
+
+      - name: Run parser and validation tests
+        run: python -m pytest tests/ -q
+
+      - name: Validate metadata generation
+        run: |
+          tmpdir="$(mktemp -d)"
+          python scripts/generate_metadata.py "$tmpdir"
+          python -c "import json; m=json.load(open('$tmpdir/_metadata.json')); assert m['source'] == 'gzw-scraper'; assert m['scraperVersion']; assert m['parserRevision']"
+
+      - name: Check tracked bytecode and whitespace
+        run: |
+          if git ls-files | grep -E '(^|/)__pycache__/|\.py[cod]$'; then
+            echo "Tracked Python bytecode found"
+            exit 1
+          fi
+          git diff --check

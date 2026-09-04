@@ -7,6 +7,9 @@ import json
 from pathlib import Path
 from typing import Any
 
+SCRAPER_VERSION = "4.1.0"
+PARSER_REVISION = "universal-parser-v4"
+
 
 def value_type(value: Any) -> str:
     """Return the stable metadata type name for a JSON value."""
@@ -62,7 +65,12 @@ def describe_dataset(path: Path) -> dict[str, Any]:
     }
 
 
-def generate_metadata(data_dir: Path, last_scraped_at: str | None = None) -> dict[str, Any]:
+def generate_metadata(
+    data_dir: Path,
+    last_scraped_at: str | None = None,
+    scraper_version: str = SCRAPER_VERSION,
+    parser_revision: str = PARSER_REVISION,
+) -> dict[str, Any]:
     """Generate metadata for all dataset JSON files in ``data_dir``."""
     datasets = [
         describe_dataset(path)
@@ -71,6 +79,8 @@ def generate_metadata(data_dir: Path, last_scraped_at: str | None = None) -> dic
     ]
     metadata: dict[str, Any] = {
         "source": "gzw-scraper",
+        "scraperVersion": scraper_version,
+        "parserRevision": parser_revision,
         "datasetCount": len(datasets),
         "datasets": datasets,
     }
@@ -79,12 +89,17 @@ def generate_metadata(data_dir: Path, last_scraped_at: str | None = None) -> dic
     return metadata
 
 
-def write_metadata(data_dir: Path, last_scraped_at: str | None = None) -> Path:
+def write_metadata(
+    data_dir: Path,
+    last_scraped_at: str | None = None,
+    scraper_version: str = SCRAPER_VERSION,
+    parser_revision: str = PARSER_REVISION,
+) -> Path:
     """Write metadata atomically and return its target path."""
     data_dir.mkdir(parents=True, exist_ok=True)
     target = data_dir / "_metadata.json"
     temporary = target.with_suffix(".tmp")
-    payload = generate_metadata(data_dir, last_scraped_at)
+    payload = generate_metadata(data_dir, last_scraped_at, scraper_version, parser_revision)
     temporary.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     temporary.replace(target)
     return target

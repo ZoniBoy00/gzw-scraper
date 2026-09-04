@@ -13,6 +13,7 @@ Run: pytest test_scrape.py -v
 """
 
 import json
+from pathlib import Path
 
 import bs4
 import pytest
@@ -68,6 +69,28 @@ INFOBOX_HTML_MISSING = """
 
 def soup_of(html):
     return bs4.BeautifulSoup(html, "lxml")
+
+
+def fixture(name: str) -> str:
+    return (Path(__file__).parent / "fixtures" / name).read_text(encoding="utf-8")
+
+
+def test_parse_infobox_uses_standard_sanitized_fixture():
+    data = scrape.parse_infobox(soup_of(fixture("infobox_standard.html")))
+    assert data["caliber"] == "5.45x39mm"
+    assert data["fire_rate"] == "650 RPM"
+    assert data["_image"] == "https://static.example.test/ak-74.png"
+
+
+def test_parse_infobox_uses_missing_field_fixture_without_crashing():
+    data = scrape.parse_infobox(soup_of(fixture("infobox_missing_fields.html")))
+    assert data["name"] == "Example Item"
+    assert "empty_value" not in data
+
+
+def test_parse_infobox_handles_malformed_fixture():
+    data = scrape.parse_infobox(soup_of(fixture("malformed_page.html")))
+    assert data["broken"] == "Value"
 
 
 def test_parse_infobox_extracts_label_value_pairs():

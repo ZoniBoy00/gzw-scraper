@@ -34,6 +34,18 @@ def test_build_report_detects_item_and_field_changes(tmp_path):
     assert "weapons.json" in markdown_summary(report)
 
 
+def test_build_report_adds_schema_and_anomaly_warnings(tmp_path):
+    before = tmp_path / "before"
+    after = tmp_path / "after"
+    write_json(before, "items.json", [{"id": "1", "value": "x"}, {"id": "2", "value": "y"}, {"id": "3", "value": "z"}, {"id": "4", "value": "w"}])
+    write_json(after, "items.json", [{"id": "1", "value": 1, "new_field": None}])
+
+    warnings = build_report(before, after)["datasets"][0]
+
+    assert {item["kind"] for item in warnings["schema_warnings"]} == {"type_changed", "added", "null_heavy"}
+    assert warnings["anomalies"][0]["kind"] == "massive_count_drop"
+
+
 def test_build_report_ignores_scrape_metadata_changes(tmp_path):
     before = tmp_path / "before"
     after = tmp_path / "after"
@@ -43,11 +55,13 @@ def test_build_report_ignores_scrape_metadata_changes(tmp_path):
     write_json(after, "_metadata.json", {"lastScrapedAt": "2026-08-26T06:00:00Z"})
     write_json(before, "_history.json", [{"version": "old"}])
     write_json(after, "_history.json", [{"version": "new"}])
+    write_json(before, "_manifest.json", {"generatedAt": "old"})
+    write_json(after, "_manifest.json", {"generatedAt": "new"})
 
     report = build_report(before, after)
 
     assert report["files"] == {"before": 1, "after": 1, "added": 0, "removed": 0, "changed": 0, "unchanged": 1}
-    assert report["excluded_files"] == ["_history.json", "_metadata.json"]
+    assert report["excluded_files"] == ["_history.json", "_manifest.json", "_metadata.json"]
     assert report["totals"]["items_before"] == 1
     assert report["totals"]["items_after"] == 1
 

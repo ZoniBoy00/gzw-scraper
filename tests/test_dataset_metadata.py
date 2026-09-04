@@ -16,6 +16,8 @@ def test_generate_metadata_describes_fields_and_optional_values(tmp_path):
     metadata = generate_metadata(tmp_path, last_scraped_at="2026-08-26T12:00:00Z")
 
     assert metadata["source"] == "gzw-scraper"
+    assert metadata["scraperVersion"] == "4.1.0"
+    assert metadata["parserRevision"] == "universal-parser-v4"
     assert metadata["datasetCount"] == 1
     assert metadata["lastScrapedAt"] == "2026-08-26T12:00:00Z"
     fields = metadata["datasets"][0]["fields"]

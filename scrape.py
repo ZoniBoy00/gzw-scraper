@@ -1,5 +1,5 @@
 """
-GZW Wiki Scraper v4 — Configurable & Bulletproof
+GZW Wiki Scraper v4.1 — Configurable & Bulletproof
 ==================================================
 Automatically discovers ALL game categories from the wiki and scrapes every page.
 
@@ -37,7 +37,7 @@ import bs4
 import requests
 from requests import Response
 
-from scripts.generate_metadata import write_metadata
+from scripts.generate_metadata import PARSER_REVISION, SCRAPER_VERSION, write_metadata
 
 # Try to load config; fall back to defaults if config.toml is missing
 try:
@@ -968,7 +968,12 @@ def get_previous_counts() -> Dict[str, int]:
 def write_scrape_metadata() -> None:
     """Write scrape timestamp and deterministic dataset schema metadata."""
     timestamp = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
-    write_metadata(OUTPUT_DIR, last_scraped_at=timestamp)
+    write_metadata(
+        OUTPUT_DIR,
+        last_scraped_at=timestamp,
+        scraper_version=SCRAPER_VERSION,
+        parser_revision=PARSER_REVISION,
+    )
 
 
 def get_output_filename(category_title: str) -> str:
@@ -1056,7 +1061,7 @@ def run_full_scrape() -> bool:
         True if scrape completed (even with some failures).
     """
     logger.info("=" * 60)
-    logger.info("GZW Wiki Scraper v4 — Configurable & Bulletproof")
+    logger.info("GZW Wiki Scraper v4.1 — Configurable & Bulletproof")
     logger.info("=" * 60)
 
     # Get previous counts for change detection
@@ -1178,7 +1183,7 @@ def run_single_category(category_name: str) -> bool:
 
 # ─── CLI ───
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="GZW Wiki Scraper v4")
+    parser = argparse.ArgumentParser(description="GZW Wiki Scraper v4.1")
     parser.add_argument("--category", help="Scrape a single category by name")
     parser.add_argument("--all", action="store_true", help="Run full scrape (all categories)")
     parser.add_argument("--config", default=str(CONFIG_PATH), help="Path to config.toml")

@@ -5,11 +5,11 @@
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
-**v4 — Configurable & Bulletproof.** Automatically discovers ALL game categories from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and scrapes every page into structured JSON.
+**v4.1 — Configurable & Bulletproof.** Automatically discovers ALL game categories from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and scrapes every page into structured JSON.
 
 ## Output metadata
 
-After a successful full scrape, the scraper writes `data/_metadata.json`. It contains the UTC `lastScrapedAt` timestamp plus deterministic metadata for every dataset: dataset name and file, item count, observed fields, detected JSON types, present-field counts, optional/nullable flags, and a stable example value. The gzw-data deployment copies this metadata file so the API and dashboard can show the actual data update time and inspect the generated dataset shape separately from the API request time.
+After a successful full scrape, the scraper writes `data/_metadata.json`. It contains the UTC `lastScrapedAt` timestamp, `scraperVersion`, `parserRevision`, plus deterministic metadata for every dataset: dataset name and file, item count, observed fields, detected JSON types, present-field counts, optional/nullable flags, and a stable example value. The gzw-data deployment copies this metadata file so the API and dashboard can show the actual data update time and inspect the generated dataset shape separately from the API request time.
 
 Generate metadata manually for an existing data directory with:
 
@@ -88,8 +88,10 @@ Each run now publishes a `scrape-report` artifact containing `scrape-report.json
 - items added, removed, and changed
 - changed fields by name
 - scraper errors, warnings, and rate-limit matches
+- schema warnings for added, removed, or type-changed fields
+- anomaly warnings for empty or massively reduced datasets
 
-`_metadata.json` is intentionally excluded from the content diff. Its scrape timestamp changes on every successful run, but the file is still published to `data/` for API metadata consumers. The downstream `gzw-data` workflow also records `data/_history.json` after copying the scrape output, so the API can compare future dataset snapshots.
+`_metadata.json`, `_history.json`, and `_manifest.json` are intentionally excluded from the content diff. Metadata timestamps and manifest generation times change on successful runs, but these files are still published to `data/` for API provenance and snapshot consumers.
 
 If the report says **No captured data changes**, the scraper completed and produced JSON matching the previous `gzw-data` snapshot. This does not claim that every wiki edit was unchanged; only the fields captured by this scraper were unchanged.
 
