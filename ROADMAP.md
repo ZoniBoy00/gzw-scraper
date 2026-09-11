@@ -34,7 +34,8 @@ Current scraper version: `4.1.0`.
 ### `4.2.0` — schema-aware data pipeline
 
 - [x] Detect added fields, removed fields, and field-type changes.
-- [ ] Make field preservation aware of schema coverage and parser confidence.
+- [x] Make field preservation aware of previous schema coverage and repeated parser omissions.
+- [ ] Add an explicit parser confidence score for field-level preservation decisions.
 - [x] Publish schema warnings in the scrape report.
 - [x] Add scraper version and parser revision to metadata.
 - [x] Add run manifest and dataset checksums when useful.
@@ -73,8 +74,9 @@ Current scraper version: `4.1.0`.
 
 - [x] Compare the new result against the previous schema.
 - [x] Detect added fields, removed fields, and field-type changes.
-- [ ] Make field preservation aware of schema coverage and parser confidence.
-- [ ] Prevent a partial scrape from silently preserving stale fields indefinitely.
+- [x] Make field preservation aware of previous schema coverage and repeated parser omissions.
+- [ ] Add an explicit parser confidence score for field-level preservation decisions.
+- [x] Prevent a partial scrape from silently preserving stale fields indefinitely.
 - [x] Publish schema warnings in the scrape report.
 
 ### 2. Parser reliability

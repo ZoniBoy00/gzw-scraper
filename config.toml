@@ -3,7 +3,7 @@
 
 [wiki]
 api_url = "https://gray-zone-warfare.fandom.com/api.php"
-user_agent = "GZW-Tools/3.0 (community tool; github.com/ZoniBoy00/gzw-tools; scraper@gzw-data.dev)"
+user_agent = "GZW-Tools/4.1 (community tool; github.com/ZoniBoy00/gzw-tools; scraper@gzw-data.dev)"
 
 [scraper]
 # Maximum retries for API calls and page fetches
@@ -16,6 +16,10 @@ page_delay = 0.8
 # The wiki rate-limits aggressively (HTTP 429) when scraped in parallel,
 # so all threads share this single throttle.
 request_interval = 0.5
+# Preserve a previously observed field through one partial parser run, then
+# drop it if the omission repeats on the next successful run.
+field_preservation_min_coverage = 0.5
+max_stale_field_runs = 2
 # If item count drops more than this fraction from previous scrape, abort the save
 max_safe_deviation = 0.7
 # Max items per API call

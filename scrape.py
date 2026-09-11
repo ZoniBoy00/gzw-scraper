@@ -84,6 +84,8 @@ def load_config(config_path: Path = CONFIG_PATH) -> Dict[str, Any]:
             "category_page_limit": 500,
             "max_workers": 3,
             "request_interval": 0.5,
+            "field_preservation_min_coverage": 0.5,
+            "max_stale_field_runs": 2,
         },
         "output": {
             "directory": "data",
@@ -252,9 +254,12 @@ MAX_SAFE_DEVIATION: float = SCRAPER_CONFIG["max_safe_deviation"]
 CATEGORY_PAGE_LIMIT: int = SCRAPER_CONFIG["category_page_limit"]
 MAX_WORKERS: int = SCRAPER_CONFIG.get("max_workers", 3)
 REQUEST_INTERVAL: float = SCRAPER_CONFIG.get("request_interval", 0.5)
+FIELD_PRESERVATION_MIN_COVERAGE: float = SCRAPER_CONFIG.get("field_preservation_min_coverage", 0.5)
+MAX_STALE_FIELD_RUNS: int = SCRAPER_CONFIG.get("max_stale_field_runs", 2)
 
 OUTPUT_DIR: Path = Path(__file__).parent / OUTPUT_CONFIG["directory"]
 METADATA_FILENAME = "_metadata.json"
+FIELD_PRESERVATION_FILENAME = "_field_preservation.json"
 BACKUP_DIR: Path = Path(__file__).parent / OUTPUT_CONFIG["backup_directory"]
 OUTPUT_DIR.mkdir(exist_ok=True)
 
@@ -901,7 +906,9 @@ def safe_save(filename: str, items: List[Dict[str, Any]], previous_count: Option
         except Exception as exc:
             logger.debug("Backup failed for %s: %s", filename, exc)
 
-    # Load old items for field preservation
+    # Load old items for schema-aware field preservation. A parser hiccup can
+    # omit fields from otherwise healthy items, but fields must not survive
+    # indefinitely when the omission repeats across successful runs.
     old_items: List[Dict[str, Any]] = []
     if existing.exists():
         try:
@@ -910,18 +917,55 @@ def safe_save(filename: str, items: List[Dict[str, Any]], previous_count: Option
         except Exception:
             pass
 
+    preservation_state: Dict[str, Dict[str, Dict[str, int]]] = {}
+    state_path = OUTPUT_DIR / FIELD_PRESERVATION_FILENAME
+    if state_path.exists():
+        try:
+            loaded_state = json.loads(state_path.read_text(encoding="utf-8"))
+            if isinstance(loaded_state, dict):
+                preservation_state = loaded_state
+        except Exception:
+            logger.warning("Could not read %s; resetting preservation state", state_path)
+
+    updated_state = json.loads(json.dumps(preservation_state))
+    file_state = updated_state.setdefault(filename, {})
+
     if old_items and isinstance(old_items, list):
         old_map: Dict[str, Dict[str, Any]] = {
             oi.get("name", ""): oi
             for oi in old_items
-            if oi.get("name")
+            if isinstance(oi, dict) and oi.get("name")
         }
+        old_field_coverage: Dict[str, float] = {}
+        for old_item in old_map.values():
+            for key in old_item:
+                old_field_coverage[key] = old_field_coverage.get(key, 0.0) + 1.0
+        if old_map:
+            old_field_coverage = {
+                key: count / len(old_map) for key, count in old_field_coverage.items()
+            }
+
         for item in items:
             name: str = item.get("name", "")
             if name in old_map:
                 for key, val in old_map[name].items():
-                    if key not in item and val is not None:
+                    if key in item or val is None or key == "name":
+                        item_state = file_state.get(name, {})
+                        item_state.pop(key, None)
+                        continue
+                    if old_field_coverage.get(key, 0.0) < FIELD_PRESERVATION_MIN_COVERAGE:
+                        continue
+                    item_state = file_state.setdefault(name, {})
+                    missing_runs = item_state.get(key, 0) + 1
+                    if missing_runs < MAX_STALE_FIELD_RUNS:
                         item[key] = val
+                        item_state[key] = missing_runs
+                    else:
+                        item_state.pop(key, None)
+                        logger.warning(
+                            "  %s: dropping stale field '%s' for '%s' after %d runs",
+                            filename, key, name, missing_runs,
+                        )
 
     # Sort items alphabetically by name for consistent ordering
     items.sort(key=lambda x: (x.get("name") or "").lower())
@@ -931,6 +975,10 @@ def safe_save(filename: str, items: List[Dict[str, Any]], previous_count: Option
         path: Path = OUTPUT_DIR / filename
         with open(path, "w", encoding="utf-8") as f:
             json.dump(items, f, indent=2, ensure_ascii=False)
+        state_path.write_text(
+            json.dumps(updated_state, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
         logger.info("  ✅ %s: %s", filename, reason)
         return True
     except Exception as exc:

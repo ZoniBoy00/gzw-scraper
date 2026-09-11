@@ -38,6 +38,7 @@ If the wiki gets a new category (e.g., `Crafting`), the scraper **finds it autom
 | ✅ Data validation | Rejects empty or corrupt data before saving |
 | 📉 Drop-guard | A category that drops >70% is NOT saved (rate limit / wiki hiccup can't wipe data) — `--force` overrides |
 | 💾 Previous-data seeding | CI seeds the previous gzw-data before scraping; missing datasets keep their last good version |
+| 🧬 Schema-aware preservation | Common fields survive one partial parser run; repeated omissions are dropped instead of becoming permanent stale data |
 | 🚫 No pruning | Stale-file deletion removed — data never silently disappears from gzw-data |
 | 🛡️ Per-item error handling | One bad page won't crash the whole scrape |
 | ⏱️ Rate limiting | 0.5s delay between pages, handles 429s gracefully |

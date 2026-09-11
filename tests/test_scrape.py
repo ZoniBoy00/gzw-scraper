@@ -352,6 +352,46 @@ def test_safe_save_accepts_normal_growth(tmp_path, monkeypatch):
     assert len(saved) == 12
 
 
+def test_safe_save_preserves_partial_field_once_then_drops_stale_field(tmp_path, monkeypatch):
+    out = tmp_path / "data"
+    bak = tmp_path / "data_backup"
+    out.mkdir()
+    (out / "items.json").write_text(
+        json.dumps([{"name": "Item 1", "id": "item-1", "legacy_field": "old"}]),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(scrape, "OUTPUT_DIR", out)
+    monkeypatch.setattr(scrape, "BACKUP_DIR", bak)
+
+    first = [{"name": "Item 1", "id": "item-1"}]
+    assert scrape.safe_save("items.json", first, previous_count=1) is True
+    assert json.loads((out / "items.json").read_text())[0]["legacy_field"] == "old"
+
+    second = [{"name": "Item 1", "id": "item-1"}]
+    assert scrape.safe_save("items.json", second, previous_count=1) is True
+    assert "legacy_field" not in json.loads((out / "items.json").read_text())[0]
+    state = json.loads((out / scrape.FIELD_PRESERVATION_FILENAME).read_text())
+    assert state["items.json"]["Item 1"] == {}
+
+
+def test_safe_save_does_not_preserve_low_coverage_field(tmp_path, monkeypatch):
+    out = tmp_path / "data"
+    bak = tmp_path / "data_backup"
+    out.mkdir()
+    old = [
+        {"name": "Item 1", "id": "item-1", "rare": "x"},
+        {"name": "Item 2", "id": "item-2"},
+        {"name": "Item 3", "id": "item-3"},
+    ]
+    (out / "items.json").write_text(json.dumps(old), encoding="utf-8")
+    monkeypatch.setattr(scrape, "OUTPUT_DIR", out)
+    monkeypatch.setattr(scrape, "BACKUP_DIR", bak)
+
+    new = [{"name": "Item 1", "id": "item-1"}]
+    assert scrape.safe_save("items.json", new, previous_count=3, force=True) is True
+    assert "rare" not in json.loads((out / "items.json").read_text())[0]
+
+
 def test_write_scrape_metadata(tmp_path, monkeypatch):
     out = tmp_path / "data"
     out.mkdir()
