@@ -23,7 +23,7 @@ python scripts/generate_metadata.py data
 python scrape.py --all
 ```
 
-1. **Discovery** — Fetches all 165+ wiki categories, filters out wiki-internal ones (Templates, Images, etc.), keeps 120+ game categories
+1. **Discovery** — Fetches wiki categories automatically and filters out wiki-internal ones (Templates, Images, etc.)
 2. **Scrape** — Universal parser extracts infobox data from every page in every category (parallel, up to 4 workers)
 3. **Validate** — Data is validated before saving: checks for empty items, excessive duplicates, anomaly detection
 4. **Save** — Each category becomes a `.json` file in `data/`, with backup before overwrite
@@ -59,7 +59,7 @@ All settings are in `config.toml`:
 ```toml
 [wiki]
 api_url = "https://gray-zone-warfare.fandom.com/api.php"
-user_agent = "GZW-Tools/4.0 (community tool; github.com/ZoniBoy00/gzw-tools)"
+user_agent = "GZW-Tools/4.1 (community tool; github.com/zoniboy00/gzw-tools)"
 
 [scraper]
 max_retries = 3

@@ -7,7 +7,7 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 - **Version:** `4.1.0`
 - **Runtime:** Python 3.11+
 - **Source:** GZW Fandom Wiki
-- **Tests:** 32 passing on 2026-09-04
+- **Tests:** 32 passing on 2026-09-11
 - **Output:** generated JSON datasets plus `_metadata.json`
 - **License:** MIT
 
@@ -86,16 +86,16 @@ Current scraper version: `4.1.0`.
 
 ### 3. Run provenance
 
-- [ ] Add a scraper-run manifest with start/end time, dataset count, item count, warnings, errors, and scraper version.
-- [ ] Add scraper version and parser revision to `_metadata.json`.
-- [ ] Add dataset-level checksums when they reduce review cost.
+- [x] Add a scraper-run manifest with start/end time, dataset count, item count, warnings, errors, and scraper version.
+- [x] Add scraper version and parser revision to `_metadata.json`.
+- [x] Add dataset-level checksums when they reduce review cost.
 - [ ] Define which metadata is stable enough for API consumers.
 
 ### 4. CI and publishing
 
 - [x] Add a lightweight push/pull-request CI workflow that does not run a live scrape.
 - [x] Run parser fixtures, metadata generation, and validation in pull-request CI.
-- [ ] Keep the scheduled live scrape separate from normal code CI.
+- [x] Keep the scheduled live scrape separate from normal code CI.
 - [x] Add a validated data handoff check for `gzw-data`.
 - [x] Remove any tracked `__pycache__` files and keep the repository clean.
 
