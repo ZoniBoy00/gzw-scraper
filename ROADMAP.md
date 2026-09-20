@@ -7,7 +7,7 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 - **Version:** `4.1.0`
 - **Runtime:** Python 3.11+
 - **Source:** GZW Fandom Wiki
-- **Tests:** 32 passing on 2026-09-11
+- **Tests:** 34 passing on 2026-09-20
 - **Output:** generated JSON datasets plus `_metadata.json`
 - **License:** MIT
 
@@ -15,14 +15,14 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 
 These are planning milestones, not promises to run live scrapes or publish data without review.
 
-### `4.0.x` — current scraper line
+### `4.0.x` — foundational scraper line
 
 - [x] Automatic category discovery and universal wiki parsing.
 - [x] Retries, pacing, validation, drop guard, previous-data seeding, and no-pruning behavior.
 - [x] Deterministic metadata and machine-readable scrape reporting.
 - [x] Reviewed data handoff and snapshot recording for `gzw-data`.
 
-Current scraper version: `4.1.0`.
+The current scraper version is `4.1.0`; `4.0.x` is the previous compatible line.
 
 ### `4.1.0` — parser reliability
 
