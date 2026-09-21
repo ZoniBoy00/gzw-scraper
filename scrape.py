@@ -837,7 +837,10 @@ def apply_ballistics_penetration(items: List[Dict[str, Any]], thresholds: Dict[s
             continue
         threshold = thresholds[key]
         if threshold is None:
-            item.pop("stopped_by_armor_class", None)
+            # Keep an explicit marker instead of deleting the field. This makes
+            # the source decision visible in gzw-data and survives future
+            # scraper runs without relying on stale field preservation.
+            item["stopped_by_armor_class"] = "NIJ 0"
         else:
             item["stopped_by_armor_class"] = f"NIJ {threshold}"
         updated += 1

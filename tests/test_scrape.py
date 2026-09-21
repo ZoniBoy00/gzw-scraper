@@ -231,7 +231,7 @@ def test_scrape_ballistics_penetration_maps_thresholds(monkeypatch):
     assert thresholds["5.45x39mm wolf"] is None
 
 
-def test_apply_ballistics_penetration_removes_all_zero_thresholds():
+def test_apply_ballistics_penetration_marks_all_zero_thresholds():
     items = [
         {"name": "5.45x39mm BP (7N22)"},
         {"name": "5.45x39mm WOLF", "stopped_by_armor_class": "NIJ I"},
@@ -243,7 +243,7 @@ def test_apply_ballistics_penetration_removes_all_zero_thresholds():
 
     assert updated == 2
     assert items[0]["stopped_by_armor_class"] == "NIJ IV"
-    assert "stopped_by_armor_class" not in items[1]
+    assert items[1]["stopped_by_armor_class"] == "NIJ 0"
 
 
 def test_scrape_listing_page_extracts_rows(monkeypatch):
