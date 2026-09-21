@@ -195,6 +195,57 @@ LISTING_TABLE_HTML_DATA_SRC_FALLBACK = """
 """
 
 
+BALLISTICS_TABLE_HTML = """
+<html><body>
+<table class="wikitable">
+  <tr><th>Caliber</th><th>Name</th><th>Speed</th><th>Acc</th><th>Dur</th><th>Bullet effectiveness against armor class</th></tr>
+  <tr>
+    <td><a href="/wiki/5.45x39mm">5.45x39mm</a></td>
+    <td><a href="/wiki/5.45x39mm_BP">5.45x39mm BP (7N22)</a></td>
+    <td>840 m/s</td><td>+1</td><td>-100</td>
+    <td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td>
+  </tr>
+  <tr>
+    <td><a href="/wiki/5.45x39mm">5.45x39mm</a></td>
+    <td><a href="/wiki/5.45x39mm_BS">5.45x39mm BS (7N24)</a></td>
+    <td>840 m/s</td><td>+6</td><td>-100</td>
+    <td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td>
+  </tr>
+  <tr>
+    <td><a href="/wiki/5.45x39mm">5.45x39mm</a></td>
+    <td><a href="/wiki/5.45x39mm_WOLF">5.45x39mm WOLF</a></td>
+    <td>840 m/s</td><td>-2</td><td></td>
+    <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+  </tr>
+</table>
+</body></html>
+"""
+
+
+def test_scrape_ballistics_penetration_maps_thresholds(monkeypatch):
+    monkeypatch.setattr(scrape, "parse_page", lambda title: soup_of(BALLISTICS_TABLE_HTML))
+    thresholds = scrape.scrape_ballistics_penetration()
+
+    assert thresholds["5.45x39mm bp (7n22)"] == "IV"
+    assert thresholds["5.45x39mm bs (7n24)"] == "III++"
+    assert thresholds["5.45x39mm wolf"] is None
+
+
+def test_apply_ballistics_penetration_removes_all_zero_thresholds():
+    items = [
+        {"name": "5.45x39mm BP (7N22)"},
+        {"name": "5.45x39mm WOLF", "stopped_by_armor_class": "NIJ I"},
+    ]
+    updated = scrape.apply_ballistics_penetration(
+        items,
+        {"5.45x39mm bp (7n22)": "IV", "5.45x39mm wolf": None},
+    )
+
+    assert updated == 2
+    assert items[0]["stopped_by_armor_class"] == "NIJ IV"
+    assert "stopped_by_armor_class" not in items[1]
+
+
 def test_scrape_listing_page_extracts_rows(monkeypatch):
     monkeypatch.setattr(scrape, "parse_page", lambda title: soup_of(LISTING_TABLE_HTML))
     items = scrape.scrape_listing_page("medical", "Medical Items")
