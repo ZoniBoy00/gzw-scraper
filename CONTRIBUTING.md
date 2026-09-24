@@ -8,6 +8,10 @@ Thanks for helping maintain the Gray Zone Warfare data scraper.
 
 The scraper is not the API repository. API route changes belong in `gzw-data`; SDK changes belong in [`gzw-data-js`](https://github.com/ZoniBoy00/gzw-data-js).
 
+## Code layout
+
+The implementation lives in `gzw_scraper/`, split by responsibility: `config.py`, `network.py`, `parsing.py`, `storage.py`, `pipeline.py`, and `cli.py`. The root `scrape.py` is the compatibility entry point and should continue to support existing automation commands. Put new logic in the owning package module rather than growing the launcher.
+
 ## Requirements
 
 - Python 3.11 or newer
@@ -18,8 +22,9 @@ Install the project and test dependencies according to the project setup. For a 
 
 ```bash
 python -m venv .venv
-.venv\\Scripts\\activate
+.\.venv\Scripts\Activate.ps1
 python -m pip install -e .
+python -m pip install pytest
 ```
 
 On Linux/macOS, activate with:

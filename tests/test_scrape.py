@@ -1,15 +1,16 @@
 """
-Regression tests for parse_infobox and scrape_listing_page.
+Regression tests for the scraper's fragile seams.
 
-These two functions are the scraper's most fragile points because they
-rely on Fandom wiki HTML structure (portable-infobox / wikitable).
-If Fandom changes their templates, these tests will break first —
+The implementation lives in the ``gzw_scraper`` package (``scrape`` is a thin
+compatibility facade that re-exports it). Tests patch the owning modules:
+``gzw_scraper.network`` for wiki/API access, ``gzw_scraper.pipeline`` for
+orchestration and ``gzw_scraper.storage`` for persistence. The seams cover
+Fandom HTML structure (portable-infobox / wikitable), ballistics parsing,
+category filtering (real game categories must never be skipped) and
+safe_save's >70% drop-guard — if any of these regress, these tests break
 before production data silently degrades.
 
-Also covers the data-loss guards: category filtering (real game
-categories must never be skipped) and safe_save's >70% drop-guard.
-
-Run: pytest test_scrape.py -v
+Run: pytest tests/ -v
 """
 
 import json
@@ -19,6 +20,7 @@ import bs4
 import pytest
 
 import scrape
+from gzw_scraper import network, pipeline, storage
 
 
 # ─── parse_infobox ───
@@ -223,12 +225,33 @@ BALLISTICS_TABLE_HTML = """
 
 
 def test_scrape_ballistics_penetration_maps_thresholds(monkeypatch):
-    monkeypatch.setattr(scrape, "parse_page", lambda title: soup_of(BALLISTICS_TABLE_HTML))
+    monkeypatch.setattr(network, "parse_page", lambda title: soup_of(BALLISTICS_TABLE_HTML))
     thresholds = scrape.scrape_ballistics_penetration()
 
     assert thresholds["5.45x39mm bp (7n22)"] == "IV"
     assert thresholds["5.45x39mm bs (7n24)"] == "III++"
     assert thresholds["5.45x39mm wolf"] is None
+
+
+def test_normalise_ammo_name_collapses_whitespace_and_nonbreaking_spaces():
+    assert scrape._normalise_ammo_name("5.45x39mm\u00a0  BP") == "5.45x39mm bp"
+
+
+def test_scrape_ballistics_parses_caliber_link_with_plain_text_ammo_name(monkeypatch):
+    html = """
+    <table>
+      <tr><th>Caliber</th><th>Name</th><th>Bullet effectiveness against armor class</th></tr>
+      <tr>
+        <td><a href="/wiki/7.62x25mm">7.62x25mm</a></td><td>FMJ</td>
+        <td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+      </tr>
+    </table>
+    """
+    monkeypatch.setattr(network, "parse_page", lambda title: soup_of(html))
+
+    thresholds = scrape.scrape_ballistics_penetration()
+
+    assert thresholds["7.62x25mm fmj"] == "IIA+"
 
 
 def test_apply_ballistics_penetration_marks_all_zero_thresholds():
@@ -247,7 +270,7 @@ def test_apply_ballistics_penetration_marks_all_zero_thresholds():
 
 
 def test_scrape_listing_page_extracts_rows(monkeypatch):
-    monkeypatch.setattr(scrape, "parse_page", lambda title: soup_of(LISTING_TABLE_HTML))
+    monkeypatch.setattr(network, "parse_page", lambda title: soup_of(LISTING_TABLE_HTML))
     items = scrape.scrape_listing_page("medical", "Medical Items")
 
     names = {item["name"] for item in items}
@@ -261,28 +284,28 @@ def test_scrape_listing_page_extracts_rows(monkeypatch):
 
 def test_scrape_listing_page_skips_tables_without_name_or_icon(monkeypatch):
     monkeypatch.setattr(
-        scrape, "parse_page", lambda title: soup_of(LISTING_TABLE_HTML_NO_NAME_OR_ICON_COLUMN)
+        network, "parse_page", lambda title: soup_of(LISTING_TABLE_HTML_NO_NAME_OR_ICON_COLUMN)
     )
     items = scrape.scrape_listing_page("misc", "Misc Page")
     assert items == []
 
 
 def test_scrape_listing_page_skips_tables_with_only_header_row(monkeypatch):
-    monkeypatch.setattr(scrape, "parse_page", lambda title: soup_of(LISTING_TABLE_HTML_EMPTY_TABLE))
+    monkeypatch.setattr(network, "parse_page", lambda title: soup_of(LISTING_TABLE_HTML_EMPTY_TABLE))
     items = scrape.scrape_listing_page("misc", "Misc Page")
     assert items == []
 
 
 def test_scrape_listing_page_returns_empty_when_page_fails_to_parse(monkeypatch):
     # parse_page returns None when the API call/HTML parse fails upstream.
-    monkeypatch.setattr(scrape, "parse_page", lambda title: None)
+    monkeypatch.setattr(network, "parse_page", lambda title: None)
     items = scrape.scrape_listing_page("medical", "Medical Items")
     assert items == []
 
 
 def test_scrape_listing_page_falls_back_to_data_src_for_lazy_loaded_images(monkeypatch):
     monkeypatch.setattr(
-        scrape, "parse_page", lambda title: soup_of(LISTING_TABLE_HTML_DATA_SRC_FALLBACK)
+        network, "parse_page", lambda title: soup_of(LISTING_TABLE_HTML_DATA_SRC_FALLBACK)
     )
     items = scrape.scrape_listing_page("medical", "Medical Items")
     assert len(items) == 1
@@ -305,12 +328,17 @@ def test_filter_game_categories_keeps_real_game_categories():
         {"*": "Squad Strike Missions", "size": 32},
         {"*": "Loot", "size": 1},
         {"*": "Apparel", "size": 1},
+        {"*": "Removed Content", "size": 24},
+        {"*": "Upcoming Content", "size": 11},
     ]
     kept = scrape.filter_game_categories(cats)
     titles = {k["title"] for k in kept}
     for expected in ("Weapons", "Tasks", "Keys", "Tech", "Task",
                      "Tiger Bay", "Squad Strike Missions", "Loot", "Apparel"):
         assert expected in titles, f"{expected} was filtered out!"
+    assert {"Removed Content", "Upcoming Content"} <= titles
+    assert scrape.CATEGORY_TO_FILENAME["Removed Content"] == "removed_content"
+    assert scrape.CATEGORY_TO_FILENAME["Upcoming Content"] == "upcoming_content"
 
 
 def test_filter_game_categories_skips_wiki_infrastructure():
@@ -329,12 +357,12 @@ def test_filter_game_categories_skips_wiki_infrastructure():
 # A failed scrape (rate limit / wiki down) must NEVER overwrite good data.
 
 def test_get_category_members_returns_none_on_api_failure(monkeypatch):
-    monkeypatch.setattr(scrape, "api_call", lambda params: None)
-    assert scrape.get_category_members("Weapons") is None
+    monkeypatch.setattr(network, "api_call", lambda params: None)
+    assert network.get_category_members("Weapons") is None
 
 
 def test_scrape_category_returns_none_when_members_fetch_fails(monkeypatch):
-    monkeypatch.setattr(scrape, "get_category_members", lambda name, limit: None)
+    monkeypatch.setattr(network, "get_category_members", lambda name, limit: None)
     assert scrape.scrape_category("Weapons", "Weapons") is None
 
 
@@ -342,11 +370,14 @@ def test_scrape_category_skips_explicitly_listed_pages(monkeypatch):
     # Pages in the config [skip_pages] list (redirects/index/lore articles)
     # must be dropped even though they sit in a game category.
     monkeypatch.setattr(
-        scrape, "get_category_members",
+        network, "get_category_members",
         lambda name, limit: [{"title": "Intels"}, {"title": "M14 Rifle"}],
     )
-    monkeypatch.setattr(scrape, "parse_page", lambda title: soup_of(INFOBOX_HTML_MISSING))
-    monkeypatch.setattr(scrape, "SKIP_PAGES", {"Intels"})
+    monkeypatch.setattr(network, "parse_page", lambda title: soup_of(INFOBOX_HTML_MISSING))
+    # Keep the test hermetic: the page-image fallback must not reach the wiki API.
+    monkeypatch.setattr(network, "get_page_image", lambda title, soup=None: None)
+    monkeypatch.setattr(pipeline, "SKIP_PAGES", {"Intels"})
+    monkeypatch.setattr(pipeline, "PAGE_DELAY", 0)
     items = scrape.scrape_category("Upcoming Content", "Upcoming Content")
     assert [i["name"] for i in items] == ["M14 Rifle"]
 
@@ -357,8 +388,8 @@ def test_safe_save_aborts_on_major_drop_preserving_previous_data(tmp_path, monke
     out.mkdir()
     old_items = [{"name": f"Item {i}", "id": f"item-{i}"} for i in range(42)]
     (out / "helmets.json").write_text(json.dumps(old_items), encoding="utf-8")
-    monkeypatch.setattr(scrape, "OUTPUT_DIR", out)
-    monkeypatch.setattr(scrape, "BACKUP_DIR", bak)
+    monkeypatch.setattr(storage, "OUTPUT_DIR", out)
+    monkeypatch.setattr(storage, "BACKUP_DIR", bak)
 
     # 42 -> 2 items is a >70% drop: must be rejected, file stays intact
     new_items = [
@@ -377,8 +408,8 @@ def test_safe_save_force_overrides_drop_guard(tmp_path, monkeypatch):
     out.mkdir()
     old_items = [{"name": f"Item {i}"} for i in range(42)]
     (out / "helmets.json").write_text(json.dumps(old_items), encoding="utf-8")
-    monkeypatch.setattr(scrape, "OUTPUT_DIR", out)
-    monkeypatch.setattr(scrape, "BACKUP_DIR", bak)
+    monkeypatch.setattr(storage, "OUTPUT_DIR", out)
+    monkeypatch.setattr(storage, "BACKUP_DIR", bak)
 
     new_items = [{"name": "AMP-1 TP LC (Ranger Green)"}]
     ok = scrape.safe_save("helmets.json", new_items, previous_count=42, force=True)
@@ -393,8 +424,8 @@ def test_safe_save_accepts_normal_growth(tmp_path, monkeypatch):
     out.mkdir()
     old_items = [{"name": f"Item {i}"} for i in range(10)]
     (out / "test.json").write_text(json.dumps(old_items), encoding="utf-8")
-    monkeypatch.setattr(scrape, "OUTPUT_DIR", out)
-    monkeypatch.setattr(scrape, "BACKUP_DIR", bak)
+    monkeypatch.setattr(storage, "OUTPUT_DIR", out)
+    monkeypatch.setattr(storage, "BACKUP_DIR", bak)
 
     new_items = [{"name": f"Item {i}"} for i in range(12)]
     ok = scrape.safe_save("test.json", new_items, previous_count=10)
@@ -411,8 +442,8 @@ def test_safe_save_preserves_partial_field_once_then_drops_stale_field(tmp_path,
         json.dumps([{"name": "Item 1", "id": "item-1", "legacy_field": "old"}]),
         encoding="utf-8",
     )
-    monkeypatch.setattr(scrape, "OUTPUT_DIR", out)
-    monkeypatch.setattr(scrape, "BACKUP_DIR", bak)
+    monkeypatch.setattr(storage, "OUTPUT_DIR", out)
+    monkeypatch.setattr(storage, "BACKUP_DIR", bak)
 
     first = [{"name": "Item 1", "id": "item-1"}]
     assert scrape.safe_save("items.json", first, previous_count=1) is True
@@ -435,8 +466,8 @@ def test_safe_save_does_not_preserve_low_coverage_field(tmp_path, monkeypatch):
         {"name": "Item 3", "id": "item-3"},
     ]
     (out / "items.json").write_text(json.dumps(old), encoding="utf-8")
-    monkeypatch.setattr(scrape, "OUTPUT_DIR", out)
-    monkeypatch.setattr(scrape, "BACKUP_DIR", bak)
+    monkeypatch.setattr(storage, "OUTPUT_DIR", out)
+    monkeypatch.setattr(storage, "BACKUP_DIR", bak)
 
     new = [{"name": "Item 1", "id": "item-1"}]
     assert scrape.safe_save("items.json", new, previous_count=3, force=True) is True
@@ -446,7 +477,7 @@ def test_safe_save_does_not_preserve_low_coverage_field(tmp_path, monkeypatch):
 def test_write_scrape_metadata(tmp_path, monkeypatch):
     out = tmp_path / "data"
     out.mkdir()
-    monkeypatch.setattr(scrape, "OUTPUT_DIR", out)
+    monkeypatch.setattr(storage, "OUTPUT_DIR", out)
 
     scrape.write_scrape_metadata()
 

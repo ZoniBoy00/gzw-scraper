@@ -4,10 +4,10 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 
 ## Current status
 
-- **Version:** `4.1.0`
+- **Version:** `4.3.0`
 - **Runtime:** Python 3.11+
 - **Source:** GZW Fandom Wiki
-- **Tests:** 34 passing on 2026-09-20
+- **Tests:** 56 passing on 2026-09-24
 - **Output:** generated JSON datasets plus `_metadata.json`
 - **License:** MIT
 
@@ -22,7 +22,7 @@ These are planning milestones, not promises to run live scrapes or publish data 
 - [x] Deterministic metadata and machine-readable scrape reporting.
 - [x] Reviewed data handoff and snapshot recording for `gzw-data`.
 
-The current scraper version is `4.1.0`; `4.0.x` is the previous compatible line.
+The current scraper version is `4.3.0`; `4.1.0` is the previous parser-reliability milestone.
 
 ### `4.1.0` — parser reliability
 
@@ -67,6 +67,7 @@ The current scraper version is `4.1.0`; `4.0.x` is the previous compatible line.
 - [x] Record a new `gzw-data` snapshot after the scraper data handoff.
 - [x] Add a machine-readable scrape report.
 - [x] Add a separate `CONTRIBUTING.md` with parser and release guidance.
+- [x] Keep `Removed Content` and `Upcoming Content` in category discovery and regression-test their output mappings.
 
 ## Next priorities
 

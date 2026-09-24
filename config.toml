@@ -3,7 +3,7 @@
 
 [wiki]
 api_url = "https://gray-zone-warfare.fandom.com/api.php"
-user_agent = "GZW-Tools/4.1 (community tool; github.com/ZoniBoy00/gzw-tools; scraper@gzw-data.dev)"
+user_agent = "GZW-Scraper/4.3.0 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
 
 [scraper]
 # Maximum retries for API calls and page fetches
@@ -64,8 +64,6 @@ infrastructure = [
     "Verification needed",
     "Archive",
     "Maps",
-    "Removed Content",
-    "Upcoming Content",
     "Newspaper",
     "Gray Zone Warfare Wiki",
     "Evidence",
