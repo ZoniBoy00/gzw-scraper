@@ -157,6 +157,8 @@ def test_get_output_filename_maps_known_and_unknown_categories():
     assert pipeline.get_output_filename("Helmet") == "helmets.json"
     assert pipeline.get_output_filename("Removed Content") == "removed_content.json"
     assert pipeline.get_output_filename("Upcoming Content") == "upcoming_content.json"
+    assert pipeline.get_output_filename("Crafting") == "crafting.json"
+    assert pipeline.get_output_filename("Hideout") == "hideout.json"
     assert pipeline.get_output_filename("Some Brand New Category") == "some_brand_new_category.json"
 
 
@@ -198,7 +200,7 @@ def test_cli_help_exits_zero(capsys):
     out = capsys.readouterr().out
     assert "--all" in out
     assert "--force" in out
-    assert "GZW Wiki Scraper v4.5.0" in out
+    assert "GZW Wiki Scraper v4.5.1" in out
 
 
 def test_cli_dispatches_category_over_all(monkeypatch):

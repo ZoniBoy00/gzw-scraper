@@ -4,10 +4,10 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 
 ## Current status
 
-- **Version:** `4.5.0`
+- **Version:** `4.5.1`
 - **Runtime:** Python 3.11+
 - **Source:** GZW Fandom Wiki
-- **Tests:** 70 passing after expanded wiki coverage
+- **Tests:** 72 passing after listing enrichment and category reporting
 - **Output:** generated JSON datasets plus `_metadata.json`
 - **License:** MIT
 
@@ -22,7 +22,7 @@ These are planning milestones, not promises to run live scrapes or publish data 
 - [x] Deterministic metadata and machine-readable scrape reporting.
 - [x] Reviewed data handoff and snapshot recording for `gzw-data`.
 
-The current scraper version is `4.5.0`; `4.1.0` is the previous parser-reliability milestone.
+The current scraper version is `4.5.1`; `4.1.0` is the previous parser-reliability milestone.
 
 ### `4.1.0` — parser reliability
 
@@ -69,6 +69,13 @@ The current scraper version is `4.5.0`; `4.1.0` is the previous parser-reliabili
 - [x] Add selected uncategorized inventory, task, Intel, and boss pages to their canonical datasets.
 - [x] Record source-page revisions for category and standalone-page records.
 - [x] Add fixtures and tests for section parsing, category inclusion, and supplemental-page provenance.
+
+### `4.5.1` — listing completeness and category visibility
+
+- [x] Preserve plate-carrier listing grid, weight, and source fields when item articles are blank.
+- [x] Map listing columns into the field names already consumed by GZW Tools.
+- [x] Report non-empty filtered categories and the names of newly discovered categories.
+- [x] Add regression tests for carrier enrichment and category-filter reporting.
 
 ### `5.0.0` — breaking output contract, only if required
 

@@ -171,6 +171,7 @@ def test_config_maps_wiki_content_categories_to_datasets():
     assert cfg["category_to_filename"]["Factions"] == "factions"
     assert cfg["category_to_filename"]["Newspaper"] == "newspapers"
     assert cfg["content_sections"]["newspapers"]["transcript"] == "Transcript"
+    assert {"grid_size", "weight", "sold_by"} <= set(cfg["listing_page_fields"]["plate_carriers"])
     assert cfg["supplemental_pages"]["plate_carriers"] == ["LCS Sentry (UNLRA)"]
     assert cfg["supplemental_pages"]["bosses"] == [
         "Bloodhound", "Broker", "Chaonai", "Firebrand", "Grin", "Kaptei", "Viper", "Yen"
@@ -195,6 +196,27 @@ def test_scrape_supplemental_pages_records_fields_and_revision(monkeypatch):
     assert result["bosses.json"][0]["faction"] == "LAF"
     assert result["bosses.json"][0]["biography"] == "Boss biography."
     assert pipeline.DATASET_SOURCE_REVISIONS["bosses"] == {"Yen": 18815}
+
+
+def test_plate_carrier_listing_maps_grid_weight_and_source_for_frontend(monkeypatch):
+    monkeypatch.setattr(network, "parse_page", lambda _title: soup_of(LISTING_ARMOR_RATINGS_HTML))
+
+    items = pipeline.scrape_listing_page(
+        "plate_carriers",
+        "Plate Carriers",
+        fields={
+            "protection_rating", "nij_class", "material", "armor_locations", "image",
+            "grid_size", "weight", "sold_by",
+        },
+    )
+
+    buran = next(item for item in items if item["name"] == "Buran's Pantsir 2.0")
+    assert buran["protection_rating"] == "R3"
+    assert buran["nij_class"] == "III++"
+    assert buran["grid_size"] == "3x3"
+    assert buran["weight"] == "9.600kg"
+    assert buran["sold_by"] == "Looting"
+    assert buran["image"].endswith("Buran%27s_Pantsir_2.0_icon.png/revision/latest/scale-to-width-down/180?cb=20260520233024")
 
 
 # ─── scrape_listing_page ───
@@ -225,21 +247,21 @@ LISTING_TABLE_HTML = """
 LISTING_ARMOR_RATINGS_HTML = """
 <html><body>
 <table class="wikitable sortable">
-  <tr><th>Icon</th><th>Name</th><th>NIJ</th><th>Material</th><th>Plates</th></tr>
+  <tr><th>Icon</th><th>Name</th><th>NIJ</th><th>Material</th><th>Plates</th><th>Grid</th><th>Weight</th><th>Source</th></tr>
   <tr>
     <td><img src="https://static.wikia.nocookie.net/gzw/images/press_icon.png" /></td>
     <td><a href="/wiki/Covert_Tactical_Body_Armour_(Press)">Covert Tactical Body Armour (Woodland)</a></td>
-    <td>P3 / IIIA</td><td>Aramid</td><td>Front, Back</td>
+    <td>P3 / IIIA</td><td>Aramid</td><td>Front, Back</td><td>3x3</td><td>9.500 kg</td><td>Handshake R.2</td>
   </tr>
   <tr>
-    <td><img src="https://static.wikia.nocookie.net/gzw/images/buran_icon.png" /></td>
+    <td><img src="https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Buran%27s_Pantsir_2.0_icon.png/revision/latest/scale-to-width-down/180?cb=20260520233024" /></td>
     <td><a href="/wiki/Buran%27s_Pantsir_2.0">Buran's Pantsir 2.0</a></td>
-    <td>R3 / III++</td><td>Ceramic</td><td>Front, Back, Sides</td>
+    <td>R3 / III++</td><td>Ceramic</td><td>Front, Back, Sides</td><td>3x3</td><td>9.600kg</td><td>Looting</td>
   </tr>
   <tr>
     <td><img src="https://static.wikia.nocookie.net/gzw/images/m2_icon.png" /></td>
     <td><a href="/wiki/M2_Plate_Carrier">M2 Plate Carrier</a></td>
-    <td>R3 / III++</td><td>Ceramic</td><td>Front, Back</td>
+    <td>R3 / III++</td><td>Ceramic</td><td>Front, Back</td><td>3x4</td><td>10.000kg</td><td>Gunny R.3</td>
   </tr>
 </table>
 </body></html>
@@ -411,7 +433,7 @@ def test_scrape_listing_page_restores_missing_image_from_listing(monkeypatch):
     items = storage.merge_items(existing, listing_items)
 
     buran = next(item for item in items if item["name"] == "Buran's Pantsir 2.0")
-    assert buran["image"] == "https://static.wikia.nocookie.net/gzw/images/buran_icon.png"
+    assert buran["image"] == "https://static.wikia.nocookie.net/gray-zone-warfare/images/5/5f/Buran%27s_Pantsir_2.0_icon.png/revision/latest/scale-to-width-down/180?cb=20260520233024"
 
 
 def test_listing_page_configures_vest_and_plate_carrier_rating_fields():
@@ -422,7 +444,8 @@ def test_listing_page_configures_vest_and_plate_carrier_rating_fields():
         "protection_rating", "nij_class", "material", "armor_locations", "image"
     ]
     assert cfg["listing_page_fields"]["plate_carriers"] == [
-        "protection_rating", "nij_class", "material", "armor_locations", "image"
+        "protection_rating", "nij_class", "material", "armor_locations", "image",
+        "grid_size", "weight", "sold_by",
     ]
     assert cfg["listing_page_only"]["datasets"] == ["provisions"]
     assert cfg["category_index_pages"]["Armor Vest"] == "Armor Vests"
@@ -479,12 +502,14 @@ def test_filter_game_categories_keeps_real_game_categories():
         {"*": "Regions", "size": 12},
         {"*": "Factions", "size": 6},
         {"*": "Newspaper", "size": 44},
+        {"*": "Crafting", "size": 8},
+        {"*": "Hideout", "size": 5},
     ]
     kept = scrape.filter_game_categories(cats)
     titles = {k["title"] for k in kept}
     for expected in ("Weapons", "Tasks", "Keys", "Tech", "Task",
                      "Tiger Bay", "Squad Strike Missions", "Loot", "Apparel",
-                     "Regions", "Factions", "Newspaper"):
+                     "Regions", "Factions", "Newspaper", "Crafting", "Hideout"):
         assert expected in titles, f"{expected} was filtered out!"
     assert {"Removed Content", "Upcoming Content"} <= titles
     assert scrape.CATEGORY_TO_FILENAME["Removed Content"] == "removed_content"
@@ -501,6 +526,32 @@ def test_filter_game_categories_skips_wiki_infrastructure():
     ]
     kept = scrape.filter_game_categories(cats)
     assert kept == []
+
+
+def test_filtered_category_report_lists_nonempty_skipped_categories():
+    all_categories = [
+        {"*": "Crafting", "size": 5},
+        {"*": "Systems", "size": 12},
+        {"*": "Empty Category", "size": 0},
+    ]
+    included = [{"title": "Crafting", "name": "Crafting", "pages": 5}]
+
+    assert pipeline.get_filtered_categories(all_categories, included) == [
+        {"title": "Systems", "pages": 12}
+    ]
+
+
+def test_filtered_category_report_lists_nonempty_skipped_categories():
+    all_categories = [
+        {"*": "Crafting", "size": 5},
+        {"*": "Systems", "size": 12},
+        {"*": "Empty Category", "size": 0},
+    ]
+    included = [{"title": "Crafting", "name": "Crafting", "pages": 5}]
+
+    assert pipeline.get_filtered_categories(all_categories, included) == [
+        {"title": "Systems", "pages": 12}
+    ]
 
 
 # ─── Data-loss guards ───

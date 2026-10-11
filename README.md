@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
-**v4.5.0 — Expanded wiki coverage.** Scrapes Regions, Factions, and Newspaper articles (including transcripts), plus selected uncategorized inventory, mission, and boss pages. The current test suite has 70 passing tests.
+**v4.5.1 — Complete carrier-list enrichment.** In addition to the v4.5.0 wiki coverage, plate-carrier listing rows now provide grid, weight, and source fields for blank item pages. New and filtered-out wiki categories are reported for review. The current test suite has 72 passing tests.
 
 ## Output metadata
 
@@ -77,7 +77,7 @@ All settings are in `config.toml`:
 ```toml
 [wiki]
 api_url = "https://gray-zone-warfare.fandom.com/api.php"
-user_agent = "GZW-Scraper/4.5.0 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
+user_agent = "GZW-Scraper/4.5.1 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
 
 [scraper]
 max_retries = 5

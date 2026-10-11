@@ -274,7 +274,11 @@ def scrape_listing_page(
                     if fields is None or existing_item is None or "nij_class" not in existing_item:
                         item["nij_class"] = value
                 continue
-            output_field = "armor_locations" if field == "plates" else field
+            output_field = {
+                "plates": "armor_locations",
+                "grid": "grid_size",
+                "source": "sold_by",
+            }.get(field, field)
             if field in meaningful_keys or field == "plates":
                 if fields is None or output_field in fields:
                     if fields is None or existing_item is None or output_field not in existing_item:
@@ -343,6 +347,27 @@ def get_output_filename(category_title: str) -> str:
     return base + ".json"
 
 
+def get_filtered_categories(
+    categories: List[Dict[str, Any]],
+    included_categories: List[Dict[str, Any]],
+) -> List[Dict[str, Any]]:
+    """Return non-empty wiki categories omitted by the active game filter."""
+    included = {
+        str(category.get("title", "")).strip().casefold()
+        for category in included_categories
+    }
+    filtered: List[Dict[str, Any]] = []
+    for category in categories:
+        title = str(category.get("*", "")).replace("_", " ").strip()
+        try:
+            page_count = int(category.get("size", 0))
+        except (TypeError, ValueError):
+            page_count = 0
+        if title and page_count > 0 and title.casefold() not in included:
+            filtered.append({"title": title, "pages": page_count})
+    return sorted(filtered, key=lambda category: category["title"].casefold())
+
+
 def scrape_single_category_task(cat: Dict[str, Any], previous_counts: Dict[str, int]) -> Optional[Tuple[str, List[Dict[str, Any]]]]:
     """Scrape a single category. Used by ThreadPoolExecutor.
 
@@ -381,7 +406,7 @@ def run_full_scrape() -> bool:
         True if scrape completed (even with some failures).
     """
     logger.info("=" * 60)
-    logger.info("GZW Wiki Scraper v4.5.0 — Configurable & Bulletproof")
+    logger.info("GZW Wiki Scraper v4.5.1 — Configurable & Bulletproof")
     logger.info("=" * 60)
 
     DATASET_SOURCE_REVISIONS.clear()
@@ -395,6 +420,10 @@ def run_full_scrape() -> bool:
     all_cats: List[Dict[str, Any]] = network.get_all_categories()
     game_cats: List[Dict[str, Any]] = network.filter_game_categories(all_cats)
     logger.info("Found %d total categories, %d game-relevant", len(all_cats), len(game_cats))
+    filtered_categories = get_filtered_categories(all_cats, game_cats)
+    logger.info("Filtered out %d non-empty wiki categories", len(filtered_categories))
+    for category in filtered_categories:
+        logger.info("  Category not scraped: %s (%d pages)", category["title"], category["pages"])
 
     # Sort by number of pages (smallest first for quick wins)
     game_cats.sort(key=lambda c: c["pages"])
@@ -407,7 +436,7 @@ def run_full_scrape() -> bool:
     # Per-category task files (main_task.json, side_task.json) kept separate for
     # frontend compatibility — gzw-tools MissionFinder fetches them individually.
     task_split: Dict[str, List[Dict[str, Any]]] = {}
-    auto_discovered: int = 0
+    auto_discovered_categories: Set[str] = set()
 
     # Use ThreadPoolExecutor for parallel scraping
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
@@ -442,7 +471,7 @@ def run_full_scrape() -> bool:
                     # Check if this is a newly discovered category
                     expected_filename: str = get_output_filename(cat["title"])
                     if expected_filename not in previous_counts:
-                        auto_discovered += 1
+                        auto_discovered_categories.add(cat["title"])
             except Exception as exc:
                 logger.error("  Failed to scrape '%s': %s", cat["title"], exc)
 
@@ -509,8 +538,12 @@ def run_full_scrape() -> bool:
     logger.info("\n" + "=" * 60)
     logger.info("📊 Scrape Complete!")
     logger.info("  Files saved: %d/%d", saved_count, len(merged))
-    if auto_discovered:
-        logger.info("  🆕 New categories discovered: %d", auto_discovered)
+    if auto_discovered_categories:
+        logger.info(
+            "  🆕 New categories discovered (%d): %s",
+            len(auto_discovered_categories),
+            ", ".join(sorted(auto_discovered_categories, key=str.casefold)),
+        )
     write_scrape_metadata(updated_datasets, full_scrape=True)
     logger.info("  Metadata updated: %s", storage.METADATA_FILENAME)
     logger.info("=" * 60)

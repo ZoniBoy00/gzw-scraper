@@ -1,5 +1,5 @@
 """
-GZW Wiki Scraper v4.5.0 — Configurable & Bulletproof
+GZW Wiki Scraper v4.5.1 — Configurable & Bulletproof
 ==================================================
 Automatically discovers supported game-data categories from the wiki and scrapes their pages.
 
