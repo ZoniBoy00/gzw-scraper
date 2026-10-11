@@ -136,6 +136,9 @@ def scrape_category(name: str, title: str) -> Optional[List[Dict[str, Any]]]:
 
             items.append(item)
             _record_source_page(get_output_filename(title), page_title)
+            split_name = title.casefold().replace(" ", "_")
+            if split_name in {"main_task", "side_task"}:
+                _record_source_page(f"{split_name}.json", page_title)
         except Exception as exc:
             logger.debug("  Error scraping '%s': %s", page_title, exc)
             skipped += 1

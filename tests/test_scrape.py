@@ -572,6 +572,20 @@ def test_write_scrape_metadata(tmp_path, monkeypatch):
     assert vest["sourcePages"] == [{"title": "B Krogan", "revisionId": 18815}]
 
 
+def test_task_category_source_revisions_are_attributed_to_split_dataset(monkeypatch):
+    monkeypatch.setattr(network, "get_category_members", lambda *_args, **_kwargs: [{"title": "Task Alpha"}])
+    monkeypatch.setattr(network, "parse_page", lambda _title: bs4.BeautifulSoup("<html><body></body></html>", "html.parser"))
+    monkeypatch.setattr(pipeline.parsing, "parse_infobox", lambda _soup: {})
+    monkeypatch.setattr(network, "get_page_image", lambda *_args, **_kwargs: None)
+    monkeypatch.setattr(network, "PAGE_REVISIONS", {"Task Alpha": 123}, raising=False)
+    monkeypatch.setattr(pipeline, "DATASET_SOURCE_REVISIONS", {})
+    monkeypatch.setattr(pipeline.time, "sleep", lambda _seconds: None)
+
+    pipeline.scrape_category("Main task", "Main task")
+
+    assert pipeline.DATASET_SOURCE_REVISIONS["main_task"] == {"Task Alpha": 123}
+
+
 def test_parse_page_records_mediawiki_revision_id(monkeypatch):
     payload = {"parse": {"title": "B Krogan", "pageid": 5647, "revid": 18815, "text": "<p>item</p>"}}
     monkeypatch.setattr(network, "api_call", lambda _params: payload)

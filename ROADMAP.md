@@ -7,7 +7,7 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 - **Version:** `4.4.1`
 - **Runtime:** Python 3.11+
 - **Source:** GZW Fandom Wiki
-- **Tests:** 65 passing after the freshness and provenance update
+- **Tests:** 66 passing after the freshness and provenance update
 - **Output:** generated JSON datasets plus `_metadata.json`
 - **License:** MIT
 
