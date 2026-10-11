@@ -103,7 +103,7 @@ def test_generate_metadata_manual_regeneration_preserves_run_timestamps(tmp_path
     assert metadata["datasets"][0]["lastScrapedAt"] == "2026-10-11T10:00:00Z"
 
 
-def test_generate_metadata_replaces_sources_and_marks_full_scrape_time(tmp_path):
+def test_generate_metadata_merges_source_revisions_and_marks_full_scrape_time(tmp_path):
     (tmp_path / "vests.json").write_text(json.dumps([{"id": "vest", "name": "Vest"}]), encoding="utf-8")
     previous = {
         "datasets": [{"name": "vests", "sourcePages": [{"title": "Old page", "revisionId": 10}]}],
@@ -120,4 +120,7 @@ def test_generate_metadata_replaces_sources_and_marks_full_scrape_time(tmp_path)
 
     vest = metadata["datasets"][0]
     assert metadata["lastFullScrapeAt"] == "2026-10-11T12:00:00Z"
-    assert vest["sourcePages"] == [{"title": "New page", "revisionId": 20}]
+    assert vest["sourcePages"] == [
+        {"title": "New page", "revisionId": 20},
+        {"title": "Old page", "revisionId": 10},
+    ]

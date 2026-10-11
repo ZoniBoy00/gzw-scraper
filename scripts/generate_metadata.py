@@ -99,10 +99,9 @@ def generate_metadata(
             dataset["lastScrapedAt"] = dataset_scraped_at
 
         sources: dict[str, int] = {}
-        if not full_scrape or name not in updated_names:
-            for source in previous.get("sourcePages", []):
-                if isinstance(source, dict) and isinstance(source.get("title"), str) and isinstance(source.get("revisionId"), int):
-                    sources[source["title"]] = source["revisionId"]
+        for source in previous.get("sourcePages", []):
+            if isinstance(source, dict) and isinstance(source.get("title"), str) and isinstance(source.get("revisionId"), int):
+                sources[source["title"]] = source["revisionId"]
         if name in updated_names:
             sources.update(source_revisions.get(name, {}))
         if sources:
