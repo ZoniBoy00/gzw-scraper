@@ -358,6 +358,8 @@ def test_listing_page_configures_vest_and_plate_carrier_rating_fields():
     assert cfg["listing_page_fields"]["plate_carriers"] == [
         "protection_rating", "nij_class", "material", "armor_locations"
     ]
+    assert cfg["listing_page_only"]["datasets"] == ["provisions"]
+    assert cfg["category_index_pages"]["Armor Vest"] == "Armor Vests"
 
 
 def test_scrape_listing_page_skips_tables_without_name_or_icon(monkeypatch):
@@ -555,13 +557,70 @@ def test_safe_save_does_not_preserve_low_coverage_field(tmp_path, monkeypatch):
 def test_write_scrape_metadata(tmp_path, monkeypatch):
     out = tmp_path / "data"
     out.mkdir()
+    (out / "vests.json").write_text(json.dumps([{"name": "B Krogan", "id": "b-krogan"}]), encoding="utf-8")
     monkeypatch.setattr(storage, "OUTPUT_DIR", out)
+    monkeypatch.setattr(pipeline, "DATASET_SOURCE_REVISIONS", {"vests": {"B Krogan": 18815}})
 
-    scrape.write_scrape_metadata()
+    scrape.write_scrape_metadata({"vests"}, full_scrape=True)
 
     metadata = json.loads((out / scrape.METADATA_FILENAME).read_text(encoding="utf-8"))
     assert metadata["source"] == "gzw-scraper"
     assert metadata["lastScrapedAt"].endswith("Z")
+    assert metadata["lastFullScrapeAt"] == metadata["lastScrapedAt"]
+    vest = metadata["datasets"][0]
+    assert vest["lastScrapedAt"] == metadata["lastScrapedAt"]
+    assert vest["sourcePages"] == [{"title": "B Krogan", "revisionId": 18815}]
+
+
+def test_parse_page_records_mediawiki_revision_id(monkeypatch):
+    payload = {"parse": {"title": "B Krogan", "pageid": 5647, "revid": 18815, "text": "<p>item</p>"}}
+    monkeypatch.setattr(network, "api_call", lambda _params: payload)
+    monkeypatch.setattr(network, "PAGE_REVISIONS", {}, raising=False)
+
+    page = network.parse_page("B Krogan")
+
+    assert page is not None
+    assert network.PAGE_REVISIONS["B Krogan"] == 18815
+
+
+def test_scrape_category_skips_configured_plural_index_title(monkeypatch):
+    pages = [{"title": "Armor Vests"}, {"title": "B Krogan"}]
+    monkeypatch.setattr(network, "get_category_members", lambda _category, **_kwargs: pages)
+    monkeypatch.setattr(network, "parse_page", lambda _title: soup_of("<html></html>"))
+    monkeypatch.setattr(pipeline.parsing, "parse_infobox", lambda _soup: {"type": "Vest"})
+    monkeypatch.setattr(network, "get_page_image", lambda *_args: None)
+    monkeypatch.setattr(pipeline, "CATEGORY_INDEX_PAGE_TITLES", {"Armor Vest": "Armor Vests"}, raising=False)
+    monkeypatch.setattr(pipeline, "PAGE_DELAY", 0)
+
+    items = pipeline.scrape_category("Armor_Vest", "Armor Vest")
+
+    assert [item["name"] for item in items] == ["B Krogan"]
+
+
+def test_category_pages_are_kept_when_listing_tables_enrich_same_dataset(monkeypatch):
+    items = [{"name": "B Krogan", "id": "b-krogan"}]
+    monkeypatch.setattr(pipeline, "scrape_category", lambda name, title: items)
+
+    result = pipeline.scrape_single_category_task(
+        {"name": "Armor_Vest", "title": "Armor Vest", "pages": 19},
+        {},
+    )
+
+    assert result == ("vests.json", items)
+
+
+def test_provisions_category_is_skipped_in_favor_of_its_listing_table(monkeypatch):
+    def fail_if_called(_name, _title):
+        raise AssertionError("listing-only category page must be skipped")
+
+    monkeypatch.setattr(pipeline, "scrape_category", fail_if_called)
+
+    result = pipeline.scrape_single_category_task(
+        {"name": "Provisions", "title": "Provisions", "pages": 1},
+        {},
+    )
+
+    assert result is None
 
 
 if __name__ == "__main__":

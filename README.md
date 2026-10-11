@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
-**v4.4.0 — Configurable & Bulletproof.** Automatically discovers supported game categories from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and scrapes their pages into structured JSON. The current test suite has 58 passing tests.
+**v4.4.1 — Freshness & Provenance.** Automatically discovers supported game categories from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and scrapes their pages into structured JSON. The current test suite has 65 passing tests.
 
 ## Output metadata
 
@@ -77,7 +77,7 @@ All settings are in `config.toml`:
 ```toml
 [wiki]
 api_url = "https://gray-zone-warfare.fandom.com/api.php"
-user_agent = "GZW-Scraper/4.4.0 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
+user_agent = "GZW-Scraper/4.4.1 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
 
 [scraper]
 max_retries = 5

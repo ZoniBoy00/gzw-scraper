@@ -3,7 +3,7 @@
 
 [wiki]
 api_url = "https://gray-zone-warfare.fandom.com/api.php"
-user_agent = "GZW-Scraper/4.4.0 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
+user_agent = "GZW-Scraper/4.4.1 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
 
 [scraper]
 # Maximum retries for API calls and page fetches
@@ -184,9 +184,8 @@ titles = [
 "4.6x30mm" = "ammo"
 
 [listing_pages]
-# Categories whose items are listed only on a single wiki page (not individual pages)
-# Format: "output_filename_key" = "Wiki Page Title"
-# The output filename will be <key>.json
+# Wiki list pages whose tables enrich one or more dataset outputs.
+# Some datasets combine these table rows with individual category pages.
 loot_items = "Loot"
 apparel_items = "Apparel"
 provisions = "Provisions"
@@ -198,3 +197,12 @@ plate_carriers = "Plate Carriers"
 # preserving the rest of each item's category/infobox data.
 vests = ["protection_rating", "nij_class", "material", "armor_locations"]
 plate_carriers = ["protection_rating", "nij_class", "material", "armor_locations"]
+
+[listing_page_only]
+# These dataset keys are populated from their listing table instead of a wiki
+# category page; keep this explicit so enrichment tables do not hide page data.
+datasets = ["provisions"]
+
+[category_index_pages]
+# The category is singular on the wiki, but its index article uses the plural.
+"Armor Vest" = "Armor Vests"

@@ -16,8 +16,8 @@ def test_generate_metadata_describes_fields_and_optional_values(tmp_path):
     metadata = generate_metadata(tmp_path, last_scraped_at="2026-08-26T12:00:00Z")
 
     assert metadata["source"] == "gzw-scraper"
-    assert metadata["scraperVersion"] == "4.4.0"
-    assert metadata["parserRevision"] == "universal-parser-v5"
+    assert metadata["scraperVersion"] == "4.4.1"
+    assert metadata["parserRevision"] == "universal-parser-v6"
     assert metadata["datasetCount"] == 1
     assert metadata["lastScrapedAt"] == "2026-08-26T12:00:00Z"
     fields = metadata["datasets"][0]["fields"]
@@ -54,3 +54,70 @@ def test_generate_metadata_examples_are_deterministic(tmp_path):
     second_metadata = generate_metadata(tmp_path)
 
     assert first_metadata == second_metadata
+
+
+def test_generate_metadata_tracks_per_dataset_scrape_time_and_source_revision(tmp_path):
+    (tmp_path / "ammo.json").write_text(json.dumps([{"id": "m855", "name": "M855"}]), encoding="utf-8")
+    (tmp_path / "vests.json").write_text(json.dumps([{"id": "vest", "name": "Vest"}]), encoding="utf-8")
+    previous = {
+        "lastScrapedAt": "2026-10-05T10:00:00Z",
+        "lastFullScrapeAt": "2026-10-05T10:00:00Z",
+        "datasets": [
+            {"name": "ammo", "lastScrapedAt": "2026-10-05T10:00:00Z", "sourcePages": [{"title": "Ammo page", "revisionId": 10}]},
+            {"name": "vests", "lastScrapedAt": "2026-10-05T10:00:00Z", "sourcePages": [{"title": "Old vest page", "revisionId": 20}]},
+        ],
+    }
+
+    metadata = generate_metadata(
+        tmp_path,
+        last_scraped_at="2026-10-11T12:00:00Z",
+        updated_datasets={"vests"},
+        source_revisions={"vests": {"Armor Vests": 321}},
+        previous_metadata=previous,
+    )
+
+    datasets = {dataset["name"]: dataset for dataset in metadata["datasets"]}
+    assert metadata["lastScrapedAt"] == "2026-10-11T12:00:00Z"
+    assert metadata["lastFullScrapeAt"] == "2026-10-05T10:00:00Z"
+    assert datasets["ammo"]["lastScrapedAt"] == "2026-10-05T10:00:00Z"
+    assert datasets["ammo"]["sourcePages"] == [{"title": "Ammo page", "revisionId": 10}]
+    assert datasets["vests"]["lastScrapedAt"] == "2026-10-11T12:00:00Z"
+    assert datasets["vests"]["sourcePages"] == [
+        {"title": "Armor Vests", "revisionId": 321},
+        {"title": "Old vest page", "revisionId": 20},
+    ]
+
+
+def test_generate_metadata_manual_regeneration_preserves_run_timestamps(tmp_path):
+    (tmp_path / "vests.json").write_text(json.dumps([{"id": "vest", "name": "Vest"}]), encoding="utf-8")
+    previous = {
+        "lastScrapedAt": "2026-10-11T10:00:00Z",
+        "lastFullScrapeAt": "2026-10-05T10:00:00Z",
+        "datasets": [{"name": "vests", "lastScrapedAt": "2026-10-11T10:00:00Z"}],
+    }
+
+    metadata = generate_metadata(tmp_path, previous_metadata=previous)
+
+    assert metadata["lastScrapedAt"] == "2026-10-11T10:00:00Z"
+    assert metadata["lastFullScrapeAt"] == "2026-10-05T10:00:00Z"
+    assert metadata["datasets"][0]["lastScrapedAt"] == "2026-10-11T10:00:00Z"
+
+
+def test_generate_metadata_replaces_sources_and_marks_full_scrape_time(tmp_path):
+    (tmp_path / "vests.json").write_text(json.dumps([{"id": "vest", "name": "Vest"}]), encoding="utf-8")
+    previous = {
+        "datasets": [{"name": "vests", "sourcePages": [{"title": "Old page", "revisionId": 10}]}],
+    }
+
+    metadata = generate_metadata(
+        tmp_path,
+        last_scraped_at="2026-10-11T12:00:00Z",
+        updated_datasets={"vests"},
+        source_revisions={"vests": {"New page": 20}},
+        previous_metadata=previous,
+        full_scrape=True,
+    )
+
+    vest = metadata["datasets"][0]
+    assert metadata["lastFullScrapeAt"] == "2026-10-11T12:00:00Z"
+    assert vest["sourcePages"] == [{"title": "New page", "revisionId": 20}]

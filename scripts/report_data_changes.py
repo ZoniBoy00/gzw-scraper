@@ -13,7 +13,7 @@ from typing import Any
 
 
 Item = dict[str, Any]
-EXCLUDED_FILES = frozenset({"_metadata.json", "_history.json", "_manifest.json"})
+EXCLUDED_FILES = frozenset({"_field_preservation.json", "_history.json", "_manifest.json", "_metadata.json"})
 
 
 def load_json(path: Path) -> Any:
@@ -66,8 +66,12 @@ def compare_items(before: Any, after: Any) -> dict[str, Any]:
         "items_removed": len(removed),
         "items_changed": changed,
         "changed_fields": dict(sorted(changed_fields.items())),
-        "added_names": added[:25],
-        "removed_names": removed[:25],
+        "added_names": sorted(
+            str(new[key].get("name") or key) for key in added[:25]
+        ),
+        "removed_names": sorted(
+            str(old[key].get("name") or key) for key in removed[:25]
+        ),
     }
 
 
@@ -109,12 +113,25 @@ def anomaly_warnings(before: Any, after: Any) -> list[dict[str, Any]]:
     """Report suspicious output changes for human review."""
     if not isinstance(before, list) or not isinstance(after, list) or not before:
         return []
+
+    old = {item_key(item): item for item in before if isinstance(item, dict)}
+    new = {item_key(item): item for item in after if isinstance(item, dict)}
+    removed = sorted(set(old) - set(new))
+    warnings: list[dict[str, Any]] = []
+    if removed:
+        warnings.append({
+            "kind": "items_removed",
+            "count": len(removed),
+            "names": sorted(str(old[key].get("name") or key) for key in removed[:25]),
+        })
     if not after:
-        return [{"kind": "empty_dataset", "before": len(before), "after": 0}]
+        warnings.append({"kind": "empty_dataset", "before": len(before), "after": 0})
+        return warnings
+
     ratio = len(after) / len(before)
     if ratio < 0.3:
-        return [{"kind": "massive_count_drop", "before": len(before), "after": len(after), "ratio": ratio}]
-    return []
+        warnings.append({"kind": "massive_count_drop", "before": len(before), "after": len(after), "ratio": ratio})
+    return warnings
 
 
 def build_report(before_dir: Path, after_dir: Path, log_path: Path | None = None) -> dict[str, Any]:
@@ -194,10 +211,14 @@ def markdown_summary(report: dict[str, Any]) -> str:
     if changed:
         lines.append("")
         lines.append("### Dataset changes")
-        lines.extend(
-            f"- `{item['file']}`: {item['status']}; {item['before_count']} → {item['after_count']} items; +{item['items_added']} / -{item['items_removed']} / ~{item['items_changed']}"
-            for item in changed
-        )
+        for item in changed:
+            lines.append(
+                f"- `{item['file']}`: {item['status']}; {item['before_count']} → {item['after_count']} items; +{item['items_added']} / -{item['items_removed']} / ~{item['items_changed']}"
+            )
+            for signal in item["anomalies"]:
+                if signal["kind"] == "items_removed":
+                    names = ", ".join(signal["names"])
+                    lines.append(f"  - Removed items for review: {names}")
     else:
         lines.append("- **No captured data changes.** The scraped JSON matches the previous dataset.")
     return "\n".join(lines)

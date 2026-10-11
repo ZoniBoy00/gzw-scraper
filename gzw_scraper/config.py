@@ -20,7 +20,7 @@ CONFIG_PATH: Path = Path(__file__).resolve().parent.parent / "config.toml"
 DEFAULT_CONFIG: Dict[str, Any] = {
     "wiki": {
         "api_url": "https://gray-zone-warfare.fandom.com/api.php",
-        "user_agent": "GZW-Scraper/4.4.0 (community tool; github.com/ZoniBoy00/gzw-scraper)",
+        "user_agent": "GZW-Scraper/4.4.1 (community tool; github.com/ZoniBoy00/gzw-scraper)",
     },
     "scraper": {
         "max_retries": 5,
@@ -153,6 +153,12 @@ DEFAULT_CONFIG: Dict[str, Any] = {
         "vests": ["protection_rating", "nij_class", "material", "armor_locations"],
         "plate_carriers": ["protection_rating", "nij_class", "material", "armor_locations"],
     },
+    "listing_page_only": {
+        "datasets": ["provisions"],
+    },
+    "category_index_pages": {
+        "Armor Vest": "Armor Vests",
+    },
 }
 
 # ─── Runtime settings (populated by apply_settings) ───
@@ -237,6 +243,10 @@ def apply_settings(config_path: Path = CONFIG_PATH) -> None:
         name: set(fields)
         for name, fields in cfg.get("listing_page_fields", {}).items()
     }
+    pipeline.LISTING_PAGE_ONLY_DATASETS = set(
+        cfg.get("listing_page_only", {}).get("datasets", [])
+    )
+    pipeline.CATEGORY_INDEX_PAGE_TITLES = dict(cfg.get("category_index_pages", {}))
     pipeline.SKIP_PAGES = set(cfg.get("skip_pages", {}).get("titles", []))
     pipeline.PAGE_DELAY = scraper_config["page_delay"]
     pipeline.MAX_WORKERS = scraper_config.get("max_workers", 3)

@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import logging
 import re
+import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
@@ -28,6 +29,8 @@ logger = logging.getLogger("gzw-scraper")
 CATEGORY_TO_FILENAME: Dict[str, str] = {}
 LISTING_PAGES: Dict[str, str] = {}
 LISTING_PAGE_FIELDS: Dict[str, Set[str]] = {}
+LISTING_PAGE_ONLY_DATASETS: Set[str] = set()
+CATEGORY_INDEX_PAGE_TITLES: Dict[str, str] = {}
 SKIP_PAGES: Set[str] = set()
 PAGE_DELAY: float = 0.8
 MAX_WORKERS: int = 3
@@ -35,6 +38,18 @@ MAX_SAFE_DEVIATION: float = 0.7
 
 # Set to True via --force to bypass the >70% item-drop guard in safe_save.
 FORCE_SAVE: bool = False
+DATASET_SOURCE_REVISIONS: Dict[str, Dict[str, int]] = {}
+SOURCE_REVISION_LOCK = threading.Lock()
+
+
+def _record_source_page(dataset_filename: str, page_title: str) -> None:
+    """Record the MediaWiki revision that contributed to a dataset."""
+    revision_id = network.PAGE_REVISIONS.get(page_title)
+    if not isinstance(revision_id, int):
+        return
+    dataset_name = Path(dataset_filename).stem
+    with SOURCE_REVISION_LOCK:
+        DATASET_SOURCE_REVISIONS.setdefault(dataset_name, {})[page_title] = revision_id
 
 
 # ─── Universal scraper ───
@@ -114,11 +129,13 @@ def scrape_category(name: str, title: str) -> Optional[List[Dict[str, Any]]]:
 
             # Skip the category's own index page (e.g. the "Weapon Parts" page
             # inside the Weapon Parts category) — it is not a real item.
-            if page_title == title:
+            index_title = CATEGORY_INDEX_PAGE_TITLES.get(title, title)
+            if page_title.casefold() == index_title.casefold():
                 skipped += 1
                 continue
 
             items.append(item)
+            _record_source_page(get_output_filename(title), page_title)
         except Exception as exc:
             logger.debug("  Error scraping '%s': %s", page_title, exc)
             skipped += 1
@@ -238,6 +255,8 @@ def scrape_listing_page(
         items.append(item)
 
     logger.info("  Found %d items in '%s'", len(items), page_title)
+    if items:
+        _record_source_page(key, page_title)
     return items
 
 
@@ -260,14 +279,21 @@ def get_previous_counts() -> Dict[str, int]:
     return counts
 
 
-def write_scrape_metadata() -> None:
-    """Write scrape timestamp and deterministic dataset schema metadata."""
+def write_scrape_metadata(
+    updated_datasets: Optional[Set[str]] = None,
+    *,
+    full_scrape: bool = False,
+) -> None:
+    """Write dataset freshness, MediaWiki revision provenance, and schemas."""
     timestamp = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     write_metadata(
         storage.OUTPUT_DIR,
         last_scraped_at=timestamp,
         scraper_version=SCRAPER_VERSION,
         parser_revision=PARSER_REVISION,
+        updated_datasets=updated_datasets or set(),
+        source_revisions=DATASET_SOURCE_REVISIONS,
+        full_scrape=full_scrape,
     )
 
 
@@ -301,9 +327,10 @@ def scrape_single_category_task(cat: Dict[str, Any], previous_counts: Dict[str, 
     title: str = cat["title"]
     filename: str = get_output_filename(title)
 
-    # Skip listing-page-only categories (compare basename without .json)
+    # Skip only datasets configured to be generated exclusively from listing
+    # pages; other datasets may need both category pages and listing enrichment.
     base_name: str = filename.replace(".json", "")
-    if base_name in LISTING_PAGES:
+    if base_name in LISTING_PAGE_ONLY_DATASETS:
         return None
 
     items: Optional[List[Dict[str, Any]]] = scrape_category(name, title)
@@ -324,8 +351,11 @@ def run_full_scrape() -> bool:
         True if scrape completed (even with some failures).
     """
     logger.info("=" * 60)
-    logger.info("GZW Wiki Scraper v4.4.0 — Configurable & Bulletproof")
+    logger.info("GZW Wiki Scraper v4.4.1 — Configurable & Bulletproof")
     logger.info("=" * 60)
+
+    DATASET_SOURCE_REVISIONS.clear()
+    network.PAGE_REVISIONS.clear()
 
     # Get previous counts for change detection
     previous_counts: Dict[str, int] = get_previous_counts()
@@ -425,10 +455,12 @@ def run_full_scrape() -> bool:
     logger.info("\n💾 Phase 4: Saving %d merged files...", len(merged))
 
     saved_count: int = 0
+    updated_datasets: Set[str] = set()
     for filename, items in merged.items():
         prev_count: Optional[int] = previous_counts.get(filename)
         if storage.safe_save(filename, items, prev_count, force=FORCE_SAVE):
             saved_count += 1
+            updated_datasets.add(Path(filename).stem)
 
     # Save per-category task files (main_task.json, side_task.json)
     for filename, items in task_split.items():
@@ -436,6 +468,7 @@ def run_full_scrape() -> bool:
         prev_count = previous_counts.get(full_name)
         if storage.safe_save(full_name, items, prev_count, force=FORCE_SAVE):
             saved_count += 1
+            updated_datasets.add(Path(full_name).stem)
 
     # ── Summary ──
     logger.info("\n" + "=" * 60)
@@ -443,7 +476,7 @@ def run_full_scrape() -> bool:
     logger.info("  Files saved: %d/%d", saved_count, len(merged))
     if auto_discovered:
         logger.info("  🆕 New categories discovered: %d", auto_discovered)
-    write_scrape_metadata()
+    write_scrape_metadata(updated_datasets, full_scrape=True)
     logger.info("  Metadata updated: %s", storage.METADATA_FILENAME)
     logger.info("=" * 60)
     return True
@@ -458,11 +491,15 @@ def run_single_category(category_name: str) -> bool:
     Returns:
         True if successful.
     """
+    DATASET_SOURCE_REVISIONS.clear()
+    network.PAGE_REVISIONS.clear()
     items: Optional[List[Dict[str, Any]]] = scrape_category(category_name, category_name)
     if not items:
         logger.error("No items scraped for '%s' (and previous data preserved)", category_name)
         return False
     filename: str = get_output_filename(category_name)
-    storage.safe_save(filename, items, force=FORCE_SAVE)
+    saved = storage.safe_save(filename, items, force=FORCE_SAVE)
+    if saved:
+        write_scrape_metadata({Path(filename).stem})
     logger.info("Done: %d items in %s", len(items), filename)
     return True

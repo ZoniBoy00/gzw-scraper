@@ -25,6 +25,7 @@ BASE_DELAY: float = 1.0
 REQUEST_INTERVAL: float = 0.5
 CATEGORY_PAGE_LIMIT: int = 500
 SKIP_CATEGORIES: Set[str] = set()
+PAGE_REVISIONS: Dict[str, int] = {}
 
 # ─── Global rate limiting ───
 # Fandom rate-limits aggressively (HTTP 429) when several worker threads hit
@@ -269,13 +270,17 @@ def parse_page(title: str) -> Optional[bs4.BeautifulSoup]:
     params: Dict[str, Any] = {
         "action": "parse",
         "page": title,
-        "prop": "text",
+        "prop": "text|revid",
         "formatversion": "2",
     }
     data: Optional[Dict[str, Any]] = api_call(params)
     if not data:
         return None
-    html: str = data.get("parse", {}).get("text", "")
+    parsed: Dict[str, Any] = data.get("parse", {})
+    revision_id = parsed.get("revid")
+    if isinstance(revision_id, int):
+        PAGE_REVISIONS[title] = revision_id
+    html: str = parsed.get("text", "")
     if not html:
         return None
     try:

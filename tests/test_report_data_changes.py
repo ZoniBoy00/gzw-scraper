@@ -31,6 +31,11 @@ def test_build_report_detects_item_and_field_changes(tmp_path):
     assert report["totals"]["items_removed"] == 1
     assert report["totals"]["items_changed"] == 1
     assert report["totals"]["changed_fields"] == {"caliber": 1}
+    weapon_change = next(item for item in report["datasets"] if item["file"] == "weapons.json")
+    assert weapon_change["added_names"] == ["AK-12"]
+    assert weapon_change["removed_names"] == ["M4"]
+    assert weapon_change["anomalies"] == [{"kind": "items_removed", "count": 1, "names": ["M4"]}]
+    assert "Removed items for review: M4" in markdown_summary(report)
     assert "weapons.json" in markdown_summary(report)
 
 
@@ -43,7 +48,8 @@ def test_build_report_adds_schema_and_anomaly_warnings(tmp_path):
     warnings = build_report(before, after)["datasets"][0]
 
     assert {item["kind"] for item in warnings["schema_warnings"]} == {"type_changed", "added", "null_heavy"}
-    assert warnings["anomalies"][0]["kind"] == "massive_count_drop"
+    assert {item["kind"] for item in warnings["anomalies"]} == {"items_removed", "massive_count_drop"}
+    assert next(item for item in warnings["anomalies"] if item["kind"] == "massive_count_drop")["ratio"] == 0.25
 
 
 def test_build_report_ignores_scrape_metadata_changes(tmp_path):
@@ -57,11 +63,13 @@ def test_build_report_ignores_scrape_metadata_changes(tmp_path):
     write_json(after, "_history.json", [{"version": "new"}])
     write_json(before, "_manifest.json", {"generatedAt": "old"})
     write_json(after, "_manifest.json", {"generatedAt": "new"})
+    write_json(before, "_field_preservation.json", {"weapons.json": {"AK-74": {"caliber": 1}}})
+    write_json(after, "_field_preservation.json", {"weapons.json": {"AK-74": {"caliber": 2}}})
 
     report = build_report(before, after)
 
     assert report["files"] == {"before": 1, "after": 1, "added": 0, "removed": 0, "changed": 0, "unchanged": 1}
-    assert report["excluded_files"] == ["_history.json", "_manifest.json", "_metadata.json"]
+    assert report["excluded_files"] == ["_field_preservation.json", "_history.json", "_manifest.json", "_metadata.json"]
     assert report["totals"]["items_before"] == 1
     assert report["totals"]["items_after"] == 1
 

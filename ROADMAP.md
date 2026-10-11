@@ -4,10 +4,10 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 
 ## Current status
 
-- **Version:** `4.4.0`
+- **Version:** `4.4.1`
 - **Runtime:** Python 3.11+
 - **Source:** GZW Fandom Wiki
-- **Tests:** 58 passing after the armor listing parser update
+- **Tests:** 65 passing after the freshness and provenance update
 - **Output:** generated JSON datasets plus `_metadata.json`
 - **License:** MIT
 
@@ -22,7 +22,7 @@ These are planning milestones, not promises to run live scrapes or publish data 
 - [x] Deterministic metadata and machine-readable scrape reporting.
 - [x] Reviewed data handoff and snapshot recording for `gzw-data`.
 
-The current scraper version is `4.4.0`; `4.1.0` is the previous parser-reliability milestone.
+The current scraper version is `4.4.1`; `4.1.0` is the previous parser-reliability milestone.
 
 ### `4.1.0` — parser reliability
 
@@ -53,6 +53,14 @@ The current scraper version is `4.4.0`; `4.1.0` is the previous parser-reliabili
 - [x] Preserve legacy `nij_class` values alongside the new `protection_rating` field.
 - [x] Resolve listing aliases to canonical page records without duplicating items.
 - [x] Add table-only carrier entries to the dataset.
+
+### `4.4.1` — freshness, provenance, and scrape safety
+
+- [x] Preserve datasets enriched by listing pages when category pages are merged.
+- [x] Record per-dataset scrape timestamps and source-page MediaWiki revision IDs.
+- [x] Distinguish full-scrape timestamps and preserve freshness on manual metadata regeneration.
+- [x] Exclude scraper metadata and field-preservation state from data-change reports.
+- [x] Report added/removed record names and flag item removals for review.
 
 ### `5.0.0` — breaking output contract, only if required
 

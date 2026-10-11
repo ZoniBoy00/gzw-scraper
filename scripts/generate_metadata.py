@@ -7,8 +7,8 @@ import json
 from pathlib import Path
 from typing import Any
 
-SCRAPER_VERSION = "4.4.0"
-PARSER_REVISION = "universal-parser-v5"
+SCRAPER_VERSION = "4.4.1"
+PARSER_REVISION = "universal-parser-v6"
 
 
 def value_type(value: Any) -> str:
@@ -70,6 +70,11 @@ def generate_metadata(
     last_scraped_at: str | None = None,
     scraper_version: str = SCRAPER_VERSION,
     parser_revision: str = PARSER_REVISION,
+    *,
+    updated_datasets: set[str] | None = None,
+    source_revisions: dict[str, dict[str, int]] | None = None,
+    previous_metadata: dict[str, Any] | None = None,
+    full_scrape: bool = False,
 ) -> dict[str, Any]:
     """Generate metadata for all dataset JSON files in ``data_dir``."""
     datasets = [
@@ -77,6 +82,35 @@ def generate_metadata(
         for path in sorted(data_dir.glob("*.json"))
         if not path.name.startswith("_")
     ]
+    previous_metadata = previous_metadata or {}
+    previous_datasets = {
+        dataset.get("name"): dataset
+        for dataset in previous_metadata.get("datasets", [])
+        if isinstance(dataset, dict) and isinstance(dataset.get("name"), str)
+    }
+    updated_names = updated_datasets or set()
+    source_revisions = source_revisions or {}
+
+    for dataset in datasets:
+        name = dataset["name"]
+        previous = previous_datasets.get(name, {})
+        dataset_scraped_at = last_scraped_at if name in updated_names else previous.get("lastScrapedAt")
+        if isinstance(dataset_scraped_at, str):
+            dataset["lastScrapedAt"] = dataset_scraped_at
+
+        sources: dict[str, int] = {}
+        if not full_scrape or name not in updated_names:
+            for source in previous.get("sourcePages", []):
+                if isinstance(source, dict) and isinstance(source.get("title"), str) and isinstance(source.get("revisionId"), int):
+                    sources[source["title"]] = source["revisionId"]
+        if name in updated_names:
+            sources.update(source_revisions.get(name, {}))
+        if sources:
+            dataset["sourcePages"] = [
+                {"title": title, "revisionId": revision_id}
+                for title, revision_id in sorted(sources.items())
+            ]
+
     metadata: dict[str, Any] = {
         "source": "gzw-scraper",
         "scraperVersion": scraper_version,
@@ -84,8 +118,12 @@ def generate_metadata(
         "datasetCount": len(datasets),
         "datasets": datasets,
     }
-    if last_scraped_at is not None:
-        metadata["lastScrapedAt"] = last_scraped_at
+    metadata_last_scraped_at = last_scraped_at or previous_metadata.get("lastScrapedAt")
+    if isinstance(metadata_last_scraped_at, str):
+        metadata["lastScrapedAt"] = metadata_last_scraped_at
+    last_full_scrape = last_scraped_at if full_scrape else previous_metadata.get("lastFullScrapeAt")
+    if isinstance(last_full_scrape, str):
+        metadata["lastFullScrapeAt"] = last_full_scrape
     return metadata
 
 
@@ -94,12 +132,31 @@ def write_metadata(
     last_scraped_at: str | None = None,
     scraper_version: str = SCRAPER_VERSION,
     parser_revision: str = PARSER_REVISION,
+    *,
+    updated_datasets: set[str] | None = None,
+    source_revisions: dict[str, dict[str, int]] | None = None,
+    full_scrape: bool = False,
 ) -> Path:
     """Write metadata atomically and return its target path."""
     data_dir.mkdir(parents=True, exist_ok=True)
     target = data_dir / "_metadata.json"
     temporary = target.with_suffix(".tmp")
-    payload = generate_metadata(data_dir, last_scraped_at, scraper_version, parser_revision)
+    previous_metadata = None
+    if target.exists():
+        try:
+            previous_metadata = json.loads(target.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            previous_metadata = None
+    payload = generate_metadata(
+        data_dir,
+        last_scraped_at,
+        scraper_version,
+        parser_revision,
+        updated_datasets=updated_datasets,
+        source_revisions=source_revisions,
+        previous_metadata=previous_metadata,
+        full_scrape=full_scrape,
+    )
     temporary.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     temporary.replace(target)
     return target
