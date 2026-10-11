@@ -4,10 +4,10 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 
 ## Current status
 
-- **Version:** `4.3.0`
+- **Version:** `4.4.0`
 - **Runtime:** Python 3.11+
 - **Source:** GZW Fandom Wiki
-- **Tests:** 56 passing on 2026-09-24
+- **Tests:** 58 passing after the armor listing parser update
 - **Output:** generated JSON datasets plus `_metadata.json`
 - **License:** MIT
 
@@ -22,7 +22,7 @@ These are planning milestones, not promises to run live scrapes or publish data 
 - [x] Deterministic metadata and machine-readable scrape reporting.
 - [x] Reviewed data handoff and snapshot recording for `gzw-data`.
 
-The current scraper version is `4.3.0`; `4.1.0` is the previous parser-reliability milestone.
+The current scraper version is `4.4.0`; `4.1.0` is the previous parser-reliability milestone.
 
 ### `4.1.0` — parser reliability
 
@@ -46,6 +46,13 @@ The current scraper version is `4.3.0`; `4.1.0` is the previous parser-reliabili
 - [x] Validate fixtures, metadata, and generated output in pull-request CI.
 - [x] Add a validated data handoff check for `gzw-data`.
 - [x] Remove tracked `__pycache__` files.
+
+### `4.4.0` — armor listing-page data
+
+- [x] Scrape protection ratings from the Armor Vests and Plate Carriers tables.
+- [x] Preserve legacy `nij_class` values alongside the new `protection_rating` field.
+- [x] Resolve listing aliases to canonical page records without duplicating items.
+- [x] Add table-only carrier entries to the dataset.
 
 ### `5.0.0` — breaking output contract, only if required
 

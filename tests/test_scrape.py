@@ -169,6 +169,29 @@ LISTING_TABLE_HTML = """
 </body></html>
 """
 
+LISTING_ARMOR_RATINGS_HTML = """
+<html><body>
+<table class="wikitable sortable">
+  <tr><th>Icon</th><th>Name</th><th>NIJ</th><th>Material</th><th>Plates</th></tr>
+  <tr>
+    <td><img src="https://static.wikia.nocookie.net/gzw/images/press_icon.png" /></td>
+    <td><a href="/wiki/Covert_Tactical_Body_Armour_(Press)">Covert Tactical Body Armour (Woodland)</a></td>
+    <td>P3 / IIIA</td><td>Aramid</td><td>Front, Back</td>
+  </tr>
+  <tr>
+    <td><img src="https://static.wikia.nocookie.net/gzw/images/buran_icon.png" /></td>
+    <td><a href="/wiki/Buran%27s_Pantsir_2.0">Buran's Pantsir 2.0</a></td>
+    <td>R3 / III++</td><td>Ceramic</td><td>Front, Back, Sides</td>
+  </tr>
+  <tr>
+    <td><img src="https://static.wikia.nocookie.net/gzw/images/m2_icon.png" /></td>
+    <td><a href="/wiki/M2_Plate_Carrier">M2 Plate Carrier</a></td>
+    <td>R3 / III++</td><td>Ceramic</td><td>Front, Back</td>
+  </tr>
+</table>
+</body></html>
+"""
+
 LISTING_TABLE_HTML_NO_NAME_OR_ICON_COLUMN = """
 <html><body>
 <table class="wikitable">
@@ -280,6 +303,61 @@ def test_scrape_listing_page_extracts_rows(monkeypatch):
     assert bandage["id"] == "bandage"
     assert bandage["type"] == "Medical"
     assert bandage["image"] == "https://static.wikia.nocookie.net/gzw/images/bandage.png"
+
+
+def test_scrape_listing_page_adds_armor_rating_and_merges_table_alias(monkeypatch):
+    monkeypatch.setattr(network, "parse_page", lambda title: soup_of(LISTING_ARMOR_RATINGS_HTML))
+    existing = [{
+        "name": "Covert Tactical Body Armour (Press)",
+        "id": "covert-tactical-body-armour-press",
+        "nij_class": "IIIA",
+        "material": "Aramid",
+        "armor_locations": "Front, Back",
+        "image": "https://example.test/press-inspect.png",
+    }, {
+        "name": "M2 Plate Carrier",
+        "id": "m2-plate-carrier",
+        "nij_class": "III+",
+    }]
+    listing_items = scrape.scrape_listing_page(
+        "vests",
+        "Armor Vests",
+        existing_items=existing,
+        fields={"protection_rating", "nij_class", "material", "armor_locations"},
+    )
+    items = storage.merge_items(existing, listing_items)
+
+    assert len(items) == 3
+    press = next(item for item in items if item["name"] == "Covert Tactical Body Armour (Press)")
+    assert press["id"] == "covert-tactical-body-armour-press"
+    assert press["protection_rating"] == "P3"
+    assert press["nij_class"] == "IIIA"
+    assert press["material"] == "Aramid"
+    assert press["armor_locations"] == "Front, Back"
+    assert press["image"] == "https://example.test/press-inspect.png"
+
+    m2 = next(item for item in items if item["name"] == "M2 Plate Carrier")
+    assert m2["nij_class"] == "III++"
+    assert m2["protection_rating"] == "R3"
+
+    buran = next(item for item in items if item["name"] == "Buran's Pantsir 2.0")
+    assert buran["id"] == "burans-pantsir-2.0"
+    assert buran["protection_rating"] == "R3"
+    assert buran["nij_class"] == "III++"
+    assert buran["material"] == "Ceramic"
+    assert buran["armor_locations"] == "Front, Back, Sides"
+
+
+def test_listing_page_configures_vest_and_plate_carrier_rating_fields():
+    cfg = scrape.load_config()
+    assert cfg["listing_pages"]["vests"] == "Armor Vests"
+    assert cfg["listing_pages"]["plate_carriers"] == "Plate Carriers"
+    assert cfg["listing_page_fields"]["vests"] == [
+        "protection_rating", "nij_class", "material", "armor_locations"
+    ]
+    assert cfg["listing_page_fields"]["plate_carriers"] == [
+        "protection_rating", "nij_class", "material", "armor_locations"
+    ]
 
 
 def test_scrape_listing_page_skips_tables_without_name_or_icon(monkeypatch):

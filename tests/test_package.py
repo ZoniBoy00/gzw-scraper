@@ -198,7 +198,7 @@ def test_cli_help_exits_zero(capsys):
     out = capsys.readouterr().out
     assert "--all" in out
     assert "--force" in out
-    assert "GZW Wiki Scraper v4.3.0" in out
+    assert "GZW Wiki Scraper v4.4.0" in out
 
 
 def test_cli_dispatches_category_over_all(monkeypatch):

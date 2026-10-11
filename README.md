@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
-**v4.3.0 — Configurable & Bulletproof.** Automatically discovers supported game categories from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and scrapes their pages into structured JSON. The current test suite has 56 passing tests.
+**v4.4.0 — Configurable & Bulletproof.** Automatically discovers supported game categories from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and scrapes their pages into structured JSON. The current test suite has 58 passing tests.
 
 ## Output metadata
 
@@ -29,6 +29,8 @@ python scrape.py --all
 4. **Save** — Each category becomes a `.json` file in `data/`, with backup before overwrite
 
 `Removed Content` and `Upcoming Content` are real game-data categories, not wiki infrastructure; both remain enabled and map to `removed_content.json` and `upcoming_content.json`.
+
+The `Armor Vests` and `Plate Carriers` listing pages enrich matching items with `protection_rating` (for example `P3` or `R1`) while retaining the legacy `nij_class` field. Listing aliases resolve to their canonical item pages to avoid duplicate records; table-only entries are added to the corresponding dataset.
 
 The pipeline covers eligible wiki categories and the configured listing pages. It does not currently generate standalone lore or reference-page datasets.
 
@@ -75,7 +77,7 @@ All settings are in `config.toml`:
 ```toml
 [wiki]
 api_url = "https://gray-zone-warfare.fandom.com/api.php"
-user_agent = "GZW-Scraper/4.3.0 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
+user_agent = "GZW-Scraper/4.4.0 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
 
 [scraper]
 max_retries = 5

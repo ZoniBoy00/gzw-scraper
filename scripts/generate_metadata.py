@@ -7,8 +7,8 @@ import json
 from pathlib import Path
 from typing import Any
 
-SCRAPER_VERSION = "4.3.0"
-PARSER_REVISION = "universal-parser-v4"
+SCRAPER_VERSION = "4.4.0"
+PARSER_REVISION = "universal-parser-v5"
 
 
 def value_type(value: Any) -> str:

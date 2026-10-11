@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
@@ -26,6 +27,7 @@ logger = logging.getLogger("gzw-scraper")
 
 CATEGORY_TO_FILENAME: Dict[str, str] = {}
 LISTING_PAGES: Dict[str, str] = {}
+LISTING_PAGE_FIELDS: Dict[str, Set[str]] = {}
 SKIP_PAGES: Set[str] = set()
 PAGE_DELAY: float = 0.8
 MAX_WORKERS: int = 3
@@ -132,16 +134,26 @@ def scrape_category(name: str, title: str) -> Optional[List[Dict[str, Any]]]:
     return items
 
 
-def scrape_listing_page(key: str, page_title: str, existing_names: Optional[Set[str]] = None) -> List[Dict[str, Any]]:
+def scrape_listing_page(
+    key: str,
+    page_title: str,
+    existing_names: Optional[Set[str]] = None,
+    *,
+    existing_items: Optional[List[Dict[str, Any]]] = None,
+    fields: Optional[Set[str]] = None,
+) -> List[Dict[str, Any]]:
     """Scrape items from a listing page (wikitable-based).
 
-    Some categories (Loot, Apparel) have items ONLY in tables
-    on their listing pages, not as individual wiki pages.
+    Some categories (Loot, Apparel) have items ONLY in tables on their listing
+    pages. Existing item records can be supplied so display aliases resolve to
+    their canonical wiki page names rather than creating duplicate records.
 
     Args:
         key: Output key for the dataset (e.g. 'loot_items').
         page_title: Wiki page title containing the listing tables.
-        existing_names: Optional set of already-known item names to avoid duplicates.
+        existing_names: Optional legacy set of existing names for alias matching.
+        existing_items: Existing records, including canonical IDs for merges.
+        fields: Optional allowlist of output fields for this page.
 
     Returns:
         List of scraped item dictionaries.
@@ -152,46 +164,78 @@ def scrape_listing_page(key: str, page_title: str, existing_names: Optional[Set[
         logger.warning("  Could not parse '%s'", page_title)
         return []
 
+    existing_by_name: Dict[str, Dict[str, Any]] = {}
+    for existing_name in existing_names or set():
+        existing_by_name[existing_name.casefold()] = {"name": existing_name}
+    for existing_item in existing_items or []:
+        existing_name = existing_item.get("name")
+        if isinstance(existing_name, str) and existing_name:
+            existing_by_name[existing_name.casefold()] = existing_item
+
     items: List[Dict[str, Any]] = []
-    seen_names: Set[str] = set(existing_names) if existing_names else set()
+    seen_names: Set[str] = set()
 
     for row in parsing.extract_listing_rows(soup):
         row_data: Dict[str, str] = {
             col: val for col, val in row.items() if not col.startswith("_")
         }
         img_url: str = row.get("_img_url", "")
+        page_name: str = row.get("_page_title", "").casefold()
 
         headers: List[str] = list(row_data.keys())
-
-        # Extract name
-        name: str = ""
+        display_name: str = ""
         for col_name in [h for h in headers if "name" in h or "type" in h]:
-            name = row_data.get(col_name, "")
-            if name:
+            display_name = row_data.get(col_name, "")
+            if display_name:
                 break
-        if not name:
+        if not display_name:
             first_val: str = row_data.get(headers[0], "") if headers else ""
             if first_val and len(first_val) > 1 and first_val.lower() not in ("icon", "image", ""):
-                name = first_val
+                display_name = first_val
 
-        if name and len(name) > 1 and name.lower() not in seen_names:
-            seen_names.add(name.lower())
-            item: Dict[str, Any] = {
-                "name": name,
-                "id": name.lower().replace(" ", "-").replace("'", ""),
-            }
-            meaningful_keys: Tuple[str, ...] = (
-                "type", "category", "class", "rarity", "source",
-                "location", "weight", "value", "price", "grid",
-                "slots", "description", "caliber", "material",
-            )
-            for hdr, val in row_data.items():
-                h: str = hdr.lower().strip()
-                if h in meaningful_keys:
-                    item[h] = val
-            if img_url:
+        existing_item = (
+            existing_by_name.get(page_name)
+            or existing_by_name.get(display_name.casefold())
+        )
+        name = existing_item.get("name", display_name) if existing_item else display_name
+        if not name or len(name) <= 1 or name.casefold() in seen_names:
+            continue
+        seen_names.add(name.casefold())
+
+        item_id = existing_item.get("id") if existing_item else None
+        item: Dict[str, Any] = {
+            "name": name,
+            "id": item_id or name.lower().replace(" ", "-").replace("'", ""),
+        }
+        meaningful_keys: Tuple[str, ...] = (
+            "type", "category", "class", "rarity", "source",
+            "location", "weight", "value", "price", "grid",
+            "slots", "description", "caliber", "material",
+        )
+        for header, value in row_data.items():
+            field = header.lower().strip()
+            if field == "nij":
+                parts = value.split("/", 1)
+                if len(parts) == 2:
+                    rating = re.fullmatch(r"\s*([PR]\d+)\s*", parts[0], flags=re.IGNORECASE)
+                    legacy_class = parts[1].strip()
+                    if rating and (fields is None or "protection_rating" in fields):
+                        item["protection_rating"] = rating.group(1).upper()
+                    if legacy_class and (fields is None or "nij_class" in fields):
+                        item["nij_class"] = legacy_class
+                elif value and (fields is None or "nij_class" in fields):
+                    if fields is None or existing_item is None or "nij_class" not in existing_item:
+                        item["nij_class"] = value
+                continue
+            output_field = "armor_locations" if field == "plates" else field
+            if field in meaningful_keys or field == "plates":
+                if fields is None or output_field in fields:
+                    if fields is None or existing_item is None or output_field not in existing_item:
+                        item[output_field] = value
+        if img_url and (fields is None or "image" in fields):
+            if fields is None or existing_item is None or "image" not in existing_item:
                 item["image"] = img_url
-            items.append(item)
+        items.append(item)
 
     logger.info("  Found %d items in '%s'", len(items), page_title)
     return items
@@ -280,7 +324,7 @@ def run_full_scrape() -> bool:
         True if scrape completed (even with some failures).
     """
     logger.info("=" * 60)
-    logger.info("GZW Wiki Scraper v4.3.0 — Configurable & Bulletproof")
+    logger.info("GZW Wiki Scraper v4.4.0 — Configurable & Bulletproof")
     logger.info("=" * 60)
 
     # Get previous counts for change detection
@@ -347,7 +391,23 @@ def run_full_scrape() -> bool:
 
     for filename_key, page_title in LISTING_PAGES.items():
         full_filename: str = f"{filename_key}.json" if not filename_key.endswith(".json") else filename_key
-        items = scrape_listing_page(full_filename, page_title)
+        existing_items = merged.get(full_filename, [])
+        if not existing_items:
+            existing_path = storage.OUTPUT_DIR / full_filename
+            if existing_path.exists():
+                try:
+                    with open(existing_path, "r", encoding="utf-8") as fh:
+                        loaded = json.load(fh)
+                    if isinstance(loaded, list):
+                        existing_items = loaded
+                except (OSError, json.JSONDecodeError):
+                    logger.warning("Could not load previous %s for listing-page alias matching", full_filename)
+        items = scrape_listing_page(
+            full_filename,
+            page_title,
+            existing_items=existing_items,
+            fields=LISTING_PAGE_FIELDS.get(filename_key),
+        )
         if items:
             if full_filename not in merged:
                 merged[full_filename] = []

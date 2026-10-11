@@ -21,4 +21,4 @@ from gzw_scraper import cli, config, network, parsing, pipeline, storage
 config.apply_settings()
 
 __all__ = ["cli", "config", "network", "parsing", "pipeline", "storage"]
-__version__ = "4.3.0"
+__version__ = "4.4.0"

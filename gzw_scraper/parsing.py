@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import re
 from typing import Dict, List, Optional, Tuple
+from urllib.parse import unquote, urlsplit
 
 import bs4
 
@@ -112,6 +113,8 @@ def extract_listing_rows(soup: bs4.BeautifulSoup) -> List[Dict[str, str]]:
             text = re.sub(r"\s+", " ", text).strip()
             headers.append(text.lower())
 
+        name_column = next((index for index, header in enumerate(headers) if "name" in header), None)
+
         has_name: bool = any("name" in h for h in headers)
         has_icon: bool = any("icon" in h for h in headers)
         if not has_name and not has_icon:
@@ -124,6 +127,7 @@ def extract_listing_rows(soup: bs4.BeautifulSoup) -> List[Dict[str, str]]:
 
             row_data: Dict[str, str] = {}
             img_url: str = ""
+            page_title: str = ""
             for j, cell in enumerate(cells):
                 col_name: str = headers[j] if j < len(headers) else f"col_{j}"
                 text = cell.get_text(" ", strip=True)
@@ -137,9 +141,21 @@ def extract_listing_rows(soup: bs4.BeautifulSoup) -> List[Dict[str, str]]:
                             src = data_src
                     if src.startswith("http"):
                         img_url = src
+                if j == name_column:
+                    link = cell.find("a", href=True)
+                    if link:
+                        path = urlsplit(link["href"]).path
+                        if path.startswith("/wiki/"):
+                            target = unquote(path[len("/wiki/"):]).replace("_", " ").strip()
+                            if target and not target.startswith(("File:", "Category:", "Template:")):
+                                page_title = target
                 row_data[col_name] = text
 
-            rows.append({**row_data, "_img_url": img_url})
+            rows.append({
+                **row_data,
+                "_img_url": img_url,
+                **({"_page_title": page_title} if page_title else {}),
+            })
 
     return rows
 
