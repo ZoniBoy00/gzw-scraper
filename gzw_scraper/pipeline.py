@@ -32,6 +32,8 @@ LISTING_PAGE_FIELDS: Dict[str, Set[str]] = {}
 LISTING_PAGE_ONLY_DATASETS: Set[str] = set()
 CATEGORY_INDEX_PAGE_TITLES: Dict[str, str] = {}
 SKIP_PAGES: Set[str] = set()
+SUPPLEMENTAL_PAGES: Dict[str, List[str]] = {}
+CONTENT_SECTIONS: Dict[str, Dict[str, str]] = {}
 PAGE_DELAY: float = 0.8
 MAX_WORKERS: int = 3
 MAX_SAFE_DEVIATION: float = 0.7
@@ -104,28 +106,11 @@ def scrape_category(name: str, title: str) -> Optional[List[Dict[str, Any]]]:
             continue
 
         try:
-            soup: Optional[bs4.BeautifulSoup] = network.parse_page(page_title)
-            info: Dict[str, str] = parsing.parse_infobox(soup)
-
-            item: Dict[str, Any] = {
-                "name": page_title,
-                "id": page_title.lower().replace(" ", "-").replace("'", "").replace("(", "").replace(")", ""),
-            }
-
-            # Universal field extraction — grab every field the infobox has
-            for wiki_key, val in info.items():
-                if wiki_key == "_image":
-                    item["image"] = val
-                elif wiki_key in ("id", "name"):
-                    continue
-                else:
-                    item[wiki_key] = val
-
-            # Get image if not already found (use parsed soup to avoid extra API call)
-            if "image" not in item:
-                img: Optional[str] = info.get("_image") or network.get_page_image(page_title, soup)
-                if img:
-                    item["image"] = img
+            dataset_name = Path(get_output_filename(title)).stem
+            item = scrape_page_record(page_title, dataset_name)
+            if item is None:
+                skipped += 1
+                continue
 
             # Skip the category's own index page (e.g. the "Weapon Parts" page
             # inside the Weapon Parts category) — it is not a real item.
@@ -152,6 +137,48 @@ def scrape_category(name: str, title: str) -> Optional[List[Dict[str, Any]]]:
         logger.info("  %s: %d items", title, len(items))
 
     return items
+
+
+def scrape_page_record(page_title: str, dataset_name: str) -> Optional[Dict[str, Any]]:
+    """Scrape one wiki article using its infobox and configured text sections."""
+    soup = network.parse_page(page_title)
+    if soup is None:
+        return None
+    info = parsing.parse_infobox(soup)
+    item: Dict[str, Any] = {
+        "name": page_title,
+        "id": page_title.lower().replace(" ", "-").replace("'", "").replace("(", "").replace(")", ""),
+    }
+    for wiki_key, value in info.items():
+        if wiki_key == "_image":
+            item["image"] = value
+        elif wiki_key not in ("id", "name"):
+            item[wiki_key] = value
+    item.update(parsing.extract_page_sections(soup, CONTENT_SECTIONS.get(dataset_name, {})))
+    if "image" not in item:
+        image = info.get("_image") or network.get_page_image(page_title, soup)
+        if image:
+            item["image"] = image
+    return item
+
+
+def scrape_supplemental_pages() -> Dict[str, List[Dict[str, Any]]]:
+    """Scrape standalone article pages into their configured datasets."""
+    datasets: Dict[str, List[Dict[str, Any]]] = {}
+    for dataset_name, page_titles in SUPPLEMENTAL_PAGES.items():
+        filename = f"{dataset_name}.json"
+        for page_title in page_titles:
+            try:
+                item = scrape_page_record(page_title, dataset_name)
+                if item is None:
+                    logger.warning("Could not parse supplemental page '%s'", page_title)
+                    continue
+                datasets.setdefault(filename, []).append(item)
+                _record_source_page(filename, page_title)
+            except Exception as exc:
+                logger.warning("Failed supplemental page '%s': %s", page_title, exc)
+            time.sleep(PAGE_DELAY)
+    return datasets
 
 
 def scrape_listing_page(
@@ -354,7 +381,7 @@ def run_full_scrape() -> bool:
         True if scrape completed (even with some failures).
     """
     logger.info("=" * 60)
-    logger.info("GZW Wiki Scraper v4.4.1 — Configurable & Bulletproof")
+    logger.info("GZW Wiki Scraper v4.5.0 — Configurable & Bulletproof")
     logger.info("=" * 60)
 
     DATASET_SOURCE_REVISIONS.clear()
@@ -418,6 +445,11 @@ def run_full_scrape() -> bool:
                         auto_discovered += 1
             except Exception as exc:
                 logger.error("  Failed to scrape '%s': %s", cat["title"], exc)
+
+    # ── Phase 2b: Add game articles not assigned to a wiki category ──
+    logger.info("\n📄 Phase 2b: Scraping configured standalone pages...")
+    for filename, items in scrape_supplemental_pages().items():
+        merged[filename] = storage.merge_items(merged.get(filename, []), items)
 
     # ── Phase 3: Scrape listing-page-only categories ──
     logger.info("\n📋 Phase 3: Scraping listing-page-only categories...")

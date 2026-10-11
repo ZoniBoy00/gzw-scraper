@@ -4,10 +4,10 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 
 ## Current status
 
-- **Version:** `4.4.1`
+- **Version:** `4.5.0`
 - **Runtime:** Python 3.11+
 - **Source:** GZW Fandom Wiki
-- **Tests:** 67 passing after the freshness and provenance update
+- **Tests:** 70 passing after expanded wiki coverage
 - **Output:** generated JSON datasets plus `_metadata.json`
 - **License:** MIT
 
@@ -22,7 +22,7 @@ These are planning milestones, not promises to run live scrapes or publish data 
 - [x] Deterministic metadata and machine-readable scrape reporting.
 - [x] Reviewed data handoff and snapshot recording for `gzw-data`.
 
-The current scraper version is `4.4.1`; `4.1.0` is the previous parser-reliability milestone.
+The current scraper version is `4.5.0`; `4.1.0` is the previous parser-reliability milestone.
 
 ### `4.1.0` — parser reliability
 
@@ -61,6 +61,14 @@ The current scraper version is `4.4.1`; `4.1.0` is the previous parser-reliabili
 - [x] Distinguish full-scrape timestamps and preserve freshness on manual metadata regeneration.
 - [x] Exclude scraper metadata and field-preservation state from data-change reports.
 - [x] Report added/removed record names and flag item removals for review.
+
+### `4.5.0` — expanded wiki coverage
+
+- [x] Scrape all 12 Regions and 6 Factions with their structured infobox fields and descriptions.
+- [x] Scrape the 43 non-user Newspaper category pages, including article transcripts.
+- [x] Add selected uncategorized inventory, task, Intel, and boss pages to their canonical datasets.
+- [x] Record source-page revisions for category and standalone-page records.
+- [x] Add fixtures and tests for section parsing, category inclusion, and supplemental-page provenance.
 
 ### `5.0.0` — breaking output contract, only if required
 

@@ -33,6 +33,60 @@ def sanitize_value(value: str) -> str:
     return v.strip()
 
 
+def extract_page_sections(
+    soup: Optional[bs4.BeautifulSoup], fields: Dict[str, str]
+) -> Dict[str, str]:
+    """Extract selected MediaWiki sections as plain text.
+
+    ``fields`` maps output field names to section headings. Section content
+    stops at the next heading of equal or higher level.
+    """
+    if not soup or not fields:
+        return {}
+
+    def normalize(value: str) -> str:
+        value = re.sub(r"\[[^]]*\]", " ", value)
+        return re.sub(r"\s+", " ", value).strip().casefold()
+
+    wanted = {normalize(section): field for field, section in fields.items()}
+    root = soup.find(class_="mw-parser-output") or soup
+    headings = root.find_all(re.compile(r"^h[1-6]$"))
+    output: Dict[str, str] = {}
+    content_tags = {"p", "li", "td", "th", "blockquote", "dd"}
+
+    for heading in headings:
+        headline = heading.find(class_="mw-headline")
+        title = headline.get_text(" ", strip=True) if headline else heading.get_text(" ", strip=True)
+        field = wanted.get(normalize(title))
+        if not field:
+            continue
+
+        heading_level = int(heading.name[1])
+        parts: List[str] = []
+        seen_parts = set()
+        for node in heading.find_all_next(True):
+            if node.name and re.fullmatch(r"h[1-6]", node.name):
+                if int(node.name[1]) <= heading_level:
+                    break
+                continue
+            if node.name not in content_tags:
+                continue
+            if "wds-tabs__tab" in node.get("class", []):
+                continue
+            if node.name == "li" and node.find("p"):
+                continue
+            if node.name in {"td", "th"} and node.find(["p", "li"]):
+                continue
+            text = sanitize_value(node.get_text(" ", strip=True))
+            if text and text not in seen_parts:
+                parts.append(text)
+                seen_parts.add(text)
+        if parts:
+            output[field] = " ".join(parts)
+
+    return output
+
+
 # ─── Infobox parsing ───
 
 def parse_infobox(soup: Optional[bs4.BeautifulSoup]) -> Dict[str, str]:

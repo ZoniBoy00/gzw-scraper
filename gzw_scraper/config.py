@@ -20,7 +20,7 @@ CONFIG_PATH: Path = Path(__file__).resolve().parent.parent / "config.toml"
 DEFAULT_CONFIG: Dict[str, Any] = {
     "wiki": {
         "api_url": "https://gray-zone-warfare.fandom.com/api.php",
-        "user_agent": "GZW-Scraper/4.4.1 (community tool; github.com/ZoniBoy00/gzw-scraper)",
+        "user_agent": "GZW-Scraper/4.5.0 (community tool; github.com/ZoniBoy00/gzw-scraper)",
     },
     "scraper": {
         "max_retries": 5,
@@ -67,12 +67,9 @@ DEFAULT_CONFIG: Dict[str, Any] = {
             "Verification needed",
             "Archive",
             "Maps",
-            "Newspaper",
             "Gray Zone Warfare Wiki",
             "Evidence",
             "Newspapers",
-            "Factions",
-            "Regions",
             # Wiki infrastructure leaks
             "Front page", "Basics", "Characters", "Locations", "Media",
             "Maintenance", "Your locker",
@@ -93,11 +90,16 @@ DEFAULT_CONFIG: Dict[str, Any] = {
     "skip_pages": {
         "titles": [],
     },
+    "supplemental_pages": {},
+    "content_sections": {},
     "category_to_filename": {
         "Weapons": "weapons",
         "Armor Vest": "vests",
         "Helmet": "helmets",
         "Headwear": "helmets",
+        "Factions": "factions",
+        "Regions": "regions",
+        "Newspaper": "newspapers",
         "Throwables": "throwables",
         "Weapon Parts": "weapon_parts",
         "Magazines": "magazines",
@@ -248,6 +250,12 @@ def apply_settings(config_path: Path = CONFIG_PATH) -> None:
     )
     pipeline.CATEGORY_INDEX_PAGE_TITLES = dict(cfg.get("category_index_pages", {}))
     pipeline.SKIP_PAGES = set(cfg.get("skip_pages", {}).get("titles", []))
+    pipeline.SUPPLEMENTAL_PAGES = {
+        name: list(titles) for name, titles in cfg.get("supplemental_pages", {}).items()
+    }
+    pipeline.CONTENT_SECTIONS = {
+        dataset: dict(fields) for dataset, fields in cfg.get("content_sections", {}).items()
+    }
     pipeline.PAGE_DELAY = scraper_config["page_delay"]
     pipeline.MAX_WORKERS = scraper_config.get("max_workers", 3)
     pipeline.MAX_SAFE_DEVIATION = scraper_config["max_safe_deviation"]

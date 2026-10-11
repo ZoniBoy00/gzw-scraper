@@ -144,6 +144,59 @@ def test_parse_infobox_label_normalization():
     assert data["muzzle_velocity"] == "880 m/s"
 
 
+def test_extract_page_sections_returns_requested_text_fields():
+    html = """
+    <div class="mw-parser-output">
+      <h2><span class="mw-headline">Description</span><span class="mw-editsection">[edit]</span></h2>
+      <p>First line of description.</p><ul><li>Second detail.</li></ul>
+      <h2><span class="mw-headline">Transcript</span><span class="mw-editsection">[edit]</span></h2>
+      <ul><li class="wds-tabs__tab">Page 1</li></ul>
+      <p>Newspaper transcript body.</p><p>Newspaper transcript body.</p>
+      <h2><span class="mw-headline">Location</span></h2>
+      <p>Midnight Sapphire.</p>
+    </div>
+    """
+    result = pipeline.parsing.extract_page_sections(
+        soup_of(html), {"description": "Description", "transcript": "Transcript"}
+    )
+    assert result == {
+        "description": "First line of description. Second detail.",
+        "transcript": "Newspaper transcript body.",
+    }
+
+
+def test_config_maps_wiki_content_categories_to_datasets():
+    cfg = scrape.load_config()
+    assert cfg["category_to_filename"]["Regions"] == "regions"
+    assert cfg["category_to_filename"]["Factions"] == "factions"
+    assert cfg["category_to_filename"]["Newspaper"] == "newspapers"
+    assert cfg["content_sections"]["newspapers"]["transcript"] == "Transcript"
+    assert cfg["supplemental_pages"]["plate_carriers"] == ["LCS Sentry (UNLRA)"]
+    assert cfg["supplemental_pages"]["bosses"] == [
+        "Bloodhound", "Broker", "Chaonai", "Firebrand", "Grin", "Kaptei", "Viper", "Yen"
+    ]
+
+
+def test_scrape_supplemental_pages_records_fields_and_revision(monkeypatch):
+    monkeypatch.setattr(pipeline, "SUPPLEMENTAL_PAGES", {"bosses": ["Yen"]})
+    monkeypatch.setattr(pipeline, "CONTENT_SECTIONS", {"bosses": {"biography": "Biography"}})
+    monkeypatch.setattr(pipeline, "PAGE_DELAY", 0)
+    monkeypatch.setattr(pipeline, "DATASET_SOURCE_REVISIONS", {})
+    monkeypatch.setattr(network, "PAGE_REVISIONS", {"Yen": 18815}, raising=False)
+    monkeypatch.setattr(network, "parse_page", lambda _title: soup_of(
+        '<div class="mw-parser-output"><h2><span class="mw-headline">Biography</span></h2>'
+        '<p>Boss biography.</p></div>'
+    ))
+    monkeypatch.setattr(pipeline.parsing, "parse_infobox", lambda _soup: {"faction": "LAF"})
+    monkeypatch.setattr(network, "get_page_image", lambda *_args, **_kwargs: None)
+
+    result = pipeline.scrape_supplemental_pages()
+
+    assert result["bosses.json"][0]["faction"] == "LAF"
+    assert result["bosses.json"][0]["biography"] == "Boss biography."
+    assert pipeline.DATASET_SOURCE_REVISIONS["bosses"] == {"Yen": 18815}
+
+
 # ─── scrape_listing_page ───
 # scrape_listing_page() internally calls parse_page() to fetch the wiki
 # page via the API, so it isn't a pure function -- we monkeypatch
@@ -423,11 +476,15 @@ def test_filter_game_categories_keeps_real_game_categories():
         {"*": "Apparel", "size": 1},
         {"*": "Removed Content", "size": 24},
         {"*": "Upcoming Content", "size": 11},
+        {"*": "Regions", "size": 12},
+        {"*": "Factions", "size": 6},
+        {"*": "Newspaper", "size": 44},
     ]
     kept = scrape.filter_game_categories(cats)
     titles = {k["title"] for k in kept}
     for expected in ("Weapons", "Tasks", "Keys", "Tech", "Task",
-                     "Tiger Bay", "Squad Strike Missions", "Loot", "Apparel"):
+                     "Tiger Bay", "Squad Strike Missions", "Loot", "Apparel",
+                     "Regions", "Factions", "Newspaper"):
         assert expected in titles, f"{expected} was filtered out!"
     assert {"Removed Content", "Upcoming Content"} <= titles
     assert scrape.CATEGORY_TO_FILENAME["Removed Content"] == "removed_content"

@@ -3,7 +3,7 @@
 
 [wiki]
 api_url = "https://gray-zone-warfare.fandom.com/api.php"
-user_agent = "GZW-Scraper/4.4.1 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
+user_agent = "GZW-Scraper/4.5.0 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
 
 [scraper]
 # Maximum retries for API calls and page fetches
@@ -64,12 +64,9 @@ infrastructure = [
     "Verification needed",
     "Archive",
     "Maps",
-    "Newspaper",
     "Gray Zone Warfare Wiki",
     "Evidence",
     "Newspapers",
-    "Factions",
-    "Regions",
     # Auto-discovered leaks from run — wiki infrastructure
     "Front page", "Basics", "Characters", "Locations", "Media",
     "Maintenance", "Your locker",
@@ -99,7 +96,6 @@ infrastructure = [
 # category (redirects, index pages, lore articles). Scraper drops them by title.
 titles = [
     "Intels",
-    "Newspaper - 50 Years since liberation from Japan",
     "Weapons camouflage",
     "Lockboxes",
 ]
@@ -110,6 +106,9 @@ titles = [
 "Armor Vest" = "vests"
 "Helmet" = "helmets"
 "Headwear" = "helmets"
+"Factions" = "factions"
+"Regions" = "regions"
+"Newspaper" = "newspapers"
 "Throwables" = "throwables"
 "Weapon Parts" = "weapon_parts"
 "Magazines" = "magazines"
@@ -182,6 +181,43 @@ titles = [
 "7.65mm Browning ammunition" = "ammo"
 "9x19mm ammunition" = "ammo"
 "4.6x30mm" = "ammo"
+
+[content_sections.factions]
+description = "Description"
+
+[content_sections.regions]
+description = "Description"
+
+[content_sections.newspapers]
+description = "Description"
+transcript = "Transcript"
+
+[content_sections.contract]
+briefing = "Briefing"
+objectives = "Objectives"
+
+[content_sections.tasks]
+briefing = "Briefing"
+objectives = "Objectives"
+
+[content_sections.bosses]
+tasks = "Tasks"
+
+[supplemental_pages]
+medical = ["Advanced Flexible Splint"]
+belts = ["Custom Gear Lowpro Belt"]
+tactical_devices = ["DBAL-I2"]
+helmets = ["FAST XP HC (Olive)", "M1 (Ace of Hearts)", "M1 (Ace of Spades)"]
+plate_carriers = ["LCS Sentry (UNLRA)"]
+scopes = ["RAZOR 1-10x Rifle Scope"]
+backpacks = ["Scorpion OCP Convoy Pack (Multicam)"]
+laboratory_supplies = ["Mercenary Delivery Service III"]
+reading_intel = ["NB Research Notes"]
+task_items = ["VIP Client List"]
+intels = ["Newspaper - 50 Years since liberation from Japan"]
+contract = ["The Ban Pa Horror", "Bad Idea", "Deep Waters"]
+tasks = ["Trifle"]
+bosses = ["Bloodhound", "Broker", "Chaonai", "Firebrand", "Grin", "Kaptei", "Viper", "Yen"]
 
 [listing_pages]
 # Wiki list pages whose tables enrich one or more dataset outputs.

@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
-**v4.4.1 — Freshness & Provenance.** Automatically discovers supported game categories from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and scrapes their pages into structured JSON. The current test suite has 67 passing tests.
+**v4.5.0 — Expanded wiki coverage.** Scrapes Regions, Factions, and Newspaper articles (including transcripts), plus selected uncategorized inventory, mission, and boss pages. The current test suite has 70 passing tests.
 
 ## Output metadata
 
@@ -32,7 +32,7 @@ python scrape.py --all
 
 The `Armor Vests` and `Plate Carriers` listing pages enrich matching items with `protection_rating` (for example `P3` or `R1`) while retaining the legacy `nij_class` field. Listing aliases resolve to their canonical item pages to avoid duplicate records; table-only entries are added to the corresponding dataset.
 
-The pipeline covers eligible wiki categories and the configured listing pages. It does not currently generate standalone lore or reference-page datasets.
+The pipeline covers eligible wiki categories, selected standalone game pages, and configured listing pages. Regions, Factions, Newspaper transcripts, and standalone bosses use configured section extraction; item and task pages retain their infobox fields.
 
 If the wiki gets a new category (e.g., `Crafting`), the scraper **finds it automatically** on the next run.
 
@@ -42,7 +42,7 @@ The implementation is split into the `gzw_scraper/` package by responsibility. T
 
 - `config.py` — TOML loading, defaults, and runtime settings
 - `network.py` — MediaWiki requests, throttling, retries, and category discovery
-- `parsing.py` — infobox, listing-table, and Ballistics parsing
+- `parsing.py` — infobox, article-section, listing-table, and Ballistics parsing
 - `storage.py` — validation, backups, drop guard, field preservation, and JSON writes
 - `pipeline.py` — category scraping and full-run orchestration
 - `cli.py` — command-line argument parsing and dispatch
@@ -77,7 +77,7 @@ All settings are in `config.toml`:
 ```toml
 [wiki]
 api_url = "https://gray-zone-warfare.fandom.com/api.php"
-user_agent = "GZW-Scraper/4.4.1 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
+user_agent = "GZW-Scraper/4.5.0 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
 
 [scraper]
 max_retries = 5
