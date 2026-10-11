@@ -84,8 +84,19 @@ def test_build_report_detects_new_and_removed_datasets(tmp_path):
 
     assert report["files"]["added"] == 1
     assert report["files"]["removed"] == 1
-    statuses = {item["file"]: item["status"] for item in report["datasets"]}
-    assert statuses == {"new.json": "added", "old.json": "removed"}
+    statuses = {item["file"]: item for item in report["datasets"]}
+    assert {name: item["status"] for name, item in statuses.items()} == {
+        "new.json": "added", "old.json": "removed"
+    }
+    assert statuses["new.json"]["before_count"] == 0
+    assert statuses["new.json"]["after_count"] == 1
+    assert statuses["new.json"]["items_added"] == 1
+    assert statuses["new.json"]["added_names"] == ["New"]
+    assert statuses["old.json"]["before_count"] == 1
+    assert statuses["old.json"]["after_count"] == 0
+    assert statuses["old.json"]["items_removed"] == 1
+    assert report["totals"]["items_added"] == 1
+    assert report["totals"]["items_removed"] == 1
 
 
 def test_build_report_counts_log_signals(tmp_path):

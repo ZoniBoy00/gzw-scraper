@@ -140,8 +140,8 @@ def build_report(before_dir: Path, after_dir: Path, log_path: Path | None = None
     datasets: list[dict[str, Any]] = []
 
     for filename in sorted(before_files | after_files):
-        before = load_json(before_dir / filename) if filename in before_files else None
-        after = load_json(after_dir / filename) if filename in after_files else None
+        before = load_json(before_dir / filename) if filename in before_files else []
+        after = load_json(after_dir / filename) if filename in after_files else []
         diff = compare_items(before, after)
         if filename not in before_files:
             status = "added"
