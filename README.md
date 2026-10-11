@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
-**v4.4.1 — Freshness & Provenance.** Automatically discovers supported game categories from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and scrapes their pages into structured JSON. The current test suite has 66 passing tests.
+**v4.4.1 — Freshness & Provenance.** Automatically discovers supported game categories from the [GZW Fandom Wiki](https://gray-zone-warfare.fandom.com) and scrapes their pages into structured JSON. The current test suite has 67 passing tests.
 
 ## Output metadata
 

@@ -7,7 +7,7 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 - **Version:** `4.4.1`
 - **Runtime:** Python 3.11+
 - **Source:** GZW Fandom Wiki
-- **Tests:** 66 passing after the freshness and provenance update
+- **Tests:** 67 passing after the freshness and provenance update
 - **Output:** generated JSON datasets plus `_metadata.json`
 - **License:** MIT
 
@@ -56,7 +56,7 @@ The current scraper version is `4.4.1`; `4.1.0` is the previous parser-reliabili
 
 ### `4.4.1` — freshness, provenance, and scrape safety
 
-- [x] Preserve datasets enriched by listing pages when category pages are merged.
+- [x] Preserve datasets enriched by listing pages when category pages are merged, including the listing-page icons.
 - [x] Record per-dataset scrape timestamps and source-page MediaWiki revision IDs.
 - [x] Distinguish full-scrape timestamps and preserve freshness on manual metadata regeneration.
 - [x] Exclude scraper metadata and field-preservation state from data-change reports.

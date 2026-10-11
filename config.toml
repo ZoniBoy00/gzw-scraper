@@ -193,10 +193,10 @@ vests = "Armor Vests"
 plate_carriers = "Plate Carriers"
 
 [listing_page_fields]
-# Read the current protection rating from both armor master lists while
-# preserving the rest of each item's category/infobox data.
-vests = ["protection_rating", "nij_class", "material", "armor_locations"]
-plate_carriers = ["protection_rating", "nij_class", "material", "armor_locations"]
+# Read the protection rating and listing-page icon from both armor master lists.
+# Preserve the rest of each item's category/infobox data.
+vests = ["protection_rating", "nij_class", "material", "armor_locations", "image"]
+plate_carriers = ["protection_rating", "nij_class", "material", "armor_locations", "image"]
 
 [listing_page_only]
 # These dataset keys are populated from their listing table instead of a wiki

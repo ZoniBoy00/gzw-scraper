@@ -348,15 +348,28 @@ def test_scrape_listing_page_adds_armor_rating_and_merges_table_alias(monkeypatc
     assert buran["armor_locations"] == "Front, Back, Sides"
 
 
+def test_scrape_listing_page_restores_missing_image_from_listing(monkeypatch):
+    monkeypatch.setattr(network, "parse_page", lambda _title: soup_of(LISTING_ARMOR_RATINGS_HTML))
+    existing = [{"name": "Buran's Pantsir 2.0", "id": "burans-pantsir-2.0"}]
+
+    listing_items = scrape.scrape_listing_page(
+        "plate_carriers", "Plate Carriers", existing_items=existing, fields={"image"}
+    )
+    items = storage.merge_items(existing, listing_items)
+
+    buran = next(item for item in items if item["name"] == "Buran's Pantsir 2.0")
+    assert buran["image"] == "https://static.wikia.nocookie.net/gzw/images/buran_icon.png"
+
+
 def test_listing_page_configures_vest_and_plate_carrier_rating_fields():
     cfg = scrape.load_config()
     assert cfg["listing_pages"]["vests"] == "Armor Vests"
     assert cfg["listing_pages"]["plate_carriers"] == "Plate Carriers"
     assert cfg["listing_page_fields"]["vests"] == [
-        "protection_rating", "nij_class", "material", "armor_locations"
+        "protection_rating", "nij_class", "material", "armor_locations", "image"
     ]
     assert cfg["listing_page_fields"]["plate_carriers"] == [
-        "protection_rating", "nij_class", "material", "armor_locations"
+        "protection_rating", "nij_class", "material", "armor_locations", "image"
     ]
     assert cfg["listing_page_only"]["datasets"] == ["provisions"]
     assert cfg["category_index_pages"]["Armor Vest"] == "Armor Vests"
