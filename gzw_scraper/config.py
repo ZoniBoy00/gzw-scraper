@@ -20,7 +20,7 @@ CONFIG_PATH: Path = Path(__file__).resolve().parent.parent / "config.toml"
 DEFAULT_CONFIG: Dict[str, Any] = {
     "wiki": {
         "api_url": "https://gray-zone-warfare.fandom.com/api.php",
-        "user_agent": "GZW-Scraper/4.5.1 (community tool; github.com/ZoniBoy00/gzw-scraper)",
+        "user_agent": "GZW-Scraper/4.6.0 (community tool; github.com/ZoniBoy00/gzw-scraper)",
     },
     "scraper": {
         "max_retries": 5,

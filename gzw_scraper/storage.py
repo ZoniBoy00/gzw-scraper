@@ -8,6 +8,8 @@ import shutil
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
 
+from .numeric_values import normalize_numeric_fields
+
 logger = logging.getLogger("gzw-scraper")
 
 # ─── Runtime settings (populated by gzw_scraper.config.apply_settings) ───
@@ -71,6 +73,9 @@ def safe_save(filename: str, items: List[Dict[str, Any]], previous_count: Option
     Returns:
         True if save succeeded, False on failure.
     """
+    # Preserve the source values and add only strictly parsed numeric projections.
+    items = [normalize_numeric_fields(item) for item in items]
+
     # Validate
     valid: bool
     reason: str

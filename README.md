@@ -5,7 +5,9 @@
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
-**v4.5.1 — Complete carrier-list enrichment.** In addition to the v4.5.0 wiki coverage, plate-carrier listing rows now provide grid, weight, and source fields for blank item pages. New and filtered-out wiki categories are reported for review. The current test suite has 72 passing tests.
+**v4.6.0 — numeric projections and reviewed data handoff.** Adds optional unit-bearing `numeric_values` without changing source fields, and routes scraper updates to `gzw-data` through a reviewable pull request. Failed or anomalous runs now produce a report artifact and attention alert for follow-up.
+
+**v4.5.1 — Complete carrier-list enrichment.** In addition to the v4.5.0 wiki coverage, plate-carrier listing rows now provide grid, weight, and source fields for blank item pages. New and filtered-out wiki categories are reported for review.
 
 ## Output metadata
 
@@ -77,7 +79,7 @@ All settings are in `config.toml`:
 ```toml
 [wiki]
 api_url = "https://gray-zone-warfare.fandom.com/api.php"
-user_agent = "GZW-Scraper/4.5.1 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
+user_agent = "GZW-Scraper/4.6.0 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
 
 [scraper]
 max_retries = 5
@@ -95,13 +97,13 @@ python scrape.py --all --config /path/to/config.toml
 
 ## Output
 
-All `.json` files go to `data/` — each file is an array of items with `name`, `id`, and infobox fields. Pushed to [gzw-data](https://github.com/ZoniBoy00/gzw-data) every Monday via GitHub Actions.
+All `.json` files go to `data/` — each public dataset array includes `name`, `id`, and infobox fields. The weekly GitHub Actions workflow validates these files and proposes updates to [gzw-data](https://github.com/ZoniBoy00/gzw-data) in a reviewable pull request; it never pushes scraped output directly to `main`.
 
 ## Automation
 
 GitHub Actions runs `python scrape.py --all` every Monday at 06:17 UTC. It can also be triggered manually via `workflow_dispatch`.
 
-Each run now publishes a `scrape-report` artifact containing `scrape-report.json` and the raw `scrape.log`. Before data is copied to `gzw-data`, the workflow validates that the manifest and scrape report are present and structurally valid. The GitHub Actions summary shows:
+Each run publishes a `scrape-report` artifact containing `scrape-report.json` and the raw `scrape.log`. Before a pull request is opened, the workflow validates that the manifest and scrape report are present and structurally valid, then runs the `gzw-data` API tests and dataset metadata validation. A `GH_PAT` Actions secret with write access to the `gzw-data` repository is required for the cross-repository branch and pull request. The GitHub Actions summary shows:
 
 - dataset files added, removed, changed, and unchanged
 - item counts before and after the scrape
@@ -111,7 +113,9 @@ Each run now publishes a `scrape-report` artifact containing `scrape-report.json
 - schema warnings for added, removed, or type-changed fields
 - anomaly warnings for empty or massively reduced datasets
 
-`_metadata.json`, `_history.json`, and `_manifest.json` are intentionally excluded from the content diff. Metadata timestamps and manifest generation times change on successful runs, but these files are still published to `data/` for API provenance and snapshot consumers.
+`_metadata.json`, `_history.json`, `_id_aliases.json`, and `_manifest.json` are intentionally excluded from the content diff. Metadata timestamps and manifest generation times change on successful runs, but these files are still published to `data/` for API provenance, alias resolution, and snapshot consumers. The scraper's internal `_field_preservation.json` state is not copied into the API repository.
+
+Scraped source fields stay unchanged. When a value is an unambiguous number with a recognized unit, the scraper adds a `numeric_values` projection that stores the numeric value and unit separately; ambiguous comma-decimal forms and unknown units are left untouched. The datasets' rights are distinct from the scraper code license; see the [gzw-data source and licensing notice](https://github.com/ZoniBoy00/gzw-data/blob/main/DATA_LICENSE.md).
 
 If the report says **No captured data changes**, the scraper completed and produced JSON matching the previous `gzw-data` snapshot. This does not claim that every wiki edit was unchanged; only the fields captured by this scraper were unchanged.
 

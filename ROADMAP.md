@@ -4,10 +4,10 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 
 ## Current status
 
-- **Version:** `4.5.1`
+- **Version:** `4.6.0`
 - **Runtime:** Python 3.11+
 - **Source:** GZW Fandom Wiki
-- **Tests:** 72 passing after listing enrichment and category reporting
+- **Tests:** see the latest CI run; test counts are not maintained as static roadmap data
 - **Output:** generated JSON datasets plus `_metadata.json`
 - **License:** MIT
 
@@ -22,7 +22,7 @@ These are planning milestones, not promises to run live scrapes or publish data 
 - [x] Deterministic metadata and machine-readable scrape reporting.
 - [x] Reviewed data handoff and snapshot recording for `gzw-data`.
 
-The current scraper version is `4.5.1`; `4.1.0` is the previous parser-reliability milestone.
+The current scraper version is `4.6.0`; `4.1.0` is the previous parser-reliability milestone.
 
 ### `4.1.0` — parser reliability
 
@@ -76,6 +76,14 @@ The current scraper version is `4.5.1`; `4.1.0` is the previous parser-reliabili
 - [x] Map listing columns into the field names already consumed by GZW Tools.
 - [x] Report non-empty filtered categories and the names of newly discovered categories.
 - [x] Add regression tests for carrier enrichment and category-filter reporting.
+
+### `4.6.0` — numeric projections and reviewed data handoff
+
+- [x] Add optional unit-aware numeric projections while preserving source strings.
+- [x] Include generated numeric projections in the validated data-report workflow.
+- [x] Route cross-repository updates through a persistent review branch and pull request.
+- [x] Report scrape/anomaly failures and close the attention alert after a clean run.
+- [x] Serialize handoffs and keep generated state out of the repository diff.
 
 ### `5.0.0` — breaking output contract, only if required
 

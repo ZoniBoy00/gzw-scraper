@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-SCRAPER_VERSION = "4.5.1"
+SCRAPER_VERSION = "4.6.0"
 PARSER_REVISION = "universal-parser-v8"
 
 

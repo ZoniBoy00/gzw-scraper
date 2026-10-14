@@ -13,7 +13,7 @@ from typing import Any
 
 
 Item = dict[str, Any]
-EXCLUDED_FILES = frozenset({"_field_preservation.json", "_history.json", "_manifest.json", "_metadata.json"})
+EXCLUDED_FILES = frozenset({"_field_preservation.json", "_history.json", "_id_aliases.json", "_manifest.json", "_metadata.json"})
 
 
 def load_json(path: Path) -> Any:
@@ -192,6 +192,48 @@ def build_report(before_dir: Path, after_dir: Path, log_path: Path | None = None
         },
     }
     return report
+
+
+def review_reasons(report: dict[str, Any], rate_limit_threshold: int = 3) -> list[str]:
+    """Return actionable reasons to hold a data handoff for human review."""
+    reasons: list[str] = []
+    log = report.get("log", {}) if isinstance(report, dict) else {}
+    files = report.get("files", {}) if isinstance(report, dict) else {}
+    datasets = report.get("datasets", []) if isinstance(report, dict) else []
+
+    if (
+        not isinstance(report, dict)
+        or not isinstance(log, dict)
+        or not isinstance(files, dict)
+        or not isinstance(datasets, list)
+    ):
+        return ["scrape report is missing or malformed"]
+    if int(log.get("errors", 0) or 0) > 0:
+        reasons.append(f"scrape log contains {log['errors']} error(s)")
+    rate_limits = int(log.get("rate_limits", 0) or 0)
+    if rate_limits >= rate_limit_threshold:
+        reasons.append(f"scrape encountered {rate_limits} rate-limit match(es)")
+    if int(files.get("removed", 0) or 0) > 0:
+        reasons.append(f"{files['removed']} dataset file(s) were removed")
+
+    anomaly_count = sum(
+        len(dataset.get("anomalies", []))
+        for dataset in datasets
+        if isinstance(dataset, dict) and isinstance(dataset.get("anomalies", []), list)
+    )
+    if anomaly_count:
+        reasons.append(f"report contains {anomaly_count} data anomaly warning(s)")
+
+    breaking_schema_warnings = [
+        warning
+        for dataset in datasets
+        if isinstance(dataset, dict)
+        for warning in dataset.get("schema_warnings", [])
+        if isinstance(warning, dict) and warning.get("kind") in {"removed", "type_changed", "null_heavy"}
+    ]
+    if breaking_schema_warnings:
+        reasons.append(f"report contains {len(breaking_schema_warnings)} schema warning(s) requiring review")
+    return reasons
 
 
 def markdown_summary(report: dict[str, Any]) -> str:

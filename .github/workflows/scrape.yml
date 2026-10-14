@@ -1,12 +1,17 @@
-name: Scrape and Push to gzw-data
+name: Scrape and propose gzw-data update
 
 on:
   schedule:
-    - cron: '17 6 * * 1'  # Every Monday at 06:17 UTC
-  workflow_dispatch:       # Manual trigger
+    - cron: '17 6 * * 1' # Every Monday at 06:17 UTC
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  issues: write
+
+concurrency:
+  group: gzw-scraper-data-handoff
+  cancel-in-progress: false
 
 jobs:
   scrape:
@@ -19,45 +24,59 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      - name: Install dependencies
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
+      - name: Install scraper dependencies
         run: |
-          pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml tqdm pytest 2>&1 | tail -5
-          pip list 2>&1 | grep -E "requests|beautifulsoup|lxml|tqdm"
+          python -m pip install --upgrade pip
+          python -m pip install -e . pytest
 
-      - name: Run tests
-        run: python -m pytest tests/ -v 2>&1
+      - name: Run scraper tests
+        run: python -m pytest tests/ -q
 
-      # Pull previous data before scraping so failed categories are preserved.
-      - name: Checkout gzw-data (previous data)
+      # A PAT is needed because this workflow writes a branch and PR in another repo.
+      - name: Checkout gzw-data base
         uses: actions/checkout@v7
         with:
           repository: ZoniBoy00/gzw-data
           path: gzw-data
-          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
 
-      - name: Seed scraper data dir with previous data
+      - name: Seed previous data
         run: |
           mkdir -p data
           cp gzw-data/data/*.json data/ 2>/dev/null || true
-          echo "Seeded $(ls data | wc -l) previous files"
+          echo "Seeded $(find data -maxdepth 1 -name '*.json' | wc -l) previous data files"
 
-      - name: Run scraper
-        run: python scrape.py --all 2>&1 | tee scrape.log
-        continue-on-error: false
+      - name: Run full scraper
+        id: scrape
+        run: |
+          set -o pipefail
+          python scrape.py --all 2>&1 | tee scrape.log
 
       - name: Create scraper manifest
         run: python scripts/create_manifest.py
 
-      - name: Generate data change report
+      - name: Generate data-change report
+        id: report
         run: |
+          set -o pipefail
           python scripts/report_data_changes.py \
             --before gzw-data/data \
             --after data \
             --log scrape.log \
             --json-out scrape-report.json | tee -a "$GITHUB_STEP_SUMMARY"
 
-      - name: Upload scrape report
+      # Keep logs even when the scrape or report failed before producing output.
+      - name: Ensure failure artifacts exist
+        if: always()
+        run: |
+          python -c 'from pathlib import Path; import json, os; log=Path("scrape.log"); log.write_text("Scraper did not create a log file.\n", encoding="utf-8") if not log.exists() else None; report=Path("scrape-report.json"); report.write_text(json.dumps({"status":"report_not_generated","run_id":os.environ["GITHUB_RUN_ID"]}, indent=2)+"\n", encoding="utf-8") if not report.exists() else None'
+
+      - name: Upload scrape report and logs
+        if: always()
         uses: actions/upload-artifact@v7
         with:
           name: scrape-report-${{ github.run_number }}
@@ -65,55 +84,141 @@ jobs:
             scrape-report.json
             scrape.log
           retention-days: 30
+          if-no-files-found: error
 
-      - name: Validate reviewed-data handoff inputs
+      - name: Classify report for review
+        id: review
+        if: steps.report.outcome == 'success'
+        run: |
+          python -c 'import json, os; from scripts.report_data_changes import review_reasons; reasons=review_reasons(json.load(open("scrape-report.json", encoding="utf-8"))); output="required="+str(bool(reasons)).lower()+"\nreasons="+"; ".join(reasons)+"\n"; open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8").write(output); print(output, end="")'
+
+      - name: Validate manifest and report
+        id: handoff-inputs
         run: |
           test -s data/_manifest.json
           python -c "import json; m=json.load(open('data/_manifest.json')); assert m['source'] == 'gzw-scraper'; assert m['datasets']"
           python -c "import json; r=json.load(open('scrape-report.json')); assert 'files' in r and 'totals' in r and 'log' in r"
           echo "✅ Manifest and scrape report are ready for gzw-data handoff"
 
-      # No pruning: if a category failed, the previous version stays intact.
-      - name: Copy data to gzw-data/data/
+      # Reuse one bot-owned review branch; never push scrape output directly to main.
+      - name: Prepare data-review branch and record snapshot
         run: |
-          DST="gzw-data/data"
-          mkdir -p "$DST"
-          for f in data/*.json; do
-            name=$(basename "$f")
-            cp "$f" "$DST/$name"
-            echo "  ✅ $name"
-          done
-          echo "→ Stale-file pruning disabled: missing datasets keep previous data"
+          set -euo pipefail
+          branch='scrape/data-update'
+          git -C gzw-data fetch origin main
+          if git -C gzw-data ls-remote --exit-code --heads origin "$branch" >/dev/null; then
+            git -C gzw-data fetch origin "$branch"
+            git -C gzw-data checkout -B "$branch" "origin/$branch"
+            git -C gzw-data merge --no-edit origin/main
+          else
+            git -C gzw-data checkout -b "$branch" origin/main
+          fi
 
-      - name: Record gzw-data snapshot
-        run: node gzw-data/scripts/record-snapshot.js
-
-      - name: Validate copied data
-        run: |
-          cd gzw-data
-          ERROR=0
-          for f in data/*.json; do
-            if ! python -c "import json; json.load(open('$f'))" 2>/dev/null; then
-              echo "  ❌ Invalid JSON: $f"
-              ERROR=1
+          mkdir -p gzw-data/data
+          for source in data/*.json; do
+            [ -f "$source" ] || continue
+            filename=$(basename "$source")
+            if [ "$filename" != '_field_preservation.json' ]; then
+              cp "$source" "gzw-data/data/$filename"
             fi
           done
-          if [ "$ERROR" -eq 1 ]; then
-            echo "Data validation failed — aborting push"
-            exit 1
-          fi
-          echo "✅ All JSON files valid"
+          node gzw-data/scripts/record-snapshot.js
 
-      - name: Commit and push
+      - name: Validate gzw-data tests and schemas
+        id: api-validation
         run: |
-          cd gzw-data
-          git config user.name "gzw-bot"
-          git config user.email "bot@gzw-data.dev"
-          if git status --porcelain data/ | grep -q .; then
-            git add data/
-            git commit -m "auto: update scraped data ($(date +%Y-%m-%d))"
-            git push
-            echo "✅ Pushed to gzw-data"
+          npm ci --prefix gzw-data
+          npm test --prefix gzw-data
+          npm run validate:data --prefix gzw-data
+
+      - name: Create gzw-data pull request
+        if: steps.api-validation.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          REVIEW_REQUIRED: ${{ steps.review.outputs.required }}
+          REVIEW_REASONS: ${{ steps.review.outputs.reasons }}
+        run: |
+          if [ -z "$(git -C gzw-data status --porcelain -- data/)" ]; then
+            echo "No data changes; no pull request needed."
+            exit 0
+          fi
+
+          branch='scrape/data-update'
+          git -C gzw-data config user.name "gzw-bot"
+          git -C gzw-data config user.email "bot@gzw-data.dev"
+          git -C gzw-data add data/
+          git -C gzw-data commit -m "auto: prepare scraped data update ($(date -u +%Y-%m-%d))"
+          git -C gzw-data push origin "$branch"
+
+          report_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          {
+            printf '# Automated scraper data update\n\n'
+            printf 'The scraper output passed JSON validation, the gzw-data test suite, and metadata validation.\n\n'
+            printf -- '- Review required: %s\n' "${REVIEW_REQUIRED:-unknown}"
+            printf -- '- Review signals: %s\n' "${REVIEW_REASONS:-none}"
+            printf -- '- Scraper run and artifact: %s\n' "$report_url"
+          } > gzw-data-pr-body.md
+
+          title="auto: update scraped GZW data ($(date -u +%Y-%m-%d))"
+          existing_pr=$(gh pr list \
+            --repo ZoniBoy00/gzw-data \
+            --state open \
+            --head "ZoniBoy00:${branch}" \
+            --json number \
+            --jq '.[0].number // empty')
+
+          if [ -n "$existing_pr" ]; then
+            gh pr edit "$existing_pr" --repo ZoniBoy00/gzw-data --title "$title" --body-file gzw-data-pr-body.md
+            echo "Updated existing reviewable data PR #$existing_pr."
           else
-            echo "No data changes."
+            gh pr create \
+              --repo ZoniBoy00/gzw-data \
+              --base main \
+              --head "ZoniBoy00:${branch}" \
+              --title "$title" \
+              --body-file gzw-data-pr-body.md
+            echo "Created reviewable data PR. Review signals leave it for human review."
+          fi
+
+      - name: Ensure a scraper attention issue exists
+        if: ${{ always() && (failure() || steps.review.outputs.required == 'true') }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REVIEW_REASONS: ${{ steps.review.outputs.reasons }}
+        run: |
+          run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          printf 'Automated scraper run needs attention.\n\n- Run: %s\n- Artifact: scrape-report-%s\n- Review signals: %s\n' \
+            "$run_url" "$GITHUB_RUN_NUMBER" "${REVIEW_REASONS:-workflow step failed before report classification}" \
+            > scrape-notice.md
+
+          title='[scrape-monitor] Scraper run needs attention'
+          issue_number=$(gh issue list \
+            --repo "$GITHUB_REPOSITORY" \
+            --state open \
+            --limit 100 \
+            --json number,title \
+            --jq 'map(select(.title == "[scrape-monitor] Scraper run needs attention")) | if length > 0 then .[0].number else empty end')
+
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --repo "$GITHUB_REPOSITORY" --body-file scrape-notice.md
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body-file scrape-notice.md
+          fi
+
+      - name: Close scraper attention issue after clean run
+        if: ${{ success() && steps.review.outputs.required == 'false' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          title='[scrape-monitor] Scraper run needs attention'
+          issue_number=$(gh issue list \
+            --repo "$GITHUB_REPOSITORY" \
+            --state open \
+            --limit 100 \
+            --json number,title \
+            --jq 'map(select(.title == "[scrape-monitor] Scraper run needs attention")) | if length > 0 then .[0].number else empty end')
+
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --repo "$GITHUB_REPOSITORY" --body "Scraper completed without actionable errors or schema/anomaly review signals. Closing this alert. Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            gh issue close "$issue_number" --repo "$GITHUB_REPOSITORY"
           fi

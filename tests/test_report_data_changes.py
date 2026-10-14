@@ -4,7 +4,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parents[1] / "scripts"))
 
-from report_data_changes import build_report, markdown_summary  # noqa: E402
+from report_data_changes import build_report, markdown_summary, review_reasons  # noqa: E402
 
 
 def write_json(directory: Path, filename: str, value: object) -> None:
@@ -65,11 +65,15 @@ def test_build_report_ignores_scrape_metadata_changes(tmp_path):
     write_json(after, "_manifest.json", {"generatedAt": "new"})
     write_json(before, "_field_preservation.json", {"weapons.json": {"AK-74": {"caliber": 1}}})
     write_json(after, "_field_preservation.json", {"weapons.json": {"AK-74": {"caliber": 2}}})
+    write_json(before, "_id_aliases.json", {"schemaVersion": 1, "datasets": {}})
+    write_json(after, "_id_aliases.json", {"schemaVersion": 1, "datasets": {"weapons": {"old-id": "ak-74"}}})
 
     report = build_report(before, after)
 
     assert report["files"] == {"before": 1, "after": 1, "added": 0, "removed": 0, "changed": 0, "unchanged": 1}
-    assert report["excluded_files"] == ["_field_preservation.json", "_history.json", "_manifest.json", "_metadata.json"]
+    assert set(report["excluded_files"]) == {
+        "_field_preservation.json", "_history.json", "_id_aliases.json", "_manifest.json", "_metadata.json"
+    }
     assert report["totals"]["items_before"] == 1
     assert report["totals"]["items_after"] == 1
 
@@ -110,3 +114,31 @@ def test_build_report_counts_log_signals(tmp_path):
     report = build_report(before, after, log)
 
     assert report["log"] == {"errors": 1, "warnings": 1, "rate_limits": 2}
+
+
+def test_review_reasons_holds_only_actionable_signals():
+    clean_report = {
+        "files": {"removed": 0},
+        "log": {"errors": 0, "warnings": 0, "rate_limits": 2},
+        "datasets": [{"anomalies": [], "schema_warnings": [{"kind": "added"}] }],
+    }
+    assert review_reasons(clean_report) == []
+
+    rate_limited = {**clean_report, "log": {**clean_report["log"], "rate_limits": 3}}
+    assert "3 rate-limit match(es)" in review_reasons(rate_limited)[0]
+
+    anomalous = {**clean_report, "datasets": [{"anomalies": [{"kind": "massive_count_drop"}], "schema_warnings": []}]}
+    assert "anomaly warning(s)" in review_reasons(anomalous)[0]
+
+    changed_schema = {**clean_report, "datasets": [{"anomalies": [], "schema_warnings": [{"kind": "type_changed"}]}]}
+    assert "schema warning(s)" in review_reasons(changed_schema)[0]
+
+    failed = {**clean_report, "log": {**clean_report["log"], "errors": 1}}
+    assert "error(s)" in review_reasons(failed)[0]
+
+    removed_file = {**clean_report, "files": {"removed": 1}}
+    assert "dataset file(s) were removed" in review_reasons(removed_file)[0]
+
+
+def test_review_reasons_handles_malformed_report():
+    assert review_reasons({"files": [], "log": [], "datasets": []}) == ["scrape report is missing or malformed"]

@@ -406,7 +406,7 @@ def run_full_scrape() -> bool:
         True if scrape completed (even with some failures).
     """
     logger.info("=" * 60)
-    logger.info("GZW Wiki Scraper v4.5.1 — Configurable & Bulletproof")
+    logger.info("GZW Wiki Scraper v4.6.0 — Configurable & Bulletproof")
     logger.info("=" * 60)
 
     DATASET_SOURCE_REVISIONS.clear()
