@@ -515,8 +515,9 @@ def run_full_scrape() -> bool:
             updated = parsing.apply_ballistics_penetration(merged["ammo.json"], ballistics)
             logger.info("Applied Ballistics penetration data to %d ammo rows", updated)
 
-    # ── Phase 4: Save all merged files ──
-    logger.info("\n💾 Phase 4: Saving %d merged files...", len(merged))
+    # ── Phase 4: Save all merged and per-category task files ──
+    total_files = len(merged) + len(task_split)
+    logger.info("\n💾 Phase 4: Saving %d output files...", total_files)
 
     saved_count: int = 0
     updated_datasets: Set[str] = set()
@@ -537,7 +538,7 @@ def run_full_scrape() -> bool:
     # ── Summary ──
     logger.info("\n" + "=" * 60)
     logger.info("📊 Scrape Complete!")
-    logger.info("  Files saved: %d/%d", saved_count, len(merged))
+    logger.info("  Files saved: %d/%d", saved_count, total_files)
     if auto_discovered_categories:
         logger.info(
             "  🆕 New categories discovered (%d): %s",
