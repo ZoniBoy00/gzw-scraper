@@ -22,7 +22,6 @@ import pytest
 import scrape
 from gzw_scraper import network, pipeline, storage
 
-
 # ─── parse_infobox ───
 
 INFOBOX_HTML = """
@@ -526,19 +525,6 @@ def test_filter_game_categories_skips_wiki_infrastructure():
     ]
     kept = scrape.filter_game_categories(cats)
     assert kept == []
-
-
-def test_filtered_category_report_lists_nonempty_skipped_categories():
-    all_categories = [
-        {"*": "Crafting", "size": 5},
-        {"*": "Systems", "size": 12},
-        {"*": "Empty Category", "size": 0},
-    ]
-    included = [{"title": "Crafting", "name": "Crafting", "pages": 5}]
-
-    assert pipeline.get_filtered_categories(all_categories, included) == [
-        {"title": "Systems", "pages": 12}
-    ]
 
 
 def test_filtered_category_report_lists_nonempty_skipped_categories():

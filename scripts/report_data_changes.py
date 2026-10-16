@@ -11,7 +11,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-
 Item = dict[str, Any]
 EXCLUDED_FILES = frozenset({"_field_preservation.json", "_history.json", "_id_aliases.json", "_manifest.json", "_metadata.json"})
 

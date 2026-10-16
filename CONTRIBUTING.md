@@ -24,8 +24,10 @@ Install the project and test dependencies according to the project setup. For a 
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -e .
-python -m pip install pytest
+python -m pip install pytest ruff
 ```
+
+Run `ruff check .` and `python -m pytest tests/ -q` before opening a pull request; CI runs both on Python 3.11, 3.12 and 3.13.
 
 On Linux/macOS, activate with:
 

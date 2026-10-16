@@ -2,13 +2,12 @@
 
 from __future__ import annotations
 
+import logging
 import re
 from typing import Dict, List, Optional, Tuple
 from urllib.parse import unquote, urlsplit
 
 import bs4
-
-import logging
 
 from gzw_scraper import network
 

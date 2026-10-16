@@ -2,17 +2,16 @@
 
 from __future__ import annotations
 
+import logging
+import random
+import re
+import threading
+import time
 from typing import Any, Dict, List, Optional, Set
 
 import bs4
 import requests
-import time
-import threading
-import random
-import re
 from requests import Response
-
-import logging
 
 logger = logging.getLogger("gzw-scraper")
 

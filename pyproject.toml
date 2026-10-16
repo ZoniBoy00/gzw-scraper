@@ -25,3 +25,17 @@ include = ["gzw_scraper*"]
 
 [tool.setuptools.package-data]
 "*" = ["config.toml"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+extend-exclude = ["data"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
+ignore = ["E501"]  # long lines are fine in parser tables and log strings
+
+[tool.ruff.lint.per-file-ignores]
+# scrape.py and the package __init__ re-export modules for backwards compatibility.
+"scrape.py" = ["F401", "E402"]
+"gzw_scraper/__init__.py" = ["F401"]

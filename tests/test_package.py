@@ -15,7 +15,6 @@ import pytest
 import scrape
 from gzw_scraper import cli, config, network, parsing, pipeline, storage
 
-
 # ─── config ───
 
 def test_default_config_keeps_removed_and_upcoming_content_scrapable():

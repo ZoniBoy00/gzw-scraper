@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
-from typing import List, Optional, Sequence
+from typing import Optional, Sequence
 
 from gzw_scraper import config, pipeline
 from gzw_scraper.config import CONFIG_PATH

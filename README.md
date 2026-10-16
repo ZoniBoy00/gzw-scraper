@@ -137,9 +137,10 @@ python -m pip install -e .
 
 ```bash
 # Install the test dependency
-python -m pip install pytest
+python -m pip install pytest ruff
 
-# Run tests
+# Lint and run tests
+ruff check .
 python -m pytest tests/ -v
 ```
 

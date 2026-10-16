@@ -6,7 +6,6 @@ import math
 import re
 from typing import Any, Dict
 
-
 _NUMERIC_WITH_UNIT = re.compile(
     r"^\s*([+-]?(?:\d+(?:\.\d*)?|\.\d+))\s*(kg|g|lbs?|rpm|moa|m/s|km/h|cm|mm|m|%)\s*$",
     re.IGNORECASE,
