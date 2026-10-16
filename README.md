@@ -143,6 +143,13 @@ python -m pip install pytest
 python -m pytest tests/ -v
 ```
 
+## Related projects
+
+- [gzw-data](https://github.com/ZoniBoy00/gzw-data): the public API and datasets ([gzw-data.dev](https://gzw-data.dev/))
+- [gzw-data-js](https://github.com/ZoniBoy00/gzw-data-js): JavaScript / TypeScript client ([npm](https://www.npmjs.com/package/@zoniboy/gzw-data-client))
+- [gzw-data-py](https://github.com/ZoniBoy00/gzw-data-py): Python client ([PyPI](https://pypi.org/project/gzw-data/))
+- [gzw-tools](https://github.com/ZoniBoy00/gzw-tools): the fan reference app ([gzw-tools.vercel.app](https://gzw-tools.vercel.app/))
+
 ## License
 
 Scraper code is released under the [MIT License](LICENSE). The scraped datasets have separate rights; see the [gzw-data source and licensing notice](https://github.com/ZoniBoy00/gzw-data/blob/main/DATA_LICENSE.md).
