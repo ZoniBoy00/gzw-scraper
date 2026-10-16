@@ -142,3 +142,7 @@ python -m pip install pytest
 # Run tests
 python -m pytest tests/ -v
 ```
+
+## License
+
+Scraper code is released under the [MIT License](LICENSE). The scraped datasets have separate rights; see the [gzw-data source and licensing notice](https://github.com/ZoniBoy00/gzw-data/blob/main/DATA_LICENSE.md).
