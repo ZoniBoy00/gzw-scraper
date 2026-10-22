@@ -308,8 +308,8 @@ def get_previous_counts() -> Dict[str, int]:
             with open(f, "r", encoding="utf-8") as fh:
                 data: Any = json.load(fh)
                 counts[f.name] = len(data) if isinstance(data, list) else 0
-        except Exception:
-            pass
+        except Exception as exc:
+            logger.debug("Could not count items in %s: %s", f.name, exc)
     return counts
 
 
@@ -406,7 +406,7 @@ def run_full_scrape() -> bool:
         True if scrape completed (even with some failures).
     """
     logger.info("=" * 60)
-    logger.info("GZW Wiki Scraper v4.6.0 — Configurable & Bulletproof")
+    logger.info("GZW Wiki Scraper v%s — Configurable & Bulletproof", SCRAPER_VERSION)
     logger.info("=" * 60)
 
     DATASET_SOURCE_REVISIONS.clear()

@@ -48,6 +48,20 @@ def throttle_request() -> None:
 
 # ─── Bulletproof API helpers ───
 
+MAX_RETRY_AFTER: float = 120.0
+
+
+def retry_after_seconds(response: Optional[Response]) -> Optional[float]:
+    """Seconds requested by a Retry-After header (capped), or None when absent or not a number."""
+    headers = getattr(response, "headers", None)
+    value = headers.get("Retry-After") if headers else None
+    try:
+        seconds = float(value) if value is not None else 0.0
+    except (TypeError, ValueError):
+        return None
+    return min(seconds, MAX_RETRY_AFTER) if seconds > 0 else None
+
+
 def api_call(params: Dict[str, Any], max_retries: Optional[int] = None) -> Optional[Dict[str, Any]]:
     """Make a MediaWiki API call with exponential backoff retry.
 
@@ -74,10 +88,12 @@ def api_call(params: Dict[str, Any], max_retries: Optional[int] = None) -> Optio
         except requests.exceptions.HTTPError as exc:
             status: int = exc.response.status_code if exc.response is not None else 0
             if status == 429:
-                # Long, jittered backoff — the wiki is telling us to slow down
-                wait: float = (2 ** attempt) * 10 + random.uniform(0, 2)
-                logger.warning("Rate limited (429), waiting %ds...", int(wait))
-                time.sleep(wait)
+                last_error = f"HTTP 429: {exc}"
+                if attempt < max_retries - 1:
+                    # Honour the wiki's Retry-After when it sends one; otherwise use a long, jittered backoff.
+                    wait: float = retry_after_seconds(exc.response) or (2 ** attempt) * 10 + random.uniform(0, 2)
+                    logger.warning("Rate limited (429), waiting %ds...", int(wait))
+                    time.sleep(wait)
                 continue
             last_error = f"HTTP {status}: {exc}"
         except requests.exceptions.ConnectionError as exc:

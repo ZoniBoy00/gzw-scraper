@@ -6,6 +6,8 @@ sys.path.insert(0, str(Path(__file__).parents[1] / "scripts"))
 
 from generate_metadata import generate_metadata  # noqa: E402
 
+from gzw_scraper import __version__  # noqa: E402
+
 
 def test_generate_metadata_describes_fields_and_optional_values(tmp_path):
     (tmp_path / "weapons.json").write_text(json.dumps([
@@ -16,7 +18,7 @@ def test_generate_metadata_describes_fields_and_optional_values(tmp_path):
     metadata = generate_metadata(tmp_path, last_scraped_at="2026-08-26T12:00:00Z")
 
     assert metadata["source"] == "gzw-scraper"
-    assert metadata["scraperVersion"] == "4.6.0"
+    assert metadata["scraperVersion"] == __version__
     assert metadata["parserRevision"] == "universal-parser-v8"
     assert metadata["datasetCount"] == 1
     assert metadata["lastScrapedAt"] == "2026-08-26T12:00:00Z"

@@ -120,6 +120,10 @@ parser change
 
 Do not manually delete datasets to make a scrape pass. Investigate the cause first.
 
+### Bumping the version
+
+Change the version in one place, `gzw_scraper/_version.py`. `pyproject.toml`, the CLI, logs, `_metadata.json` and the user agent (`{version}` in `config.toml`) read it from there. Then update the places that cannot import it: the `scrape.py` docstring, `ROADMAP.md` (current status), and the top changelog line in `README.md`. `tests/test_package.py` fails if any of them disagree.
+
 When reviewing a generated data change, check:
 
 - Dataset counts

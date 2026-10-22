@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Optional, Sequence
 
 from gzw_scraper import config, pipeline
+from gzw_scraper._version import __version__
 from gzw_scraper.config import CONFIG_PATH
 
 
@@ -14,7 +15,7 @@ def build_parser() -> argparse.ArgumentParser:
     """Build the CLI argument parser (kept separate from main for testability)."""
     parser = argparse.ArgumentParser(
         prog="scrape.py",
-        description="GZW Wiki Scraper v4.6.0",
+        description=f"GZW Wiki Scraper v{__version__}",
     )
     parser.add_argument("--category", help="Scrape a single category by name")
     parser.add_argument("--all", action="store_true", help="Run full scrape (all categories)")

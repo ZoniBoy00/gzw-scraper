@@ -9,9 +9,13 @@ re-export contract itself.
 
 from __future__ import annotations
 
+import re
+from pathlib import Path
+
 import bs4
 import pytest
 
+import gzw_scraper
 import scrape
 from gzw_scraper import cli, config, network, parsing, pipeline, storage
 
@@ -114,6 +118,7 @@ def test_api_call_backs_off_on_rate_limit_then_gives_up(monkeypatch):
         return FakeResponse()
 
     monkeypatch.setattr(network.time, "sleep", lambda seconds: sleeps.append(seconds))
+    monkeypatch.setattr(network, "throttle_request", lambda: None)
     monkeypatch.setattr(network.requests, "get", fake_get)
 
     result = network.api_call({"action": "query"}, max_retries=2)
@@ -122,6 +127,68 @@ def test_api_call_backs_off_on_rate_limit_then_gives_up(monkeypatch):
     assert len(attempts) == 2
     # 429 backoff is long and jittered: 2**attempt * 10 seconds (plus jitter)
     assert any(wait >= 10 for wait in sleeps)
+    # No pointless sleep after the final attempt: one wait between two attempts
+    assert len(sleeps) == 1
+
+
+def test_api_call_honours_retry_after_and_caps_it(monkeypatch, caplog):
+    import requests
+
+    sleeps: list[float] = []
+
+    class FakeResponse:
+        status_code = 429
+
+        def __init__(self, retry_after: str) -> None:
+            self.headers = {"Retry-After": retry_after}
+
+        def raise_for_status(self) -> None:
+            raise requests.exceptions.HTTPError("429 Too Many Requests", response=self)
+
+    responses = iter([FakeResponse("7"), FakeResponse("9999"), FakeResponse("soon")])
+    monkeypatch.setattr(network.time, "sleep", lambda seconds: sleeps.append(seconds))
+    monkeypatch.setattr(network, "throttle_request", lambda: None)
+    monkeypatch.setattr(network.requests, "get", lambda *a, **k: next(responses))
+
+    with caplog.at_level("ERROR", logger="gzw-scraper"):
+        assert network.api_call({"action": "query"}, max_retries=3) is None
+
+    assert sleeps[0] == 7.0
+    assert sleeps[1] == network.MAX_RETRY_AFTER
+    # The final failure is reported with its reason instead of an empty message
+    assert "HTTP 429" in caplog.text
+
+
+def test_retry_after_seconds_ignores_missing_and_invalid_values():
+    class Resp:
+        def __init__(self, headers):
+            self.headers = headers
+
+    assert network.retry_after_seconds(None) is None
+    assert network.retry_after_seconds(Resp({})) is None
+    assert network.retry_after_seconds(Resp({"Retry-After": "0"})) is None
+    assert network.retry_after_seconds(Resp({"Retry-After": "Wed, 21 Oct 2026 07:28:00 GMT"})) is None
+    assert network.retry_after_seconds(Resp({"Retry-After": "3"})) == 3.0
+
+
+# ─── version ───
+
+ROOT = Path(__file__).resolve().parent.parent
+
+
+def test_version_has_a_single_source_and_docs_match():
+    version = gzw_scraper.__version__
+    assert re.fullmatch(r"\d+\.\d+\.\d+", version)
+    assert 'dynamic = ["version"]' in (ROOT / "pyproject.toml").read_text(encoding="utf-8")
+    assert f"GZW Wiki Scraper v{version}" in (ROOT / "scrape.py").read_text(encoding="utf-8")
+    assert f"- **Version:** `{version}`" in (ROOT / "ROADMAP.md").read_text(encoding="utf-8")
+    assert f"**v{version} " in (ROOT / "README.md").read_text(encoding="utf-8")
+
+
+def test_user_agent_version_placeholder_is_replaced():
+    assert "{version}" in (ROOT / "config.toml").read_text(encoding="utf-8")
+    assert gzw_scraper.__version__ in network.HEADERS["User-Agent"]
+    assert "{version}" not in network.HEADERS["User-Agent"]
 
 
 # ─── parsing ───
@@ -199,7 +266,7 @@ def test_cli_help_exits_zero(capsys):
     out = capsys.readouterr().out
     assert "--all" in out
     assert "--force" in out
-    assert "GZW Wiki Scraper v4.6.0" in out
+    assert f"GZW Wiki Scraper v{gzw_scraper.__version__}" in out
 
 
 def test_cli_dispatches_category_over_all(monkeypatch):

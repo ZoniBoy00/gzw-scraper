@@ -4,7 +4,7 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 
 ## Current status
 
-- **Version:** `4.6.0`
+- **Version:** `4.6.1`
 - **Runtime:** Python 3.11+
 - **Source:** GZW Fandom Wiki
 - **Tests:** see the latest CI run; test counts are not maintained as static roadmap data
@@ -22,7 +22,7 @@ These are planning milestones, not promises to run live scrapes or publish data 
 - [x] Deterministic metadata and machine-readable scrape reporting.
 - [x] Reviewed data handoff and snapshot recording for `gzw-data`.
 
-The current scraper version is `4.6.0`; `4.1.0` is the previous parser-reliability milestone.
+The current scraper version is `4.6.1`; `4.1.0` is the previous parser-reliability milestone.
 
 ### `4.1.0` — parser reliability
 
@@ -85,6 +85,14 @@ The current scraper version is `4.6.0`; `4.1.0` is the previous parser-reliabili
 - [x] Report scrape/anomaly failures and close the attention alert after a clean run.
 - [x] Serialize handoffs and keep generated state out of the repository diff.
 
+### `4.6.1` — rate-limit handling and single-source versioning
+
+- [x] Honour `Retry-After` (capped at 120 s) on HTTP 429 and skip the pointless wait after the final attempt.
+- [x] Report the real failure reason when every retry is rate limited.
+- [x] Keep the version in `gzw_scraper/_version.py`; `pyproject.toml`, the CLI, logs, metadata and the user agent derive from it.
+- [x] Log previously silent parser and counting exceptions at debug level.
+- [x] Document which `_metadata.json` and `_manifest.json` fields are stable for consumers.
+
 ### `5.0.0` — breaking output contract, only if required
 
 - [ ] Publish only for an intentional breaking change to generated data semantics.
@@ -130,7 +138,7 @@ The current scraper version is `4.6.0`; `4.1.0` is the previous parser-reliabili
 - [x] Add a scraper-run manifest with start/end time, dataset count, item count, warnings, errors, and scraper version.
 - [x] Add scraper version and parser revision to `_metadata.json`.
 - [x] Add dataset-level checksums when they reduce review cost.
-- [ ] Define which metadata is stable enough for API consumers.
+- [x] Define which metadata is stable enough for API consumers (see "Stable output fields" in the README).
 
 ### 4. CI and publishing
 

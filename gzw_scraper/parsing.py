@@ -116,7 +116,8 @@ def parse_infobox(soup: Optional[bs4.BeautifulSoup]) -> Dict[str, str]:
                     value: str = value_el.get_text(" ", strip=True)
                     value = sanitize_value(value)
                     data[label] = value
-            except Exception:
+            except Exception as exc:
+                logger.debug("Skipping unparsable infobox row: %s", exc)
                 continue
         # Get image from infobox (including image collections)
         try:
@@ -137,8 +138,8 @@ def parse_infobox(soup: Optional[bs4.BeautifulSoup]) -> Dict[str, str]:
                         if "data-src" in img.attrs and ("base64" in src or not src.startswith("http")):
                             src = img["data-src"]
                         data["_image"] = src
-        except Exception:
-            pass
+        except Exception as exc:
+            logger.debug("Could not read infobox image: %s", exc)
     except Exception as exc:
         logger.debug("parse_infobox error: %s", exc)
     return data

@@ -5,6 +5,8 @@
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
+**v4.6.1 — rate-limit handling and single-source versioning.** HTTP 429 responses now honour `Retry-After`, the final failed attempt no longer waits needlessly, and the scraper version lives in one file (`gzw_scraper/_version.py`). No change to the generated data format.
+
 **v4.6.0 — numeric projections and reviewed data handoff.** Adds optional unit-bearing `numeric_values` without changing source fields, and routes scraper updates to `gzw-data` through a reviewable pull request. Failed or anomalous runs now produce a report artifact and attention alert for follow-up.
 
 **v4.5.1 — Complete carrier-list enrichment.** In addition to the v4.5.0 wiki coverage, plate-carrier listing rows now provide grid, weight, and source fields for blank item pages. New and filtered-out wiki categories are reported for review.
@@ -12,6 +14,23 @@
 ## Output metadata
 
 After a successful full scrape, the scraper writes `data/_metadata.json`. It contains the UTC `lastScrapedAt` timestamp, `scraperVersion`, `parserRevision`, plus deterministic metadata for every dataset: dataset name and file, item count, observed fields, detected JSON types, present-field counts, optional/nullable flags, and a stable example value. The gzw-data deployment copies this metadata file so the API and dashboard can show the actual data update time and inspect the generated dataset shape separately from the API request time.
+
+### Stable output fields
+
+`gzw-data` and its clients read the files below. These fields are stable: they are only added to, and a removal or rename is a breaking change that needs a major version (`5.0.0`) and coordinated API/SDK updates.
+
+`_metadata.json`:
+
+- `source` (always `gzw-scraper`), `scraperVersion`, `parserRevision`, `datasetCount`
+- `lastScrapedAt` (latest save) and `lastFullScrapeAt` (latest completed full scrape, used for freshness monitoring)
+- `datasets[]` entries: `name`, `file`, `itemCount`, `fields` (per field: `types`, `presentCount`, `optional`, `nullable`, `example`), and when known `lastScrapedAt` and `sourcePages[]` (`title`, `revisionId`)
+
+`_manifest.json`:
+
+- `manifestVersion`, `generatedAt`, `source`
+- `datasets.<name>`: `file`, `records`, `sha256`
+
+`parserRevision` and the `example` values are informational and may change on any release. Do not parse `_field_preservation.json`; it is internal scraper state and is not published.
 
 Generate metadata manually for an existing data directory with:
 
@@ -53,7 +72,7 @@ The implementation is split into the `gzw_scraper/` package by responsibility. T
 
 | Feature | What it does |
 |---------|-------------|
-| 🔄 Exponential backoff | Retries API calls with 2s, 4s, 8s delay |
+| 🔄 Exponential backoff | Retries API calls with 1s, 2s, 4s, 8s delays; HTTP 429 honours `Retry-After` (capped at 2 minutes) or backs off 10s, 20s, 40s... |
 | ✅ Data validation | Rejects empty or corrupt data before saving |
 | 📉 Drop-guard | A category that drops >70% is NOT saved (rate limit / wiki hiccup can't wipe data) — `--force` overrides |
 | 💾 Previous-data seeding | CI seeds the previous gzw-data before scraping; missing datasets keep their last good version |
@@ -79,7 +98,7 @@ All settings are in `config.toml`:
 ```toml
 [wiki]
 api_url = "https://gray-zone-warfare.fandom.com/api.php"
-user_agent = "GZW-Scraper/4.6.0 (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
+user_agent = "GZW-Scraper/{version} (community tool; github.com/ZoniBoy00/gzw-scraper; scraper@gzw-data.dev)"
 
 [scraper]
 max_retries = 5

@@ -12,6 +12,7 @@ Small, maintainable package extracted from the former single-file
 """
 
 from gzw_scraper import cli, config, network, parsing, pipeline, storage
+from gzw_scraper._version import __version__
 
 # Load config.toml (repo root) once at import time and distribute the values
 # to the modules that consume them (network/pipeline/storage). This mirrors
@@ -20,5 +21,4 @@ from gzw_scraper import cli, config, network, parsing, pipeline, storage
 # custom file, and restores the defaults afterwards.
 config.apply_settings()
 
-__all__ = ["cli", "config", "network", "parsing", "pipeline", "storage"]
-__version__ = "4.6.0"
+__all__ = ["__version__", "cli", "config", "network", "parsing", "pipeline", "storage"]

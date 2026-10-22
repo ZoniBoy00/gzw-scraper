@@ -3,11 +3,22 @@
 from __future__ import annotations
 
 import argparse
+import importlib.util
 import json
 from pathlib import Path
 from typing import Any
 
-SCRAPER_VERSION = "4.6.0"
+
+def _load_scraper_version() -> str:
+    """Read the version from gzw_scraper/_version.py without importing the package (works as a plain script)."""
+    path = Path(__file__).resolve().parent.parent / "gzw_scraper" / "_version.py"
+    spec = importlib.util.spec_from_file_location("_gzw_scraper_version", path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module.__version__
+
+
+SCRAPER_VERSION = _load_scraper_version()
 PARSER_REVISION = "universal-parser-v8"
 
 

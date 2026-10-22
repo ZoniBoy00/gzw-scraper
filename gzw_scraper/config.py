@@ -12,6 +12,8 @@ except ImportError:  # pragma: no cover — Python <3.11 fallback
 
 import logging
 
+from gzw_scraper._version import __version__
+
 logger = logging.getLogger("gzw-scraper")
 
 # Path to the TOML configuration file (repo root).
@@ -20,7 +22,7 @@ CONFIG_PATH: Path = Path(__file__).resolve().parent.parent / "config.toml"
 DEFAULT_CONFIG: Dict[str, Any] = {
     "wiki": {
         "api_url": "https://gray-zone-warfare.fandom.com/api.php",
-        "user_agent": "GZW-Scraper/4.6.0 (community tool; github.com/ZoniBoy00/gzw-scraper)",
+        "user_agent": f"GZW-Scraper/{__version__} (community tool; github.com/ZoniBoy00/gzw-scraper)",
     },
     "scraper": {
         "max_retries": 5,
@@ -235,7 +237,8 @@ def apply_settings(config_path: Path = CONFIG_PATH) -> None:
     root = CONFIG_PATH.parent
 
     network.API_URL = wiki_config["api_url"]
-    network.HEADERS = {"User-Agent": wiki_config["user_agent"]}
+    # "{version}" in the configured user agent is replaced by the running scraper version.
+    network.HEADERS = {"User-Agent": wiki_config["user_agent"].replace("{version}", __version__)}
     network.MAX_RETRIES = scraper_config["max_retries"]
     network.BASE_DELAY = scraper_config["base_delay"]
     network.REQUEST_INTERVAL = scraper_config.get("request_interval", 0.5)

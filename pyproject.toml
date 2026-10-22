@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gzw-scraper"
-version = "4.6.0"
+dynamic = ["version"]
 description = "Gray Zone Warfare wiki game-category data scraper"
 readme = "README.md"
 license = "MIT"
@@ -19,6 +19,9 @@ dependencies = [
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["tests"]
+
+[tool.setuptools.dynamic]
+version = { attr = "gzw_scraper._version.__version__" }
 
 [tool.setuptools.packages.find]
 include = ["gzw_scraper*"]
