@@ -148,6 +148,9 @@ titles = [
 "Tech" = "electronics"
 "Plate Carrier" = "plate_carriers"
 "Evidence" = "evidence"
+# Wiki category typos: merge into the real dataset instead of creating a stray file
+"Disassembly Materia" = "disassembly_material"
+"Workshop SUpplies" = "workshop_supplies"
 "Removed Content" = "removed_content"
 "Upcoming Content" = "upcoming_content"
 # Listing-page categories — mapped here so the category scraper skips them
