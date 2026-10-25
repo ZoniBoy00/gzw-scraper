@@ -200,23 +200,31 @@ objectives = "Objectives"
 briefing = "Briefing"
 objectives = "Objectives"
 
+[content_sections.hideout]
+content = "*"
+
+[content_sections.game_systems]
+content = "*"
+
 [content_sections.bosses]
 tasks = "Tasks"
 
 [supplemental_pages]
+hideout = ["Hideout"]
+game_systems = ["Experience", "Locations", "Health system", "Looting", "Trading", "Game modes", "Lamang Island", "FAQ", "Weather", "System requirements"]
 medical = ["Advanced Flexible Splint"]
 belts = ["Custom Gear Lowpro Belt"]
 tactical_devices = ["DBAL-I2"]
 helmets = ["FAST XP HC (Olive)", "M1 (Ace of Hearts)", "M1 (Ace of Spades)"]
 plate_carriers = ["LCS Sentry (UNLRA)"]
 scopes = ["RAZOR 1-10x Rifle Scope"]
-backpacks = ["Scorpion OCP Convoy Pack (Multicam)"]
+backpacks = ["Scorpion OCP Convoy Pack (Multicam)", "Patrol Backpack (Coyote)"]
 laboratory_supplies = ["Mercenary Delivery Service III"]
 reading_intel = ["NB Research Notes"]
 task_items = ["VIP Client List"]
 intels = ["Newspaper - 50 Years since liberation from Japan"]
+tasks = ["Mercenary Delivery Service", "Friendly Conveyance", "Silent Night", "Distant Voice", "Trifle"]
 contract = ["The Ban Pa Horror", "Bad Idea", "Deep Waters"]
-tasks = ["Trifle"]
 bosses = ["Bloodhound", "Broker", "Chaonai", "Firebrand", "Grin", "Kaptei", "Viper", "Yen"]
 
 [listing_pages]

@@ -55,7 +55,9 @@ The `Armor Vests` and `Plate Carriers` listing pages enrich matching items with 
 
 The pipeline covers eligible wiki categories, selected standalone game pages, and configured listing pages. Regions, Factions, Newspaper transcripts, and standalone bosses use configured section extraction; item and task pages retain their infobox fields.
 
-If the wiki gets a new category (e.g., `Crafting`), the scraper **finds it automatically** on the next run.
+If the wiki gets a new game category (e.g., `Crafting`), the scraper **finds it automatically** on the next run.
+
+Two cases are not automatic. Categories that match the wiki-infrastructure filter, and standalone articles that sit in no scraped category, are skipped; every run logs `Category not scraped: ...` and `Uncovered page: ...` lines for them, and you add the page under `[supplemental_pages]` in `config.toml`. Articles without a fixed layout (Hideout, Experience, ...) can be captured whole by mapping a field to the section name `"*"` under `[content_sections.<dataset>]`.
 
 ## Code layout
 

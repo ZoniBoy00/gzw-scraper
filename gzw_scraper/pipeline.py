@@ -331,6 +331,22 @@ def write_scrape_metadata(
     )
 
 
+def find_uncovered_pages(
+    all_titles: List[str], datasets: Dict[str, List[Dict[str, Any]]]
+) -> List[str]:
+    """Return wiki article titles that appear in no scraped dataset or skip list."""
+    covered = {
+        str(item.get("name", "")).casefold()
+        for items in datasets.values()
+        for item in items
+    }
+    covered.update(title.casefold() for title in SKIP_PAGES)
+    return sorted(
+        (title for title in all_titles if title.casefold() not in covered),
+        key=str.casefold,
+    )
+
+
 def get_output_filename(category_title: str) -> str:
     """Determine the output filename for a wiki category.
 
@@ -514,6 +530,16 @@ def run_full_scrape() -> bool:
         if ballistics:
             updated = parsing.apply_ballistics_penetration(merged["ammo.json"], ballistics)
             logger.info("Applied Ballistics penetration data to %d ammo rows", updated)
+
+    # Report articles no dataset covers, so new wiki pages never go unnoticed.
+    all_titles = network.get_all_pages()
+    if all_titles is None:
+        logger.warning("Could not list wiki pages — skipping uncovered-page report")
+    else:
+        uncovered = find_uncovered_pages(all_titles, {**merged, **task_split})
+        logger.info("Uncovered wiki pages: %d of %d", len(uncovered), len(all_titles))
+        for title in uncovered:
+            logger.info("  Uncovered page: %s", title)
 
     # ── Phase 4: Save all merged and per-category task files ──
     total_files = len(merged) + len(task_split)

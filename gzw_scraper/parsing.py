@@ -53,6 +53,25 @@ def extract_page_sections(
     output: Dict[str, str] = {}
     content_tags = {"p", "li", "td", "th", "blockquote", "dd"}
 
+    # A "*" heading collects the whole article body, for pages without a fixed layout.
+    whole_page_field = next((f for f, s in fields.items() if s.strip() == "*"), None)
+    if whole_page_field:
+        parts = []
+        seen_parts = set()
+        for node in root.find_all(content_tags):
+            if node.find_parent("aside") or node.find_parent(class_="toc"):
+                continue
+            if node.name == "li" and node.find("p"):
+                continue
+            if node.name in {"td", "th"} and node.find(["p", "li"]):
+                continue
+            text = sanitize_value(node.get_text(" ", strip=True))
+            if text and text not in seen_parts:
+                parts.append(text)
+                seen_parts.add(text)
+        if parts:
+            output[whole_page_field] = " ".join(parts)
+
     for heading in headings:
         headline = heading.find(class_="mw-headline")
         title = headline.get_text(" ", strip=True) if headline else heading.get_text(" ", strip=True)

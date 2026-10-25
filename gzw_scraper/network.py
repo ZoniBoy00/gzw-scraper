@@ -170,6 +170,31 @@ def get_all_categories() -> List[Dict[str, Any]]:
     return all_cats
 
 
+def get_all_pages() -> Optional[List[str]]:
+    """List every non-redirect article title on the wiki (main namespace).
+
+    Used to report pages that no dataset covers. Returns None if the API fails.
+    """
+    titles: List[str] = []
+    params: Dict[str, Any] = {
+        "action": "query",
+        "list": "allpages",
+        "aplimit": 500,
+        "apnamespace": 0,
+        "apfilterredir": "nonredirects",
+    }
+    while True:
+        data: Optional[Dict[str, Any]] = api_call(params)
+        if not data:
+            return None
+        titles.extend(p["title"] for p in data.get("query", {}).get("allpages", []))
+        cont: Dict[str, Any] = data.get("continue", {})
+        if "apcontinue" in cont:
+            params["apcontinue"] = cont["apcontinue"]
+        else:
+            return titles
+
+
 def filter_game_categories(categories: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """Filter out wiki-internal categories, keep only game-relevant ones.
 

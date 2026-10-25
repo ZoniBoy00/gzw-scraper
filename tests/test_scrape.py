@@ -747,3 +747,42 @@ def test_provisions_category_is_skipped_in_favor_of_its_listing_table(monkeypatc
 if __name__ == "__main__":
     import sys
     sys.exit(pytest.main([__file__, "-v"]))
+
+
+# ─── whole-page sections and uncovered-page report ───
+
+
+def test_extract_page_sections_whole_page_wildcard():
+    from gzw_scraper import parsing
+
+    soup = bs4.BeautifulSoup(
+        "<div class='mw-parser-output'><aside><p>infobox noise</p></aside>"
+        "<p>Intro text.</p><h2><span class='mw-headline'>Part</span></h2>"
+        "<p>Body text.</p></div>",
+        "html.parser",
+    )
+    out = parsing.extract_page_sections(soup, {"content": "*"})
+    assert out == {"content": "Intro text. Body text."}
+
+
+def test_find_uncovered_pages_ignores_covered_and_skipped(monkeypatch):
+    monkeypatch.setattr(pipeline, "SKIP_PAGES", {"Intels"})
+    result = pipeline.find_uncovered_pages(
+        ["Hideout", "AK-74", "Intels", "New Page"],
+        {"weapons.json": [{"name": "ak-74"}], "hideout.json": [{"name": "Hideout"}]},
+    )
+    assert result == ["New Page"]
+
+
+def test_get_all_pages_follows_continuation(monkeypatch):
+    responses = iter([
+        {"query": {"allpages": [{"title": "A"}]}, "continue": {"apcontinue": "B"}},
+        {"query": {"allpages": [{"title": "B"}]}},
+    ])
+    monkeypatch.setattr(network, "api_call", lambda params, **kw: next(responses))
+    assert network.get_all_pages() == ["A", "B"]
+
+
+def test_get_all_pages_returns_none_on_api_failure(monkeypatch):
+    monkeypatch.setattr(network, "api_call", lambda params, **kw: None)
+    assert network.get_all_pages() is None
