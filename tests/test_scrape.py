@@ -943,3 +943,69 @@ def test_scrape_experience_tables_skips_missing_parts(monkeypatch):
     only_levels = "<div class='mw-parser-output'>" + EXPERIENCE_HTML.split("</table>", 2)[2] + "</div>"
     monkeypatch.setattr(network, "parse_page", lambda title: bs4.BeautifulSoup(only_levels, "html.parser"))
     assert set(pipeline.scrape_experience_tables()) == {"experience_levels.json"}
+
+
+# ─── trading vendors and vendor stock ───
+
+TRADING_HTML = """
+<div class="mw-parser-output">
+<table>
+<tr><th>Nickname</th><th>Name</th><th>Image</th><th>Sells</th><th>Buys</th></tr>
+<tr><td>Gunny</td><td>Anton Jackson</td><td></td><td>Weapons , Ammunition ,</td><td>Weapons and Tools.</td></tr>
+<tr><td>Vulture</td><td>Unknown</td><td></td><td>Any.</td><td>Valuables</td></tr>
+</table>
+</div>
+"""
+
+
+def test_parse_trading_vendors_cleans_list_text():
+    from gzw_scraper import parsing
+
+    vendors = parsing.parse_trading_vendors(bs4.BeautifulSoup(TRADING_HTML, "html.parser"))
+
+    assert vendors == [
+        {"name": "Gunny", "id": "gunny", "sells": "Weapons, Ammunition,", "buys": "Weapons and Tools."},
+        {"name": "Vulture", "id": "vulture", "sells": "Any.", "buys": "Valuables"},
+    ]
+    assert parsing.parse_trading_vendors(None) == []
+    assert parsing.parse_trading_vendors(bs4.BeautifulSoup("<p>none</p>", "html.parser")) == []
+
+
+def test_build_vendor_stock_splits_sold_by_and_skips_non_vendors():
+    datasets = {
+        "weapons.json": [
+            {"name": "AK-12", "sold_by": "Turncoat R.2", "type": "Assault Rifle"},
+            {"name": "M4", "sold_by": "Gunny R.1, Artisan R.3"},
+            {"name": "Found Rifle", "sold_by": "Loot only"},
+            {"name": "Mystery", "sold_by": "???"},
+            {"name": "Looted", "sold_by": "Looting"},
+        ],
+        "medical.json": [{"name": "Bandage", "sold_by": "Lab Rat", "buy_price": "$50"}],
+        "backpacks.json": [{"name": "Pack", "sold_by": "Handshake R.1"}],
+        "containers.json": [{"name": "Pack", "sold_by": "Handshake R.4"}],
+        "upcoming_content.json": [{"name": "Future Gun", "sold_by": "Gunny R.1"}],
+    }
+
+    rows = pipeline.build_vendor_stock(datasets, {"Gunny", "Artisan", "Turncoat", "Lab Rat", "Handshake"})
+    by_name = {row["name"]: row for row in rows}
+
+    assert set(by_name) == {"AK-12 (Turncoat)", "M4 (Gunny)", "M4 (Artisan)", "Bandage (Lab Rat)", "Pack (Handshake)"}
+    assert by_name["AK-12 (Turncoat)"]["rank"] == 2 and by_name["AK-12 (Turncoat)"]["type"] == "Assault Rifle"
+    assert by_name["M4 (Artisan)"]["rank"] == 3
+    assert by_name["Bandage (Lab Rat)"]["rank"] is None and by_name["Bandage (Lab Rat)"]["buy_price"] == "$50"
+    # The same item in two datasets is kept once, from the first dataset alphabetically.
+    assert by_name["Pack (Handshake)"]["category"] == "backpacks" and by_name["Pack (Handshake)"]["rank"] == 1
+    assert len({row["id"] for row in rows}) == len(rows)
+
+
+def test_build_vendor_stock_ignores_unknown_vendor_labels():
+    datasets = {"weapons.json": [{"name": "Rifle", "sold_by": "Some Label R.1"}]}
+    assert pipeline.build_vendor_stock(datasets, {"Gunny"}) == []
+    assert len(pipeline.build_vendor_stock(datasets, None)) == 1
+
+
+def test_scrape_trading_vendors_handles_missing_page(monkeypatch):
+    monkeypatch.setattr(network, "parse_page", lambda title: None)
+    assert pipeline.scrape_trading_vendors() == []
+    monkeypatch.setattr(network, "parse_page", lambda title: bs4.BeautifulSoup(TRADING_HTML, "html.parser"))
+    assert [vendor["name"] for vendor in pipeline.scrape_trading_vendors()] == ["Gunny", "Vulture"]

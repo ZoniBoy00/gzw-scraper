@@ -547,3 +547,39 @@ def parse_experience_levels(soup: Optional[bs4.BeautifulSoup]) -> List[Dict[str,
                 "rewards_text": ", ".join(rewards),
             })
     return records
+
+
+# ─── Trading page ───
+
+def _clean_list_text(value: str) -> str:
+    """Tidy comma-separated wiki text such as 'Weapons , Ammunition ,'."""
+    return re.sub(r"\s+,", ",", sanitize_value(value)).strip()
+
+
+def parse_trading_vendors(soup: Optional[bs4.BeautifulSoup]) -> List[Dict[str, object]]:
+    """Parse the Trading page vendor table (``Nickname | Name | Image | Sells | Buys``)."""
+    if not soup:
+        return []
+    records: List[Dict[str, object]] = []
+    for table in soup.find_all("table"):
+        rows = table.find_all("tr")
+        if len(rows) < 2:
+            continue
+        header = [cell.get_text(" ", strip=True).lower() for cell in rows[0].find_all(["th", "td"])]
+        if header[:1] != ["nickname"] or "sells" not in header or "buys" not in header:
+            continue
+        sells_index, buys_index = header.index("sells"), header.index("buys")
+        for row in rows[1:]:
+            cells = row.find_all(["th", "td"])
+            if len(cells) <= max(sells_index, buys_index):
+                continue
+            nickname = sanitize_value(cells[0].get_text(" ", strip=True))
+            if not nickname:
+                continue
+            records.append({
+                "name": nickname,
+                "id": _slug(nickname),
+                "sells": _clean_list_text(cells[sells_index].get_text(" ", strip=True)),
+                "buys": _clean_list_text(cells[buys_index].get_text(" ", strip=True)),
+            })
+    return records

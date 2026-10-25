@@ -203,6 +203,73 @@ def scrape_hideout_tables() -> Dict[str, List[Dict[str, Any]]]:
     return datasets
 
 
+TRADING_PAGE = "Trading"
+# Datasets whose items cannot be bought from a vendor in the current game.
+VENDOR_STOCK_EXCLUDED = {"vendors", "vendor_stock", "upcoming_content", "removed_content"}
+
+
+def scrape_trading_vendors() -> List[Dict[str, Any]]:
+    """Parse the Trading page vendor table (what each vendor sells and buys)."""
+    soup = network.parse_page(TRADING_PAGE)
+    if soup is None:
+        logger.warning("Could not parse '%s' — vendor trading info skipped", TRADING_PAGE)
+        return []
+    vendors = parsing.parse_trading_vendors(soup)
+    if vendors:
+        _record_source_page("vendors.json", TRADING_PAGE)
+    else:
+        logger.warning("No vendor rows parsed from '%s'", TRADING_PAGE)
+    return vendors
+
+
+def build_vendor_stock(
+    datasets: Dict[str, List[Dict[str, Any]]], vendor_names: Optional[Set[str]] = None
+) -> List[Dict[str, Any]]:
+    """Flatten every item's ``sold_by`` ('Gunny R.2', 'Gunny R.1, Artisan R.2') into one row per vendor and item.
+
+    Rows without a real vendor ('Loot only', '???') are skipped. When ``vendor_names``
+    is given, only those vendors are kept so stray labels never become vendors.
+    """
+    known = {name.casefold() for name in vendor_names} if vendor_names else None
+    rows: List[Dict[str, Any]] = []
+    seen: Set[Tuple[str, str]] = set()
+    for filename, items in sorted(datasets.items()):
+        category = Path(filename).stem
+        if category in VENDOR_STOCK_EXCLUDED:
+            continue
+        for item in items:
+            sold_by = item.get("sold_by")
+            item_name = item.get("name")
+            if not isinstance(sold_by, str) or not isinstance(item_name, str):
+                continue
+            for part in re.split(r"[,/]", sold_by):
+                match = re.fullmatch(r"\s*([A-Za-z][A-Za-z ]*?)(?:\s+R\.(\d+))?\s*", part)
+                if not match:
+                    continue
+                vendor = match.group(1).strip()
+                if known is not None and vendor.casefold() not in known:
+                    continue
+                # An item can sit in two datasets (a backpack and a container); keep the first.
+                key = (vendor.casefold(), item_name.casefold())
+                if key in seen:
+                    continue
+                seen.add(key)
+                name = f"{item_name} ({vendor})"
+                row: Dict[str, Any] = {
+                    "name": name,
+                    "id": re.sub(r"[^a-z0-9]+", "-", f"{vendor} {category} {item_name}".lower()).strip("-"),
+                    "item": item_name,
+                    "vendor": vendor,
+                    "rank": int(match.group(2)) if match.group(2) else None,
+                    "category": category,
+                }
+                for optional in ("type", "buy_price"):
+                    if item.get(optional):
+                        row[optional] = item[optional]
+                rows.append(row)
+    return rows
+
+
 EXPERIENCE_PAGE = "Experience"
 
 
@@ -542,6 +609,9 @@ def run_full_scrape() -> bool:
 
     for filename, items in {**scrape_hideout_tables(), **scrape_experience_tables()}.items():
         merged[filename] = storage.merge_items(merged.get(filename, []), items)
+    trading_vendors = scrape_trading_vendors()
+    if trading_vendors:
+        merged["vendors.json"] = storage.merge_items(merged.get("vendors.json", []), trading_vendors)
 
     # ── Phase 3: Scrape listing-page-only categories ──
     logger.info("\n📋 Phase 3: Scraping listing-page-only categories...")
@@ -577,6 +647,13 @@ def run_full_scrape() -> bool:
         if ballistics:
             updated = parsing.apply_ballistics_penetration(merged["ammo.json"], ballistics)
             logger.info("Applied Ballistics penetration data to %d ammo rows", updated)
+
+    # Vendor inventories come from the items' own sold_by fields, once every dataset is complete.
+    vendor_names = {str(v.get("name")) for v in merged.get("vendors.json", []) if v.get("name")}
+    vendor_stock = build_vendor_stock(merged, vendor_names or None)
+    if vendor_stock:
+        merged["vendor_stock.json"] = vendor_stock
+        logger.info("Vendor stock: %d vendor/item rows", len(vendor_stock))
 
     # Report articles no dataset covers, so new wiki pages never go unnoticed.
     all_titles = network.get_all_pages()
