@@ -65,7 +65,6 @@ infrastructure = [
     "Archive",
     "Maps",
     "Gray Zone Warfare Wiki",
-    "Evidence",
     "Newspapers",
     # Auto-discovered leaks from run — wiki infrastructure
     "Front page", "Basics", "Characters", "Locations", "Media",
@@ -148,6 +147,7 @@ titles = [
 "Household Item" = "household_item"
 "Tech" = "electronics"
 "Plate Carrier" = "plate_carriers"
+"Evidence" = "evidence"
 "Removed Content" = "removed_content"
 "Upcoming Content" = "upcoming_content"
 # Listing-page categories — mapped here so the category scraper skips them
@@ -203,6 +203,9 @@ objectives = "Objectives"
 [content_sections.hideout]
 content = "*"
 
+[content_sections.task_guides]
+content = "*"
+
 [content_sections.game_systems]
 content = "*"
 
@@ -211,7 +214,7 @@ tasks = "Tasks"
 
 [supplemental_pages]
 hideout = ["Hideout"]
-game_systems = ["Experience", "Locations", "Health system", "Looting", "Trading", "Game modes", "Lamang Island", "FAQ", "Weather", "System requirements"]
+game_systems = ["Experience", "Locations", "Health system", "Looting", "Trading", "Game modes", "Lamang Island", "FAQ", "Weather", "System requirements", "Patches"]
 medical = ["Advanced Flexible Splint"]
 belts = ["Custom Gear Lowpro Belt"]
 tactical_devices = ["DBAL-I2"]
@@ -224,6 +227,7 @@ reading_intel = ["NB Research Notes"]
 task_items = ["VIP Client List"]
 intels = ["Newspaper - 50 Years since liberation from Japan"]
 tasks = ["Mercenary Delivery Service", "Friendly Conveyance", "Silent Night", "Distant Voice", "Trifle"]
+task_guides = ["Repossession II", "The Call of Phi Pa Mum", "Letter From Beyond", "The Great Escape"]
 contract = ["The Ban Pa Horror", "Bad Idea", "Deep Waters"]
 bosses = ["Bloodhound", "Broker", "Chaonai", "Firebrand", "Grin", "Kaptei", "Viper", "Yen"]
 

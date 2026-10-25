@@ -70,7 +70,6 @@ DEFAULT_CONFIG: Dict[str, Any] = {
             "Archive",
             "Maps",
             "Gray Zone Warfare Wiki",
-            "Evidence",
             "Newspapers",
             # Wiki infrastructure leaks
             "Front page", "Basics", "Characters", "Locations", "Media",
