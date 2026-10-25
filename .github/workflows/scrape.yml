@@ -106,13 +106,9 @@ jobs:
           set -euo pipefail
           branch='scrape/data-update'
           git -C gzw-data fetch origin main
-          if git -C gzw-data ls-remote --exit-code --heads origin "$branch" >/dev/null; then
-            git -C gzw-data fetch origin "$branch"
-            git -C gzw-data checkout -B "$branch" "origin/$branch"
-            git -C gzw-data merge --no-edit origin/main
-          else
-            git -C gzw-data checkout -b "$branch" origin/main
-          fi
+          # Always rebuild the review branch from main. Every run rewrites all dataset files, and a
+          # squash-merged PR leaves the old branch with history that cannot be merged with main.
+          git -C gzw-data checkout -B "$branch" origin/main
 
           mkdir -p gzw-data/data
           for source in data/*.json; do
@@ -148,7 +144,7 @@ jobs:
           git -C gzw-data config user.email "bot@gzw-data.dev"
           git -C gzw-data add data/
           git -C gzw-data commit -m "auto: prepare scraped data update ($(date -u +%Y-%m-%d))"
-          git -C gzw-data push origin "$branch"
+          git -C gzw-data push --force origin "$branch"
 
           report_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           {
