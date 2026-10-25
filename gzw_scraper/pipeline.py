@@ -203,6 +203,28 @@ def scrape_hideout_tables() -> Dict[str, List[Dict[str, Any]]]:
     return datasets
 
 
+EXPERIENCE_PAGE = "Experience"
+
+
+def scrape_experience_tables() -> Dict[str, List[Dict[str, Any]]]:
+    """Parse the Experience page's XP-source and level tables into structured datasets."""
+    soup = network.parse_page(EXPERIENCE_PAGE)
+    if soup is None:
+        logger.warning("Could not parse '%s' — experience tables skipped", EXPERIENCE_PAGE)
+        return {}
+    datasets = {
+        "experience_actions.json": parsing.parse_experience_actions(soup),
+        "experience_levels.json": parsing.parse_experience_levels(soup),
+    }
+    for filename, items in list(datasets.items()):
+        if items:
+            _record_source_page(filename, EXPERIENCE_PAGE)
+        else:
+            logger.warning("No rows parsed for %s from '%s'", filename, EXPERIENCE_PAGE)
+            del datasets[filename]
+    return datasets
+
+
 def scrape_listing_page(
     key: str,
     page_title: str,
@@ -518,7 +540,7 @@ def run_full_scrape() -> bool:
     for filename, items in scrape_supplemental_pages().items():
         merged[filename] = storage.merge_items(merged.get(filename, []), items)
 
-    for filename, items in scrape_hideout_tables().items():
+    for filename, items in {**scrape_hideout_tables(), **scrape_experience_tables()}.items():
         merged[filename] = storage.merge_items(merged.get(filename, []), items)
 
     # ── Phase 3: Scrape listing-page-only categories ──

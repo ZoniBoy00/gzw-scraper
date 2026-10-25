@@ -873,3 +873,73 @@ def test_scrape_hideout_tables_returns_both_datasets(monkeypatch):
     result = pipeline.scrape_hideout_tables()
     assert set(result) == {"hideout_modules.json", "disassembly_recipes.json"}
     assert len(result["hideout_modules.json"]) == 4
+
+
+# ─── experience tables ───
+
+EXPERIENCE_HTML = """
+<div class="mw-parser-output">
+<table>
+<tr><th colspan="2">Lamang enemies kill EXP</th></tr>
+<tr><th>Type</th><th>Experience</th></tr>
+<tr><td>LAF Commanders</td><td>30</td></tr>
+<tr><td>Other PMCs (Players)</td><td>200</td></tr>
+</table>
+<table>
+<tr><th colspan="2">Discovering POIs</th></tr>
+<tr><th>Type</th><th>Experience</th></tr>
+<tr><td>Points of Interest</td><td>30</td></tr>
+<tr><td>LAF Commanders</td><td>999</td></tr>
+</table>
+<table>
+<tr><th>Icon</th><th>Level</th><th>Level Threshold</th><th>Rewards</th></tr>
+<tr><td rowspan="2"></td><td>1</td><td>0</td><td><a title="Tactical Gloves (Blue)">Tactical Gloves (Blue)</a></td></tr>
+<tr><td>2</td><td>600</td><td></td></tr>
+<tr><td></td><td>3</td><td>1,500</td><td><a title="File:Shirt.png">x</a><a title="Tactical T-shirt (Green)">Tactical T-shirt (Green)</a></td></tr>
+</table>
+</div>
+"""
+
+
+def test_parse_experience_actions_reads_values_and_keeps_duplicate_labels():
+    from gzw_scraper import parsing
+
+    actions = parsing.parse_experience_actions(bs4.BeautifulSoup(EXPERIENCE_HTML, "html.parser"))
+
+    assert [(a["name"], a["experience"]) for a in actions] == [
+        ("LAF Commanders", 30),
+        ("Other PMCs (Players)", 200),
+        ("Points of Interest", 30),
+        ("LAF Commanders (Discovering POIs)", 999),
+    ]
+    assert actions[0]["category"] == "Lamang enemies kill EXP"
+    assert len({a["id"] for a in actions}) == 4
+
+
+def test_parse_experience_levels_handles_rowspan_icon_column():
+    from gzw_scraper import parsing
+
+    levels = parsing.parse_experience_levels(bs4.BeautifulSoup(EXPERIENCE_HTML, "html.parser"))
+
+    assert [(row["level"], row["threshold"]) for row in levels] == [(1, 0), (2, 600), (3, 1500)]
+    assert levels[0]["rewards"] == ["Tactical Gloves (Blue)"]
+    assert levels[1]["rewards"] == []
+    assert levels[2]["rewards"] == ["Tactical T-shirt (Green)"]
+
+
+def test_experience_parsers_ignore_other_pages():
+    from gzw_scraper import parsing
+
+    soup = bs4.BeautifulSoup("<div class='mw-parser-output'><p>No tables.</p></div>", "html.parser")
+    assert parsing.parse_experience_actions(soup) == []
+    assert parsing.parse_experience_levels(soup) == []
+    assert parsing.parse_experience_levels(None) == []
+
+
+def test_scrape_experience_tables_skips_missing_parts(monkeypatch):
+    monkeypatch.setattr(network, "parse_page", lambda title: None)
+    assert pipeline.scrape_experience_tables() == {}
+
+    only_levels = "<div class='mw-parser-output'>" + EXPERIENCE_HTML.split("</table>", 2)[2] + "</div>"
+    monkeypatch.setattr(network, "parse_page", lambda title: bs4.BeautifulSoup(only_levels, "html.parser"))
+    assert set(pipeline.scrape_experience_tables()) == {"experience_levels.json"}

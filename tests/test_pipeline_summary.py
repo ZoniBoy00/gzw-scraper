@@ -24,6 +24,7 @@ def test_full_scrape_summary_counts_split_task_files(monkeypatch):
     )
     monkeypatch.setattr(pipeline, "scrape_supplemental_pages", lambda: {})
     monkeypatch.setattr(pipeline, "scrape_hideout_tables", lambda: {})
+    monkeypatch.setattr(pipeline, "scrape_experience_tables", lambda: {})
     monkeypatch.setattr(network, "get_all_pages", lambda: [])
     monkeypatch.setattr(pipeline, "LISTING_PAGES", {})
     monkeypatch.setattr(pipeline, "get_output_filename", lambda title: "task_items.json")

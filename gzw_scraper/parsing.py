@@ -466,3 +466,84 @@ def parse_disassembly_recipes(soup: Optional[bs4.BeautifulSoup]) -> List[Dict[st
                 "outcome_text": ", ".join(outputs),
             })
     return records
+
+
+# ─── Experience tables ───
+
+def _to_int(value: str) -> Optional[int]:
+    digits = re.sub(r"[^\d]", "", value)
+    return int(digits) if digits else None
+
+
+def parse_experience_actions(soup: Optional[bs4.BeautifulSoup]) -> List[Dict[str, object]]:
+    """Parse the 'Actions granting EXP' tables (title row, then ``Type | Experience`` rows)."""
+    if not soup:
+        return []
+    records: List[Dict[str, object]] = []
+    seen: set = set()
+    for table in soup.find_all("table"):
+        rows = table.find_all("tr")
+        if len(rows) < 3:
+            continue
+        header = [cell.get_text(" ", strip=True).lower() for cell in rows[1].find_all(["th", "td"])]
+        if header[:2] != ["type", "experience"]:
+            continue
+        category = rows[0].get_text(" ", strip=True)
+        for row in rows[2:]:
+            cells = row.find_all(["th", "td"])
+            experience = _to_int(cells[1].get_text(" ", strip=True)) if len(cells) >= 2 else None
+            action = sanitize_value(cells[0].get_text(" ", strip=True)) if cells else ""
+            if experience is None or not action:
+                continue
+            # Plain action name unless two tables use the same label.
+            name = action if action not in seen else f"{action} ({category})"
+            if name in seen:
+                continue
+            seen.add(name)
+            records.append({
+                "name": name,
+                "id": _slug(name),
+                "category": category,
+                "action": action,
+                "experience": experience,
+            })
+    return records
+
+
+def parse_experience_levels(soup: Optional[bs4.BeautifulSoup]) -> List[Dict[str, object]]:
+    """Parse the level table (``Icon | Level | Level Threshold | Rewards``).
+
+    The icon column uses rowspans, so most rows have three cells instead of four.
+    The threshold is the total experience needed to reach the level.
+    """
+    if not soup:
+        return []
+    records: List[Dict[str, object]] = []
+    for table in soup.find_all("table"):
+        rows = table.find_all("tr")
+        if len(rows) < 3:
+            continue
+        header = [cell.get_text(" ", strip=True).lower() for cell in rows[0].find_all(["th", "td"])]
+        if "level threshold" not in header:
+            continue
+        for row in rows[1:]:
+            cells = row.find_all(["th", "td"])
+            if len(cells) < 3:
+                continue
+            offset = 1 if len(cells) >= 4 else 0
+            level_text = cells[offset].get_text(strip=True)
+            level = int(level_text) if level_text.isdigit() else None
+            threshold = _to_int(cells[offset + 1].get_text(" ", strip=True))
+            if level is None or threshold is None:
+                continue
+            rewards_cell = cells[offset + 2] if len(cells) > offset + 2 else None
+            rewards: List[str] = _link_names(rewards_cell) if rewards_cell and rewards_cell.get_text(strip=True) else []
+            records.append({
+                "name": f"Level {level}",
+                "id": f"level-{level}",
+                "level": level,
+                "threshold": threshold,
+                "rewards": rewards,
+                "rewards_text": ", ".join(rewards),
+            })
+    return records
