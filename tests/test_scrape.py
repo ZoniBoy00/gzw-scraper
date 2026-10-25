@@ -786,3 +786,90 @@ def test_get_all_pages_follows_continuation(monkeypatch):
 def test_get_all_pages_returns_none_on_api_failure(monkeypatch):
     monkeypatch.setattr(network, "api_call", lambda params, **kw: None)
     assert network.get_all_pages() is None
+
+
+# ─── hideout tables ───
+
+HIDEOUT_HTML = """
+<div class="mw-parser-output">
+<h2><span class="mw-headline">Rooms</span></h2>
+<h3><span class="mw-headline">Laboratory</span></h3>
+<table>
+<tr><th colspan="4">Heat Source</th></tr>
+<tr><th>Level</th><th>Requirements</th><th>Function</th></tr>
+<tr><th>1</th><td><ul><li>3 <a title="Steel">Steel</a></li><li>1 <a title="Wood">Wood</a></li></ul></td><td><ul><li>+ x Heat control</li></ul></td></tr>
+<tr><th>2</th><td><ul><li>4 <a title="Steel">Steel</a></li></ul></td><td><ul><li>+ x Heat control</li></ul></td></tr>
+<tr><th>2</th><td><ul><li>10 <a title="Steel">Steel</a></li><li>1 $40,000 <a title="Dollars">Dollars</a></li></ul></td><td><ul><li>+ 2 Heat control</li></ul></td></tr>
+</table>
+<h3><span class="mw-headline">Electronics Workshop</span></h3>
+<table>
+<tr><th colspan="4">Heat Source</th></tr>
+<tr><th>Level</th><th>Requirements</th><th>Function</th></tr>
+<tr><th>1</th><td><ul><li>2 <a title="Copper">Copper</a></li></ul></td><td><ul><li>+ x Power</li></ul></td></tr>
+</table>
+<h2><span class="mw-headline">Disassembly recipes</span></h2>
+<table>
+<tr><th colspan="6">Recipes</th></tr>
+<tr><th colspan="2">Disassembled item</th><th>Duration</th><th colspan="2">Outcome</th></tr>
+<tr>
+<td><a title="File:Radio icon.png">File:Radio icon.png</a><br/><a title="Manpack Tactical Radio">Manpack Tactical Radio</a></td>
+<th>→</th><th>12 hours</th><th>→</th>
+<td><a title="Encryption Key Drive">Encryption Key Drive</a> + <a title="FPGA Module">FPGA Module</a></td>
+</tr>
+</table>
+</div>
+"""
+
+
+def test_parse_hideout_modules_reads_levels_requirements_and_rooms(caplog):
+    from gzw_scraper import parsing
+
+    soup = bs4.BeautifulSoup(HIDEOUT_HTML, "html.parser")
+    modules = parsing.parse_hideout_modules(soup)
+
+    assert [m["name"] for m in modules] == [
+        "Heat Source Level 1 (Laboratory)",
+        "Heat Source Level 2 (Laboratory)",
+        "Heat Source Level 3 (Laboratory)",
+        "Heat Source Level 1 (Electronics Workshop)",
+    ]
+    assert len({m["id"] for m in modules}) == 4
+    assert modules[0]["requirements"] == [{"name": "Steel", "quantity": 3}, {"name": "Wood", "quantity": 1}]
+    assert modules[0]["requirements_text"] == "3 Steel, 1 Wood"
+    # A repeated level number on the wiki is treated as the next level, and money becomes Dollars.
+    assert modules[2]["level"] == 3
+    assert {"name": "Dollars", "quantity": 40000} in modules[2]["requirements"]
+
+
+def test_parse_disassembly_recipes_ignores_file_links():
+    from gzw_scraper import parsing
+
+    soup = bs4.BeautifulSoup(HIDEOUT_HTML, "html.parser")
+    assert parsing.parse_disassembly_recipes(soup) == [{
+        "name": "Manpack Tactical Radio",
+        "id": "manpack-tactical-radio",
+        "duration": "12 hours",
+        "outcome": ["Encryption Key Drive", "FPGA Module"],
+        "outcome_text": "Encryption Key Drive, FPGA Module",
+    }]
+
+
+def test_hideout_parsers_return_nothing_for_other_pages():
+    from gzw_scraper import parsing
+
+    soup = bs4.BeautifulSoup("<div class='mw-parser-output'><p>Nothing here.</p></div>", "html.parser")
+    assert parsing.parse_hideout_modules(soup) == []
+    assert parsing.parse_disassembly_recipes(soup) == []
+    assert parsing.parse_hideout_modules(None) == []
+
+
+def test_scrape_hideout_tables_skips_when_page_unavailable(monkeypatch):
+    monkeypatch.setattr(network, "parse_page", lambda title: None)
+    assert pipeline.scrape_hideout_tables() == {}
+
+
+def test_scrape_hideout_tables_returns_both_datasets(monkeypatch):
+    monkeypatch.setattr(network, "parse_page", lambda title: bs4.BeautifulSoup(HIDEOUT_HTML, "html.parser"))
+    result = pipeline.scrape_hideout_tables()
+    assert set(result) == {"hideout_modules.json", "disassembly_recipes.json"}
+    assert len(result["hideout_modules.json"]) == 4

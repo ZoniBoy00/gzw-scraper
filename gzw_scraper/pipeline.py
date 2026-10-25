@@ -181,6 +181,28 @@ def scrape_supplemental_pages() -> Dict[str, List[Dict[str, Any]]]:
     return datasets
 
 
+HIDEOUT_PAGE = "Hideout"
+
+
+def scrape_hideout_tables() -> Dict[str, List[Dict[str, Any]]]:
+    """Parse the Hideout page's module and disassembly tables into structured datasets."""
+    soup = network.parse_page(HIDEOUT_PAGE)
+    if soup is None:
+        logger.warning("Could not parse '%s' — hideout tables skipped", HIDEOUT_PAGE)
+        return {}
+    datasets = {
+        "hideout_modules.json": parsing.parse_hideout_modules(soup),
+        "disassembly_recipes.json": parsing.parse_disassembly_recipes(soup),
+    }
+    for filename, items in list(datasets.items()):
+        if items:
+            _record_source_page(filename, HIDEOUT_PAGE)
+        else:
+            logger.warning("No rows parsed for %s from '%s'", filename, HIDEOUT_PAGE)
+            del datasets[filename]
+    return datasets
+
+
 def scrape_listing_page(
     key: str,
     page_title: str,
@@ -494,6 +516,9 @@ def run_full_scrape() -> bool:
     # ── Phase 2b: Add game articles not assigned to a wiki category ──
     logger.info("\n📄 Phase 2b: Scraping configured standalone pages...")
     for filename, items in scrape_supplemental_pages().items():
+        merged[filename] = storage.merge_items(merged.get(filename, []), items)
+
+    for filename, items in scrape_hideout_tables().items():
         merged[filename] = storage.merge_items(merged.get(filename, []), items)
 
     # ── Phase 3: Scrape listing-page-only categories ──

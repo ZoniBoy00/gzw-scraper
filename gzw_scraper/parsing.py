@@ -347,3 +347,122 @@ def apply_ballistics_penetration(items: List[Dict[str, object]], thresholds: Dic
             item["stopped_by_armor_class"] = f"NIJ {threshold}"
         updated += 1
     return updated
+
+
+# ─── Hideout tables ───
+
+def _slug(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+
+
+def _heading_text(heading: bs4.element.Tag) -> str:
+    headline = heading.find(class_="mw-headline")
+    return (headline or heading).get_text(" ", strip=True)
+
+
+def _link_names(cell: bs4.element.Tag) -> List[str]:
+    """Item names linked inside a cell, in order, without file links or repeats."""
+    names: List[str] = []
+    for anchor in cell.find_all("a"):
+        title = (anchor.get("title") or "").strip()
+        if not title or title.startswith(("File:", "Special:")) or title in names:
+            continue
+        names.append(title)
+    if names:
+        return names
+    text = re.sub(r"File:\S.*?\.(?:png|jpg|jpeg|gif|webp)", " ", cell.get_text(" ", strip=True), flags=re.IGNORECASE)
+    return [part.strip() for part in text.split("+") if part.strip()]
+
+
+def parse_hideout_modules(soup: Optional[bs4.BeautifulSoup]) -> List[Dict[str, object]]:
+    """Parse the per-module upgrade tables of the Hideout page into one record per module level.
+
+    Each table starts with a one-cell title row (the module) followed by a
+    ``Level | Requirements | Function`` header. The room is the closest
+    preceding level-3 heading.
+    """
+    if not soup:
+        return []
+    root = soup.find(class_="mw-parser-output") or soup
+    room = ""
+    records: List[Dict[str, object]] = []
+    for element in root.find_all(["h2", "h3", "table"]):
+        if element.name == "h2":
+            room = ""
+            continue
+        if element.name == "h3":
+            room = _heading_text(element)
+            continue
+        rows = element.find_all("tr")
+        if len(rows) < 3:
+            continue
+        header = [cell.get_text(" ", strip=True).lower() for cell in rows[1].find_all(["th", "td"])]
+        if header[:3] != ["level", "requirements", "function"]:
+            continue
+        module = rows[0].get_text(" ", strip=True)
+        last_level = 0
+        for row in rows[2:]:
+            cells = row.find_all(["th", "td"])
+            if len(cells) < 3 or not cells[0].get_text(strip=True).isdigit():
+                continue
+            level = int(cells[0].get_text(strip=True))
+            if level <= last_level:
+                # The wiki occasionally repeats a level number; levels only ever ascend.
+                logger.warning("Hideout module '%s': level %d repeated, treating it as level %d", module, level, last_level + 1)
+                level = last_level + 1
+            last_level = level
+            requirements: List[Dict[str, object]] = []
+            for entry in cells[1].find_all("li") or [cells[1]]:
+                text = sanitize_value(entry.get_text(" ", strip=True))
+                money = re.match(r"^(?:\d+\s+)?\$([\d,]+)", text)
+                match = re.match(r"^(\d+)\s+(.+)$", text)
+                if money:
+                    requirements.append({"name": "Dollars", "quantity": int(money.group(1).replace(",", ""))})
+                elif match:
+                    requirements.append({"name": match.group(2), "quantity": int(match.group(1))})
+                elif text:
+                    requirements.append({"name": text, "quantity": 1})
+            function = sanitize_value(" ".join(li.get_text(" ", strip=True) for li in cells[2].find_all("li")) or cells[2].get_text(" ", strip=True))
+            records.append({
+                # Room is part of the name: some modules (Storage Equipment) exist in two rooms.
+                "name": f"{module} Level {level} ({room})" if room else f"{module} Level {level}",
+                "id": _slug(f"{room} {module} level {level}"),
+                "room": room,
+                "module": module,
+                "level": level,
+                "requirements": requirements,
+                "requirements_text": ", ".join(f"{r['quantity']} {r['name']}" for r in requirements),
+                "function": function,
+            })
+    return records
+
+
+def parse_disassembly_recipes(soup: Optional[bs4.BeautifulSoup]) -> List[Dict[str, object]]:
+    """Parse the Hideout disassembly recipe table (item -> duration -> outcome)."""
+    if not soup:
+        return []
+    records: List[Dict[str, object]] = []
+    for table in soup.find_all("table"):
+        rows = table.find_all("tr")
+        if len(rows) < 3:
+            continue
+        header = [cell.get_text(" ", strip=True).lower() for cell in rows[1].find_all(["th", "td"])]
+        if header[:1] != ["disassembled item"]:
+            continue
+        for row in rows[2:]:
+            cells = row.find_all(["th", "td"])
+            if len(cells) < 5:
+                continue
+            inputs = _link_names(cells[0])
+            outputs = _link_names(cells[-1])
+            if not inputs or not outputs:
+                continue
+            item = inputs[0]
+            records.append({
+                "name": item,
+                "id": _slug(item),
+                "duration": sanitize_value(cells[2].get_text(" ", strip=True)),
+                "outcome": outputs,
+                "outcome_text": ", ".join(outputs),
+            })
+    return records
