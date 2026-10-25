@@ -1009,3 +1009,55 @@ def test_scrape_trading_vendors_handles_missing_page(monkeypatch):
     assert pipeline.scrape_trading_vendors() == []
     monkeypatch.setattr(network, "parse_page", lambda title: bs4.BeautifulSoup(TRADING_HTML, "html.parser"))
     assert [vendor["name"] for vendor in pipeline.scrape_trading_vendors()] == ["Gunny", "Vulture"]
+
+
+# ─── listing-page price and nutrition columns ───
+
+LISTING_LOOT_HTML = """
+<html><body>
+<table class="wikitable sortable">
+  <tr><th>Icon</th><th>Name</th><th>Size</th><th>Weight</th><th>Sell price</th><th>Price / Grid cell</th></tr>
+  <tr><td><img src="https://static.wikia.nocookie.net/gzw/images/scotch.png" /></td><td>Single Malt Scotch</td><td>1x2</td><td>2.100 kg</td><td>$5,451</td><td>$2,726</td></tr>
+  <tr><td></td><td>Plain Cup</td><td>1x1</td><td>0.100kg</td><td></td><td></td></tr>
+</table>
+<table class="wikitable sortable">
+  <tr><th>Icon</th><th>Name</th><th>Grid</th><th>Weight</th><th>Trader</th></tr>
+  <tr><td></td><td>Pro Multitool</td><td>1x1</td><td>0.120 kg</td><td>Handshake LL1</td></tr>
+</table>
+<table class="wikitable sortable">
+  <tr><th>Icon</th><th>Name</th><th>Hydration</th><th>Energy</th><th>Total energy / grid</th><th>Source</th></tr>
+  <tr><td></td><td>Lunch Meat</td><td>-10</td><td>+60</td><td>+30</td><td>Lab Rat Lv.3</td></tr>
+</table>
+<table class="wikitable sortable">
+  <tr><th>Icon</th><th>Name</th><th>Player level</th><th>Requirements</th></tr>
+  <tr><td></td><td>Functional Shirt</td><td>40</td><td>Handshake R.2</td></tr>
+</table>
+</body></html>
+"""
+
+
+def test_scrape_listing_page_keeps_price_size_and_nutrition_columns(monkeypatch):
+    monkeypatch.setattr(network, "parse_page", lambda title: soup_of(LISTING_LOOT_HTML))
+    items = {item["name"]: item for item in scrape.scrape_listing_page("loot_items", "Loot")}
+
+    scotch = items["Single Malt Scotch"]
+    assert scotch["sell_price"] == "$5,451"
+    assert scotch["price_per_grid_cell"] == "$2,726"
+    assert scotch["grid_size"] == "1x2"
+    assert scotch["weight"] == "2.100 kg"
+    # Empty price cells never become empty fields.
+    assert "sell_price" not in items["Plain Cup"] and "price_per_grid_cell" not in items["Plain Cup"]
+    assert items["Pro Multitool"]["trader"] == "Handshake LL1"
+    assert items["Lunch Meat"]["hydration"] == "-10"
+    assert items["Lunch Meat"]["energy"] == "+60"
+    assert items["Lunch Meat"]["total_energy_per_grid"] == "+30"
+    assert items["Functional Shirt"]["player_level"] == "40"
+    assert items["Functional Shirt"]["requirements"] == "Handshake R.2"
+
+
+def test_build_vendor_stock_reads_level_style_ranks():
+    datasets = {"provisions.json": [{"name": "Lunch Meat", "sold_by": "Lab Rat Lv.3"}], "tools.json": [{"name": "Multitool", "sold_by": "Handshake LL1"}]}
+    rows = {row["item"]: row for row in pipeline.build_vendor_stock(datasets, {"Lab Rat", "Handshake"})}
+
+    assert rows["Lunch Meat"]["rank"] == 3 and rows["Lunch Meat"]["vendor"] == "Lab Rat"
+    assert rows["Multitool"]["rank"] == 1 and rows["Multitool"]["vendor"] == "Handshake"

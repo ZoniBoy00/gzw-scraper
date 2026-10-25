@@ -181,6 +181,21 @@ def scrape_supplemental_pages() -> Dict[str, List[Dict[str, Any]]]:
     return datasets
 
 
+# Listing-page table columns beyond the basics (Loot prices, Apparel requirements,
+# Provisions nutrition). Keys are lower-cased wiki headers, values are output fields.
+LISTING_EXTRA_COLUMNS: Dict[str, str] = {
+    "size": "grid_size",
+    "sell price": "sell_price",
+    "price / grid cell": "price_per_grid_cell",
+    "trader": "trader",
+    "player level": "player_level",
+    "requirements": "requirements",
+    "hydration": "hydration",
+    "energy": "energy",
+    "total energy / grid": "total_energy_per_grid",
+    "total hydration / grid": "total_hydration_per_grid",
+}
+
 HIDEOUT_PAGE = "Hideout"
 
 
@@ -243,7 +258,7 @@ def build_vendor_stock(
             if not isinstance(sold_by, str) or not isinstance(item_name, str):
                 continue
             for part in re.split(r"[,/]", sold_by):
-                match = re.fullmatch(r"\s*([A-Za-z][A-Za-z ]*?)(?:\s+R\.(\d+))?\s*", part)
+                match = re.fullmatch(r"\s*([A-Za-z][A-Za-z ]*?)(?:\s+(?:R|Lv|LL)\.?\s*(\d+))?\s*", part)
                 if not match:
                     continue
                 vendor = match.group(1).strip()
@@ -389,8 +404,11 @@ def scrape_listing_page(
                 "plates": "armor_locations",
                 "grid": "grid_size",
                 "source": "sold_by",
+                **LISTING_EXTRA_COLUMNS,
             }.get(field, field)
-            if field in meaningful_keys or field == "plates":
+            if field in LISTING_EXTRA_COLUMNS and not value:
+                continue
+            if field in meaningful_keys or field == "plates" or field in LISTING_EXTRA_COLUMNS:
                 if fields is None or output_field in fields:
                     if fields is None or existing_item is None or output_field not in existing_item:
                         item[output_field] = value
