@@ -39,6 +39,20 @@ def test_build_report_detects_item_and_field_changes(tmp_path):
     assert "weapons.json" in markdown_summary(report)
 
 
+def test_build_report_ignores_items_moved_between_datasets(tmp_path):
+    before = tmp_path / "before"
+    after = tmp_path / "after"
+    write_json(before, "uncategorized.json", [{"name": "Drive", "id": "drive"}, {"name": "Rag", "id": "rag"}])
+    write_json(before, "electronics.json", [])
+    write_json(after, "uncategorized.json", [{"name": "Rag", "id": "rag"}])
+    write_json(after, "electronics.json", [{"name": "Drive", "id": "drive"}])
+
+    report = build_report(before, after)
+
+    assert all(item["anomalies"] == [] for item in report["datasets"])
+    assert review_reasons(report) == []
+
+
 def test_build_report_adds_schema_and_anomaly_warnings(tmp_path):
     before = tmp_path / "before"
     after = tmp_path / "after"

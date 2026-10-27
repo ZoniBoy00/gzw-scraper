@@ -108,14 +108,18 @@ def schema_warnings(before: Any, after: Any) -> list[dict[str, Any]]:
     return warnings
 
 
-def anomaly_warnings(before: Any, after: Any) -> list[dict[str, Any]]:
-    """Report suspicious output changes for human review."""
+def anomaly_warnings(before: Any, after: Any, moved_keys: frozenset[str] = frozenset()) -> list[dict[str, Any]]:
+    """Report suspicious output changes for human review.
+
+    Items that disappeared here but now exist in another dataset (``moved_keys``)
+    were recategorised, not lost, so they are not reported as removed.
+    """
     if not isinstance(before, list) or not isinstance(after, list) or not before:
         return []
 
     old = {item_key(item): item for item in before if isinstance(item, dict)}
     new = {item_key(item): item for item in after if isinstance(item, dict)}
-    removed = sorted(set(old) - set(new))
+    removed = sorted(set(old) - set(new) - moved_keys)
     warnings: list[dict[str, Any]] = []
     if removed:
         warnings.append({
@@ -138,9 +142,17 @@ def build_report(before_dir: Path, after_dir: Path, log_path: Path | None = None
     after_files = {path.name for path in after_dir.glob("*.json") if path.name not in EXCLUDED_FILES}
     datasets: list[dict[str, Any]] = []
 
+    after_data = {name: load_json(after_dir / name) if name in after_files else [] for name in after_files}
+    keys_by_file = {
+        name: {item_key(item) for item in items if isinstance(item, dict)}
+        for name, items in after_data.items()
+        if isinstance(items, list)
+    }
+
     for filename in sorted(before_files | after_files):
         before = load_json(before_dir / filename) if filename in before_files else []
-        after = load_json(after_dir / filename) if filename in after_files else []
+        after = after_data.get(filename, [])
+        moved_keys = frozenset().union(*(keys for name, keys in keys_by_file.items() if name != filename))
         diff = compare_items(before, after)
         if filename not in before_files:
             status = "added"
@@ -155,7 +167,7 @@ def build_report(before_dir: Path, after_dir: Path, log_path: Path | None = None
             "status": status,
             **diff,
             "schema_warnings": schema_warnings(before, after),
-            "anomalies": anomaly_warnings(before, after),
+            "anomalies": anomaly_warnings(before, after, moved_keys),
         })
 
     log_text = log_path.read_text(encoding="utf-8", errors="replace") if log_path and log_path.exists() else ""
