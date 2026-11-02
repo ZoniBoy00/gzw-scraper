@@ -94,6 +94,7 @@ DEFAULT_CONFIG: Dict[str, Any] = {
     "supplemental_pages": {},
     "content_sections": {},
     "category_to_filename": {
+        "Crating Material": "crafting_material",
         "Weapons": "weapons",
         "Armor Vest": "vests",
         "Helmet": "helmets",
@@ -278,3 +279,4 @@ def apply_settings(config_path: Path = CONFIG_PATH) -> None:
     BACKUP_DIR = storage.BACKUP_DIR
 
     storage.OUTPUT_DIR.mkdir(exist_ok=True)
+

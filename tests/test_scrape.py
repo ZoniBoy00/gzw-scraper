@@ -127,6 +127,17 @@ def test_parse_infobox_handles_none_soup():
     assert scrape.parse_infobox(None) == {}
 
 
+def test_parse_infobox_normalizes_crafting_material_typo():
+    data = scrape.parse_infobox(soup_of(fixture("infobox_crafting_typo.html")))
+    assert data["type"] == "Crafting Material"
+
+
+@pytest.mark.parametrize("type_name", ["Crafting Material", "Disassembly Material", "Unknown Material"])
+def test_parse_infobox_preserves_other_material_types(type_name):
+    html = fixture("infobox_crafting_typo.html").replace("Crating Material", type_name)
+    assert scrape.parse_infobox(soup_of(html))["type"] == type_name
+
+
 def test_parse_infobox_label_normalization():
     # Labels get lowercased and spaces -> underscores; this is the contract
     # scrape_category relies on when merging fields into an item dict.
@@ -175,6 +186,14 @@ def test_config_maps_wiki_content_categories_to_datasets():
     assert cfg["supplemental_pages"]["bosses"] == [
         "Bloodhound", "Broker", "Chaonai", "Firebrand", "Grin", "Kaptei", "Viper", "Yen"
     ]
+
+
+@pytest.mark.parametrize("use_defaults", [False, True])
+def test_misspelled_crafting_category_uses_canonical_dataset(tmp_path, monkeypatch, use_defaults):
+    cfg = scrape.load_config(tmp_path / "missing.toml") if use_defaults else scrape.load_config()
+    monkeypatch.setattr(pipeline, "CATEGORY_TO_FILENAME", cfg["category_to_filename"])
+    assert pipeline.get_output_filename("Crating Material") == "crafting_material.json"
+    assert pipeline.get_output_filename("Crafting Material") == "crafting_material.json"
 
 
 def test_scrape_supplemental_pages_records_fields_and_revision(monkeypatch):
@@ -1004,6 +1023,33 @@ def test_build_vendor_stock_ignores_unknown_vendor_labels():
     assert len(pipeline.build_vendor_stock(datasets, None)) == 1
 
 
+def test_build_vendor_stock_preserves_vendor_from_multiline_infobox():
+    item = scrape.parse_infobox(soup_of(fixture("infobox_vendor_and_looting.html")))
+    item["name"] = "Rush 72 2.0"
+    assert item["sold_by"] == "Handshake R.4 Looting"
+    rows = pipeline.build_vendor_stock({"backpacks.json": [item]}, {"Handshake"})
+    assert [(row["vendor"], row["rank"]) for row in rows] == [("Handshake", 4)]
+
+
+@pytest.mark.parametrize("known_vendors", [{"Handshake", "Gunny"}, None])
+@pytest.mark.parametrize("sold_by, expected", [
+    ("Handshake R.4 Looting", [("Handshake", 4)]),
+    ("Handshake R.4 looting", [("Handshake", 4)]),
+    ("Looting Handshake R.4", [("Handshake", 4)]),
+    ("Handshake R.4 / Looting", [("Handshake", 4)]),
+    ("Handshake R.4 Loot only", [("Handshake", 4)]),
+    ("Handshake R.4 Looting, Gunny R.2", [("Handshake", 4), ("Gunny", 2)]),
+    ("Looting", []),
+    ("Loot only", []),
+    ("???", []),
+    ("Handshake R.4 unexplained text", []),
+])
+def test_build_vendor_stock_separates_loot_availability(known_vendors, sold_by, expected):
+    datasets = {"backpacks.json": [{"name": "Rush 72 2.0", "sold_by": sold_by}]}
+    rows = pipeline.build_vendor_stock(datasets, known_vendors)
+    assert [(row["vendor"], row["rank"]) for row in rows] == expected
+
+
 def test_scrape_trading_vendors_handles_missing_page(monkeypatch):
     monkeypatch.setattr(network, "parse_page", lambda title: None)
     assert pipeline.scrape_trading_vendors() == []
@@ -1061,3 +1107,4 @@ def test_build_vendor_stock_reads_level_style_ranks():
 
     assert rows["Lunch Meat"]["rank"] == 3 and rows["Lunch Meat"]["vendor"] == "Lab Rat"
     assert rows["Multitool"]["rank"] == 1 and rows["Multitool"]["vendor"] == "Handshake"
+

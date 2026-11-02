@@ -107,6 +107,9 @@ def extract_page_sections(
 
 # ─── Infobox parsing ───
 
+INFOBOX_TYPE_ALIASES = {"Crating Material": "Crafting Material"}
+
+
 def parse_infobox(soup: Optional[bs4.BeautifulSoup]) -> Dict[str, str]:
     """Extract key-value pairs from a portable infobox, safely.
 
@@ -134,6 +137,8 @@ def parse_infobox(soup: Optional[bs4.BeautifulSoup]) -> Dict[str, str]:
                     label: str = label_el.get_text(" ", strip=True).lower().replace(" ", "_")
                     value: str = value_el.get_text(" ", strip=True)
                     value = sanitize_value(value)
+                    if label == "type":
+                        value = INFOBOX_TYPE_ALIASES.get(value, value)
                     data[label] = value
             except Exception as exc:
                 logger.debug("Skipping unparsable infobox row: %s", exc)
@@ -583,3 +588,4 @@ def parse_trading_vendors(soup: Optional[bs4.BeautifulSoup]) -> List[Dict[str, o
                 "buys": _clean_list_text(cells[buys_index].get_text(" ", strip=True)),
             })
     return records
+

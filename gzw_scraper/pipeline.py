@@ -257,7 +257,9 @@ def build_vendor_stock(
             item_name = item.get("name")
             if not isinstance(sold_by, str) or not isinstance(item_name, str):
                 continue
-            for part in re.split(r"[,/]", sold_by):
+            # Infobox line breaks flatten to spaces, e.g. "Handshake R.4 Looting".
+            # Treat loot availability as a separator so it cannot hide a vendor.
+            for part in re.split(r"[,/]|\b(?:looting|loot\s+only)\b", sold_by, flags=re.IGNORECASE):
                 match = re.fullmatch(r"\s*([A-Za-z][A-Za-z ]*?)(?:\s+(?:R|Lv|LL)\.?\s*(\d+))?\s*", part)
                 if not match:
                     continue
@@ -740,3 +742,4 @@ def run_single_category(category_name: str) -> bool:
         write_scrape_metadata({Path(filename).stem})
     logger.info("Done: %d items in %s", len(items), filename)
     return True
+

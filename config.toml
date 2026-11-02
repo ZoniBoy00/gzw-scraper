@@ -149,6 +149,7 @@ titles = [
 "Plate Carrier" = "plate_carriers"
 "Evidence" = "evidence"
 # Wiki category typos: merge into the real dataset instead of creating a stray file
+"Crating Material" = "crafting_material"
 "Disassembly Materia" = "disassembly_material"
 "Workshop SUpplies" = "workshop_supplies"
 "Removed Content" = "removed_content"
@@ -260,3 +261,4 @@ datasets = ["provisions"]
 [category_index_pages]
 # The category is singular on the wiki, but its index article uses the plural.
 "Armor Vest" = "Armor Vests"
+
