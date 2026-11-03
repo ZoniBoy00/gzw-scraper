@@ -35,6 +35,10 @@ DEFAULT_CONFIG: Dict[str, Any] = {
         "field_preservation_min_coverage": 0.5,
         "max_stale_field_runs": 2,
     },
+    "community_prices": {
+        "enabled": True,
+        "api_url": "https://gzwitems.com/api/items",
+    },
     "output": {
         "directory": "data",
         "backup_directory": "data_backup",
@@ -225,7 +229,7 @@ def apply_settings(config_path: Path = CONFIG_PATH) -> None:
 
     # Imported lazily to avoid circular imports (network/pipeline/storage
     # read their settings from this module).
-    from gzw_scraper import network, pipeline, storage  # noqa: PLC0415
+    from gzw_scraper import community_prices, network, pipeline, storage  # noqa: PLC0415
 
     cfg = load_config(config_path)
     CONFIG = cfg
@@ -265,6 +269,10 @@ def apply_settings(config_path: Path = CONFIG_PATH) -> None:
     pipeline.PAGE_DELAY = scraper_config["page_delay"]
     pipeline.MAX_WORKERS = scraper_config.get("max_workers", 3)
     pipeline.MAX_SAFE_DEVIATION = scraper_config["max_safe_deviation"]
+
+    community_config = cfg["community_prices"]
+    community_prices.ENABLED = bool(community_config["enabled"])
+    community_prices.API_URL = community_config["api_url"]
 
     storage.OUTPUT_DIR = root / output_config["directory"]
     storage.BACKUP_DIR = root / output_config["backup_directory"]

@@ -19,7 +19,7 @@ try:
 except ImportError:  # pragma: no cover
     tqdm = None  # type: ignore[assignment]
 
-from gzw_scraper import network, parsing, storage
+from gzw_scraper import community_prices, network, parsing, storage
 from scripts.generate_metadata import PARSER_REVISION, SCRAPER_VERSION, write_metadata
 
 logger = logging.getLogger("gzw-scraper")
@@ -667,6 +667,11 @@ def run_full_scrape() -> bool:
         if ballistics:
             updated = parsing.apply_ballistics_penetration(merged["ammo.json"], ballistics)
             logger.info("Applied Ballistics penetration data to %d ammo rows", updated)
+
+    # Fill missing sell prices from the community-maintained GZW Items API (wiki values always win).
+    filled_prices = community_prices.apply_prices(merged)
+    if filled_prices:
+        logger.info("Filled %d missing sell prices from %s", filled_prices, community_prices.SOURCE)
 
     # Vendor inventories come from the items' own sold_by fields, once every dataset is complete.
     vendor_names = {str(v.get("name")) for v in merged.get("vendors.json", []) if v.get("name")}

@@ -27,6 +27,12 @@ category_page_limit = 500
 # Parallel category workers (lower = gentler on the wiki)
 max_workers = 3
 
+[community_prices]
+# Missing sell prices are filled from the community-maintained GZW Items API (https://gzwitems.com), used with the
+# maintainers' permission. Wiki prices always win; filled values are marked with sell_price_source.
+enabled = true
+api_url = "https://gzwitems.com/api/items"
+
 [output]
 # Directory for scraped JSON files
 directory = "data"
