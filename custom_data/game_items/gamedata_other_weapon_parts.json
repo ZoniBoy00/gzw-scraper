@@ -1,0 +1,1359 @@
+[
+ {
+  "id": "IS_GasBlock_Ak74GasTube",
+  "name": "AK-74 Gas Tube",
+  "short_name": "AK74 Gas",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The gas tube of the AK-74 rifle is a crucial component that is situated above the barrel. It operates the rifle's gas-operated action by channeling propellant gasses to drive the piston, cycle the action, and aid in the extraction and ejection of spent cartridges.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.085 kg",
+  "grid_size": "2x1",
+  "base_price": 13.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 13.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 3.9
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_Ak74GasTube.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_Akm6P1Sb12GasTube",
+  "name": "AKM Gas Tube",
+  "short_name": "AKM Gas",
+  "manufacturer": "Kalashnikov concern",
+  "description": "A standard gas tube compatible with the AK-74 series of rifles. It channels gas from the fired cartridge to a mechanism that disposes of the spent case and inserts a new cartridge into the chamber.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.085 kg",
+  "grid_size": "2x1",
+  "base_price": 22.1,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 22.1
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 6.63
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 2600,
+   "repairDifficultyModifier": 0.5
+  },
+  "slots": [
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_Akm6P1Sb12GasTube.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_Akm6P1Sb12GasTubeJC",
+  "name": "AKM Gas Tube (Jackal Company)",
+  "short_name": "AKM Gas",
+  "manufacturer": "Kalashnikov concern",
+  "description": "A standard gas tube compatible with the AK-74 series of rifles. It channels gas from the fired cartridge to a mechanism that disposes of the spent case and inserts a new cartridge into the chamber.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.085 kg",
+  "grid_size": "2x1",
+  "base_price": 22.1,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 6.63
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_Akm6P1Sb12GasTubeJC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_Aks74UGasTube",
+  "name": "AKS-74U Gas Tube",
+  "short_name": "AKS-74U Gas",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AKS-74U gas tube is a critical component that conducts gas from the barrel to the piston, facilitating the cycling of the rifle. It is designed to withstand high temperatures and pressures, ensuring reliable performance under rapid-fire conditions.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AKS74U"
+  ],
+  "weight": "0.045 kg",
+  "grid_size": "1x1",
+  "base_price": 127.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 127.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 38.1
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 2600,
+   "repairDifficultyModifier": 0.5
+  },
+  "slots": [
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_Aks74UGasTube.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_Aks74UOpticMount",
+  "name": "AKS-74U Gas Tube Mount",
+  "short_name": "AKS-74U Mount",
+  "manufacturer": "UltiMAK",
+  "description": "The Optic Mount for the AKS-74U offers a reliable solution for mounting optics. Based on the proven M1-B and M2-B designs, it fits AK rifles with similar gas system lengths. The mount clamps securely to the barrel, ensuring maximum stability and accuracy, and is compatible with most low-mount tube reflex sights. Replacing the gas tube and upper handguard assembly, it provides the lightest and lowest profile available.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AKS74U"
+  ],
+  "weight": "0.15 kg",
+  "grid_size": "1x1",
+  "base_price": 212.5,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 212.5
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 63.75
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 7.0,
+   "fireRateModifier": 2.0,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_Aks74UOpticMount.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Auxiliary_AlienMagwell",
+  "name": "Alien Magwell Standard",
+  "short_name": "Alien Magwell",
+  "manufacturer": "Laugo Arms",
+  "description": "Designed specifically for the Alien pistol, this flared magwell significantly speeds up magazine changes by guiding the magazine into place with an expanded, funnel-like opening.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Alien"
+  ],
+  "weight": "0.02 kg",
+  "grid_size": "1x1",
+  "base_price": 202.3,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 60.69
+   }
+  ],
+  "stats": {
+   "maximumShots": 9700,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Alien",
+   "IS_Firearm_AlienBlack"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_Auxiliary_AlienMagwell.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_Jpgs10D",
+  "name": "AR-15 JPGS-10D Gas Block",
+  "short_name": "JPGS-10D",
+  "manufacturer": "General West",
+  "description": "The JPGS-10D is a small and compact design that can fit under various handguard models available on the market. Its two-part structure allows for easy installation, even on barrels with pin-and-weld muzzle treatments.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.068 kg",
+  "grid_size": "1x1",
+  "base_price": 249.9,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 249.9
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 74.97
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 7.0,
+   "fireRateModifier": 6.0,
+   "maximumShots": 5700,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_M16A120inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_Jpgs10D.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_Jpgs10DPL",
+  "name": "AR-15 JPGS-10D Gas Block (Phantom Lance)",
+  "short_name": "JPGS-10D",
+  "manufacturer": "General West",
+  "description": "The JPGS-10D is a small and compact design that can fit under various handguard models available on the market. Its two-part structure allows for easy installation, even on barrels with pin-and-weld muzzle treatments.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.068 kg",
+  "grid_size": "1x1",
+  "base_price": 249.9,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 74.97
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 7.0,
+   "fireRateModifier": 6.0,
+   "maximumShots": 5700,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_M16A120inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_Jpgs10DPL.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Auxiliary_BenelliMagExt",
+  "name": "Benelli M4 Dummy Magazine Extension",
+  "short_name": "M1014 DME",
+  "manufacturer": "Benelli ",
+  "description": "A dummy magazine extension for the Benelli M4 shotgun. It fills the space beneath longer barrels when using lower-capacity magazine tubes.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 120.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 120.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 36.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 3500,
+   "repairDifficultyModifier": 1.0
+  },
+  "fits_on": [
+   "IS_Mag_BenelliM4_5Rnd_12Gaug",
+   "IS_Mag_BenelliM4_5Rnd_12GaugFDE",
+   "IS_Mag_BenelliM4_5Rnd_12GaugRE",
+   "IS_Mag_BenelliM4_5Rnd_12GaugSilver"
+  ],
+  "disables_socket_types": [
+   "Socket.Barrel.BenelliM4.Short"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_Auxiliary_BenelliMagExt.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Auxiliary_BerettaM9A1HammerBlackmail",
+  "name": "Broker's M9A1 Hammer",
+  "short_name": "B M9A1 Hammer",
+  "manufacturer": "EGMT",
+  "description": "The Beretta hammer is an integral part of the firing mechanism, serving the primary function of striking the firing pin to initiate the firing process.\n\nThis is a part of the M9A1 belonging to Hoang \"Broker\" Lam Nam, the leader of the armed group occupying Hunter's Paradise.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.M9A1",
+   "Boss"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 80.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 24.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_BerettaM9A1",
+   "IS_Firearm_BerettaM9A1Blackmail"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_Auxiliary_BerettaM9A1HammerBlackmail.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_Ak74GasTubeMedved",
+  "name": "Buran's AK-74 Gas Tube",
+  "short_name": "AK74 Gas",
+  "manufacturer": "EGMT",
+  "description": "The gas tube of the AK-74 rifle is a crucial component that is situated above the barrel. It operates the rifle's gas-operated action by channeling propellant gasses to drive the piston, cycle the action, and aid in the extraction and ejection of spent cartridges.\n\nhis is a part of the AK-74N belonging to Arkady \"Buran\" Vititsky, the military commander of Fort Narith.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.085 kg",
+  "grid_size": "2x1",
+  "base_price": 26.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 7.8
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_Ak74GasTubeMedved.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Auxiliary_Colt1911CommanderHammer",
+  "name": "Colt 1911 Commander Hammer",
+  "short_name": "1911 Com Ham",
+  "manufacturer": "MidwayUSA",
+  "description": "The Colt Commander hammer is characterized by its rounded, shortened hammer design, which is intended to minimize hammer bite and enhance handling.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.1911C"
+  ],
+  "weight": "0.016 kg",
+  "grid_size": "1x1",
+  "base_price": 90.1,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 90.1
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 27.03
+   }
+  ],
+  "stats": {
+   "maximumShots": 4000,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_Auxiliary_Colt1911CommanderHammer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Auxiliary_Colt1911Hammer",
+  "name": "Colt 1911 Hammer",
+  "short_name": "1911 Hammer",
+  "manufacturer": "COLT",
+  "description": "This 1911 pistol hammer ensures reliable ignition and smooth operation.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.1911"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 68.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 68.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 20.4
+   }
+  ],
+  "stats": {
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_Auxiliary_Colt1911Hammer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_StandardCQA1",
+  "name": "CQA1 Standard Gas Block",
+  "short_name": "CQA1 Gas",
+  "manufacturer": "Norinco",
+  "description": "The standard CQA1 gas block is a component found in the Chinese version of the AR-15 rifle. While it performs the same function as the gas blocks in Western versions, it may be perceived as lower quality due to potential differences in materials, machining, and overall construction.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.13 kg",
+  "grid_size": "1x1",
+  "base_price": 125.8,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 125.8
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 37.74
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_M16A120inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_StandardCQA1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_DdMk12LowProfile",
+  "name": "DD MK12 Low Profile Gas Block",
+  "short_name": "MK12 Low",
+  "manufacturer": "Daniel Defense",
+  "description": "Crafted by Daniel Defense, this gas block ensures reliable gas regulation for optimal performance and accuracy. With its low-profile design, it offers a sleek and streamlined appearance, reducing weight and improving overall firearm balance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.053 kg",
+  "grid_size": "1x1",
+  "base_price": 232.9,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 232.9
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 69.87
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 7.0,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_M16A120inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_DdMk12LowProfile.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_Aks74UGasTubeFather",
+  "name": "Firebrand's AKS-74U Gas Tube",
+  "short_name": "B AK74 Gas",
+  "manufacturer": "EGMT",
+  "description": "The gas tube of the AK-74 rifle is a crucial component that is situated above the barrel. It operates the rifle's gas-operated action by channeling propellant gasses to drive the piston, cycle the action, and aid in the extraction and ejection of spent cartridges.\n\nThis is a part of the AKS-74U belonging to Lani \"Firebrand\" Sayavong, the leader of the armed group occupying YBL-1.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AKS74U",
+   "Boss"
+  ],
+  "weight": "0.045 kg",
+  "grid_size": "1x1",
+  "base_price": 256.7,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 77.01
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 9.0,
+   "maximumShots": 5800,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_Aks74UGasTubeFather.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Auxiliary_Colt1911HammerMidas",
+  "name": "Golden Boy's Colt 1911 Hammer",
+  "short_name": "B 1911 Hammer",
+  "manufacturer": "EGMT",
+  "description": "This 1911 pistol hammer ensures reliable ignition and smooth operation.\n\nThis is a part of the Colt 1911 belonging to Songkram \"Golden Boy\" Manivanh, the leader of the Pha Lang criminal gang.",
+  "tags": [
+   "Size.Small",
+   "WeaponPlatform.1911",
+   "Origin.East",
+   "Boss"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 138.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 41.4
+   }
+  ],
+  "stats": {
+   "maximumShots": 3500,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_Auxiliary_Colt1911HammerMidas.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Auxiliary_Colt1911CommanderHammerHel",
+  "name": "Grin's Colt 1911 Hammer",
+  "short_name": "B 1911 Hammer",
+  "manufacturer": "EGMT",
+  "description": "This 1911 pistol hammer ensures reliable ignition and smooth operation.\n\nThis is a part of the Colt Commander belonging to Malo \"Grin\" Luangrath, the leader of the armed group occupying Blue Lagoon.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.1911C",
+   "Boss"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 136.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 40.8
+   }
+  ],
+  "stats": {
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_Auxiliary_Colt1911CommanderHammerHel.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_StandardM16A1",
+  "name": "M16A1 Standard Gas Block",
+  "short_name": "M16A1 Gas",
+  "manufacturer": "COLT",
+  "description": "A standard gas block for the M16A1 carbine. As an essential component, it effectively regulates the flow of gas from the fired cartridge to ensure proper cycling of the weapon's mechanism. It also features a front sight post.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.13 kg",
+  "grid_size": "1x1",
+  "base_price": 125.8,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 125.8
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 37.74
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_M16A120inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_StandardM16A1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_StandardM4A1",
+  "name": "M4A1 Standard Gas Block",
+  "short_name": "M4A1 Gas",
+  "manufacturer": "COLT",
+  "description": "A standard gas block for the M4A1 carbine. As an essential component, it effectively regulates the flow of gas from the fired cartridge to ensure proper cycling of the weapon's mechanism. It also features a front sight post.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.13 kg",
+  "grid_size": "1x1",
+  "base_price": 210.8,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 210.8
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 63.24
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 7.0,
+   "maximumShots": 4800,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_M16A120inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_StandardM4A1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Auxiliary_BerettaM9A1Hammer",
+  "name": "M9A1 Hammer",
+  "manufacturer": "Beretta",
+  "description": "The Beretta hammer is an integral part of the firing mechanism, serving the primary function of striking the firing pin to initiate the firing process.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M9A1"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 39.1,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 39.1
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 11.73
+   }
+  ],
+  "stats": {
+   "maximumShots": 2200,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_BerettaM9A1",
+   "IS_Firearm_BerettaM9A1Blackmail"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_Auxiliary_BerettaM9A1Hammer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_AkRatnikGasTube",
+  "name": "Ratnik Gas Tube",
+  "short_name": "Ratnik Gas",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The Ratnik gas tube is a key component of the AK Ratnik series of rifles. It directs gas from the fired cartridge to the gas piston, which drives the bolt carrier backward to cycle the action.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK12"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "2x1",
+  "base_price": 319.6,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 319.6
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 95.88
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 7.0,
+   "fireRateModifier": 3.0,
+   "maximumShots": 5400,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak12",
+   "IS_Firearm_Ak15",
+   "IS_Firearm_Ak19",
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_AkRatnikGasTube.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_AkRatnikGasTubeHT",
+  "name": "Ratnik Gas Tube (Hunter Team)",
+  "short_name": "Ratnik Gas",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The Ratnik gas tube is a key component of the AK Ratnik series of rifles. It directs gas from the fired cartridge to the gas piston, which drives the bolt carrier backward to cycle the action.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK12"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "2x1",
+  "base_price": 319.6,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 95.88
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 7.0,
+   "fireRateModifier": 3.0,
+   "maximumShots": 5400,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak12",
+   "IS_Firearm_Ak15",
+   "IS_Firearm_Ak19",
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_AkRatnikGasTubeHT.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_SigMcx",
+  "name": "SIG MCX Gas Block",
+  "short_name": "MCX Gas",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG MCX series utilizes a short-stroke gas piston system combined with a dual recoil spring mechanism, designed to reduce recoil and enhance reliability.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.15 kg",
+  "grid_size": "1x1",
+  "base_price": 408.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 408.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 122.4
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 7.0,
+   "maximumShots": 4800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_SigMcx16inch_300AC",
+   "IS_Barrel_SigMcx675inch_300AC",
+   "IS_Barrel_SigMcx675inch_300ACGN",
+   "IS_Barrel_SigMcx9inch_300AC"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_SigMcx.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GasBlock_SigMcxGN",
+  "name": "SIG MCX Gas Block (Ghost Nomad)",
+  "short_name": "MCX Gas",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG MCX series utilizes a short-stroke gas piston system combined with a dual recoil spring mechanism, designed to reduce recoil and enhance reliability.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.15 kg",
+  "grid_size": "1x1",
+  "base_price": 500.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 7.0,
+   "maximumShots": 4800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_SigMcx16inch_300AC",
+   "IS_Barrel_SigMcx675inch_300AC",
+   "IS_Barrel_SigMcx675inch_300ACGN",
+   "IS_Barrel_SigMcx9inch_300AC"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_GasBlock_SigMcxGN.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Auxiliary_SksCoverPin",
+  "name": "SKS Receiver Cover Retaining Pin",
+  "short_name": "SKS Pin",
+  "manufacturer": "Kalashnikov concern",
+  "description": "A metal pin that secures the SKS optical rail in place.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.SKS"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 39.1,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 39.1
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 11.73
+   }
+  ],
+  "stats": {
+   "maximumShots": 3600,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_Sks"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_Auxiliary_SksCoverPin.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Auxiliary_SvdRearSightRing",
+  "name": "SVD Rear Sight Ring",
+  "short_name": "SVD Ring",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The SVD Rear Sight Ring is a critical component of the Dragunov SVD's iron sight system. Designed for precise elevation and windage adjustments to accommodate 7.62×54R ballistics, this graduated, adjustable tangent sight is typically marked from 100 to 1200 meters, allowing users to quickly make range adjustments.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.SVD"
+  ],
+  "weight": "0.15 kg",
+  "grid_size": "1x1",
+  "base_price": 107.1,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 107.1
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 32.13
+   }
+  ],
+  "stats": {
+   "maximumShots": 4000,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_Svd620mm_762x54",
+   "IS_Barrel_Svd620mm_762x54SW"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_Auxiliary_SvdRearSightRing.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Auxiliary_Colt1911CommanderHammerAvi",
+  "name": "Viper's Colt 1911 Hammer",
+  "short_name": "B 1911 Hammer",
+  "manufacturer": "EGMT",
+  "description": "This 1911 pistol hammer ensures reliable ignition and smooth operation.\n\nThis is a part of the Colt Commander belonging to Aawut \"Viper\" Phasuk, the leader of the armed group occupying Pha Lang Airfield.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.1911C",
+   "Boss"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 136.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 40.8
+   }
+  ],
+  "stats": {
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel"
+  ],
+  "image": "https://gzw-data.dev/assets/items/other_weapon_parts/IS_Auxiliary_Colt1911CommanderHammerAvi.webp",
+  "source": "game-files"
+ }
+]

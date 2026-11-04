@@ -1,0 +1,479 @@
+[
+ {
+  "id": "IS_Grenade_F1",
+  "name": "F-1",
+  "manufacturer": "Russian Army",
+  "description": "A defensive anti-personnel fragmentation grenade developed by the Soviets during the Second World War. Nicknamed 'Limonka' due to its shape, this grenade was designed to disperse fragments up to 200 meters, with an effective radius of around 30 meters.",
+  "type": "Weapon.Throwable",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.6 kg",
+  "grid_size": "1x1",
+  "base_price": 75.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 75.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 22.5
+   }
+  ],
+  "stats": {
+   "fuseTimeMin": 3.2,
+   "fuseTimeMax": 4.2,
+   "killRadius": 6.0,
+   "woundRadius": 10.0,
+   "stunRadiusMin": 0.0027,
+   "stunRadiusMax": 0.0027
+  },
+  "image": "https://gzw-data.dev/assets/items/grenades_explosives/IS_Grenade_F1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Grenade_M18SmokeGrenade_Green",
+  "name": "M18 Smoke Grenade (Green)",
+  "short_name": "M18",
+  "manufacturer": "Pine Bluff Arsenal",
+  "description": "The M18 smoke grenade is used both as a signaling device or to obscure unit movements. This type of smoke grenade is in use by US army since 1943, and emits green-colored smoke.",
+  "type": "Weapon.Throwable",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.539 kg",
+  "grid_size": "1x1",
+  "base_price": 40.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 40.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 12.0
+   }
+  ],
+  "stats": {
+   "fuseTimeMin": 1.2,
+   "fuseTimeMax": 2.0,
+   "killRadius": 2.0,
+   "woundRadius": 2.0,
+   "stunRadiusMin": 2.0,
+   "stunRadiusMax": 2.0,
+   "burningMin": 50,
+   "burningMax": 90,
+   "fragments": 2
+  },
+  "image": "https://gzw-data.dev/assets/items/grenades_explosives/IS_Grenade_M18SmokeGrenade_Green.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Grenade_M18SmokeGrenade_Red",
+  "name": "M18 Smoke Grenade (Red)",
+  "short_name": "M18",
+  "manufacturer": "Pine Bluff Arsenal",
+  "description": "The M18 smoke grenade is used both as a signaling device or to obscure unit movements. This type of smoke grenade is in use by US army since 1943, and emits red-colored smoke.",
+  "type": "Weapon.Throwable",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.539 kg",
+  "grid_size": "1x1",
+  "base_price": 40.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 40.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 12.0
+   }
+  ],
+  "stats": {
+   "fuseTimeMin": 1.2,
+   "fuseTimeMax": 2.0,
+   "killRadius": 2.0,
+   "woundRadius": 2.0,
+   "stunRadiusMin": 2.0,
+   "stunRadiusMax": 2.0,
+   "burningMin": 50,
+   "burningMax": 90,
+   "fragments": 2
+  },
+  "image": "https://gzw-data.dev/assets/items/grenades_explosives/IS_Grenade_M18SmokeGrenade_Red.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Grenade_M18SmokeGrenade_Yellow",
+  "name": "M18 Smoke Grenade (Yellow)",
+  "short_name": "M18",
+  "manufacturer": "Pine Bluff Arsenal",
+  "description": "The M18 smoke grenade is used both as a signaling device or to obscure unit movements. This type of smoke grenade is in use by US army since 1943, and emits yellow-colored smoke.",
+  "type": "Weapon.Throwable",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.539 kg",
+  "grid_size": "1x1",
+  "base_price": 40.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 40.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 12.0
+   }
+  ],
+  "stats": {
+   "fuseTimeMin": 1.2,
+   "fuseTimeMax": 2.0,
+   "killRadius": 2.0,
+   "woundRadius": 2.0,
+   "stunRadiusMin": 2.0,
+   "stunRadiusMax": 2.0,
+   "burningMin": 50,
+   "burningMax": 90,
+   "fragments": 2
+  },
+  "image": "https://gzw-data.dev/assets/items/grenades_explosives/IS_Grenade_M18SmokeGrenade_Yellow.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Grenade_M26",
+  "name": "M26",
+  "manufacturer": "Denel Rheinmetall Munitions",
+  "description": "A fragmentation grenade developed by the United States military and used in combat during the Korean War. Nicknamed \"lemon grenade,\" thanks to its shape, the M26 has enhanced fragmentation capabilities thanks to a notched fragmentation coil inside the grenade's body.",
+  "type": "Weapon.Throwable",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.453 kg",
+  "grid_size": "1x1",
+  "base_price": 55.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 55.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 16.5
+   }
+  ],
+  "stats": {
+   "fuseTimeMin": 4.0,
+   "fuseTimeMax": 5.0,
+   "killRadius": 4.0,
+   "woundRadius": 7.5,
+   "stunRadiusMin": 0.00181,
+   "stunRadiusMax": 0.00181,
+   "fragments": 250
+  },
+  "image": "https://gzw-data.dev/assets/items/grenades_explosives/IS_Grenade_M26.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Grenade_M67",
+  "name": "M67",
+  "manufacturer": "Day & Zimmermann",
+  "description": "A fragmentation hand grenade used by the United States military, the M67 is a further development of the M33, which was virtually identical but lacked a safety clip. It is typically known as a \"baseball grenade\" thanks to its spherical body and can be easily thrown. Upon detonation, it releases steel fragments that have an injury radius of over 15 meters.",
+  "type": "Weapon.Throwable",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "1x1",
+  "base_price": 69.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 69.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 20.7
+   }
+  ],
+  "stats": {
+   "fuseTimeMin": 4.0,
+   "fuseTimeMax": 5.0,
+   "killRadius": 5.0,
+   "woundRadius": 8.0,
+   "stunRadiusMin": 0.00108,
+   "stunRadiusMax": 0.00108
+  },
+  "image": "https://gzw-data.dev/assets/items/grenades_explosives/IS_Grenade_M67.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Grenade_M84_Stun",
+  "name": "M84 Stun Grenade",
+  "short_name": "M84",
+  "manufacturer": "Picatinny Arsenal",
+  "description": "The M84 Stun Grenade is a non-lethal tactical tool, effectively disorienting foes with a blinding flash and deafening noise. Its compact size and lightweight design make it perfect for crowd control and hostage rescue scenarios.",
+  "type": "Weapon.Throwable",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.37 kg",
+  "grid_size": "1x1",
+  "base_price": 45.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 45.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 13.5
+   }
+  ],
+  "stats": {
+   "fuseTimeMin": 1.0,
+   "fuseTimeMax": 2.3,
+   "killRadius": 2.3,
+   "woundRadius": 2.3,
+   "stunRadiusMin": 5.0,
+   "stunRadiusMax": 10.0,
+   "burningMin": 10,
+   "burningMax": 10,
+   "fragments": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/grenades_explosives/IS_Grenade_M84_Stun.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mortar_Ammo_M933HEZone3",
+  "name": "M933 120mm HE Cartridge (High Range)",
+  "short_name": "M933 High",
+  "manufacturer": "JPEO",
+  "description": "The M933 High Explosive (HE) cartridge is designed for use against personnel, bunkers, and light material targets. It features a steel case filled with Composition B explosive and an aluminum M31 fin assembly. The propulsion system consists of an M1020 ignition cartridge and four waterproof, horseshoe-shaped M234 propelling charges.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "13.65 kg",
+  "grid_size": "1x3",
+  "base_price": 12500.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 12500.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1250.0
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/grenades_explosives/IS_Mortar_Ammo_M933HEZone3.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mortar_Ammo_M933HEZone1",
+  "name": "M933 120mm HE Cartridge (Low Range)",
+  "short_name": "M933 Low",
+  "manufacturer": "JPEO",
+  "description": "The M933 High Explosive (HE) cartridge is designed for use against personnel, bunkers, and light material targets. It features a steel case filled with Composition B explosive and an aluminum M31 fin assembly. The propulsion system consists of an M1020 ignition cartridge and four waterproof, horseshoe-shaped M234 propelling charges.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "13.65 kg",
+  "grid_size": "1x3",
+  "base_price": 5000.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 5000.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 500.0
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/grenades_explosives/IS_Mortar_Ammo_M933HEZone1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mortar_Ammo_M933HEZone2",
+  "name": "M933 120mm HE Cartridge (Medium Range)",
+  "short_name": "M933 Med",
+  "manufacturer": "JPEO",
+  "description": "The M933 High Explosive (HE) cartridge is designed for use against personnel, bunkers, and light material targets. It features a steel case filled with Composition B explosive and an aluminum M31 fin assembly. The propulsion system consists of an M1020 ignition cartridge and four waterproof, horseshoe-shaped M234 propelling charges.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "13.65 kg",
+  "grid_size": "1x3",
+  "base_price": 10000.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 10000.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1000.0
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/grenades_explosives/IS_Mortar_Ammo_M933HEZone2.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Grenade_Rgd5",
+  "name": "RGD-5",
+  "manufacturer": "Russian Army",
+  "description": "The RGD-5 is a post-Word War II Soviet anti-personnel fragmentation grenade still in service with many armies in the Middle East and the former Soviet bloc. Upon detonation, the RGD-5 releases deadly metal fragments in all directions, inflicting severe damage to personnel and equipment within its blast radius.",
+  "type": "Weapon.Throwable",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.31 kg",
+  "grid_size": "1x1",
+  "base_price": 50.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 50.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "fuseTimeMin": 3.2,
+   "fuseTimeMax": 4.2,
+   "woundRadius": 5.0,
+   "stunRadiusMin": 0.00103,
+   "stunRadiusMax": 0.00103,
+   "fragments": 300
+  },
+  "image": "https://gzw-data.dev/assets/items/grenades_explosives/IS_Grenade_Rgd5.webp",
+  "source": "game-files"
+ }
+]

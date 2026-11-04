@@ -1,0 +1,4439 @@
+[
+ {
+  "id": "IS_Slide_Colt1911ComanderSlide",
+  "name": "1911 Commander Slide",
+  "short_name": "1911 Com Slide",
+  "manufacturer": "Fusion Firearms",
+  "description": "The Fusion Firearms 1911 Commander Carry Slide is a precision CNC-machined component designed for 1911-style pistols. It is crafted from durable 4140 bar-stock steel and heat-treated for enhanced strength, featuring robust combat-style rear serrations and standard dovetail cuts for both front and rear sights, accommodating a variety of sight options.",
+  "tags": [
+   "Origin.west",
+   "Size.Small",
+   "WeaponPlatform.1911C"
+  ],
+  "weight": "0.349 kg",
+  "grid_size": "2x1",
+  "base_price": 510.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 510.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 2800,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Colt1911ComanderSlide.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_AkGPNDustCover",
+  "name": "AK GPN Dust Cover",
+  "short_name": "GPN Dust Cover",
+  "manufacturer": "GPN",
+  "description": "A lightweight aluminum dust cover for AK-pattern rifles, featuring an integrated Picatinny rail for mounting optical sights and other accessories.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.242 kg",
+  "grid_size": "2x1",
+  "base_price": 780.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 780.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 234.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 3100,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "disables_socket_types": [
+   "Socket.Mount.AK",
+   "Socket.Sight.30mm.Low.Big",
+   "Socket.Sight.34mm.Low.Big"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_AkGPNDustCover.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_AkGPNDustCoverFDE",
+  "name": "AK GPN Dust Cover (FDE)",
+  "short_name": "GPN Dust Cover",
+  "manufacturer": "GPN",
+  "description": "A lightweight aluminum dust cover for AK-pattern rifles, featuring an integrated Picatinny rail for mounting optical sights and other accessories.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.242 kg",
+  "grid_size": "2x1",
+  "base_price": 780.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 234.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 3100,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "disables_socket_types": [
+   "Socket.Mount.AK",
+   "Socket.Sight.30mm.Low.Big",
+   "Socket.Sight.34mm.Low.Big"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_AkGPNDustCoverFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_AkGPNDustCoverGreen",
+  "name": "AK GPN Dust Cover (Green)",
+  "short_name": "GPN Dust Cover",
+  "manufacturer": "GPN",
+  "description": "A lightweight aluminum dust cover for AK-pattern rifles, featuring an integrated Picatinny rail for mounting optical sights and other accessories.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.242 kg",
+  "grid_size": "2x1",
+  "base_price": 780.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 234.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 3100,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "disables_socket_types": [
+   "Socket.Mount.AK",
+   "Socket.Sight.30mm.Low.Big",
+   "Socket.Sight.34mm.Low.Big"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_AkGPNDustCoverGreen.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_AkRatnikDustCover",
+  "name": "AK Ratnik Dust Cover",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The dust cover for the AK ratnik series is a modernized component designed to enhance the functionality of this advanced assault rifles. It is manufactured by Izhmash and features an integrated Picatinny rail, which provides a stable platform for mounting various optical sights and accessories. This integration significantly improves the rifle's versatility and adaptability in different operational scenarios.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.21 kg",
+  "grid_size": "2x1",
+  "base_price": 850.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 850.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 255.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 3400,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak12",
+   "IS_Firearm_Ak15",
+   "IS_Firearm_Ak19"
+  ],
+  "disables_socket_types": [
+   "Socket.Sight.30mm.Low.Big"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_AkRatnikDustCover.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_Ak100SeriesDustCover",
+  "name": "AK-100 Series Dust Cover",
+  "short_name": "AK-100 Dust Cover",
+  "manufacturer": "Kalashnikov concern",
+  "description": "This is a dust cover for a stamped AK receiver, specifically the original Russian AK-100 model. It is compatible with Saiga and Arsenal rifles.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.104 kg",
+  "grid_size": "2x1",
+  "base_price": 204.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 204.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 61.2
+   }
+  ],
+  "stats": {
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_Ak100SeriesDustCover.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_AkRatnik308DustCover",
+  "name": "AK-308 Dust Cover",
+  "manufacturer": "Kalashnikov concern",
+  "description": "Designed for the AK-308 rifle, this dust cover features a locking lever to ensure a secure fit which is critical for maintaining stability when mounting optics.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK308"
+  ],
+  "weight": "0.115 kg",
+  "grid_size": "2x1",
+  "base_price": 935.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 935.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 280.5
+   }
+  ],
+  "stats": {
+   "maximumShots": 3400,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT"
+  ],
+  "disables_socket_types": [
+   "Socket.Sight.30mm.Low.Big"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_AkRatnik308DustCover.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_AkRatnik308DustCoverHT",
+  "name": "AK-308 Dust Cover (Hunter Team)",
+  "short_name": "AK-308 Dust Cover",
+  "manufacturer": "Kalashnikov concern",
+  "description": "Designed for the AK-308 rifle, this dust cover features a locking lever to ensure a secure fit which is critical for maintaining stability when mounting optics.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK308"
+  ],
+  "weight": "0.115 kg",
+  "grid_size": "2x1",
+  "base_price": 1600.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 480.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 3400,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT"
+  ],
+  "disables_socket_types": [
+   "Socket.Sight.30mm.Low.Big"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_AkRatnik308DustCoverHT.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_AkAkmDustCoverLate",
+  "name": "AK/AKM Dust Cover (Late)",
+  "short_name": "AK Dust Cover",
+  "manufacturer": "Kalashnikov concern",
+  "description": "A top dust cover for the AK/AKM series of rifles.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.104 kg",
+  "grid_size": "2x1",
+  "base_price": 204.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 204.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 61.2
+   }
+  ],
+  "stats": {
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_AkAkmDustCoverLate.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_Aks74U",
+  "name": "AKS-74U Dust Cover",
+  "short_name": "AKS-74U Upper",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The upper receiver cover for the AKS-74U with an integrated rear sight.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AKS74U"
+  ],
+  "weight": "0.104 kg",
+  "grid_size": "2x1",
+  "base_price": 170.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 170.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.5
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_Aks74U.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_AlienRetroSlide",
+  "name": "Alien Retro Slide",
+  "short_name": "Alien Retro Sl",
+  "manufacturer": "Laugo Arms",
+  "description": "The Retro Slide is a specialized slide assembly built for IPSC Production Optics compliance. Unlike the original non-reciprocating rail system, it mounts a red-dot optic directly to the reciprocating slide, allowing the optic to cycle with the slide during firing.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Alien"
+  ],
+  "weight": "0.36 kg",
+  "grid_size": "2x1",
+  "base_price": 2380.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 2380.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 714.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 20.0,
+   "reloadTimeModifier": -2.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Alien",
+   "IS_Firearm_AlienBlack"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_AlienRetroSlide.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_AlienSlide",
+  "name": "Alien Slide",
+  "manufacturer": "Laugo Arms",
+  "description": "The Alien slide is a lightweight internal component that cycles beneath the fixed top rail. It contains the firing mechanism and works in tandem with the gas-delayed blowback system. Unlike traditional full-length slides, its compact, low-mass design reduces reciprocating weight, delivering smoother recoil, faster cycling, and superior shot-to-shot control.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Alien"
+  ],
+  "weight": "0.35 kg",
+  "grid_size": "2x1",
+  "base_price": 2040.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 2040.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 612.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 20.0,
+   "reloadTimeModifier": -2.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Alien",
+   "IS_Firearm_AlienBlack"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_AlienSlide.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_ZenitcoB33Rail",
+  "name": "B-33 Rail",
+  "short_name": "B-33",
+  "manufacturer": "Zenitco",
+  "description": "The B-33 is a dust cover with an integrated Picatinny rail that is compatible with all models of AK assault rifles.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.215 kg",
+  "grid_size": "2x1",
+  "base_price": 595.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 178.5
+   }
+  ],
+  "stats": {
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "disables_socket_types": [
+   "Socket.Mount.AK",
+   "Socket.Sight.34mm.Low.Big",
+   "Socket.Sight.30mm.Low.Big"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_ZenitcoB33Rail.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_M201CSlidePsycho",
+  "name": "Bloodhound's M-201C Slide",
+  "short_name": "B M-201C Slide",
+  "manufacturer": "EGMT",
+  "description": "A steel slide assembly for the M-201C 9×19 mm pistol. It includes front and rear serrations for improved manipulation and houses the barrel bushing, recoil spring plug, and striker components. It is designed for use with the standard M-201C barrel and recoil assembly.\n\nThis is a part of the M-201C belonging to Kahoku \"Bloodhound\" Phongsa, the leader of the Kiu Vongsa criminal gang.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.M201C",
+   "Boss"
+  ],
+  "weight": "0.21 kg",
+  "grid_size": "2x1",
+  "base_price": 254.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.2
+   }
+  ],
+  "stats": {
+   "recoilControl": 2.0,
+   "maximumShots": 1900,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_M201C",
+   "IS_Firearm_M201CPsycho"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_M201CSlidePsycho.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_BerettaM9A1Blackmail",
+  "name": "Broker's M9A1 Slide",
+  "short_name": "B M9A1 Slide",
+  "manufacturer": "EGMT",
+  "description": "The Beretta M9A1 slide is crafted from durable steel and features an open-top design, which helps prevent jamming by allowing spent casings to eject more freely. This design also contributes to reduced felt recoil and improved cycling reliability.\n\nThis is a part of the M9A1 belonging to Hoang \"Broker\" Lam Nam, the leader of the armed group occupying Hunter's Paradise.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.M9A1",
+   "Boss"
+  ],
+  "weight": "0.29 kg",
+  "grid_size": "2x1",
+  "base_price": 680.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 2.0,
+   "maximumShots": 2200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_BerettaM9A1",
+   "IS_Firearm_BerettaM9A1Blackmail"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_BerettaM9A1Blackmail.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_Ak100SeriesDustCoverMedved",
+  "name": "Buran's AK-100 Series Dust Cover",
+  "short_name": "B AK-100 Dust Cover Medved",
+  "manufacturer": "EGMT",
+  "description": "This is a dust cover for a stamped AK receiver, specifically the original Russian AK-100 model. It is compatible with Saiga and Arsenal rifles.\n\nThis is a part of the AK-74N belonging to Arkady \"Buran\" Vititsky, the military commander of Fort Narith.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK",
+   "Boss"
+  ],
+  "weight": "0.104 kg",
+  "grid_size": "2x1",
+  "base_price": 408.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 122.4
+   }
+  ],
+  "stats": {
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_Ak100SeriesDustCoverMedved.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Type51CMakoSlide",
+  "name": "Chaonai's Type 51 Slide",
+  "short_name": "B T51 Slide",
+  "manufacturer": "EGMT",
+  "description": "The Type 51 Tokarev slide, originating from China, is made of steel, making it durable and resilient. The serrations at the rear offer enhanced grip during manipulation, and the slide itself houses the barrel and recoil spring assembly, facilitating the cycling of the pistol's action. Its robust construction and straightforward design ensure reliable functionality and ease of operation.\n\nThis is a part of the Type 51 Tokarev belonging to Makan \"Chaonai\" Zhang, the leader of the Nam Thaven criminal gang.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT",
+   "Boss"
+  ],
+  "weight": "0.21 kg",
+  "grid_size": "2x1",
+  "base_price": 254.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.2
+   }
+  ],
+  "stats": {
+   "recoilControl": 2.0,
+   "maximumShots": 2100,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": true
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Type51",
+   "IS_Firearm_Type51Hammerhead",
+   "IS_Firearm_Type51Mako",
+   "IS_Firearm_Type51Pencil"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Type51CMakoSlide.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Type51PencilSlide",
+  "name": "Colonel's Type 51 Slide",
+  "short_name": "B T51 Slide",
+  "manufacturer": "EGMT",
+  "description": "The Type 51 Tokarev slide, originating from China, is made of steel, making it durable and resilient. The serrations at the rear offer enhanced grip during manipulation, and the slide itself houses the barrel and recoil spring assembly, facilitating the cycling of the pistol's action. Its robust construction and straightforward design ensure reliable functionality and ease of operation.\n\nThis is a part of the Type 51 Tokarev belonging to Palani \"Colonel\" Ketthavong, the military commander of Tiger Bay.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT",
+   "Boss"
+  ],
+  "weight": "0.21 kg",
+  "grid_size": "2x1",
+  "base_price": 254.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.2
+   }
+  ],
+  "stats": {
+   "recoilControl": 2.0,
+   "maximumShots": 2100,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": true
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Type51",
+   "IS_Firearm_Type51Hammerhead",
+   "IS_Firearm_Type51Mako",
+   "IS_Firearm_Type51Pencil"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Type51PencilSlide.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Colt1911LongSlide6",
+  "name": "Colt 1911 Long Slide",
+  "short_name": "1911 Long Slide",
+  "manufacturer": "Fusion Firearms",
+  "description": "The Colt 1911 Long Slide is an extended slide designed for increased accuracy and improved sight radius. Crafted with meticulous attention to detail, it provides smooth, reliable action and a refined finish.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.1911"
+  ],
+  "weight": "0.41 kg",
+  "grid_size": "2x1",
+  "base_price": 595.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 595.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 178.5
+   }
+  ],
+  "stats": {
+   "recoilControl": 3.0,
+   "reloadTimeModifier": 2.0,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "disables_socket_types": [
+   "Socket.Barrel.1911.Short"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Colt1911LongSlide6.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Colt1911Slide",
+  "name": "Colt 1911 Slide",
+  "short_name": "1911 Slide",
+  "manufacturer": "COLT",
+  "description": "The 1911 Government Rail Slide is a precision-engineered component for the Colt 1911 pistol. It enhances durability and performance through high-quality machining, providing an excellent fit and finish.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.1911"
+  ],
+  "weight": "0.38 kg",
+  "grid_size": "2x1",
+  "base_price": 425.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 425.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 127.5
+   }
+  ],
+  "stats": {
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.5
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Colt1911Slide.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Stock_NorincoQCA1Buffertube",
+  "name": "CQ A1 Buffer Tube",
+  "short_name": "CQA1 BTube",
+  "manufacturer": "Norinco",
+  "description": "A receiver extension for the Norinco CQ A1. It provides a secure mounting point for the stock and aids in mitigating recoil, resulting in enhanced shooting comfort and improved control. Similar to other Norinco CQ parts, it may exhibit differences in quality compared to its Western counterparts.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.108 kg",
+  "grid_size": "2x1",
+  "base_price": 153.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 153.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 45.9
+   }
+  ],
+  "stats": {
+   "manipulationModifier": -3.0,
+   "recoilControl": -3.0,
+   "maximumShots": 4100,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_StockAdapter_AkBufferTube",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_McxBufferTubeAdapter",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_AtiSksStrikeforceTactLite",
+   "IS_Stock_AtiSksStrikeforceTactLiteFDE",
+   "IS_Stock_G3Buffertube",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Stock_NorincoQCA1Buffertube.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_NorincoCqA1UpperReceiver",
+  "name": "CQ A1 Upper Receiver",
+  "short_name": "CQ A1 Upper",
+  "manufacturer": "Norinco",
+  "description": "This AR-15 receiver shares basic functionality with its Western counterparts. However, it is generally considered to be of lower quality.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.24 kg",
+  "grid_size": "2x1",
+  "base_price": 425.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 425.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 127.5
+   }
+  ],
+  "stats": {
+   "maximumShots": 1200,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "HandGuard_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_NorincoCqA1UpperReceiver.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_DdA4UpperReceiver",
+  "name": "DDMK18 Upper Receiver",
+  "short_name": "DDMK18 Upper",
+  "manufacturer": "Daniel Defense",
+  "description": "The Daniel Defense A4 Upper Receiver Assembly is designed for personalized construction. Crafted with precision in a cutting-edge manufacturing facility and supported by a satisfaction guarantee, this product is ready for any custom build.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.198 kg",
+  "grid_size": "2x1",
+  "base_price": 850.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 850.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 255.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 1800,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "HandGuard_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_DdA4UpperReceiver.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_DdA4UpperReceiverBlack",
+  "name": "DDMK18 Upper Receiver (Black)",
+  "short_name": "DDMK18 Upper",
+  "manufacturer": "Daniel Defense",
+  "description": "The Daniel Defense A4 Upper Receiver Assembly is designed for personalized construction. Crafted with precision in a cutting-edge manufacturing facility and supported by a satisfaction guarantee, this product is ready for any custom build.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.198 kg",
+  "grid_size": "2x1",
+  "base_price": 850.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 255.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 1800,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "HandGuard_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_DdA4UpperReceiverBlack.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_DdA4UpperReceiverPL",
+  "name": "DDMK18 Upper Receiver (Phantom Lance)",
+  "short_name": "DDMK18 Upper",
+  "manufacturer": "Daniel Defense",
+  "description": "The Daniel Defense A4 Upper Receiver Assembly is designed for personalized construction. Crafted with precision in a cutting-edge manufacturing facility and supported by a satisfaction guarantee, this product is ready for any custom build.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.198 kg",
+  "grid_size": "2x1",
+  "base_price": 1650.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 495.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 1800,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "HandGuard_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_DdA4UpperReceiverPL.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_TwsDogLegRail",
+  "name": "Dog Leg Rail",
+  "short_name": "Dog Leg",
+  "manufacturer": "Texas Weapon Systems",
+  "description": "A modern dog leg rail dust cover for the AK series of rifles.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.175 kg",
+  "grid_size": "2x1",
+  "base_price": 510.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 510.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "disables_socket_types": [
+   "Socket.Mount.AK",
+   "Socket.Sight.30mm.Low.Big",
+   "Socket.Sight.34mm.Low.Big",
+   "Socket.Sight.RearSight.AK.AKM"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_TwsDogLegRail.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_FamasCarryHandle",
+  "name": "FAMAS Carry Handle",
+  "short_name": "FAMAS Carry",
+  "manufacturer": "MAS",
+  "description": "A standard carry handle assembly for the FAMAS rifle. Its rigid construction protects the sighting components and other parts along the top of the weapon while providing a convenient carrying grip. It also serves as a mounting point for the bipod and rifle-grenade sighting equipment.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Famas"
+  ],
+  "weight": "0.15 kg",
+  "grid_size": "2x1",
+  "base_price": 450.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 135.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Famas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_FamasCarryHandle.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_Aks74UFather",
+  "name": "Firebrand's AKS-74U Dust Cover",
+  "short_name": "B AKS-74U Upper",
+  "manufacturer": "EGMT",
+  "description": "The upper receiver cover for the AKS-74U with an integrated rear sight.\n\nThis is a part of the AKS-74U belonging to Lani \"Firebrand\" Sayavong, the leader of the armed group occupying YBL-1.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AKS74U",
+   "Boss"
+  ],
+  "weight": "0.104 kg",
+  "grid_size": "2x1",
+  "base_price": 340.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.5
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_Aks74UFather.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Glock17Slide",
+  "name": "Glock 17 Slide",
+  "short_name": "G17 Slide",
+  "manufacturer": "GLOCK",
+  "description": "The standard slide designed for Glock 9x19 pistols. It serves as a crucial component of the firearm's upper assembly.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.37 kg",
+  "grid_size": "2x1",
+  "base_price": 425.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 1,
+    "price": 425.0
+   }
+  ],
+  "sold_by": "Banshee R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 127.5
+   }
+  ],
+  "stats": {
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Glock17",
+   "IS_Firearm_Glock17Damascus",
+   "IS_Firearm_Glock17Olive"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Glock17Slide.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Glock17ZaffiriPrecisionStainlessSteelSlideZps6",
+  "name": "Glock 17 ZPS.6 Slide",
+  "short_name": "ZPS.6 Slide",
+  "manufacturer": "Zaffiri Precision",
+  "description": "The ZPS.6 combines sleek aesthetics with enhanced performance. Constructed from high-quality stainless steel, this precision-engineered slide offers improved durability and reliability.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.28 kg",
+  "grid_size": "2x1",
+  "base_price": 561.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 561.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 168.3
+   }
+  ],
+  "stats": {
+   "recoilControl": -4.0,
+   "reloadTimeModifier": -6.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Glock17",
+   "IS_Firearm_Glock17Damascus",
+   "IS_Firearm_Glock17Olive"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Glock17ZaffiriPrecisionStainlessSteelSlideZps6.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Glock18CSlide",
+  "name": "Glock 18C Slide",
+  "short_name": "G18C Slide",
+  "manufacturer": "GLOCK",
+  "description": "A standard slide for the Glock 18C pistol. It houses the barrel and recoil spring assembly and features openings that allow gases from the compensated barrel to vent upward, helping to reduce muzzle rise during rapid fire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.375 kg",
+  "grid_size": "2x1",
+  "base_price": 820.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 820.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 246.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Glock18C",
+   "IS_Firearm_Glock18CWB"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Glock18CSlide.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Glock18CSlideWB",
+  "name": "Glock 18C Slide (Wolf Brigade)",
+  "short_name": "G18C Slide",
+  "manufacturer": "GLOCK",
+  "description": "A standard slide for the Glock 18C pistol. It houses the barrel and recoil spring assembly and features openings that allow gases from the compensated barrel to vent upward, helping to reduce muzzle rise during rapid fire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.375 kg",
+  "grid_size": "2x1",
+  "base_price": 1450.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 435.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Glock18C",
+   "IS_Firearm_Glock18CWB"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Glock18CSlideWB.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Colt1911SlideMidas",
+  "name": "Golden Boy's Colt 1911 Slide",
+  "short_name": "B 1911 Slide",
+  "manufacturer": "EGMT",
+  "description": "The 1911 Government Rail Slide is a precision-engineered component for the Colt 1911 pistol. It enhances durability and performance through high-quality machining, providing an excellent fit and finish.\n\nThis is a part of the Colt 1911 belonging to Songkram \"Golden Boy\" Manivanh, the leader of the Pha Lang criminal gang.",
+  "tags": [
+   "Size.Small",
+   "WeaponPlatform.1911",
+   "Origin.East",
+   "Boss"
+  ],
+  "weight": "0.38 kg",
+  "grid_size": "2x1",
+  "base_price": 850.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 255.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 2.0,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Colt1911SlideMidas.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Colt1911ComanderSlideHel",
+  "name": "Grin's 1911 Commander Slide",
+  "short_name": "B 1911 Com Slide",
+  "manufacturer": "EGMT",
+  "description": "The Fusion Firearms 1911 Commander Carry Slide is a precision CNC-machined component designed for 1911-style pistols. It is crafted from durable 4140 bar-stock steel and heat-treated for enhanced strength, featuring robust combat-style rear serrations and standard dovetail cuts for both front and rear sights, accommodating a variety of sight options.\n\nThis is a part of the Colt Commander belonging to Malo \"Grin\" Luangrath, the leader of the armed group occupying Blue Lagoon.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.1911C",
+   "Boss"
+  ],
+  "weight": "0.349 kg",
+  "grid_size": "2x1",
+  "base_price": 1020.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 306.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 2.0,
+   "maximumShots": 2800,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Colt1911ComanderSlideHel.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Stock_KacBuffertube",
+  "name": "KAC Buffer Tube",
+  "short_name": "KAC BT",
+  "manufacturer": "KAC",
+  "description": "A precision-engineered, durable component built for reliable performance on AR-15/M16 platforms. It provides smooth stock adjustment and a solid lock-up for consistent shooting stability. Ideal for converting fixed-stock rifles into modern carbine configurations or finishing custom builds, it offers dependable function and full compatibility with mil-spec accessories.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.108 kg",
+  "grid_size": "2x1",
+  "base_price": 391.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 391.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 117.3
+   }
+  ],
+  "stats": {
+   "recoilControl": 6.0,
+   "maximumShots": 6500,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_StockAdapter_AkBufferTube",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_McxBufferTubeAdapter",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_AtiSksStrikeforceTactLite",
+   "IS_Stock_AtiSksStrikeforceTactLiteFDE",
+   "IS_Stock_G3Buffertube",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Stock_KacBuffertube.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Stock_KacBuffertubeSG",
+  "name": "KAC Buffer Tube (Serpent Guard)",
+  "short_name": "KAC BT",
+  "manufacturer": "KAC",
+  "description": "A precision-engineered, durable component built for reliable performance on AR-15/M16 platforms. It provides smooth stock adjustment and a solid lock-up for consistent shooting stability. Ideal for converting fixed-stock rifles into modern carbine configurations or finishing custom builds, it offers dependable function and full compatibility with mil-spec accessories.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.108 kg",
+  "grid_size": "2x1",
+  "base_price": 750.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 225.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 8.0,
+   "maximumShots": 6500,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_StockAdapter_AkBufferTube",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_McxBufferTubeAdapter",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_AtiSksStrikeforceTactLite",
+   "IS_Stock_AtiSksStrikeforceTactLiteFDE",
+   "IS_Stock_G3Buffertube",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Stock_KacBuffertubeSG.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Glock17SlideDamascus",
+  "name": "Kaptei's Glock 17 Slide",
+  "short_name": "B G17 Slide",
+  "manufacturer": "EGMT",
+  "description": "A slide designed for Glock 9x19 pistols. It serves as a crucial component of the firearm's upper assembly.\n\nThis is a part of the Glock 17 belonging to Sang \"Kaptei\" Samnang, the leader of the armed group occupying the sawmill.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.Glock",
+   "Boss"
+  ],
+  "weight": "0.37 kg",
+  "grid_size": "2x1",
+  "base_price": 450.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 135.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 2.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Glock17",
+   "IS_Firearm_Glock17Damascus",
+   "IS_Firearm_Glock17Olive"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Glock17SlideDamascus.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_L403A1UpperReceiver",
+  "name": "L403A1 Upper Receiver",
+  "short_name": "L403A1 Upper",
+  "manufacturer": "KAC",
+  "description": "An upper receiver for the L403A1/KS-1 rifle, built on the AR platform. It’s machined from aluminum alloy and features a full-length Picatinny rail for optics along with M-LOK slots for accessory mounting. The design includes ambidextrous control cutouts and is intended to pair with its matching lower receiver, ensuring reliable performance in modern military applications.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.198 kg",
+  "grid_size": "2x1",
+  "base_price": 1190.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 1190.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 357.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 2100,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "HandGuard_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_L403A1UpperReceiver.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_L403A1UpperReceiverSG",
+  "name": "L403A1 Upper Receiver (Serpent Guard)",
+  "short_name": "L403A1 Upper",
+  "manufacturer": "KAC",
+  "description": "An upper receiver for the L403A1/KS-1 rifle, built on the AR platform. It’s machined from aluminum alloy and features a full-length Picatinny rail for optics along with M-LOK slots for accessory mounting. The design includes ambidextrous control cutouts and is intended to pair with its matching lower receiver, ensuring reliable performance in modern military applications.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.198 kg",
+  "grid_size": "2x1",
+  "base_price": 1890.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 567.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 2100,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "HandGuard_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_L403A1UpperReceiverSG.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_M201cSlide",
+  "name": "M-201C Slide",
+  "manufacturer": "Norinco",
+  "description": "A steel slide assembly for the M-201C 9×19 mm pistol. It includes front and rear serrations for improved manipulation and houses the barrel bushing, recoil spring plug, and striker components. It is designed for use with the standard M-201C barrel and recoil assembly.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.M201C"
+  ],
+  "weight": "0.21 kg",
+  "grid_size": "2x1",
+  "base_price": 127.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 38.1
+   }
+  ],
+  "stats": {
+   "maximumShots": 1900,
+   "repairDifficultyModifier": 0.5
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_M201C",
+   "IS_Firearm_M201CPsycho"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_M201cSlide.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Stock_M16Buffertube",
+  "name": "M16A1 Buffer Tube",
+  "short_name": "M16A1 BT",
+  "manufacturer": "COLT",
+  "description": "A precision-engineered mil‑spec buffer tube built for AR-15, M4, and M16 platforms. Constructed from heat-treated 7075-T6 aluminum, it offers exceptional strength and durability, ensuring consistent performance under sustained use.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.153 kg",
+  "grid_size": "2x1",
+  "base_price": 153.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 153.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 45.9
+   }
+  ],
+  "stats": {
+   "recoilControl": 2.0,
+   "maximumShots": 4100,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_StockAdapter_AkBufferTube",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_McxBufferTubeAdapter",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_AtiSksStrikeforceTactLite",
+   "IS_Stock_AtiSksStrikeforceTactLiteFDE",
+   "IS_Stock_G3Buffertube",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Stock_M16Buffertube.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_M16A1UpperReceiver",
+  "name": "M16A1 Upper Receiver",
+  "short_name": "M16A1 Upper",
+  "manufacturer": "COLT",
+  "description": "The M16A1 Upper Receiver is a vital component of the M16A1 rifle, housing the barrel and operating mechanism. It features a fixed carrying handle with an integrated rear sight, providing durability and essential functionality to the firearm.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.335 kg",
+  "grid_size": "2x1",
+  "base_price": 510.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 1500,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": true
+   },
+   {
+    "slot": "HandGuard_F",
+    "critical": true
+   },
+   {
+    "slot": "Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_M16A1UpperReceiver.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Stock_ColtM4Buffertube",
+  "name": "M4 Buffer Tube",
+  "short_name": "M4 BT",
+  "manufacturer": "COLT",
+  "description": "A receiver extension compatible with the AR-15 platform. It provides a secure mounting point for the stock and aids in mitigating recoil, resulting in enhanced shooting comfort and improved control.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.108 kg",
+  "grid_size": "2x1",
+  "base_price": 306.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 306.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 91.8
+   }
+  ],
+  "stats": {
+   "recoilControl": 4.0,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_StockAdapter_AkBufferTube",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_McxBufferTubeAdapter",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_AtiSksStrikeforceTactLite",
+   "IS_Stock_AtiSksStrikeforceTactLiteFDE",
+   "IS_Stock_G3Buffertube",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Stock_ColtM4Buffertube.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Stock_ColtM4BuffertubeFDE",
+  "name": "M4 Buffer Tube (FDE)",
+  "short_name": "M4 BT",
+  "manufacturer": "COLT",
+  "description": "A receiver extension compatible with the AR-15 platform. It provides a secure mounting point for the stock and aids in mitigating recoil, resulting in enhanced shooting comfort and improved control.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.108 kg",
+  "grid_size": "2x1",
+  "base_price": 306.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 91.8
+   }
+  ],
+  "stats": {
+   "recoilControl": 4.0,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_StockAdapter_AkBufferTube",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_McxBufferTubeAdapter",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_AtiSksStrikeforceTactLite",
+   "IS_Stock_AtiSksStrikeforceTactLiteFDE",
+   "IS_Stock_G3Buffertube",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Stock_ColtM4BuffertubeFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Stock_ColtM4BuffertubePL",
+  "name": "M4 Buffer Tube (Phantom Lance)",
+  "short_name": "M4 BT",
+  "manufacturer": "COLT",
+  "description": "A receiver extension compatible with the AR-15 platform. It provides a secure mounting point for the stock and aids in mitigating recoil, resulting in enhanced shooting comfort and improved control.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.108 kg",
+  "grid_size": "2x1",
+  "base_price": 510.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 4.0,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_StockAdapter_AkBufferTube",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_McxBufferTubeAdapter",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_AtiSksStrikeforceTactLite",
+   "IS_Stock_AtiSksStrikeforceTactLiteFDE",
+   "IS_Stock_G3Buffertube",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Stock_ColtM4BuffertubePL.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Stock_ColtM4BuffertubeRT",
+  "name": "M4 Buffer Tube (Raven Team)",
+  "short_name": "M4 BT",
+  "manufacturer": "COLT",
+  "description": "A receiver extension compatible with the AR-15 platform. It provides a secure mounting point for the stock and aids in mitigating recoil, resulting in enhanced shooting comfort and improved control.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.108 kg",
+  "grid_size": "2x1",
+  "base_price": 510.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 4.0,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_StockAdapter_AkBufferTube",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_McxBufferTubeAdapter",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_AtiSksStrikeforceTactLite",
+   "IS_Stock_AtiSksStrikeforceTactLiteFDE",
+   "IS_Stock_G3Buffertube",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Stock_ColtM4BuffertubeRT.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Stock_ColtM4BuffertubeSW",
+  "name": "M4 Buffer Tube (Silent Watch)",
+  "short_name": "M4 BT",
+  "manufacturer": "COLT",
+  "description": "A receiver extension compatible with the AR-15 platform. It provides a secure mounting point for the stock and aids in mitigating recoil, resulting in enhanced shooting comfort and improved control.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.108 kg",
+  "grid_size": "2x1",
+  "base_price": 510.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 4.0,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_StockAdapter_AkBufferTube",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_McxBufferTubeAdapter",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_AtiSksStrikeforceTactLite",
+   "IS_Stock_AtiSksStrikeforceTactLiteFDE",
+   "IS_Stock_G3Buffertube",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Stock_ColtM4BuffertubeSW.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_ColtM4UpperReceiver",
+  "name": "M4 Upper Receiver",
+  "short_name": "M4 Upper",
+  "manufacturer": "COLT",
+  "description": "An upper receiver for the M4 series of rifles. The Picatinny rail allows for the attachment of optics and various additional devices.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.24 kg",
+  "grid_size": "2x1",
+  "base_price": 680.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 680.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 1600,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "HandGuard_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_ColtM4UpperReceiver.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_ColtM4UpperReceiverFDE",
+  "name": "M4 Upper Receiver (FDE)",
+  "short_name": "M4 Upper",
+  "manufacturer": "COLT",
+  "description": "An upper receiver for the M4 series of rifles. The Picatinny rail allows for the attachment of optics and various additional devices.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.24 kg",
+  "grid_size": "2x1",
+  "base_price": 680.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 1600,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "HandGuard_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_ColtM4UpperReceiverFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_BerettaM9A1",
+  "name": "M9A1 Slide",
+  "manufacturer": "Beretta",
+  "description": "The Beretta M9A1 slide is crafted from durable steel and features an open-top design, which helps prevent jamming by allowing spent casings to eject more freely. This design also contributes to reduced felt recoil and improved cycling reliability.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M9A1"
+  ],
+  "weight": "0.29 kg",
+  "grid_size": "2x1",
+  "base_price": 340.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 340.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 2200,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_BerettaM9A1",
+   "IS_Firearm_BerettaM9A1Blackmail"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_BerettaM9A1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_Mp5",
+  "name": "MP5 Upper Receiver",
+  "short_name": "MP5 Upper",
+  "manufacturer": "Heckler & Koch",
+  "description": "The MP5 receiver is the central part of Heckler & Koch's submachine gun. It contains essential components such as the bolt assembly and trigger group, ensuring reliable performance in various tactical situations.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP5"
+  ],
+  "weight": "0.58 kg",
+  "grid_size": "3x1",
+  "base_price": 289.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 289.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 86.7
+   }
+  ],
+  "stats": {
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.5
+  },
+  "slots": [
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Mp5"
+  ],
+  "disables_socket_types": [
+   "Socket.Sight.30mm.High",
+   "Socket.Sight.30mm.Low",
+   "Socket.Sight.34mm.High",
+   "Socket.Sight.34mm.Low.Big",
+   "Socket.Sight.34mm.Low.Small"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_Mp5.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_Mp5Sd",
+  "name": "MP5SD Upper Receiver",
+  "short_name": "MP5SD Upper",
+  "manufacturer": "Heckler & Koch",
+  "description": "The MP5SD receiver is a specialized variant of Heckler & Koch's submachine gun designed for stealth operations with integrated sound suppression. It incorporates precision baffles and ports to minimize muzzle report and flash signature, making it ideal for covert missions.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP5"
+  ],
+  "weight": "0.62 kg",
+  "grid_size": "3x1",
+  "base_price": 612.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 612.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 183.6
+   }
+  ],
+  "stats": {
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": true
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Mp5"
+  ],
+  "disables_socket_types": [
+   "Socket.Sight.34mm.Low.Big",
+   "Socket.Sight.34mm.Low.Small",
+   "Socket.Sight.34mm.High",
+   "Socket.Sight.30mm.High",
+   "Socket.Sight.30mm.Low.Big",
+   "Socket.Sight.30mm.Low.Small"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_Mp5Sd.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Glock17N17ReptileEdcSlide",
+  "name": "N17 Reptile EDC Slide",
+  "short_name": "N17 Slide",
+  "manufacturer": "Norsso",
+  "description": "The N17 Reptile EDC Slide is a high-performance upgrade for the Glock 17 handgun, designed to improve both its functionality and aesthetics. It features a sleek, reptilian scale-like serration pattern that improves grip and manipulation in various conditions.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.37 kg",
+  "grid_size": "2x1",
+  "base_price": 1360.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 1360.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 408.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 4.0,
+   "reloadTimeModifier": -10.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Glock17",
+   "IS_Firearm_Glock17Damascus",
+   "IS_Firearm_Glock17Olive"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Glock17N17ReptileEdcSlide.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Type51SlideHammerhead",
+  "name": "Naga's Type 51 Slide",
+  "short_name": "B T51 Slide",
+  "manufacturer": "EGMT",
+  "description": "The Type 51 Tokarev slide, originating from China, is made of steel, making it durable and resilient. The serrations at the rear offer enhanced grip during manipulation, and the slide itself houses the barrel and recoil spring assembly, facilitating the cycling of the pistol's action. Its robust construction and straightforward design ensure reliable functionality and ease of operation.\n\nThis is a part of the Type 51 Tokarev belonging to Sabtu \"Naga\" bin Panjang, leader of the armed group occupying Ban Pa.",
+  "tags": [
+   "Size.Small",
+   "WeaponPlatform.TT",
+   "Origin.East",
+   "Boss"
+  ],
+  "weight": "0.21 kg",
+  "grid_size": "2x1",
+  "base_price": 254.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.2
+   }
+  ],
+  "stats": {
+   "recoilControl": 2.0,
+   "maximumShots": 2100,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": true
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Type51",
+   "IS_Firearm_Type51Hammerhead",
+   "IS_Firearm_Type51Mako",
+   "IS_Firearm_Type51Pencil"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Type51SlideHammerhead.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Glock17SteelCityArsenalP40Warhawk",
+  "name": "P40 Warhawk Slide",
+  "short_name": "P40W Slide",
+  "manufacturer": "Steel City Arsenal",
+  "description": "This slide for the Glock 17 draws inspiration from World War II with its captivating design, featuring authentic nose art from the legendary P40 Warhawk aircraft. It showcases meticulous CNC-machined rivet markings, adding an extra level of detail and character to the slide.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.33 kg",
+  "grid_size": "2x1",
+  "base_price": 850.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 255.0
+   }
+  ],
+  "stats": {
+   "recoilControl": -4.0,
+   "reloadTimeModifier": -8.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Glock17",
+   "IS_Firearm_Glock17Damascus",
+   "IS_Firearm_Glock17Olive"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Glock17SteelCityArsenalP40Warhawk.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_FabPdc",
+  "name": "Picatinny Dust Cover",
+  "short_name": "PDC",
+  "manufacturer": "F.A.B.",
+  "description": "The PDC is an aluminum dust cover that serves as a replacement for AK/AKM assault rifles. It is equipped with a milled Picatinny scope mount and features a patented retention mechanism that allows for manual adjustment. This ensures a consistent retention of sighting zero and allows for a straightforward and rapid drop-in installation.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.194 kg",
+  "grid_size": "2x1",
+  "base_price": 850.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 850.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 255.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "disables_socket_types": [
+   "Socket.Mount.AK",
+   "Socket.Sight.30mm.Low.Big",
+   "Socket.Sight.34mm.Low.Big"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_FabPdc.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_FabPdcFDE",
+  "name": "Picatinny Dust Cover (FDE)",
+  "short_name": "PDC",
+  "manufacturer": "F.A.B.",
+  "description": "The PDC is an aluminum dust cover that serves as a replacement for AK/AKM assault rifles. It is equipped with a milled Picatinny scope mount and features a patented retention mechanism that allows for manual adjustment. This ensures a consistent retention of sighting zero and allows for a straightforward and rapid drop-in installation.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.194 kg",
+  "grid_size": "2x1",
+  "base_price": 850.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 255.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "disables_socket_types": [
+   "Socket.Mount.AK",
+   "Socket.Sight.30mm.Low.Big",
+   "Socket.Sight.34mm.Low.Big"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_FabPdcFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_FabPdcJC",
+  "name": "Picatinny Dust Cover (Jackal Company)",
+  "short_name": "PDC",
+  "manufacturer": "F.A.B.",
+  "description": "The PDC is an aluminum dust cover that serves as a replacement for AK/AKM assault rifles. It is equipped with a milled Picatinny scope mount and features a patented retention mechanism that allows for manual adjustment. This ensures a consistent retention of sighting zero and allows for a straightforward and rapid drop-in installation.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.194 kg",
+  "grid_size": "2x1",
+  "base_price": 1650.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 495.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "disables_socket_types": [
+   "Socket.Mount.AK",
+   "Socket.Sight.30mm.Low.Big",
+   "Socket.Sight.34mm.Low.Big"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_FabPdcJC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_SaVz58DustCover",
+  "name": "Sa vz. 58 Dust Cover",
+  "short_name": "Sa vz. 58 Cover",
+  "manufacturer": "CZ",
+  "description": "A stamped steel receiver cover designed for the Sa vz. 58 rifles. It encloses the upper portion of the action and secures the bolt carrier and recoil spring assembly in place.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.2 kg",
+  "grid_size": "2x1",
+  "base_price": 340.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 340.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 3800,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_SaVz58",
+   "IS_Firearm_SaVz58BD",
+   "IS_Firearm_SaVz58FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_SaVz58DustCover.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_SaVz58ExpertDustCover",
+  "name": "Sa vz. 58 Expert Dust Cover",
+  "short_name": "Sa vz. 58 Ex Cover",
+  "manufacturer": "Gunexpert",
+  "description": "This high-strength aluminum alloy top cover features an integrated Weaver (MIL-STD-1913) rail and is designed for the Sa vz. 58 rifles chambered in 7.62×39mm and 5.56×45mm. CNC-machined and hard-anodized for durability, it installs without modification using the factory pin, ensuring reliable optic zero retention. The cover remains compatible with standard iron sights and can be quickly removed for maintenance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.275 kg",
+  "grid_size": "2x1",
+  "base_price": 595.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 595.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 178.5
+   }
+  ],
+  "stats": {
+   "maximumShots": 3800,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SaVz58",
+   "IS_Firearm_SaVz58BD",
+   "IS_Firearm_SaVz58FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_SaVz58ExpertDustCover.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_SaVz58ExpertDustCoverBD",
+  "name": "Sa vz. 58 Expert Dust Cover (Blackwood Division)",
+  "short_name": "Sa vz. 58 Ex Cover",
+  "manufacturer": "Gunexpert",
+  "description": "This high-strength aluminum alloy top cover features an integrated Weaver (MIL-STD-1913) rail and is designed for the Sa vz. 58 rifles chambered in 7.62×39mm and 5.56×45mm. CNC-machined and hard-anodized for durability, it installs without modification using the factory pin, ensuring reliable optic zero retention. The cover remains compatible with standard iron sights and can be quickly removed for maintenance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.275 kg",
+  "grid_size": "2x1",
+  "base_price": 1300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 390.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 3800,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SaVz58",
+   "IS_Firearm_SaVz58BD",
+   "IS_Firearm_SaVz58FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_SaVz58ExpertDustCoverBD.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_SaVz58ExpertDustCoverFDE",
+  "name": "Sa vz. 58 Expert Dust Cover (FDE)",
+  "short_name": "Sa vz. 58 Ex Cover",
+  "manufacturer": "Gunexpert",
+  "description": "This high-strength aluminum alloy top cover features an integrated Weaver (MIL-STD-1913) rail and is designed for the Sa vz. 58 rifles chambered in 7.62×39mm and 5.56×45mm. CNC-machined and hard-anodized for durability, it installs without modification using the factory pin, ensuring reliable optic zero retention. The cover remains compatible with standard iron sights and can be quickly removed for maintenance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.275 kg",
+  "grid_size": "2x1",
+  "base_price": 595.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 178.5
+   }
+  ],
+  "stats": {
+   "maximumShots": 3800,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SaVz58",
+   "IS_Firearm_SaVz58BD",
+   "IS_Firearm_SaVz58FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_SaVz58ExpertDustCoverFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_SigMcx",
+  "name": "SIG MCX Upper Receiver",
+  "short_name": "MCX Upper",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG MCX upper receiver is a monolithic aluminum design that serves as the firearm's primary structural component. Unlike conventional AR-15 uppers, the MCX upper integrates the top rail, barrel mounting system, and recoil mechanism into a single, rigid assembly, enhancing durability and performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "2x1",
+  "base_price": 935.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 935.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 280.5
+   }
+  ],
+  "stats": {
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperMid_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_SigMcx.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_SigMcxFDE",
+  "name": "SIG MCX Upper Receiver (FDE)",
+  "short_name": "MCX Upper",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG MCX upper receiver is a monolithic aluminum design that serves as the firearm's primary structural component. Unlike conventional AR-15 uppers, the MCX upper integrates the top rail, barrel mounting system, and recoil mechanism into a single, rigid assembly, enhancing durability and performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "2x1",
+  "base_price": 935.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 280.5
+   }
+  ],
+  "stats": {
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperMid_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_SigMcxFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_SigMcxGN",
+  "name": "SIG MCX Upper Receiver (Ghost Nomad)",
+  "short_name": "MCX Upper",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG MCX upper receiver is a monolithic aluminum design that serves as the firearm's primary structural component. Unlike conventional AR-15 uppers, the MCX upper integrates the top rail, barrel mounting system, and recoil mechanism into a single, rigid assembly, enhancing durability and performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "2x1",
+  "base_price": 1600.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 480.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperMid_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_SigMcxGN.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_SagSvdMLokChassisMk1",
+  "name": "SVD Chassis MK1 Receiver",
+  "short_name": "SVD Rec",
+  "manufacturer": "Sureshot Armament",
+  "description": "This high-performance receiver is an upgrade for the Dragunov SVD, enhancing modularity, ergonomics, and accessory compatibility. Made from lightweight yet durable aluminum, it features M-LOK mounting slots and an improved rail system for optics. It also significantly enhances handling and customization, making the SVD more adaptable for tactical and precision shooting applications.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "WeaponPlatform.SVD"
+  ],
+  "weight": "0.09 kg",
+  "grid_size": "1x1",
+  "base_price": 680.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 680.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 2200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_SvdDragunov",
+   "IS_Firearm_SvdDragunovSW"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_SagSvdMLokChassisMk1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_SagSvdMLokChassisMk1SW",
+  "name": "SVD Chassis MK1 Receiver (Silent Watch)",
+  "short_name": "SVD Rec",
+  "manufacturer": "Sureshot Armament",
+  "description": "This high-performance receiver is an upgrade for the Dragunov SVD, enhancing modularity, ergonomics, and accessory compatibility. Made from lightweight yet durable aluminum, it features M-LOK mounting slots and an improved rail system for optics. It also significantly enhances handling and customization, making the SVD more adaptable for tactical and precision shooting applications.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "WeaponPlatform.SVD"
+  ],
+  "weight": "0.09 kg",
+  "grid_size": "1x1",
+  "base_price": 1580.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 474.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 2200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_SvdDragunov",
+   "IS_Firearm_SvdDragunovSW"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_SagSvdMLokChassisMk1SW.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_SvdDustCover",
+  "name": "SVD Dust Cover",
+  "short_name": "SVD Cover",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The SVD Dragunov receiver cover is designed to be both durable and lightweight, providing essential protection for the rifle’s internal components.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.SVD"
+  ],
+  "weight": "0.256 kg",
+  "grid_size": "2x1",
+  "base_price": 595.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 595.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 178.5
+   }
+  ],
+  "stats": {
+   "maximumShots": 2200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_SvdDragunov",
+   "IS_Firearm_SvdDragunovSW"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_SvdDustCover.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Type33Slide",
+  "name": "TT-33 Slide",
+  "manufacturer": "General East",
+  "description": "The TT-33 Tokarev slide originated in the Soviet Union and is made of steel, embodying the rugged reliability synonymous with Soviet firearm design. The slide features distinct serrations at the rear, designed to enhance grip and manipulation under various conditions. It houses the barrel and recoil spring assembly, orchestrating the seamless cycling of the pistol's action. The TT-33 is renowned for its robust construction and timeless design.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT"
+  ],
+  "weight": "0.21 kg",
+  "grid_size": "2x1",
+  "base_price": 127.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 38.1
+   }
+  ],
+  "stats": {
+   "maximumShots": 2100,
+   "repairDifficultyModifier": 0.5
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Type51",
+   "IS_Firearm_Type51Hammerhead",
+   "IS_Firearm_Type51Mako",
+   "IS_Firearm_Type51Pencil"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Type33Slide.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Type51Slide",
+  "name": "Type 51 Slide",
+  "short_name": "T51 Slide",
+  "manufacturer": "Norinco",
+  "description": "The Type 51 Tokarev slide, originating from China, is made of steel, making it durable and resilient. The serrations at the rear offer enhanced grip during manipulation, and the slide itself houses the barrel and recoil spring assembly, facilitating the cycling of the pistol's action. Its robust construction and straightforward design ensure reliable functionality and ease of operation.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT"
+  ],
+  "weight": "0.21 kg",
+  "grid_size": "2x1",
+  "base_price": 127.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 38.1
+   }
+  ],
+  "stats": {
+   "maximumShots": 2100,
+   "repairDifficultyModifier": 0.5
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": true
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Type51",
+   "IS_Firearm_Type51Hammerhead",
+   "IS_Firearm_Type51Mako",
+   "IS_Firearm_Type51Pencil"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Type51Slide.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Glock17L2dCombatStrippedTyton17",
+  "name": "Tyton Glock 17 Slide",
+  "short_name": "Tyton Slide",
+  "manufacturer": "L2D Combat",
+  "description": "A premium slide specifically crafted for the Glock 17 pistol. It offers enhanced performance while also boasting a visually striking design.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.29 kg",
+  "grid_size": "2x1",
+  "base_price": 765.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 765.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 229.5
+   }
+  ],
+  "stats": {
+   "recoilControl": -8.0,
+   "reloadTimeModifier": -6.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Glock17",
+   "IS_Firearm_Glock17Damascus",
+   "IS_Firearm_Glock17Olive"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Glock17L2dCombatStrippedTyton17.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_UMP45UpperReceiver",
+  "name": "UMP Upper Receiver",
+  "short_name": "UMP Upper",
+  "manufacturer": "Heckler & Koch",
+  "description": "A fiber-reinforced polymer upper receiver for Heckler & Koch UMP submachine guns. It houses the bolt assembly and provides attachment points for the barrel, lower receiver, and sights.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.UMP"
+  ],
+  "weight": "2 kg",
+  "grid_size": "2x1",
+  "base_price": 750.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 225.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 3800,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Colimator_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_UMP45",
+   "IS_Firearm_UMP45FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_UMP45UpperReceiver.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Receiver_UMP45UpperReceiverFDE",
+  "name": "UMP Upper Receiver (FDE)",
+  "short_name": "UMP Upper",
+  "manufacturer": "Heckler & Koch",
+  "description": "A fiber-reinforced polymer upper receiver for Heckler & Koch UMP submachine guns. It houses the bolt assembly and provides attachment points for the barrel, lower receiver, and sights.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.UMP"
+  ],
+  "weight": "2 kg",
+  "grid_size": "2x1",
+  "base_price": 750.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 225.0
+   }
+  ],
+  "stats": {
+   "maximumShots": 3800,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Colimator_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_UMP45",
+   "IS_Firearm_UMP45FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Receiver_UMP45UpperReceiverFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Colt1911ComanderSlideAvi",
+  "name": "Viper's 1911 Commander Slide",
+  "short_name": "B 1911 Com Slide",
+  "manufacturer": "EGMT",
+  "description": "The Fusion Firearms 1911 Commander Carry Slide is a precision CNC-machined component designed for 1911-style pistols. It is crafted from durable 4140 bar-stock steel and heat-treated for enhanced strength, featuring robust combat-style rear serrations and standard dovetail cuts for both front and rear sights, accommodating a variety of sight options.\n\nThis is a part of the Colt Commander belonging to Aawut \"Viper\" Phasuk, the leader of the armed group occupying Pha Lang Airfield.",
+  "tags": [
+   "Size.Small",
+   "WeaponPlatform.1911C",
+   "Origin.East",
+   "Boss"
+  ],
+  "weight": "0.349 kg",
+  "grid_size": "2x1",
+  "base_price": 1020.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 306.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 2.0,
+   "maximumShots": 2800,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Colt1911ComanderSlideAvi.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Slide_Glock17ZevZ17CitadelStrippedSlide",
+  "name": "Z17 Citadel Slide",
+  "short_name": "Z17 Slide",
+  "manufacturer": "ZEV Technologies",
+  "description": "The ZEV Z17 is a high-quality aftermarket slide designed for the Glock 17 pistol, offering enhanced performance and customization options.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.33 kg",
+  "grid_size": "2x1",
+  "base_price": 884.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 884.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 265.2
+   }
+  ],
+  "stats": {
+   "recoilControl": -4.0,
+   "reloadTimeModifier": -6.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Glock17",
+   "IS_Firearm_Glock17Damascus",
+   "IS_Firearm_Glock17Olive"
+  ],
+  "image": "https://gzw-data.dev/assets/items/receivers/IS_Slide_Glock17ZevZ17CitadelStrippedSlide.webp",
+  "source": "game-files"
+ }
+]

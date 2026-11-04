@@ -1,0 +1,1616 @@
+[
+ {
+  "id": "IS_Handle_AkRp1",
+  "name": "AK RP-1 Charging Handle",
+  "short_name": "RP1 Ch",
+  "manufacturer": "Zenitco",
+  "description": "The RP-1 is a charging handle made from D16T aluminum alloy that improves the ease of reloading the firearm. It is securely attached to the standard charging handle using the provided screws.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.017 kg",
+  "grid_size": "1x1",
+  "base_price": 68.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 20.4
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -3.0,
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak12",
+   "IS_Firearm_Ak15",
+   "IS_Firearm_Ak19",
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT",
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_AkRp1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_AkRp1HT",
+  "name": "AK RP-1 Charging Handle (Hunter Team)",
+  "short_name": "RP1 Ch",
+  "manufacturer": "Zenitco",
+  "description": "The RP-1 is a charging handle made from D16T aluminum alloy that improves the ease of reloading the firearm. It is securely attached to the standard charging handle using the provided screws.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.017 kg",
+  "grid_size": "1x1",
+  "base_price": 68.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 20.4
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -4.0,
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak12",
+   "IS_Firearm_Ak15",
+   "IS_Firearm_Ak19",
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT",
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_AkRp1HT.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_AkRp1JC",
+  "name": "AK RP-1 Charging Handle (Jackal Company)",
+  "short_name": "RP1 Ch",
+  "manufacturer": "Zenitco",
+  "description": "The RP-1 is a charging handle made from D16T aluminum alloy that improves the ease of reloading the firearm. It is securely attached to the standard charging handle using the provided screws.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.017 kg",
+  "grid_size": "1x1",
+  "base_price": 68.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 20.4
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -4.0,
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak12",
+   "IS_Firearm_Ak15",
+   "IS_Firearm_Ak19",
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT",
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_AkRp1JC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_AkSloted",
+  "name": "AK Slotted Charging Handle",
+  "short_name": "AK S Ch",
+  "manufacturer": "GPN",
+  "description": "An enlarged 7075 aluminum charging handle for AK-pattern rifles, manufactured by GPN. Its slotted profile provides a larger gripping surface for more secure weapon manipulation, particularly while wearing gloves.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.014 kg",
+  "grid_size": "1x1",
+  "base_price": 210.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 210.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 63.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -5.0,
+   "maximumShots": 5200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak12",
+   "IS_Firearm_Ak15",
+   "IS_Firearm_Ak19",
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT",
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_AkSloted.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_AkSlotedFDE",
+  "name": "AK Slotted Charging Handle (FDE)",
+  "short_name": "AK S Ch",
+  "manufacturer": "GPN",
+  "description": "An enlarged 7075 aluminum charging handle for AK-pattern rifles, manufactured by GPN. Its slotted profile provides a larger gripping surface for more secure weapon manipulation, particularly while wearing gloves.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.014 kg",
+  "grid_size": "1x1",
+  "base_price": 210.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 63.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -5.0,
+   "maximumShots": 5200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak12",
+   "IS_Firearm_Ak15",
+   "IS_Firearm_Ak19",
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT",
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_AkSlotedFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_AkSlotedGreen",
+  "name": "AK Slotted Charging Handle (Green)",
+  "short_name": "AK S Ch",
+  "manufacturer": "GPN",
+  "description": "An enlarged 7075 aluminum charging handle for AK-pattern rifles, manufactured by GPN. Its slotted profile provides a larger gripping surface for more secure weapon manipulation, particularly while wearing gloves.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.014 kg",
+  "grid_size": "1x1",
+  "base_price": 210.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 63.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -5.0,
+   "maximumShots": 5200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak12",
+   "IS_Firearm_Ak15",
+   "IS_Firearm_Ak19",
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT",
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_AkSlotedGreen.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_AmbidextrousSr15",
+  "name": "AR-15 Ambidextrous Charging Handle",
+  "short_name": "Ambidex Ch",
+  "manufacturer": "KAC",
+  "description": "This aluminum ambidextrous charging handle is designed for AR-15/SR-15 platforms. It features medium-sized latch pads on both sides that enable pinch-grip, index-hook, or knife-hand operation while reducing the risk of snagging.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.042 kg",
+  "grid_size": "1x1",
+  "base_price": 272.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 272.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 81.6
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -4.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_AmbidextrousSr15.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_AmbidextrousSr15SG",
+  "name": "AR-15 Ambidextrous Charging Handle (Serpent Guard)",
+  "short_name": "Ambidex Ch",
+  "manufacturer": "KAC",
+  "description": "This aluminum ambidextrous charging handle is designed for AR-15/SR-15 platforms. It features medium-sized latch pads on both sides that enable pinch-grip, index-hook, or knife-hand operation while reducing the risk of snagging.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.042 kg",
+  "grid_size": "1x1",
+  "base_price": 320.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 96.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -4.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_AmbidextrousSr15SG.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_GripNRipAr15",
+  "name": "AR-15 GRIP-N-RIP Charging Handle",
+  "short_name": "GripNRip Ch",
+  "manufacturer": "Daniel Defense",
+  "description": "The GRIP-N-RIP AR-15 Charging Handle is an ergonomic and durable upgrade for the AR-15 rifle and other compatible firearms. With its enhanced grip design, this charging handle provides improved control and ease of use during weapon manipulation.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.036 kg",
+  "grid_size": "1x1",
+  "base_price": 195.5,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 195.5
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 58.65
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -3.0,
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_GripNRipAr15.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_AntregAr15",
+  "name": "AR-15 Supreme Charging Handle",
+  "short_name": "Supreme Ch",
+  "manufacturer": "Antreg",
+  "description": "The ANTREG AR-15 Charging Handle is manufactured in the Czech Republic and designed to fit the AR-15 platform firearms. The lever is ambidextrous and features stainless steel springs and reinforced hardened steel pins at the pivot points.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.03 kg",
+  "grid_size": "1x1",
+  "base_price": 234.6,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 234.6
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 70.38
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -4.0,
+   "maximumShots": 5200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_AntregAr15.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_AntregAr15PL",
+  "name": "AR-15 Supreme Charging Handle (Phantom Lance)",
+  "short_name": "Supreme Ch",
+  "manufacturer": "Antreg",
+  "description": "The ANTREG AR-15 Charging Handle is manufactured in the Czech Republic and designed to fit the AR-15 platform firearms. The lever is ambidextrous and features stainless steel springs and reinforced hardened steel pins at the pivot points.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.03 kg",
+  "grid_size": "1x1",
+  "base_price": 290.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 87.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -4.0,
+   "maximumShots": 5200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_AntregAr15PL.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_SteyrAug",
+  "name": "AUG Charging Handle",
+  "short_name": "AUG Ch",
+  "manufacturer": "Steyr Arms",
+  "description": "A standard charging handle for the Steyr AUG rifle. Positioned on the left side of the receiver, it is used to manually retract the bolt assembly and remains non-reciprocating during fire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AUG"
+  ],
+  "weight": "0.016 kg",
+  "grid_size": "1x1",
+  "base_price": 38.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 11.4
+   }
+  ],
+  "stats": {
+   "maximumShots": 17600,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_SteyrAug",
+   "IS_Firearm_SteyrAugA3",
+   "IS_Firearm_SteyrAugA3DS"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_SteyrAug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_StreyrAug",
+  "name": "AUG Charging Handle",
+  "short_name": "AUG Ch",
+  "manufacturer": "Steyr Arms",
+  "description": "A standard charging handle for the Steyr AUG rifle. Positioned on the left side of the receiver, it is used to manually retract the bolt assembly and remains non-reciprocating during fire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AUG",
+   "NotForStatistics"
+  ],
+  "weight": "0.016 kg",
+  "grid_size": "1x1",
+  "base_price": 80.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 24.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -2.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_SteyrAug",
+   "IS_Firearm_SteyrAugA3",
+   "IS_Firearm_SteyrAugA3DS"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_StreyrAug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_StreyrAugBlack",
+  "name": "AUG Charging Handle (Black)",
+  "short_name": "AUG Ch",
+  "manufacturer": "Steyr Arms",
+  "description": "A standard charging handle for the Steyr AUG rifle. Positioned on the left side of the receiver, it is used to manually retract the bolt assembly and remains non-reciprocating during fire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AUG"
+  ],
+  "weight": "0.016 kg",
+  "grid_size": "1x1",
+  "base_price": 210.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 63.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -3.0,
+   "maximumShots": 6400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_SteyrAug",
+   "IS_Firearm_SteyrAugA3",
+   "IS_Firearm_SteyrAugA3DS"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_StreyrAugBlack.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_StreyrAugDS",
+  "name": "AUG Charging Handle (Desert Storm)",
+  "short_name": "AUG Ch",
+  "manufacturer": "Steyr Arms",
+  "description": "A standard charging handle for the Steyr AUG rifle. Positioned on the left side of the receiver, it is used to manually retract the bolt assembly and remains non-reciprocating during fire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AUG"
+  ],
+  "weight": "0.016 kg",
+  "grid_size": "1x1",
+  "base_price": 110.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 33.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -3.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_SteyrAug",
+   "IS_Firearm_SteyrAugA3",
+   "IS_Firearm_SteyrAugA3DS"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_StreyrAugDS.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_StreyrAugTan",
+  "name": "AUG Charging Handle (Tan)",
+  "short_name": "AUG Ch",
+  "manufacturer": "Steyr Arms",
+  "description": "A standard charging handle for the Steyr AUG rifle. Positioned on the left side of the receiver, it is used to manually retract the bolt assembly and remains non-reciprocating during fire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AUG"
+  ],
+  "weight": "0.016 kg",
+  "grid_size": "1x1",
+  "base_price": 210.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 63.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -3.0,
+   "maximumShots": 6400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_SteyrAug",
+   "IS_Firearm_SteyrAugA3",
+   "IS_Firearm_SteyrAugA3DS"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_StreyrAugTan.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_StreyrAugWhite",
+  "name": "AUG Charging Handle (White)",
+  "short_name": "AUG Ch",
+  "manufacturer": "Steyr Arms",
+  "description": "A standard charging handle for the Steyr AUG rifle. Positioned on the left side of the receiver, it is used to manually retract the bolt assembly and remains non-reciprocating during fire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AUG"
+  ],
+  "weight": "0.016 kg",
+  "grid_size": "1x1",
+  "base_price": 210.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 63.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -3.0,
+   "maximumShots": 6400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_SteyrAug",
+   "IS_Firearm_SteyrAugA3",
+   "IS_Firearm_SteyrAugA3DS"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_StreyrAugWhite.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_BenelliM4",
+  "name": "Benelli M4 Charging Handle",
+  "short_name": "M1014 Ch",
+  "manufacturer": "Benelli ",
+  "description": "A one-piece steel charging handle for the Benelli M4 shotgun. Its rounded, beveled profile provides a secure gripping surface from multiple angles and makes the handle easier to operate while wearing gloves.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.022 kg",
+  "grid_size": "1x1",
+  "base_price": 180.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 180.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 54.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -3.0,
+   "maximumShots": 6600,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_BenelliM4",
+   "IS_Firearm_BenelliM4FDE",
+   "IS_Firearm_BenelliM4RE",
+   "IS_Firearm_BenelliM4Silver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_BenelliM4.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_BenelliM4Tac",
+  "name": "Benelli M4 Tactical Charging Handle",
+  "short_name": "M1014 T Ch",
+  "manufacturer": "Benelli ",
+  "description": "An oversized ordnance-steel charging handle for the Benelli M4 shotgun. Its heavy knurling provides a secure grip even with wet hands or while wearing gloves, while the rounded edges help prevent snagging.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.045 kg",
+  "grid_size": "1x1",
+  "base_price": 210.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 63.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -3.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_BenelliM4",
+   "IS_Firearm_BenelliM4FDE",
+   "IS_Firearm_BenelliM4RE",
+   "IS_Firearm_BenelliM4Silver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_BenelliM4Tac.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_BenelliM4TacRE",
+  "name": "Benelli M4 Tactical Charging Handle (Riot Echo)",
+  "short_name": "M1014 T Ch",
+  "manufacturer": "Benelli ",
+  "description": "An oversized ordnance-steel charging handle for the Benelli M4 shotgun. Its heavy knurling provides a secure grip even with wet hands or while wearing gloves, while the rounded edges help prevent snagging.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.045 kg",
+  "grid_size": "1x1",
+  "base_price": 240.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 72.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -4.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_BenelliM4",
+   "IS_Firearm_BenelliM4FDE",
+   "IS_Firearm_BenelliM4RE",
+   "IS_Firearm_BenelliM4Silver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_BenelliM4TacRE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_StandardcCQA1",
+  "name": "CQ A1 Charging Handle",
+  "short_name": "CQ A1 Ch",
+  "manufacturer": "Norinco",
+  "description": "The CQ A1 charging handle is designed for the Chinese variant of the AR-15 rifle. While it functions similarly to its Western counterparts, differences in materials, workmanship, and overall construction may affect its perceived quality.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.028 kg",
+  "grid_size": "1x1",
+  "base_price": 117.3,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 117.3
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 35.19
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -2.0,
+   "maximumShots": 3300,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_StandardcCQA1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_F1Firearms",
+  "name": "F1 Charging Handle",
+  "short_name": "F1 Ch",
+  "manufacturer": "F1-Firearms",
+  "description": "This ambidextrous charging handle provides a personalized aesthetic and feel, accommodating different shooting preferences and maintaining fast, seamless action from both the dominant and non-dominant sides.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.027 kg",
+  "grid_size": "1x1",
+  "base_price": 190.4,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 190.4
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 57.12
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -2.0,
+   "maximumShots": 4000,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_F1Firearms.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_HkG3Handle",
+  "name": "G3 Cocking Handle",
+  "short_name": "G3 Ch",
+  "manufacturer": "Heckler & Koch",
+  "description": "A standard cocking handle assembly for G3-pattern rifles. Mounted on the cocking tube, it is used to draw the bolt assembly to the rear for manually cycling the rifle's roller-delayed blowback action.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "0.12 kg",
+  "grid_size": "1x1",
+  "base_price": 50.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 3,
+    "price": 50.0
+   }
+  ],
+  "sold_by": "Artisan R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -2.0,
+   "maximumShots": 4500,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_G3",
+   "IS_Firearm_G3ZH"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_HkG3Handle.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_HkG3HandleBlack",
+  "name": "G3 Cocking Handle (Black)",
+  "short_name": "G3 Ch",
+  "manufacturer": "Heckler & Koch",
+  "description": "A standard cocking handle assembly for G3-pattern rifles. Mounted on the cocking tube, it is used to draw the bolt assembly to the rear for manually cycling the rifle's roller-delayed blowback action.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "0.12 kg",
+  "grid_size": "1x1",
+  "base_price": 50.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -2.0,
+   "maximumShots": 4500,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_G3",
+   "IS_Firearm_G3ZH"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_HkG3HandleBlack.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_HkG3HandleZH",
+  "name": "G3 Cocking Handle (Zero Hour)",
+  "short_name": "G3 Ch",
+  "manufacturer": "Heckler & Koch",
+  "description": "A standard cocking handle assembly for G3-pattern rifles. Mounted on the cocking tube, it is used to draw the bolt assembly to the rear for manually cycling the rifle's roller-delayed blowback action.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "0.12 kg",
+  "grid_size": "1x1",
+  "base_price": 50.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -3.0,
+   "maximumShots": 4500,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_G3",
+   "IS_Firearm_G3ZH"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_HkG3HandleZH.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_HkMp5CockingHandle",
+  "name": "HK MP5 Cocking Handle",
+  "short_name": "MP5 C",
+  "manufacturer": "Heckler & Koch",
+  "description": "The MP5 cocking handle is a crucial component that allows for manual operation to charge the weapon and chamber a round. It is conveniently located on the left side of the receiver, providing ergonomic access for ambidextrous use and improving handling and control.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP5"
+  ],
+  "weight": "0.12 kg",
+  "grid_size": "1x1",
+  "base_price": 134.3,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 134.3
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 40.29
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -2.0,
+   "maximumShots": 4700,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_Mp5"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_HkMp5CockingHandle.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_SrandartM16A1",
+  "name": "M16A1 Charging Handle",
+  "short_name": "M16A1 Ch",
+  "manufacturer": "COLT",
+  "description": "An M16A1 mil-spec charging handle assembly designed for standard AR-15 rifles.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.028 kg",
+  "grid_size": "1x1",
+  "base_price": 117.3,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 117.3
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 35.19
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -2.0,
+   "maximumShots": 3300,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_SrandartM16A1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_GeisseleSch556",
+  "name": "SCH 5.56 Charging Handle",
+  "short_name": "SCH Ch",
+  "manufacturer": "Geissele Automatics",
+  "description": "The Geissele Super Charging Handle (SCH) offers exceptional reliability and smooth operation.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 232.9,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 232.9
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 69.87
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -3.0,
+   "maximumShots": 5100,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_GeisseleSch556.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_GeisseleSch556Ddc",
+  "name": "SCH 5.56 Charging Handle (DDC)",
+  "short_name": "SCH Ch",
+  "manufacturer": "Geissele Automatics",
+  "description": "The Geissele Super Charging Handle (SCH) offers exceptional reliability and smooth operation. Its Desert Dirt Color (DDC) finish adds a touch of style to any compatible firearm.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 232.9,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 69.87
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -3.0,
+   "maximumShots": 5100,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_GeisseleSch556Ddc.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_SigMcx",
+  "name": "SIG MCX Charging Handle",
+  "short_name": "MCX Ch",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG MCX Charging Handle is an ambidextrous component designed for the SIG MCX rifle platform. It allows users to manually cycle the firearm’s action, chamber rounds, and clear malfunctions efficiently from either side, accommodating both left- and right-handed shooters. Constructed from durable materials, this charging handle ensures reliable performance in various conditions.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.031 kg",
+  "grid_size": "1x1",
+  "base_price": 212.5,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 212.5
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 63.75
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -3.0,
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_SigMcx.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_SigMcxGN",
+  "name": "SIG MCX Charging Handle (Ghost Nomad)",
+  "short_name": "MCX Ch",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG MCX Charging Handle is an ambidextrous component designed for the SIG MCX rifle platform. It allows users to manually cycle the firearm’s action, chamber rounds, and clear malfunctions efficiently from either side, accommodating both left- and right-handed shooters. Constructed from durable materials, this charging handle ensures reliable performance in various conditions.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.031 kg",
+  "grid_size": "1x1",
+  "base_price": 250.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -4.0,
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_SigMcxGN.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_StandardGi",
+  "name": "Standard GI Charging Handle",
+  "short_name": "GI M4 Ch",
+  "manufacturer": "COLT",
+  "description": "A reliable and versatile charging handle designed for use with the AR-15 weapon platform. Built to industry-standard specifications, this charging handle ensures smooth and efficient operation, allowing for quick and easy manipulation of the bolt carrier group.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.028 kg",
+  "grid_size": "1x1",
+  "base_price": 117.3,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 117.3
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 35.19
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -2.0,
+   "maximumShots": 3300,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_StandardGi.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_UMPCockingHandle",
+  "name": "UMP Charging Handle",
+  "short_name": "UMP Ch",
+  "manufacturer": "Heckler & Koch",
+  "description": "A standard charging handle for the Heckler & Koch UMP. Positioned above the handguard, it is used to manually retract the bolt and remains non-reciprocating during fire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.UMP"
+  ],
+  "weight": "0.016 kg",
+  "grid_size": "1x1",
+  "base_price": 72.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 21.6
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -2.0,
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_UMP45",
+   "IS_Firearm_UMP45FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_UMPCockingHandle.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_UMPCockingHandleFDE",
+  "name": "UMP Charging Handle (FDE)",
+  "short_name": "UMP Ch",
+  "manufacturer": "Heckler & Koch",
+  "description": "A standard charging handle for the Heckler & Koch UMP. Positioned above the handguard, it is used to manually retract the bolt and remains non-reciprocating during fire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.UMP"
+  ],
+  "weight": "0.016 kg",
+  "grid_size": "1x1",
+  "base_price": 72.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 21.6
+   }
+  ],
+  "stats": {
+   "reloadTimeModifier": -2.0,
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_UMP45",
+   "IS_Firearm_UMP45FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_UMPCockingHandleFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Handle_vz61ChargingKnob",
+  "name": "Vz. 61 Charging Knobs",
+  "short_name": "Vz. 61 Knobs Ch",
+  "manufacturer": "CZ",
+  "description": "The charging knob of the Vz. 61 Skorpion submachine gun is used to retract and release the bolt mechanism, streamlining the process of loading and chambering ammunition.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.vz61"
+  ],
+  "weight": "0.012 kg",
+  "grid_size": "1x1",
+  "base_price": 8.5,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 8.5
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 2.55
+   }
+  ],
+  "stats": {
+   "maximumShots": 2500,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_SkorpionVz61"
+  ],
+  "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_vz61ChargingKnob.webp",
+  "source": "game-files"
+ }
+]

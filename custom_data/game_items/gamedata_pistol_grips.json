@@ -1,0 +1,4640 @@
+[
+ {
+  "id": "IS_PistolGrip_ColtA2",
+  "name": "A2 Pistol Grip",
+  "short_name": "A2 Grip",
+  "manufacturer": "COLT",
+  "description": "A polymer pistol grip for the AR-15 series of rifles and other compatible firearms.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.093 kg",
+  "grid_size": "1x1",
+  "base_price": 170.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 170.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 1.0,
+   "recoilControl": 1.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_ColtA2.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkBakelite",
+  "name": "AK Bakelite Pistol Grip",
+  "short_name": "AK Bak Grip",
+  "manufacturer": "Kalashnikov concern",
+  "description": "A bakelite pistol grip for the AK series of rifles and other compatible firearms.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.065 kg",
+  "grid_size": "1x1",
+  "base_price": 102.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 102.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 30.6
+   }
+  ],
+  "stats": {
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkBakelite.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkCRC",
+  "name": "AK CRC Pistol Grip",
+  "short_name": "AK CRC Grip",
+  "manufacturer": "КРУК \"Crook\"",
+  "description": "A lightweight skeletonized pistol grip for AK-pattern rifles, CNC-machined from 7075 aluminum. Its textured surface and 10-degree grip angle provide a secure, ergonomic hold, while a Cerakote finish protects the exposed metal.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.117 kg",
+  "grid_size": "1x1",
+  "base_price": 405.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 405.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 121.5
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 8.0,
+   "recoilControl": 2.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 11200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkCRC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkCRCFDE",
+  "name": "AK CRC Pistol Grip (FDE)",
+  "short_name": "AK CRC Grip",
+  "manufacturer": "КРУК \"Crook\"",
+  "description": "A lightweight skeletonized pistol grip for AK-pattern rifles, CNC-machined from 7075 aluminum. Its textured surface and 10-degree grip angle provide a secure, ergonomic hold, while a Cerakote finish protects the exposed metal.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.117 kg",
+  "grid_size": "1x1",
+  "base_price": 405.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 121.5
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 8.0,
+   "recoilControl": 2.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 11200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkCRCFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkCRCOlive",
+  "name": "AK CRC Pistol Grip (Olive)",
+  "short_name": "AK CRC Grip",
+  "manufacturer": "КРУК \"Crook\"",
+  "description": "A lightweight skeletonized pistol grip for AK-pattern rifles, CNC-machined from 7075 aluminum. Its textured surface and 10-degree grip angle provide a secure, ergonomic hold, while a Cerakote finish protects the exposed metal.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.117 kg",
+  "grid_size": "1x1",
+  "base_price": 405.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 121.5
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 8.0,
+   "recoilControl": 2.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 11200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkCRCOlive.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkGAkP",
+  "name": "AK GAkP Grip",
+  "manufacturer": "GPN",
+  "description": "A glass-fiber-reinforced polymer pistol grip for AK-pattern rifles. Its near-vertical grip angle, contoured right side, and chamfered edges provide a comfortable and secure hold.",
+  "tags": [
+   "Size.Small",
+   "WeaponPlatform.AK",
+   "Origin.West"
+  ],
+  "weight": "0.106 kg",
+  "grid_size": "1x1",
+  "base_price": 340.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 340.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 8.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkGAkP.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkGAkPFDE",
+  "name": "AK GAkP Grip (FDE)",
+  "short_name": "AK GAkP Grip",
+  "manufacturer": "GPN",
+  "description": "A glass-fiber-reinforced polymer pistol grip for AK-pattern rifles. Its near-vertical grip angle, contoured right side, and chamfered edges provide a comfortable and secure hold.",
+  "tags": [
+   "Size.Small",
+   "WeaponPlatform.AK",
+   "Origin.West"
+  ],
+  "weight": "0.106 kg",
+  "grid_size": "1x1",
+  "base_price": 340.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 8.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkGAkPFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkSkeletonGPN",
+  "name": "AK GPN Skeleton Pistol Grip",
+  "short_name": "AK GPN Grip",
+  "manufacturer": "GPN",
+  "description": "A skeletonized pistol grip for AK and AKM-pattern rifles, made in Ukraine from 7075 aluminum alloy. Its interchangeable grip panels allow for customization while retaining the lightweight open-frame design.",
+  "tags": [
+   "Size.Small",
+   "WeaponPlatform.AK",
+   "Origin.West"
+  ],
+  "weight": "0.205 kg",
+  "grid_size": "1x1",
+  "base_price": 410.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 410.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 123.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 8.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 11600,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkSkeletonGPN.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkSkeletonGPNFDE",
+  "name": "AK GPN Skeleton Pistol Grip (FDE)",
+  "short_name": "AK GPN Grip",
+  "manufacturer": "GPN",
+  "description": "A skeletonized pistol grip for AK and AKM-pattern rifles, made in Ukraine from 7075 aluminum alloy. Its interchangeable grip panels allow for customization while retaining the lightweight open-frame design.",
+  "tags": [
+   "Size.Small",
+   "WeaponPlatform.AK",
+   "Origin.West"
+  ],
+  "weight": "0.205 kg",
+  "grid_size": "1x1",
+  "base_price": 410.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 123.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 8.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 11600,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkSkeletonGPNFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkSkeletonGPNOlive",
+  "name": "AK GPN Skeleton Pistol Grip (Olive)",
+  "short_name": "AK GPN Grip",
+  "manufacturer": "GPN",
+  "description": "A skeletonized pistol grip for AK and AKM-pattern rifles, made in Ukraine from 7075 aluminum alloy. Its interchangeable grip panels allow for customization while retaining the lightweight open-frame design.",
+  "tags": [
+   "Size.Small",
+   "WeaponPlatform.AK",
+   "Origin.West"
+  ],
+  "weight": "0.205 kg",
+  "grid_size": "1x1",
+  "base_price": 410.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 123.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 8.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 11600,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkSkeletonGPNOlive.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkPolymer",
+  "name": "AK Polymer Pistol Grip",
+  "short_name": "AK Poly Grip",
+  "manufacturer": "Kalashnikov concern",
+  "description": "A polymer pistol grip designed for use with the AK series of rifles and other compatible firearms. It was designed as a replacement for the obsolete bakelite grip.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.065 kg",
+  "grid_size": "1x1",
+  "base_price": 136.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 136.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 40.8
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 1.0,
+   "recoilControl": 1.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkPolymer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkRatnik",
+  "name": "AK Ratnik Grip",
+  "short_name": "Ratnik Grip",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The Ratnik Pistol Grip is made of durable polymer and has an integrated trigger guard. Designed specifically to be compatible with the Ratnik series, it provides an ergonomic and durable grip for improved handling and control.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.17 kg",
+  "grid_size": "1x1",
+  "base_price": 340.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 340.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 4.0,
+   "recoilControl": 4.0,
+   "armStaminaModifier": -2.0,
+   "maximumShots": 9100,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak12",
+   "IS_Firearm_Ak15",
+   "IS_Firearm_Ak19",
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkRatnik.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkRatnikHT",
+  "name": "AK Ratnik Grip (Hunter Team)",
+  "short_name": "Ratnik Grip",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The Ratnik Pistol Grip is made of durable polymer and has an integrated trigger guard. Designed specifically to be compatible with the Ratnik series, it provides an ergonomic and durable grip for improved handling and control.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.17 kg",
+  "grid_size": "1x1",
+  "base_price": 520.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 156.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 5.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": -2.0,
+   "maximumShots": 9100,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak12",
+   "IS_Firearm_Ak15",
+   "IS_Firearm_Ak19",
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkRatnikHT.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkSkeleton",
+  "name": "AK Skeleton Pistol Grip",
+  "short_name": "AK SP Grip",
+  "manufacturer": "Bullet Ammunition",
+  "description": "An aluminum skeletonized pistol grip for a wide range of AK-pattern firearms. Its CNC-machined open-frame construction is protected by a polymer coating, providing a distinctive alternative to conventional AK pistol grips.",
+  "tags": [
+   "Size.Small",
+   "WeaponPlatform.AK",
+   "Origin.East"
+  ],
+  "weight": "0.195 kg",
+  "grid_size": "1x1",
+  "base_price": 380.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 380.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 114.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 8.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 9500,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkSkeleton.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AlienBrassGrip",
+  "name": "Alien Brass Grip",
+  "manufacturer": "Laugo Arms",
+  "description": "The Alien Brass Grip Panel Set consists of premium, CNC-machined solid brass panels designed for the standard Laugo Arms Alien pistol. The added weight enhances recoil control and overall handling, while the metallic finish improves aesthetics. Panel thickness closely matches that of the original grips.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Alien"
+  ],
+  "weight": "0.17 kg",
+  "grid_size": "1x1",
+  "base_price": 765.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 229.5
+   }
+  ],
+  "stats": {
+   "recoilControl": 10.0,
+   "maximumShots": 17500,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Alien",
+   "IS_Firearm_AlienBlack"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AlienBrassGrip.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AlienG10Grip",
+  "name": "Alien G10 Grip",
+  "short_name": "Alien Grip",
+  "manufacturer": "Laugo Arms",
+  "description": "The Alien G10 Grip Panels are precision-engineered, durable G10 composite replacement grips designed for the standard Laugo Arms Alien pistol. The panels offer enhanced grip texture, improved handling, and increased durability.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Alien"
+  ],
+  "weight": "0.043 kg",
+  "grid_size": "1x1",
+  "base_price": 595.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 595.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 178.5
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 8.0,
+   "maximumShots": 14600,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Alien",
+   "IS_Firearm_AlienBlack"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AlienG10Grip.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_ArCRC",
+  "name": "AR CRC Pistol Grip",
+  "short_name": "AR CRC Grip",
+  "manufacturer": "КРУК \"Crook\"",
+  "description": "A lightweight skeletonized pistol grip for AR-pattern rifles, CNC-machined from 7075 aluminum. Its textured surface and 10-degree grip angle provide a secure, ergonomic hold, while a Cerakote finish protects the exposed metal.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.089 kg",
+  "grid_size": "1x1",
+  "base_price": 500.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 500.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 8.0,
+   "recoilControl": 2.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 11400,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_ArCRC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_ArCRCFDE",
+  "name": "AR CRC Pistol Grip (FDE)",
+  "short_name": "AR CRC Grip",
+  "manufacturer": "КРУК \"Crook\"",
+  "description": "A lightweight skeletonized pistol grip for AR-pattern rifles, CNC-machined from 7075 aluminum. Its textured surface and 10-degree grip angle provide a secure, ergonomic hold, while a Cerakote finish protects the exposed metal.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.089 kg",
+  "grid_size": "1x1",
+  "base_price": 500.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 8.0,
+   "recoilControl": 2.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 11400,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_ArCRCFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_ArCRCOlive",
+  "name": "AR CRC Pistol Grip (Olive)",
+  "short_name": "AR CRC Grip",
+  "manufacturer": "КРУК \"Crook\"",
+  "description": "A lightweight skeletonized pistol grip for AR-pattern rifles, CNC-machined from 7075 aluminum. Its textured surface and 10-degree grip angle provide a secure, ergonomic hold, while a Cerakote finish protects the exposed metal.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.089 kg",
+  "grid_size": "1x1",
+  "base_price": 500.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 8.0,
+   "recoilControl": 2.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 11400,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_ArCRCOlive.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_ArchangelAkSeries",
+  "name": "Archangel AK-Series Pistol Grip",
+  "short_name": "Arch AK Grip",
+  "manufacturer": "Promag Industries",
+  "description": "The Archangel AK-series pistol grip is universally compatible with all AK models. Crafted from robust carbon fiber and glass-reinforced polymer in an olive-drab hue, it prioritizes comfort and weapon retention. Boasting a molded front strap and back strap grooves, this grip enhances control and ergonomic feel for improved handling.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 306.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 3,
+    "price": 306.0
+   }
+  ],
+  "sold_by": "Artisan R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 91.8
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": -2.0,
+   "maximumShots": 8000,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_ArchangelAkSeries.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_ArchangelAkSeriesTan",
+  "name": "Archangel AK-Series Pistol Grip (Tan)",
+  "short_name": "Arch AK Grip",
+  "manufacturer": "Promag Industries",
+  "description": "The Archangel AK-series pistol grip is universally compatible with all AK models. Crafted from robust carbon fiber and glass-reinforced polymer in an olive-drab hue, it prioritizes comfort and weapon retention. Boasting a molded front strap and back strap grooves, this grip enhances control and ergonomic feel for improved handling.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 306.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 3,
+    "price": 306.0
+   }
+  ],
+  "sold_by": "Artisan R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 91.8
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": -2.0,
+   "maximumShots": 8000,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_ArchangelAkSeriesTan.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_M201cgripsPsycho",
+  "name": "Bloodhound's M-201C Grip",
+  "short_name": "B M-201C Grip",
+  "manufacturer": "EGMT",
+  "description": "A black polymer pistol grip for the M-201C pistol.\n\nThis is a part of the M-201C belonging to Kahoku \"Bloodhound\" Phongsa, the leader of the Kiu Vongsa criminal gang.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.M201C",
+   "Boss"
+  ],
+  "weight": "0.054 kg",
+  "grid_size": "1x1",
+  "base_price": 150.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 45.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 5.0,
+   "recoilControl": 5.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_M201C",
+   "IS_Firearm_M201CPsycho"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_M201cgripsPsycho.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_BerettaM9A1Blackmail",
+  "name": "Broker's M9A1 Grip",
+  "short_name": "B M9A1 Grip",
+  "manufacturer": "EGMT",
+  "description": "This Beretta M9A1 grip is designed to provide a comfortable and secure hold. \n\nThis is a part of the M9A1 belonging to Hoang \"Broker\" Lam Nam, the leader of the armed group occupying Hunter's Paradise.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.M9A1",
+   "Boss"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 186.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 55.8
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 5.0,
+   "recoilControl": 5.0,
+   "maximumShots": 7300,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_BerettaM9A1",
+   "IS_Firearm_BerettaM9A1Blackmail"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_BerettaM9A1Blackmail.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkBakeliteMedved",
+  "name": "Buran's AK Bakelite Pistol Grip",
+  "short_name": "B AK Bak Grip",
+  "manufacturer": "EGMT",
+  "description": "A bakelite pistol grip for the AK series of rifles and other compatible firearms.\n\nThis is a part of the AK-74N belonging to Arkady \"Buran\" Vititsky, the military commander of Fort Narith.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK",
+   "Boss"
+  ],
+  "weight": "0.065 kg",
+  "grid_size": "1x1",
+  "base_price": 104.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 31.2
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 5.0,
+   "recoilControl": 5.0,
+   "maximumShots": 9700,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkBakeliteMedved.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Colt1911CC3PGrips",
+  "name": "CC3P Grip and Rail System",
+  "short_name": "1911 CC3P Grip",
+  "manufacturer": "Recover Tactical",
+  "description": "A lightweight glass-reinforced polymer grip system for the 1911, featuring an integrated accessory rail and interchangeable grip panels.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.1911"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 255.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 3,
+    "price": 255.0
+   }
+  ],
+  "sold_by": "Artisan R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.5
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 9900,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Rail_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Colt1911CC3PGrips.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Type51GripsMako",
+  "name": "Chaonai's Type 51 Grip",
+  "short_name": "B T51 Grip",
+  "manufacturer": "EGMT",
+  "description": "This grip is typically made of durable polymer or plastic materials, providing users with a reliable and cost-effective solution. The straightforward design offers a comfortable and secure hold on the firearm, improving control and accuracy during shooting. The basic Type 51 grip is simple yet practical, ensuring functionality and reliability without sacrificing performance.\n\nThis is a part of the Type 51 Tokarev belonging to Makan \"Chaonai\" Zhang, the leader of the Nam Thaven criminal gang.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "Boss",
+   "WeaponPlatform.TT"
+  ],
+  "weight": "0.051 kg",
+  "grid_size": "1x1",
+  "base_price": 250.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 5.0,
+   "recoilControl": 5.0,
+   "maximumShots": 6900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Type51",
+   "IS_Firearm_Type51Hammerhead",
+   "IS_Firearm_Type51Mako",
+   "IS_Firearm_Type51Pencil"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Type51GripsMako.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Type51PencilGrips",
+  "name": "Colonel's Type 51 Wooden Grip",
+  "short_name": "B T51 Wood Grip",
+  "manufacturer": "EGMT",
+  "description": "This Type 51 Tokarev wooden grip enhances the firearm's aesthetics and functionality. Made from quality hardwood, it provides a comfortable and secure hold, promoting control and accuracy. The grip's timeless design and durable construction add both style and practicality to the pistol.\n\nThis is a part of the Type 51 Tokarev belonging to Palani \"Colonel\" Ketthavong, the military commander of Tiger Bay.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT",
+   "Boss"
+  ],
+  "weight": "0.054 kg",
+  "grid_size": "1x1",
+  "base_price": 250.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 5.0,
+   "recoilControl": 5.0,
+   "maximumShots": 6900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Type51",
+   "IS_Firearm_Type51Hammerhead",
+   "IS_Firearm_Type51Mako",
+   "IS_Firearm_Type51Pencil"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Type51PencilGrips.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Colt1911TheHiveGrips",
+  "name": "Colt 1911 \"The Hive\" Grip",
+  "short_name": "1911 Hive Grip",
+  "manufacturer": "Valkyrie Dynamics",
+  "description": "CNC-machined from billet aluminum, this ambidextrous grip is designed to fit full-size 1911 pistols and clones, combining durability with style.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.1911"
+  ],
+  "weight": "0.066 kg",
+  "grid_size": "1x1",
+  "base_price": 170.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 2.0,
+   "armStaminaModifier": -1.0,
+   "maximumShots": 7700,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Colt1911TheHiveGrips.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Colt1911PlasticGrips",
+  "name": "Colt 1911 Plastic Grip",
+  "short_name": "1911 Plas Grip",
+  "manufacturer": "General West",
+  "description": "This grip is designed to fit full-size Colt 1911 pistols and provide a durable, functional replacement or upgrade.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.1911"
+  ],
+  "weight": "0.023 kg",
+  "grid_size": "1x1",
+  "base_price": 102.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 102.0
+   },
+   {
+    "vendor": "Collector",
+    "rank": 1,
+    "price": 102.0
+   }
+  ],
+  "sold_by": "Artisan R.2, Collector R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 30.6
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "maximumShots": 6600,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Colt1911PlasticGrips.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Colt1911StandardGrips",
+  "name": "Colt 1911 Standard Grip",
+  "short_name": "1911 Grip",
+  "manufacturer": "COLT",
+  "description": "Crafted from high-quality walnut wood, this grip is made using traditional woodworking techniques and is designed to fit full-size Colt 1911 pistols.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.1911"
+  ],
+  "weight": "0.02 kg",
+  "grid_size": "1x1",
+  "base_price": 85.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 85.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 25.5
+   }
+  ],
+  "stats": {
+   "maximumShots": 5500,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Colt1911StandardGrips.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_DanielDefenseEnhancedAr",
+  "name": "DD Enhanced AR Pistol Grip",
+  "short_name": "DD Grip",
+  "manufacturer": "Daniel Defense",
+  "description": "The Daniel Defense Pistol Grip is ideal for the AR-15 platform, with an ergonomic design that ensures superior control and ease of use. Its classic 1911 grip angle allows for a comfortable hand position.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.099 kg",
+  "grid_size": "1x1",
+  "base_price": 323.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 96.9
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 3.0,
+   "recoilControl": 5.0,
+   "armStaminaModifier": -6.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_DanielDefenseEnhancedAr.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_DanielDefenseEnhancedArBlack",
+  "name": "DD Enhanced AR Pistol Grip (Black)",
+  "short_name": "DD Grip",
+  "manufacturer": "Daniel Defense",
+  "description": "The Daniel Defense Pistol Grip is ideal for the AR-15 platform, with an ergonomic design that ensures superior control and ease of use. Its classic 1911 grip angle allows for a comfortable hand position.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.099 kg",
+  "grid_size": "1x1",
+  "base_price": 323.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 96.9
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 3.0,
+   "recoilControl": 5.0,
+   "armStaminaModifier": -6.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_DanielDefenseEnhancedArBlack.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_DanielDefenseEnhancedArMilSpec",
+  "name": "DD Enhanced AR Pistol Grip (MilSpec)",
+  "short_name": "DD Grip",
+  "manufacturer": "Daniel Defense",
+  "description": "The Daniel Defense Pistol Grip is ideal for the AR-15 platform, with an ergonomic design that ensures superior control and ease of use. Its classic 1911 grip angle allows for a comfortable hand position.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.099 kg",
+  "grid_size": "1x1",
+  "base_price": 323.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 323.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 96.9
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 3.0,
+   "recoilControl": 5.0,
+   "armStaminaModifier": -6.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_DanielDefenseEnhancedArMilSpec.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_DanielDefenseEnhancedArSW",
+  "name": "DD Enhanced AR Pistol Grip (Silent Watch)",
+  "short_name": "DD Grip",
+  "manufacturer": "Daniel Defense",
+  "description": "The Daniel Defense Pistol Grip is ideal for the AR-15 platform, with an ergonomic design that ensures superior control and ease of use. Its classic 1911 grip angle allows for a comfortable hand position.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.099 kg",
+  "grid_size": "1x1",
+  "base_price": 408.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 122.4
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 4.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": -6.0,
+   "maximumShots": 9700,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_DanielDefenseEnhancedArSW.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Famas",
+  "name": "FAMAS Pistol Grip",
+  "short_name": "FAMAS Grip",
+  "manufacturer": "MAS",
+  "description": "A standard polymer pistol grip for the FAMAS bullpup rifle. Its textured surface provides a secure firing-hand grip and helps maintain consistent control during weapon handling.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Famas"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 220.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 66.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 4.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_Famas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Famas.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_AkPolymerFather",
+  "name": "Firebrand's AK Polymer Pistol Grip",
+  "short_name": "B AK Poly Grip",
+  "manufacturer": "EGMT",
+  "description": "A polymer pistol grip designed for use with the AK series of rifles and other compatible firearms. It was designed as a replacement for the obsolete bakelite grip.\n\nThis is a part of the AKS-74U belonging to Lani \"Firebrand\" Sayavong, the leader of the armed group occupying YBL-1.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK",
+   "Boss"
+  ],
+  "weight": "0.065 kg",
+  "grid_size": "1x1",
+  "base_price": 272.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 81.6
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 8.0,
+   "recoilControl": 2.0,
+   "maximumShots": 9700,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_AkPolymerFather.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_G3HKStyle",
+  "name": "G3 HK-Style Pistol Grip",
+  "short_name": "G3 HK Grip",
+  "manufacturer": "Heckler & Koch",
+  "description": "A polymer pistol grip for G3-pattern rifles with steel grip frames. Based on the standard HK grip shape, it features a more heavily textured surface for a secure and comfortable hold.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 280.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 3,
+    "price": 280.0
+   }
+  ],
+  "sold_by": "Artisan R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 84.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 3.0,
+   "recoilControl": 5.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 10800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_G3",
+   "IS_Firearm_G3ZH"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_G3HKStyle.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_G3HKStyleZH",
+  "name": "G3 HK-Style Pistol Grip (Zero Hour)",
+  "short_name": "G3 HK Grip",
+  "manufacturer": "Heckler & Koch",
+  "description": "A polymer pistol grip for G3-pattern rifles with steel grip frames. Based on the standard HK grip shape, it features a more heavily textured surface for a secure and comfortable hold.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 380.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 114.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 3.0,
+   "recoilControl": 5.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 10800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_G3",
+   "IS_Firearm_G3ZH"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_G3HKStyleZH.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_G3",
+  "name": "G3 Pistol Grip",
+  "short_name": "G3 Grip",
+  "manufacturer": "Heckler & Koch",
+  "description": "An original OD green polymer pistol grip for G3 and HK91-pattern rifles. Designed for use with the rifle's separate steel trigger frame, it forms part of the classic green furniture associated with early G3 service rifles.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 290.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 87.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 10800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_G3",
+   "IS_Firearm_G3ZH"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_G3.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_G3Black",
+  "name": "G3 Pistol Grip (Black)",
+  "short_name": "G3 Grip",
+  "manufacturer": "Heckler & Koch",
+  "description": "A polymer pistol grip for G3 and HK91-pattern rifles. Designed for use with the rifle's separate steel trigger frame.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 290.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 87.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 10800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_G3",
+   "IS_Firearm_G3ZH"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_G3Black.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_G3FDE",
+  "name": "G3 Pistol Grip (FDE)",
+  "short_name": "G3 Grip",
+  "manufacturer": "Heckler & Koch",
+  "description": "A polymer pistol grip for G3 and HK91-pattern rifles. Designed for use with the rifle's separate steel trigger frame.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 290.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 87.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 10800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_G3",
+   "IS_Firearm_G3ZH"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_G3FDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_G3Wood",
+  "name": "G3 Pistol Grip (Wood)",
+  "short_name": "G3 Grip",
+  "manufacturer": "Heckler & Koch",
+  "description": "A handcrafted Claro walnut pistol grip for G3 and HK91-pattern rifles. Designed for use with the rifle's separate steel trigger frame, it offers a traditional wooden alternative to standard polymer grips.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 290.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 87.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 4.0,
+   "recoilControl": 4.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 10800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_G3",
+   "IS_Firearm_G3ZH"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_G3Wood.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_G3Sniper",
+  "name": "G3 Sniper-Style Pistol Grip",
+  "short_name": "G3 SGrip",
+  "manufacturer": "Heckler & Koch",
+  "description": "A polymer PSG1-style pistol grip for G3-pattern rifles with steel grip frames. Its ambidextrous palm shelf and pronounced palm swell provide a more stable, precision-oriented hold than the standard G3 pistol grip.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 68.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 20.4
+   }
+  ],
+  "stats": {
+   "recoilControl": 10.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 13200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_G3",
+   "IS_Firearm_G3ZH"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_G3Sniper.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_G3SniperFDE",
+  "name": "G3 Sniper-Style Pistol Grip (FDE)",
+  "short_name": "G3 SGrip",
+  "manufacturer": "Heckler & Koch",
+  "description": "A polymer PSG1-style pistol grip for G3-pattern rifles with steel grip frames. Its ambidextrous palm shelf and pronounced palm swell provide a more stable, precision-oriented hold than the standard G3 pistol grip.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 68.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 20.4
+   }
+  ],
+  "stats": {
+   "recoilControl": 10.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 13200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_G3",
+   "IS_Firearm_G3ZH"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_G3SniperFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_G36",
+  "name": "G36 Pistol Grip",
+  "short_name": "G36 Grip",
+  "manufacturer": "Heckler & Koch",
+  "description": "A polymer pistol grip assembly for the Heckler & Koch G36. It houses the trigger mechanism and bolt catch, incorporates the ambidextrous safety/fire selector, and attaches to the receiver with two locking pins.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.G36"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 285.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 85.5
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 4.0,
+   "recoilControl": 4.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 10800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_G36",
+   "IS_Firearm_G36FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_G36.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_G36FDE",
+  "name": "G36 Pistol Grip (FDE)",
+  "short_name": "G36 Grip",
+  "manufacturer": "Heckler & Koch",
+  "description": "A polymer pistol grip assembly for the Heckler & Koch G36. It houses the trigger mechanism and bolt catch, incorporates the ambidextrous safety/fire selector, and attaches to the receiver with two locking pins.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.G36"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 285.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 85.5
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 4.0,
+   "recoilControl": 4.0,
+   "armStaminaModifier": 0.5,
+   "maximumShots": 10800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_G36",
+   "IS_Firearm_G36FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_G36FDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Colt1911GripsMidas",
+  "name": "Golden Boy's Colt 1911 Grip",
+  "short_name": "B 1911 Grip",
+  "manufacturer": "EGMT",
+  "description": "This grip is designed to fit full-size Colt 1911 pistols and provide a durable, functional replacement or upgrade.\n\nThis is a part of the Colt 1911 belonging to Songkram \"Golden Boy\" Manivanh, the leader of the Pha Lang criminal gang.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.1911",
+   "Boss"
+  ],
+  "weight": "0.023 kg",
+  "grid_size": "1x1",
+  "base_price": 170.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "recoilControl": 10.0,
+   "maximumShots": 12100,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Colt1911GripsMidas.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Colt1911PlasticGripsHel",
+  "name": "Grin's Colt 1911 Hel Grip",
+  "short_name": "B 1911 Hel Grip",
+  "manufacturer": "EGMT",
+  "description": "CNC-machined from billet aluminum, this ambidextrous grip is designed to fit full-size 1911 pistols and clones, combining durability with style.\n\nThis is a part of the Colt Commander belonging to Malo \"Grin\" Luangrath, the leader of the armed group occupying Blue Lagoon.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.1911",
+   "Boss"
+  ],
+  "weight": "0.066 kg",
+  "grid_size": "1x1",
+  "base_price": 170.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 8.0,
+   "armStaminaModifier": -1.0,
+   "maximumShots": 12100,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Colt1911PlasticGripsHel.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_M201cgrips",
+  "name": "M-201C Pistol Grip",
+  "short_name": "M-201C Grip",
+  "manufacturer": "Norinco",
+  "description": "A black polymer pistol grip for the M-201C pistol.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.M201C"
+  ],
+  "weight": "0.054 kg",
+  "grid_size": "1x1",
+  "base_price": 76.5,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 76.5
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 22.95
+   }
+  ],
+  "stats": {
+   "maximumShots": 2800,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_M201C",
+   "IS_Firearm_M201CPsycho"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_M201cgrips.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_M16A1",
+  "name": "M16A1 Pistol Grip",
+  "short_name": "M16A1 Grip",
+  "manufacturer": "Norinco",
+  "description": "A standard M16A1 pistol grip designed for AR-15/M16 pattern rifles.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.093 kg",
+  "grid_size": "1x1",
+  "base_price": 136.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 136.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 40.8
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 2.0,
+   "maximumShots": 6500,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_M16A1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_BerettaM9A1Rubber",
+  "name": "M9A1  Rubber Grip",
+  "short_name": "M9A1 Rub Grip",
+  "manufacturer": "Beretta",
+  "description": "The Beretta Series Rubber Grip—WrapAround (Hogue) has been engineered to improve the handling and comfort of Beretta series pistols. Crafted from durable rubber, this wraparound grip provides a secure and ergonomic hold for improved control during shooting.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M9A1"
+  ],
+  "weight": "0.055 kg",
+  "grid_size": "1x1",
+  "base_price": 136.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 136.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 40.8
+   }
+  ],
+  "stats": {
+   "recoilControl": 4.0,
+   "armStaminaModifier": -2.0,
+   "maximumShots": 4600,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_BerettaM9A1",
+   "IS_Firearm_BerettaM9A1Blackmail"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_BerettaM9A1Rubber.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_BerettaM9A1Wood",
+  "name": "M9A1  Wooden Grip",
+  "short_name": "M9A1 Wood Grip",
+  "manufacturer": "Beretta",
+  "description": "The Beretta Wood Grip is meticulously crafted from authentic walnut. It features refined oval checkering embellished with the Beretta trident logo. Designed as a direct replacement for FS model pistols, it enhances both the firearm's aesthetic appeal and handling.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M9A1"
+  ],
+  "weight": "0.055 kg",
+  "grid_size": "1x1",
+  "base_price": 110.5,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 110.5
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 33.15
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 4.0,
+   "armStaminaModifier": -1.0,
+   "maximumShots": 5600,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_BerettaM9A1",
+   "IS_Firearm_BerettaM9A1Blackmail"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_BerettaM9A1Wood.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_BerettaM9A1",
+  "name": "M9A1 Grip",
+  "manufacturer": "Beretta",
+  "description": "This classic Beretta M9A1 grip is designed to provide a comfortable and secure hold. Made from durable polymer materials, it offers resistance to wear and environmental factors. The textured surface features checkered patterns, which enhance traction and control during firing.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M9A1"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 93.5,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 93.5
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 28.05
+   }
+  ],
+  "stats": {
+   "maximumShots": 3300,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_BerettaM9A1",
+   "IS_Firearm_BerettaM9A1Blackmail"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_BerettaM9A1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_MagpulMoeGen1",
+  "name": "MIAD Pistol Grip",
+  "short_name": "MIAD Grip",
+  "manufacturer": "Magpul",
+  "description": "A reliable and ergonomic replacement for the standard AR-15 or AR-10 grip. Constructed with durable polymer, this upgrade enhances control and comfort during handling.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 204.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 61.2
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 5.0,
+   "maximumShots": 7400,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_MagpulMoeGen1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_MagpulMoeGen1FDE",
+  "name": "MIAD Pistol Grip V2 (FDE)",
+  "short_name": "MIAD Grip",
+  "manufacturer": "Magpul",
+  "description": "A reliable and ergonomic replacement for the standard AR-15 or AR-10 grip. Constructed with durable polymer, this upgrade enhances control and comfort during handling.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 391.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 391.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 117.3
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 5.0,
+   "maximumShots": 9900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_MagpulMoeGen1FDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_TyrantMod",
+  "name": "MOD Pistol Grip",
+  "short_name": "MOD Grip",
+  "manufacturer": "General West",
+  "description": "Combining the classic feel of an AR grip with a modern design, this grip features polymer straps on the front and back, housed in an aerospace-grade 7075 aluminum body. With a black anodized finish, the result is a lightweight, durable solution with uncompromising form and function.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.112 kg",
+  "grid_size": "1x1",
+  "base_price": 391.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 391.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 117.3
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 4.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 11600,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_TyrantMod.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_TyrantModFDE",
+  "name": "MOD Pistol Grip (FDE)",
+  "short_name": "MOD Grip",
+  "manufacturer": "General West",
+  "description": "Combining the classic feel of an AR grip with a modern design, this grip features polymer straps on the front and back, housed in an aerospace-grade 7075 aluminum body. With a black anodized finish, the result is a lightweight, durable solution with uncompromising form and function.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.112 kg",
+  "grid_size": "1x1",
+  "base_price": 391.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 117.3
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 4.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 11600,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_TyrantModFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_TyrantModPL",
+  "name": "MOD Pistol Grip (Phantom Lance)",
+  "short_name": "MOD Grip",
+  "manufacturer": "General West",
+  "description": "Combining the classic feel of an AR grip with a modern design, this grip features polymer straps on the front and back, housed in an aerospace-grade 7075 aluminum body. With a black anodized finish, the result is a lightweight, durable solution with uncompromising form and function.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.112 kg",
+  "grid_size": "1x1",
+  "base_price": 391.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 117.3
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 5.0,
+   "recoilControl": 7.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 11600,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_TyrantModPL.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_MagpulMoeAk",
+  "name": "MOE AK Pistol Grip",
+  "short_name": "MOE AK",
+  "manufacturer": "Magpul",
+  "description": "The MOE AK+ Grip features a reinforced polymer body and comfortable, wrap-around rubber overmolding to provide optimal weapon control in challenging environments.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.088 kg",
+  "grid_size": "1x1",
+  "base_price": 153.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 153.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 45.9
+   }
+  ],
+  "stats": {
+   "recoilControl": 4.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_MagpulMoeAk.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_MagpulMoeAkFDE",
+  "name": "MOE AK Pistol Grip (FDE)",
+  "short_name": "MOE AK",
+  "manufacturer": "Magpul",
+  "description": "The MOE AK+ Grip features a reinforced polymer body and comfortable, wrap-around rubber overmolding to provide optimal weapon control in challenging environments.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.088 kg",
+  "grid_size": "1x1",
+  "base_price": 153.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 45.9
+   }
+  ],
+  "stats": {
+   "recoilControl": 4.0,
+   "armStaminaModifier": -10.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_MagpulMoeAkFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_MagpulMoe",
+  "name": "MOE Pistol Grip",
+  "short_name": "MOE Grip",
+  "manufacturer": "Magpul",
+  "description": "A high-quality polymer grip designed as an upgrade for the AR-15 or M4. Its ergonomic design ensures comfort and improved shooting performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 221.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 221.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 66.3
+   }
+  ],
+  "stats": {
+   "recoilControl": 4.0,
+   "armStaminaModifier": -2.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_MagpulMoe.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_MagpulMoeFDE",
+  "name": "MOE Pistol Grip (FDE)",
+  "short_name": "MOE Grip",
+  "manufacturer": "Magpul",
+  "description": "A high-quality polymer grip designed as an upgrade for the AR-15 or M4. Its ergonomic design ensures comfort and improved shooting performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 221.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 221.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 66.3
+   }
+  ],
+  "stats": {
+   "recoilControl": 4.0,
+   "armStaminaModifier": -2.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_MagpulMoeFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_MagpulMoeGRAY",
+  "name": "MOE Pistol Grip (Gray)",
+  "short_name": "MOE Grip",
+  "manufacturer": "Magpul",
+  "description": "A high-quality polymer grip designed as an upgrade for the AR-15 or M4. Its ergonomic design ensures comfort and improved shooting performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 221.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 66.3
+   }
+  ],
+  "stats": {
+   "recoilControl": 4.0,
+   "armStaminaModifier": -2.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_MagpulMoeGRAY.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_MagpulMoeRT",
+  "name": "MOE Pistol Grip (Raven Team)",
+  "short_name": "MOE Grip",
+  "manufacturer": "Magpul",
+  "description": "A high-quality polymer grip designed as an upgrade for the AR-15 or M4. Its ergonomic design ensures comfort and improved shooting performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 450.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 135.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 4.0,
+   "armStaminaModifier": -2.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_MagpulMoeRT.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_MagpulMoeSG",
+  "name": "MOE Pistol Grip (Serpent Guard)",
+  "short_name": "MOE Grip",
+  "manufacturer": "Magpul",
+  "description": "A high-quality polymer grip designed as an upgrade for the AR-15 or M4. Its ergonomic design ensures comfort and improved shooting performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 450.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 135.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 4.0,
+   "armStaminaModifier": -2.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_MagpulMoeSG.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Type51GripsHammerhead",
+  "name": "Naga's Type 51 Grip",
+  "short_name": "B T51 Grip",
+  "manufacturer": "EGMT",
+  "description": "This grip is typically made of durable polymer or plastic materials, providing users with a reliable and cost-effective solution. The straightforward design offers a comfortable and secure hold on the firearm, improving control and accuracy during shooting. The basic Type 51 grip is simple yet practical, ensuring functionality and reliability without sacrificing performance.\n\nThis is a part of the Type 51 Tokarev belonging to Sabtu \"Naga\" bin Panjang, leader of the armed group occupying Ban Pa.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT",
+   "Boss"
+  ],
+  "weight": "0.051 kg",
+  "grid_size": "1x1",
+  "base_price": 250.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 5.0,
+   "recoilControl": 5.0,
+   "maximumShots": 6900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Type51",
+   "IS_Firearm_Type51Hammerhead",
+   "IS_Firearm_Type51Mako",
+   "IS_Firearm_Type51Pencil"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Type51GripsHammerhead.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_NorincoCQA1",
+  "name": "Norinco CQA1 Pistol Grip",
+  "short_name": "CQA1 Grip",
+  "manufacturer": "Norinco",
+  "description": "The Norinco CQA1 pistol grip is intended for use with the Chinese variant of the M4A1 rifle. While it fulfills the same function as pistol grips found in Western versions, some users may perceive it as being of lower quality due to potential differences in materials, ergonomics, and overall construction.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.093 kg",
+  "grid_size": "1x1",
+  "base_price": 102.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 102.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 30.6
+   }
+  ],
+  "stats": {
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_NorincoCQA1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_ZenitcoRk3",
+  "name": "RK-3 Pistol Grip",
+  "short_name": "RK-3 Grip",
+  "manufacturer": "Zenitco",
+  "description": "The RK-3 anatomical pistol grip is made of D16T alloy with a wear-resistant protective coating.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.187 kg",
+  "grid_size": "1x1",
+  "base_price": 357.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 107.1
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 6.0,
+   "recoilControl": 4.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 11000,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_ZenitcoRk3.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_ZenitcoRk3Desert",
+  "name": "RK-3 Pistol Grip (Desert)",
+  "short_name": "RK-3 Grip",
+  "manufacturer": "Zenitco",
+  "description": "The RK-3 anatomical pistol grip is made of D16T alloy with a wear-resistant protective coating.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.187 kg",
+  "grid_size": "1x1",
+  "base_price": 357.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 107.1
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 6.0,
+   "recoilControl": 4.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 11000,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_ZenitcoRk3Desert.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_ZenitcoRk3Green",
+  "name": "RK-3 Pistol Grip (Green)",
+  "short_name": "RK-3 Grip",
+  "manufacturer": "Zenitco",
+  "description": "The RK-3 anatomical pistol grip is made of D16T alloy with a wear-resistant protective coating.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.187 kg",
+  "grid_size": "1x1",
+  "base_price": 357.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 107.1
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 6.0,
+   "recoilControl": 4.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 11000,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_ZenitcoRk3Green.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_ZenitcoRk9",
+  "name": "RK-9 Pistol Grip",
+  "short_name": "RK-9 Grip",
+  "manufacturer": "Zenitco",
+  "description": "The RK-9 anatomical pistol grip is made of D16T alloy and features a wear-resistant protective coating.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.14 kg",
+  "grid_size": "1x1",
+  "base_price": 374.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 4,
+    "price": 374.0
+   }
+  ],
+  "sold_by": "Artisan R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 112.2
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 4.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 10800,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_ZenitcoRk9.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_ZenitcoRk9Desert",
+  "name": "RK-9 Pistol Grip (Desert)",
+  "short_name": "RK-9 Grip",
+  "manufacturer": "Zenitco",
+  "description": "The RK-9 anatomical pistol grip is made of D16T alloy and features a wear-resistant protective coating.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.14 kg",
+  "grid_size": "1x1",
+  "base_price": 374.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 112.2
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 4.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 10800,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_ZenitcoRk9Desert.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_ZenitcoRk9Green",
+  "name": "RK-9 Pistol Grip (Green)",
+  "short_name": "RK-9 Grip",
+  "manufacturer": "Zenitco",
+  "description": "The RK-9 anatomical pistol grip is made of D16T alloy and features a wear-resistant protective coating.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.14 kg",
+  "grid_size": "1x1",
+  "base_price": 374.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 112.2
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 4.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 10800,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_ZenitcoRk9Green.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_ZenitcoRk9JC",
+  "name": "RK-9 Pistol Grip (Jackal Company)",
+  "short_name": "RK-9 Grip",
+  "manufacturer": "Zenitco",
+  "description": "The RK-9 anatomical pistol grip is made of D16T alloy and features a wear-resistant protective coating.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.14 kg",
+  "grid_size": "1x1",
+  "base_price": 374.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 112.2
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 5.0,
+   "recoilControl": 7.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 10800,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_ZenitcoRk9JC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_SaVz58FAB",
+  "name": "Sa vz. 58 FAB Grip",
+  "short_name": "Sa vz. 58 FAB",
+  "manufacturer": "F.A.B.",
+  "description": "This glass-fiber-reinforced polymer grip is designed for the Sa vz. 58 rifles. It features finger grooves, a contoured backstrap, and an integrated storage compartment at the base. It installs via the standard Sa vz. 58 grip screw.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.114 kg",
+  "grid_size": "1x1",
+  "base_price": 289.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 289.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 86.7
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": -3.0,
+   "maximumShots": 10200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_SaVz58",
+   "IS_Firearm_SaVz58BD",
+   "IS_Firearm_SaVz58FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_SaVz58FAB.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_SaVz58FABBD",
+  "name": "Sa vz. 58 FAB Grip (Blackwood Division)",
+  "short_name": "Sa vz. 58 FAB",
+  "manufacturer": "F.A.B.",
+  "description": "This glass-fiber-reinforced polymer grip is designed for the Sa vz. 58 rifles. It features finger grooves, a contoured backstrap, and an integrated storage compartment at the base. It installs via the standard Sa vz. 58 grip screw.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.114 kg",
+  "grid_size": "1x1",
+  "base_price": 450.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 135.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": -3.0,
+   "maximumShots": 10200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_SaVz58",
+   "IS_Firearm_SaVz58BD",
+   "IS_Firearm_SaVz58FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_SaVz58FABBD.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_SaVz58FABFDE",
+  "name": "Sa vz. 58 FAB Grip (FDE)",
+  "short_name": "Sa vz. 58 FAB",
+  "manufacturer": "F.A.B.",
+  "description": "This glass-fiber-reinforced polymer grip is designed for the Sa vz. 58 rifles. It features finger grooves, a contoured backstrap, and an integrated storage compartment at the base. It installs via the standard Sa vz. 58 grip screw.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.114 kg",
+  "grid_size": "1x1",
+  "base_price": 289.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 86.7
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 6.0,
+   "armStaminaModifier": -3.0,
+   "maximumShots": 12200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_SaVz58",
+   "IS_Firearm_SaVz58BD",
+   "IS_Firearm_SaVz58FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_SaVz58FABFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_SaVz58Polymer",
+  "name": "Sa vz. 58 Polymer Grip",
+  "short_name": "Sa vz. 58 Pol",
+  "manufacturer": "Gunexpert",
+  "description": "A full-polymer replacement pistol grip for the Sa vz. 58 rifles. Made from glass-fiber-reinforced polymer, it comes complete with a mounting screw and washer. It is dimensionally identical to the original wooden or chipboard grip.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.111 kg",
+  "grid_size": "1x1",
+  "base_price": 136.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 136.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 40.8
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "recoilControl": 2.0,
+   "armStaminaModifier": -2.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_SaVz58",
+   "IS_Firearm_SaVz58BD",
+   "IS_Firearm_SaVz58FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_SaVz58Polymer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_SaVz58Wood",
+  "name": "Sa vz. 58 Wooden Grip",
+  "short_name": "Sa vz. 58 Wood",
+  "manufacturer": "CZ",
+  "description": "An original wood pistol grip for the Sa vz. 58 rifles. Early (pre-1961) models are machined from solid hardwood, while later versions use a resin-impregnated wood composite (“beaver barf”). It attaches to the receiver with the standard Sa vz. 58 grip screw and offers a durable, stylish upgrade.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.047 kg",
+  "grid_size": "1x1",
+  "base_price": 119.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 119.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 35.7
+   }
+  ],
+  "stats": {
+   "maximumShots": 5700,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_SaVz58",
+   "IS_Firearm_SaVz58BD",
+   "IS_Firearm_SaVz58FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_SaVz58Wood.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_SigMcx",
+  "name": "SIG MCX Pistol Grip",
+  "short_name": "MCX Grip",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG MCX Pistol Grip is a high-quality, ergonomic grip designed specifically for the SIG MCX platform. It features a textured surface that improves traction and control, ensuring a secure grip even in demanding conditions.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 204.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 204.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 61.2
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 6.0,
+   "recoilControl": 2.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_SigMcx.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_SigMcxGN",
+  "name": "SIG MCX Pistol Grip (Ghost Nomad)",
+  "short_name": "MCX Grip",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG MCX Pistol Grip is a high-quality, ergonomic grip designed specifically for the SIG MCX platform. It features a textured surface that improves traction and control, ensuring a secure grip even in demanding conditions.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 380.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 114.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 4.0,
+   "recoilControl": 4.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_SigMcxGN.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_SteyrAug",
+  "name": "Steyr AUG Pistol Grip Wrap",
+  "short_name": "AUG Grip",
+  "manufacturer": "Talon Grips",
+  "description": "A thin rubber TALON Grip wrap designed to adhere to the existing pistol grip of the Steyr AUG. Its textured surface provides a more secure hold, particularly in wet conditions, while adding minimal bulk to the original grip.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AUG"
+  ],
+  "weight": "0.007 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 6.0,
+   "recoilControl": 2.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 11900,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Stock_SteyrAugStock",
+   "IS_Stock_SteyrAugStockBlack",
+   "IS_Stock_SteyrAugStockDS",
+   "IS_Stock_SteyrAugStockTan",
+   "IS_Stock_SteyrAugStockWhite"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_SteyrAug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_SteyrAugDS",
+  "name": "Steyr AUG Pistol Grip Wrap (Desert Storm)",
+  "short_name": "AUG Grip",
+  "manufacturer": "Talon Grips",
+  "description": "A thin rubber TALON Grip wrap designed to adhere to the existing pistol grip of the Steyr AUG. Its textured surface provides a more secure hold, particularly in wet conditions, while adding minimal bulk to the original grip.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AUG"
+  ],
+  "weight": "0.007 kg",
+  "grid_size": "1x1",
+  "base_price": 425.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 127.5
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 7.0,
+   "recoilControl": 3.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 11900,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Stock_SteyrAugStock",
+   "IS_Stock_SteyrAugStockBlack",
+   "IS_Stock_SteyrAugStockDS",
+   "IS_Stock_SteyrAugStockTan",
+   "IS_Stock_SteyrAugStockWhite"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_SteyrAugDS.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Torque",
+  "name": "Torque Pistol Grip",
+  "short_name": "Torque Grip",
+  "manufacturer": "General West",
+  "description": "This grip is designed for AR-15 rifles and is both robust and lightweight. Its distinctive skeletal design prioritizes functionality and provides a perfect grip with or without gloves.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.156 kg",
+  "grid_size": "1x1",
+  "base_price": 314.5,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 314.5
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 94.35
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 6.0,
+   "recoilControl": 2.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 9500,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Torque.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_TorqueFDE",
+  "name": "Torque Pistol Grip (FDE)",
+  "short_name": "Torque Grip",
+  "manufacturer": "General West",
+  "description": "This grip is designed for AR-15 rifles and is both robust and lightweight. Its distinctive skeletal design prioritizes functionality and provides a perfect grip with or without gloves.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.156 kg",
+  "grid_size": "1x1",
+  "base_price": 314.5,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 94.35
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 6.0,
+   "recoilControl": 2.0,
+   "armStaminaModifier": -4.0,
+   "maximumShots": 9500,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_ColtM4A1",
+   "IS_Firearm_ColtM4A1FDE",
+   "IS_Firearm_DdMk18",
+   "IS_Firearm_DdMk18Black",
+   "IS_Firearm_DdMk18PL",
+   "IS_Firearm_L403A1",
+   "IS_Firearm_L403A1SG",
+   "IS_Firearm_M16A1",
+   "IS_Firearm_NornicoCQA1",
+   "IS_Firearm_SigMcx",
+   "IS_Firearm_SigMcxFDE",
+   "IS_Firearm_SigMcxGN",
+   "IS_StockAdapter_BenelliM4BufferTube",
+   "IS_StockAdapter_BenelliM4BufferTubeFDE",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapter",
+   "IS_StockAdapter_ErgoMossberg500590ARStockAdapterRT",
+   "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping",
+   "IS_StockAdapter_SvdArmacon",
+   "IS_StockAdapter_SvdArmaconSW",
+   "IS_Stock_BenelliM4Chisel",
+   "IS_Stock_BenelliM4ChiselFDE",
+   "IS_Stock_M700ModX",
+   "IS_Stock_SksMatadorArmsSabertoothMkII",
+   "IS_Stock_SksMatadorArmsSabertoothMkIIFDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_TorqueFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Type51Grips",
+  "name": "Type 51 Grip",
+  "short_name": "T51 Grip",
+  "manufacturer": "Norinco",
+  "description": "This grip is typically made of durable polymer or plastic materials, providing users with a reliable and cost-effective solution. The straightforward design offers a comfortable and secure hold on the firearm, improving control and accuracy during shooting. The basic Type 51 grip is simple yet practical, ensuring functionality and reliability without sacrificing performance.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT"
+  ],
+  "weight": "0.051 kg",
+  "grid_size": "1x1",
+  "base_price": 127.5,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 127.5
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 38.25
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "maximumShots": 3800,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_Type51",
+   "IS_Firearm_Type51Hammerhead",
+   "IS_Firearm_Type51Mako",
+   "IS_Firearm_Type51Pencil"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Type51Grips.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Type51WoodenGrip",
+  "name": "Type 51 Wooden Grip",
+  "short_name": "T51 Wood Grip",
+  "manufacturer": "General East",
+  "description": "This Type 51 Tokarev wooden grip enhances the firearm's aesthetics and functionality. Made from quality hardwood, it provides a comfortable and secure hold, promoting control and accuracy. The grip's timeless design and durable construction add both style and practicality to the pistol.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT"
+  ],
+  "weight": "0.054 kg",
+  "grid_size": "1x1",
+  "base_price": 85.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 85.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 25.5
+   }
+  ],
+  "stats": {
+   "maximumShots": 3200,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_Type51",
+   "IS_Firearm_Type51Hammerhead",
+   "IS_Firearm_Type51Mako",
+   "IS_Firearm_Type51Pencil"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Type51WoodenGrip.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Colt1911TheHiveGripsAvi",
+  "name": "Viper's Colt 1911 \"The Hive\" Grip",
+  "short_name": "B 1911 Hive Grip",
+  "manufacturer": "EGMT",
+  "description": "CNC-machined from billet aluminum, this ambidextrous grip is designed to fit full-size 1911 pistols and clones, combining durability with style.\n\nThis is a part of the Colt Commander belonging to Aawut \"Viper\" Phasuk, the leader of the armed group occupying Pha Lang Airfield.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.1911",
+   "Boss"
+  ],
+  "weight": "0.066 kg",
+  "grid_size": "1x1",
+  "base_price": 180.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 54.0
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 1.0,
+   "recoilControl": 9.0,
+   "armStaminaModifier": -1.0,
+   "maximumShots": 12100,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Colt1911TheHiveGripsAvi.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Vz61Polymer",
+  "name": "Vz. 61 Polymer Pistol Grip",
+  "short_name": "Vz. 61 Poly Grip",
+  "manufacturer": "CZ",
+  "description": "A lightweight and durable grip designed for the Vz. 61 Skorpion submachine gun. It enhances ergonomics and control for the shooter, providing comfortable and stable handling during firing.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.vz61"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 27.2,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 27.2
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 8.16
+   }
+  ],
+  "stats": {
+   "manipulationModifier": 2.0,
+   "maximumShots": 4700,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_SkorpionVz61"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Vz61Polymer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_PistolGrip_Vz61Wooden",
+  "name": "Vz. 61 Wooden Pistol Grip",
+  "short_name": "Vz. 61 Wood Grip",
+  "manufacturer": "CZ",
+  "description": "The wooden pistol grip for the Vz. 61 Skorpion submachine gun offers a classic aesthetic and ergonomic comfort. Crafted from durable wood, it evokes a traditional feel while enhancing control and handling during use.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.vz61"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 35.7,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 35.7
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 10.71
+   }
+  ],
+  "stats": {
+   "maximumShots": 5700,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_SkorpionVz61"
+  ],
+  "image": "https://gzw-data.dev/assets/items/pistol_grips/IS_PistolGrip_Vz61Wooden.webp",
+  "source": "game-files"
+ }
+]

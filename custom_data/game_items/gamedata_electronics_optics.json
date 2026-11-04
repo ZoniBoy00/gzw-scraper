@@ -1,0 +1,378 @@
+[
+ {
+  "id": "IS_NightVision_Anpvs14NightVisionMonocular",
+  "name": "AN/PVS-14 Night Vision Device",
+  "short_name": "PVS14",
+  "manufacturer": "Elbit Systems",
+  "description": "The AN/PVS-14 is a versatile monocular night vision device that has been in service with the U.S. military and NATO forces since 2000. It provides high-quality image intensification in low-light or no-light conditions.  Utilizing a single-image intensifier tube, it offers a lightweight and energy-efficient solution while maintaining compatibility with a wide range of optical and helmet-mounted systems.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.338 kg",
+  "grid_size": "1x1",
+  "base_price": 8500.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 8500.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 2550.0
+   }
+  ],
+  "stats": {
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Mount_Pvs14Arm"
+  ],
+  "image": "https://gzw-data.dev/assets/items/electronics_optics/IS_NightVision_Anpvs14NightVisionMonocular.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_NightVision_Anpvs31aNightVisionBinocular",
+  "name": "AN/PVS-31A Night Vision Device",
+  "short_name": "PVS31A",
+  "manufacturer": "L3Harris",
+  "description": "The AN/PVS-31A is a modern, lightweight, dual-tube night vision goggle (NVG) system used by the U.S. military and NATO forces. It features advanced autogated white phosphor night vision technology, offering enhanced depth perception and situational awareness compared to monocular systems like the AN/PVS-14. The dual-tube design allows each eye to have its own image intensification tube, providing a more natural and immersive field of view.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.45 kg",
+  "grid_size": "2x1",
+  "base_price": 19500.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 19500.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 5850.0
+   }
+  ],
+  "stats": {
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Mount_L4G24HelmetNvgMount"
+  ],
+  "image": "https://gzw-data.dev/assets/items/electronics_optics/IS_NightVision_Anpvs31aNightVisionBinocular.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_NightVision_Anpvs7",
+  "name": "AN/PVS-7 Night Vision Device",
+  "short_name": "PVS7",
+  "manufacturer": "L3Harris",
+  "description": "The AN/PVS-7 is a single-tube night vision biocular system, which means that although it features two eyepieces, the image is generated from a single tube, giving the user depth perception with reduced weight and complexity. Developed in 1982 and fielded in 1988, the AN/PVS-7, despite its age, remains commonly used by the United States Armed Forces, as well as several other militaries worldwide.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.68 kg",
+  "grid_size": "2x1",
+  "base_price": 6352.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 6352.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1905.6
+   }
+  ],
+  "stats": {
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Mount_Rhino_HelmetNVGMount"
+  ],
+  "image": "https://gzw-data.dev/assets/items/electronics_optics/IS_NightVision_Anpvs7.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_NightVision_DT2_BlackMulticam",
+  "name": "DT-2 NGS Edition Night Vision Device (Multicam Black)",
+  "short_name": "DT2 B",
+  "manufacturer": "KB Europe",
+  "description": "The DT-2 was designed by the original designer of the DTNVG. An upgrade to the original design, the DT-2 is a lightweight yet robust device with high-quality internal components. Assembled and wrapped by Night Gear Solutions in Slovakia, this special edition offers additional protection against scratches and mechanical damage.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.56 kg",
+  "grid_size": "2x1",
+  "base_price": 25000.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 7500.0
+   }
+  ],
+  "stats": {
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Mount_L4G24HelmetNvgMount"
+  ],
+  "image": "https://gzw-data.dev/assets/items/electronics_optics/IS_NightVision_DT2_BlackMulticam.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_NightVision_DT2_Multicam",
+  "name": "DT-2 NGS Edition Night Vision Device (Multicam)",
+  "short_name": "DT2 M",
+  "manufacturer": "KB Europe",
+  "description": "The DT-2 was designed by the original designer of the DTNVG. An upgrade to the original design, the DT-2 is a lightweight yet robust device with high-quality internal components. Assembled and wrapped by Night Gear Solutions in Slovakia, this special edition offers additional protection against scratches and mechanical damage.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.56 kg",
+  "grid_size": "2x1",
+  "base_price": 23500.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 23500.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 7050.0
+   }
+  ],
+  "stats": {
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Mount_L4G24HelmetNvgMount"
+  ],
+  "image": "https://gzw-data.dev/assets/items/electronics_optics/IS_NightVision_DT2_Multicam.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rangefinder_M1050Lrf",
+  "name": "M1050 LRF Rangefinder",
+  "short_name": "M1050 LRF",
+  "manufacturer": "Steiner",
+  "description": "The M1050R LRF combines the proven optical clarity of the M1050 binoculars with precise, reliable range-finding capabilities. Built for military personnel and tactical units, it delivers critical distance data in demanding environments.",
+  "type": "Gear.Rangefinder",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "1.27 kg",
+  "grid_size": "2x1",
+  "base_price": 3676.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 3676.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1102.8
+   }
+  ],
+  "stats": {
+   "zoomLevel": 10.0,
+   "lensDiameter": 2.0,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/electronics_optics/IS_Rangefinder_M1050Lrf.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Binocular_M1050R",
+  "name": "M1050R Binoculars",
+  "short_name": "M1050R",
+  "manufacturer": "Steiner",
+  "description": "The M1050R binoculars are built to withstand extreme conditions while delivering clear, sharp images. Their proven reliability and rugged construction have made them a popular choice among armed forces worldwide.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x1",
+  "base_price": 2573.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 2573.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 771.9
+   }
+  ],
+  "stats": {
+   "zoomLevel": 10.0,
+   "lensDiameter": 3.8,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/electronics_optics/IS_Binocular_M1050R.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Binocular_M830R",
+  "name": "M830R Binoculars",
+  "short_name": "M830R",
+  "manufacturer": "Steiner",
+  "description": "The M830R binoculars are widely used by armed forces around the world. Their rugged construction is built to withstand even the harshest field conditions.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.53 kg",
+  "grid_size": "2x1",
+  "base_price": 1470.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 1,
+    "price": 1470.0
+   }
+  ],
+  "sold_by": "Banshee R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 441.0
+   }
+  ],
+  "stats": {
+   "zoomLevel": 8.0,
+   "lensDiameter": 3.0,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/electronics_optics/IS_Binocular_M830R.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Binocular_TriumphHd",
+  "name": "Triumph HD Binoculars",
+  "short_name": "Triumph",
+  "manufacturer": "Vortex optics",
+  "description": "The Triumph HD binoculars provide reliable and solid performance for hunters, hikers, and other outdoor enthusiasts.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.65 kg",
+  "grid_size": "2x1",
+  "base_price": 1801.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 1801.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 540.3
+   }
+  ],
+  "stats": {
+   "zoomLevel": 10.0,
+   "lensDiameter": 3.0,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/electronics_optics/IS_Binocular_TriumphHd.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_ChestFlashlight_RussianVintage",
+  "name": "Vintage body flashlight",
+  "short_name": "Body Flashlight",
+  "description": " ",
+  "tags": [
+   "Secured",
+   "NotForStatistics"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 1.0,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.3
+   }
+  ],
+  "source": "game-files"
+ }
+]

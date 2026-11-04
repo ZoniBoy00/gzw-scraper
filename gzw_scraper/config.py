@@ -43,6 +43,10 @@ DEFAULT_CONFIG: Dict[str, Any] = {
         "enabled": True,
         "path": "custom_data/game_data_corrections.json",
     },
+    "game_datasets": {
+        "enabled": True,
+        "directory": "custom_data/game_items",
+    },
     "output": {
         "directory": "data",
         "backup_directory": "data_backup",
@@ -233,7 +237,14 @@ def apply_settings(config_path: Path = CONFIG_PATH) -> None:
 
     # Imported lazily to avoid circular imports (network/pipeline/storage
     # read their settings from this module).
-    from gzw_scraper import community_prices, game_data_corrections, network, pipeline, storage  # noqa: PLC0415
+    from gzw_scraper import (  # noqa: PLC0415
+        community_prices,
+        game_data_corrections,
+        game_datasets,
+        network,
+        pipeline,
+        storage,
+    )
 
     cfg = load_config(config_path)
     CONFIG = cfg
@@ -281,6 +292,10 @@ def apply_settings(config_path: Path = CONFIG_PATH) -> None:
     corrections_config = cfg["game_data_corrections"]
     game_data_corrections.ENABLED = bool(corrections_config["enabled"])
     game_data_corrections.PATH = root / corrections_config["path"]
+
+    datasets_config = cfg["game_datasets"]
+    game_datasets.ENABLED = bool(datasets_config["enabled"])
+    game_datasets.DIR = root / datasets_config["directory"]
 
     storage.OUTPUT_DIR = root / output_config["directory"]
     storage.BACKUP_DIR = root / output_config["backup_directory"]

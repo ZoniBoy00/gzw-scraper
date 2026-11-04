@@ -1,0 +1,6442 @@
+[
+ {
+  "id": "IS_Intel_PROP_GovSymbolOfCourage",
+  "name": "A Symbol of Courage",
+  "short_name": "PROP SC",
+  "manufacturer": "General Local",
+  "description": "Government propaganda pamphlet.",
+  "type": "Intel.PropagandaPamphlet",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PROP_GovSymbolOfCourage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_ArmoryCode",
+  "name": "AMMO-STATREP-04C",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_ArmoryCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_AngerPmcDiary",
+  "name": "Angered PMC’s Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_AngerPmcDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_BanPaWarehouseCode",
+  "name": "Angry Message",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_BanPaWarehouseCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_KiuVongsaApplicationResult",
+  "name": "Application Result",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "Faction.Player.Gamma"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_KiuVongsaApplicationResult.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_NamThavenApplicationResult",
+  "name": "Application Result",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "Faction.Player.Beta"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_NamThavenApplicationResult.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_PhaLangApplicationResult",
+  "name": "Application Result",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "Faction.Player.Alpha"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_PhaLangApplicationResult.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_AppointmentNotice",
+  "name": "Appointment Notice",
+  "short_name": "FL ANot",
+  "manufacturer": "General Local",
+  "description": "Contains a few details about the new commander of Fort Narith. It looks like he was appointed just a few months prior to the Event, and is not from Lamang.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_AppointmentNotice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_ArrestWarrantSH",
+  "name": "Arrest Warrant SH",
+  "short_name": "PAP AWSH",
+  "manufacturer": "General Local",
+  "description": "An arrest warrant for Artisan's former colleague.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_ArrestWarrantSH.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_ATCCode",
+  "name": "ATC-SEC-7B/2026",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_ATCCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_LET_AuliisLetter",
+  "name": "Aulii's Letter",
+  "short_name": "LET Aul",
+  "manufacturer": "General Local",
+  "description": "This letter contains a heartfelt goodbye and an explanation of the man's actions - he offered himself as a human target in order to provide for his family.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_LET_AuliisLetter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_BCBanPaMap",
+  "name": "Ban Pa Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_BCBanPaMap.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_BanSukCodeBook",
+  "name": "Ban Suk Code Book",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_BanSukCodeBook.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_BaronsOrder",
+  "name": "Baron's Order",
+  "short_name": "PAP BOr",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_BaronsOrder.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_BelieversList",
+  "name": "Believers List",
+  "short_name": "PAP BeLi",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_BelieversList.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_BlackBoxCode",
+  "name": "Black Box Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_BlackBoxCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_BlackBoxNote",
+  "name": "Black Box Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_BlackBoxNote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_BloodyListOfPeople",
+  "name": "Bloody List of People",
+  "short_name": "PAP BLis",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_BloodyListOfPeople.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_BCBlueLagoonMap",
+  "name": "Blue Lagoon Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_BCBlueLagoonMap.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_NorthernReachStartupProcedure",
+  "name": "BR-417\nStart-up Procedure",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_NorthernReachStartupProcedure.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_BragThugDiary",
+  "name": "Bragging Thug’s Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_BragThugDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_BritishListOfPeople",
+  "name": "British List of People",
+  "short_name": "PAP BrLi",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_BritishListOfPeople.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_BunkerCode",
+  "name": "Bunker Code",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_BunkerCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_DirNote_ButchersNote",
+  "name": "Butcher's Job Note",
+  "short_name": "NOTE But",
+  "manufacturer": "General Local",
+  "description": "A dirty little paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_DirNote_ButchersNote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_CallUpOrder",
+  "name": "Call-Up Order",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_CallUpOrder.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_CarRepairOfficeCode",
+  "name": "Car Repair Office Code",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_CarRepairOfficeCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_CivilianExposureAnalysis",
+  "name": "Civilian Exposure Analysis",
+  "short_name": "FL CAn",
+  "manufacturer": "General Local",
+  "description": "Medical records from the Fort Narith infirmary",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_CivilianExposureAnalysis.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_ClassifiedPharmaceuticalContract",
+  "name": "Classified Pharmaceutical Contract",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_ClassifiedPharmaceuticalContract.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_ClassifiedPharmaceuticalContractCounterpart",
+  "name": "Classified Pharmaceutical Contract Counterpart",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_ClassifiedPharmaceuticalContractCounterpart.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_AsylumCodeInstructions",
+  "name": "Code Instructions",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_AsylumCodeInstructions.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_RLSLCommandersJournal",
+  "name": "Commander's Journal",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_RLSLCommandersJournal.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_KiuVongsaConvictsNotepad",
+  "name": "Convict's Notepad",
+  "short_name": "Notepad",
+  "manufacturer": "General Local",
+  "description": "A notepad belonging to one of the criminals who got left behind on the island.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "QuestItem",
+   "Faction.Player.Gamma"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_KiuVongsaConvictsNotepad.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_NamThavenConvictsNotepad",
+  "name": "Convict's Notepad",
+  "short_name": "Notepad",
+  "manufacturer": "General Local",
+  "description": "A notepad belonging to one of the criminals who got left behind on the island.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "QuestItem",
+   "Faction.Player.Beta"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_NamThavenConvictsNotepad.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_PhaLangConvictsNotepad",
+  "name": "Convict's Notepad",
+  "short_name": "Notepad",
+  "manufacturer": "General Local",
+  "description": "A notepad belonging to one of the criminals who got left behind on the island.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "QuestItem",
+   "Faction.Player.Alpha"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_PhaLangConvictsNotepad.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_CrooksDiary",
+  "name": "Crook's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_CrooksDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_Current_Orders",
+  "name": "Current Orders",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_Current_Orders.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_DeathSentence",
+  "name": "Death Sentence",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_DeathSentence.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_DevelopersFolder",
+  "name": "Developer's Folder",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_DevelopersFolder.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_DiaryOfHabits",
+  "name": "Diary of Habits",
+  "short_name": "NB Hab",
+  "manufacturer": "General Local",
+  "description": "A diary of one of the villagers from Ban Pa.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_DiaryOfHabits.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_MallUNLabStorCode",
+  "name": "Disillusioned Peacekeeper's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_MallUNLabStorCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_DisidentTreasure",
+  "name": "Dissident’s Treasure Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_DisidentTreasure.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_KiuVongsaDoctorsDiary",
+  "name": "Doctor's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "Faction.Player.Gamma"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_KiuVongsaDoctorsDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_NamThavenDoctorsDiary",
+  "name": "Doctor's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "Faction.Player.Beta"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_NamThavenDoctorsDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_PhaLangDoctorsDiary",
+  "name": "Doctor's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "Faction.Player.Alpha"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_PhaLangDoctorsDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_DoctorsNotes",
+  "name": "Doctor's Notes",
+  "short_name": "NB Doc",
+  "manufacturer": "General Local",
+  "description": "A medical log detailing rapid tissue degradation in two individuals returning from Ground Zero.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_DoctorsNotes.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_ResearchSiteHQRepairReport",
+  "name": "Door Console Repair Report",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_ResearchSiteHQRepairReport.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_DortmundersDebt",
+  "name": "Dortmunder's Debt",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_DortmundersDebt.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_DrKhaeNotes",
+  "name": "Dr. Khae's Notes",
+  "short_name": "Notes",
+  "manufacturer": "General Local",
+  "description": "Research notes documenting Dr. Khae's experiments on patients exposed to material recovered from Ground Zero.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_DrKhaeNotes.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_DrKhaeJournal",
+  "name": "Dr. Khae’s Journal",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_DrKhaeJournal.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_DrugOPMessage",
+  "name": "Drug Op Message",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_DrugOPMessage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_DurationBet",
+  "name": "Duration Bet",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_DurationBet.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_EmbassyMessage",
+  "name": "Embassy Message",
+  "short_name": "PAP EMes",
+  "manufacturer": "General Local",
+  "description": "A profanity-laced letter accusing Russian officials of covert involvement in Lamang.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_EmbassyMessage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_EncryptedLogbook",
+  "name": "Encrypted Logbook",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_EncryptedLogbook.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_EncryptedNotes",
+  "name": "Encrypted Notebook",
+  "short_name": "NB Enc",
+  "manufacturer": "General Local",
+  "description": "An encrypted notebook with various logins and passwords.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_EncryptedNotes.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_EnilghtenedWritersJournal",
+  "name": "Enlightened Writer's Journal",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_EnilghtenedWritersJournal.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_EvacRestrictionsMemorandum",
+  "name": "Evacuation Restrictions Memorandum",
+  "short_name": "FL EvacRes",
+  "manufacturer": "General Local",
+  "description": "A confidential memorandum ordering evacuation restrictions for designated villages.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_EvacRestrictionsMemorandum.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_EventAffectedPopulation",
+  "name": "Event - Affected Population",
+  "short_name": "FL APo",
+  "manufacturer": "General Local",
+  "description": "Contains information about the medical state of all the people entering the UNLRA refugee camp.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_EventAffectedPopulation.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_RLSLExperiment",
+  "name": "Experiment 17-B",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_RLSLExperiment.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_FahsDiary",
+  "name": "Fah's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_FahsDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_FarmersDiary",
+  "name": "Farmer's Diary",
+  "short_name": "NB Farm",
+  "manufacturer": "General Local",
+  "description": "A diary describing a group of farmers struggling to survive after being left behind during the evacuation.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_FarmersDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_FlemingsFile",
+  "name": "Fleming's File",
+  "short_name": "FL Flem",
+  "manufacturer": "General Local",
+  "description": "A government file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_FlemingsFile.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_FNCommanderInvestigation",
+  "name": "FN Commander Investigation",
+  "short_name": "FL CIn",
+  "manufacturer": "General Local",
+  "description": "This folder contains details of the exchange, the budget and the goods being traded. Somebody gained a lot of money from this deal, and the LAF got barely functional training jets.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_FNCommanderInvestigation.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_Folder00616",
+  "name": "Folder 00616",
+  "short_name": "FL 616",
+  "manufacturer": "General Local",
+  "description": "A personal folder numbered 00616 on Nuon Bintang. Apparently, he was Fort Narith's former commander and was dishonorably discharged for a multitude of very shady deals.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_Folder00616.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_Folder193",
+  "name": "Folder 193",
+  "short_name": "FL 193",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_Folder193.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_Folder251",
+  "name": "Folder 251",
+  "short_name": "FL 251",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_Folder251.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_Folder712",
+  "name": "Folder 712",
+  "short_name": "FL 712",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_Folder712.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_FortNarSerRoomCode",
+  "name": "Forgetful Soldier's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_FortNarSerRoomCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_BCFortNarithMap",
+  "name": "Fort Narith Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_BCFortNarithMap.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_FreshMeat",
+  "name": "Fresh Meat Delivery",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_FreshMeat.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_LET_NTFriendsLetter",
+  "name": "Friend's Letter",
+  "short_name": "LET FrL",
+  "manufacturer": "General Local",
+  "description": "A strange letter full of suspicious passages.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_LET_NTFriendsLetter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_LET_PLFriendsLetter",
+  "name": "Friend's Letter",
+  "short_name": "LET FrL",
+  "manufacturer": "General Local",
+  "description": "A strange letter with suspicious text.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_LET_PLFriendsLetter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_FundeesDiary",
+  "name": "Fundee's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_FundeesDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_GangmembersNotes",
+  "name": "Gangmembers's Notes",
+  "short_name": "NB Gang",
+  "manufacturer": "General Local",
+  "description": "A missing parts list for marine repairs, accompanied by frantic remarks about fuel shortages and incoming threats.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_GangmembersNotes.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_GarageEvacList",
+  "name": "Garage Evac List",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An UNLRA file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_GarageEvacList.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_GeneratorStartupInstructions",
+  "name": "Generator Startup Instructions",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_GeneratorStartupInstructions.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_GentlemansWager",
+  "name": "Gentleman's Wager",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_GentlemansWager.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_LET_GeorgesLoveLetter",
+  "name": "George's Love Letter",
+  "short_name": "LET Lae",
+  "manufacturer": "General Local",
+  "description": "A letter.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_LET_GeorgesLoveLetter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_GolfClubSafeCode",
+  "name": "Golf Club - Office Safe Procedures",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_GolfClubSafeCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_BluLagLifeOfficeCode",
+  "name": "Good Decision",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_BluLagLifeOfficeCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_BCGroundZeroMap",
+  "name": "Ground Zero Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_BCGroundZeroMap.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_GrumblingNote",
+  "name": "Grumbling Note",
+  "short_name": "PAP GNot",
+  "manufacturer": "General Local",
+  "description": "A note detailing preparations for the Midnight Sapphire operation, mentioning supply shortages, a contact in Hanoi, and growing pressure from new armed groups.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_GrumblingNote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_HarvestDisciplineNotice",
+  "name": "Harvest Discipline Notice",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_HarvestDisciplineNotice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_YBLHoldCellCode",
+  "name": "Holding Cells Security Protocols",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_YBLHoldCellCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_BCHuntersParadiseMap",
+  "name": "Hunter's Paradise Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_BCHuntersParadiseMap.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_MSVillaEllenaImpNotice",
+  "name": "Important Notice!",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MSVillaEllenaImpNotice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_AsylumEvacReport",
+  "name": "Incident and Evacuation Report",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_AsylumEvacReport.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_IncidentReport11475",
+  "name": "Incident Report 11475",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_IncidentReport11475.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_InfirmaryCode",
+  "name": "Infirmary Code",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_InfirmaryCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_SawWCCode",
+  "name": "Interrogation Notes",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_SawWCCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_InterrogationPr23",
+  "name": "Interrogation Pr 23",
+  "short_name": "FL IPri",
+  "manufacturer": "General Local",
+  "description": "This folder contains information about prisoner 23. He was processed here and transported to an unknown location.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_InterrogationPr23.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_InterrogationWC",
+  "name": "Interrogation Report",
+  "short_name": "PAP IWC",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_InterrogationWC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_InterrogationSH",
+  "name": "Interrogation SH",
+  "short_name": "FL ISH",
+  "manufacturer": "General Local",
+  "description": "A transcript of the local mechanic's interrogation.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_InterrogationSH.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_AsylumInterrogationNotes",
+  "name": "Interrogation transcript",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_AsylumInterrogationNotes.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_InterrogationUC",
+  "name": "Interrogation UC",
+  "short_name": "FL IUC",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_InterrogationUC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_JaiTansSentence",
+  "name": "Jai Tan's Sentence",
+  "short_name": "PAP JTan",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_JaiTansSentence.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_JungleBasesNote",
+  "name": "Jungle Bases Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_JungleBasesNote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_DirNote_KillList",
+  "name": "Kill List",
+  "short_name": "NOTE KL",
+  "manufacturer": "General Local",
+  "description": "A dirty little paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_DirNote_KillList.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_KingsDiary",
+  "name": "King's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_KingsDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_KingsHenchmenNote",
+  "name": "King's Henchman Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_KingsHenchmenNote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_KobsFile",
+  "name": "Kob's File",
+  "short_name": "FL Kob",
+  "manufacturer": "General Local",
+  "description": "A government file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_KobsFile.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_LaborAllocationRequest",
+  "name": "Labor Allocation Request",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_LaborAllocationRequest.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_LET_LaesLoveLetter",
+  "name": "Lae's Love Letter",
+  "short_name": "LET Stal",
+  "manufacturer": "General Local",
+  "description": "A letter.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_LET_LaesLoveLetter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_LAFCBRNReport",
+  "name": "LAF CBRN Report",
+  "short_name": "FL BRep",
+  "manufacturer": "General Local",
+  "description": "An LAF situation report documenting the Phousai Village incident.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_LAFCBRNReport.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_LAFCodebook",
+  "name": "LAF Codebook",
+  "short_name": "FL Code",
+  "manufacturer": "General Local",
+  "description": "A classified document outlining coded communication protocols for an ongoing operation.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_LAFCodebook.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_AsylumLAFDocumen",
+  "name": "LAF Document",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_AsylumLAFDocumen.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_LAFOPDocs",
+  "name": "LAF OP Docs",
+  "short_name": "FL ODoc",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_LAFOPDocs.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_LAFSupplyStatus",
+  "name": "LAF Supply Status",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_LAFSupplyStatus.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_LAFUNLRADeal",
+  "name": "LAF UNLRA Deal",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_LAFUNLRADeal.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_LET_LetterOfRegret",
+  "name": "Letter of Regret",
+  "short_name": "LET Reg",
+  "manufacturer": "General Local",
+  "description": "A letter.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_LET_LetterOfRegret.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_LiebertsDiary",
+  "name": "Liebert's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_LiebertsDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_ListOfChildEvacuees1",
+  "name": "List of Child Evacuees 1",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An UNLRA file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_ListOfChildEvacuees1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_ListOfChildEvacuees2",
+  "name": "List of Child Evacuees 2",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An UNLRA file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_ListOfChildEvacuees2.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_LLAChosenPropaganda",
+  "name": "LLA Chosen Propaganda",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_LLAChosenPropaganda.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_LLAHostageNote",
+  "name": "LLA Hostage Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_LLAHostageNote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_LLAInternalComms",
+  "name": "LLA Internal Comms",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_LLAInternalComms.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_YBLOutsideStorageCode",
+  "name": "LLA IT Report",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_YBLOutsideStorageCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_LLAOperationalNote",
+  "name": "LLA Operational Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_LLAOperationalNote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PROP_LLAForeignInvasion",
+  "name": "LLA Propaganda - Foreign Invasion",
+  "short_name": "PROP FI",
+  "manufacturer": "General Local",
+  "description": "LLA propaganda pamphlet.",
+  "type": "Intel.PropagandaPamphlet",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PROP_LLAForeignInvasion.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PROP_LLANewEra",
+  "name": "LLA Propaganda - New Era",
+  "short_name": "PROP NE",
+  "manufacturer": "General Local",
+  "description": "LLA propaganda pamphlet.",
+  "type": "Intel.PropagandaPamphlet",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PROP_LLANewEra.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PROP_LLARecruitmentCriminals",
+  "name": "LLA Propaganda - Recruitment of Criminals",
+  "short_name": "PROP RC",
+  "manufacturer": "General Local",
+  "description": "LLA propaganda pamphlet.",
+  "type": "Intel.PropagandaPamphlet",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PROP_LLARecruitmentCriminals.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_LLARadioTakeover",
+  "name": "LLA Radio Takeover",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_LLARadioTakeover.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_LLARecruitmentDirective",
+  "name": "LLA Recruitment Directive",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_LLARecruitmentDirective.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_LLASituationUpdate",
+  "name": "LLA Situation Update",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_LLASituationUpdate.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_LLAStrategicDirective",
+  "name": "LLA Strategic Directive",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_LLAStrategicDirective.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_LocalsDiaryFrogs",
+  "name": "Local's Diary - Frogs",
+  "short_name": "NB Frog",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_LocalsDiaryFrogs.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_RLSLLockdownProcedure",
+  "name": "Lockdown Release Procedure",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_RLSLLockdownProcedure.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_LockedToolsCode",
+  "name": "Locked Tools Code",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_LockedToolsCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_DrugOrders",
+  "name": "Logbook",
+  "short_name": "NB LogB",
+  "manufacturer": "General Local",
+  "description": "Contains information about the past activities of the group formerly residing in Ban Pa.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_DrugOrders.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_LostTouristsDiary",
+  "name": "Lost Tourist's Diary",
+  "short_name": "NB OMG",
+  "manufacturer": "General Local",
+  "description": "Contains details on the tourist's plans and confirms her identity. She met some guys who like to party and got invited to their \"special place.\" No more entries after that...",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_LostTouristsDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SmallTownLumberOffice",
+  "name": "Lumberyard Office Code",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SmallTownLumberOffice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_LunaticsDiary",
+  "name": "Lunatic's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_LunaticsDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_MadmansNote1",
+  "name": "Madman's Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MadmansNote1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_MadmansNote2",
+  "name": "Madman's Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MadmansNote2.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_MadmansNote3",
+  "name": "Madman's Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MadmansNote3.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_MadmansNote4",
+  "name": "Madman's Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MadmansNote4.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_MadmansNote5",
+  "name": "Madman's Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MadmansNote5.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_DirNote_MalevolentMessage",
+  "name": "Malevolent Message",
+  "short_name": "NOTE MM",
+  "manufacturer": "General Local",
+  "description": "A dirty little paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_DirNote_MalevolentMessage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_MandatoryInfirmary",
+  "name": "Mandatory Infirmary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MandatoryInfirmary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_MedicsDiary",
+  "name": "Medic's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_MedicsDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_AnalysisPaper",
+  "name": "Medical Analysis",
+  "short_name": "Analysis",
+  "manufacturer": "General Local",
+  "description": "A medical analysis documenting the biological changes observed in patients exposed to material recovered from Ground Zero.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_AnalysisPaper.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_NorthernReachMedicalRecords",
+  "name": "Medical Records",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_NorthernReachMedicalRecords.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_AsylumMedicalWasteDisposal",
+  "name": "Medical Waste Disposal Protocol",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_AsylumMedicalWasteDisposal.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_MessageForNithan",
+  "name": "Message for Nithan",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MessageForNithan.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_MessageForRepairers",
+  "name": "Message for Repairers",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MessageForRepairers.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_DirNote_MessageDespair",
+  "name": "Message of Despair",
+  "short_name": "NOTE MD",
+  "manufacturer": "General Local",
+  "description": "A dirty little paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_DirNote_MessageDespair.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_BCMidnightSapphireMap",
+  "name": "Midnight Sapphire Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_BCMidnightSapphireMap.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_MobListOfPeople",
+  "name": "Mob List of People",
+  "short_name": "PAP MLis",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MobListOfPeople.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_MotelOwnerDiary",
+  "name": "Motel Owner’s Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_MotelOwnerDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_MSVIPWellnessProgramForm",
+  "name": "MS VIP Wellness Program Form",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_MSVIPWellnessProgramForm.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_MSVIPWellnessProgramMenu",
+  "name": "MS VIP Wellness Program Menu",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MSVIPWellnessProgramMenu.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_MSWorkersDiary",
+  "name": "MS Worker's Diary",
+  "short_name": "NB MSWo",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_MSWorkersDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_MysteriousCodebook",
+  "name": "Mysterious Codebook",
+  "short_name": "Codebook",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_MysteriousCodebook.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_NamsFolder",
+  "name": "Nam's Folder",
+  "short_name": "FL Nam",
+  "manufacturer": "General Local",
+  "description": "A message denying reinforcements and urging someone named “Nam” to secure Midnight Sapphire quickly.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_NamsFolder.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_NewFNCommandersReport",
+  "name": "New FN Commander's Report",
+  "short_name": "FL CRe",
+  "manufacturer": "General Local",
+  "description": "A file containing a suspicious report written by the current commander of Fort Narith.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_NewFNCommandersReport.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_10YearsOfIndependent",
+  "name": "Newspaper - 10 Years of Independent Lamang",
+  "short_name": "17/08/58",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_10YearsOfIndependent.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_50YearsFromJapan",
+  "name": "Newspaper - 50 Years Since Liberation from Japan",
+  "short_name": "16/09/95",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_50YearsFromJapan.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_AnotherBitesTheDust",
+  "name": "Newspaper - Another Monarch Bites the Dust",
+  "short_name": "09/09/22",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_AnotherBitesTheDust.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_CaptureOfATraitor",
+  "name": "Newspaper - Capture of a Traitor",
+  "short_name": "19/04/24",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_CaptureOfATraitor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_CivilWarEruptsInLamang",
+  "name": "Newspaper - Civil War Erupts in Lamang",
+  "short_name": "20/07/68",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_CivilWarEruptsInLamang.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_CovidHitsLamangHard",
+  "name": "Newspaper - Covid Hits Lamang Hard",
+  "short_name": "06/06/20",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_CovidHitsLamangHard.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_DisappearanceStuKupfer",
+  "name": "Newspaper - Disappearance of Stuart Kupferhower",
+  "short_name": "05/12/25",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_DisappearanceStuKupfer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_DissolutionOfSovietUnion",
+  "name": "Newspaper - Dissolution of the Soviet Union",
+  "short_name": "27/12/91",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_DissolutionOfSovietUnion.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_ElectionResults",
+  "name": "Newspaper - Election Results",
+  "short_name": "21/02/21",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_ElectionResults.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_FriendshipAmongNations",
+  "name": "Newspaper - Friendship Among Nations",
+  "short_name": "15/01/70",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_FriendshipAmongNations.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_FriendshipWithUSSR",
+  "name": "Newspaper - Friendship with the USSR in Perpetuity",
+  "short_name": "04/10/85",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_FriendshipWithUSSR.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_NSayavong50Birthday",
+  "name": "Newspaper - Glorious Leader Narith Sayavong Celebrates 50th Birthday",
+  "short_name": "01/08/18",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_NSayavong50Birthday.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_HonoringBestWorkers",
+  "name": "Newspaper - Honoring the Best Workers",
+  "short_name": "02/05/16",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_HonoringBestWorkers.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_HorrorsOfSurvivors",
+  "name": "Newspaper - Horrors of the Survivors",
+  "short_name": "13/12/25",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_HorrorsOfSurvivors.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_InsurrectionAverted",
+  "name": "Newspaper - Insurrection Averted!",
+  "short_name": "22/09/02",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_InsurrectionAverted.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_LamangAwakens",
+  "name": "Newspaper - Lamang Awakens",
+  "short_name": "22/01/26",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_LamangAwakens.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_EscapeesSpeakOut",
+  "name": "Newspaper - Lamang Escapees Speak Out",
+  "short_name": "04/12/24",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_EscapeesSpeakOut.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_IndependenceFromBritish",
+  "name": "Newspaper - Lamang Secures Independence from British Rule",
+  "short_name": "17/08/48",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_IndependenceFromBritish.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_LamangsUnderRising",
+  "name": "Newspaper - Lamang’s Underworld Rising",
+  "short_name": "08/02/23",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_LamangsUnderRising.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_MysteriesRegardingEvent",
+  "name": "Newspaper - Mysteries Regarding The Event",
+  "short_name": "15/12/25",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_MysteriesRegardingEvent.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_MysteriousExplosion",
+  "name": "Newspaper - Mysterious Explosion",
+  "short_name": "25/11/25",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_MysteriousExplosion.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_MysteriousLights",
+  "name": "Newspaper - Mysterious Lights",
+  "short_name": "17/08/20",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_MysteriousLights.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_NationalCuisineTigerBay",
+  "name": "Newspaper - National Cuisine in Tiger Bay Central",
+  "short_name": "06/09/23",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_NationalCuisineTigerBay.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_NeverAgain",
+  "name": "Newspaper - Never Again!",
+  "short_name": "14/02/24",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_NeverAgain.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_NewPlaygroundForElite",
+  "name": "Newspaper - New Playground for the Elite",
+  "short_name": "13/01/25",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_NewPlaygroundForElite.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_OpeningOfFortRaksmei",
+  "name": "Newspaper - Opening of Fort Raksmei",
+  "short_name": "02/05/75",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_OpeningOfFortRaksmei.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_ParadiseFound",
+  "name": "Newspaper - Paradise Found",
+  "short_name": "14/11/25",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_ParadiseFound.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_PlansForTheFuture",
+  "name": "Newspaper - Plans For The Future",
+  "short_name": "26/06/96",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_PlansForTheFuture.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_PresidentDiscoversVase",
+  "name": "Newspaper - President Discovers Ancient Vase",
+  "short_name": "01/07/05",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_PresidentDiscoversVase.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_RaksmeiSayavong",
+  "name": "Newspaper - Raksmei Sayavong (1924-1996)",
+  "short_name": "23/06/96",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_RaksmeiSayavong.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_RebelsSeizeControl",
+  "name": "Newspaper - Rebel Forces Seize Control in Lamang",
+  "short_name": "08/10/68",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_RebelsSeizeControl.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_RedsSeizeACountry",
+  "name": "Newspaper - Reds Seize Another Country!",
+  "short_name": "20/01/70",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_RedsSeizeACountry.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_SafetySecured",
+  "name": "Newspaper - Safety Secured",
+  "short_name": "20/01/20",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_SafetySecured.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_SlaversShutDown",
+  "name": "Newspaper - Slavers Shut Down",
+  "short_name": "02/12/24",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_SlaversShutDown.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_SuburbsControversy",
+  "name": "Newspaper - Suburbs Controversy",
+  "short_name": "20/10/19",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_SuburbsControversy.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_TerroristAttackFortNarith",
+  "name": "Newspaper - Terrorist Attack Near Fort Narith",
+  "short_name": "07/09/17",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_TerroristAttackFortNarith.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_MidnightSapphireMiracle",
+  "name": "Newspaper - The Midnight Sapphire Miracle",
+  "short_name": "11/03/09",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_MidnightSapphireMiracle.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_ThreeHundredthAnn",
+  "name": "Newspaper - The Three Hundredth Anniversary",
+  "short_name": "12/10/93",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_ThreeHundredthAnn.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_UNAllowingLiesToSpread",
+  "name": "Newspaper - The UN Is Allowing Lies to Spread",
+  "short_name": "23/03/24",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_UNAllowingLiesToSpread.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_TheWorldIsWatching",
+  "name": "Newspaper - The World is Watching",
+  "short_name": "15/01/25",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_TheWorldIsWatching.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_TheresNoReasonToPanic",
+  "name": "Newspaper - There's no Reason to Panic",
+  "short_name": "26/11/25",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_TheresNoReasonToPanic.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_TrialOfNationsTraitors",
+  "name": "Newspaper - Trial of the Nation's Traitors",
+  "short_name": "05/12/68",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_TrialOfNationsTraitors.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_UNConcludesEvacuation",
+  "name": "Newspaper - UN Concludes Lamang Evacuation",
+  "short_name": "02/12/25",
+  "manufacturer": "General Local",
+  "description": "Foreign newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_UNConcludesEvacuation.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_UnitedNationsMission",
+  "name": "Newspaper - United Nations Mission",
+  "short_name": "13/07/25",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_UnitedNationsMission.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NEWS_WeDontForgetElderly",
+  "name": "Newspaper - We Don’t Forget the Elderly in Lamang",
+  "short_name": "20/09/24",
+  "manufacturer": "General Local",
+  "description": "Local newspaper.",
+  "type": "Intel.Newspaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NEWS_WeDontForgetElderly.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_NonEvacHouseholds",
+  "name": "Non-Evacuable Households Summary",
+  "short_name": "FL NonEvac",
+  "manufacturer": "General Local",
+  "description": "A restricted report listing households designated as non-evacuable under internal directives.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_NonEvacHouseholds.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_NorthernReachAdministration",
+  "name": "NR ADMIN 214-4/2026",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_NorthernReachAdministration.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_NorthernReachExperimentsSchedule",
+  "name": "NR EX-487/78B",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_NorthernReachExperimentsSchedule.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_NorthernReachSituationReport",
+  "name": "NR SITREP 623-5/2026",
+  "short_name": "NR Sitrep",
+  "manufacturer": "General Local",
+  "description": "A Northern Reach situation report detailing the site's current operational status and recent incidents involving Ground Zero expeditions.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_NorthernReachSituationReport.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_NursesJournal",
+  "name": "Nurse’s Journal",
+  "short_name": "Journal",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_NursesJournal.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_LET_OfficialComplaint",
+  "name": "Official Complaint",
+  "short_name": "LET Com",
+  "manufacturer": "General Local",
+  "description": "A letter.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_LET_OfficialComplaint.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_PLOfficialLAFDocument",
+  "name": "Official LAF Document",
+  "short_name": "FL OfDoc",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_PLOfficialLAFDocument.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_ParkerFile",
+  "name": "Parker File",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_ParkerFile.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_PartingNote",
+  "name": "Parting Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_PartingNote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_AsylumPatientDetals",
+  "name": "Patient Details",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_AsylumPatientDetals.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_ResearchSite_MedicalReport",
+  "name": "Patient Interview",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_ResearchSite_MedicalReport.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_PatrolSchedule",
+  "name": "Patrol Schedule",
+  "short_name": "FL PSch",
+  "manufacturer": "General Local",
+  "description": "Contains all the patrol routes and assigned soldiers.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_PatrolSchedule.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_PenthouseAccessAuthorization",
+  "name": "Penthouse Access Authorization",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_PenthouseAccessAuthorization.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_BCPhaLangAirfieldMap",
+  "name": "Pha Lang Airfield Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_BCPhaLangAirfieldMap.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Photo_KVFirstHitTarget",
+  "name": "Photo",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "Photo",
+  "type": "Intel.Photo",
+  "tags": [
+   "Size.Small",
+   "Faction.Player.Gamma"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_KVFirstHitTarget.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Photo_NTFirstHitTarget",
+  "name": "Photo",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "Photo",
+  "type": "Intel.Photo",
+  "tags": [
+   "Size.Small",
+   "Faction.Player.Beta"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_NTFirstHitTarget.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Photo_PLFirstHitTarget",
+  "name": "Photo",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "Photo",
+  "type": "Intel.Photo",
+  "tags": [
+   "Size.Small",
+   "Faction.Player.Alpha"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_PLFirstHitTarget.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Photo_PhotoCareerChange",
+  "name": "Photography - Career Change",
+  "short_name": "PHOT CC",
+  "manufacturer": "General Local",
+  "description": "A photograph.",
+  "type": "Intel.Photo",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_PhotoCareerChange.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Photo_PhotoGhostLady",
+  "name": "Photography - Ghost Lady",
+  "short_name": "PHOT GL",
+  "manufacturer": "General Local",
+  "description": "A photograph.",
+  "type": "Intel.Photo",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_PhotoGhostLady.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Photo_PhotoJulietteMarchand",
+  "name": "Photography - Juliette Marchand",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A photograph.",
+  "type": "Intel.Photo",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_PhotoJulietteMarchand.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Photo_PhotoMeAndMyFriend",
+  "name": "Photography - Me and My Friend",
+  "short_name": "PHOT MF",
+  "manufacturer": "General Local",
+  "description": "A photograph.",
+  "type": "Intel.Photo",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_PhotoMeAndMyFriend.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_PilotLogbook",
+  "name": "Pilot Logbook",
+  "short_name": "NB PLog",
+  "manufacturer": "General Local",
+  "description": "This document contains all the routes taken by pilots in the months leading up to the Event.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_PilotLogbook.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_PirateBossDiary",
+  "name": "Pirate Boss's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_PirateBossDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_Planner",
+  "name": "Planner",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_Planner.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Post_PostcardShithole",
+  "name": "Postcard - Shithole",
+  "short_name": "POST Shit",
+  "manufacturer": "General Local",
+  "description": "A postcard.",
+  "type": "Intel.Photo",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Post_PostcardShithole.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_POSTER_ShootingRange_Cavities",
+  "name": "Poster",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A poster.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Big"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_POSTER_ShootingRange_Cavities.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_POSTER_ShootingRange_HPAP",
+  "name": "Poster",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A poster.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Big"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_POSTER_ShootingRange_HPAP.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_POSTER_ShootingRange_Height",
+  "name": "Poster",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A poster.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Big"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_POSTER_ShootingRange_Height.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_POSTER_ShootingRange_NIJ",
+  "name": "Poster",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A poster.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Big"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_POSTER_ShootingRange_NIJ.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Poster_MedCamp_Bleeding",
+  "name": "Poster",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A poster.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Big"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Poster_MedCamp_Bleeding.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Poster_MedCamp_IntInjury",
+  "name": "Poster",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A poster.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Big"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Poster_MedCamp_IntInjury.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Poster_MedCamp_Pills",
+  "name": "Poster",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A poster.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Big"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Poster_MedCamp_Pills.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_PrayerNotebook",
+  "name": "Prayer Notebook",
+  "short_name": "NB Pray",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_PrayerNotebook.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_PrayerSchedule",
+  "name": "Prayer Schedule",
+  "short_name": "PAP PSch",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_PrayerSchedule.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_ProcurementMemo",
+  "name": "Procurement Memo",
+  "short_name": "FL MSPro",
+  "manufacturer": "General Local",
+  "description": "An internal procurement memo outlining procedures for selecting, processing, and transferring “assets.”",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_ProcurementMemo.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_AsylumOfficialDocument",
+  "name": "Production Status Report",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_AsylumOfficialDocument.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_ProhibitedEvacuation",
+  "name": "Prohibited Evacuation",
+  "short_name": "FL PEv",
+  "manufacturer": "General Local",
+  "description": "Contains orders to prohibit the majority of civilians living near Fort Narith from evacuating. The reasoning for that is unknown.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_ProhibitedEvacuation.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_DistantVoiceReport",
+  "name": "Project Distant Voice Report",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_DistantVoiceReport.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_ProtectiveOversightAgr",
+  "name": "Protective Oversight Agreement",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_ProtectiveOversightAgr.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_PsychoticNote",
+  "name": "Psychotic Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_PsychoticNote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_PuzzledGirlsDiary",
+  "name": "Puzzled Girl's Diary",
+  "short_name": "NB PGirl",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_PuzzledGirlsDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_RebelChat",
+  "name": "Rebel Chat",
+  "short_name": "NB RCha",
+  "manufacturer": "General Local",
+  "description": "LLA plans that describe further expansion of their influence after sucessfully capturing YBL-1.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_RebelChat.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_RebelNotebook",
+  "name": "Rebel Notebook",
+  "short_name": "NB Reb",
+  "manufacturer": "General Local",
+  "description": "Plans describing an attack of the Lamang Liberation Army on YBL-1.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_RebelNotebook.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_RegretPeacekeeperDiary",
+  "name": "Regretful Peacekeeper's Diary",
+  "short_name": "NB Reg",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_RegretPeacekeeperDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_AsylumReorganization",
+  "name": "Reorganization of Lakevale Sanctuary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_AsylumReorganization.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_ReportSusBehavior",
+  "name": "Report Suspicious Behavior",
+  "short_name": "PAP RSus",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_ReportSusBehavior.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_ResearchNotes",
+  "name": "Research Notes",
+  "short_name": "NB ReNt",
+  "manufacturer": "General Local",
+  "description": "A research log analyzing a mysterious astronomical signal.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_ResearchNotes.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_ResearchPapers",
+  "name": "Research Papers",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_ResearchPapers.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_ResidentsDiaryAlien",
+  "name": "Resident's Diary - Alien",
+  "short_name": "NB Ali",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_ResidentsDiaryAlien.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_RLSLGarrisonOrder",
+  "name": "RLSL-1 Garrison Order",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_RLSLGarrisonOrder.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_RLSLMedicalReport",
+  "name": "RLSL-1 Medical Report",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_RLSLMedicalReport.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_RLSLOperationalDirective",
+  "name": "RLSL-1 Operational Directive",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_RLSLOperationalDirective.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_RLSLSupplyRequest",
+  "name": "RLSL-1 Supply Request",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_RLSLSupplyRequest.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_RadarGeneratorRoofHatch",
+  "name": "Roof Hatch Notice",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_RadarGeneratorRoofHatch.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_SawStorehouseCode",
+  "name": "Safeguarding Storehouse Order",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_SawStorehouseCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_BCSawmillMap",
+  "name": "Sawmill Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_BCSawmillMap.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_SawmillSupplyFolder",
+  "name": "Sawmill Supply Folder",
+  "short_name": "FL SSup",
+  "manufacturer": "General Local",
+  "description": "A file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_SawmillSupplyFolder.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_SawmillWorkersDiary",
+  "name": "Sawmill Worker's Diary",
+  "short_name": "NB SWo",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_SawmillWorkersDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_SayavongsEscapePlan",
+  "name": "Sayavong's Escape Plan",
+  "short_name": "FL SEsc",
+  "manufacturer": "General Local",
+  "description": "An urgent message from Narith instructing Jan Park to secure the villa with trusted men.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_SayavongsEscapePlan.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_ScandalousTranscript",
+  "name": "Scandalous Transcript",
+  "short_name": "PAP STr",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_ScandalousTranscript.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_ScaredPiratesDiary",
+  "name": "Scared Pirate's Diary",
+  "short_name": "NB SPir",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_ScaredPiratesDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_ScavengersNotes",
+  "name": "Scavenger's Notes",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_ScavengersNotes.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_AsylumGuardMemo",
+  "name": "Security Notice",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_AsylumGuardMemo.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_SecurityOrders",
+  "name": "Security Orders",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_SecurityOrders.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_ShamansDiary",
+  "name": "Shaman's Diary",
+  "short_name": "NB Sham",
+  "manufacturer": "General Local",
+  "description": "A personal confession from “Sad sada,” revealing doubt, internal division, and a growing belief that the Event was a divine warning.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_ShamansDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_ShiftRoster",
+  "name": "Shift Roster",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceOfPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_ShiftRoster.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_BluLagWarehouseCode",
+  "name": "Slaver's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_BluLagWarehouseCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_SoldiersDiary",
+  "name": "Soldier's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_SoldiersDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_DongphouCamp_BanditNotebook",
+  "name": "Stash Code",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_DongphouCamp_BanditNotebook.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_CarReference",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_CarReference.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_ConstructionSiteContainer",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_ConstructionSiteContainer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_ContainerAccessCode",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_ContainerAccessCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_DepotBunkerCode",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_DepotBunkerCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_FortNarMilBaseStraussNote",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_FortNarMilBaseStraussNote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_FortNarStraussNote01",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_FortNarStraussNote01.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_FortNarStraussNote02",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_FortNarStraussNote02.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_FortNarStraussNote03",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_FortNarStraussNote03.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_FortNarStraussNote04",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_FortNarStraussNote04.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_FortNarithShootingOffice",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_FortNarithShootingOffice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_HQArchive",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_HQArchive.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_HunParBunkerCode",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_HunParBunkerCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_IsolationWardCode",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_IsolationWardCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_KhonwanVillageHouse",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_KhonwanVillageHouse.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_MorgueCode",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_MorgueCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_PhaLangAirfieldStorage",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_PhaLangAirfieldStorage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_PoppyFieldStorage",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_PoppyFieldStorage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_PrincipalNurseHouse",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_PrincipalNurseHouse.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_RadarBunkerCache",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_RadarBunkerCache.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_ResearchSiteArmoryCode",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_ResearchSiteArmoryCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_ResearchSiteMedicalStorageCode",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_ResearchSiteMedicalStorageCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_ResortGolfClubStorage",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_ResortGolfClubStorage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNAnswer",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNAnswer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNBobika",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNBobika.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNDesireReminder",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNDesireReminder.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNDontReadThis",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNDontReadThis.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNForgetfulDoc",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNForgetfulDoc.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNGoatlover",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNGoatlover.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNHermitsNote1",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNHermitsNote1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNHermitsNote2",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNHermitsNote2.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNHermitsNote3",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNHermitsNote3.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNHermitsNote4",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNHermitsNote4.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNIFoundTheKey",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNIFoundTheKey.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNKVIWasRight",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small",
+   "Faction.Player.Gamma"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNKVIWasRight.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNNTIWasRight",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small",
+   "Faction.Player.Beta"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNNTIWasRight.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNNewCommander",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNNewCommander.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNPLIWasRight",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small",
+   "Faction.Player.Alpha"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNPLIWasRight.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNPhiPaMum",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNPhiPaMum.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNRevelation",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNRevelation.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNRosebud",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNRosebud.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNRun",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNRun.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNTheyKnow",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNTheyKnow.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNTheyreOntoUs",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNTheyreOntoUs.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SNTrust",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNTrust.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_ScamOfficeServerRoom",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_ScamOfficeServerRoom.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SecludedGuesthouseBasement",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SecludedGuesthouseBasement.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_ServerRoomCode",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_ServerRoomCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SmallTownRatsNestVillaSafeCode",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SmallTownRatsNestVillaSafeCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_SmallTownTownHallSafeCode",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SmallTownTownHallSafeCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_StockVulture2Clue2",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_StockVulture2Clue2.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_StripClubSafeCode",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_StripClubSafeCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_TigerBayBeachStorage",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_TigerBayBeachStorage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_TigerBayCementFactory",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_TigerBayCementFactory.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_TigerBayCityHallArchive",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_TigerBayCityHallArchive.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_TigerBayClinic",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_TigerBayClinic.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_WaterTowerUNDoor",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_WaterTowerUNDoor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_YBL1GeneratorRoom",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_YBL1GeneratorRoom.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_YBL1Office1",
+  "name": "Sticky Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_YBL1Office1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_SuicideNote",
+  "name": "Suicide Note",
+  "short_name": "PAP SuN",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_SuicideNote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_KiuVongsaSupplyRelocation",
+  "name": "Supply Relocation",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An UNLRA file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "Faction.Player.Gamma"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_KiuVongsaSupplyRelocation.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_NamThavenSupplyRelocation",
+  "name": "Supply Relocation",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An UNLRA file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "Faction.Player.Beta"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_NamThavenSupplyRelocation.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_PhaLangSupplyRelocation",
+  "name": "Supply Relocation",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An UNLRA file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "Faction.Player.Alpha"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_PhaLangSupplyRelocation.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_MallMilWareCode",
+  "name": "SWF-SEC8-MUN-ACCESS-01",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An LAF file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_MallMilWareCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_TakeshisLetter",
+  "name": "Takeshi's Letter",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_TakeshisLetter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_ThugOrdersNote",
+  "name": "Thug Orders",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_ThugOrdersNote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_KiuVongsaThugsDiary",
+  "name": "Thug's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "Faction.Player.Gamma"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_KiuVongsaThugsDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_NamThavenThugsDiary",
+  "name": "Thug's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "Faction.Player.Beta"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_NamThavenThugsDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_PhaLangThugsDiary",
+  "name": "Thug's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small",
+   "Faction.Player.Alpha"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_PhaLangThugsDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_VietnameseGoons",
+  "name": "Thug's Diary - Vietnamese Goons",
+  "short_name": "NB Viet",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_VietnameseGoons.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_BCTigerBayMap",
+  "name": "Tiger Bay Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_BCTigerBayMap.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_TorturersNotebook",
+  "name": "Torturer's Notebook",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_TorturersNotebook.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Photo_TourPhotoBigHaul",
+  "name": "Tourist Photography - Big Haul",
+  "short_name": "PHOT BH",
+  "manufacturer": "General Local",
+  "description": "A photograph.",
+  "type": "Intel.Photo",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_TourPhotoBigHaul.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Photo_TourPhotoEndanTrophy",
+  "name": "Tourist Photography - Endangered Trophy",
+  "short_name": "PHOT ET",
+  "manufacturer": "General Local",
+  "description": "A photograph.",
+  "type": "Intel.Photo",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_TourPhotoEndanTrophy.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Photo_TourPhotoFamilyArrive",
+  "name": "Tourist Photography - Family Arrive",
+  "short_name": "PHOT FA",
+  "manufacturer": "General Local",
+  "description": "A photograph.",
+  "type": "Intel.Photo",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_TourPhotoFamilyArrive.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Photo_TourPhotoFondMemo",
+  "name": "Tourist Photography - Fond Memories",
+  "short_name": "PHOT FM",
+  "manufacturer": "General Local",
+  "description": "A photograph.",
+  "type": "Intel.Photo",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_TourPhotoFondMemo.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_Photo_TourPhotoNeverLeave",
+  "name": "Tourist Photography - Never Leave",
+  "short_name": "PHOT NL",
+  "manufacturer": "General Local",
+  "description": "A photograph.",
+  "type": "Intel.Photo",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_TourPhotoNeverLeave.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_TouristsDiaryBadExperience",
+  "name": "Tourist's Diary - Bad Experience",
+  "short_name": "NB BEx",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_TouristsDiaryBadExperience.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_TransactionMemo",
+  "name": "Transaction Memo",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_TransactionMemo.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_TransWorkerDIary",
+  "name": "Transformer Worker’s Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_TransWorkerDIary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_TurncoatOrder",
+  "name": "Turncoat Order",
+  "short_name": "PAP TOr",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_TurncoatOrder.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_UNPreCrisisAnalysis",
+  "name": "UN Pre-Crisis Analysis",
+  "short_name": "FL UNC",
+  "manufacturer": "General Local",
+  "description": "An UNLRA file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle",
+   "QuestItem"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_UNPreCrisisAnalysis.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_UnknownCombatant",
+  "name": "Unknown Combatant",
+  "short_name": "FL UCom",
+  "manufacturer": "General Local",
+  "description": "Contains orders to interrogate an unknown PMC-affiliated prisoner. At the end, the folder contains information that the prisoner has escaped, and an order for recapture was suprisingly not given.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_UnknownCombatant.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_FortNarStraussDiary",
+  "name": "Unknown Combatant's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_FortNarStraussDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_UnknownSoldiersNotes",
+  "name": "Unknown Soldier's Notes",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_UnknownSoldiersNotes.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_MallUNHQLabCode",
+  "name": "UNLRA - MCLU-7",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An UNLRA file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_MallUNHQLabCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_UNLRALAFDeal",
+  "name": "UNLRA LAF Deal",
+  "short_name": "FL ULD",
+  "manufacturer": "General Local",
+  "description": "Orders regarding the transfers of certain individuals from the Tiger Bay refugee camp back into the hands of the LAF.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_UNLRALAFDeal.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_UNLRASelectiveEvac",
+  "name": "UNLRA Selective Evac",
+  "short_name": "FL SEv",
+  "manufacturer": "General Local",
+  "description": "This document contains information about certain people who are not permitted to leave the island under any circumstances.",
+  "type": "Intel.File",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_UNLRASelectiveEvac.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_UnnervingNote",
+  "name": "Unnerving Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_UnnervingNote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_LET_UnsendLetter",
+  "name": "Unsent Letter",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A letter.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_LET_UnsendLetter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_LET_UrgentLetter",
+  "name": "Urgent Letter",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A letter.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_LET_UrgentLetter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_VagrantsMessage",
+  "name": "Vagrants Message",
+  "short_name": "PAP VMes",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_VagrantsMessage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_VietnameseReport",
+  "name": "Vietnamese Report",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_VietnameseReport.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_VillaCivDiary",
+  "name": "Villa Civilian’s Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_VillaCivDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_VillaPmcDiary",
+  "name": "Villa PMC’s Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_VillaPmcDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_MSVillaSuzEveCode",
+  "name": "Villa Suzan Eve Cleaning",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_MSVillaSuzEveCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_VillagersDiary",
+  "name": "Villager's Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_VillagersDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_VIPClientList",
+  "name": "VIP Client List",
+  "short_name": "PAP VIP",
+  "manufacturer": "General Local",
+  "description": "This list contains the names of guests enrolled in the VIP program.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "QuestItem",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_VIPClientList.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_VIPGuestsNotebook",
+  "name": "VIP Guest's Notebook",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_VIPGuestsNotebook.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_VIPProgram",
+  "name": "VIP Program",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_VIPProgram.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_WaryNote",
+  "name": "Wary Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_WaryNote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_WealthyManDiary",
+  "name": "Wealthy Man’s Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_WealthyManDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NB_WealthyWomanDiary",
+  "name": "Wealthy Woman’s Diary",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A5 notebook.",
+  "type": "Intel.Notebook",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_WealthyWomanDiary.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_PAP_WeaponsStockpileCode",
+  "name": "Weapons Stockpile Code",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "An A4 sheet of paper.",
+  "type": "Intel.PieceofPaper",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_WeaponsStockpileCode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_MSWeekSafeProc",
+  "name": "Weekend Safe Procedures",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_MSWeekSafeProc.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_FL_WeeklyShipmentNotes",
+  "name": "Weekly Shipment Notes",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A file.",
+  "type": "Intel.File",
+  "tags": [
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_WeeklyShipmentNotes.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Intel_NOTE_BCYBL1Map",
+  "name": "YBL-1 Note",
+  "short_name": "<HIDDEN>",
+  "manufacturer": "General Local",
+  "description": "A small paper note.",
+  "type": "Intel.Note",
+  "tags": [
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_BCYBL1Map.webp",
+  "source": "game-files"
+ }
+]

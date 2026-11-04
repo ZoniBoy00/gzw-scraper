@@ -1,0 +1,6617 @@
+[
+ {
+  "id": "IS_Firearm_Ak12",
+  "name": "AK-12",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AK-12 is a 5.45mm caliber assault rifle that serves as the standard service weapon for the Russian infantry and is a key component of the Ratnik equipment kit developed by Kalashnikov Concern. Designed for modern warfare, the AK-12 boasts enhanced ergonomics and improved accuracy, making it ideal for extended combat scenarios. Notable upgrades include a length-adjustable buttstock for a personalized fit, an ergonomic grip for better handling, and an updated diopter sight that enhances target acquisition. These refinements ensure the AK-12 delivers superior performance across diverse operational environments.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "WeaponCategory.AssaultRifle",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponPlatform.AK12"
+  ],
+  "weight": "2 kg",
+  "grid_size": "4x1",
+  "base_price": 850.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 850.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 255.0
+   }
+  ],
+  "stats": {
+   "moa": 2.8,
+   "manipulationModifier": 9.0,
+   "fireRate": 700,
+   "muzzleSpeed": 884,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "545x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": false
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "disables_socket_types": [
+   "Socket.Handguard.AK.308"
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Ak12.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Ak15",
+  "name": "AK-15",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AK-15 is a modern 7.62mm assault rifle developed by Kalashnikov Concern as part of the Ratnik program. It enhances the firepower of the classic AK series while preserving its renowned reliability. The AK-15 features advanced ergonomics, including a length-adjustable buttstock, improved hand grip, and upgraded sights, making it adaptable to diverse combat situations.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "WeaponCategory.AssaultRifle",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponPlatform.AK15"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "4x1",
+  "base_price": 850.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 850.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 255.0
+   }
+  ],
+  "stats": {
+   "moa": 2.5,
+   "manipulationModifier": 9.0,
+   "fireRate": 700,
+   "muzzleSpeed": 884,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": false
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "disables_socket_types": [
+   "Socket.Handguard.AK.308"
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Ak15.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Ak19",
+  "name": "AK-19",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AK-19 is a modern assault rifle developed by Kalashnikov Concern, chambered in 5.56x45mm NATO. It's a variant of the AK-12, designed to appeal to international markets that use the 5.56mm round. The AK-19 retains the rugged reliability of the AK platform while incorporating modern features such as a lightweight folding and adjustable buttstock, a new ergonomic pistol grip, and an improved safety selector. The rifle also includes a muzzle brake and a Picatinny rail for mounting optics and accessories, making it versatile for various combat scenarios.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "WeaponCategory.AssaultRifle",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponPlatform.AK19"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "4x1",
+  "base_price": 1105.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 1105.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 331.5
+   }
+  ],
+  "stats": {
+   "moa": 2.1,
+   "manipulationModifier": 9.0,
+   "fireRate": 700,
+   "muzzleSpeed": 884,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   }
+  ],
+  "disables_socket_types": [
+   "Socket.Handguard.AK.308"
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Ak19.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Ak308",
+  "name": "AK-308",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AK-308 is a recent addition to the Kalashnikov family, designed for use with the 7.62x51mm NATO cartridge. It is based on the AK-12 platform but adapted to accommodate the larger NATO round. The AK-308 features modern enhancements such as a folding and adjustable buttstock, an ergonomic pistol grip, and an extended Picatinny rail for optics and accessories. It maintains the renowned reliability and durability of the AK series while offering increased firepower and precision suitable for various tactical and military applications.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "WeaponCategory.AssaultRifle",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponPlatform.AK308"
+  ],
+  "weight": "2.7 kg",
+  "grid_size": "4x1",
+  "base_price": 1360.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 1360.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 408.0
+   }
+  ],
+  "stats": {
+   "moa": 1.8,
+   "manipulationModifier": 4.0,
+   "fireRate": 700,
+   "muzzleSpeed": 884,
+   "fireNoiseInDecibels": 180.0,
+   "fireMode": 5,
+   "maximumShots": 7400,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": false
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "disables_socket_types": [
+   "Socket.Handguard.AK.Ratnik"
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Ak308.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Ak308HT",
+  "name": "AK-308 (Hunter Team)",
+  "short_name": "AK-308",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AK-308 is a recent addition to the Kalashnikov family, designed for use with the 7.62x51mm NATO cartridge. It is based on the AK-12 platform but adapted to accommodate the larger NATO round. The AK-308 features modern enhancements such as a folding and adjustable buttstock, an ergonomic pistol grip, and an extended Picatinny rail for optics and accessories. It maintains the renowned reliability and durability of the AK series while offering increased firepower and precision suitable for various tactical and military applications.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "WeaponCategory.AssaultRifle",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponPlatform.AK308"
+  ],
+  "weight": "2.7 kg",
+  "grid_size": "4x1",
+  "base_price": 2043.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 612.9
+   }
+  ],
+  "stats": {
+   "moa": 1.8,
+   "manipulationModifier": 5.0,
+   "fireRate": 700,
+   "muzzleSpeed": 884,
+   "fireNoiseInDecibels": 180.0,
+   "fireMode": 5,
+   "maximumShots": 7400,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": false
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "disables_socket_types": [
+   "Socket.Handguard.AK.Ratnik"
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Ak308HT.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Ak74M",
+  "name": "AK-74M",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AK-74M, officially in service since 1991, is a modernized version of the AK-74. It is chambered in 5.45x39mm and is popular with military forces and armed groups worldwide. The 'M' designation indicates modern features, including a reinforced polymer folding stock for enhanced portability and maneuverability. The AK-74M can also include a side rail for attachments, enabling users to integrate different optics or accessories to meet mission requirements.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.AssaultRifle",
+   "Size.Big",
+   "WeaponPlatform.AK74"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "4x1",
+  "base_price": 425.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 425.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 127.5
+   }
+  ],
+  "stats": {
+   "moa": 3.2,
+   "manipulationModifier": 8.0,
+   "fireRate": 650,
+   "muzzleSpeed": 880,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "545x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": false
+   },
+   {
+    "slot": "BarrelMount_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Ak74M.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Ak74N",
+  "name": "AK-74N",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AK-74N is a modified variant of the AK-74 rifle, designed with a side rail for attaching night vision scopes, indicated by the 'N' in its name. It is chambered in 5.45x39mm, offering improved accuracy and versatility, especially in low-light conditions. The side rail enables easy integration of night vision optics, allowing users to operate effectively during nighttime operations.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.AssaultRifle",
+   "Size.Big",
+   "WeaponPlatform.AK74"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "4x1",
+  "base_price": 323.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 323.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 96.9
+   }
+  ],
+  "stats": {
+   "moa": 3.2,
+   "manipulationModifier": 4.0,
+   "fireRate": 650,
+   "muzzleSpeed": 880,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 4100,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "545x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Handle_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "BarrelMount_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Ak74N.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Ak74NFDE",
+  "name": "AK-74N (FDE)",
+  "short_name": "AK-74N",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AK-74N is a modified variant of the AK-74 rifle, designed with a side rail for attaching night vision scopes, indicated by the 'N' in its name. It is chambered in 5.45x39mm, offering improved accuracy and versatility, especially in low-light conditions. The side rail enables easy integration of night vision optics, allowing users to operate effectively during nighttime operations.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.AssaultRifle",
+   "Size.Big",
+   "WeaponPlatform.AK74"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "4x1",
+  "base_price": 323.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 96.9
+   }
+  ],
+  "stats": {
+   "moa": 3.2,
+   "manipulationModifier": 4.0,
+   "fireRate": 650,
+   "muzzleSpeed": 880,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 4100,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "545x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Handle_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "BarrelMount_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Ak74NFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Akm",
+  "name": "AKM",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AKM (Avtomat Kalashnikova Modernizirovanniy) was designed in 1959 as a successor to the renowned AK-47. It represents a significant advancement in the evolution of the AK series of rifles, as it was specifically engineered to streamline manufacturing processes, making it more cost-effective and easier to produce on a large scale. The AKM, chambered in 7.62x39mm, became the standard rifle for the Soviet Army and was widely adopted by most member states of the Warsaw Pact, ensuring its presence across Eastern Europe and beyond. It was exported and produced in many other countries, making it ubiquitous worldwide.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.AssaultRifle",
+   "Size.Big",
+   "WeaponPlatform.AKM"
+  ],
+  "weight": "2 kg",
+  "grid_size": "4x1",
+  "base_price": 272.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 272.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 81.6
+   }
+  ],
+  "stats": {
+   "moa": 3.5,
+   "manipulationModifier": 4.0,
+   "fireRate": 600,
+   "muzzleSpeed": 715,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 4100,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": false
+   },
+   {
+    "slot": "BarrelMount_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Akm.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Akmn",
+  "name": "AKMN",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AKMN is a variant of the AKM that comes equipped with a side rail for use with night vision scopes, as denoted by the 'N' in its name. This model is a popular choice among military forces and armed groups worldwide due to its improved accuracy and versatility.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.AssaultRifle",
+   "Size.Big",
+   "WeaponPlatform.AKM"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "4x1",
+  "base_price": 272.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 272.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 81.6
+   }
+  ],
+  "stats": {
+   "moa": 3.5,
+   "manipulationModifier": 4.0,
+   "fireRate": 600,
+   "muzzleSpeed": 715,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 4100,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Handle_F",
+    "critical": false
+   },
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "BarrelMount_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Akmn.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_AkmnFDE",
+  "name": "AKMN (FDE)",
+  "short_name": "AKMN",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AKMN is a variant of the AKM that comes equipped with a side rail for use with night vision scopes, as denoted by the 'N' in its name. This model is a popular choice among military forces and armed groups worldwide due to its improved accuracy and versatility.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.AssaultRifle",
+   "Size.Big",
+   "WeaponPlatform.AKM"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "4x1",
+  "base_price": 272.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 81.6
+   }
+  ],
+  "stats": {
+   "moa": 3.5,
+   "manipulationModifier": 4.0,
+   "fireRate": 600,
+   "muzzleSpeed": 715,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 4100,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Handle_F",
+    "critical": false
+   },
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "BarrelMount_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_AkmnFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_AkmnJC",
+  "name": "AKMN (Jackal Company)",
+  "short_name": "AKMN",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AKMN is a variant of the AKM that comes equipped with a side rail for use with night vision scopes, as denoted by the 'N' in its name. This model is a popular choice among military forces and armed groups worldwide due to its improved accuracy and versatility.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.AssaultRifle",
+   "Size.Big",
+   "WeaponPlatform.AKM"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "4x1",
+  "base_price": 408.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 122.4
+   }
+  ],
+  "stats": {
+   "moa": 3.5,
+   "manipulationModifier": 5.0,
+   "fireRate": 600,
+   "muzzleSpeed": 715,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 4100,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Handle_F",
+    "critical": false
+   },
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "BarrelMount_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_AkmnJC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Akmsn",
+  "name": "AKMSN",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AKMSN is a customized version of the AKMS automatic rifle. It has a dovetail mount for the NSP family of night vision scopes, making it adaptable for low-light conditions and improving visibility during nighttime operations. The foldable stock adds to its practicality and ease of transportation.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.AssaultRifle",
+   "Size.Big",
+   "WeaponPlatform.AKM"
+  ],
+  "weight": "2.2 kg",
+  "grid_size": "4x1",
+  "base_price": 289.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 289.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 86.7
+   }
+  ],
+  "stats": {
+   "moa": 3.5,
+   "manipulationModifier": 4.0,
+   "fireRate": 600,
+   "muzzleSpeed": 715,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "BarrelMount_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Akmsn.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Aks74U",
+  "name": "AKS-74U",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The AKS-74U is a compact, short-barreled variant of the AK-74 assault rifle, developed by the Soviet Union in the late 1970s. With a 210mm barrel and folding metal stock, it is highly portable and ideal for close-quarters combat. Chambered for the 5.45x39mm cartridge, it delivers the firepower of the full-size AK-74 in a more compact form. The weapon’s distinctive muzzle brake reduces recoil and muzzle rise. Favored by paratroopers, vehicle crews, and special forces, it strikes a perfect balance between power and maneuverability.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.AssaultRifle",
+   "Size.Middle",
+   "WeaponPlatform.AKS74U"
+  ],
+  "weight": "1.7 kg",
+  "grid_size": "3x1",
+  "base_price": 255.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 255.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.5
+   }
+  ],
+  "stats": {
+   "moa": 3.5,
+   "manipulationModifier": -4.0,
+   "fireRate": 650,
+   "muzzleSpeed": 715,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.5,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "545x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Gastube_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "Handle_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Aks74U.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Alien",
+  "name": "Alien",
+  "manufacturer": "Laugo Arms",
+  "description": "The Laugo Arms Alien is a high-performance 9×19mm competition pistol engineered for unmatched control and precision. It features a fixed barrel and gas-delayed blowback system that eliminates the need for a tilting barrel, significantly reducing recoil and muzzle rise. With an ultra-low bore axis (just 1.7 mm above the grip), the barrel aligns closely with the shooter’s hand for superior stability. A non-reciprocating top rail keeps sights or optics fixed during firing, ensuring consistent accuracy. Built on a monolithic aluminum frame with modular internals, the Alien also includes a crisp, competition-tuned trigger.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Origin.West",
+   "WeaponCategory.Pistol",
+   "Size.Small",
+   "WeaponPlatform.Alien"
+  ],
+  "weight": "0.57 kg",
+  "grid_size": "2x1",
+  "base_price": 6120.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 6120.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1836.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 20.0,
+   "fireRate": 700,
+   "muzzleSpeed": 400,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 9700,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Mount_F",
+    "critical": true
+   },
+   {
+    "slot": "Auxiliary_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Alien.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_AlienBlack",
+  "name": "Alien (Black)",
+  "short_name": "Alien",
+  "manufacturer": "Laugo Arms",
+  "description": "The Laugo Arms Alien is a high-performance 9×19mm competition pistol engineered for unmatched control and precision. It features a fixed barrel and gas-delayed blowback system that eliminates the need for a tilting barrel, significantly reducing recoil and muzzle rise. With an ultra-low bore axis (just 1.7 mm above the grip), the barrel aligns closely with the shooter’s hand for superior stability. A non-reciprocating top rail keeps sights or optics fixed during firing, ensuring consistent accuracy. Built on a monolithic aluminum frame with modular internals, the Alien also includes a crisp, competition-tuned trigger.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Origin.West",
+   "WeaponCategory.Pistol",
+   "Size.Small",
+   "WeaponPlatform.Alien"
+  ],
+  "weight": "0.57 kg",
+  "grid_size": "2x1",
+  "base_price": 6120.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1836.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 20.0,
+   "fireRate": 700,
+   "muzzleSpeed": 400,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 9700,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Mount_F",
+    "critical": true
+   },
+   {
+    "slot": "Auxiliary_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_AlienBlack.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_BenelliM4",
+  "name": "Benelli M4",
+  "short_name": "M1014",
+  "manufacturer": "Benelli ",
+  "description": "The Benelli M4 is an Italian 12-gauge semi-automatic combat shotgun developed for military and law enforcement use. It features Benelli's Auto-Regulating Gas-Operated (A.R.G.O.) system, which uses dual short-stroke gas pistons to provide reliable operation with a variety of ammunition. Adopted by the U.S. military as the M1014 Joint Service Combat Shotgun, the M4 has earned a reputation for its robustness and reliability.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponCategory.Shotgun",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.767 kg",
+  "grid_size": "2x1",
+  "base_price": 1000.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 1000.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 300.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "fireRate": 300,
+   "muzzleSpeed": 400,
+   "fireMode": 1,
+   "maximumShots": 8200,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_BenelliM4.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_BenelliM4FDE",
+  "name": "Benelli M4 (FDE)",
+  "short_name": "M1014",
+  "manufacturer": "Benelli ",
+  "description": "The Benelli M4 is an Italian 12-gauge semi-automatic combat shotgun developed for military and law enforcement use. It features Benelli's Auto-Regulating Gas-Operated (A.R.G.O.) system, which uses dual short-stroke gas pistons to provide reliable operation with a variety of ammunition. Adopted by the U.S. military as the M1014 Joint Service Combat Shotgun, the M4 has earned a reputation for its robustness and reliability.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponCategory.Shotgun",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.767 kg",
+  "grid_size": "2x1",
+  "base_price": 1000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 300.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "fireRate": 300,
+   "muzzleSpeed": 400,
+   "fireMode": 1,
+   "maximumShots": 8200,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_BenelliM4FDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_BenelliM4RE",
+  "name": "Benelli M4 (Riot Echo)",
+  "short_name": "M1014",
+  "manufacturer": "Benelli ",
+  "description": "The Benelli M4 is an Italian 12-gauge semi-automatic combat shotgun developed for military and law enforcement use. It features Benelli's Auto-Regulating Gas-Operated (A.R.G.O.) system, which uses dual short-stroke gas pistons to provide reliable operation with a variety of ammunition. Adopted by the U.S. military as the M1014 Joint Service Combat Shotgun, the M4 has earned a reputation for its robustness and reliability.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponCategory.Shotgun",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.767 kg",
+  "grid_size": "2x1",
+  "base_price": 1000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 300.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 2.0,
+   "fireRate": 300,
+   "muzzleSpeed": 400,
+   "fireMode": 1,
+   "maximumShots": 8200,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_BenelliM4RE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_BenelliM4Silver",
+  "name": "Benelli M4 (Silver)",
+  "short_name": "M1014",
+  "manufacturer": "Benelli ",
+  "description": "The Benelli M4 is an Italian 12-gauge semi-automatic combat shotgun developed for military and law enforcement use. It features Benelli's Auto-Regulating Gas-Operated (A.R.G.O.) system, which uses dual short-stroke gas pistons to provide reliable operation with a variety of ammunition. Adopted by the U.S. military as the M1014 Joint Service Combat Shotgun, the M4 has earned a reputation for its robustness and reliability.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponCategory.Shotgun",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.767 kg",
+  "grid_size": "2x1",
+  "base_price": 1000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 300.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "fireRate": 300,
+   "muzzleSpeed": 400,
+   "fireMode": 1,
+   "maximumShots": 8200,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_BenelliM4Silver.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_M201CPsycho",
+  "name": "Bloodhound's M-201C",
+  "short_name": "B M-201C",
+  "manufacturer": "EGMT",
+  "description": "The Norinco M201-C is a 9mm semi-automatic pistol inspired by the Soviet Tokarev TT-33. Produced by China's Norinco, it modernizes the original with a manual safety, ergonomic grip, and chambering for contemporary 9×19mm ammunition, making it compatible with widely available modern ammo.\n\nThis Norinco M201-C belongs to Kahoku “Bloodhound” Phongsa, the leader of the Kiu Vongsa criminal gang. After escaping death row, Kahoku killed a police officer and took his weapon. Since then, he has carved a notch for every person he has murdered with it.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Origin.East",
+   "Size.Small",
+   "WeaponCategory.Pistol",
+   "WeaponPlatform.M201C",
+   "Boss"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "2x1",
+  "base_price": 300.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 600,
+   "muzzleSpeed": 360,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 4200,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_M201CPsycho.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_BerettaM9A1Blackmail",
+  "name": "Broker's M9A1",
+  "short_name": "B M9A1",
+  "manufacturer": "EGMT",
+  "description": "The Beretta M9A1, introduced in 2006 as an upgraded version of the M9, is a 9mm semi-automatic pistol. It features a Picatinny rail for accessory mounting, improved grip texturing, a beveled magazine well for faster reloading, and sand-resistant 15-round magazines. Designed for military and law enforcement use, the M9A1 is renowned for its enhanced reliability and adaptability in harsh conditions.\n\nThis Beretta M9A1 belongs to Hoang “Broker” Lam Nam, the leader of the armed group occupying Hunter’s Paradise. He procured the elegant pistol early in his criminal career through a string of well-orchestrated blackmail schemes, and ever since has paraded it at every opportunity so his subordinates know who’s in charge. However, he has rarely used it.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Size.Small",
+   "WeaponPlatform.M9A1",
+   "WeaponCategory.Pistol",
+   "Origin.East",
+   "Boss"
+  ],
+  "weight": "0.231 kg",
+  "grid_size": "2x1",
+  "base_price": 408.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 122.4
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 600,
+   "muzzleSpeed": 381,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 4900,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Hammer_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_BerettaM9A1Blackmail.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Ak74NMedved",
+  "name": "Buran's AK-74N",
+  "short_name": "B AK-74N",
+  "manufacturer": "EGMT",
+  "description": "The AK-74N is a modified variant of the AK-74 rifle, designed with a side rail for attaching night vision scopes, indicated by the 'N' in its name. It is chambered in 5.45x39mm, offering improved accuracy and versatility, especially in low-light conditions. The side rail enables easy integration of night vision optics, allowing users to operate effectively during nighttime operations.\n\nThis AK-74N belongs to Arkady “Buran” Vititsky, the military commander of Fort Narith. A proud son of the Russian motherland and a devoted patriot, Arkady had his rifle decorated with traditional Russian lacework. He has always made sure his weapon is kept in perfect condition.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.AssaultRifle",
+   "Size.Big",
+   "WeaponPlatform.AK74",
+   "Boss"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "4x1",
+  "base_price": 643.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 192.9
+   }
+  ],
+  "stats": {
+   "moa": 3.2,
+   "manipulationModifier": 10.0,
+   "fireRate": 650,
+   "muzzleSpeed": 880,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 6500,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "545x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Handle_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "BarrelMount_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Ak74NMedved.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Type51Mako",
+  "name": "Chaonai's Type 51",
+  "short_name": "B Type 51",
+  "manufacturer": "EGMT",
+  "description": "The Type 51 Tokarev is based on a steel-framed construction, which ensures durability and longevity. It uses a single-stack magazine that can hold eight rounds of 7.62x25mm Tokarev ammunition. The pistol operates on a simple blowback mechanism, which is known for its reliability and ease of maintenance.\n\nThis Type 51 Tokarev belongs to Makan \"Chaonai\" Zhang, the leader of the Nam Thaven criminal gang. Makan received the weapon as a gift from his boss for running a meticulously organized drug operation. Bearing a picture of the father of the nation, Raksmei Sayavong himself, Makan has taken great care of it, seeing it as a symbol of his success. Due to his cautious nature, the pistol still looks brand new.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT",
+   "WeaponCategory.Pistol",
+   "Boss"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "2x1",
+  "base_price": 300.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 600,
+   "muzzleSpeed": 499,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 4600,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x25"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Type51Mako.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Type51Pencil",
+  "name": "Colonel's Type 51",
+  "short_name": "B Type 51",
+  "manufacturer": "EGMT",
+  "description": "The Type 51 Tokarev is based on a steel-framed construction, which ensures durability and longevity. It uses a single-stack magazine that can hold eight rounds of 7.62x25mm Tokarev ammunition. The pistol operates on a simple blowback mechanism, which is known for its reliability and ease of maintenance.\n\nThis Type 51 Tokarev belongs to Palani \"Colonel\" Ketthavong, the military commander of Tiger Bay. Once Palani joined the LAF, he used every trick, contact, and lever he possibly had, including blackmail and cheating, to climb to the top. He is a first-class opportunist, and the pistol itself is a custom-made showpiece depicting his favorite animal - a snake. However, he has rarely relied upon it in actual combat.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT",
+   "WeaponCategory.Pistol",
+   "Boss"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "2x1",
+  "base_price": 300.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 600,
+   "muzzleSpeed": 499,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 5500,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x25"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Type51Pencil.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Colt1911",
+  "name": "Colt 1911",
+  "short_name": "1911",
+  "manufacturer": "COLT",
+  "description": "The Colt 1911 is a renowned semi-automatic pistol designed by John Browning and first adopted by the U.S. military in 1911. It is chambered in .45 ACP and is known for its robust design, reliability, and stopping power. The Colt 1911 features a single-action trigger, a 7-round magazine, and a steel frame. It has been a popular choice for military, law enforcement, and civilian use due to its enduring performance and iconic status.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Origin.West",
+   "WeaponCategory.Pistol",
+   "Size.Small",
+   "WeaponPlatform.1911"
+  ],
+  "weight": "0.231 kg",
+  "grid_size": "2x1",
+  "base_price": 187.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 187.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 56.1
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 600,
+   "muzzleSpeed": 350,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 3700,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.5,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Hammer_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Colt1911.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Colt1911Commander",
+  "name": "Colt 1911 Commander",
+  "short_name": "1911 Com",
+  "manufacturer": "COLT",
+  "description": "Introduced in 1949, the Colt Commander was developed as a lightweight, compact alternative to the full-size Colt 1911. It was created in response to a U.S. military request for a smaller, more portable sidearm after World War II. The original model featured an aluminum alloy frame, making it lighter than the traditional steel-framed 1911.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponCategory.Pistol",
+   "Location.Equip.Weapon.Pistol",
+   "WeaponPlatform.1911C"
+  ],
+  "weight": "0.17 kg",
+  "grid_size": "2x1",
+  "base_price": 340.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 340.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 12.0,
+   "fireRate": 600,
+   "muzzleSpeed": 350,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 4000,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Hammer_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Colt1911Commander.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_NornicoCQA1",
+  "name": "CQ A1",
+  "manufacturer": "Norinco",
+  "description": "The Norinco CQ A1 is a Chinese replica of the American M4A1 rifle, produced by the state-owned Norinco company. Based on the design of the M4 carbine, it was first introduced for civilian use in China and has since been exported to several countries. This semi-automatic variant is widely available on the civilian market, offering a more affordable alternative to American-made rifles. While the CQ A1 may have some surface finish imperfections compared to its Western counterparts, it is generally built to Mil-Spec tolerances, providing reliable performance and durability.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.AssaultRifle",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.6 kg",
+  "grid_size": "2x1",
+  "base_price": 340.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 340.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": -4.0,
+   "fireRate": 800,
+   "muzzleSpeed": 922,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 1,
+   "maximumShots": 2900,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.5,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_NornicoCQA1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_DdMk18",
+  "name": "DDM4",
+  "manufacturer": "Daniel Defense",
+  "description": "The DDM4 is a high-quality AR-15 platform developed by Daniel Defense. It is considered one of the best-quality AR-15 platforms on the market due to its precise construction and tight tolerances, which make it very reliable and well-performing. The DDM4 is also fielded by US Rangers.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.AssaultRifle",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "2x1",
+  "base_price": 1360.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 1360.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 408.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 8.0,
+   "fireRate": 800,
+   "muzzleSpeed": 922,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 5300,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_DdMk18.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_DdMk18Black",
+  "name": "DDM4 (Black)",
+  "short_name": "DDM4",
+  "manufacturer": "Daniel Defense",
+  "description": "The DDM4 is a high-quality AR-15 platform developed by Daniel Defense. It is considered one of the best-quality AR-15 platforms on the market due to its precise construction and tight tolerances, which make it very reliable and well-performing. The DDM4 is also fielded by US Rangers.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.AssaultRifle",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "2x1",
+  "base_price": 1360.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 408.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 8.0,
+   "fireRate": 800,
+   "muzzleSpeed": 922,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 5300,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_DdMk18Black.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_DdMk18PL",
+  "name": "DDM4 (Phantom Lance)",
+  "short_name": "DDM4",
+  "manufacturer": "Daniel Defense",
+  "description": "The DDM4 is a high-quality AR-15 platform developed by Daniel Defense. It is considered one of the best-quality AR-15 platforms on the market due to its precise construction and tight tolerances, which make it very reliable and well-performing. The DDM4 is also fielded by US Rangers.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.AssaultRifle",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "2x1",
+  "base_price": 2043.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 612.9
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 9.0,
+   "fireRate": 800,
+   "muzzleSpeed": 922,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 5300,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_DdMk18PL.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Famas",
+  "name": "FAMAS",
+  "manufacturer": "MAS",
+  "description": "The FAMAS is a French bullpup assault rifle chambered in 5.56x45mm, developed by the Manufacture d'armes de Saint-Étienne and adopted by the French military in the late 1970s. Its compact bullpup layout and distinctive carry handle give the rifle an unmistakable appearance, while its unusual lever-delayed blowback system sets it apart mechanically from most contemporary assault rifles. Designed as a versatile infantry weapon, the FAMAS became one of the most recognizable symbols of the French Armed Forces.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Famas",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponCategory.AssaultRifle"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "2x1",
+  "base_price": 680.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 8.0,
+   "fireRate": 1000,
+   "muzzleSpeed": 900,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 4100,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Famas.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Aks74UFather",
+  "name": "Firebrand's AKS-74U",
+  "short_name": "B AKS-74U",
+  "manufacturer": "EGMT",
+  "description": "The AKS-74U is a compact, short-barreled variant of the AK-74 assault rifle, developed by the Soviet Union in the late 1970s. With a 210mm barrel and folding metal stock, it is highly portable and ideal for close-quarters combat. Chambered for the 5.45x39mm cartridge, it delivers the firepower of the full-size AK-74 in a more compact form. The weapon’s distinctive muzzle brake reduces recoil and muzzle rise. Favored by paratroopers, vehicle crews, and special forces, it strikes a perfect balance between power and maneuverability.\n\nThis AKS-74U belongs to Lani “Firebrand” Sayavong, the leader of the armed group occupying YBL-1. Hardened by years on the run, sleeping in caves, and fighting in the dense jungle, Lani carries a weapon that looks just as battered by life as he is. The gun is adorned with national symbols and revolutionary slogans of his rebel group, the Lamang Liberation Army.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.AssaultRifle",
+   "Size.Middle",
+   "WeaponPlatform.AKS74U",
+   "Boss"
+  ],
+  "weight": "1.7 kg",
+  "grid_size": "3x1",
+  "base_price": 510.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "moa": 3.5,
+   "manipulationModifier": 10.0,
+   "fireRate": 650,
+   "muzzleSpeed": 715,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 8000,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "545x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Gastube_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": false
+   },
+   {
+    "slot": "Handle_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Aks74UFather.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_G3",
+  "name": "G3",
+  "manufacturer": "Heckler & Koch",
+  "description": "The Heckler & Koch G3 is a German battle rifle chambered in 7.62x51mm NATO, adopted as the standard service rifle of the German Armed Forces in 1959. Its distinctive roller-delayed blowback operating system provides reliable operation without a conventional gas system, while the stamped steel receiver allows for relatively simple and economical production. Powerful, robust, and widely exported, the G3 became one of the most successful battle rifles of the Cold War era.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponCategory.Rifle",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "2x1",
+  "base_price": 1100.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 330.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "fireRate": 500,
+   "muzzleSpeed": 800,
+   "fireNoiseInDecibels": 180.0,
+   "fireMode": 5,
+   "maximumShots": 7200,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_G3.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_G3ZH",
+  "name": "G3 (Zero Hour)",
+  "short_name": "G3",
+  "manufacturer": "Heckler & Koch",
+  "description": "The Heckler & Koch G3 is a German battle rifle chambered in 7.62x51mm NATO, adopted as the standard service rifle of the German Armed Forces in 1959. Its distinctive roller-delayed blowback operating system provides reliable operation without a conventional gas system, while the stamped steel receiver allows for relatively simple and economical production. Powerful, robust, and widely exported, the G3 became one of the most successful battle rifles of the Cold War era.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponCategory.Rifle",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "2x1",
+  "base_price": 1100.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 330.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 2.0,
+   "fireRate": 500,
+   "muzzleSpeed": 800,
+   "fireNoiseInDecibels": 180.0,
+   "fireMode": 5,
+   "maximumShots": 7200,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_G3ZH.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_G36",
+  "name": "G36",
+  "manufacturer": "Heckler & Koch",
+  "description": "The Heckler & Koch G36 is a German assault rifle chambered in 5.56x45mm NATO, developed to replace the G3 as the standard service rifle of the German Armed Forces. It features a gas-operated action with a rotating bolt, a lightweight polymer receiver, and a folding stock that reduces its overall length for transport and use in confined spaces. Designed as a modular weapon system, the G36 can be configured into several variants suited to different infantry roles.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.AssaultRifle",
+   "Size.Small",
+   "WeaponPlatform.G36"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "2x1",
+  "base_price": 680.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 5.0,
+   "fireRate": 750,
+   "muzzleSpeed": 750,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 5600,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Sight_F",
+    "critical": true
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_G36.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_G36FDE",
+  "name": "G36 (FDE)",
+  "short_name": "G36",
+  "manufacturer": "Heckler & Koch",
+  "description": "The Heckler & Koch G36 is a German assault rifle chambered in 5.56x45mm NATO, developed to replace the G3 as the standard service rifle of the German Armed Forces. It features a gas-operated action with a rotating bolt, a lightweight polymer receiver, and a folding stock that reduces its overall length for transport and use in confined spaces. Designed as a modular weapon system, the G36 can be configured into several variants suited to different infantry roles.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.AssaultRifle",
+   "Size.Small",
+   "WeaponPlatform.G36"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "2x1",
+  "base_price": 680.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 5.0,
+   "fireRate": 750,
+   "muzzleSpeed": 750,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 5600,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Sight_F",
+    "critical": true
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_G36FDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Glock17",
+  "name": "Glock 17",
+  "manufacturer": "GLOCK",
+  "description": "The Glock 17 is a renowned semi-automatic pistol chambered in 9x19mm Parabellum, designed and manufactured by Glock GmbH. It has gained widespread recognition for its exceptional reliability, durability, and ease of use. With a standard magazine capacity of 17 rounds, the Glock 17 offers ample firepower. Its lightweight polymer frame, combined with a steel slide, ensures resilience and comfortable handling. Trusted by professionals and civilians alike, the Glock 17 is a popular choice for self-defense, law enforcement, and sport shooting due to its robust construction and impressive performance.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Origin.West",
+   "WeaponCategory.Pistol",
+   "Size.Small",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.231 kg",
+  "grid_size": "2x1",
+  "base_price": 255.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 1,
+    "price": 255.0
+   }
+  ],
+  "sold_by": "Banshee R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.5
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 8.0,
+   "fireRate": 600,
+   "muzzleSpeed": 375,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 4400,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.5,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Rail_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Glock17.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Glock17Olive",
+  "name": "Glock 17 (Olive)",
+  "short_name": "Glock 17",
+  "manufacturer": "GLOCK",
+  "description": "The Glock 17 is a renowned semi-automatic pistol chambered in 9x19mm Parabellum, designed and manufactured by Glock GmbH. It has gained widespread recognition for its exceptional reliability, durability, and ease of use. With a standard magazine capacity of 17 rounds, the Glock 17 offers ample firepower. Its lightweight polymer frame, combined with a steel slide, ensures resilience and comfortable handling. Trusted by professionals and civilians alike, the Glock 17 is a popular choice for self-defense, law enforcement, and sport shooting due to its robust construction and impressive performance.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Origin.West",
+   "WeaponCategory.Pistol",
+   "Size.Small",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.231 kg",
+  "grid_size": "2x1",
+  "base_price": 255.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.5
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 8.0,
+   "fireRate": 600,
+   "muzzleSpeed": 375,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 4400,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.5,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Rail_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Glock17Olive.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Glock18C",
+  "name": "Glock 18C",
+  "manufacturer": "GLOCK",
+  "description": "The Glock 18C is a select-fire pistol chambered in 9x19mm Parabellum, designed and manufactured by Glock GmbH. Developed for military and law enforcement use, it is capable of both semi-automatic and fully automatic fire. The compensated barrel and slide feature integrated ports that redirect propellant gases upward, helping to reduce muzzle rise and improve controllability during rapid fire. Combining a lightweight polymer frame with exceptional firepower in a compact package, the Glock 18C is a specialized weapon designed for situations where a high volume of fire is required.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Origin.West",
+   "WeaponCategory.Pistol",
+   "Size.Small"
+  ],
+  "weight": "0.24 kg",
+  "grid_size": "2x1",
+  "base_price": 1200.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 1200.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 360.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 14.0,
+   "fireRate": 1200,
+   "muzzleSpeed": 375,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 5,
+   "maximumShots": 9700,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Rail_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Glock18C.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Glock18CWB",
+  "name": "Glock 18C (Wolf Brigade)",
+  "short_name": "Glock 18C",
+  "manufacturer": "GLOCK",
+  "description": "The Glock 18C is a select-fire pistol chambered in 9x19mm Parabellum, designed and manufactured by Glock GmbH. Developed for military and law enforcement use, it is capable of both semi-automatic and fully automatic fire. The compensated barrel and slide feature integrated ports that redirect propellant gases upward, helping to reduce muzzle rise and improve controllability during rapid fire. Combining a lightweight polymer frame with exceptional firepower in a compact package, the Glock 18C is a specialized weapon designed for situations where a high volume of fire is required.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Origin.West",
+   "WeaponCategory.Pistol",
+   "Size.Small"
+  ],
+  "weight": "0.24 kg",
+  "grid_size": "2x1",
+  "base_price": 1200.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 360.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 14.0,
+   "fireRate": 1200,
+   "muzzleSpeed": 375,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 5,
+   "maximumShots": 9700,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Rail_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Glock18CWB.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Colt1911Midas",
+  "name": "Golden Boy's Colt 1911",
+  "short_name": "B 1911",
+  "manufacturer": "EGMT",
+  "description": "The Colt 1911 is a renowned semi-automatic pistol designed by John Browning and first adopted by the U.S. military in 1911. It is chambered in .45 ACP and is known for its robust design, reliability, and stopping power. The Colt 1911 features a single-action trigger, a 7-round magazine, and a steel frame. It has been a popular choice for military, law enforcement, and civilian use due to its enduring performance and iconic status.\n\nThis Colt 1911 belongs to Songkram “Golden Boy” Manivanh, the leader of the Pha Lang criminal gang. Obsessed with gold and ostentatious displays of wealth, Songkram could not pass up the opportunity to make sure his weapon stood out among those of the other gang members. The grip is made of pearl, and the entire firearm shines with a golden luster.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Size.Small",
+   "WeaponPlatform.1911",
+   "Location.Equip.Weapon.Pistol",
+   "WeaponCategory.Pistol",
+   "Origin.East",
+   "Boss"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "2x1",
+  "base_price": 400.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 120.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 600,
+   "muzzleSpeed": 350,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 8100,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Hammer_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Colt1911Midas.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Colt1911CommanderHel",
+  "name": "Grin's Colt 1911 Commander",
+  "short_name": "B 1911 Com",
+  "manufacturer": "EGMT",
+  "description": "Introduced in 1949, the Colt Commander was developed as a lightweight, compact alternative to the full-size Colt 1911. It was created in response to a U.S. military request for a smaller, more portable sidearm after World War II. The original model featured an aluminum alloy frame, making it lighter than the traditional steel-framed 1911.\n\nThis Colt Commander belongs to Malo “Grin” Luangrath, the leader of the armed group occupying Blue Lagoon. Using his charm and good looks, he managed to build a lucrative human trafficking network. After the decoration of the gun was finished, Malo sold its creator into slavery to his most perverse customers to ensure the design would never be replicated.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Size.Small",
+   "WeaponCategory.Pistol",
+   "Location.Equip.Weapon.Pistol",
+   "WeaponPlatform.1911C",
+   "Origin.East",
+   "Boss"
+  ],
+  "weight": "0.454 kg",
+  "grid_size": "2x1",
+  "base_price": 680.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 600,
+   "muzzleSpeed": 350,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 6200,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Hammer_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Colt1911CommanderHel.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Glock17Damascus",
+  "name": "Kaptei's Glock 17",
+  "short_name": "B Glock 17",
+  "manufacturer": "EGMT",
+  "description": "The Glock 17 is a renowned semi-automatic pistol chambered in 9x19mm Parabellum, designed and manufactured by Glock GmbH. It has gained widespread recognition for its exceptional reliability, durability, and ease of use. With a standard magazine capacity of 17 rounds, the Glock 17 offers ample firepower. Its lightweight polymer frame, combined with a steel slide, ensures resilience and comfortable handling. Trusted by professionals and civilians alike, the Glock 17 is a popular choice for self-defense, law enforcement, and sport shooting due to its robust construction and impressive performance.\n\nThis Glock 17 belongs to Sang “Kaptei” Samnang, the leader of the armed group occupying the sawmill. A former soldier, Sang values performance and reliability over flashy displays. He purchased this Damascus steel Glock 17 from Banshee when they first began working together. Now, Sang intends to execute him with this very same weapon.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "WeaponCategory.Pistol",
+   "Size.Small",
+   "WeaponPlatform.Glock",
+   "Origin.East",
+   "Boss"
+  ],
+  "weight": "0.231 kg",
+  "grid_size": "2x1",
+  "base_price": 510.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 600,
+   "muzzleSpeed": 375,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 9700,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Rail_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Glock17Damascus.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_L403A1",
+  "name": "L403A1",
+  "manufacturer": "KAC",
+  "description": "The L403A1 is a 5.56×45mm NATO, gas-operated, magazine-fed rifle adopted by the British Armed Forces through the Alternative Individual Weapon Program. Built by Knight's Armament Company, it is based on the AR-15 platform and features a free-floating barrel for enhanced accuracy, fully ambidextrous controls, and an M-LOK handguard for attaching accessories. Intended to replace the L85A3 in frontline service, the L403A1 is optimized for optical sights and modern soldier systems, ensuring full compatibility with current infantry gear.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.AssaultRifle",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "2x1",
+  "base_price": 1700.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 1700.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 510.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 12.0,
+   "fireRate": 800,
+   "muzzleSpeed": 900,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 6500,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_L403A1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_L403A1SG",
+  "name": "L403A1 (Serpent Guard)",
+  "short_name": "L403A1",
+  "manufacturer": "KAC",
+  "description": "The L403A1 is a 5.56×45mm NATO, gas-operated, magazine-fed rifle adopted by the British Armed Forces through the Alternative Individual Weapon Program. Built by Knight's Armament Company, it is based on the AR-15 platform and features a free-floating barrel for enhanced accuracy, fully ambidextrous controls, and an M-LOK handguard for attaching accessories. Intended to replace the L85A3 in frontline service, the L403A1 is optimized for optical sights and modern soldier systems, ensuring full compatibility with current infantry gear.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.AssaultRifle",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "2x1",
+  "base_price": 2400.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 720.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 15.0,
+   "fireRate": 800,
+   "muzzleSpeed": 900,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 6500,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_L403A1SG.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_M201C",
+  "name": "M-201C",
+  "manufacturer": "Norinco",
+  "description": "The Norinco M201-C is a 9mm semi-automatic pistol inspired by the Soviet Tokarev TT-33. Produced by China's Norinco, it modernizes the original with a manual safety, ergonomic grip, and chambering for contemporary 9×19mm ammunition, making it compatible with widely available modern ammo.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Origin.East",
+   "Size.Small",
+   "WeaponCategory.Pistol",
+   "WeaponPlatform.M201C"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "2x1",
+  "base_price": 153.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 153.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 45.9
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 6.0,
+   "fireRate": 600,
+   "muzzleSpeed": 360,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 1900,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.5,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_M201C.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_M14",
+  "name": "M14",
+  "manufacturer": "Springfield",
+  "description": "The M14 is a 7.62×51mm NATO, gas-operated, magazine-fed battle rifle developed in the United States and adopted in 1959. It features a rotating bolt and selective-fire capability, though most rifles were issued in semi-automatic only. With a 20-round detachable box magazine, the M14 gained a reputation for reliability and long-range effectiveness. It saw extensive use during the early stages of the Vietnam War and remains in limited service today, particularly as a designated marksman rifle.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.Rifle",
+   "Size.Small",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "0.91 kg",
+  "grid_size": "2x1",
+  "base_price": 1190.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 1190.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 357.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "fireRate": 700,
+   "muzzleSpeed": 833,
+   "fireNoiseInDecibels": 180.0,
+   "fireMode": 5,
+   "maximumShots": 5700,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_M14.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_M14BH",
+  "name": "M14 (Black Hawk)",
+  "short_name": "M14",
+  "manufacturer": "Springfield",
+  "description": "The M14 is a 7.62×51mm NATO, gas-operated, magazine-fed battle rifle developed in the United States and adopted in 1959. It features a rotating bolt and selective-fire capability, though most rifles were issued in semi-automatic only. With a 20-round detachable box magazine, the M14 gained a reputation for reliability and long-range effectiveness. It saw extensive use during the early stages of the Vietnam War and remains in limited service today, particularly as a designated marksman rifle.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.Rifle",
+   "Size.Small",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "0.91 kg",
+  "grid_size": "2x1",
+  "base_price": 1785.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 535.5
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 2.0,
+   "fireRate": 700,
+   "muzzleSpeed": 833,
+   "fireNoiseInDecibels": 180.0,
+   "fireMode": 5,
+   "maximumShots": 5700,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_M14BH.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_M16A1",
+  "name": "M16A1",
+  "manufacturer": "General West",
+  "description": "The M16A1 is a 5.56×45mm NATO, gas-operated, magazine-fed rifle adopted by the U.S. military during the Vietnam War. It utilizes a direct-impingement gas system and features select-fire capability, allowing for both semi-automatic and fully automatic fire. Improvements over the original M16 included a chrome-lined barrel, birdcage flash hider, and a forward assist to enhance reliability in harsh conditions. The M16A1 became the standard-issue rifle for U.S. forces from the late 1960s through the 1970s.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.AssaultRifle",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.65 kg",
+  "grid_size": "2x1",
+  "base_price": 510.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 510.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 4.0,
+   "fireRate": 800,
+   "muzzleSpeed": 922,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 4100,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_M16A1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_M1A",
+  "name": "M1A",
+  "manufacturer": "Springfield",
+  "description": "The M1A, produced by Springfield Armory, Inc., is the semi-automatic civilian version of the military M14 rifle. Chambered in 7.62×51mm NATO (.308 Winchester), it retains the M14’s gas-operated system and rotating bolt but omits the selective-fire capability. The M1A accepts detachable box magazines, typically 20-round, and is available in various configurations with either wooden or synthetic stocks. Known for its accuracy and robust design, it remains a popular choice for target shooting, hunting, and marksmanship competitions.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.Rifle",
+   "Size.Small",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "0.9 kg",
+  "grid_size": "2x1",
+  "base_price": 731.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 731.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 219.3
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": -4.0,
+   "fireRate": 700,
+   "muzzleSpeed": 833,
+   "fireNoiseInDecibels": 180.0,
+   "fireMode": 1,
+   "maximumShots": 4400,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_M1A.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_ColtM4A1",
+  "name": "M4A1",
+  "manufacturer": "COLT",
+  "description": "The M4A1, in service since 1994, is a fully automatic variant of the M4 carbine widely utilized by U.S. special operations forces. This highly regarded rifle offers exceptional performance and reliability, with a selective fire system that allows operators to switch between semi-automatic and fully automatic modes. Its compact size, collapsible stock, and compatibility with various accessories make it ideal for close-quarters combat and versatile for various mission requirements.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.AssaultRifle",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.65 kg",
+  "grid_size": "2x1",
+  "base_price": 510.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 510.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 5.0,
+   "fireRate": 800,
+   "muzzleSpeed": 922,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 4900,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_ColtM4A1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_ColtM4A1FDE",
+  "name": "M4A1 (FDE)",
+  "short_name": "M4A1",
+  "manufacturer": "COLT",
+  "description": "The M4A1, in service since 1994, is a fully automatic variant of the M4 carbine widely utilized by U.S. special operations forces. This highly regarded rifle offers exceptional performance and reliability, with a selective fire system that allows operators to switch between semi-automatic and fully automatic modes. Its compact size, collapsible stock, and compatibility with various accessories make it ideal for close-quarters combat and versatile for various mission requirements.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.AssaultRifle",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.65 kg",
+  "grid_size": "2x1",
+  "base_price": 510.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 5.0,
+   "fireRate": 800,
+   "muzzleSpeed": 922,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 4900,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_ColtM4A1FDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_M700",
+  "name": "M700",
+  "manufacturer": "Remington",
+  "description": "The Remington M700 is an accurate and reliable bolt-action rifle widely used by hunters, law enforcement agencies, and military snipers around the world. With a reputation for precision, the M700 is available in various calibers and configurations to suit different shooting applications, from long-range target shooting to big game hunting.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.Rifle",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "2x1",
+  "base_price": 765.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 765.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 229.5
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "fireRate": 30,
+   "muzzleSpeed": 850,
+   "fireNoiseInDecibels": 180.0,
+   "fireMode": 1,
+   "maximumShots": 5100,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_M700.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_M700GC",
+  "name": "M700 (Gray Company)",
+  "short_name": "M700",
+  "manufacturer": "Remington",
+  "description": "The Remington M700 is an accurate and reliable bolt-action rifle widely used by hunters, law enforcement agencies, and military snipers around the world. With a reputation for precision, the M700 is available in various calibers and configurations to suit different shooting applications, from long-range target shooting to big game hunting.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.Rifle",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "2x1",
+  "base_price": 1530.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 459.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 2.0,
+   "fireRate": 30,
+   "muzzleSpeed": 850,
+   "fireNoiseInDecibels": 180.0,
+   "fireMode": 1,
+   "maximumShots": 8100,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_M700GC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_RemingtonM870",
+  "name": "M870",
+  "manufacturer": "Remington",
+  "description": "The Remington Model 870 is a classic pump-action shotgun known for its reliability, versatility, and widespread use in various applications such as hunting, sport shooting, and law enforcement. It features a robust and durable design, with a variety of configurations available to suit different preferences and needs. The Model 870 is celebrated for its smooth cycling action, solid construction, and proven performance, making it a popular choice among firearm enthusiasts worldwide.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.Shotgun",
+   "WeaponPlatform.M870",
+   "Size.Middle"
+  ],
+  "weight": "1.1 kg",
+  "grid_size": "3x1",
+  "base_price": 170.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 170.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": -4.0,
+   "fireRate": 300,
+   "muzzleSpeed": 340,
+   "fireMode": 1,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Magazine_F",
+    "critical": true
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_RemingtonM870.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_RemingtonM870FDE",
+  "name": "M870 (FDE)",
+  "short_name": "M870",
+  "manufacturer": "Remington",
+  "description": "The Remington Model 870 is a classic pump-action shotgun known for its reliability, versatility, and widespread use in various applications such as hunting, sport shooting, and law enforcement. It features a robust and durable design, with a variety of configurations available to suit different preferences and needs. The Model 870 is celebrated for its smooth cycling action, solid construction, and proven performance, making it a popular choice among firearm enthusiasts worldwide.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.Shotgun",
+   "WeaponPlatform.M870",
+   "Size.Middle"
+  ],
+  "weight": "1.1 kg",
+  "grid_size": "3x1",
+  "base_price": 170.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": -4.0,
+   "fireRate": 300,
+   "muzzleSpeed": 340,
+   "fireMode": 1,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Magazine_F",
+    "critical": true
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_RemingtonM870FDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_BerettaM9A1",
+  "name": "M9A1",
+  "manufacturer": "Beretta",
+  "description": "The Beretta M9A1, introduced in 2006 as an upgraded version of the M9, is a 9mm semi-automatic pistol. It features a Picatinny rail for accessory mounting, improved grip texturing, a beveled magazine well for faster reloading, and sand-resistant 15-round magazines. Designed for military and law enforcement use, the M9A1 is renowned for its enhanced reliability and adaptability in harsh conditions.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M9A1",
+   "WeaponCategory.Pistol"
+  ],
+  "weight": "0.231 kg",
+  "grid_size": "2x1",
+  "base_price": 204.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 204.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 61.2
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 8.0,
+   "fireRate": 600,
+   "muzzleSpeed": 381,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 2200,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.5,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Hammer_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_BerettaM9A1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_MosinNagant",
+  "name": "Mosin-Nagant",
+  "short_name": "Mosin",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The Mosin-Nagant Model 1891/30 is a bolt-action rifle that became the standard-issue rifle for the Soviet Union during World War II and beyond. Introduced in 1930, it is an updated version of the original Mosin-Nagant Model 1891, featuring improvements such as a five-round internal magazine and chambered in 7.62x54R cartridge. Renowned for its reliability, the Mosin-Nagant 1891/30 saw extensive service in various conflicts throughout the 20th century. Its affordability and availability have also made it popular among civilian shooters and collectors worldwide.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.Rifle",
+   "Size.Small",
+   "WeaponPlatform.Mosin"
+  ],
+  "weight": "0.9 kg",
+  "grid_size": "2x1",
+  "base_price": 340.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 340.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": -12.0,
+   "fireRate": 20,
+   "muzzleSpeed": 865,
+   "fireNoiseInDecibels": 180.0,
+   "fireMode": 1,
+   "maximumShots": 3200,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "762x54R"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_MosinNagant.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_MosinNagantSniper",
+  "name": "Mosin-Nagant (Sniper)",
+  "short_name": "Mosin (S)",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The sniper variant of the Mosin-Nagant Model 1891/30, employed by Soviet snipers during World War II, underwent several modifications for precision shooting. Notably, the rifle featured a modified bolt design to prevent interference with the telescopic sight and two holes in the upper receiver for mounting the sight securely. Despite these alterations, the sniper variant retained the same basic operating mechanism and chambering as the standard infantry rifle. With an extended effective range and enhanced accuracy, it played a vital role in Soviet sniping operations during the war.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.Rifle",
+   "Size.Small",
+   "WeaponPlatform.Mosin"
+  ],
+  "weight": "0.9 kg",
+  "grid_size": "2x1",
+  "base_price": 340.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 340.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": -8.0,
+   "fireRate": 20,
+   "muzzleSpeed": 865,
+   "fireNoiseInDecibels": 180.0,
+   "fireMode": 1,
+   "maximumShots": 3500,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "762x54R"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_MosinNagantSniper.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Mossberg590",
+  "name": "Mossberg 590",
+  "short_name": "M590",
+  "manufacturer": "Mossberg",
+  "description": "The Mossberg 590 is a pump-action shotgun celebrated for its ruggedness and reliability. It features a 3-inch chamber and is available in various barrel lengths, typically ranging from 18.5 to 20 inches, catering to different preferences and applications. Designed primarily for defensive and tactical purposes, the Mossberg 590 is equipped with a sturdy receiver and a tang-mounted safety, ensuring quick and intuitive operation, particularly in high-pressure situations. Its dual extractors and twin action bars contribute to smooth cycling and dependable performance, even in harsh conditions.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.Shotgun",
+   "WeaponPlatform.M590",
+   "Size.Middle"
+  ],
+  "weight": "1.1 kg",
+  "grid_size": "3x1",
+  "base_price": 170.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": -4.0,
+   "fireRate": 300,
+   "muzzleSpeed": 340,
+   "fireMode": 1,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "HandGuard_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Mossberg590.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Mossberg590FDE",
+  "name": "Mossberg 590 (FDE)",
+  "short_name": "M590",
+  "manufacturer": "Mossberg",
+  "description": "The Mossberg 590 is a pump-action shotgun celebrated for its ruggedness and reliability. It features a 3-inch chamber and is available in various barrel lengths, typically ranging from 18.5 to 20 inches, catering to different preferences and applications. Designed primarily for defensive and tactical purposes, the Mossberg 590 is equipped with a sturdy receiver and a tang-mounted safety, ensuring quick and intuitive operation, particularly in high-pressure situations. Its dual extractors and twin action bars contribute to smooth cycling and dependable performance, even in harsh conditions.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.Shotgun",
+   "WeaponPlatform.M590",
+   "Size.Middle"
+  ],
+  "weight": "1.1 kg",
+  "grid_size": "3x1",
+  "base_price": 170.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": -4.0,
+   "fireRate": 300,
+   "muzzleSpeed": 340,
+   "fireMode": 1,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "HandGuard_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Mossberg590FDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Mossberg590RT",
+  "name": "Mossberg 590 (Raven Team)",
+  "short_name": "M590",
+  "manufacturer": "Mossberg",
+  "description": "The Mossberg 590 is a pump-action shotgun celebrated for its ruggedness and reliability. It features a 3-inch chamber and is available in various barrel lengths, typically ranging from 18.5 to 20 inches, catering to different preferences and applications. Designed primarily for defensive and tactical purposes, the Mossberg 590 is equipped with a sturdy receiver and a tang-mounted safety, ensuring quick and intuitive operation, particularly in high-pressure situations. Its dual extractors and twin action bars contribute to smooth cycling and dependable performance, even in harsh conditions.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.Shotgun",
+   "WeaponPlatform.M590",
+   "Size.Middle"
+  ],
+  "weight": "1.1 kg",
+  "grid_size": "3x1",
+  "base_price": 170.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "fireRate": 300,
+   "muzzleSpeed": 340,
+   "fireMode": 1,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "HandGuard_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Mossberg590RT.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Mp5",
+  "name": "MP5",
+  "manufacturer": "Heckler & Koch",
+  "description": "The MP5, or Maschinenpistole 5, is a submachine gun developed by German firearms manufacturer Heckler & Koch (H&K). It gained recognition for its compact design, reliability, and versatility after its introduction in the 1960s. The MP5 is a scaled-down version of the earlier MP4 submachine gun, originating from the successful roller-delayed blowback mechanism pioneered by H&K in the 1950s. The MP5 was originally designed for use by military and law enforcement units in confined spaces and urban environments, where maneuverability and close-range firepower were crucial.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.SMG",
+   "Size.Small",
+   "WeaponPlatform.MP5"
+  ],
+  "weight": "0.74 kg",
+  "grid_size": "2x1",
+  "base_price": 510.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 510.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "moa": 6.88,
+   "manipulationModifier": -2.0,
+   "fireRate": 800,
+   "muzzleSpeed": 350,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 5,
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.5,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Mp5.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Mp7A1",
+  "name": "MP7A1",
+  "manufacturer": "Heckler & Koch",
+  "description": "The MP7A1, introduced in 2003, represents an enhanced iteration of the original MP7 model. Notable design elements include a redesigned pistol grip with a novel surface texture, a retractable stock of reduced length, and side-mounted Picatinny rails for accessory mounting. The folding iron sights have also been streamlined, resulting in a more compact form factor. The MP7A1 is chambered in 4.6×30mm and is designed for maximum firepower in close-quarters combat, offering high armor penetration with low recoil. It has gained recognition for its versatility, compact size, and effectiveness in both military and law enforcement operations.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP7",
+   "WeaponCategory.SMG",
+   "Location.Equip.Weapon.MainWeapon"
+  ],
+  "weight": "1.6 kg",
+  "grid_size": "2x1",
+  "base_price": 644.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 1,
+    "price": 644.0
+   }
+  ],
+  "sold_by": "Banshee R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 193.2
+   }
+  ],
+  "stats": {
+   "moa": 5.24,
+   "manipulationModifier": 16.0,
+   "fireRate": 950,
+   "muzzleSpeed": 680,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 5,
+   "maximumShots": 9500,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "46x30"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperFront_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_Left_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Right_F",
+    "critical": false
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Mp7A1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Mp7A2",
+  "name": "MP7A2",
+  "manufacturer": "Heckler & Koch",
+  "description": "The MP7A2, introduced as the latest evolution of the MP7 series, builds upon the original MP7's design with several significant upgrades. These include an improved ergonomic pistol grip, an ambidextrous selector switch for increased versatility, and an enhanced trigger design for better control during rapid fire. The MP7A2 retains the compact and lightweight profile of its predecessor, chambered in 4.6×30mm, while incorporating a fully adjustable stock for greater stability. The addition of a redesigned handguard allows for improved mounting of accessories, while the upgraded Picatinny rails offer more options for customization.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.SMG",
+   "Size.Small",
+   "WeaponPlatform.MP7"
+  ],
+  "weight": "1.55 kg",
+  "grid_size": "2x1",
+  "base_price": 695.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 695.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 208.5
+   }
+  ],
+  "stats": {
+   "moa": 5.24,
+   "manipulationModifier": 16.0,
+   "fireRate": 950,
+   "muzzleSpeed": 680,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 5,
+   "maximumShots": 9500,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "46x30"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperFront_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_Left_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Right_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_BottomMid_F",
+    "critical": false
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Mp7A2.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Mp7A2SC",
+  "name": "MP7A2 (Sentinel Company)",
+  "short_name": "MP7A2",
+  "manufacturer": "Heckler & Koch",
+  "description": "The MP7A2, introduced as the latest evolution of the MP7 series, builds upon the original MP7's design with several significant upgrades. These include an improved ergonomic pistol grip, an ambidextrous selector switch for increased versatility, and an enhanced trigger design for better control during rapid fire. The MP7A2 retains the compact and lightweight profile of its predecessor, chambered in 4.6×30mm, while incorporating a fully adjustable stock for greater stability. The addition of a redesigned handguard allows for improved mounting of accessories, while the upgraded Picatinny rails offer more options for customization.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.SMG",
+   "Size.Small",
+   "WeaponPlatform.MP7"
+  ],
+  "weight": "1.55 kg",
+  "grid_size": "2x1",
+  "base_price": 892.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 267.6
+   }
+  ],
+  "stats": {
+   "moa": 5.24,
+   "manipulationModifier": 18.0,
+   "fireRate": 950,
+   "muzzleSpeed": 680,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 5,
+   "maximumShots": 9500,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "46x30"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperFront_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_Left_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Right_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_BottomMid_F",
+    "critical": false
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Mp7A2SC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Type51Hammerhead",
+  "name": "Naga's Type 51",
+  "short_name": "B Type 51",
+  "manufacturer": "EGMT",
+  "description": "The Type 51 Tokarev is based on a steel-framed construction, which ensures durability and longevity. It uses a single-stack magazine that can hold eight rounds of 7.62x25mm Tokarev ammunition. The pistol operates on a simple blowback mechanism, which is known for its reliability and ease of maintenance.\n\nThis Type 51 Tokarev belongs to Sabtu \"Naga\" bin Panjang, the leader of the armed group occupying Ban Pa. Sabtu acquired this beautiful pistol from the captain of a cargo ship that he and his crew recently attacked. After killing the man with his own gun, Sabtu kept it simply because he liked its design.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT",
+   "WeaponCategory.Pistol",
+   "Boss"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "2x1",
+  "base_price": 300.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 600,
+   "muzzleSpeed": 499,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 4600,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x25"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Type51Hammerhead.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Remington788",
+  "name": "Remington 788",
+  "short_name": "788",
+  "manufacturer": "Remington",
+  "description": "The Remington 788 is a bolt-action hunting rifle produced from 1967 to 1983. Despite being marketed as an affordable model, it is valued for its accuracy. Chambered in .222 Remington, the rifle uses a four-round detachable box magazine. It has a distinctive rear-lugged bolt with a short 60° lift for smooth cycling and easy scope use. Its rigid receiver design enhances precision, making it popular among varmint hunters and target shooters.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.Rifle",
+   "Size.Small",
+   "WeaponPlatform.Remington788"
+  ],
+  "weight": "1.219 kg",
+  "grid_size": "2x1",
+  "base_price": 374.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 374.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 112.2
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": -12.0,
+   "fireRate": 30,
+   "muzzleSpeed": 700,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 1,
+   "maximumShots": 140,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "222Rem"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Remington788.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_SaVz58",
+  "name": "Sa vz. 58",
+  "manufacturer": "CZ",
+  "description": "The Sa vz. 58 (7,62mm samopal vzor 58) is a 7.62×39mm assault rifle developed in Czechoslovakia in the late 1950s. Despite its visual similarity to the Soviet AK-47, the vz. 58 is a completely independent design, sharing no interchangeable parts with the Kalashnikov. It uses a short-stroke gas piston system, a milled steel receiver, and a distinctive linear hammer-fired mechanism with a hinged bolt locking piece. Compared to the AK-47, it is lighter and features a bolt hold-open device that engages after the final round is fired.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponCategory.AssaultRifle"
+  ],
+  "weight": "0.75 kg",
+  "grid_size": "2x1",
+  "base_price": 300.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 300.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 5.0,
+   "fireRate": 800,
+   "muzzleSpeed": 700,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 5300,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_SaVz58.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_SaVz58BD",
+  "name": "Sa vz. 58 (Blackwood Division)",
+  "short_name": "Sa vz. 58",
+  "manufacturer": "CZ",
+  "description": "The Sa vz. 58 (7,62mm samopal vzor 58) is a 7.62×39mm assault rifle developed in Czechoslovakia in the late 1950s. Despite its visual similarity to the Soviet AK-47, the vz. 58 is a completely independent design, sharing no interchangeable parts with the Kalashnikov. It uses a short-stroke gas piston system, a milled steel receiver, and a distinctive linear hammer-fired mechanism with a hinged bolt locking piece. Compared to the AK-47, it is lighter and features a bolt hold-open device that engages after the final round is fired.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponCategory.AssaultRifle"
+  ],
+  "weight": "0.75 kg",
+  "grid_size": "2x1",
+  "base_price": 300.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 6.0,
+   "fireRate": 800,
+   "muzzleSpeed": 700,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 5300,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_SaVz58BD.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_SaVz58FDE",
+  "name": "Sa vz. 58 (FDE)",
+  "short_name": "Sa vz. 58",
+  "manufacturer": "CZ",
+  "description": "The Sa vz. 58 (7,62mm samopal vzor 58) is a 7.62×39mm assault rifle developed in Czechoslovakia in the late 1950s. Despite its visual similarity to the Soviet AK-47, the vz. 58 is a completely independent design, sharing no interchangeable parts with the Kalashnikov. It uses a short-stroke gas piston system, a milled steel receiver, and a distinctive linear hammer-fired mechanism with a hinged bolt locking piece. Compared to the AK-47, it is lighter and features a bolt hold-open device that engages after the final round is fired.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponCategory.AssaultRifle"
+  ],
+  "weight": "0.75 kg",
+  "grid_size": "2x1",
+  "base_price": 300.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 5.0,
+   "fireRate": 800,
+   "muzzleSpeed": 700,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 5300,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_SaVz58FDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_SigMcx",
+  "name": "SIG MCX",
+  "short_name": "MCX",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG MCX is a gas-operated, modular rifle developed by SIG Sauer. It features a short-stroke gas piston system, ensuring reliable suppressed operation across multiple calibers, including .300 Blackout, 5.56×45mm NATO, and 7.62×39mm. The MCX is distinguished by its quick-change barrel system, folding stock, and exceptional adaptability.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.AssaultRifle",
+   "Size.Small",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "2x1",
+  "base_price": 1190.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 1190.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 357.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 800,
+   "muzzleSpeed": 700,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 5300,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "300AAC"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   }
+  ],
+  "disables_socket_types": [
+   "Socket.Sight.30mm.Low.Big",
+   "Socket.Sight.30mm.Low.Small"
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_SigMcx.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_SigMcxFDE",
+  "name": "SIG MCX (FDE)",
+  "short_name": "MCX",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG MCX is a gas-operated, modular rifle developed by SIG Sauer. It features a short-stroke gas piston system, ensuring reliable suppressed operation across multiple calibers, including .300 Blackout, 5.56×45mm NATO, and 7.62×39mm. The MCX is distinguished by its quick-change barrel system, folding stock, and exceptional adaptability.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.AssaultRifle",
+   "Size.Small",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "2x1",
+  "base_price": 1190.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 357.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 800,
+   "muzzleSpeed": 700,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 5300,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "300AAC"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   }
+  ],
+  "disables_socket_types": [
+   "Socket.Sight.30mm.Low.Big",
+   "Socket.Sight.30mm.Low.Small"
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_SigMcxFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_SigMcxGN",
+  "name": "SIG MCX (Ghost Nomad)",
+  "short_name": "MCX",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG MCX is a gas-operated, modular rifle developed by SIG Sauer. It features a short-stroke gas piston system, ensuring reliable suppressed operation across multiple calibers, including .300 Blackout, 5.56×45mm NATO, and 7.62×39mm. The MCX is distinguished by its quick-change barrel system, folding stock, and exceptional adaptability.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.AssaultRifle",
+   "Size.Small",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "2x1",
+  "base_price": 1190.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 357.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 12.0,
+   "fireRate": 800,
+   "muzzleSpeed": 700,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 5300,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "300AAC"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   }
+  ],
+  "disables_socket_types": [
+   "Socket.Sight.30mm.Low.Big",
+   "Socket.Sight.30mm.Low.Small"
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_SigMcxGN.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Sks",
+  "name": "SKS",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The SKS, originating in the Soviet Union, gained global prominence through widespread export and production. Notable for its fixed magazine and foldable bayonet, it lacked select-fire capability and had limited magazine capacity, leading to its replacement by the AK-47 in the Soviet Armed Forces during the 1950s. Despite this, the SKS continued to serve in various Soviet units for years. Soviet production occurred from 1949 to 1958 at the Tula Arsenal and from 1953 to 1954 at the Izhevsk Arsenal, resulting in approximately 2.7 million units. Additionally, millions more were produced under license in China and other Eastern Bloc countries during the Cold War. Its adaptability for guerrilla warfare made it popular among insurgent forces worldwide. Since 1988, the SKS has been widely available in the civilian market in North America, maintaining popularity for hunting and sporting activities.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.Rifle",
+   "WeaponPlatform.SKS",
+   "Size.Big"
+  ],
+  "weight": "2.63 kg",
+  "grid_size": "4x1",
+  "base_price": 425.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 425.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 127.5
+   }
+  ],
+  "stats": {
+   "moa": 3.2,
+   "manipulationModifier": -8.0,
+   "fireRate": 600,
+   "muzzleSpeed": 735,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 1,
+   "maximumShots": 3600,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.5,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "Auxiliary_F",
+    "critical": true
+   },
+   {
+    "slot": "BarrelMount_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Sks.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_SteyrAug",
+  "name": "Steyr AUG",
+  "short_name": "AUG",
+  "manufacturer": "Steyr Arms",
+  "description": "The Steyr AUG is a pioneering Austrian bullpup assault rifle chambered in 5.56x45mm NATO. Adopted by the Austrian military in 1977, its distinctive bullpup layout combines a full-length barrel with a compact overall profile, while extensive use of polymer keeps the weapon relatively lightweight. The original design also features an integrated optical sight and a quick-change barrel system, contributing to the rifle's versatility and unmistakable appearance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponCategory.AssaultRifle",
+   "WeaponPlatform.AUG",
+   "Location.Equip.Weapon.MainWeapon"
+  ],
+  "weight": "1.76 kg",
+  "grid_size": "2x1",
+  "base_price": 765.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 229.5
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 8.0,
+   "fireRate": 720,
+   "muzzleSpeed": 970,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 6200,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Sight_F",
+    "critical": true
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_SteyrAug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_SteyrAugA3",
+  "name": "Steyr AUG A3",
+  "short_name": "AUG A3",
+  "manufacturer": "Steyr Arms",
+  "description": "The Steyr AUG A3 is a modernized evolution of the original Austrian bullpup assault rifle, chambered in 5.56x45mm NATO. Building on the AUG's compact polymer design, the A3 introduces extensive Picatinny rail integration for mounting a wider variety of optics and accessories. It retains the platform's interchangeable cold-hammer-forged barrel and compact bullpup layout, while offering greater modularity and adaptability for modern infantry use.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponCategory.AssaultRifle",
+   "WeaponPlatform.AUG",
+   "Location.Equip.Weapon.MainWeapon"
+  ],
+  "weight": "1.46 kg",
+  "grid_size": "2x1",
+  "base_price": 1156.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 346.8
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 720,
+   "muzzleSpeed": 970,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 7900,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperFront_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_SteyrAugA3.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_SteyrAugA3DS",
+  "name": "Steyr AUG A3 (Desert Storm)",
+  "short_name": "AUG A3",
+  "manufacturer": "Steyr Arms",
+  "description": "The Steyr AUG A3 is a modernized evolution of the original Austrian bullpup assault rifle, chambered in 5.56x45mm NATO. Building on the AUG's compact polymer design, the A3 introduces extensive Picatinny rail integration for mounting a wider variety of optics and accessories. It retains the platform's interchangeable cold-hammer-forged barrel and compact bullpup layout, while offering greater modularity and adaptability for modern infantry use.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponCategory.AssaultRifle",
+   "WeaponPlatform.AUG",
+   "Location.Equip.Weapon.MainWeapon"
+  ],
+  "weight": "1.46 kg",
+  "grid_size": "2x1",
+  "base_price": 1156.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 346.8
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 12.0,
+   "fireRate": 720,
+   "muzzleSpeed": 970,
+   "fireNoiseInDecibels": 140.0,
+   "fireMode": 5,
+   "maximumShots": 7900,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Rail_UpperBack_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Magnifier_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Sight_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_Collimator_F",
+    "critical": false
+   },
+   {
+    "slot": "Rail_UpperFront_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_SteyrAugA3DS.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_SvdDragunov",
+  "name": "SVD Dragunov",
+  "short_name": "SVD",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The Dragunov sniper rifle is a semi-automatic designated marksman rifle chambered in 7.62×54mmR, developed in the Soviet Union between 1957 and 1963. It was chosen as the winning design from a competition involving three design teams. After extensive field testing in various environmental conditions, Dragunov's rifle was officially adopted in July 1963. An initial pre-production batch of 200 rifles was assembled for evaluation, and serial production began in 1964 at Izhmash, later known as Kalashnikov Concern. Since then, the Dragunov has become a standard squad support weapon in numerous countries, including former Warsaw Pact nations.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.Rifle",
+   "Size.Small",
+   "WeaponPlatform.SVD"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "2x1",
+  "base_price": 1105.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 1105.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 331.5
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "fireRate": 600,
+   "muzzleSpeed": 865,
+   "fireNoiseInDecibels": 180.0,
+   "fireMode": 1,
+   "maximumShots": 4000,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x54R"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_SvdDragunov.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_SvdDragunovSW",
+  "name": "SVD Dragunov (Silent Watch)",
+  "short_name": "SVD",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The Dragunov sniper rifle is a semi-automatic designated marksman rifle chambered in 7.62×54mmR, developed in the Soviet Union between 1957 and 1963. It was chosen as the winning design from a competition involving three design teams. After extensive field testing in various environmental conditions, Dragunov's rifle was officially adopted in July 1963. An initial pre-production batch of 200 rifles was assembled for evaluation, and serial production began in 1964 at Izhmash, later known as Kalashnikov Concern. Since then, the Dragunov has become a standard squad support weapon in numerous countries, including former Warsaw Pact nations.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.East",
+   "WeaponCategory.Rifle",
+   "Size.Small",
+   "WeaponPlatform.SVD"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "2x1",
+  "base_price": 1105.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 331.5
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 2.0,
+   "fireRate": 600,
+   "muzzleSpeed": 865,
+   "fireNoiseInDecibels": 180.0,
+   "fireMode": 1,
+   "maximumShots": 4000,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.7,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x54R"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_SvdDragunovSW.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Type51",
+  "name": "Type 51",
+  "manufacturer": "Norinco",
+  "description": "The Type 51 Tokarev is based on a steel-framed construction, which ensures durability and longevity. It uses a single-stack magazine that can hold eight rounds of 7.62x25mm Tokarev ammunition. The pistol operates on a simple blowback mechanism, which is known for its reliability and ease of maintenance.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Location.Equip.Weapon.Pistol",
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT",
+   "WeaponCategory.Pistol"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "2x1",
+  "base_price": 153.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 153.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 45.9
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 6.0,
+   "fireRate": 600,
+   "muzzleSpeed": 499,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 2100,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.5,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "762x25"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Type51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_UMP45",
+  "name": "UMP45",
+  "manufacturer": "Heckler & Koch",
+  "description": "The Heckler & Koch UMP45 is a submachine gun chambered in .45 ACP, developed as a simpler and more cost-effective alternative to the MP5. It uses a straightforward blowback-operated action and fires from a closed bolt, combining reliable operation with good accuracy and ease of maintenance. Its modular design allows for a variety of configurations and accessories, making the UMP45 a versatile weapon for military and law enforcement use.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponCategory.SMG",
+   "WeaponPlatform.UMP",
+   "Location.Equip.Weapon.MainWeapon"
+  ],
+  "weight": "0.45 kg",
+  "grid_size": "2x1",
+  "base_price": 680.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 600,
+   "muzzleSpeed": 290,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 5,
+   "maximumShots": 5300,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_UMP45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_UMP45FDE",
+  "name": "UMP45 (FDE)",
+  "short_name": "UMP45",
+  "manufacturer": "Heckler & Koch",
+  "description": "The Heckler & Koch UMP45 is a submachine gun chambered in .45 ACP, developed as a simpler and more cost-effective alternative to the MP5. It uses a straightforward blowback-operated action and fires from a closed bolt, combining reliable operation with good accuracy and ease of maintenance. Its modular design allows for a variety of configurations and accessories, making the UMP45 a versatile weapon for military and law enforcement use.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponCategory.SMG",
+   "WeaponPlatform.UMP",
+   "Location.Equip.Weapon.MainWeapon"
+  ],
+  "weight": "0.45 kg",
+  "grid_size": "2x1",
+  "base_price": 680.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 600,
+   "muzzleSpeed": 290,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 5,
+   "maximumShots": 5300,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.6,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Receiver_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_UMP45FDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_Colt1911CommanderAvi",
+  "name": "Viper's Colt 1911 Commander",
+  "short_name": "B 1911 Com",
+  "manufacturer": "EGMT",
+  "description": "Introduced in 1949, the Colt Commander was developed as a lightweight, compact alternative to the full-size Colt 1911. It was created in response to a U.S. military request for a smaller, more portable sidearm after World War II. The original model featured an aluminum alloy frame, making it lighter than the traditional steel-framed 1911.\n\nThis Colt Commander belongs to Aawut “Viper” Phasuk, the leader of the armed group occupying Pha Lang Airfield. Despite his age, Aawut has made a strong mark among Thai soldiers of fortune. He maintains an image of professionalism in every aspect, even in his sense of style. That’s why he avoided any gaudy designs for his gun, opting instead for a tasteful golden touch.",
+  "type": "Weapon.Handgun",
+  "tags": [
+   "Size.Small",
+   "WeaponCategory.Pistol",
+   "Location.Equip.Weapon.Pistol",
+   "WeaponPlatform.1911C",
+   "Origin.East",
+   "Boss"
+  ],
+  "weight": "0.454 kg",
+  "grid_size": "2x1",
+  "base_price": 680.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 600,
+   "muzzleSpeed": 350,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 1,
+   "maximumShots": 6200,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.8,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   },
+   {
+    "slot": "Hammer_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Slide_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_Colt1911CommanderAvi.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_SkorpionVz61",
+  "name": "Vz. 61 Skorpion",
+  "short_name": "Vz. 61",
+  "manufacturer": "CZ",
+  "description": "The Škorpion vz. 61, also known as the Vz. 61 Skorpion, is a prime example of a compact Czechoslovak submachine gun known for its reliability and versatility. Introduced in the 1960s, it quickly found its place among security forces and military units due to its compact size and firepower. Manufactured by Česká zbrojovka Uherský Brod between 1963 and 1979 under the official designation Samopal vzor 61, the Škorpion vz. 61 features a distinctive design with a folding stock and forward folding grip, making it exceptionally maneuverable in close-quarters combat situations. Chambered in the .32 ACP (7.65mm Browning) caliber, the Škorpion vz. 61 has a cyclic rate of fire of approximately 850 rounds per minute, providing a potent combination of firepower and controllability. Its compact size and lightweight construction make it suitable for various roles, including personal defense, special operations, and as a backup weapon for vehicle crews and pilots.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "Origin.West",
+   "WeaponCategory.SMG",
+   "Size.Small",
+   "WeaponPlatform.vz61"
+  ],
+  "weight": "0.9 kg",
+  "grid_size": "2x1",
+  "base_price": 255.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.5
+   }
+  ],
+  "stats": {
+   "moa": 7.0,
+   "manipulationModifier": 6.0,
+   "fireRate": 800,
+   "muzzleSpeed": 320,
+   "fireNoiseInDecibels": 100.0,
+   "fireMode": 5,
+   "maximumShots": 3200,
+   "boltCatch": true,
+   "repairDifficultyModifier": 0.5,
+   "mechanism": "AutoLoading",
+   "caliber": [
+    "765Browning"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Handle_F",
+    "critical": true
+   },
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "PistolGrip_F",
+    "critical": true
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_SkorpionVz61.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Firearm_M700Camo",
+  "name": "Yen's M700",
+  "short_name": "B M700",
+  "manufacturer": "EGMT",
+  "description": "The Remington M700 is an accurate and reliable bolt-action rifle widely used by hunters, law enforcement agencies, and military snipers around the world. With a reputation for precision, the M700 is available in various calibers and configurations to suit different shooting applications, from long-range target shooting to big game hunting.\n\nThis Remington M700 belongs to Bane “Yen” Seeha, the military commander of Midnight Sapphire. Bane is a professional who follows orders and asks no questions. This attitude has earned him a stellar career in the LAF. He does not care for ostentatious adornment and has instead chosen a functional camouflage pattern that suits his work. For him, that is more than enough.",
+  "tags": [
+   "Location.Equip.Weapon.MainWeapon",
+   "WeaponCategory.Rifle",
+   "Size.Small",
+   "WeaponPlatform.M700",
+   "Origin.East",
+   "Boss"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "2x1",
+  "base_price": 1530.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 459.0
+   }
+  ],
+  "stats": {
+   "moa": 0.0,
+   "manipulationModifier": 10.0,
+   "fireRate": 30,
+   "muzzleSpeed": 850,
+   "fireNoiseInDecibels": 180.0,
+   "fireMode": 1,
+   "maximumShots": 8100,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Magazine_F",
+    "critical": false
+   },
+   {
+    "slot": "Stock_F",
+    "critical": true
+   },
+   {
+    "slot": "Mount_F",
+    "critical": false
+   },
+   {
+    "slot": "Barrel_F",
+    "critical": true
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/firearms/IS_Firearm_M700Camo.webp",
+  "source": "game-files"
+ }
+]

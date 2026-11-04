@@ -1,0 +1,2353 @@
+[
+ {
+  "id": "IS_Suppressor_SuppressorAac",
+  "name": "762-SD Suppressor",
+  "short_name": "762-SD",
+  "manufacturer": "Advanced Armament Company",
+  "description": "The AAC 762-SDN-6 is a fast-attach silencer designed for 7.62x51mm ammo, as well as smaller calibers like .300BLK and 5.56mm. It is compact, versatile, and extremely durable for full-time silencer use on select guns. The silencer provides a 98.9% reduction in muzzle sound pressure, prioritizing the preservation of the shooter's hearing and minimizing the muzzle blast signature.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.652 kg",
+  "grid_size": "2x1",
+  "base_price": 1530.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 1530.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 229.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "manipulationModifier": -6.0,
+   "muzzleEfficiency": 12.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 4000,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Muzzle_SigFlashHider3Prong",
+   "IS_Muzzle_SrdQdMuzzleBrake",
+   "IS_Muzzle_SrdQdTaperLokCqbFlashHider",
+   "IS_Muzzle_SrdQdTaperLokMuzzleBrake",
+   "IS_Muzzle_SurefireSocom3Prong762FlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SuppressorAac.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Ak12Suppressor",
+  "name": "AK-12 Suppressor",
+  "short_name": "AK12 Sup",
+  "manufacturer": "Rotor 43",
+  "description": "Designed to effectively reduce gunfire noise and muzzle flash, this AK-12 suppressor is constructed of high-strength steel and offers durability and reliability in various shooting conditions.",
+  "tags": [
+   "Size.Small",
+   "Origin.East",
+   "WeaponPlatform.AK12"
+  ],
+  "weight": "0.62 kg",
+  "grid_size": "2x1",
+  "base_price": 1190.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 1190.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 178.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 12.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 3600,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak12"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Ak12Suppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Ak15Suppressor",
+  "name": "AK-15 Suppressor",
+  "short_name": "AK15 Sup",
+  "manufacturer": "Rotor 43",
+  "description": "Designed to effectively reduce gunfire noise and muzzle flash, this AK-15 suppressor is constructed of high-strength steel and offers durability and reliability in various shooting conditions.",
+  "tags": [
+   "Size.Small",
+   "Origin.East",
+   "WeaponPlatform.AK15"
+  ],
+  "weight": "0.62 kg",
+  "grid_size": "2x1",
+  "base_price": 1275.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 1275.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 191.25
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -4.0,
+   "muzzleEfficiency": 12.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak15"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Ak15Suppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Ak19Suppressor",
+  "name": "AK-19 Suppressor",
+  "short_name": "AK19 Sup",
+  "manufacturer": "Kalashnikov concern",
+  "description": "Made from durable materials, the AK-19 Suppressor effectively reduces noise and muzzle flash, improving shooting stealth and control.",
+  "tags": [
+   "Size.Small",
+   "Origin.East",
+   "WeaponPlatform.AK19"
+  ],
+  "weight": "0.62 kg",
+  "grid_size": "2x1",
+  "base_price": 2720.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 2720.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 408.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 15.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak19"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Ak19Suppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Ak308Suppressor",
+  "name": "AK-308 Suppressor",
+  "short_name": "AK308 Sup",
+  "manufacturer": "Kalashnikov concern",
+  "description": "Made from durable materials, the AK-308 Suppressor effectively reduces noise and muzzle flash, improving shooting stealth and control.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK308"
+  ],
+  "weight": "0.62 kg",
+  "grid_size": "2x1",
+  "base_price": 3400.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 3400.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 510.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 20.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Ak308Suppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Ak308SuppressorHT",
+  "name": "AK-308 Suppressor (Hunter Team)",
+  "short_name": "AK308 Sup",
+  "manufacturer": "Kalashnikov concern",
+  "description": "Made from durable materials, the AK-308 Suppressor effectively reduces noise and muzzle flash, improving shooting stealth and control.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK308"
+  ],
+  "weight": "0.62 kg",
+  "grid_size": "2x1",
+  "base_price": 3400.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 510.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 20.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Ak308SuppressorHT.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_AlienSuppressor",
+  "name": "Alien Suppressor",
+  "short_name": "Alien Sup",
+  "manufacturer": "Laugo Arms",
+  "description": "The Alien Suppressor is purpose-built for the Laugo Arms Alien pistol. It mounts via a direct-thread connection concealed beneath the barrel shroud, maintaining the pistol’s streamlined profile while delivering quiet, ultra-flat shooting performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Alien"
+  ],
+  "weight": "0.221 kg",
+  "grid_size": "2x1",
+  "base_price": 3400.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 3400.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 510.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 20.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 5800,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Barrel_AlienThreaded_9x19"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_AlienSuppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_BanishSuppressor",
+  "name": "BANISH 45 Suppressor",
+  "short_name": "Banish",
+  "manufacturer": "Silencer Central",
+  "description": "Compatible with calibers ranging from .45 ACP to Rimfire, the Banish 45 is a versatile and modular pistol suppressor. It fits a wide range of pistols, offering user-friendly efficiency. Reducing noise by 36 dB, it delivers a quieter and adaptable shooting experience across multiple calibers.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP5",
+   "WeaponPlatform.Glock",
+   "WeaponPlatform.1911"
+  ],
+  "weight": "0.272 kg",
+  "grid_size": "2x1",
+  "base_price": 1700.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 1700.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 255.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 12.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 4500,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_BerettaM9A1Threaded",
+   "IS_Barrel_BerettaM9A1ThreadedBlackmail",
+   "IS_Barrel_Colt1911Comander_45AcpThreaded",
+   "IS_Barrel_Colt1911Comander_45AcpThreadedAvi",
+   "IS_Barrel_Colt1911Threaded_45Acp",
+   "IS_Barrel_Glock17ZaffiriPrecisionGoldThreaded_9x19",
+   "IS_Barrel_Glock17ZevOptimizedThreaded_9x19",
+   "IS_Barrel_UMP_Threaded165inch45Acp",
+   "IS_Barrel_UMP_Threaded45Acp",
+   "IS_Muzzle_Caa3LugthreadedHkMp5",
+   "IS_Muzzle_Mp53LugAdapterThread"
+  ],
+  "disables_socket_types": [
+   "Socket.Muzzle.Mp5.3Lug"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_BanishSuppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SuppressorDtss",
+  "name": "DTSS Suppressor",
+  "short_name": "DTSS",
+  "manufacturer": "Desert Tech",
+  "description": "The DTSS Suppressor is designed to improve accuracy and reduce impact shift between suppressed and unsuppressed firing. Desert Tech sound suppressors can improve rifle accuracy by 1/4 MOA or better. This is achieved through weldless mono-core designs that efficiently strip away gas, minimizing disturbance and maximizing projectile stability at the muzzle exit.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.45 kg",
+  "grid_size": "2x1",
+  "base_price": 2210.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 2210.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 331.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -8.0,
+   "manipulationModifier": -8.0,
+   "muzzleEfficiency": 10.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 4800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_G3177inch_762x51",
+   "IS_Barrel_G3177inch_762x51ZH",
+   "IS_Barrel_M70018inchThreaded_762x51",
+   "IS_Barrel_M70022inchStandart_762x51",
+   "IS_Barrel_M70022inchStandart_762x51Camo",
+   "IS_Barrel_M70026inchHeavy_762x51",
+   "IS_Barrel_M70026inchHeavy_762x51GC",
+   "IS_Muzzle_M1AThreadAdapter5824"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SuppressorDtss.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_HkMp5Sd9mmSuppressor",
+  "name": "HK MP5SD 9mm Suppressor",
+  "short_name": "MP5SD Sup",
+  "manufacturer": "Heckler & Koch",
+  "description": "Constructed from aluminum and finished in black, this suppressor measures 12 inches in length and attaches to the MP5SD barrel with M18x1 metric threads. It is renowned as the quietest HK suppressor ever produced.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP5"
+  ],
+  "weight": "0.476 kg",
+  "grid_size": "2x1",
+  "base_price": 2040.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 2040.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 306.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -3.0,
+   "muzzleEfficiency": 6.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 5400,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Mount_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_Mp5Sd"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_HkMp5Sd9mmSuppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_KacQdcSuppressor",
+  "name": "KAC QDC Suppressor",
+  "short_name": "KAC Sup",
+  "manufacturer": "KAC",
+  "description": "A quick-detach suppressor for 5.56 NATO, featuring Knight’s patented pressure-reduction technology. It mounts to any compatible KAC QDC muzzle device with minimal point-of-impact shift. The suppressor offers approximately 12 dB of sound reduction, lowers back pressure, and includes a protective shroud for improved heat management.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.395 kg",
+  "grid_size": "2x1",
+  "base_price": 3740.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 3740.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 561.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -8.0,
+   "muzzleEfficiency": 20.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4700,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Muzzle_MamsMuzzleBrake556"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_KacQdcSuppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_KacQdcSuppressorDS",
+  "name": "KAC QDC Suppressor (Desert Storm)",
+  "short_name": "KAC Sup",
+  "manufacturer": "KAC",
+  "description": "A quick-detach suppressor for 5.56 NATO, featuring Knight’s patented pressure-reduction technology. It mounts to any compatible KAC QDC muzzle device with minimal point-of-impact shift. The suppressor offers approximately 12 dB of sound reduction, lowers back pressure, and includes a protective shroud for improved heat management.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.395 kg",
+  "grid_size": "2x1",
+  "base_price": 4100.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 615.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -12.0,
+   "manipulationModifier": -8.0,
+   "muzzleEfficiency": 22.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4700,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Muzzle_MamsMuzzleBrake556"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_KacQdcSuppressorDS.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_KacQdcSuppressorSG",
+  "name": "KAC QDC Suppressor (Serpent Guard)",
+  "short_name": "KAC Sup",
+  "manufacturer": "KAC",
+  "description": "A quick-detach suppressor for 5.56 NATO, featuring Knight’s patented pressure-reduction technology. It mounts to any compatible KAC QDC muzzle device with minimal point-of-impact shift. The suppressor offers approximately 12 dB of sound reduction, lowers back pressure, and includes a protective shroud for improved heat management.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.395 kg",
+  "grid_size": "2x1",
+  "base_price": 4100.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 615.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -12.0,
+   "manipulationModifier": -8.0,
+   "muzzleEfficiency": 22.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4700,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Muzzle_MamsMuzzleBrake556"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_KacQdcSuppressorSG.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_MosinBramitSuppressor",
+  "name": "Mosin-Nagant Bramit Suppressor",
+  "short_name": "Bramit",
+  "manufacturer": "General East",
+  "description": "This suppressor was created In June 1940 by the Mitin brothers. Named BraMit (short for Brothers Mitin), it was attached to the barrel in the same way as a bayonet, with a length of 147mm and a diameter of 32mm. In December 1940, after successful tests, BraMit was accepted for service, and serial production began in the second half of 1941.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.Mosin"
+  ],
+  "weight": "0.765 kg",
+  "grid_size": "2x1",
+  "base_price": 1020.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 3,
+    "price": 1020.0
+   }
+  ],
+  "sold_by": "Artisan R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -4.0,
+   "muzzleEfficiency": 12.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 3400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_Mosin514mm_762x54",
+   "IS_Barrel_Mosin730mm_762x54"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_MosinBramitSuppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_RotexMp7Suppressor",
+  "name": "MP7 Rotex Suppressor",
+  "short_name": "MP7 Rotex",
+  "manufacturer": "B&T",
+  "description": "This high-performance sound suppressor was developed in collaboration with Heckler & Koch, specifically for the MP7 submachine gun chambered in 4.6×30mm. It is designed to mount directly onto the factory MP7 muzzle device, ensuring seamless integration without the need for additional adapters.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP7"
+  ],
+  "weight": "0.607 kg",
+  "grid_size": "2x1",
+  "base_price": 2380.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 2380.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 357.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 20.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 6900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_Mp7FlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_RotexMp7Suppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_RotexMp7SuppressorSC",
+  "name": "MP7 Rotex Suppressor (Sentinel Company)",
+  "short_name": "MP7 Rotex",
+  "manufacturer": "B&T",
+  "description": "This high-performance sound suppressor was developed in collaboration with Heckler & Koch, specifically for the MP7 submachine gun chambered in 4.6×30mm. It is designed to mount directly onto the factory MP7 muzzle device, ensuring seamless integration without the need for additional adapters.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP7"
+  ],
+  "weight": "0.607 kg",
+  "grid_size": "2x1",
+  "base_price": 2380.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 357.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 20.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 6900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_Mp7FlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_RotexMp7SuppressorSC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Nomad30Suppressor",
+  "name": "Nomad 30 Suppressor",
+  "short_name": "Nomad 30",
+  "manufacturer": "Dead Air",
+  "description": "The Dead Air Nomad‑30 is a lightweight, modular suppressor rated for use with .300 Norma Mag. Made from 17-4 stainless steel with a titanium cap, it offers high-level sound suppression in a compact 14-ounce, 6.5-inch design. It features a 5/8×24 direct-thread mount and is compatible with KeyMo/Xeno.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "0.411 kg",
+  "grid_size": "2x1",
+  "base_price": 2380.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 357.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -8.0,
+   "muzzleEfficiency": 12.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 3400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_G3177inch_762x51",
+   "IS_Barrel_G3177inch_762x51ZH",
+   "IS_Barrel_M70018inchThreaded_762x51",
+   "IS_Barrel_M70022inchStandart_762x51",
+   "IS_Barrel_M70022inchStandart_762x51Camo",
+   "IS_Barrel_M70026inchHeavy_762x51",
+   "IS_Barrel_M70026inchHeavy_762x51GC",
+   "IS_Muzzle_M1AThreadAdapter5824"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Nomad30Suppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Osprey45",
+  "name": "Osprey 45 Suppressor",
+  "short_name": "Osprey 45",
+  "manufacturer": "SilencerCo",
+  "description": "A SilencerCo suppressor designed for .45-caliber firearms and compatible with the UMP45. Its distinctive polygonal body provides greater internal volume than a conventional cylindrical design.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.UMP"
+  ],
+  "weight": "0.261 kg",
+  "grid_size": "2x1",
+  "base_price": 1800.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 270.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 10.0,
+   "loudnessModifier": -30.0,
+   "maximumShots": 4100,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_Colt1911Comander_45AcpThreaded",
+   "IS_Barrel_Colt1911Comander_45AcpThreadedAvi",
+   "IS_Barrel_Colt1911Threaded_45Acp",
+   "IS_Barrel_UMP_45Acp",
+   "IS_Barrel_UMP_Threaded165inch45Acp",
+   "IS_Barrel_UMP_Threaded45Acp"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Osprey45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Pbs01Suppressor",
+  "name": "PBS-01 Suppressor",
+  "short_name": "PBS-01",
+  "manufacturer": "Kalashnikov concern",
+  "description": "Original Soviet suppressor for AK-47, AKM, and M70 rifles chambered in 7.62x39mm, including a sight for shooting with subsonic ammunition.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AKM"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "2x1",
+  "base_price": 1105.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 1105.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 165.75
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -4.0,
+   "muzzleEfficiency": 12.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 3200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_SaVz58300mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39BD",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Pbs01Suppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Pbs04Suppressor",
+  "name": "PBS-04 Suppressor",
+  "short_name": "PBS-04",
+  "manufacturer": "Kalashnikov concern",
+  "description": "This is one of the most acknowledged suppressors of the AK family of rifles. Unlike the PBS-1, this suppressor is designed for the 5.45x39mm cartridge.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK74"
+  ],
+  "weight": "0.86 kg",
+  "grid_size": "2x1",
+  "base_price": 1275.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 1275.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 191.25
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 12.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 3200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Pbs04Suppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_KacQdssNt4Suppressor",
+  "name": "QDSS NT4 Suppressor",
+  "short_name": "QDSS NT4",
+  "manufacturer": "KAC",
+  "description": "A high-quality suppressor designed for 5.56mm caliber weapons. Manufactured by Knight's Armament Company (KAC), this suppressor offers exceptional noise reduction, enhancing stealth and minimizing muzzle flash.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.62 kg",
+  "grid_size": "2x1",
+  "base_price": 2720.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 2720.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 408.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -4.0,
+   "muzzleEfficiency": 12.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 3800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Muzzle_KacM4QdFlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_KacQdssNt4Suppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_KacQdssNt4SuppressorFDE",
+  "name": "QDSS NT4 Suppressor (FDE)",
+  "short_name": "QDSS NT4",
+  "manufacturer": "KAC",
+  "description": "A high-quality suppressor designed for 5.56mm caliber weapons. Manufactured by Knight's Armament Company (KAC), this suppressor offers exceptional noise reduction, enhancing stealth and minimizing muzzle flash.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.62 kg",
+  "grid_size": "2x1",
+  "base_price": 2720.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 408.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -4.0,
+   "muzzleEfficiency": 12.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 3800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Muzzle_KacM4QdFlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_KacQdssNt4SuppressorFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Rotor545x39",
+  "name": "Rotor 5.45x39mm Suppressor",
+  "short_name": "Rotor 5.45x39",
+  "manufacturer": "Rotor 43",
+  "description": "A six-chamber sound suppressor manufactured by Rotor 43 for 5.45x39mm AK-pattern rifles. Its steel construction and bayonet-style mounting system provide a robust suppressor designed specifically for the 5.45x39mm cartridge.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.123 kg",
+  "grid_size": "2x1",
+  "base_price": 1900.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 285.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "muzzleEfficiency": 10.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 3200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Rotor545x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Rotor762x39",
+  "name": "Rotor 7.62x39mm Suppressor",
+  "short_name": "Rotor 7.62x39",
+  "manufacturer": "Rotor 43",
+  "description": "A six-chamber sound suppressor manufactured by Rotor 43 for 7.62x39mm AK-pattern rifles. Its steel construction and bayonet-style mounting system provide a robust suppressor designed specifically for the 7.62x39mm cartridge.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.123 kg",
+  "grid_size": "2x1",
+  "base_price": 1800.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 270.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "muzzleEfficiency": 10.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 3800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_SaVz58390mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39BD",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Rotor762x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Salvo12",
+  "name": "Salvo 12 Suppressor",
+  "short_name": "Salvo 12",
+  "manufacturer": "SilencerCo",
+  "description": "The SilencerCo Salvo 12 is a shotgun suppressor compatible with most pump-action and semi-automatic shotguns and nearly all commercially available ammunition. Its modular design allows users to adjust sound, weight, and length by adding or removing sections as needed.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M590",
+   "WeaponPlatform.M870"
+  ],
+  "weight": "0.555 kg",
+  "grid_size": "3x1",
+  "base_price": 2040.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 2040.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 306.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "manipulationModifier": -20.0,
+   "muzzleEfficiency": 20.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_Salvo12Adapter",
+   "IS_Muzzle_Salvo12AdapterBenelli",
+   "IS_Muzzle_Salvo12AdapterMossberg"
+  ],
+  "disables_socket_types": [
+   "Socket.Magazine.Mossberg.Long",
+   "Socket.Magazine.M870.Long"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Salvo12.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Salvo126inch",
+  "name": "Salvo 12 Suppressor - 6\"",
+  "short_name": "Salvo 12 6\"",
+  "manufacturer": "SilencerCo",
+  "description": "The SilencerCo Salvo 12 is a shotgun suppressor compatible with most pump-action and semi-automatic shotguns and nearly all commercially available ammunition. Its modular design allows users to adjust sound, weight, and length by adding or removing sections as needed.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M590",
+   "WeaponPlatform.M870"
+  ],
+  "weight": "0.555 kg",
+  "grid_size": "1x1",
+  "base_price": 1800.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 270.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "muzzleEfficiency": 10.0,
+   "loudnessModifier": -30.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_Salvo12Adapter",
+   "IS_Muzzle_Salvo12AdapterBenelli",
+   "IS_Muzzle_Salvo12AdapterMossberg"
+  ],
+  "disables_socket_types": [
+   "Socket.Magazine.Mossberg.Long",
+   "Socket.Magazine.M870.Long"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Salvo126inch.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Salvo126inchRE",
+  "name": "Salvo 12 Suppressor - 6\" (Riot Echo)",
+  "short_name": "Salvo 12 6\"",
+  "manufacturer": "SilencerCo",
+  "description": "The SilencerCo Salvo 12 is a shotgun suppressor compatible with most pump-action and semi-automatic shotguns and nearly all commercially available ammunition. Its modular design allows users to adjust sound, weight, and length by adding or removing sections as needed.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M590",
+   "WeaponPlatform.M870"
+  ],
+  "weight": "0.555 kg",
+  "grid_size": "1x1",
+  "base_price": 2220.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 333.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -11.0,
+   "muzzleEfficiency": 11.0,
+   "loudnessModifier": -32.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_Salvo12Adapter",
+   "IS_Muzzle_Salvo12AdapterBenelli",
+   "IS_Muzzle_Salvo12AdapterMossberg"
+  ],
+  "disables_socket_types": [
+   "Socket.Magazine.Mossberg.Long",
+   "Socket.Magazine.M870.Long"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Salvo126inchRE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SigSRD556",
+  "name": "SIG Suppressor SRD556",
+  "short_name": "SRD 556",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG Sauer SRD556 is a direct thread suppressor for 5.56 NATO rifles. Constructed from nickel-alloy stainless steel, it offers exceptional durability, particularly for short-barreled rifles that utilize supersonic ammunition.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.411 kg",
+  "grid_size": "2x1",
+  "base_price": 1530.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 229.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "manipulationModifier": -4.0,
+   "muzzleEfficiency": 12.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 3200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SigSRD556.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SigSlhTiQdSuppressor",
+  "name": "SLH300TI-QD Suppressor",
+  "short_name": "SLH300 QD",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG Sauer SLH300TI-QD is a titanium suppressor specifically designed for the .300 Blackout cartridge. It provides a lightweight yet durable solution for sound suppression and is optimized for both supersonic and subsonic .300 Blackout ammunition, ensuring reliable performance in various shooting scenarios.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.453 kg",
+  "grid_size": "2x1",
+  "base_price": 2720.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 2720.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 408.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -15.0,
+   "muzzleEfficiency": 20.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 5800,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_SigFlashHider3Prong",
+   "IS_Muzzle_SrdQdMuzzleBrake",
+   "IS_Muzzle_SrdQdTaperLokCqbFlashHider",
+   "IS_Muzzle_SrdQdTaperLokMuzzleBrake",
+   "IS_Muzzle_SurefireSocom3Prong762FlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SigSlhTiQdSuppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SigSlhTiQdSuppressorFDE",
+  "name": "SLH300TI-QD Suppressor (FDE)",
+  "short_name": "SLH300 QD",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG Sauer SLH300TI-QD is a titanium suppressor specifically designed for the .300 Blackout cartridge. It provides a lightweight yet durable solution for sound suppression and is optimized for both supersonic and subsonic .300 Blackout ammunition, ensuring reliable performance in various shooting scenarios.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.453 kg",
+  "grid_size": "2x1",
+  "base_price": 2720.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 408.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -15.0,
+   "muzzleEfficiency": 20.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 5800,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_SigFlashHider3Prong",
+   "IS_Muzzle_SrdQdMuzzleBrake",
+   "IS_Muzzle_SrdQdTaperLokCqbFlashHider",
+   "IS_Muzzle_SrdQdTaperLokMuzzleBrake",
+   "IS_Muzzle_SurefireSocom3Prong762FlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SigSlhTiQdSuppressorFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SigSlhTiQdSuppressorGN",
+  "name": "SLH300TI-QD Suppressor (Ghost Nomad)",
+  "short_name": "SLH300 QD",
+  "manufacturer": "SIG Sauer",
+  "description": "The SIG Sauer SLH300TI-QD is a titanium suppressor specifically designed for the .300 Blackout cartridge. It provides a lightweight yet durable solution for sound suppression and is optimized for both supersonic and subsonic .300 Blackout ammunition, ensuring reliable performance in various shooting scenarios.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.453 kg",
+  "grid_size": "2x1",
+  "base_price": 2720.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 408.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -11.0,
+   "manipulationModifier": -15.0,
+   "muzzleEfficiency": 21.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 5800,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_SigFlashHider3Prong",
+   "IS_Muzzle_SrdQdMuzzleBrake",
+   "IS_Muzzle_SrdQdTaperLokCqbFlashHider",
+   "IS_Muzzle_SrdQdTaperLokMuzzleBrake",
+   "IS_Muzzle_SurefireSocom3Prong762FlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SigSlhTiQdSuppressorGN.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SigSlhQdSuppressor",
+  "name": "SLH762-QD Suppressor",
+  "short_name": "SLH762",
+  "manufacturer": "SIG Sauer",
+  "description": "The SLH series rifle suppressors feature the latest Clutch-LOK QD mounting system and an internal multi-flow path, which prioritizes sound reduction while reducing up to 50% of toxic fumes venting through the ejection port.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.598 kg",
+  "grid_size": "2x1",
+  "base_price": 2380.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 2380.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 357.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -6.0,
+   "manipulationModifier": -10.0,
+   "muzzleEfficiency": 20.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_SrdQdMuzzleBrake",
+   "IS_Muzzle_SrdQdTaperLokCqbFlashHider",
+   "IS_Muzzle_SrdQdTaperLokMuzzleBrake",
+   "IS_Muzzle_SurefireSocom3Prong762FlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SigSlhQdSuppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SigSlhQdSuppressorFDE",
+  "name": "SLH762-QD Suppressor (FDE)",
+  "short_name": "SLH762",
+  "manufacturer": "SIG Sauer",
+  "description": "The SLH series rifle suppressors feature the latest Clutch-LOK QD mounting system and an internal multi-flow path, which prioritizes sound reduction while reducing up to 50% of toxic fumes venting through the ejection port.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.598 kg",
+  "grid_size": "2x1",
+  "base_price": 2380.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 357.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -6.0,
+   "manipulationModifier": -10.0,
+   "muzzleEfficiency": 20.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_SrdQdMuzzleBrake",
+   "IS_Muzzle_SrdQdTaperLokCqbFlashHider",
+   "IS_Muzzle_SrdQdTaperLokMuzzleBrake",
+   "IS_Muzzle_SurefireSocom3Prong762FlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SigSlhQdSuppressorFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SigSlhQdSuppressorGC",
+  "name": "SLH762-QD Suppressor (Gray Company)",
+  "short_name": "SLH762",
+  "manufacturer": "SIG Sauer",
+  "description": "The SLH series rifle suppressors feature the latest Clutch-LOK QD mounting system and an internal multi-flow path, which prioritizes sound reduction while reducing up to 50% of toxic fumes venting through the ejection port.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.598 kg",
+  "grid_size": "2x1",
+  "base_price": 2380.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 357.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -7.0,
+   "manipulationModifier": -10.0,
+   "muzzleEfficiency": 21.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_SrdQdMuzzleBrake",
+   "IS_Muzzle_SrdQdTaperLokCqbFlashHider",
+   "IS_Muzzle_SrdQdTaperLokMuzzleBrake",
+   "IS_Muzzle_SurefireSocom3Prong762FlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SigSlhQdSuppressorGC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SurefireSocomRc1Suppressor",
+  "name": "SOCOM556 RC1 Suppressor",
+  "short_name": "RC1",
+  "manufacturer": "Surefire",
+  "description": "A military-grade silencer crafted from a durable blend of stainless steel and Inconel 718. The suppressor provides premium sound reduction, eliminates first-round muzzle flash, and minimizes dust signature. It is specifically designed for 5.56mm rifles, ensuring lasting durability that may even outlast the host barrel.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.453 kg",
+  "grid_size": "2x1",
+  "base_price": 2890.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 2890.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 433.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 15.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 3900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_SurefireSocom3ProngFlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SurefireSocomRc1Suppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SurefireSocomRc1SuppressorFDE",
+  "name": "SOCOM556 RC1 Suppressor (FDE)",
+  "short_name": "RC1",
+  "manufacturer": "Surefire",
+  "description": "A military-grade silencer crafted from a durable blend of stainless steel and Inconel 718. The suppressor provides premium sound reduction, eliminates first-round muzzle flash, and minimizes dust signature. It is specifically designed for 5.56mm rifles, ensuring lasting durability that may even outlast the host barrel.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.453 kg",
+  "grid_size": "2x1",
+  "base_price": 2890.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 433.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 15.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 3900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_SurefireSocom3ProngFlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SurefireSocomRc1SuppressorFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SurefireSocomRc1SuppressorPL",
+  "name": "SOCOM556 RC1 Suppressor (Phantom Lance)",
+  "short_name": "RC1",
+  "manufacturer": "Surefire",
+  "description": "A military-grade silencer crafted from a durable blend of stainless steel and Inconel 718. The suppressor provides premium sound reduction, eliminates first-round muzzle flash, and minimizes dust signature. It is specifically designed for 5.56mm rifles, ensuring lasting durability that may even outlast the host barrel.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.453 kg",
+  "grid_size": "2x1",
+  "base_price": 2890.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 433.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -11.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 16.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 3900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_SurefireSocom3ProngFlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SurefireSocomRc1SuppressorPL.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SurefireSocom762Rc2Suppressor",
+  "name": "SOCOM762 RC2 Suppressor",
+  "short_name": "RC2",
+  "manufacturer": "Surefire",
+  "description": "A fully automatic-rated suppressor for 7.62×51 mm (.308) rifles that uses SureFire’s Fast-Attach mounting system. It is made of high-temperature Inconel and stainless steel, providing effective sound, flash, and dust signature reduction with minimal point-of-impact shift.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "0.595 kg",
+  "grid_size": "2x1",
+  "base_price": 3060.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 3060.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 459.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 25.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_SigMCX-3ProngFlashHider",
+   "IS_Muzzle_SrdQdMuzzleBrake",
+   "IS_Muzzle_SrdQdTaperLokCqbFlashHider",
+   "IS_Muzzle_SrdQdTaperLokMuzzleBrake",
+   "IS_Muzzle_SurefireSocom3Prong762FlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SurefireSocom762Rc2Suppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SurefireSocom762Rc2SuppressorFDE",
+  "name": "SOCOM762 RC2 Suppressor (FDE)",
+  "short_name": "RC2",
+  "manufacturer": "Surefire",
+  "description": "A fully automatic-rated suppressor for 7.62×51 mm (.308) rifles that uses SureFire’s Fast-Attach mounting system. It is made of high-temperature Inconel and stainless steel, providing effective sound, flash, and dust signature reduction with minimal point-of-impact shift.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "0.595 kg",
+  "grid_size": "2x1",
+  "base_price": 3060.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 459.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 25.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_SigMCX-3ProngFlashHider",
+   "IS_Muzzle_SrdQdMuzzleBrake",
+   "IS_Muzzle_SrdQdTaperLokCqbFlashHider",
+   "IS_Muzzle_SrdQdTaperLokMuzzleBrake",
+   "IS_Muzzle_SurefireSocom3Prong762FlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SurefireSocom762Rc2SuppressorFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Strela545x39",
+  "name": "Strela 5.45x39mm Suppressor",
+  "short_name": "Strela 5.45x39",
+  "manufacturer": "STRELA",
+  "description": "A stainless-steel sound suppressor manufactured by STRELA for 5.45x39mm AK-pattern rifles. Its large-diameter body provides increased internal volume for capturing propellant gases and reducing muzzle blast and firing noise.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.595 kg",
+  "grid_size": "2x1",
+  "base_price": 1800.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 1800.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 270.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "muzzleEfficiency": 10.0,
+   "loudnessModifier": -20.0,
+   "maximumShots": 3800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Strela545x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SvdRotor43Suppressor",
+  "name": "SVD Rotor 43 Suppressor 7.62х54 R",
+  "short_name": "SVD Rotor 43",
+  "manufacturer": "General East",
+  "description": "This suppressor is specifically designed for the SVD Dragunov chambered in 7.62×54R. Featuring a coupler mounting system for secure attachment, it is constructed from a combination of high-strength steel and aluminum alloy, ensuring both durability and a manageable weight for extended use.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.SVD"
+  ],
+  "weight": "0.9 kg",
+  "grid_size": "3x1",
+  "base_price": 3060.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 3060.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 459.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 15.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Barrel_Svd620mm_762x54",
+   "IS_Barrel_Svd620mm_762x54SW"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SvdRotor43Suppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SvdRotor43SuppressorSW",
+  "name": "SVD Rotor 43 Suppressor 7.62х54 R (Silent Watch)",
+  "short_name": "SVD Rotor 43",
+  "manufacturer": "General East",
+  "description": "This suppressor is specifically designed for the SVD Dragunov chambered in 7.62×54R. Featuring a coupler mounting system for secure attachment, it is constructed from a combination of high-strength steel and aluminum alloy, ensuring both durability and a manageable weight for extended use.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.SVD"
+  ],
+  "weight": "0.9 kg",
+  "grid_size": "2x1",
+  "base_price": 3060.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 459.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 15.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4200,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Barrel_Svd620mm_762x54",
+   "IS_Barrel_Svd620mm_762x54SW"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SvdRotor43SuppressorSW.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Type51Suppressor",
+  "name": "Type 51 Suppressor",
+  "short_name": "T51 S",
+  "manufacturer": "Norinco",
+  "description": "A muzzle device designed for the Type 51 Tokarev pistol that reduces noise and muzzle flash when firing. The suppressor is typically made of durable materials like steel or aluminum and attaches to the threaded barrel of the Type 51 Tokarev, effectively reducing the sound signature of each shot. This accessory improves the pistol's versatility, making it suitable for applications where reduced noise and flash are desired.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT"
+  ],
+  "weight": "0.332 kg",
+  "grid_size": "2x1",
+  "base_price": 510.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 510.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -10.0,
+   "muzzleEfficiency": 6.0,
+   "loudnessModifier": -30.0,
+   "maximumShots": 1800,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Barrel_Type51Threaded_762x25"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Type51Suppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_UltimaSuppressor",
+  "name": "Ultima Suppressor",
+  "short_name": "Ultima",
+  "manufacturer": "Coastal Guns Inc.",
+  "description": "This suppressor is designed specifically for 9mm firearms and effectively reduces noise and muzzle signature. It can be mounted directly on threaded barrels.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP5",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.294 kg",
+  "grid_size": "2x1",
+  "base_price": 935.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 935.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 140.25
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -10.0,
+   "muzzleEfficiency": 6.0,
+   "loudnessModifier": -30.0,
+   "maximumShots": 3500,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Barrel_BerettaM9A1Threaded",
+   "IS_Barrel_BerettaM9A1ThreadedBlackmail",
+   "IS_Barrel_Colt1911Comander_45AcpThreaded",
+   "IS_Barrel_Colt1911Comander_45AcpThreadedAvi",
+   "IS_Barrel_Colt1911Threaded_45Acp",
+   "IS_Barrel_Glock17ZaffiriPrecisionGoldThreaded_9x19",
+   "IS_Barrel_Glock17ZevOptimizedThreaded_9x19",
+   "IS_Barrel_UMP_Threaded165inch45Acp",
+   "IS_Barrel_UMP_Threaded45Acp",
+   "IS_Muzzle_Caa3LugthreadedHkMp5",
+   "IS_Muzzle_Mp53LugAdapterThread"
+  ],
+  "disables_socket_types": [
+   "Socket.Muzzle.Mp5.3Lug"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_UltimaSuppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_BanishSuppressorAvi",
+  "name": "Viper's BANISH 45 Suppressor",
+  "short_name": "B Banish",
+  "manufacturer": "EGMT",
+  "description": "Compatible with calibers ranging from .45 ACP to Rimfire, the Banish 45 is a versatile and modular pistol suppressor. It fits a wide range of pistols, offering user-friendly efficiency. Reducing noise by 36 dB, it delivers a quieter and adaptable shooting experience across multiple calibers.\n\nThis is a part of the Colt Commander belonging to Aawut \"Viper\" Phasuk, the leader of the armed group occupying Pha Lang Airfield.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.MP5",
+   "WeaponPlatform.Glock",
+   "WeaponPlatform.1911",
+   "Boss"
+  ],
+  "weight": "0.272 kg",
+  "grid_size": "2x1",
+  "base_price": 3400.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 510.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -5.0,
+   "muzzleEfficiency": 12.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 5500,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Barrel_BerettaM9A1Threaded",
+   "IS_Barrel_BerettaM9A1ThreadedBlackmail",
+   "IS_Barrel_Colt1911Comander_45AcpThreaded",
+   "IS_Barrel_Colt1911Comander_45AcpThreadedAvi",
+   "IS_Barrel_Colt1911Threaded_45Acp",
+   "IS_Barrel_Glock17ZaffiriPrecisionGoldThreaded_9x19",
+   "IS_Barrel_Glock17ZevOptimizedThreaded_9x19",
+   "IS_Barrel_UMP_Threaded165inch45Acp",
+   "IS_Barrel_UMP_Threaded45Acp",
+   "IS_Muzzle_Caa3LugthreadedHkMp5",
+   "IS_Muzzle_Mp53LugAdapterThread"
+  ],
+  "disables_socket_types": [
+   "Socket.Muzzle.Mp5.3Lug"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_BanishSuppressorAvi.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Vlc556Mark1Suppressor",
+  "name": "VLC 556 MARK 1 Suppressor",
+  "short_name": "MARK 1",
+  "manufacturer": "Antreg",
+  "description": "The ANTREG VLC 556 Mark 1 suppressor designed for .223 Rem/5.56x45 NATO ammunition features high noise and flash reduction and is compatible with semi-auto and full-auto firearms. It uses a quick-release mechanism and is made of Inconel and stainless steel for extreme durability.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.68 kg",
+  "grid_size": "2x1",
+  "base_price": 2210.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 2210.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 331.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -8.0,
+   "muzzleEfficiency": 12.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 3600,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Muzzle_AntregVulcanF1",
+   "IS_Muzzle_AntregVulcanM1COMP"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Vlc556Mark1Suppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Vlc556Mark1SuppressorFDE",
+  "name": "VLC 556 MARK 1 Suppressor (FDE)",
+  "short_name": "MARK 1",
+  "manufacturer": "Antreg",
+  "description": "The ANTREG VLC 556 Mark 1 suppressor designed for .223 Rem/5.56x45 NATO ammunition features high noise and flash reduction and is compatible with semi-auto and full-auto firearms. It uses a quick-release mechanism and is made of Inconel and stainless steel for extreme durability.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.68 kg",
+  "grid_size": "2x1",
+  "base_price": 2210.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 331.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "manipulationModifier": -8.0,
+   "muzzleEfficiency": 12.0,
+   "loudnessModifier": -45.0,
+   "maximumShots": 3600,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Muzzle_AntregVulcanF1",
+   "IS_Muzzle_AntregVulcanM1COMP"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Vlc556Mark1SuppressorFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_Vz61TosSuppressor",
+  "name": "Vz. 61 TOS Suppressor",
+  "short_name": "Vz. 61 TOS",
+  "manufacturer": "CZ",
+  "description": "The Vz. 61 suppressor is a compact and lightweight accessory that reduces firearm noise. Weighing 360g, it offers substantial noise reduction with a 21dB attenuation. It securely attaches to the barrel via a standard clamp mechanism, ensuring convenient and reliable mounting.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.vz61"
+  ],
+  "weight": "0.36 kg",
+  "grid_size": "2x1",
+  "base_price": 935.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 935.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 140.25
+   }
+  ],
+  "stats": {
+   "moaModifier": -4.0,
+   "manipulationModifier": -6.0,
+   "muzzleEfficiency": 6.0,
+   "loudnessModifier": -30.0,
+   "maximumShots": 2600,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_SkorpionVz61"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_Vz61TosSuppressor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Suppressor_SigSlhQdSuppressorCamo",
+  "name": "Yen's SLH762-QD Suppressor",
+  "short_name": "B SLH762",
+  "manufacturer": "SIG Sauer",
+  "description": "The SLH series rifle suppressors feature the latest Clutch-LOK QD mounting system and an internal multi-flow path, which prioritizes sound reduction while reducing up to 50% of toxic fumes venting through the ejection port.\n\nThis is a part of the Remington M700 belonging to Bane \"Yen\" Seeha, the military commander of Midnight Sapphire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700",
+   "Boss"
+  ],
+  "weight": "0.598 kg",
+  "grid_size": "2x1",
+  "base_price": 4760.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 714.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "manipulationModifier": -15.0,
+   "muzzleEfficiency": 20.0,
+   "loudnessModifier": -60.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Muzzle_SrdQdMuzzleBrake",
+   "IS_Muzzle_SrdQdTaperLokCqbFlashHider",
+   "IS_Muzzle_SrdQdTaperLokMuzzleBrake",
+   "IS_Muzzle_SurefireSocom3Prong762FlashHider"
+  ],
+  "image": "https://gzw-data.dev/assets/items/suppressors/IS_Suppressor_SigSlhQdSuppressorCamo.webp",
+  "source": "game-files"
+ }
+]

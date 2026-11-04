@@ -1,0 +1,3470 @@
+[
+ {
+  "id": "IS_Ammo_FMJ_222",
+  "name": ".222 Remington FMJ",
+  "short_name": "FMJ 222",
+  "manufacturer": "General West",
+  "description": "This 50-grain, full-metal-jacket cartridge is designed for accuracy and consistency. Its lead core and durable copper jacket ensure stable flight and minimal deformation. The cartridge provides a flat trajectory and reliable performance. Loaded in high-quality brass cases with boxer primers, it is fully reloadable and ensures dependable function.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.0111 kg",
+  "grid_size": "1x1",
+  "base_price": 2.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 2.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.2
+   }
+  ],
+  "stats": {
+   "maxStack": 60,
+   "projectileWeight": 0.00324,
+   "muzzleVelocity": 970.0,
+   "kineticEnergy": 1524.26,
+   "stoppingPower": "Substantial",
+   "projectileType": "FMJ",
+   "caliber": [
+    "222Rem"
+   ],
+   "stoppedByArmorClass": "Nij3"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_FMJ_222.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Hp_222",
+  "name": ".222 Remington HP",
+  "short_name": "HP 222",
+  "manufacturer": "General West",
+  "description": "This 52-grain, hollow-point, boat-tail cartridge is designed for maximum precision and stability. Its streamlined shape enhances aerodynamics and maintains energy over distance. It features a brass case and a boxer primer. It is fully reloadable.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.0111 kg",
+  "grid_size": "1x1",
+  "base_price": 4.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 4.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.4
+   }
+  ],
+  "stats": {
+   "moaModifier": 2.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00337,
+   "muzzleVelocity": 966.0,
+   "kineticEnergy": 1572.37,
+   "stoppingPower": "Substantial",
+   "projectileType": "FMJ",
+   "caliber": [
+    "222Rem"
+   ],
+   "stoppedByArmorClass": "Nij3Ap"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Hp_222.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Sp_222",
+  "name": ".222 Remington SP",
+  "short_name": "SP 222",
+  "manufacturer": "General West",
+  "description": "This is a 55-grain soft-point hunting cartridge with a lead core and partial jacket, which allows controlled expansion and effective penetration. It features a brass case, boxer primer, and is reloadable.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.0111 kg",
+  "grid_size": "1x1",
+  "base_price": 1.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 1.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.1
+   }
+  ],
+  "stats": {
+   "moaModifier": 5.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00324,
+   "muzzleVelocity": 970.0,
+   "kineticEnergy": 1524.26,
+   "stoppingPower": "High",
+   "caliber": [
+    "222Rem"
+   ],
+   "stoppedByArmorClass": "Nij1"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Sp_222.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_VMax_222",
+  "name": ".222 Remington VMax",
+  "short_name": "VMax 222",
+  "manufacturer": "General West",
+  "description": "This 50-grain, polymer-tipped bullet features a streamlined V-MAX design that enables explosive energy transfer. The high-precision brass case is boxer-primed and reloadable. It offers a flatter trajectory, superior wind resistance, and maximum terminal performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.0111 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 5.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -7.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00324,
+   "muzzleVelocity": 1020.0,
+   "kineticEnergy": 1685.45,
+   "stoppingPower": "Substantial",
+   "projectileType": "HP",
+   "caliber": [
+    "222Rem"
+   ],
+   "stoppedByArmorClass": "Nij3A"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_VMax_222.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Ap_300Aac",
+  "name": ".300 AAC Blackout AP",
+  "short_name": "AP .300 BLK",
+  "manufacturer": "General West",
+  "description": "The 110-grain Armor Piercing (AP) .300 AAC Blackout ammunition is engineered for tactical operations requiring advanced armor penetration. Designed to defeat hard steel armor at close range, this round delivers exceptional performance against armored targets, ensuring reliability in critical scenarios.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.015 kg",
+  "grid_size": "1x1",
+  "base_price": 24.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 24.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 2.4
+   }
+  ],
+  "stats": {
+   "moaModifier": -4.0,
+   "durabilityModifier": 100.0,
+   "maxStack": 60,
+   "projectileWeight": 0.0061,
+   "muzzleVelocity": 725.0,
+   "kineticEnergy": 1603.16,
+   "stoppingPower": "High",
+   "projectileType": "AP",
+   "caliber": [
+    "300AAC"
+   ],
+   "stoppedByArmorClass": "Nij4"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Ap_300Aac.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_CQ_300Aac",
+  "name": ".300 AAC Blackout CQ",
+  "short_name": "CQ .300 BLK",
+  "manufacturer": "General West",
+  "description": "The .300 Blackout 78gr Close Quarters ammunition utilizes a light-weight, high-velocity projectile with exposed hardened aluminium penetrator and pre-stressed jacket. This composition allows the projectile to penetrate barriers while also being able to effectively transfer it's energy into soft targets.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.012 kg",
+  "grid_size": "1x1",
+  "base_price": 11.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 11.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1.1
+   }
+  ],
+  "stats": {
+   "moaModifier": -1.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00505,
+   "muzzleVelocity": 853.0,
+   "kineticEnergy": 1837.21,
+   "stoppingPower": "High",
+   "projectileType": "AP",
+   "caliber": [
+    "300AAC"
+   ],
+   "stoppedByArmorClass": "Nij3p"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_CQ_300Aac.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Fmj_300Aac",
+  "name": ".300 AAC Blackout FMJ",
+  "short_name": "FMJ .300 BLK",
+  "manufacturer": "General West",
+  "description": "The .300 AAC Blackout 147-grain Full Metal Jacket (FMJ) ammunition is designed for both hunting and sport shooting. The FMJ bullet features a lead core encased in a metallic jacket, offering durable construction for smooth penetration and minimal deformation upon impact.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.017 kg",
+  "grid_size": "1x1",
+  "base_price": 4.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 1,
+    "price": 4.0
+   }
+  ],
+  "sold_by": "Banshee R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.4
+   }
+  ],
+  "stats": {
+   "maxStack": 60,
+   "projectileWeight": 0.00955,
+   "muzzleVelocity": 633.0,
+   "kineticEnergy": 1913.29,
+   "stoppingPower": "VeryHigh",
+   "projectileType": "FMJ",
+   "caliber": [
+    "300AAC"
+   ],
+   "stoppedByArmorClass": "Nij3"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Fmj_300Aac.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Whisper_300Aac",
+  "name": ".300 AAC Blackout Subsonic",
+  "short_name": "Sub .300 BLK",
+  "manufacturer": "General West",
+  "description": "The .300 AAC Blackout FMJ Subsonic 200 gr ammunition offers reduced noise and recoil without sacrificing performance. Featuring a 200-grain Full Metal Jacket (FMJ) bullet, this subsonic round is ideal for situations requiring stealth and a minimal sound signature.",
+  "tags": [
+   "Size.Small",
+   "Origin.West"
+  ],
+  "weight": "0.02 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 1,
+    "price": 3.0
+   }
+  ],
+  "sold_by": "Banshee R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.3
+   }
+  ],
+  "stats": {
+   "moaModifier": 6.0,
+   "maxStack": 60,
+   "projectileWeight": 0.01296,
+   "muzzleVelocity": 310.0,
+   "kineticEnergy": 622.728,
+   "stoppingPower": "VeryHigh",
+   "projectileType": "FMJ",
+   "caliber": [
+    "300AAC"
+   ],
+   "stoppedByArmorClass": "Nij3A"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Whisper_300Aac.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_VMax_300Aac",
+  "name": ".300 AAC Blackout V-MAX",
+  "short_name": "VMAX .300 BLK",
+  "manufacturer": "General West",
+  "description": "The .300 Blackout 110 gr V-MAX ammunition is engineered for versatile performance across various firearm platforms. It is renowned for its rapid expansion and fragmentation on impact, making it particularly effective for varmint hunting and personal defense.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.015 kg",
+  "grid_size": "1x1",
+  "base_price": 8.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 8.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.8
+   }
+  ],
+  "stats": {
+   "moaModifier": -2.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00713,
+   "muzzleVelocity": 724.0,
+   "kineticEnergy": 1868.69,
+   "stoppingPower": "VeryHigh",
+   "projectileType": "HP",
+   "caliber": [
+    "300AAC"
+   ],
+   "stoppedByArmorClass": "Nij3A"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_VMax_300Aac.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Ap_45Acp",
+  "name": ".45 ACP AP",
+  "short_name": "AP .45",
+  "manufacturer": "General West",
+  "description": "The H.E.A.T. Dart Tip .45 ACP ammunition features a special tip designed for enhanced penetration, making it suitable for piercing hard barriers or armor. This type of ammunition is used in military and law enforcement applications where reliable penetration through obstacles is critical to mission success.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.021 kg",
+  "grid_size": "1x1",
+  "base_price": 10.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 3,
+    "price": 10.0
+   }
+  ],
+  "sold_by": "Artisan R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1.0
+   }
+  ],
+  "stats": {
+   "durabilityModifier": 40.0,
+   "maxStack": 80,
+   "projectileWeight": 0.0063,
+   "muzzleVelocity": 450.0,
+   "kineticEnergy": 637.875,
+   "stoppingPower": "Moderate",
+   "projectileType": "AP",
+   "caliber": [
+    "45ACP"
+   ],
+   "stoppedByArmorClass": "Nij3p"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Ap_45Acp.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Fmj_45Acp",
+  "name": ".45 ACP FMJ",
+  "short_name": "FMJ .45",
+  "manufacturer": "General West",
+  "description": "The .45 ACP FMJ features a lead core encased in a metal shell, typically copper, which enhances penetration and reduces barrel fouling. It is commonly used for target practice and training due to its reliability and consistent performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.021 kg",
+  "grid_size": "1x1",
+  "base_price": 2.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 2.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.2
+   }
+  ],
+  "stats": {
+   "maxStack": 80,
+   "projectileWeight": 0.0149,
+   "muzzleVelocity": 260.0,
+   "kineticEnergy": 503.62,
+   "stoppingPower": "Moderate",
+   "projectileType": "FMJ",
+   "caliber": [
+    "45ACP"
+   ],
+   "stoppedByArmorClass": "Nij1pp"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Fmj_45Acp.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_HydraShock_45Acp",
+  "name": ".45 ACP Hydra-Shok",
+  "short_name": "Hydra-Shok",
+  "manufacturer": "General West",
+  "description": "Developed by Federal Premium Ammunition, the Hydra-Shok round features a hollow-point bullet with a unique center post that helps promote controlled expansion upon impact. This design aims to create a larger wound channel and improve stopping power while reducing the risk of over-penetration. The .45 ACP Hydra-Shok is often used for self-defense due to its reliable performance and effectiveness in incapacitating a threat.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.021 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 5.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.5
+   }
+  ],
+  "stats": {
+   "durabilityModifier": 15.0,
+   "maxStack": 80,
+   "projectileWeight": 0.0149,
+   "muzzleVelocity": 274.0,
+   "kineticEnergy": 559.316,
+   "stoppingPower": "Moderate",
+   "projectileType": "HP",
+   "caliber": [
+    "45ACP"
+   ],
+   "stoppedByArmorClass": "Nij1p"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_HydraShock_45Acp.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_JhpP_45Acp",
+  "name": ".45 ACP JHP +P",
+  "short_name": "JHP +P .45",
+  "manufacturer": "General West",
+  "description": ".45 ACP JHP +P ammunition features a Jacketed Hollow Point bullet designed to expand upon impact, creating a larger wound channel and improving stopping power. The +P designation means the round is loaded to higher pressure for increased velocity and energy. This type of ammunition is commonly used for self-defense due to its enhanced effectiveness and stopping power.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.021 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 3.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.3
+   }
+  ],
+  "stats": {
+   "moaModifier": 2.0,
+   "maxStack": 80,
+   "projectileWeight": 0.0149,
+   "muzzleVelocity": 290.0,
+   "kineticEnergy": 626.545,
+   "stoppingPower": "Moderate",
+   "projectileType": "HP",
+   "caliber": [
+    "45ACP"
+   ],
+   "stoppedByArmorClass": "Nij1"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_JhpP_45Acp.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_00Buckshot_12Gaug",
+  "name": "12ga 00 Buckshot",
+  "short_name": "00 12ga",
+  "manufacturer": "General West",
+  "description": "A standard 00 buckshot ammunition, consisting of multiple large pellets and designed for close-range engagements. Although it may have slightly wider shot patterns compared to the FC 00 Buckshot, it still delivers significant kinetic energy.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 3.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.3
+   }
+  ],
+  "stats": {
+   "moaModifier": -37.8,
+   "maxStack": 20,
+   "projectileWeight": 0.032,
+   "muzzleVelocity": 370.0,
+   "kineticEnergy": 2190.4,
+   "projectiles": 9,
+   "caliber": [
+    "12Gauge"
+   ],
+   "stoppedByArmorClass": "Nij1"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_00Buckshot_12Gaug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_00FCBuckshot_12Gaug",
+  "name": "12ga FC 00 Buckshot",
+  "short_name": "FC 00 12ga",
+  "manufacturer": "General West",
+  "description": "The Flight Control 00 Buckshot ammunition is designed to provide tighter shot patterns and increased accuracy, making it highly effective for close-range engagements. The flight control wad helps to maintain a more consistent shot spread, improving hit probability on target.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 6.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 6.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.6
+   }
+  ],
+  "stats": {
+   "moaModifier": -27.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 20,
+   "projectileWeight": 0.032,
+   "muzzleVelocity": 349.0,
+   "kineticEnergy": 1948.82,
+   "projectiles": 9,
+   "projectileType": "FMJ",
+   "caliber": [
+    "12Gauge"
+   ],
+   "stoppedByArmorClass": "Nij3"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_00FCBuckshot_12Gaug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Slug_12Gaug",
+  "name": "12ga Slug",
+  "short_name": "Slug 12ga",
+  "manufacturer": "General West",
+  "description": "Shotgun slugs are single-projectile ammunition designed for increased accuracy and penetration compared to buckshot. They consist of a large, solid projectile (.68 to .72 caliber) that delivers high kinetic energy upon impact.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 5.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -42.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 20,
+   "projectileWeight": 0.032,
+   "muzzleVelocity": 420.0,
+   "kineticEnergy": 2822.4,
+   "stoppingPower": "Massive",
+   "caliber": [
+    "12Gauge"
+   ],
+   "stoppedByArmorClass": "Nij1"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Slug_12Gaug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_SstSabotSlug_12Gaug",
+  "name": "12ga SST Sabot Slug",
+  "short_name": "SST Slug 12ga",
+  "manufacturer": "General West",
+  "description": "SST Sabot Slugs use a plastic carrier to hold a smaller, high-velocity projectile (.50 caliber or smaller). When fired, the sabot separates from the projectile, enabling it to travel at high speed and deliver significant energy upon impact.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 12.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 12.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1.2
+   }
+  ],
+  "stats": {
+   "moaModifier": -50.0,
+   "durabilityModifier": 40.0,
+   "maxStack": 20,
+   "projectileWeight": 0.01944,
+   "muzzleVelocity": 609.0,
+   "kineticEnergy": 3604.96,
+   "stoppingPower": "Massive",
+   "projectileType": "FMJ",
+   "caliber": [
+    "12Gauge"
+   ],
+   "stoppedByArmorClass": "Nij3p"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_SstSabotSlug_12Gaug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_ActionSx_46x30",
+  "name": "4.6x30mm Action SX",
+  "short_name": "Action SX 4.6x30",
+  "manufacturer": "General West",
+  "description": "The Action SX cartridge is designed for rapid energy transfer in soft targets. It features a deforming bullet that ensures quick energy deposition and achieves maximum penetration of less than 30 cm in uncovered gelatin. This lead-free round is effective at penetrating hard and composite materials, such as car doors and body armor.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.007 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 1,
+    "price": 3.0
+   }
+  ],
+  "sold_by": "Banshee R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.3
+   }
+  ],
+  "stats": {
+   "maxStack": 80,
+   "projectileWeight": 0.002,
+   "muzzleVelocity": 690.0,
+   "kineticEnergy": 476.1,
+   "stoppingPower": "Moderate",
+   "projectileType": "HP",
+   "caliber": [
+    "46x30"
+   ],
+   "stoppedByArmorClass": "Nij3A"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_ActionSx_46x30.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_ApSx_46x30",
+  "name": "4.6x30mm AP SX",
+  "short_name": "AP SX 4.6x30",
+  "manufacturer": "General West",
+  "description": "The AP SX cartridge is designed for high penetration into hard targets. This lead-free round offers exceptional penetration capabilities while still providing effective energy transfer in soft targets.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.007 kg",
+  "grid_size": "1x1",
+  "base_price": 10.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 10.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1.0
+   }
+  ],
+  "stats": {
+   "durabilityModifier": 40.0,
+   "maxStack": 80,
+   "projectileWeight": 0.002,
+   "muzzleVelocity": 680.0,
+   "kineticEnergy": 462.4,
+   "projectileType": "AP",
+   "caliber": [
+    "46x30"
+   ],
+   "stoppedByArmorClass": "Nij3p"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_ApSx_46x30.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_FmjSx_46x30",
+  "name": "4.6x30mm FMJ SX",
+  "short_name": "FMJ SX 4.6x30",
+  "manufacturer": "General West",
+  "description": "Designed for general duty applications, the FMJ SX cartridge combines efficient energy transfer in soft targets with exceptional accuracy at ranges up to 200 meters. It achieves a maximum penetration of less than 35 cm in uncovered gelatin and is widely used by military and special forces around the world.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.007 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 1,
+    "price": 3.0
+   }
+  ],
+  "sold_by": "Banshee R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.3
+   }
+  ],
+  "stats": {
+   "maxStack": 80,
+   "projectileWeight": 0.0026,
+   "muzzleVelocity": 620.0,
+   "kineticEnergy": 499.72,
+   "stoppingPower": "Moderate",
+   "projectileType": "FMJ",
+   "caliber": [
+    "46x30"
+   ],
+   "stoppedByArmorClass": "Nij3Ap"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_FmjSx_46x30.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_SubsonicSx_46x30",
+  "name": "4.6x30mm Subsonic SX",
+  "short_name": "Sub SX 4.6x30",
+  "manufacturer": "General West",
+  "description": "The Subsonic SX cartridge is designed for special units that require reduced noise signatures. It features a 5.0 g lead-free monolithic projectile, optimized for stable subsonic performance, ensuring safe use within the subsonic range.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 2.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 1,
+    "price": 2.0
+   }
+  ],
+  "sold_by": "Banshee R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.2
+   }
+  ],
+  "stats": {
+   "maxStack": 80,
+   "projectileWeight": 0.005,
+   "muzzleVelocity": 290.0,
+   "kineticEnergy": 210.25,
+   "stoppingPower": "Moderate",
+   "projectileType": "FMJ",
+   "caliber": [
+    "46x30"
+   ],
+   "stoppedByArmorClass": "Nij2A"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_SubsonicSx_46x30.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Vmax_46x30",
+  "name": "4.6x30mm V-max",
+  "short_name": "VMAX 4.6x30",
+  "manufacturer": "General West",
+  "description": "A modern PDW cartridge featuring a lightweight 38-grain polymer-tipped projectile designed for reliable feeding, stable flight, and effective expansion on impact.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.007 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 5.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.5
+   }
+  ],
+  "stats": {
+   "durabilityModifier": 15.0,
+   "maxStack": 80,
+   "projectileWeight": 0.00246,
+   "muzzleVelocity": 640.0,
+   "kineticEnergy": 503.808,
+   "stoppingPower": "Moderate",
+   "projectileType": "HP",
+   "caliber": [
+    "46x30"
+   ],
+   "stoppedByArmorClass": "Nij1"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Vmax_46x30.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Bp7N22_545x39",
+  "name": "5.45x39mm BP (7N22)",
+  "short_name": "BP 5.45x39",
+  "manufacturer": "General East",
+  "description": "The 5.45x39mm BP (7N22) ammunition is a specialized cartridge designed for rifles like the AK-74. It features a ballistic projectile with an armor-piercing steel core, making it highly effective at penetrating armored targets.  This ammo is widely used in military applications where penetrating protective barriers is essential.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0105 kg",
+  "grid_size": "1x1",
+  "base_price": 21.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 21.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 2.1
+   }
+  ],
+  "stats": {
+   "moaModifier": -1.0,
+   "durabilityModifier": 100.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00369,
+   "muzzleVelocity": 860.0,
+   "kineticEnergy": 1364.56,
+   "stoppingPower": "Substantial",
+   "projectileType": "AP",
+   "caliber": [
+    "545x39"
+   ],
+   "stoppedByArmorClass": "Nij4"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Bp7N22_545x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Bs7N24_545x39",
+  "name": "5.45x39mm BS (7N24)",
+  "short_name": "BS 5.45x39",
+  "manufacturer": "General East",
+  "description": "The 5.45x39mm BS (7N24) cartridge is designed for rifles such as the AK-74. The designation 'BS' stands for 'Broneboynyy Serdechnik' or 'Armor-Piercing Core.' It contains a hardened tungsten carbide core that enhances its armor-piercing capabilities and is commonly used in military applications due to its effectiveness against armored targets.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.011 kg",
+  "grid_size": "1x1",
+  "base_price": 21.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 21.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 2.1
+   }
+  ],
+  "stats": {
+   "moaModifier": -6.0,
+   "durabilityModifier": 100.0,
+   "maxStack": 60,
+   "projectileWeight": 0.0042,
+   "muzzleVelocity": 840.0,
+   "kineticEnergy": 1481.76,
+   "stoppingPower": "Substantial",
+   "projectileType": "AP",
+   "caliber": [
+    "545x39"
+   ],
+   "stoppedByArmorClass": "Nij4"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Bs7N24_545x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Bt7Bt4_545x39",
+  "name": "5.45x39mm BT (7BT4)",
+  "short_name": "BT 5.45x39",
+  "manufacturer": "General East",
+  "description": "The 5.45x39mm BT (7BT4) is a high-performance ammunition combining armor-piercing and tracer capabilities. Its hardened steel core ensures superior penetration, effortlessly piercing through medium-grade armor and barriers. The integrated tracer element ignites upon firing, creating a visible trajectory for precise targeting and enhanced fire control, even in low-visibility conditions.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0105 kg",
+  "grid_size": "1x1",
+  "base_price": 11.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 11.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1.1
+   }
+  ],
+  "stats": {
+   "moaModifier": -2.0,
+   "durabilityModifier": 40.0,
+   "maxStack": 60,
+   "projectileWeight": 0.0031,
+   "muzzleVelocity": 915.0,
+   "kineticEnergy": 1297.7,
+   "stoppingPower": "Substantial",
+   "projectileType": "AP",
+   "tracerColor": "Green",
+   "caliber": [
+    "545x39"
+   ],
+   "stoppedByArmorClass": "Nij3pp"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Bt7Bt4_545x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Fmj_545x39",
+  "name": "5.45x39mm FMJ",
+  "short_name": "FMJ 5.45x39",
+  "manufacturer": "General East",
+  "description": "The 5.45x39mm FMJ ammunition is a military cartridge designed for rifles such as the AK-74. It features a full metal jacket design with a lead core encased in copper, providing reliable feeding and penetration. This ammunition is widely used in military applications due to its consistent performance in both combat and training scenarios.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0105 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 3.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.3
+   }
+  ],
+  "stats": {
+   "durabilityModifier": 15.0,
+   "maxStack": 60,
+   "projectileWeight": 0.0039,
+   "muzzleVelocity": 855.0,
+   "kineticEnergy": 1425.5,
+   "stoppingPower": "High",
+   "projectileType": "FMJ",
+   "caliber": [
+    "545x39"
+   ],
+   "stoppedByArmorClass": "Nij3"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Fmj_545x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Hp_545x39",
+  "name": "5.45x39mm HP",
+  "short_name": "HP 5.45x39",
+  "manufacturer": "General East",
+  "description": "The 5.45x39mm Hollow Point (HP) ammunition is engineered for rifles such as the AK-74. Its hollow point design is intended to expand upon impact, creating larger wound channels and increased stopping power. As a result, 5.45x39mm HP ammo is suitable for certain self-defense and hunting applications, providing effective terminal ballistics.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0105 kg",
+  "grid_size": "1x1",
+  "base_price": 4.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 4.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.4
+   }
+  ],
+  "stats": {
+   "moaModifier": 6.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 60,
+   "projectileWeight": 0.004,
+   "muzzleVelocity": 880.0,
+   "kineticEnergy": 1548.8,
+   "stoppingPower": "High",
+   "projectileType": "FMJ",
+   "caliber": [
+    "545x39"
+   ],
+   "stoppedByArmorClass": "Nij3Ap"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Hp_545x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Pp7N10_545x39",
+  "name": "5.45x39mm PP (7N10)",
+  "short_name": "PP 5.45x39",
+  "manufacturer": "General East",
+  "description": "The 5.45x39mm PP (7N10) ammunition is a specialized military cartridge designed for rifles like the AK-74. It features a steel core for improved penetration capabilities, making it suitable for armor-piercing applications. This ammo is known for its effectiveness in military use, particularly in scenarios where enhanced penetration is a priority.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0105 kg",
+  "grid_size": "1x1",
+  "base_price": 11.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 11.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1.1
+   }
+  ],
+  "stats": {
+   "moaModifier": -2.0,
+   "durabilityModifier": 40.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00362,
+   "muzzleVelocity": 870.0,
+   "kineticEnergy": 1369.99,
+   "stoppingPower": "Substantial",
+   "projectileType": "AP",
+   "caliber": [
+    "545x39"
+   ],
+   "stoppedByArmorClass": "Nij3pp"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Pp7N10_545x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Ps7N6_545x39",
+  "name": "5.45x39mm PS (7N6)",
+  "short_name": "PS 5.45x39",
+  "manufacturer": "General East",
+  "description": "The 5.45x39mm PS (7N6) ammunition is a military cartridge used in rifles such as the AK-74. The 'PS' designation refers to the projectile's steel-core design, which enhances its penetration capabilities. This ammunition is widely adopted for military use due to its armor-piercing properties and is commonly used in military training and combat scenarios.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0105 kg",
+  "grid_size": "1x1",
+  "base_price": 7.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 7.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.7
+   }
+  ],
+  "stats": {
+   "moaModifier": 2.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00342,
+   "muzzleVelocity": 900.0,
+   "kineticEnergy": 1385.1,
+   "stoppingPower": "Substantial",
+   "projectileType": "AP",
+   "caliber": [
+    "545x39"
+   ],
+   "stoppedByArmorClass": "Nij3p"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Ps7N6_545x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_US7U1_545x39",
+  "name": "5.45x39mm US (7U1)",
+  "short_name": "US 5.45x39",
+  "manufacturer": "General East",
+  "description": "The 5.45x39mm US gs round contains a subsonic 5.1-gram bullet with a pointed tungsten carbide core over a lead base enclosed in a bimetallic jacket. It is housed in a steel case with a reduced charge. This US cartridge was developed by TsNIITochMash in the mid-80s for use in the AKS-74UB and AKS-74UBN.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0125 kg",
+  "grid_size": "1x1",
+  "base_price": 2.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 2.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.2
+   }
+  ],
+  "stats": {
+   "moaModifier": 6.0,
+   "maxStack": 60,
+   "projectileWeight": 0.0052,
+   "muzzleVelocity": 303.0,
+   "kineticEnergy": 238.703,
+   "stoppingPower": "High",
+   "projectileType": "FMJ",
+   "caliber": [
+    "545x39"
+   ],
+   "stoppedByArmorClass": "Nij3A"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_US7U1_545x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Wolf_545x39",
+  "name": "5.45x39mm Wolf",
+  "short_name": "SP 5.45x39",
+  "manufacturer": "General East",
+  "description": "The Wolf WPA Military Classic 5.45x39mm ammunition features 55-grain soft point bullets and steel cases with Berdan primers. It is designed for AK-74 rifles and is suitable for range training and self-defense. This ammunition is non-reloadable, non-corrosive, and has a polymer coating to improve feeding reliability.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0108 kg",
+  "grid_size": "1x1",
+  "base_price": 2.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 2.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.2
+   }
+  ],
+  "stats": {
+   "moaModifier": 2.0,
+   "maxStack": 60,
+   "projectileWeight": 0.0037,
+   "muzzleVelocity": 840.0,
+   "kineticEnergy": 1305.36,
+   "stoppingPower": "High",
+   "caliber": [
+    "545x39"
+   ],
+   "stoppedByArmorClass": "Nij1"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Wolf_545x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_M855_556x45",
+  "name": "5.56x45mm AP (M855)",
+  "short_name": "M855 5.56x45",
+  "manufacturer": "General West",
+  "description": "A commonly used military round designed for rifles chambered in the 5.56x45mm caliber. It features a 62-grain projectile with a steel penetrator tip and a lead core. The M855 is known for its improved penetration capabilities, particularly against light armor and barriers. It is a full metal jacket (FMJ) round with a green-painted tip for easy identification.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.0123 kg",
+  "grid_size": "1x1",
+  "base_price": 8.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 8.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.8
+   }
+  ],
+  "stats": {
+   "moaModifier": -2.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00402,
+   "muzzleVelocity": 920.0,
+   "kineticEnergy": 1701.26,
+   "stoppingPower": "High",
+   "projectileType": "AP",
+   "caliber": [
+    "556x45"
+   ],
+   "stoppedByArmorClass": "Nij3p"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_M855_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_M855A1_556x45",
+  "name": "5.56x45mm AP (M855A1)",
+  "short_name": "M855A1 5.56x45",
+  "manufacturer": "General West",
+  "description": "A specialized military round used in rifles chambered for the 5.56x45mm caliber. It is an improved variant of the M855 round with enhanced performance and penetration capabilities. The M855A1 features a 62-grain projectile with a steel penetrator tip and a lead-free copper core. It is designed to provide increased accuracy, consistency, and improved barrier penetration compared to its predecessor.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.0116 kg",
+  "grid_size": "1x1",
+  "base_price": 12.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 12.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1.2
+   }
+  ],
+  "stats": {
+   "moaModifier": -7.0,
+   "durabilityModifier": 40.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00402,
+   "muzzleVelocity": 970.0,
+   "kineticEnergy": 1891.21,
+   "stoppingPower": "Substantial",
+   "projectileType": "AP",
+   "caliber": [
+    "556x45"
+   ],
+   "stoppedByArmorClass": "Nij3pp"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_M855A1_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_M995_556x45",
+  "name": "5.56x45mm AP (M995)",
+  "short_name": "M995 5.56x45",
+  "manufacturer": "General West",
+  "description": "A 5.56x45mm armor-piercing cartridge with a hardened steel penetrator core encased in a copper jacket. The M995 is specifically developed to provide enhanced penetration capabilities against armored targets, including vehicles and personnel wearing body armor.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.0123 kg",
+  "grid_size": "1x1",
+  "base_price": 22.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 22.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 2.2
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "durabilityModifier": 100.0,
+   "maxStack": 60,
+   "projectileWeight": 0.0034,
+   "muzzleVelocity": 1030.0,
+   "kineticEnergy": 1803.53,
+   "stoppingPower": "Substantial",
+   "projectileType": "AP",
+   "caliber": [
+    "556x45"
+   ],
+   "stoppedByArmorClass": "Nij4"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_M995_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Fmj_556x45",
+  "name": "5.56x45mm FMJ",
+  "short_name": "FMJ 5.56x45",
+  "manufacturer": "General West",
+  "description": "A 5.56x45mm full metal jacket cartridge with a lead-core bullet encased in a steel case. The jacket enables a higher muzzle velocity, and the bullet can penetrate basic ballistic armor. However, the cartridge has a lower capacity to expand after impact, which reduces the damage to the target.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.013 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 3.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.3
+   }
+  ],
+  "stats": {
+   "maxStack": 60,
+   "projectileWeight": 0.00447,
+   "muzzleVelocity": 880.0,
+   "kineticEnergy": 1730.78,
+   "stoppingPower": "High",
+   "projectileType": "FMJ",
+   "caliber": [
+    "556x45"
+   ],
+   "stoppedByArmorClass": "Nij3"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Fmj_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_M193_556x45",
+  "name": "5.56x45mm FMJ (M193)",
+  "short_name": "M193 5.56x45",
+  "manufacturer": "General West",
+  "description": "A standard 5.56x45mm military cartridge featuring a lead-core, full metal jacket bullet enclosed in a brass case. The M193 is known for its reliable performance and balanced ballistics, offering good accuracy, moderate recoil, and reliable feeding in various firearms.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.012 kg",
+  "grid_size": "1x1",
+  "base_price": 4.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 4.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.4
+   }
+  ],
+  "stats": {
+   "moaModifier": -2.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00356,
+   "muzzleVelocity": 1006.0,
+   "kineticEnergy": 1801.42,
+   "stoppingPower": "High",
+   "projectileType": "FMJ",
+   "caliber": [
+    "556x45"
+   ],
+   "stoppedByArmorClass": "Nij3"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_M193_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Hpbt_556x45",
+  "name": "5.56x45mm HPBT",
+  "short_name": "HPBT 5.56x45",
+  "manufacturer": "General West",
+  "description": "A hollow-point, boat-tailed 5.56x45mm cartridge with a lead-core bullet designed for high accuracy and rapid post-impact expansion. The boat tail shape of the bullet reduces drag and enhances stability in flight, resulting in better accuracy and extended effective range. This cartridge is primarily used for long-range hunting.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.013 kg",
+  "grid_size": "1x1",
+  "base_price": 4.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 4.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.4
+   }
+  ],
+  "stats": {
+   "moaModifier": 3.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 60,
+   "projectileWeight": 0.005,
+   "muzzleVelocity": 861.0,
+   "kineticEnergy": 1853.3,
+   "stoppingPower": "High",
+   "projectileType": "FMJ",
+   "caliber": [
+    "556x45"
+   ],
+   "stoppedByArmorClass": "Nij3Ap"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Hpbt_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Sp_556x45",
+  "name": "5.56x45mm SP",
+  "short_name": "SP 5.56x45",
+  "manufacturer": "General West",
+  "description": "The 5.56x45mm SP ammunition features a soft point (SP) bullet design, which offers improved expansion upon impact compared to full metal jacket rounds. This can result in greater tissue damage, making the SP round effective for hunting and self-defense applications.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 2.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 2.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.2
+   }
+  ],
+  "stats": {
+   "moaModifier": 3.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00415,
+   "muzzleVelocity": 930.0,
+   "kineticEnergy": 1794.67,
+   "stoppingPower": "High",
+   "caliber": [
+    "556x45"
+   ],
+   "stoppedByArmorClass": "Nij1"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Sp_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_M856_556x45",
+  "name": "5.56x45mm Tracer (M856)",
+  "short_name": "M856 5.56x45",
+  "manufacturer": "General West",
+  "description": "A military round designed for rifles chambered in the 5.56x45mm caliber. It features a 63.7-grain projectile with a red-colored tip and a lead core. The M856 is a tracer round that allows for visual tracking of the bullet's trajectory during daylight conditions.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.0135 kg",
+  "grid_size": "1x1",
+  "base_price": 8.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 8.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.8
+   }
+  ],
+  "stats": {
+   "moaModifier": 3.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00395,
+   "muzzleVelocity": 917.0,
+   "kineticEnergy": 1660.76,
+   "stoppingPower": "Substantial",
+   "projectileType": "FMJ",
+   "tracerColor": "Red",
+   "caliber": [
+    "556x45"
+   ],
+   "stoppedByArmorClass": "Nij3p"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_M856_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_M856A1_556x45",
+  "name": "5.56x45mm Tracer (M856A1)",
+  "short_name": "M856A1 5.56x45",
+  "manufacturer": "General West",
+  "description": "A military-grade round designed for use in rifles chambered for the 5.56x45mm caliber. The M856A1 incorporates advancements in tracer technology and features a more consistent and brighter trace compared to the M856.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.0125 kg",
+  "grid_size": "1x1",
+  "base_price": 12.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 12.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1.2
+   }
+  ],
+  "stats": {
+   "moaModifier": 4.0,
+   "durabilityModifier": 40.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00362,
+   "muzzleVelocity": 945.0,
+   "kineticEnergy": 1616.38,
+   "stoppingPower": "Substantial",
+   "projectileType": "AP",
+   "tracerColor": "Red",
+   "caliber": [
+    "556x45"
+   ],
+   "stoppedByArmorClass": "Nij3pp"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_M856A1_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Fmj_762x25",
+  "name": "7.62x25mm FMJ",
+  "short_name": "FMJ 7.62x25",
+  "manufacturer": "General East",
+  "description": "The 7.62×25mm Tokarev FMJ (Full Metal Jacket) ammunition is a powerful pistol cartridge originally designed for the Soviet TT-33 pistol and later used in various firearms, including submachine guns. Developed in the early 1930s, it features a bottlenecked cartridge case with a diameter of 7.62mm and a length of 25mm. The 7.62×25mm Tokarev round is prized for its penetration capabilities and has seen extensive military and civilian use in Eastern Europe and Asia.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.011 kg",
+  "grid_size": "1x1",
+  "base_price": 1.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 1.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.1
+   }
+  ],
+  "stats": {
+   "maxStack": 80,
+   "projectileWeight": 0.0055,
+   "muzzleVelocity": 430.0,
+   "kineticEnergy": 508.475,
+   "stoppingPower": "Moderate",
+   "projectileType": "FMJ",
+   "caliber": [
+    "762x25"
+   ],
+   "stoppedByArmorClass": "Nij2"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Fmj_762x25.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Pst_762x25",
+  "name": "7.62x25mm Pst",
+  "short_name": "Pst 7.62x25",
+  "manufacturer": "General East",
+  "description": "The 7.62x25mm Pst ammunition commonly features a bullet with a steel core, which enhances the penetration capabilities of the round, making it effective against various types of targets, including body armor and light cover. Additionally, the use of a steel core can contribute to the ammunition's armor-piercing capabilities.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.011 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 3.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.3
+   }
+  ],
+  "stats": {
+   "moaModifier": -2.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 80,
+   "projectileWeight": 0.0055,
+   "muzzleVelocity": 430.0,
+   "kineticEnergy": 508.475,
+   "projectileType": "AP",
+   "caliber": [
+    "762x25"
+   ],
+   "stoppedByArmorClass": "Nij3Ap"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Pst_762x25.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Pt_762x25",
+  "name": "7.62x25mm PT",
+  "short_name": "PT 7.62x25",
+  "manufacturer": "General East",
+  "description": "The 7.62x25mm PT is a tracer round specifically designed for target designation and fire adjustment during combat situations, but lacks the penetration and stopping power of standard FMJ rounds.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.011 kg",
+  "grid_size": "1x1",
+  "base_price": 1.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 1.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.1
+   }
+  ],
+  "stats": {
+   "moaModifier": 2.0,
+   "maxStack": 80,
+   "projectileWeight": 0.0058,
+   "muzzleVelocity": 415.0,
+   "kineticEnergy": 499.453,
+   "stoppingPower": "Moderate",
+   "projectileType": "FMJ",
+   "tracerColor": "Red",
+   "caliber": [
+    "762x25"
+   ],
+   "stoppedByArmorClass": "Nij2"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Pt_762x25.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_7N23Bp_762x39",
+  "name": "7.62x39mm BP (7N23)",
+  "short_name": "BP 7.62x39",
+  "manufacturer": "General East",
+  "description": "The 7.62x39mm 7N23 BP ammunition is a specialized cartridge designed for rifles such as the AK-47. It features a ballistic projectile with a steel core, making it effective against armored targets. This ammo is widely used in military applications due to its enhanced penetration capabilities and is employed in scenarios where defeating protective barriers is crucial.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0163 kg",
+  "grid_size": "1x1",
+  "base_price": 23.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 23.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 2.3
+   }
+  ],
+  "stats": {
+   "moaModifier": -2.0,
+   "durabilityModifier": 100.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00791,
+   "muzzleVelocity": 740.0,
+   "kineticEnergy": 2165.76,
+   "stoppingPower": "High",
+   "projectileType": "AP",
+   "caliber": [
+    "762x39"
+   ],
+   "stoppedByArmorClass": "Nij4"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_7N23Bp_762x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_FMJ_762x39",
+  "name": "7.62x39mm FMJ",
+  "short_name": "FMJ 7.62x39",
+  "manufacturer": "General East",
+  "description": "A standard 7.62×39mm cartridge loaded with a full metal jacket (FMJ) projectile, widely used in AK-platform rifles. Designed for reliable feeding and consistent performance, the FMJ bullet has a lead core enclosed in a hard metal jacket, which reduces barrel fouling and deformation during travel.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0163 kg",
+  "grid_size": "1x1",
+  "base_price": 4.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 4.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.4
+   }
+  ],
+  "stats": {
+   "moaModifier": 6.0,
+   "maxStack": 60,
+   "projectileWeight": 0.008,
+   "muzzleVelocity": 738.0,
+   "kineticEnergy": 2178.58,
+   "stoppingPower": "High",
+   "projectileType": "FMJ",
+   "caliber": [
+    "762x39"
+   ],
+   "stoppedByArmorClass": "Nij3"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_FMJ_762x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_7N27Pp_762x39",
+  "name": "7.62x39mm PP (7N27)",
+  "short_name": "PP 7.62x39",
+  "manufacturer": "General East",
+  "description": "A round featuring a sharp, hardened tool steel core designed for improved armor penetration. Its special coating reduces wear on machine gun feeding mechanisms. The cartridge was never fully adopted after the introduction of the BP round.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0165 kg",
+  "grid_size": "1x1",
+  "base_price": 13.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 13.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1.3
+   }
+  ],
+  "stats": {
+   "moaModifier": -1.0,
+   "durabilityModifier": 40.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00791,
+   "muzzleVelocity": 740.0,
+   "kineticEnergy": 2165.76,
+   "stoppingPower": "High",
+   "projectileType": "AP",
+   "caliber": [
+    "762x39"
+   ],
+   "stoppedByArmorClass": "Nij3pp"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_7N27Pp_762x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_57N231Ps_762x39",
+  "name": "7.62x39mm PS (57-N-231C)",
+  "short_name": "PS 7.62x39",
+  "manufacturer": "General East",
+  "description": "A 7.62x39mm cartridge with a steel-core bullet encased in a bimetallic steel and copper case. It was designed in 1943 and has undergone various enhancements, but remains in widespread use today. At a distance of 300m, it can penetrate a 6mm thick steel plate. The PS designation stands for Pulya Stalnaya, which translates to Steel Bullet.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0163 kg",
+  "grid_size": "1x1",
+  "base_price": 9.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 9.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.9
+   }
+  ],
+  "stats": {
+   "moaModifier": -1.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00805,
+   "muzzleVelocity": 725.0,
+   "kineticEnergy": 2115.64,
+   "stoppingPower": "High",
+   "projectileType": "AP",
+   "caliber": [
+    "762x39"
+   ],
+   "stoppedByArmorClass": "Nij3p"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_57N231Ps_762x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Sp_762x39",
+  "name": "7.62x39mm SP",
+  "short_name": "SP 7.62x39",
+  "manufacturer": "General East",
+  "description": "A 7.62x39mm soft point cartridge with a lead core semi-jacketed bullet. It is designed to expand after impact, causing massive damage to the target at the cost of reduced penetration.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0175 kg",
+  "grid_size": "1x1",
+  "base_price": 2.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 2.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.2
+   }
+  ],
+  "stats": {
+   "moaModifier": 2.0,
+   "maxStack": 60,
+   "projectileWeight": 0.008,
+   "muzzleVelocity": 743.0,
+   "kineticEnergy": 2208.2,
+   "stoppingPower": "VeryHigh",
+   "caliber": [
+    "762x39"
+   ],
+   "stoppedByArmorClass": "Nij1"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Sp_762x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_57N231PTracer_762x39",
+  "name": "7.62x39mm Tracer (57-N-231P)",
+  "short_name": "Tracer 7.62x39",
+  "manufacturer": "General East",
+  "description": "The 7.62x39mm 57-N-231P Tracer ammunition is intended for rifles such as the AK-47. It includes a pyrotechnic tracer element that produces a visible light trail during flight, aiding in tracking. This ammunition is mainly used for training and signaling, combining standard 7.62x39mm features with tracer technology.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0163 kg",
+  "grid_size": "1x1",
+  "base_price": 4.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 4.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.4
+   }
+  ],
+  "stats": {
+   "moaModifier": 3.0,
+   "maxStack": 60,
+   "projectileWeight": 0.00767,
+   "muzzleVelocity": 725.0,
+   "kineticEnergy": 2015.77,
+   "stoppingPower": "High",
+   "projectileType": "FMJ",
+   "tracerColor": "Green",
+   "caliber": [
+    "762x39"
+   ],
+   "stoppedByArmorClass": "Nij3"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_57N231PTracer_762x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Us_762x39",
+  "name": "7.62x39mm US",
+  "short_name": "US 7.62x39",
+  "manufacturer": "General East",
+  "description": "The US 7.62x39mm cartridge features a subsonic bullet comprising a pointed heat-treated steel core encased in a bimetallic jacket over a lead base. It is housed in a bimetallic case with a reduced charge. Developed in the 1950s as the Umén'shennoy Skórosti (\"Reduced Speed\") round, it was intended for use with a suppressor, effectively reducing noise while ensuring compatibility with Soviet 7.62x39mm caliber firearms.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.0163 kg",
+  "grid_size": "1x1",
+  "base_price": 2.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 2.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.2
+   }
+  ],
+  "stats": {
+   "moaModifier": 6.0,
+   "maxStack": 60,
+   "projectileWeight": 0.0126,
+   "muzzleVelocity": 310.0,
+   "kineticEnergy": 605.43,
+   "stoppingPower": "VeryHigh",
+   "projectileType": "FMJ",
+   "caliber": [
+    "762x39"
+   ],
+   "stoppedByArmorClass": "Nij3A"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Us_762x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_M61_762x51",
+  "name": "7.62x51mm AP (M61)",
+  "short_name": "M61 7.62x51",
+  "manufacturer": "General West",
+  "description": "The 7.62x51mm (M61) armor-piercing cartridge is specifically designed to penetrate armor due to its pointed steel core. It is commonly used in military applications because of its enhanced penetration capability, which makes it effective against armored targets.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.0245 kg",
+  "grid_size": "1x1",
+  "base_price": 28.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 28.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 2.8
+   }
+  ],
+  "stats": {
+   "moaModifier": -4.0,
+   "durabilityModifier": 100.0,
+   "maxStack": 40,
+   "projectileWeight": 0.0094,
+   "muzzleVelocity": 838.0,
+   "kineticEnergy": 3300.55,
+   "stoppingPower": "VeryHigh",
+   "projectileType": "AP",
+   "caliber": [
+    "762x51"
+   ],
+   "stoppedByArmorClass": "Nij4"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_M61_762x51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_M80_762x51",
+  "name": "7.62x51mm FMJ (M80)",
+  "short_name": "M80 7.62x51",
+  "manufacturer": "General West",
+  "description": "The 7.62x51mm NATO M80 cartridge is widely used for military and civilian applications due to its reliability and solid performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.024 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 5.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.5
+   }
+  ],
+  "stats": {
+   "maxStack": 40,
+   "projectileWeight": 0.00952,
+   "muzzleVelocity": 817.0,
+   "kineticEnergy": 3177.25,
+   "stoppingPower": "Massive",
+   "projectileType": "FMJ",
+   "caliber": [
+    "762x51"
+   ],
+   "stoppedByArmorClass": "Nij3"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_M80_762x51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_M80A1_762x51",
+  "name": "7.62x51mm FMJ (M80A1)",
+  "short_name": "M80A1 7.62x51",
+  "manufacturer": "General West",
+  "description": "The 7.62x51mm M80A1 consistently delivers excellent fragmentation, effective armor penetration, and barrier-blind characteristics.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.024 kg",
+  "grid_size": "1x1",
+  "base_price": 15.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 15.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -3.0,
+   "durabilityModifier": 40.0,
+   "maxStack": 40,
+   "projectileWeight": 0.00848,
+   "muzzleVelocity": 835.0,
+   "kineticEnergy": 2956.23,
+   "stoppingPower": "VeryHigh",
+   "projectileType": "AP",
+   "caliber": [
+    "762x51"
+   ],
+   "stoppedByArmorClass": "Nij3pp"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_M80A1_762x51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Hpbt_762x51",
+  "name": "7.62x51mm HPBT",
+  "short_name": "HPBT 7.62x51",
+  "manufacturer": "General West",
+  "description": "The .308 Winchester (308 WIN.) ammunition with Hollow Point Boat Tail (HPBT) combines precision and terminal performance. The HPBT bullet is designed for accuracy and enhances stability in flight, making it a favored choice for precision shooting and hunting applications.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.0275 kg",
+  "grid_size": "1x1",
+  "base_price": 12.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 12.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1.2
+   }
+  ],
+  "stats": {
+   "moaModifier": -4.0,
+   "durabilityModifier": 40.0,
+   "maxStack": 40,
+   "projectileWeight": 0.0123,
+   "muzzleVelocity": 800.0,
+   "kineticEnergy": 3936.0,
+   "stoppingPower": "Massive",
+   "projectileType": "FMJ",
+   "caliber": [
+    "762x51"
+   ],
+   "stoppedByArmorClass": "Nij3Ap"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Hpbt_762x51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_M62_762x51",
+  "name": "7.62x51mm Tracer (M62)",
+  "short_name": "M62 7.62x51",
+  "manufacturer": "General West",
+  "description": "This tracer cartridge conforms to NATO standards and is comparable to the M62. It features a luminous trace that extends up to 775 meters from the muzzle, visible during both day and night, making it suitable for all 7.62x51mm firearms.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.024 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 5.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.5
+   }
+  ],
+  "stats": {
+   "moaModifier": 4.0,
+   "maxStack": 40,
+   "projectileWeight": 0.0091,
+   "muzzleVelocity": 820.0,
+   "kineticEnergy": 3059.42,
+   "stoppingPower": "Massive",
+   "projectileType": "FMJ",
+   "tracerColor": "Red",
+   "caliber": [
+    "762x51"
+   ],
+   "stoppedByArmorClass": "Nij3"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_M62_762x51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_7N13Ap_762x54",
+  "name": "7.62x54R AP (7N13)",
+  "short_name": "AP 7.62x54R",
+  "manufacturer": "General East",
+  "description": "The 7.62x54R 7N13 cartridge is a powerful armor-piercing (AP) round designed for precision and penetration. It has a distinctive purple tip and provides reliable armor-penetrating capabilities, making it an excellent choice for applications requiring enhanced piercing power.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.022 kg",
+  "grid_size": "1x1",
+  "base_price": 27.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 4,
+    "price": 27.0
+   }
+  ],
+  "sold_by": "Artisan R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 2.7
+   }
+  ],
+  "stats": {
+   "moaModifier": -2.0,
+   "durabilityModifier": 100.0,
+   "maxStack": 40,
+   "projectileWeight": 0.00956,
+   "muzzleVelocity": 828.0,
+   "kineticEnergy": 3277.09,
+   "stoppingPower": "VeryHigh",
+   "projectileType": "AP",
+   "caliber": [
+    "762x54R"
+   ],
+   "stoppedByArmorClass": "Nij4pp"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_7N13Ap_762x54.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Lps_762x54",
+  "name": "7.62x54R LPS (57-N-323S)",
+  "short_name": "LPS 7.62x54R",
+  "manufacturer": "General East",
+  "description": "The 57-N-323S (GZh) cartridge features the iconic LPS (Light Armor-Piercing, Steel-Core) bullet. This cartridge is known for its lethal combination of a St 10 steel core and a 9.45-9.75g bullet, and can be recognized by its silver-painted tip, a tradition observed from 1953 to 1978.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.021 kg",
+  "grid_size": "1x1",
+  "base_price": 11.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 11.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1.1
+   }
+  ],
+  "stats": {
+   "moaModifier": -1.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 40,
+   "projectileWeight": 0.00953,
+   "muzzleVelocity": 828.0,
+   "kineticEnergy": 3266.81,
+   "stoppingPower": "Massive",
+   "projectileType": "FMJ",
+   "caliber": [
+    "762x54R"
+   ],
+   "stoppedByArmorClass": "Nij3p"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Lps_762x54.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_7N1SniperRound_762x54",
+  "name": "7.62x54R Sniper Round (7N1)",
+  "short_name": "SR 7.62x54R",
+  "manufacturer": "General East",
+  "description": "The 7N1 cartridge is a preferred choice for snipers due to its precision. It has a length ranging from 75.91 to 77.16mm and features a smokeless, nitrocellulose-based powder marked as ВТ. This propels a 9.52-9.56g bullet at speeds of 820-835m/s from the SVD rifle. The bullet is enveloped in a tombac-plated steel shell and houses a St 10 core weighing 2.2-2.3g. This cartridge is ideal for long-range accuracy and delivers consistent performance for sniper applications.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.021 kg",
+  "grid_size": "1x1",
+  "base_price": 25.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 4,
+    "price": 25.0
+   }
+  ],
+  "sold_by": "Artisan R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 2.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "durabilityModifier": 100.0,
+   "maxStack": 40,
+   "projectileWeight": 0.00954,
+   "muzzleVelocity": 830.0,
+   "kineticEnergy": 3286.05,
+   "stoppingPower": "VeryHigh",
+   "projectileType": "AP",
+   "caliber": [
+    "762x54R"
+   ],
+   "stoppedByArmorClass": "Nij4Ap"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_7N1SniperRound_762x54.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_T46MTracer_762x54",
+  "name": "7.62x54R Tracer (T-46M)",
+  "short_name": "Tracer 7.62x54R",
+  "manufacturer": "General East",
+  "description": "The T-46M Tracer cartridge is a modernized ammunition designed for the Mosin-Nagant rifle. It has a distinctive green-painted tip and features a smokeless, nitrocellulose-based powder (BT) that propels a 9.5-9.8g bullet at a muzzle velocity of 825-855m/s. The bullet is clad in a tombac-plated steel shell and has a lead core with 1-2% antimony for enhanced performance.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.022 kg",
+  "grid_size": "1x1",
+  "base_price": 14.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 3,
+    "price": 14.0
+   }
+  ],
+  "sold_by": "Artisan R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1.4
+   }
+  ],
+  "stats": {
+   "moaModifier": 3.0,
+   "durabilityModifier": 40.0,
+   "maxStack": 40,
+   "projectileWeight": 0.00965,
+   "muzzleVelocity": 830.0,
+   "kineticEnergy": 3323.94,
+   "stoppingPower": "VeryHigh",
+   "projectileType": "FMJ",
+   "caliber": [
+    "762x54R"
+   ],
+   "stoppedByArmorClass": "Nij3pp"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_T46MTracer_762x54.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_765BrowningFmj_765",
+  "name": "7.65 Browning FMJ",
+  "short_name": "FMJ 7.65 B",
+  "manufacturer": "General West",
+  "description": "The 7.65 Browning FMJ ammunition has a full metal jacket projectile, usually with a lead core covered in a copper or other metal jacket. These rounds are intended for general-purpose use, providing good penetration and reliability, but they may not have the terminal ballistics of specialized hollow point or defensive rounds.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.008 kg",
+  "grid_size": "1x1",
+  "base_price": 1.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 1.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.1
+   }
+  ],
+  "stats": {
+   "maxStack": 80,
+   "projectileWeight": 0.00475,
+   "muzzleVelocity": 318.0,
+   "kineticEnergy": 240.17,
+   "stoppingPower": "Moderate",
+   "projectileType": "FMJ",
+   "caliber": [
+    "765Browning"
+   ],
+   "stoppedByArmorClass": "Nij2A"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_765BrowningFmj_765.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_765BrowningJhp_765",
+  "name": "7.65 Browning JHP",
+  "short_name": "JHP 7.65 B",
+  "manufacturer": "General West",
+  "description": "The 7.65 Browning JHP ammunition utilizes a hollow point projectile that expands upon impact, creating larger wound channels and maximizing stopping power. These rounds are commonly used in self-defense and law enforcement applications where terminal performance is crucial.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.008 kg",
+  "grid_size": "1x1",
+  "base_price": 2.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 2.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.2
+   }
+  ],
+  "stats": {
+   "moaModifier": 4.0,
+   "maxStack": 80,
+   "projectileWeight": 0.00421,
+   "muzzleVelocity": 276.0,
+   "kineticEnergy": 160.351,
+   "stoppingPower": "VeryLow",
+   "projectileType": "HP",
+   "caliber": [
+    "765Browning"
+   ],
+   "stoppedByArmorClass": "Nij1"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_765BrowningJhp_765.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_765Browning55grXtremeDefender_765",
+  "name": "7.65 Browning Xtreme Defender",
+  "short_name": "XD 7.65 B",
+  "manufacturer": "General West",
+  "description": "The 7.65 Browning 55gr. Xtreme Defender ammunition has a solid copper projectile with flutes and sharp edges penetrating deeply and creating temporary and permanent wound cavities. Compared to traditional JHP rounds, Xtreme Defender rounds provide better penetration and terminal performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.007 kg",
+  "grid_size": "1x1",
+  "base_price": 4.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 4.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.4
+   }
+  ],
+  "stats": {
+   "moaModifier": 2.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 80,
+   "projectileWeight": 0.00356,
+   "muzzleVelocity": 290.0,
+   "kineticEnergy": 149.698,
+   "stoppingPower": "VeryLow",
+   "projectileType": "AP",
+   "caliber": [
+    "765Browning"
+   ],
+   "stoppedByArmorClass": "Nij2p"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_765Browning55grXtremeDefender_765.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Fmj_9x19",
+  "name": "9x19mm FMJ",
+  "short_name": "FMJ 9x19",
+  "manufacturer": "General West",
+  "description": "A 9mm Parabellum cartridge loaded with a full metal jacket (FMJ) bullet. It features a lead core encapsulated by a copper or brass jacket, providing smooth feeding and reliable performance. The FMJ design prevents the bullet from expanding upon impact, making it suitable for target shooting, training, and general-purpose use.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.012 kg",
+  "grid_size": "1x1",
+  "base_price": 1.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 1.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.1
+   }
+  ],
+  "stats": {
+   "maxStack": 80,
+   "projectileWeight": 0.00745,
+   "muzzleVelocity": 390.0,
+   "kineticEnergy": 566.572,
+   "stoppingPower": "Moderate",
+   "projectileType": "FMJ",
+   "caliber": [
+    "9x19"
+   ],
+   "stoppedByArmorClass": "Nij2A"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Fmj_9x19.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Hp_9x19",
+  "name": "9x19mm HP",
+  "short_name": "HP 9x19",
+  "manufacturer": "General West",
+  "description": "A 9mm Parabellum cartridge loaded with a hollow point bullet. Unlike full metal jacket (FMJ) rounds, hollow point ammunition is designed to expand upon impact, creating a larger wound channel and transferring more energy to the target.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.012 kg",
+  "grid_size": "1x1",
+  "base_price": 2.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 2.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.2
+   }
+  ],
+  "stats": {
+   "moaModifier": 3.0,
+   "maxStack": 80,
+   "projectileWeight": 0.00745,
+   "muzzleVelocity": 377.0,
+   "kineticEnergy": 529.431,
+   "stoppingPower": "Moderate",
+   "projectileType": "HP",
+   "caliber": [
+    "9x19"
+   ],
+   "stoppedByArmorClass": "Nij1pp"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Hp_9x19.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_LibraSnail_9x19",
+  "name": "9x19mm Libra Snail",
+  "short_name": "LS 9x19",
+  "manufacturer": "General West",
+  "description": "The Snail ammunition was created in 2002 and made its debut at the IWA (Internationale Waffenausstellung), a firearms exhibition held in Nuremberg, Germany, in 2003. The round's designer, Vlastimil Libra, utilized a bullet made of solid brass or aluminum with a steel core to achieve controlled deformation in the projectile. This unique combination of materials and construction results in a round with exceptional penetration capabilities.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.007 kg",
+  "grid_size": "1x1",
+  "base_price": 10.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 10.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 1.0
+   }
+  ],
+  "stats": {
+   "durabilityModifier": 40.0,
+   "maxStack": 80,
+   "projectileWeight": 0.0029,
+   "muzzleVelocity": 700.0,
+   "kineticEnergy": 710.5,
+   "projectileType": "AP",
+   "caliber": [
+    "9x19"
+   ],
+   "stoppedByArmorClass": "Nij3p"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_LibraSnail_9x19.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_Tracer_9x19",
+  "name": "9x19mm Tracer",
+  "short_name": "Tracer 9x19",
+  "manufacturer": "General West",
+  "description": "A specialized type of the 9mm Parabellum (9x19mm) cartridge that contains a tracer compound in the bullet. This allows the bullet to emit visible light during flight, making it useful for tracking the bullet's trajectory in low-light conditions or for training purposes.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.013 kg",
+  "grid_size": "1x1",
+  "base_price": 1.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 1.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.1
+   }
+  ],
+  "stats": {
+   "moaModifier": 4.0,
+   "maxStack": 80,
+   "projectileWeight": 0.00745,
+   "muzzleVelocity": 342.0,
+   "kineticEnergy": 435.691,
+   "stoppingPower": "Moderate",
+   "projectileType": "FMJ",
+   "tracerColor": "Red",
+   "caliber": [
+    "9x19"
+   ],
+   "stoppedByArmorClass": "Nij2A"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_Tracer_9x19.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Ammo_XtremePenetratorP_9x19",
+  "name": "9x19mm Xtreme Penetrator +P",
+  "short_name": "XP 9x19",
+  "manufacturer": "General West",
+  "description": "The Xtreme Penetrator Ammo is designed to provide superior penetration and stopping power. It features a 115-grain solid copper bullet with a unique fluted design that maintains its structural integrity and delivers deep penetration upon impact. The +P designation indicates higher pressure, resulting in increased velocity and energy transfer. This ammunition is ideal for self-defense scenarios where reliable barrier penetration is crucial.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.012 kg",
+  "grid_size": "1x1",
+  "base_price": 4.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 4.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.4
+   }
+  ],
+  "stats": {
+   "moaModifier": -2.0,
+   "durabilityModifier": 15.0,
+   "maxStack": 80,
+   "projectileWeight": 0.00745,
+   "muzzleVelocity": 381.0,
+   "kineticEnergy": 540.725,
+   "stoppingPower": "Moderate",
+   "projectileType": "AP",
+   "caliber": [
+    "9x19"
+   ],
+   "stoppedByArmorClass": "Nij3Ap"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Ammo_XtremePenetratorP_9x19.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_GrenadeShrapnel",
+  "name": "Grenade shrapnel",
+  "short_name": "Shrapnel",
+  "manufacturer": "General East",
+  "description": "<DEV>",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "NotForStatistics"
+  ],
+  "weight": "0.0015 kg",
+  "grid_size": "1x1",
+  "base_price": 2.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.2
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "projectileWeight": 0.006,
+   "muzzleVelocity": 600.0,
+   "kineticEnergy": 1080.0,
+   "stoppingPower": "Moderate",
+   "projectileType": "FMJ",
+   "caliber": [
+    "45ACP"
+   ],
+   "stoppedByArmorClass": "Nij3Ap"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_GrenadeShrapnel.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_MineShrapnel",
+  "name": "Mine shrapnel",
+  "short_name": "Shrapnel",
+  "manufacturer": "General East",
+  "description": "<DEV>",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "NotForStatistics"
+  ],
+  "weight": "0.0015 kg",
+  "grid_size": "1x1",
+  "base_price": 2.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.2
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "projectileWeight": 0.006,
+   "muzzleVelocity": 600.0,
+   "kineticEnergy": 1080.0,
+   "stoppingPower": "Moderate",
+   "projectileType": "FMJ",
+   "caliber": [
+    "45ACP"
+   ],
+   "stoppedByArmorClass": "Nij3Ap"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_MineShrapnel.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Shrapnel",
+  "name": "Mine shrapnel",
+  "short_name": "Shrapnel",
+  "manufacturer": "General East",
+  "description": "<DEV>",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "NotForStatistics"
+  ],
+  "weight": "0.0015 kg",
+  "grid_size": "1x1",
+  "base_price": 2.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.2
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "projectileWeight": 0.006,
+   "muzzleVelocity": 600.0,
+   "kineticEnergy": 1080.0,
+   "stoppingPower": "Moderate",
+   "projectileType": "FMJ",
+   "caliber": [
+    "45ACP"
+   ],
+   "stoppedByArmorClass": "Nij3Ap"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_Shrapnel.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_MortarShrapnel",
+  "name": "Mortar shrapnel",
+  "short_name": "Shrapnel",
+  "manufacturer": "General East",
+  "description": "<DEV>",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "NotForStatistics"
+  ],
+  "weight": "0.0015 kg",
+  "grid_size": "1x1",
+  "base_price": 2.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 0.2
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "projectileWeight": 0.006,
+   "muzzleVelocity": 600.0,
+   "kineticEnergy": 1080.0,
+   "stoppingPower": "Moderate",
+   "projectileType": "FMJ",
+   "caliber": [
+    "45ACP"
+   ],
+   "stoppedByArmorClass": "Nij3Ap"
+  },
+  "image": "https://gzw-data.dev/assets/items/ammo/IS_MortarShrapnel.webp",
+  "source": "game-files"
+ }
+]

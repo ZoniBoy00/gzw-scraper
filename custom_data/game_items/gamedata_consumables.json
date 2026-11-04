@@ -1,0 +1,2659 @@
+[
+ {
+  "id": "IS_Prov_Food_OneShotEnergyChews",
+  "name": "1 Shot Energy Chews",
+  "short_name": "1 Shot",
+  "manufacturer": "1 Shot",
+  "description": "An ultra-compact energy boost for extended operations. Each chew delivers 75 mg of caffeine and essential nootropics. Lychee Splash flavor.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.04 kg",
+  "grid_size": "1x1",
+  "base_price": 80.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 4,
+    "price": 80.0
+   }
+  ],
+  "sold_by": "LabRat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 24.0
+   }
+  ],
+  "stats": {
+   "charges": 3,
+   "usageSpeed": 4
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_OneShotEnergyChews.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Pills_ActivatedCharcoal",
+  "name": "Activated Charcoal",
+  "short_name": "Charcoal",
+  "manufacturer": "S.R. Hawkins",
+  "description": "A porous substance that undergoes a special activation process to enhance its adsorption properties. Known for its ability to trap and absorb toxins, chemicals, and gases in the digestive system, it is often used to address cases of poisoning or drug overdose. \n\nActivated charcoal is a standard pill used to cleanse the body of toxins.",
+  "type": "Consumable.Medical.Pill",
+  "tags": [
+   "Size.Small",
+   "Origin.West"
+  ],
+  "weight": "0.15 kg",
+  "grid_size": "1x1",
+  "base_price": 18.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 1,
+    "price": 18.0
+   }
+  ],
+  "sold_by": "LabRat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 5.4
+   }
+  ],
+  "stats": {
+   "charges": 5,
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Pills_ActivatedCharcoal.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Splint_AdvancedFlexibleSplint",
+  "name": "Advanced Flexible Splint",
+  "short_name": "Splint",
+  "manufacturer": "Henderson",
+  "description": "A compact, reinforced splint with an anti slip coating designed to stabilize fractured limbs in the field, from hairline cracks to complex breaks.\n\nThe Advanced Flexible Splint is a superior medical item for treating fractured bones.",
+  "type": "Consumable.Medical.Splint",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.13 kg",
+  "grid_size": "1x1",
+  "base_price": 58.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 4,
+    "price": 58.0
+   }
+  ],
+  "sold_by": "LabRat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 17.4
+   }
+  ],
+  "stats": {
+   "charges": 6,
+   "usageSpeed": 10
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Splint_AdvancedFlexibleSplint.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_Water15L",
+  "name": "Aques Water 1.5 l",
+  "short_name": "Water",
+  "manufacturer": "Aques",
+  "description": "With a crystal-clear appearance, Aques Water invites you to quench your thirst with its pristine taste. Every sip delivers a crisp and clean sensation that rejuvenates your senses, making it a perfect companion for any occasion.",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "1x2",
+  "base_price": 54.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 16.2
+   }
+  ],
+  "stats": {
+   "charges": 150,
+   "usageSpeed": 3,
+   "consumptionPerLoop": 25.0,
+   "isIterativeConsumption": true
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_Water15L.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Band_EmergencyTraumaDressing",
+  "name": "ARF Trauma Bandage 4",
+  "short_name": "Bandage",
+  "manufacturer": "Henderson",
+  "description": "The Advanced Rescue First-aid bandage is designed for quick and effective hemorrhage control. This compact and sterile dressing provides essential pressure to manage wounds, making it an indispensable addition to medical kits and first aid supplies.\n\nThe ARF Trauma Bandage 4 is an improved medical item used to treat wounds.",
+  "type": "Consumable.Medical.Bandage",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.07 kg",
+  "grid_size": "1x1",
+  "base_price": 31.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 31.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 9.3
+   }
+  ],
+  "stats": {
+   "charges": 3,
+   "usageSpeed": 8
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Band_EmergencyTraumaDressing.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_PickledBambooShoots",
+  "name": "Bamboo Shoots",
+  "short_name": "Bamboo",
+  "manufacturer": "Lucky Panda",
+  "description": "Don't be a sad panda, and discover the subtle, earthy goodness of these tender bamboo strips.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Size.Small",
+   "Origin.Local"
+  ],
+  "weight": "0.6 kg",
+  "grid_size": "1x2",
+  "base_price": 13.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 3.9
+   }
+  ],
+  "stats": {
+   "usageSpeed": 11
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_PickledBambooShoots.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Surg_BasicSurgicalSutureKit",
+  "name": "Basic Surgical & Suture Kit",
+  "short_name": "SurKit",
+  "manufacturer": "US Army",
+  "description": "A comprehensive medical package containing essential tools for minor surgical procedures to treat organ injury. It includes surgical instruments such as scissors, forceps, and needle holders, along with suture materials.\n\nThe Basic Surgical & Suture Kit is an unrivaled medical tool for treating organs, bones, and wounds.",
+  "type": "Consumable.Medical.SurgeryKit",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.6 kg",
+  "grid_size": "2x1",
+  "base_price": 650.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 4,
+    "price": 650.0
+   }
+  ],
+  "sold_by": "LabRat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 195.0
+   }
+  ],
+  "stats": {
+   "charges": 5,
+   "usageSpeed": 16
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Surg_BasicSurgicalSutureKit.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_ClifBar",
+  "name": "Berg Bar Cookie Chocolate",
+  "short_name": "ChBar",
+  "manufacturer": "Berg",
+  "description": "Transport yourself to a realm of indulgence, as rich chocolate envelops your senses while the cookie's delicate texture offers a satisfying crunch with every bite.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.07 kg",
+  "grid_size": "1x1",
+  "base_price": 75.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 3,
+    "price": 75.0
+   }
+  ],
+  "sold_by": "LabRat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 22.5
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_ClifBar.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_CannedTunaChunks",
+  "name": "Canned Tuna Chunks",
+  "short_name": "Tuna",
+  "manufacturer": "Kraken",
+  "description": "Dive into a world of ocean-inspired flavors with these exquisite tuna chunks, gently packed in natural coconut water. A unique combination that offers a fresh, wholesome taste. Now with even less mercury!",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.17 kg",
+  "grid_size": "1x1",
+  "base_price": 25.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 7.5
+   }
+  ],
+  "stats": {
+   "usageSpeed": 11
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_CannedTunaChunks.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Splint_CivilianFlexibleSplint",
+  "name": "Civilian Flexible Splint",
+  "short_name": "Splint",
+  "manufacturer": "Narithcare",
+  "description": "A lightweight and adaptable medical device used to immobilize and support injured limbs, particularly in emergency situations or in the absence of professional medical care.\n\nThe Civilian Flexible Splint is a standard medical item for treating fractured bones.",
+  "type": "Consumable.Medical.Splint",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.15 kg",
+  "grid_size": "1x1",
+  "base_price": 16.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 1,
+    "price": 16.0
+   }
+  ],
+  "sold_by": "LabRat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 4.8
+   }
+  ],
+  "stats": {
+   "charges": 2,
+   "usageSpeed": 13
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Splint_CivilianFlexibleSplint.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Band_CivilianGauze",
+  "name": "Civilian Gauze",
+  "short_name": "Gauze",
+  "manufacturer": "Narithcare",
+  "description": "A basic medical supply commonly used for wound care and dressing.\n\nCivilian Gauze is a standard medical item used to treat wounds.",
+  "type": "Consumable.Medical.Bandage",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.03 kg",
+  "grid_size": "1x1",
+  "base_price": 9.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 1,
+    "price": 9.0
+   }
+  ],
+  "sold_by": "LabRat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 2.7
+   }
+  ],
+  "stats": {
+   "usageSpeed": 10
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Band_CivilianGauze.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_CoconutJuiceDrink",
+  "name": "Coco Jumbo Coconut Juice Drink",
+  "short_name": "CDrink",
+  "manufacturer": "Coco Jumbo",
+  "description": "This thirst-quenching drink captures the natural sweetness of coconut, offering a refreshing and hydrating experience!",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.24 kg",
+  "grid_size": "1x1",
+  "base_price": 7.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 1,
+    "price": 7.0
+   }
+  ],
+  "sold_by": "LabRat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 2.1
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_CoconutJuiceDrink.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_MRE",
+  "name": "Combat Ration Pack",
+  "short_name": "CRP",
+  "manufacturer": "Combat Meal Star",
+  "description": "The Combat Ration Pack is a comprehensive field ration designed to provide sustenance and nutrition in demanding environments. It contains a main course, side dish, dessert, crackers, spread, beverage mix, flameless ration heater, and other accessories, all packaged in a durable and portable format. Hope you get the Chili Mac!",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.6 kg",
+  "grid_size": "1x2",
+  "base_price": 70.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 4,
+    "price": 70.0
+   }
+  ],
+  "sold_by": "LabRat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 21.0
+   }
+  ],
+  "stats": {
+   "usageSpeed": 15
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_MRE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Tour_Cat",
+  "name": "Combat Tourniquet",
+  "short_name": "CT",
+  "manufacturer": "Henderson",
+  "description": "The Combat Tourniquet is a battle-tested medical device used by virtually every military organization worldwide. It's easy to use, even with one hand, and incredibly effective. \n\nThe Combat Tourniquet is a superior medical item used to stop bleeding.",
+  "type": "Consumable.Medical.Tourniquet",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.09 kg",
+  "grid_size": "1x1",
+  "base_price": 82.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 3,
+    "price": 82.0
+   }
+  ],
+  "sold_by": "LabRat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 24.6
+   }
+  ],
+  "stats": {
+   "charges": 3,
+   "usageSpeed": 4
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Tour_Cat.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_BakedBeans",
+  "name": "Cowboy Baked Beans",
+  "short_name": "Beans",
+  "manufacturer": "Cowboy",
+  "description": "Savor the zesty kick of these hearty baked beans, simmered in a tangy and spicy tomato sauce. A taste of the Wild West that adds a fiery twist to your meal.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.425 kg",
+  "grid_size": "1x2",
+  "base_price": 37.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 11.1
+   }
+  ],
+  "stats": {
+   "usageSpeed": 11
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_BakedBeans.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_IcedCoffee",
+  "name": "Dark Star Iced Coffee",
+  "short_name": "Coffee",
+  "manufacturer": "Dark Star",
+  "description": "A bold fusion of rich, dark-roasted coffee and icy refreshment. This chilled delight offers a robust coffee experience with a smooth, invigorating finish, perfect for those seeking a cool caffeine boost.",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.2 kg",
+  "grid_size": "1x1",
+  "base_price": 22.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 22.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 6.6
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_IcedCoffee.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Stim_DetoxSubstance",
+  "name": "DT-0X",
+  "manufacturer": "General Local",
+  "description": "A fast-acting detoxification compound designed to rapidly neutralize toxins in the bloodstream. It restores physiological stability by completely eliminating intoxication effects.\n\nRemoves up to 100% intoxication at the cost of increased hydration drain and liver damage. Lasts 90 seconds.",
+  "type": "Consumable.Medical.Stimulator",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 600.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 180.0
+   }
+  ],
+  "stats": {
+   "usageSpeed": 3
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Stim_DetoxSubstance.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Surg_EmergencySutureKit",
+  "name": "Emergency Suture Kit",
+  "short_name": "EKit",
+  "manufacturer": "Henderson",
+  "description": "An emergency medical package created for the most elemental suturing purposes. It includes a suture and essential instruments to treat injured organs.\n\nThe Emergency Suture Kit is an improved medical item for treating organs, bones, and wounds.",
+  "type": "Consumable.Medical.SurgeryKit",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.2 kg",
+  "grid_size": "2x1",
+  "base_price": 180.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 180.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 54.0
+   }
+  ],
+  "stats": {
+   "charges": 2,
+   "usageSpeed": 18
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Surg_EmergencySutureKit.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_FitCrispBalancedBar",
+  "name": "Energy Bar Nuts and Fruits",
+  "short_name": "EBar",
+  "manufacturer": "Power",
+  "description": "Expertly designed to provide a balanced boost, this bar is an ideal on-the-go snack that delivers both flavor and sustenance.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.04 kg",
+  "grid_size": "1x1",
+  "base_price": 21.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 1,
+    "price": 21.0
+   }
+  ],
+  "sold_by": "LabRat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 6.3
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_FitCrispBalancedBar.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Stim_Epo",
+  "name": "EPO",
+  "manufacturer": "Parasol Corp",
+  "description": "The primary function of erythropoietin (EPO) is to stimulate the production of red blood cells in the bone marrow. It plays a crucial role in maintaining oxygen delivery to tissues and organs, contributing to overall health and vitality.\n\nIncreases blood regeneration at the cost of increased intoxication, hydration drain, and liver damage. Lasts 3 minutes.",
+  "type": "Consumable.Medical.Stimulator",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 730.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 219.0
+   }
+  ],
+  "stats": {
+   "usageSpeed": 3
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Stim_Epo.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Kit_BasicEquipmentRepairKit",
+  "name": "Equipment Repair Essentials Kit",
+  "short_name": "BGRKit",
+  "manufacturer": "General Local",
+  "description": "A repair kit with basic tools for small gear repairs.",
+  "type": "Consumable.RepairKit.Armor",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "2x1",
+  "base_price": 500.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 500.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "LabRat"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "charges": 150
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Kit_BasicEquipmentRepairKit.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Stim_Fenethylline",
+  "name": "Fenethylline",
+  "short_name": "Fenethyl",
+  "manufacturer": "General Local",
+  "description": "Initially developed as a medication to treat attention deficit hyperactivity disorder (ADHD) and narcolepsy. However, its stimulant properties led to concerns about misuse and addiction potential.\n\nIncreases stamina regeneration at the cost of increased intoxication and hydration drain. Lasts 3 minutes.",
+  "type": "Consumable.Medical.Stimulator",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.15 kg",
+  "grid_size": "1x1",
+  "base_price": 97.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 29.1
+   }
+  ],
+  "stats": {
+   "charges": 4,
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Stim_Fenethylline.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Kit_BasicFirearmRepairKit",
+  "name": "Firearm Cleaning Set",
+  "short_name": "BFRKit",
+  "manufacturer": "General Local",
+  "description": "A repair kit with basic tools for firearm cleaning and small repairs.",
+  "type": "Consumable.RepairKit.Weapon",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "2x1",
+  "base_price": 450.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 450.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Gunny",
+     "LabRat"
+    ],
+    "price": 135.0
+   }
+  ],
+  "stats": {
+   "charges": 100
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Kit_BasicFirearmRepairKit.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Kit_AdvancedFirearmRepairKit",
+  "name": "Firearm Tool Set",
+  "short_name": "AFRKit",
+  "manufacturer": "General Local",
+  "description": "An advanced repair kit with various tools for firearm cleaning and medium repairs.",
+  "type": "Consumable.RepairKit.Weapon",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "3 kg",
+  "grid_size": "2x2",
+  "base_price": 950.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 950.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Gunny",
+     "LabRat"
+    ],
+    "price": 285.0
+   }
+  ],
+  "stats": {
+   "charges": 300
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Kit_AdvancedFirearmRepairKit.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Splint_FlexibleSplint",
+  "name": "Flexible Splint",
+  "short_name": "Splint",
+  "manufacturer": "Henderson",
+  "description": "A compact and strong splint crafted to provide support and immobilization for injured limbs. Designed to be lightweight and easy to apply, it will fit almost any fracture.\n\nThe Flexible Splint is a superior medical item for treating fractured bones.",
+  "type": "Consumable.Medical.Splint",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.13 kg",
+  "grid_size": "1x1",
+  "base_price": 36.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 3,
+    "price": 36.0
+   }
+  ],
+  "sold_by": "LabRat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 10.8
+   }
+  ],
+  "stats": {
+   "charges": 4,
+   "usageSpeed": 10
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Splint_FlexibleSplint.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_GrayFocusedEnergy",
+  "name": "Gray Focused Energy",
+  "short_name": "Gray",
+  "manufacturer": "GRAY",
+  "description": "Special edition of the popular dietary supplement, now in a ready-to-drink can! Indulge in the refreshing lemonade flavor and give yourself that extra boost to face whatever comes your way. Blend in to stand out.",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "1x1",
+  "base_price": 70.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 3,
+    "price": 70.0
+   }
+  ],
+  "sold_by": "LabRat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 21.0
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_GrayFocusedEnergy.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Kit_ProfessionalFirearmRepairKit",
+  "name": "Gunsmith Tool Set",
+  "short_name": "PFRKit",
+  "manufacturer": "General Local",
+  "description": "A professional repair kit with advanced tools for firearm cleaning and major repairs.",
+  "type": "Consumable.RepairKit.Weapon",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "6.5 kg",
+  "grid_size": "3x2",
+  "base_price": 600.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 600.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Gunny",
+     "LabRat"
+    ],
+    "price": 180.0
+   }
+  ],
+  "stats": {
+   "charges": 2000
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Kit_ProfessionalFirearmRepairKit.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_HdrMeal",
+  "name": "HDR Meal",
+  "short_name": "HDR",
+  "manufacturer": "Combat Meal Star",
+  "description": "Humanitarian Daily Ration. A ration pack designed to provide essential daily sustenance to individuals in need, offering a balanced selection of nourishing food items to support their well-being.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.85 kg",
+  "grid_size": "1x2",
+  "base_price": 75.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 22.5
+   }
+  ],
+  "stats": {
+   "usageSpeed": 15
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_HdrMeal.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Stim_OrganHealingSubstance",
+  "name": "HpR 3-S",
+  "manufacturer": "Parasol Corp",
+  "description": "This substance is designed to trigger and accelerate the regrowth of impaired tissues within vital organs, offering the potential to restore function and vitality. The nanomolecules of HpR 3-S possess the ability to identify specific signals emitted by injured cells, allowing them to differentiate between healthy and damaged tissue. Once attached to damaged cells, the nanomolecules release bioactive compounds that stimulate the activation of dormant stem cells within the affected organ. These stem cells undergo a transformation into specialized cells that rapidly replicate and replace the damaged tissue. \n\nRegenerates up to 50% of injured organs at the cost of increased intoxication and pain. Lasts 4 minutes.",
+  "type": "Consumable.Medical.Stimulator",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 950.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 285.0
+   }
+  ],
+  "stats": {
+   "usageSpeed": 3
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Stim_OrganHealingSubstance.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Pills_Ibalin",
+  "name": "Ibalin",
+  "manufacturer": "Narithcare",
+  "description": "Civilian-grade painkillers for treating pain, fever, and inflammation. Since they dilute blood, they are not recommended to be used by armed forces. \n\nIbalin is an improved pill for pain relief.",
+  "type": "Consumable.Medical.Pill",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 8.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 8.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 2.4
+   }
+  ],
+  "stats": {
+   "charges": 2,
+   "usageSpeed": 6
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Pills_Ibalin.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Pills_IbalinBottle",
+  "name": "Ibalin Bottle",
+  "short_name": "Ibalin",
+  "manufacturer": "Narithcare",
+  "description": "A bottle of civilian-grade painkillers for treating pain, fever, and inflammation. Since they dilute blood, they are not recommended to be used by armed forces. \n\nIbalin is an improved pill for pain relief.",
+  "type": "Consumable.Medical.Pill",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.15 kg",
+  "grid_size": "1x1",
+  "base_price": 24.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 24.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 7.2
+   }
+  ],
+  "stats": {
+   "charges": 5,
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Pills_IbalinBottle.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_IsotonicDrink",
+  "name": "Infinity Isotonic Drink",
+  "short_name": "IDrink",
+  "manufacturer": "Infinity",
+  "description": "To infinity and... even further! This drink offers a balanced blend of electrolytes and refreshing flavors, ensuring endurance and vitality for every moment.",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.33 kg",
+  "grid_size": "1x1",
+  "base_price": 15.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 4.5
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_IsotonicDrink.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_LycheeNectar",
+  "name": "Kaipo Lychee Nectar",
+  "short_name": "Nectar",
+  "manufacturer": "Kaipo",
+  "description": "Kaipo Lychee Nectar brings you the cherished sweetness of lychee, captured in this delightful nectar! It may also be used as a medium-strong adhesive.",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "1x1",
+  "base_price": 12.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 3.6
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_LycheeNectar.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_TivoliChocolateWafers",
+  "name": "Kasem Chocolate Wafers",
+  "short_name": "Wafers",
+  "manufacturer": "Kasem",
+  "description": "Delicately layered with luscious chocolate, these exquisite crispy wafers will have you yearning for more after every delicious crunch. Kasem Chocolate wafers are a registered trademark of the Kasem styrofoam company.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 9.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 2.7
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_TivoliChocolateWafers.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_IV_BloodBag_Large",
+  "name": "Large Blood Bag",
+  "short_name": "LBlood",
+  "manufacturer": "MedCare",
+  "description": "A large bag of universal donor blood. This critical resource serves as a vital tool in emergency medical situations, allowing the operator to quickly administer much-needed blood transfusions without the need for blood type matching.\n\nThe Large Blood Bag is an unrivaled medical item that is used to replenish blood.",
+  "type": "Consumable.Medical.IV",
+  "tags": [
+   "Size.Middle",
+   "Origin.West"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "2x1",
+  "base_price": 980.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 4,
+    "price": 980.0
+   }
+  ],
+  "sold_by": "LabRat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 294.0
+   }
+  ],
+  "stats": {
+   "charges": 2500,
+   "usageSpeed": 5,
+   "consumptionPerLoop": 250.0,
+   "isIterativeConsumption": true
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_IV_BloodBag_Large.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Syringe_HemostaticSyringe_Large",
+  "name": "Large Hemostatic Syringe",
+  "short_name": "LHem",
+  "manufacturer": "Rev Med X",
+  "description": "A large applicator loaded with hemostatic sponges that rapidly expand inside wounds, creating internal pressure to stop bleeding.\n\nThe Large Hemostatic Syringe is an unrivaled medical item used to stop bleeding.",
+  "type": "Consumable.Medical.Syringe",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.15 kg",
+  "grid_size": "1x1",
+  "base_price": 210.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 4,
+    "price": 210.0
+   }
+  ],
+  "sold_by": "LabRat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 63.0
+   }
+  ],
+  "stats": {
+   "charges": 4,
+   "usageSpeed": 2
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Syringe_HemostaticSyringe_Large.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_CuredPorkLiverPate",
+  "name": "Lucky Pork Liver Pâté",
+  "short_name": "Pâté",
+  "manufacturer": "Lucky",
+  "description": "This spreadable delight is a testament to culinary craftsmanship, offering a luxurious blend that's both savory and satisfying. Now with 5% real pork!",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.13 kg",
+  "grid_size": "1x1",
+  "base_price": 29.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 29.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 8.7
+   }
+  ],
+  "stats": {
+   "usageSpeed": 11
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_CuredPorkLiverPate.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_LycheeInSyrup",
+  "name": "Lychee in Syrup",
+  "short_name": "Lychee",
+  "manufacturer": "Topo",
+  "description": "Sweet lychee fruits preserved in a simple, syrupy solution, offering a taste of tropical goodness in every bite.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.565 kg",
+  "grid_size": "1x2",
+  "base_price": 30.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 9.0
+   }
+  ],
+  "stats": {
+   "usageSpeed": 11
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_LycheeInSyrup.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Tour_Rats",
+  "name": "M.F.A.T. Tourniquet",
+  "short_name": "MFAT",
+  "manufacturer": "Pressing Medical",
+  "description": "The Multipurpose Fast Application Tourniquet is made of a solid vulcanized rubber core with a nylon sheath and a unique locking mechanism. Fast, easy to use, and works on all limb sizes.\n\nThe Multipurpose Fast Application Tourniquet is an improved medical item used to stop bleeding.",
+  "type": "Consumable.Medical.Tourniquet",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 65.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 65.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 19.5
+   }
+  ],
+  "stats": {
+   "charges": 3,
+   "usageSpeed": 4
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Tour_Rats.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_SabaFishInTeriakySauce",
+  "name": "Mackerel in Teriyaki Sauce",
+  "short_name": "Mackerel",
+  "manufacturer": "ThaLao",
+  "description": "Tender mackerel fillets bathed in a delicious teriyaki sauce, presenting a harmonious blend of sweet and savory flavors.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.2 kg",
+  "grid_size": "1x1",
+  "base_price": 48.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 14.4
+   }
+  ],
+  "stats": {
+   "usageSpeed": 11
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_SabaFishInTeriakySauce.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_LocalIcedTea",
+  "name": "Maknav Iced Tea",
+  "short_name": "IcedTea",
+  "manufacturer": "Maknav",
+  "description": "Blending the natural essence of tea leaves with a subtle sweetness, Maknav Iced Tea offers a cooling, flavorful experience that's perfect for a relaxed moment of refreshment.",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.95 kg",
+  "grid_size": "1x2",
+  "base_price": 39.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 11.7
+   }
+  ],
+  "stats": {
+   "charges": 90,
+   "usageSpeed": 3,
+   "consumptionPerLoop": 30.0,
+   "isIterativeConsumption": true
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_LocalIcedTea.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_IV_BloodBag_Medium",
+  "name": "Medium Blood Bag",
+  "short_name": "MBlood",
+  "manufacturer": "MedCare",
+  "description": "A medium-sized bag of universal donor blood. This critical resource serves as a vital tool in emergency medical situations, allowing the operator to quickly administer much-needed blood transfusions without the need for blood type matching.\n\nThe Medium Blood Bag is a superior medical item that is used to replenish blood.",
+  "type": "Consumable.Medical.IV",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "1.6 kg",
+  "grid_size": "2x1",
+  "base_price": 750.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 3,
+    "price": 750.0
+   }
+  ],
+  "sold_by": "LabRat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 225.0
+   }
+  ],
+  "stats": {
+   "charges": 1500,
+   "usageSpeed": 5,
+   "consumptionPerLoop": 250.0,
+   "isIterativeConsumption": true
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_IV_BloodBag_Medium.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Pills_Meloxicam",
+  "name": "Meloxicam",
+  "short_name": "Melox",
+  "manufacturer": "Jeremiah Pharmaceutical",
+  "description": "A nonsteroidal anti-inflammatory drug that is prescribed to manage pain and inflammation.\n\nMeloxicam is a superior pill for pain relief.",
+  "type": "Consumable.Medical.Pill",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 16.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 3,
+    "price": 16.0
+   }
+  ],
+  "sold_by": "LabRat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 4.8
+   }
+  ],
+  "stats": {
+   "charges": 2,
+   "usageSpeed": 6
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Pills_Meloxicam.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Pills_MeloxicamBottle",
+  "name": "Meloxicam Bottle",
+  "short_name": "Melox",
+  "manufacturer": "Jeremiah Pharmaceutical",
+  "description": "A bottle of a nonsteroidal anti-inflammatory drug that is prescribed to manage pain and inflammation.\n\nMeloxicam is a superior pill for pain relief.",
+  "type": "Consumable.Medical.Pill",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.15 kg",
+  "grid_size": "1x1",
+  "base_price": 48.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 3,
+    "price": 48.0
+   }
+  ],
+  "sold_by": "LabRat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 14.4
+   }
+  ],
+  "stats": {
+   "charges": 5,
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Pills_MeloxicamBottle.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Stim_Ritalin",
+  "name": "Methylphenidate",
+  "short_name": "Methyl",
+  "manufacturer": "Narithcare",
+  "description": "Commonly prescribed to treat attention deficit hyperactivity disorder (ADHD) and narcolepsy, it increases the levels of certain neurotransmitters in the brain, leading to improved focus, attention, and impulse control.\n\nDecreases body and arm stamina drain and prevents negative effects when suppressed at the cost of increased intoxication and liver damage. Lasts 5 minutes.",
+  "type": "Consumable.Medical.Stimulator",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 210.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 63.0
+   }
+  ],
+  "stats": {
+   "charges": 2,
+   "usageSpeed": 6
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Stim_Ritalin.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Stim_Morphine",
+  "name": "Morphine",
+  "short_name": "Morph",
+  "manufacturer": "General Local",
+  "description": "A powerful opioid analgesic used to suppress severe pain. It acts on the central nervous system to reduce pain perception and improve short-term functionality under stress.\n\nCompletely suppresses pain and negative effects, such as tremors and limping, caused by arm and leg fractures at the cost of increased intoxication and liver damage. Lasts 4 minutes.",
+  "type": "Consumable.Medical.Stimulator",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 450.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 135.0
+   }
+  ],
+  "stats": {
+   "usageSpeed": 3
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Stim_Morphine.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Pills_Moxifloxacin",
+  "name": "Moxifloxacin",
+  "short_name": "Moxiflox",
+  "manufacturer": "Wunder Pharmaceutical",
+  "description": "A prescription antibiotic used to treat a range of bacterial infections by inhibiting the growth of bacteria and preventing their reproduction.\n\nMoxifloxacin is a superior pill used to cleanse the body of toxins.",
+  "type": "Consumable.Medical.Pill",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 125.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 3,
+    "price": 125.0
+   }
+  ],
+  "sold_by": "LabRat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 37.5
+   }
+  ],
+  "stats": {
+   "charges": 4,
+   "usageSpeed": 6
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Pills_Moxifloxacin.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_LocalWater06L",
+  "name": "Noakon Water 0.6 l",
+  "short_name": "Water",
+  "manufacturer": "Noakon",
+  "description": "Pure and crisp, sourced from the pristine depths of our beautiful nature. Refreshing as a mountain spring and clean as our glorious rivers, the Noakon Drinking Water brings you closer to home with every sip. Warning: Not recommended to be consumed by foreigners.",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.6 kg",
+  "grid_size": "1x1",
+  "base_price": 20.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 1,
+    "price": 20.0
+   }
+  ],
+  "sold_by": "LabRat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 6.0
+   }
+  ],
+  "stats": {
+   "charges": 60,
+   "usageSpeed": 3,
+   "consumptionPerLoop": 20.0,
+   "isIterativeConsumption": true
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_LocalWater06L.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_LocalWater15L",
+  "name": "Noakon Water 1.5 l",
+  "short_name": "Water",
+  "manufacturer": "Noakon",
+  "description": "Pure and crisp, sourced from the pristine depths of our beautiful nature. Refreshing as a mountain spring and clean as our glorious rivers, the Noakon Drinking Water brings you closer to home with every sip. Warning: Not recommended to be consumed by foreigners.",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "1x2",
+  "base_price": 54.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 54.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 16.2
+   }
+  ],
+  "stats": {
+   "charges": 150,
+   "usageSpeed": 3,
+   "consumptionPerLoop": 25.0,
+   "isIterativeConsumption": true
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_LocalWater15L.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_Gatorade",
+  "name": "NuKlear Energy: Meltdown Mango",
+  "short_name": "EDrink",
+  "manufacturer": "NuKlear",
+  "description": "Unleash the explosive potential of NuKlear Energy's Meltdown Mango, a cold fusion of vibrant flavor and rejuvenating power that keeps you fully charged and refreshed! NuKlear Energy - It's got electrolytes!",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.55 kg",
+  "grid_size": "1x1",
+  "base_price": 35.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 35.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 10.5
+   }
+  ],
+  "stats": {
+   "charges": 55,
+   "usageSpeed": 3,
+   "consumptionPerLoop": 13.0,
+   "isIterativeConsumption": true
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_Gatorade.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_SilkenTofu",
+  "name": "Organic Tofu",
+  "short_name": "Tofu",
+  "manufacturer": "Clearspring",
+  "description": "Made from the purest organic soybeans, this tofu offers a velvety texture, perfect for a wide range of culinary creations.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.2 kg",
+  "grid_size": "1x1",
+  "base_price": 17.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 1,
+    "price": 17.0
+   }
+  ],
+  "sold_by": "LabRat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 5.1
+   }
+  ],
+  "stats": {
+   "usageSpeed": 11
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_SilkenTofu.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Stim_BoneHealingSubstance",
+  "name": "ORI-12",
+  "manufacturer": "Parasol Corp",
+  "description": "This compound leverages advanced bioengineering to accelerate the natural healing process of damaged bones. The bioactive growth factors within ORI-12 are carefully selected to mimic the signals released during bone healing. These growth factors stimulate nearby bone-forming cells, encouraging them to increase their activity and generate new bone tissue.\n\nRegenerates up to 50% of damaged bones at the cost of increased intoxication and pain. Lasts 4 minutes.",
+  "type": "Consumable.Medical.Stimulator",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 850.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 255.0
+   }
+  ],
+  "stats": {
+   "usageSpeed": 3
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Stim_BoneHealingSubstance.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Pills_Paracetamol",
+  "name": "Paracetamol",
+  "short_name": "Paracet",
+  "manufacturer": "Fernsby's Healthcare",
+  "description": "A widely used over-the-counter medication known for its pain-relieving and fever-reducing properties. It is commonly employed to alleviate mild to moderate pain and discomfort, as well as to lower fever.\n\nParacetamol is a standard pill for pain relief.",
+  "type": "Consumable.Medical.Pill",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 1,
+    "price": 5.0
+   }
+  ],
+  "sold_by": "LabRat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 1.5
+   }
+  ],
+  "stats": {
+   "charges": 2,
+   "usageSpeed": 6
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Pills_Paracetamol.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Pills_ParacetamolBottle",
+  "name": "Paracetamol Bottle",
+  "short_name": "Paracet",
+  "manufacturer": "Fernsby's Healthcare",
+  "description": "A bottle of a widely used over-the-counter medication known for its pain-relieving and fever-reducing properties. It is commonly employed to alleviate mild to moderate pain and discomfort, as well as to lower fever.\n\nParacetamol is a standard pill for pain relief.",
+  "type": "Consumable.Medical.Pill",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.15 kg",
+  "grid_size": "1x1",
+  "base_price": 15.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 1,
+    "price": 15.0
+   }
+  ],
+  "sold_by": "LabRat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 4.5
+   }
+  ],
+  "stats": {
+   "charges": 5,
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Pills_ParacetamolBottle.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Pills_PotassiumIodine",
+  "name": "Potassium Iodide",
+  "short_name": "KI",
+  "manufacturer": "S.R. Hawkins",
+  "description": "Potassium iodide (abbreviated as KI) is a chemical compound that serves as a protective measure against radioactive iodine exposure, a byproduct of nuclear accidents or incidents. When taken orally, potassium iodide floods the thyroid gland with stable iodine, effectively blocking the absorption of radioactive iodine isotopes.\n\nPotassium iodide is a standard pill used to cleanse the body of radiation.",
+  "type": "Consumable.Medical.Pill",
+  "tags": [
+   "Size.Small",
+   "Origin.West"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 120.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 120.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 36.0
+   }
+  ],
+  "stats": {
+   "charges": 2,
+   "usageSpeed": 6
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Pills_PotassiumIodine.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_EnergyDrinkCan",
+  "name": "Power Energy Fuel",
+  "short_name": "EDrink",
+  "manufacturer": "Power",
+  "description": "Revitalize with Power Energy Fuel, a dynamic and invigorating blend crafted to ignite your day with a surge of vitality and focus! Warning: Frequent consumption may cause restlessness, insomnia, paranoia, and heart palpitations.",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.47 kg",
+  "grid_size": "1x1",
+  "base_price": 45.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 3,
+    "price": 45.0
+   }
+  ],
+  "sold_by": "LabRat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 13.5
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_EnergyDrinkCan.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_PremiumPorkLuncheonMeat",
+  "name": "Premium Pork Luncheon Meat",
+  "short_name": "LMeat",
+  "manufacturer": "ThaLao",
+  "description": "Indulge in the exquisite taste of our Premium Pork Luncheon Meat – a culinary delight crafted from the finest, succulent pork. May contain trace amounts of milk, nuts, shellfish, and asbestos.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "1x2",
+  "base_price": 64.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 4,
+    "price": 64.0
+   }
+  ],
+  "sold_by": "LabRat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 19.2
+   }
+  ],
+  "stats": {
+   "usageSpeed": 11
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_PremiumPorkLuncheonMeat.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Tour_RetractableTourniquet",
+  "name": "Retractable Tourniquet",
+  "short_name": "RT",
+  "manufacturer": "Narithcare",
+  "description": "A specialized medical device designed to control blood flow in emergency situations, particularly during medical procedures or trauma care.\n\nThe Retractable Tourniquet is a standard medical item used to stop bleeding.",
+  "type": "Consumable.Medical.Tourniquet",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 25.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 1,
+    "price": 25.0
+   }
+  ],
+  "sold_by": "LabRat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 7.5
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Tour_RetractableTourniquet.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_SodaDrink2L",
+  "name": "Riminda Green Bubbly Bliss",
+  "short_name": "Soda",
+  "manufacturer": "Riminda",
+  "description": "A fusion of crisp green notes and sparkling bubbles, Riminda offers a vibrant and refreshing experience that invigorates the senses with every taste!",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "2.08 kg",
+  "grid_size": "1x2",
+  "base_price": 95.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 28.5
+   }
+  ],
+  "stats": {
+   "charges": 200,
+   "usageSpeed": 3,
+   "consumptionPerLoop": 20.0,
+   "isIterativeConsumption": true
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_SodaDrink2L.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Band_OlaesPressureBandage",
+  "name": "SEAL Modular Bandage",
+  "short_name": "SBand",
+  "manufacturer": "SEAL Medical",
+  "description": "Versatile and compact, the SEAL Modular Bandage is a multi-purpose trauma bandage that can cover multiple wounds and apply effective pressure.\n\nThe SEAL Modular Bandage is an unrivaled medical item used to treat wounds.",
+  "type": "Consumable.Medical.Bandage",
+  "tags": [
+   "Size.Small",
+   "Origin.West"
+  ],
+  "weight": "0.09 kg",
+  "grid_size": "1x1",
+  "base_price": 55.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 4,
+    "price": 55.0
+   }
+  ],
+  "sold_by": "LabRat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 16.5
+   }
+  ],
+  "stats": {
+   "charges": 4,
+   "usageSpeed": 6
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Band_OlaesPressureBandage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_Spam",
+  "name": "Sinngua Lunch Meat",
+  "short_name": "LMeat",
+  "manufacturer": "Sinngua",
+  "description": "Crafted for those who demand bold flavor, this premium lunch meat embodies the perfect balance of rich texture and authentic taste. Whether stacked in a sandwich or savored on its own, Sinngua Lunch Meat elevates your mealtime with its mouthwatering presence. No animals were harmed in the making of this product.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.34 kg",
+  "grid_size": "1x2",
+  "base_price": 52.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 3,
+    "price": 52.0
+   }
+  ],
+  "sold_by": "LabRat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 15.6
+   }
+  ],
+  "stats": {
+   "usageSpeed": 11
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_Spam.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_IV_BloodBag_Small",
+  "name": "Small Blood Bag",
+  "short_name": "SBlood",
+  "manufacturer": "MedCare",
+  "description": "A small bag of universal donor blood. This critical resource serves as a vital tool in emergency medical situations, allowing the operator to quickly administer much-needed blood transfusions without the need for blood type matching.\n\nThe Small Blood Bag is a standard medical item that is used to replenish blood.",
+  "type": "Consumable.Medical.IV",
+  "tags": [
+   "Size.Middle",
+   "Origin.West"
+  ],
+  "weight": "0.6 kg",
+  "grid_size": "1x1",
+  "base_price": 280.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 280.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 84.0
+   }
+  ],
+  "stats": {
+   "charges": 500,
+   "usageSpeed": 5,
+   "consumptionPerLoop": 150.0,
+   "isIterativeConsumption": true
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_IV_BloodBag_Small.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Syringe_HemostaticSyringe_Small",
+  "name": "Small Hemostatic Syringe",
+  "short_name": "SHem",
+  "manufacturer": "Rev Med X",
+  "description": "An applicator loaded with hemostatic sponges that rapidly expand inside wounds, creating internal pressure to stop bleeding.\n\nThe Small Hemostatic Syringe is a superior medical item used to stop bleeding.",
+  "type": "Consumable.Medical.Syringe",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 130.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 3,
+    "price": 130.0
+   }
+  ],
+  "sold_by": "LabRat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 39.0
+   }
+  ],
+  "stats": {
+   "charges": 2,
+   "usageSpeed": 3
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Syringe_HemostaticSyringe_Small.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Surg_SmallSutureKit",
+  "name": "Small Suture Kit",
+  "short_name": "SutKit",
+  "manufacturer": "Henderson",
+  "description": "A compact and portable medical package designed for suturing purposes. It includes a selection of sutures, needles, and basic instruments required for stabilizing injured organs.\n\nThe Small Suture Kit is a superior medical item for treating organs, bones, and wounds.",
+  "type": "Consumable.Medical.SurgeryKit",
+  "tags": [
+   "Size.Small",
+   "Origin.West"
+  ],
+  "weight": "0.35 kg",
+  "grid_size": "2x1",
+  "base_price": 270.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 3,
+    "price": 270.0
+   }
+  ],
+  "sold_by": "LabRat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 81.0
+   }
+  ],
+  "stats": {
+   "charges": 3,
+   "usageSpeed": 18
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Surg_SmallSutureKit.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_KitKatBar",
+  "name": "SnipSnap Crunchy",
+  "short_name": "ChBar",
+  "manufacturer": "Snip Snap",
+  "description": "Experience an absolute chocolatey bliss with this delectable snack, where smooth, rich chocolate embraces a delicate, crispy wafer interior.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.038 kg",
+  "grid_size": "1x1",
+  "base_price": 7.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 1,
+    "price": 7.0
+   }
+  ],
+  "sold_by": "LabRat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 2.1
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_KitKatBar.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Kit_ProfessionalEquipmentRepairKit",
+  "name": "Specialized Equipment Repair Kit",
+  "short_name": "PGRKit",
+  "manufacturer": "General Local",
+  "description": "A professional repair kit with advanced tools for major gear repairs.",
+  "type": "Consumable.RepairKit.Armor",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "9 kg",
+  "grid_size": "3x2",
+  "base_price": 4250.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 4250.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "LabRat"
+    ],
+    "price": 1275.0
+   }
+  ],
+  "stats": {
+   "charges": 3000
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Kit_ProfessionalEquipmentRepairKit.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_ThaiMRE",
+  "name": "Spicy Thai Combat Meal",
+  "short_name": "CMeal",
+  "manufacturer": "Thai Army",
+  "description": "A specialized field ration crafted to meet the dietary and nutritional requirements of military personnel in active service. Designed by culinary experts, each Combat Meal includes a balanced assortment of dishes, condiments, and beverages, all encapsulated in a durable and portable package.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "1x2",
+  "base_price": 59.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 17.7
+   }
+  ],
+  "stats": {
+   "usageSpeed": 15
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_ThaiMRE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Stim_Strychnine",
+  "name": "Strychnine",
+  "short_name": "Strych",
+  "manufacturer": "Parasol Corp",
+  "description": "A highly toxic alkaloid compound derived from the seeds of the Strychnos nux-vomica tree. Historically, it has been used as a pesticide and in small doses as a stimulant and performance enhancer due to its convulsant effects.     \n\nBlocks body stamina drain at the cost of increased intoxication, heart damage, and a short-lasting depleted arm stamina and pain after the effect wears off. Lasts 1 minute.",
+  "type": "Consumable.Medical.Stimulator",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 600.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 180.0
+   }
+  ],
+  "stats": {
+   "usageSpeed": 3
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Med_Stim_Strychnine.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_ColaDrink2L",
+  "name": "Sunrise Cola",
+  "short_name": "Cola",
+  "manufacturer": "Sunrise",
+  "description": "Cherish every sunrise in paradise with the bold taste of our premium cola.",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "2.13 kg",
+  "grid_size": "1x2",
+  "base_price": 110.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 4,
+    "price": 110.0
+   }
+  ],
+  "sold_by": "LabRat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 33.0
+   }
+  ],
+  "stats": {
+   "charges": 200,
+   "usageSpeed": 3,
+   "consumptionPerLoop": 20.0,
+   "isIterativeConsumption": true
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_ColaDrink2L.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_ThumsUpCola",
+  "name": "Sunrise Cola",
+  "short_name": "Cola",
+  "manufacturer": "Sunrise",
+  "description": "Cherish every sunrise in paradise with the bold taste of our premium cola.",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.38 kg",
+  "grid_size": "1x1",
+  "base_price": 13.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 1,
+    "price": 13.0
+   }
+  ],
+  "sold_by": "LabRat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 3.9
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_ThumsUpCola.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Kit_AdvancedEquipmentRepairKit",
+  "name": "Tactical Equipment Repair Kit",
+  "short_name": "AGRKit",
+  "manufacturer": "General Local",
+  "description": "An advanced repair kit with various tools for medium gear repairs.",
+  "type": "Consumable.RepairKit.Armor",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "2 kg",
+  "grid_size": "2x2",
+  "base_price": 1050.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 1050.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "LabRat"
+    ],
+    "price": 315.0
+   }
+  ],
+  "stats": {
+   "charges": 400
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Kit_AdvancedEquipmentRepairKit.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_DoubleCoatChocolateBar",
+  "name": "TamTam DoubleChoc",
+  "short_name": "ChBar",
+  "manufacturer": "TamTam",
+  "description": "This exclusive candy bar offers double the amount of rich cocoa, providing a satisfying chocolate experience with each bite.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.2 kg",
+  "grid_size": "1x1",
+  "base_price": 35.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 35.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 10.5
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_DoubleCoatChocolateBar.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_LemonSoda",
+  "name": "Touchdown Lemon Soda",
+  "short_name": "Soda",
+  "manufacturer": "Touchdown",
+  "description": "Embrace the zing of citrus with this invigorating soda, offering a burst of tangy lemon flavor that definitely hits the spot!",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.38 kg",
+  "grid_size": "1x1",
+  "base_price": 10.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 3.0
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_LemonSoda.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Drink_LocalWater2L",
+  "name": "White Orchid Crystal Water 2 l",
+  "short_name": "Water",
+  "manufacturer": "White Orchid",
+  "description": "Indulge in the pure elegance of this pristine water. Crystalline in clarity and smooth in taste, it embodies a refined essence, offering a refreshing and hydrating experience.",
+  "type": "Consumable.Provision.Drink",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "2.04 kg",
+  "grid_size": "1x2",
+  "base_price": 80.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 4,
+    "price": 80.0
+   }
+  ],
+  "sold_by": "LabRat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 24.0
+   }
+  ],
+  "stats": {
+   "charges": 200,
+   "usageSpeed": 3,
+   "consumptionPerLoop": 20.0,
+   "isIterativeConsumption": true
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_LocalWater2L.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Prov_Food_DarkMilkChocolateBar",
+  "name": "Windmill Almond Chocolate Bar",
+  "short_name": "ChBar",
+  "manufacturer": "Windmill",
+  "description": "A symphony of silky chocolate and crispy almonds, carefully crafted to provide a delightful combination of tastes and textures, perfect for your sweet cravings.",
+  "type": "Consumable.Provision.Food",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.04 kg",
+  "grid_size": "1x1",
+  "base_price": 38.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 38.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 11.4
+   }
+  ],
+  "stats": {
+   "usageSpeed": 5
+  },
+  "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Food_DarkMilkChocolateBar.webp",
+  "source": "game-files"
+ }
+]

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from gzw_scraper import network, pipeline
+from gzw_scraper import game_data_corrections, game_datasets, network, pipeline
 
 
 def test_full_scrape_summary_counts_split_task_files(monkeypatch):
@@ -37,6 +37,8 @@ def test_full_scrape_summary_counts_split_task_files(monkeypatch):
     )
     monkeypatch.setattr(pipeline, "write_scrape_metadata", lambda *args, **kwargs: None)
     monkeypatch.setattr(pipeline, "tqdm", None)
+    monkeypatch.setattr(game_datasets, "ENABLED", False)  # keep the unit test independent of custom_data/
+    monkeypatch.setattr(game_data_corrections, "ENABLED", False)
 
     log_messages: list[str] = []
     monkeypatch.setattr(

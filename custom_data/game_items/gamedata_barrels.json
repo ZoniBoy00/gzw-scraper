@@ -1,0 +1,4549 @@
+[
+ {
+  "id": "IS_Barrel_AlienStandard_9x19",
+  "name": "Alien Barrel",
+  "short_name": "Alien B",
+  "manufacturer": "Laugo Arms",
+  "description": "This factory-fixed stainless steel semi-bull barrel is integrated directly into the Alien frame. Measuring 4.8 inches in length, the barrel remains stationary during the firing cycle, reducing reciprocating mass and increasing accuracy. Combined with a bore axis just 1.7 mm above the grip and Laugo’s gas-delayed blowback system, this configuration minimizes muzzle rise and enables fast, controlled follow-up shots. It’s the core of the Alien’s signature flat recoil and precision performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Alien"
+  ],
+  "weight": "0.17 kg",
+  "grid_size": "1x1",
+  "base_price": 1190.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 1190.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 357.0
+   }
+  ],
+  "stats": {
+   "moa": 7.0,
+   "manipulationModifier": 7.0,
+   "maximumShots": 9700,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_Alien",
+   "IS_Firearm_AlienBlack"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_AlienStandard_9x19.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_AlienThreaded_9x19",
+  "name": "Alien Threaded Barrel",
+  "short_name": "Alien Thr B",
+  "manufacturer": "Laugo Arms",
+  "description": "This factory-fitted stainless steel semi-bull threaded barrel is integrated into the Alien frame and allows for suppressor attachment. Measuring 4.8 inches (124 mm), the barrel remains fixed during firing, reducing reciprocating mass and improving accuracy. Its exceptionally low bore axis (just 1.7 mm above the grip), combined with Laugo’s gas-delayed blowback system, virtually eliminates muzzle rise and enhances follow-up shot control. The result is the Alien’s signature flat recoil impulse and precision handling.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Alien"
+  ],
+  "weight": "0.17 kg",
+  "grid_size": "1x1",
+  "base_price": 1275.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 1275.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 382.5
+   }
+  ],
+  "stats": {
+   "moa": 7.0,
+   "manipulationModifier": 7.0,
+   "speedModifier": 1.0,
+   "maximumShots": 9700,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Alien",
+   "IS_Firearm_AlienBlack"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_AlienThreaded_9x19.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Ar15105inch_556x45",
+  "name": "AR-15 Barrel - 10.5\"",
+  "short_name": "AR-15 10.5''",
+  "manufacturer": "COLT",
+  "description": "A 266mm barrel designed for the AR-15 weapon platform. It is compatible with 5.56x45mm cartridges.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.538 kg",
+  "grid_size": "2x1",
+  "base_price": 714.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 714.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 214.2
+   }
+  ],
+  "stats": {
+   "moa": 3.89,
+   "manipulationModifier": 11.0,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_ColtM4UpperReceiver",
+   "IS_Receiver_ColtM4UpperReceiverFDE",
+   "IS_Receiver_DdA4UpperReceiver",
+   "IS_Receiver_DdA4UpperReceiverBlack",
+   "IS_Receiver_DdA4UpperReceiverPL",
+   "IS_Receiver_M16A1UpperReceiver",
+   "IS_Receiver_NorincoCqA1UpperReceiver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Ar15105inch_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Ar15145inch_556x45",
+  "name": "AR-15 Barrel - 14.5\"",
+  "short_name": "AR-15 14.5''",
+  "manufacturer": "COLT",
+  "description": "A 370mm barrel for the AR-15 weapon platform. Compatible with 5.56x45mm cartridges.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.725 kg",
+  "grid_size": "3x1",
+  "base_price": 782.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 782.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 234.6
+   }
+  ],
+  "stats": {
+   "moa": 2.15,
+   "manipulationModifier": 2.0,
+   "speedModifier": 5.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_ColtM4UpperReceiver",
+   "IS_Receiver_ColtM4UpperReceiverFDE",
+   "IS_Receiver_DdA4UpperReceiver",
+   "IS_Receiver_DdA4UpperReceiverBlack",
+   "IS_Receiver_DdA4UpperReceiverPL",
+   "IS_Receiver_M16A1UpperReceiver",
+   "IS_Receiver_NorincoCqA1UpperReceiver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Ar15145inch_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Ar1516inch_556x45",
+  "name": "AR-15 Barrel - 16\"",
+  "short_name": "AR-15 16''",
+  "manufacturer": "COLT",
+  "description": "A 406mm barrel, specifically designed for the AR-15 weapon platform. It offers compatibility with various 5.56x45mm cartridges.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.793 kg",
+  "grid_size": "3x1",
+  "base_price": 748.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 748.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 224.4
+   }
+  ],
+  "stats": {
+   "moa": 1.83,
+   "manipulationModifier": -2.0,
+   "speedModifier": 8.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_ColtM4UpperReceiver",
+   "IS_Receiver_ColtM4UpperReceiverFDE",
+   "IS_Receiver_DdA4UpperReceiver",
+   "IS_Receiver_DdA4UpperReceiverBlack",
+   "IS_Receiver_DdA4UpperReceiverPL",
+   "IS_Receiver_M16A1UpperReceiver",
+   "IS_Receiver_NorincoCqA1UpperReceiver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Ar1516inch_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Ar1518inch_556x45",
+  "name": "AR-15 Barrel - 18\"",
+  "short_name": "AR-15 18''",
+  "manufacturer": "COLT",
+  "description": "A 457mm barrel, specifically designed for the AR-15 weapon platform. It offers compatibility with various 5.56x45mm cartridges.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "1.27 kg",
+  "grid_size": "3x1",
+  "base_price": 867.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 867.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 260.1
+   }
+  ],
+  "stats": {
+   "moa": 1.44,
+   "manipulationModifier": -8.0,
+   "speedModifier": 12.0,
+   "maximumShots": 6400,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_ColtM4UpperReceiver",
+   "IS_Receiver_ColtM4UpperReceiverFDE",
+   "IS_Receiver_DdA4UpperReceiver",
+   "IS_Receiver_DdA4UpperReceiverBlack",
+   "IS_Receiver_DdA4UpperReceiverPL",
+   "IS_Receiver_M16A1UpperReceiver",
+   "IS_Receiver_NorincoCqA1UpperReceiver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Ar1518inch_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Ar1520inch_556x45",
+  "name": "AR-15 Barrel - 20\"",
+  "short_name": "AR-15 20''",
+  "manufacturer": "COLT",
+  "description": "This AR-15 barrel boasts a length of 508mm and is specifically crafted for the AR-15 weapon platform. It offers compatibility with various 5.56x45mm cartridges, providing increased accuracy for your firearm.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.97 kg",
+  "grid_size": "4x1",
+  "base_price": 1105.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 331.5
+   }
+  ],
+  "stats": {
+   "moa": 1.11,
+   "manipulationModifier": -18.0,
+   "speedModifier": 20.0,
+   "maximumShots": 5500,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_ColtM4UpperReceiver",
+   "IS_Receiver_ColtM4UpperReceiverFDE",
+   "IS_Receiver_DdA4UpperReceiver",
+   "IS_Receiver_DdA4UpperReceiverBlack",
+   "IS_Receiver_DdA4UpperReceiverPL",
+   "IS_Receiver_M16A1UpperReceiver",
+   "IS_Receiver_NorincoCqA1UpperReceiver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Ar1520inch_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Ar1520inch_556x45PL",
+  "name": "AR-15 Barrel - 20\" (Phantom Lance)",
+  "short_name": "AR-15 20''",
+  "manufacturer": "COLT",
+  "description": "This AR-15 barrel boasts a length of 508mm and is specifically crafted for the AR-15 weapon platform. It offers compatibility with various 5.56x45mm cartridges, providing increased accuracy for your firearm.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.97 kg",
+  "grid_size": "4x1",
+  "base_price": 1400.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 420.0
+   }
+  ],
+  "stats": {
+   "moa": 1.11,
+   "manipulationModifier": -18.0,
+   "speedModifier": 20.0,
+   "maximumShots": 8400,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_ColtM4UpperReceiver",
+   "IS_Receiver_ColtM4UpperReceiverFDE",
+   "IS_Receiver_DdA4UpperReceiver",
+   "IS_Receiver_DdA4UpperReceiverBlack",
+   "IS_Receiver_DdA4UpperReceiverPL",
+   "IS_Receiver_M16A1UpperReceiver",
+   "IS_Receiver_NorincoCqA1UpperReceiver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Ar1520inch_556x45PL.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Ar15145inch_Norinco_556x45",
+  "name": "AR-15 CQA1 Barrel - 14.5\"",
+  "short_name": "CQA1 14.5''",
+  "manufacturer": "Norinco",
+  "description": "The 14.5\" (370mm) AR-15 CQA1 barrel is a Chinese variant of the classic AR-15 design. While it offers the familiar functionality and compatibility of the AR-15 platform, it may have lower quality control standards. However, It still provides a compact and maneuverable option for close to medium-range shooting, making it suitable for certain applications where cost-effectiveness is a priority.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.725 kg",
+  "grid_size": "3x1",
+  "base_price": 544.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 544.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 163.2
+   }
+  ],
+  "stats": {
+   "moa": 4.18,
+   "manipulationModifier": 2.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_ColtM4UpperReceiver",
+   "IS_Receiver_ColtM4UpperReceiverFDE",
+   "IS_Receiver_DdA4UpperReceiver",
+   "IS_Receiver_DdA4UpperReceiverBlack",
+   "IS_Receiver_DdA4UpperReceiverPL",
+   "IS_Receiver_M16A1UpperReceiver",
+   "IS_Receiver_NorincoCqA1UpperReceiver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Ar15145inch_Norinco_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_BenelliM414inch_12Gaug",
+  "name": "Benelli M4 Barrel - 14\"",
+  "short_name": "M1014 14\"",
+  "manufacturer": "Benelli ",
+  "description": "A short 14\" barrel chambered in 12 gauge for the Benelli M4 shotgun. Its reduced length makes the weapon more compact and maneuverable in confined spaces compared to the standard 18.5\" barrel.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.63 kg",
+  "grid_size": "2x1",
+  "base_price": 580.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 174.0
+   }
+  ],
+  "stats": {
+   "moa": 22.0,
+   "manipulationModifier": -6.0,
+   "maximumShots": 8200,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_BenelliM4",
+   "IS_Firearm_BenelliM4FDE",
+   "IS_Firearm_BenelliM4RE",
+   "IS_Firearm_BenelliM4Silver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_BenelliM414inch_12Gaug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_BenelliM414inch_12GaugFDE",
+  "name": "Benelli M4 Barrel - 14\" (FDE)",
+  "short_name": "M1014 14\"",
+  "manufacturer": "Benelli ",
+  "description": "A short 14\" barrel chambered in 12 gauge for the Benelli M4 shotgun. Its reduced length makes the weapon more compact and maneuverable in confined spaces compared to the standard 18.5\" barrel.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.BenelliM4",
+   "Boss"
+  ],
+  "weight": "0.63 kg",
+  "grid_size": "2x1",
+  "base_price": 580.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 174.0
+   }
+  ],
+  "stats": {
+   "moa": 22.0,
+   "manipulationModifier": -6.0,
+   "maximumShots": 8200,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_BenelliM4",
+   "IS_Firearm_BenelliM4FDE",
+   "IS_Firearm_BenelliM4RE",
+   "IS_Firearm_BenelliM4Silver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_BenelliM414inch_12GaugFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_BenelliM414inch_12GaugRE",
+  "name": "Benelli M4 Barrel - 14\" (Riot Echo)",
+  "short_name": "M1014 14\"",
+  "manufacturer": "Benelli ",
+  "description": "A short 14\" barrel chambered in 12 gauge for the Benelli M4 shotgun. Its reduced length makes the weapon more compact and maneuverable in confined spaces compared to the standard 18.5\" barrel.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.63 kg",
+  "grid_size": "2x1",
+  "base_price": 920.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 276.0
+   }
+  ],
+  "stats": {
+   "moa": 20.0,
+   "manipulationModifier": -6.0,
+   "speedModifier": 2.0,
+   "maximumShots": 8200,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_BenelliM4",
+   "IS_Firearm_BenelliM4FDE",
+   "IS_Firearm_BenelliM4RE",
+   "IS_Firearm_BenelliM4Silver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_BenelliM414inch_12GaugRE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_BenelliM414inch_12GaugSilver",
+  "name": "Benelli M4 Barrel - 14\" (Silver)",
+  "short_name": "M1014 14\"",
+  "manufacturer": "Benelli ",
+  "description": "A short 14\" barrel chambered in 12 gauge for the Benelli M4 shotgun. Its reduced length makes the weapon more compact and maneuverable in confined spaces compared to the standard 18.5\" barrel.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.63 kg",
+  "grid_size": "2x1",
+  "base_price": 580.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 174.0
+   }
+  ],
+  "stats": {
+   "moa": 22.0,
+   "manipulationModifier": -6.0,
+   "maximumShots": 8200,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_BenelliM4",
+   "IS_Firearm_BenelliM4FDE",
+   "IS_Firearm_BenelliM4RE",
+   "IS_Firearm_BenelliM4Silver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_BenelliM414inch_12GaugSilver.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_BenelliM4185inch_12Gaug",
+  "name": "Benelli M4 Barrel - 18.5\"",
+  "short_name": "M1014 18.5\"",
+  "manufacturer": "Benelli ",
+  "description": "A standard 18.5\" barrel chambered in 12 gauge for the Benelli M4 shotgun.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "3x1",
+  "base_price": 650.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 650.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 195.0
+   }
+  ],
+  "stats": {
+   "moa": 18.0,
+   "manipulationModifier": -6.0,
+   "speedModifier": 8.0,
+   "maximumShots": 9800,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_BenelliM4",
+   "IS_Firearm_BenelliM4FDE",
+   "IS_Firearm_BenelliM4RE",
+   "IS_Firearm_BenelliM4Silver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_BenelliM4185inch_12Gaug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_BenelliM4185inch_12GaugFDE",
+  "name": "Benelli M4 Barrel - 18.5\" (FDE)",
+  "short_name": "M1014 18.5\"",
+  "manufacturer": "Benelli ",
+  "description": "A standard 18.5\" barrel chambered in 12 gauge for the Benelli M4 shotgun.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "3x1",
+  "base_price": 650.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 195.0
+   }
+  ],
+  "stats": {
+   "moa": 18.0,
+   "manipulationModifier": -6.0,
+   "speedModifier": 8.0,
+   "maximumShots": 9800,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_BenelliM4",
+   "IS_Firearm_BenelliM4FDE",
+   "IS_Firearm_BenelliM4RE",
+   "IS_Firearm_BenelliM4Silver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_BenelliM4185inch_12GaugFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_BenelliM4185inch_12GaugSilver",
+  "name": "Benelli M4 Barrel - 18.5\" (Silver)",
+  "short_name": "M1014 18.5\"",
+  "manufacturer": "Benelli ",
+  "description": "A standard 18.5\" barrel chambered in 12 gauge for the Benelli M4 shotgun.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "3x1",
+  "base_price": 650.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 195.0
+   }
+  ],
+  "stats": {
+   "moa": 18.0,
+   "manipulationModifier": -6.0,
+   "speedModifier": 8.0,
+   "maximumShots": 9800,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_BenelliM4",
+   "IS_Firearm_BenelliM4FDE",
+   "IS_Firearm_BenelliM4RE",
+   "IS_Firearm_BenelliM4Silver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_BenelliM4185inch_12GaugSilver.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_BerettaM9A1ThreadedBlackmail",
+  "name": "Broker's M9A1 Threaded Barrel",
+  "short_name": "B M9A1 Thr B",
+  "manufacturer": "EGMT",
+  "description": "A threaded barrel for the Beretta M9 model is an extended barrel designed to accommodate muzzle devices such as suppressors or compensators. These barrels are distinguished by a 1/2x28 thread pitch, a prevalent standard for 9mm firearms.\n\nThis is a part of the M9A1 belonging to Hoang \"Broker\" Lam Nam, the leader of the armed group occupying Hunter's Paradise.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.M9A1",
+   "Boss"
+  ],
+  "weight": "0.149 kg",
+  "grid_size": "1x1",
+  "base_price": 510.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "moa": 11.7,
+   "manipulationModifier": 1.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_BerettaM9A1",
+   "IS_Firearm_BerettaM9A1Blackmail"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_BerettaM9A1ThreadedBlackmail.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Colt1911_45Acp",
+  "name": "Colt 1911 Barrel - 5\"",
+  "short_name": "1911 5\"",
+  "manufacturer": "COLT",
+  "description": "The Colt 5\" .45 ACP Stainless Barrel is made from durable stainless steel and is precisely designed to fit the Colt 1911 pistol chambered in .45 ACP.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.1911"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 255.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 255.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.5
+   }
+  ],
+  "stats": {
+   "moa": 12.13,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Colt1911_45Acp.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Colt19116inch_45Acp",
+  "name": "Colt 1911 Barrel - 6\"",
+  "short_name": "1911 6''",
+  "manufacturer": "COLT",
+  "description": "Made from 416R-certified stainless steel, this barrel is CNC-machined with precise fit points on the back of the receiver and the bottom of the feet, allowing for accurate lock-up and improved performance with simple hand-file fitting.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.1911"
+  ],
+  "weight": "0.163 kg",
+  "grid_size": "1x1",
+  "base_price": 340.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 340.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "moa": 10.63,
+   "manipulationModifier": -10.0,
+   "speedModifier": 2.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Colt19116inch_45Acp.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Colt1911Comander_45Acp",
+  "name": "Colt 1911 Commander Stainless Barrel 4.25\"",
+  "short_name": "1911 Com  4.25\"",
+  "manufacturer": "COLT",
+  "description": "The Colt 1911 Commander 4.25\" Stainless Barrel is engineered for .45 ACP. Precision-machined from robust stainless steel, this factory-original barrel ensures optimal performance and durability for the Colt 1911 Commander.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.1911C"
+  ],
+  "weight": "0.12 kg",
+  "grid_size": "1x1",
+  "base_price": 306.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 306.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 91.8
+   }
+  ],
+  "stats": {
+   "moa": 11.0,
+   "manipulationModifier": 10.0,
+   "maximumShots": 4000,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Colt1911Comander_45Acp.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Colt1911Comander_45AcpThreaded",
+  "name": "Colt 1911 Commander Threaded Barrel 5\"",
+  "short_name": "1911 Com 5\"",
+  "manufacturer": "Nighthawk Custom",
+  "description": "The Nighthawk Custom Match Grade Stainless Commander .45 ACP Threaded Barrel represents a significant enhancement for 1911 pistols. Fabricated from 416 stainless steel, the barrel boasts a commander-length profile of 5 inches and is equipped with threads, facilitating the attachment of a suppressor.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.1911C"
+  ],
+  "weight": "0.12 kg",
+  "grid_size": "1x1",
+  "base_price": 408.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 408.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 122.4
+   }
+  ],
+  "stats": {
+   "moa": 11.0,
+   "speedModifier": 2.0,
+   "maximumShots": 4800,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Colt1911Comander_45AcpThreaded.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Colt1911Threaded_45Acp",
+  "name": "Colt 1911 Threaded Barrel",
+  "short_name": "1911 Thr B",
+  "manufacturer": "General West",
+  "description": "The Colt 1911 Threaded Barrel in .45 ACP comes complete with a thread cap and offers compatibility with Government size 1911s with an overall length of 5.75 inches.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.1911"
+  ],
+  "weight": "0.115 kg",
+  "grid_size": "1x1",
+  "base_price": 391.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 391.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 117.3
+   }
+  ],
+  "stats": {
+   "moa": 12.03,
+   "speedModifier": 2.0,
+   "maximumShots": 6300,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Colt1911Threaded_45Acp.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Famas_556x45",
+  "name": "FAMAS Barrel - 19.2\"",
+  "short_name": "FAMAS 19.2\"",
+  "manufacturer": "MAS",
+  "description": "A standard 19.2\" barrel chambered in 5.56x45mm for the FAMAS rifle. Combined with the weapon's bullpup layout, its full-length configuration provides strong ballistic performance while maintaining a relatively compact overall weapon length.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.Famas"
+  ],
+  "weight": "1 kg",
+  "grid_size": "3x1",
+  "base_price": 320.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 96.0
+   }
+  ],
+  "stats": {
+   "moa": 2.5,
+   "manipulationModifier": -6.0,
+   "maximumShots": 4100,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_Famas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Famas_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_G3177inch_762x51",
+  "name": "G3 Barrel - 17.7\"",
+  "short_name": "G3 17.7\"",
+  "manufacturer": "Heckler & Koch",
+  "description": "A standard 17.7\" barrel chambered in 7.62x51mm NATO for the Heckler & Koch G3, complete with the front sight assembly. Its fluted chamber assists with reliable extraction as part of the rifle's roller-delayed blowback operating system.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "1 kg",
+  "grid_size": "3x1",
+  "base_price": 510.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "moa": 1.6,
+   "manipulationModifier": -6.0,
+   "maximumShots": 5600,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": true
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_G3",
+   "IS_Firearm_G3ZH"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_G3177inch_762x51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_G3177inch_762x51ZH",
+  "name": "G3 Barrel - 17.7\" (Zero Hour)",
+  "short_name": "G3 17.7\"",
+  "manufacturer": "Heckler & Koch",
+  "description": "A standard 17.7\" barrel chambered in 7.62x51mm NATO for the Heckler & Koch G3, complete with the front sight assembly. Its fluted chamber assists with reliable extraction as part of the rifle's roller-delayed blowback operating system.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "1 kg",
+  "grid_size": "3x1",
+  "base_price": 750.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 225.0
+   }
+  ],
+  "stats": {
+   "moa": 1.5,
+   "manipulationModifier": -6.0,
+   "maximumShots": 5600,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": true
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_G3",
+   "IS_Firearm_G3ZH"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_G3177inch_762x51ZH.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_G36125Inch_556x45",
+  "name": "G36 Barrel - 12.5\"",
+  "short_name": "G36 12.5\"",
+  "manufacturer": "Heckler & Koch",
+  "description": "A 12.5\" barrel chambered in 5.56x45mm NATO for the Heckler & Koch G36. Used on the compact G36K configuration, its shorter length reduces the weapon's overall profile for improved maneuverability at the cost of some muzzle velocity compared to the standard 18.9\" barrel.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.G36"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x1",
+  "base_price": 460.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 138.0
+   }
+  ],
+  "stats": {
+   "moa": 1.9,
+   "manipulationModifier": -14.0,
+   "maximumShots": 5600,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_G36",
+   "IS_Firearm_G36FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_G36125Inch_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_G36189Inch_556x45",
+  "name": "G36 Barrel - 18.9\"",
+  "short_name": "G36 18.9\"",
+  "manufacturer": "Heckler & Koch",
+  "description": "A standard 18.9\" cold-hammer-forged barrel chambered in 5.56x45mm NATO for the Heckler & Koch G36. Used on the full-size rifle configuration, its chrome-lined bore provides increased durability and resistance to wear.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.G36"
+  ],
+  "weight": "1 kg",
+  "grid_size": "3x1",
+  "base_price": 440.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Collector",
+    "rank": 2,
+    "price": 440.0
+   }
+  ],
+  "sold_by": "Collector R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 132.0
+   }
+  ],
+  "stats": {
+   "moa": 1.7,
+   "manipulationModifier": -14.0,
+   "speedModifier": 5.0,
+   "maximumShots": 5600,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_G36",
+   "IS_Firearm_G36FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_G36189Inch_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_G36898Inch_556x45",
+  "name": "G36 Barrel - 8.98\"",
+  "short_name": "G36 8.98\"",
+  "manufacturer": "Heckler & Koch",
+  "description": "A short 8.98\" barrel chambered in 5.56x45mm NATO for the Heckler & Koch G36. Used on the compact G36C configuration, its short length significantly reduces the weapon's overall profile for improved maneuverability at the cost of muzzle velocity compared to longer G36 barrels.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.G36"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x1",
+  "base_price": 480.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 144.0
+   }
+  ],
+  "stats": {
+   "moa": 2.1,
+   "manipulationModifier": -14.0,
+   "speedModifier": -5.0,
+   "maximumShots": 5600,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_G36",
+   "IS_Firearm_G36FDE"
+  ],
+  "disables_socket_types": [
+   "Socket.Handguard.G36.Long",
+   "Socket.Handguard.G36.Mid"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_G36898Inch_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Glock17ZaffiriPrecision_9x19",
+  "name": "Glock 17 Match Grade Barrel",
+  "short_name": "G17 MG B",
+  "manufacturer": "Zaffiri Precision",
+  "description": "A high-quality barrel designed specifically for the Glock 17, engineered with exceptional precision and craftsmanship.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.11 kg",
+  "grid_size": "1x1",
+  "base_price": 425.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 425.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 127.5
+   }
+  ],
+  "stats": {
+   "moa": 10.82,
+   "manipulationModifier": 6.0,
+   "speedModifier": 4.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_Glock17",
+   "IS_Firearm_Glock17Damascus",
+   "IS_Firearm_Glock17Olive"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Glock17ZaffiriPrecision_9x19.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Glock17ZaffiriPrecisionGoldThreaded_9x19",
+  "name": "Glock 17 Match Grade Threaded Barrel (Gold)",
+  "short_name": "G17 MGT B",
+  "manufacturer": "Zaffiri Precision",
+  "description": "A premium barrel designed to elevate the performance of the Glock 17 pistol. With its threaded design and striking gold finish, this barrel offers exceptional precision, durability, and a touch of aesthetic appeal for all firearm enthusiasts.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.12 kg",
+  "grid_size": "1x1",
+  "base_price": 850.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 255.0
+   }
+  ],
+  "stats": {
+   "moa": 10.94,
+   "manipulationModifier": 7.0,
+   "speedModifier": 4.0,
+   "maximumShots": 9700,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Glock17",
+   "IS_Firearm_Glock17Damascus",
+   "IS_Firearm_Glock17Olive"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Glock17ZaffiriPrecisionGoldThreaded_9x19.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Glock17Standard_9x19",
+  "name": "Glock 17 Standard Barrel",
+  "short_name": "G17 B",
+  "manufacturer": "GLOCK",
+  "description": "A standard, factory-made barrel for the Glock 17.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.113 kg",
+  "grid_size": "1x1",
+  "base_price": 323.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 1,
+    "price": 323.0
+   }
+  ],
+  "sold_by": "Banshee R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 96.9
+   }
+  ],
+  "stats": {
+   "moa": 11.7,
+   "manipulationModifier": 6.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_Glock17",
+   "IS_Firearm_Glock17Damascus",
+   "IS_Firearm_Glock17Olive"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Glock17Standard_9x19.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Glock18C_9x19",
+  "name": "Glock 18C Barrel",
+  "short_name": "G18C B",
+  "manufacturer": "GLOCK",
+  "description": "A compensated 9 mm barrel for the Glock 18C. Its integrated ports vent propellant gases upward to help reduce muzzle rise during automatic fire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.113 kg",
+  "grid_size": "1x1",
+  "base_price": 820.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 820.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 246.0
+   }
+  ],
+  "stats": {
+   "moa": 8.1,
+   "manipulationModifier": 5.0,
+   "maximumShots": 9700,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_Glock18C",
+   "IS_Firearm_Glock18CWB"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Glock18C_9x19.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Glock18C_9x19WB",
+  "name": "Glock 18C Barrel (Wolf Brigade)",
+  "short_name": "G18C B",
+  "manufacturer": "GLOCK",
+  "description": "A compensated 9 mm barrel for the Glock 18C. Its integrated ports vent propellant gases upward to help reduce muzzle rise during automatic fire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.113 kg",
+  "grid_size": "1x1",
+  "base_price": 1250.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 375.0
+   }
+  ],
+  "stats": {
+   "moa": 7.6,
+   "manipulationModifier": 6.0,
+   "maximumShots": 9700,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_Glock18C",
+   "IS_Firearm_Glock18CWB"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Glock18C_9x19WB.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Colt1911_45AcpMidas",
+  "name": "Golden Boy's Colt 1911 Barrel",
+  "short_name": "B 1911 Barrel",
+  "manufacturer": "EGMT",
+  "description": "Made from 416R-certified stainless steel, this barrel is CNC-machined with precise fit points on the back of the receiver and the bottom of the feet, allowing for accurate lock-up and improved performance with simple hand-file fitting.\n\nThis is a part of the Colt 1911 belonging to Songkram \"Golden Boy\" Manivanh, the leader of the Pha Lang criminal gang.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.1911",
+   "Boss"
+  ],
+  "weight": "0.12 kg",
+  "grid_size": "1x1",
+  "base_price": 720.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 216.0
+   }
+  ],
+  "stats": {
+   "moa": 10.0,
+   "manipulationModifier": 1.0,
+   "speedModifier": 2.0,
+   "maximumShots": 8100,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911",
+   "IS_Firearm_Colt1911Midas"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Colt1911_45AcpMidas.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Colt1911Comander_45AcpHel",
+  "name": "Grin's Colt 1911 Barrel",
+  "short_name": "B 1911 Barrel",
+  "manufacturer": "EGMT",
+  "description": "Made from 416R-certified stainless steel, this barrel is CNC-machined with precise fit points on the back of the receiver and the bottom of the feet, allowing for accurate lock-up and improved performance with simple hand-file fitting.\n\nThis is a part of the Colt Commander belonging to Malo \"Grin\" Luangrath, the leader of the armed group occupying Blue Lagoon.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.1911C",
+   "Boss"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 720.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 216.0
+   }
+  ],
+  "stats": {
+   "moa": 12.13,
+   "manipulationModifier": 10.0,
+   "speedModifier": 2.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Colt1911Comander_45AcpHel.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_L403A1137nch_556x45",
+  "name": "L403A1 Barrel - 13.7\"",
+  "short_name": "L403A1 13.7''",
+  "manufacturer": "KAC",
+  "description": "This cold-hammer-forged, chrome-lined steel barrel is chambered in 5.56×45 mm NATO with a 1:7\" twist rate. Measuring 13.7 inches, it features a heavy profile with dimple cuts that reduce weight and improve heat dissipation. Designed for mid-length gas systems, it pairs seamlessly with free-float handguards such as the URX-6.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "1.125 kg",
+  "grid_size": "3x1",
+  "base_price": 1530.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 1530.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 459.0
+   }
+  ],
+  "stats": {
+   "moa": 0.8,
+   "manipulationModifier": 4.0,
+   "maximumShots": 7800,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_L403A1UpperReceiver",
+   "IS_Receiver_L403A1UpperReceiverSG"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_L403A1137nch_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_L403A1137nch_556x45SG",
+  "name": "L403A1 Barrel - 13.7\" (Serpent Guard)",
+  "short_name": "L403A1 13.7''",
+  "manufacturer": "KAC",
+  "description": "This cold-hammer-forged, chrome-lined steel barrel is chambered in 5.56×45 mm NATO with a 1:7\" twist rate. Measuring 13.7 inches, it features a heavy profile with dimple cuts that reduce weight and improve heat dissipation. Designed for mid-length gas systems, it pairs seamlessly with free-float handguards such as the URX-6.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "1.125 kg",
+  "grid_size": "3x1",
+  "base_price": 2200.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 660.0
+   }
+  ],
+  "stats": {
+   "moa": 0.8,
+   "manipulationModifier": 4.0,
+   "maximumShots": 7800,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_L403A1UpperReceiver",
+   "IS_Receiver_L403A1UpperReceiverSG"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_L403A1137nch_556x45SG.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_M201c46inch_9x19",
+  "name": "M-201c Barrel - 4.6\"",
+  "short_name": "M-201C 4.6\"",
+  "manufacturer": "Norinco",
+  "description": "Built for the M-201C platform, this 4.6-inch barrel offers reliable performance in a compact design.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.M201C"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 204.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 204.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 61.2
+   }
+  ],
+  "stats": {
+   "moa": 12.23,
+   "manipulationModifier": 6.0,
+   "maximumShots": 1900,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_M201C",
+   "IS_Firearm_M201CPsycho"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_M201c46inch_9x19.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_M16A120inch_556x45",
+  "name": "M16A1 Barrel - 20\"",
+  "short_name": "M16A1 20''",
+  "manufacturer": "COLT",
+  "description": "A standard-length lightweight barrel designed for maximum muzzle velocity and improved accuracy at extended ranges. Its 20-inch profile enhances projectile stability and effective engagement distance while maintaining manageable recoil and consistent shot performance. It offers compatibility with various 5.56x45mm cartridges.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.97 kg",
+  "grid_size": "4x1",
+  "base_price": 680.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 680.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "moa": 1.22,
+   "manipulationModifier": -18.0,
+   "speedModifier": 20.0,
+   "maximumShots": 4100,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_ColtM4UpperReceiver",
+   "IS_Receiver_ColtM4UpperReceiverFDE",
+   "IS_Receiver_DdA4UpperReceiver",
+   "IS_Receiver_DdA4UpperReceiverBlack",
+   "IS_Receiver_DdA4UpperReceiverPL",
+   "IS_Receiver_M16A1UpperReceiver",
+   "IS_Receiver_NorincoCqA1UpperReceiver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_M16A120inch_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_M1A16inch_762x51",
+  "name": "M1A  Barrel - 16\"",
+  "short_name": "M1A 16''",
+  "manufacturer": "Springfield",
+  "description": "This 16.25-inch steel barrel is designed for the SOCOM-16 variant of the M1A and is chambered in .308 Winchester/7.62×51 NATO. Its shorter length makes it well-suited for close-quarters use while maintaining reliable accuracy and durability.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "0.765 kg",
+  "grid_size": "3x1",
+  "base_price": 765.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 765.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 229.5
+   }
+  ],
+  "stats": {
+   "moa": 1.4,
+   "manipulationModifier": 15.0,
+   "maximumShots": 6800,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_M14",
+   "IS_Firearm_M14BH",
+   "IS_Firearm_M1A"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_M1A16inch_762x51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_M1A16inch_762x51BH",
+  "name": "M1A  Barrel - 16\" (Black Hawk)",
+  "short_name": "M1A 16''",
+  "manufacturer": "Springfield",
+  "description": "This 16.25-inch steel barrel is designed for the SOCOM-16 variant of the M1A and is chambered in .308 Winchester/7.62×51 NATO. Its shorter length makes it well-suited for close-quarters use while maintaining reliable accuracy and durability.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "0.765 kg",
+  "grid_size": "3x1",
+  "base_price": 765.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 229.5
+   }
+  ],
+  "stats": {
+   "moa": 1.4,
+   "manipulationModifier": 15.0,
+   "maximumShots": 6800,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_M14",
+   "IS_Firearm_M14BH",
+   "IS_Firearm_M1A"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_M1A16inch_762x51BH.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_M1A185inch_762x51",
+  "name": "M1A Barrel - 18.5\"",
+  "short_name": "M1A 18.5''",
+  "manufacturer": "Springfield",
+  "description": "This 18.5-inch mid-length steel barrel is designed for the Springfield M1A Scout Squad and is chambered in 7.62×51 NATO. It balances maneuverability with ballistic performance, providing better velocity and range than the 16″ SOCOM barrel while remaining more compact than the full 22″ model.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "1.13 kg",
+  "grid_size": "3x1",
+  "base_price": 1360.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 1360.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 408.0
+   }
+  ],
+  "stats": {
+   "moa": 1.1,
+   "manipulationModifier": 10.0,
+   "maximumShots": 6900,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_M14",
+   "IS_Firearm_M14BH",
+   "IS_Firearm_M1A"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_M1A185inch_762x51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_M1A22inch_762x51",
+  "name": "M1A Barrel - 22\"",
+  "short_name": "M1A 22''",
+  "manufacturer": "Springfield",
+  "description": "The full-length 22-inch steel barrel is used on the Standard and Loaded M1A models. Chambered in 7.62×51 NATO, it provides optimal velocity and long-range performance while preserving the traditional M14 profile. It typically includes a flash suppressor and is valued for its combination of precision, durability, and classic military styling.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "1.247 kg",
+  "grid_size": "4x1",
+  "base_price": 986.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 295.8
+   }
+  ],
+  "stats": {
+   "moa": 0.8,
+   "manipulationModifier": 1.0,
+   "speedModifier": 5.0,
+   "maximumShots": 5700,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_M14",
+   "IS_Firearm_M14BH",
+   "IS_Firearm_M1A"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_M1A22inch_762x51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Mossberg500185inch_12Gaug",
+  "name": "M590 Barrel - 18.5\"",
+  "short_name": "M500 18.5''",
+  "manufacturer": "Mossberg",
+  "description": "The 18.5” security barrel with a bead sight is a versatile solution for 12 gauge Mossberg 500 and Maverick 88 6-shot models. It has a cylinder bore and matte-blued finish, optimizing it for close-range engagements and rapid target acquisition. The bead sight enhances aiming precision, making it ideal for home defense and tactical applications.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M590"
+  ],
+  "weight": "0.74 kg",
+  "grid_size": "3x1",
+  "base_price": 306.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 91.8
+   }
+  ],
+  "stats": {
+   "moa": 42.1,
+   "manipulationModifier": 15.0,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Mossberg590",
+   "IS_Firearm_Mossberg590FDE",
+   "IS_Firearm_Mossberg590RT"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Mossberg500185inch_12Gaug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Mossberg50020inch_12Gaug",
+  "name": "M590 Barrel - 20\"",
+  "short_name": "M500 20''",
+  "manufacturer": "Mossberg",
+  "description": "The 20\" all-purpose barrel with vent rib is compatible with 12 gauge Mossberg 500 series and Maverick 88 6-shot models. It has a bead sight for quick target acquisition, making it suitable for various shooting scenarios. The smoothbore and matte-blued finish provide reliability and durability.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M590"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "4x1",
+  "base_price": 680.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "moa": 33.7,
+   "manipulationModifier": 10.0,
+   "speedModifier": 4.0,
+   "maximumShots": 6600,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Mossberg590",
+   "IS_Firearm_Mossberg590FDE",
+   "IS_Firearm_Mossberg590RT"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Mossberg50020inch_12Gaug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Mossberg50020inch1ring_12Gaug",
+  "name": "M590 Barrel - 20\" (1 Ring)",
+  "short_name": "M500 20''",
+  "manufacturer": "Mossberg",
+  "description": "The 20\" all-purpose barrel with vent rib is compatible with 12 Gauge Mossberg 500 series and Maverick 88 6-shot models. It has a bead sight for quick target acquisition, making it suitable for various shooting scenarios. The smoothbore and matte-blued finish provide reliability and durability. This is the one-ring variant.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M590"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "4x1",
+  "base_price": 442.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 132.6
+   }
+  ],
+  "stats": {
+   "moa": 32.4,
+   "manipulationModifier": 10.0,
+   "speedModifier": 4.0,
+   "maximumShots": 5100,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Mossberg590",
+   "IS_Firearm_Mossberg590FDE",
+   "IS_Firearm_Mossberg590RT"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Mossberg50020inch1ring_12Gaug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Mossberg50020inch_12GaugRT",
+  "name": "M590 Barrel - 20\" (Raven Team)",
+  "short_name": "M500 20''",
+  "manufacturer": "Mossberg",
+  "description": "The 20\" all-purpose barrel with vent rib is compatible with 12 gauge Mossberg 500 series and Maverick 88 6-shot models. It has a bead sight for quick target acquisition, making it suitable for various shooting scenarios. The smoothbore and matte-blued finish provide reliability and durability.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M590"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "4x1",
+  "base_price": 950.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 285.0
+   }
+  ],
+  "stats": {
+   "moa": 33.7,
+   "manipulationModifier": 10.0,
+   "speedModifier": 4.0,
+   "maximumShots": 6600,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Mossberg590",
+   "IS_Firearm_Mossberg590FDE",
+   "IS_Firearm_Mossberg590RT"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Mossberg50020inch_12GaugRT.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_M70022inchStandart_762x51",
+  "name": "M700 Barrel - 22\"",
+  "short_name": "M700 22''",
+  "manufacturer": "Remington",
+  "description": "This 22” barrel for the Remington M700 is precision-crafted for exceptional accuracy and adaptability. Its threaded design allows for muzzle accessories, striking a balance between maneuverability and bullet velocity. This barrel is ideal for hunting and precision shooting, offering both reliability and performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "1 kg",
+  "grid_size": "4x1",
+  "base_price": 612.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 612.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 183.6
+   }
+  ],
+  "stats": {
+   "moa": 0.61,
+   "manipulationModifier": 1.0,
+   "maximumShots": 5100,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_M700",
+   "IS_Firearm_M700Camo",
+   "IS_Firearm_M700GC"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_M70022inchStandart_762x51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_M70026inchHeavy_762x51",
+  "name": "M700 Heavy Barrel - 26\"",
+  "short_name": "M700 H 26''",
+  "manufacturer": "Remington",
+  "description": "This 26” barrel is designed for the Remington 700 series rifles and offers easy installation. It has a tapered profile, making it ideal for target shooting. Crafted from high-quality Chromoly steel alloys, each barrel undergoes a meticulous one-at-a-time process to ensure superb accuracy.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "2.05 kg",
+  "grid_size": "5x1",
+  "base_price": 1530.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 1530.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 459.0
+   }
+  ],
+  "stats": {
+   "moa": 0.48,
+   "manipulationModifier": -11.0,
+   "speedModifier": 6.0,
+   "maximumShots": 8200,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_M700",
+   "IS_Firearm_M700Camo",
+   "IS_Firearm_M700GC"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_M70026inchHeavy_762x51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_M70026inchHeavy_762x51GC",
+  "name": "M700 Heavy Barrel - 26\" (Gray Company)",
+  "short_name": "M700 H 26''",
+  "manufacturer": "Remington",
+  "description": "This 26” barrel is designed for the Remington 700 series rifles and offers easy installation. It has a tapered profile, making it ideal for target shooting. Crafted from high-quality Chromoly steel alloys, each barrel undergoes a meticulous one-at-a-time process to ensure superb accuracy.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "2.05 kg",
+  "grid_size": "5x1",
+  "base_price": 1920.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 576.0
+   }
+  ],
+  "stats": {
+   "moa": 0.48,
+   "manipulationModifier": -11.0,
+   "speedModifier": 6.0,
+   "maximumShots": 8200,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_M700",
+   "IS_Firearm_M700Camo",
+   "IS_Firearm_M700GC"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_M70026inchHeavy_762x51GC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_M70020inchSuppressed_762x51",
+  "name": "M700 Suppressed Barrel - 20\"",
+  "short_name": "M700 Sup 20''",
+  "manufacturer": "Remington",
+  "description": "This 20” barrel for the Remington M700 comes with a built-in suppressor that features a titanium tube and a single-piece monolithic core. The suppressor is available in two caliber options: .308 or 300 Blackout.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "1.8 kg",
+  "grid_size": "4x1",
+  "base_price": 2210.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 2210.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 663.0
+   }
+  ],
+  "stats": {
+   "moa": 1.1,
+   "manipulationModifier": 6.0,
+   "maximumShots": 9700,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_M700",
+   "IS_Firearm_M700Camo",
+   "IS_Firearm_M700GC"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_M70020inchSuppressed_762x51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_M70018inchThreaded_762x51",
+  "name": "M700 Threaded Barrel - 18\"",
+  "short_name": "M700 18''",
+  "manufacturer": "Remington",
+  "description": "An 18” threaded barrel for the Remington M700, which is both compact and customizable. The threaded muzzle enables easy attachment of accessories such as suppressors or muzzle brakes, making it a versatile option for those who prioritize maneuverability and personalized firearm setups.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "1.12 kg",
+  "grid_size": "4x1",
+  "base_price": 714.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 714.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 214.2
+   }
+  ],
+  "stats": {
+   "moa": 1.02,
+   "manipulationModifier": 11.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_M700",
+   "IS_Firearm_M700Camo",
+   "IS_Firearm_M700GC"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_M70018inchThreaded_762x51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_M70022inchVTR_762x51",
+  "name": "M700 VTR Barrel -  22\"",
+  "short_name": "M700 VTR 22''",
+  "manufacturer": "Remington",
+  "description": "A 22” barrel for the Remington M700 with a unique triangular profile and built-in muzzle brake. This design delivers both on aesthetics and accuracy, providing a balanced mix of maneuverability and bullet velocity.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "4x1",
+  "base_price": 1445.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 1445.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 433.5
+   }
+  ],
+  "stats": {
+   "moa": 0.55,
+   "manipulationModifier": 1.0,
+   "speedModifier": 2.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_M700",
+   "IS_Firearm_M700Camo",
+   "IS_Firearm_M700GC"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_M70022inchVTR_762x51.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_RemingtonM870185inch_12Gaug",
+  "name": "M870 Barrel - 18.5\"",
+  "short_name": "M870 18.5''",
+  "manufacturer": "Remington",
+  "description": "Crafted from high-quality steel and finished with a non-glare black coating, this barrel is designed specifically for Remington 870 12 gauge shotguns. It offers enhanced versatility and accuracy with its 18.5\" length, pre-installed front ramp sight, and compatibility with Rem choke tubes.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M870"
+  ],
+  "weight": "0.75 kg",
+  "grid_size": "4x1",
+  "base_price": 306.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 306.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 91.8
+   }
+  ],
+  "stats": {
+   "moa": 41.6,
+   "manipulationModifier": 15.0,
+   "maximumShots": 3700,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_RemingtonM870",
+   "IS_Firearm_RemingtonM870FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_RemingtonM870185inch_12Gaug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_RemingtonM87023inch_12Gaug",
+  "name": "M870 Barrel - 23\"",
+  "short_name": "M870 23''",
+  "manufacturer": "Remington",
+  "description": "This 23\" barrel is compatible with Remington 870 Wingmaster, 870 SPS (Special Purpose), and 870 Express 12 gauge shotguns. It is finished in matte blue and equipped with a silver front sight bead and ventilated rib to enhance performance and accuracy.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M870"
+  ],
+  "weight": "0.93 kg",
+  "grid_size": "4x1",
+  "base_price": 493.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 493.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 147.9
+   }
+  ],
+  "stats": {
+   "moa": 29.6,
+   "speedModifier": 8.0,
+   "maximumShots": 5100,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_RemingtonM870",
+   "IS_Firearm_RemingtonM870FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_RemingtonM87023inch_12Gaug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_RemingtonM87026inch_12Gaug",
+  "name": "M870 Barrel - 26\"",
+  "short_name": "M870 26''",
+  "manufacturer": "Remington",
+  "description": "This premium ordinance-grade steel barrel has a sleek satin black finish and is tailored for the Remington 870. It features a 26\" length and a pre-installed modified choke tube, providing enhanced versatility and accuracy.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M870"
+  ],
+  "weight": "1.1 kg",
+  "grid_size": "5x1",
+  "base_price": 765.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 765.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 229.5
+   }
+  ],
+  "stats": {
+   "moa": 24.5,
+   "manipulationModifier": -9.0,
+   "speedModifier": 12.0,
+   "maximumShots": 6600,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "12Gauge"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_RemingtonM870",
+   "IS_Firearm_RemingtonM870FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_RemingtonM87026inch_12Gaug.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_BerettaM9A1Standard",
+  "name": "M9A1 Standard Barrel",
+  "short_name": "M9A1 Barrel",
+  "manufacturer": "Beretta",
+  "description": "The standard barrel for the Beretta M9 model is chambered in 9×19mm Parabellum. It measures approximately 125 millimeters (4.9 inches) and contributes to the pistol's overall length of 217 millimeters. The barrel's dimensions are meticulously engineered to balance accuracy and portability.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M9A1"
+  ],
+  "weight": "0.149 kg",
+  "grid_size": "1x1",
+  "base_price": 255.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 255.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.5
+   }
+  ],
+  "stats": {
+   "moa": 11.7,
+   "manipulationModifier": 1.0,
+   "maximumShots": 2200,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_BerettaM9A1",
+   "IS_Firearm_BerettaM9A1Blackmail"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_BerettaM9A1Standard.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_BerettaM9A1Threaded",
+  "name": "M9A1 Threaded Barrel",
+  "short_name": "M9A1 Thr B",
+  "manufacturer": "Beretta",
+  "description": "A standard threaded barrel for the Beretta M9 model is an extended barrel designed to accommodate muzzle devices such as suppressors or compensators. These barrels are distinguished by a 1/2x28 thread pitch, a prevalent standard for 9mm firearms.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M9A1"
+  ],
+  "weight": "0.207 kg",
+  "grid_size": "1x1",
+  "base_price": 306.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 306.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 91.8
+   }
+  ],
+  "stats": {
+   "moa": 11.7,
+   "manipulationModifier": 1.0,
+   "maximumShots": 3100,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_BerettaM9A1",
+   "IS_Firearm_BerettaM9A1Blackmail"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_BerettaM9A1Threaded.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Mosin514mm_762x54",
+  "name": "Mosin-Nagant Barrel - 514mm",
+  "short_name": "Mosin 514",
+  "manufacturer": "Kalashnikov concern",
+  "description": "This barrel for the Mosin-Nagant bolt-action firearm measures approximately 20.24 inches (514mm), making it a compact and maneuverable option. Its shorter length is ideal for close-quarters engagements and improves handling in confined spaces. Although the 514mm barrel sacrifices some muzzle velocity compared to longer-barreled versions, it still maintains the robustness and reliability characteristic of the Mosin-Nagant design. This variant offers a balance between portability and ballistic performance.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "WeaponPlatform.Mosin"
+  ],
+  "weight": "1 kg",
+  "grid_size": "4x1",
+  "base_price": 272.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 272.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 81.6
+   }
+  ],
+  "stats": {
+   "moa": 3.0,
+   "manipulationModifier": 6.0,
+   "maximumShots": 4400,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "762x54R"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_MosinNagant",
+   "IS_Firearm_MosinNagantSniper"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Mosin514mm_762x54.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Mosin730mm_762x54",
+  "name": "Mosin-Nagant Barrel - 730mm",
+  "short_name": "Mosin 730",
+  "manufacturer": "Kalashnikov concern",
+  "description": "A 730mm (28.74 inch) barrel for the Mosin-Nagant, which contributes to improved muzzle velocity and long-range accuracy. This barrel variant is favored by enthusiasts for its historical significance and ballistic advantages.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "WeaponPlatform.Mosin"
+  ],
+  "weight": "1.45 kg",
+  "grid_size": "4x1",
+  "base_price": 374.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 374.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 112.2
+   }
+  ],
+  "stats": {
+   "moa": 1.5,
+   "manipulationModifier": -15.0,
+   "speedModifier": 16.0,
+   "maximumShots": 5700,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "762x54R"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_MosinNagant",
+   "IS_Firearm_MosinNagantSniper"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Mosin730mm_762x54.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Glock17ZevOptimizedThreaded_9x19",
+  "name": "Optimized Glock 17 Match Grade Threaded Barrel",
+  "short_name": "G17 OMGT B",
+  "manufacturer": "ZEV Technologies",
+  "description": "Designed specifically for the Glock 17, this threaded barrel variant provides improved performance and reduced recoil.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.105 kg",
+  "grid_size": "1x1",
+  "base_price": 544.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 544.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 163.2
+   }
+  ],
+  "stats": {
+   "moa": 11.65,
+   "manipulationModifier": 7.0,
+   "speedModifier": 4.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "9x19"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Glock17",
+   "IS_Firearm_Glock17Damascus",
+   "IS_Firearm_Glock17Olive"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Glock17ZevOptimizedThreaded_9x19.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Remington78822inch_222",
+  "name": "Remington 788 Barrel - 22\"",
+  "short_name": "788 22''",
+  "manufacturer": "Remington",
+  "description": "A factory barrel length that is standard on most Model 788 rifles. At 22 inches, the barrel strikes a balance between accuracy, velocity, and handling, making it ideal for hunting varmints.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "1.19 kg",
+  "grid_size": "4x1",
+  "base_price": 323.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 323.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 96.9
+   }
+  ],
+  "stats": {
+   "moa": 1.0,
+   "manipulationModifier": 1.0,
+   "maximumShots": 900,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "222Rem"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "RearSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Remington788"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Remington78822inch_222.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_SaVz58300mm_762x39",
+  "name": "Sa vz. 58 Barrel 300mm",
+  "short_name": "Sa vz. 58 300",
+  "manufacturer": "Czech Small Arms, s.r.o.",
+  "description": "This precision-engineered 300mm cold-hammer-forged barrel is designed for the Sa vz. 58 rifle and chambered in 7.62×39mm. Crafted from premium barrel steel, it delivers enhanced accuracy and heat resistance in a compact, maneuverable profile. The standard twist rate ensures consistent ballistics and provides a compact carbine-length configuration while maintaining the rifle’s functional reliability.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "0.82 kg",
+  "grid_size": "3x1",
+  "base_price": 663.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 663.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 198.9
+   }
+  ],
+  "stats": {
+   "moa": 2.3,
+   "manipulationModifier": 8.0,
+   "maximumShots": 6800,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "762x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "Sight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SaVz58",
+   "IS_Firearm_SaVz58BD",
+   "IS_Firearm_SaVz58FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_SaVz58300mm_762x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_SaVz58390mm_762x39",
+  "name": "Sa vz. 58 Barrel 390mm",
+  "short_name": "Sa vz. 58 390",
+  "manufacturer": "CZ",
+  "description": "A precision-engineered 390mm cold-hammer-forged barrel for the Sa vz. 58 rifle. Made from high-grade barrel steel, it offers excellent accuracy, heat resistance, and long-term durability under sustained fire. Chambered in 7.62×39mm with a standard twist rate, it preserves the rifle’s factory ballistics while maintaining its classic balance and handling.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "1 kg",
+  "grid_size": "3x1",
+  "base_price": 493.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 493.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 147.9
+   }
+  ],
+  "stats": {
+   "moa": 1.9,
+   "manipulationModifier": 1.0,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "762x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "BarrelMount_F",
+    "critical": false
+   },
+   {
+    "slot": "Sight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SaVz58",
+   "IS_Firearm_SaVz58BD",
+   "IS_Firearm_SaVz58FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_SaVz58390mm_762x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_SaVz58390mm_762x39BD",
+  "name": "Sa vz. 58 Barrel 390mm (Blackwood Division)",
+  "short_name": "Sa vz. 58 390",
+  "manufacturer": "CZ",
+  "description": "A precision-engineered 390mm cold-hammer-forged barrel for the Sa vz. 58 rifle. Made from high-grade barrel steel, it offers excellent accuracy, heat resistance, and long-term durability under sustained fire. Chambered in 7.62×39mm with a standard twist rate, it preserves the rifle’s factory ballistics while maintaining its classic balance and handling.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "1 kg",
+  "grid_size": "3x1",
+  "base_price": 720.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 216.0
+   }
+  ],
+  "stats": {
+   "moa": 1.8,
+   "manipulationModifier": 1.0,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "762x39"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "BarrelMount_F",
+    "critical": false
+   },
+   {
+    "slot": "Sight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SaVz58",
+   "IS_Firearm_SaVz58BD",
+   "IS_Firearm_SaVz58FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_SaVz58390mm_762x39BD.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_SigMcx16inch_300AC",
+  "name": "SIG MCX Barrel - 16\"",
+  "short_name": "SIG MCX 16''",
+  "manufacturer": "SIG Sauer",
+  "description": "The 16-inch barrel for the SIG MCX, chambered in .300 Blackout, is engineered to optimize the rifle's performance for intermediate to long-range engagements. This barrel length enhances muzzle velocity and accuracy.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "3x1",
+  "base_price": 1360.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 1360.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 408.0
+   }
+  ],
+  "stats": {
+   "moa": 1.95,
+   "manipulationModifier": -4.0,
+   "maximumShots": 6500,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "300AAC"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_SigMcx",
+   "IS_Receiver_SigMcxFDE",
+   "IS_Receiver_SigMcxGN"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_SigMcx16inch_300AC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_SigMcx675inch_300AC",
+  "name": "SIG MCX Barrel - 6.75\"",
+  "short_name": "SIG MCX 6.75''",
+  "manufacturer": "SIG Sauer",
+  "description": "The 6.75-inch barrel for the SIG MCX, chambered in .300 Blackout, is engineered for ultra-compact configurations, making it ideal for close-quarters scenarios and personal defense. Despite its shorter length, it delivers reliable performance and is optimized for subsonic ammunition, making it perfect for suppressed shooting.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.35 kg",
+  "grid_size": "2x1",
+  "base_price": 1020.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 1020.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 306.0
+   }
+  ],
+  "stats": {
+   "moa": 3.27,
+   "manipulationModifier": 18.0,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "300AAC"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_SigMcx",
+   "IS_Receiver_SigMcxFDE",
+   "IS_Receiver_SigMcxGN"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_SigMcx675inch_300AC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_SigMcx675inch_300ACGN",
+  "name": "SIG MCX Barrel - 6.75\" (Ghost Nomad)",
+  "short_name": "SIG MCX 6.75''",
+  "manufacturer": "SIG Sauer",
+  "description": "The 6.75-inch barrel for the SIG MCX, chambered in .300 Blackout, is engineered for ultra-compact configurations, making it ideal for close-quarters scenarios and personal defense. Despite its shorter length, it delivers reliable performance and is optimized for subsonic ammunition, making it perfect for suppressed shooting.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.35 kg",
+  "grid_size": "2x1",
+  "base_price": 1020.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 306.0
+   }
+  ],
+  "stats": {
+   "moa": 3.27,
+   "manipulationModifier": 18.0,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "300AAC"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_SigMcx",
+   "IS_Receiver_SigMcxFDE",
+   "IS_Receiver_SigMcxGN"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_SigMcx675inch_300ACGN.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_SigMcx9inch_300AC",
+  "name": "SIG MCX Barrel - 9\"",
+  "short_name": "SIG MCX 9''",
+  "manufacturer": "SIG Sauer",
+  "description": "The 9-inch barrel for the SIG MCX, chambered in .300 Blackout, strikes an optimal balance between compactness and ballistic performance. Its length is well-suited for the .300 Blackout cartridge, providing effective muzzle velocity and energy retention, making it ideal for both suppressed and unsuppressed applications.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.MCX"
+  ],
+  "weight": "0.45 kg",
+  "grid_size": "2x1",
+  "base_price": 1224.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 1224.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 367.2
+   }
+  ],
+  "stats": {
+   "moa": 2.65,
+   "manipulationModifier": 12.0,
+   "maximumShots": 6400,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "300AAC"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "GasBlock_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_SigMcx",
+   "IS_Receiver_SigMcxFDE",
+   "IS_Receiver_SigMcxGN"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_SigMcx9inch_300AC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_SteyrAug145inch_556x45",
+  "name": "Steyr AUG Barrel - 14.5\"",
+  "short_name": "AUG 14.5\"",
+  "manufacturer": "Steyr Arms",
+  "description": "A 14.5\" cold-hammer-forged barrel chambered in 5.56x45mm NATO for the Steyr AUG. Its shorter length makes the weapon more compact and maneuverable than longer-barreled configurations, at the cost of some muzzle velocity and long-range ballistic performance. The chrome-lined bore and chamber provide increased durability.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.AUG"
+  ],
+  "weight": "0.38 kg",
+  "grid_size": "3x1",
+  "base_price": 790.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Collector",
+    "rank": 3,
+    "price": 790.0
+   }
+  ],
+  "sold_by": "Collector R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 237.0
+   }
+  ],
+  "stats": {
+   "moa": 2.2,
+   "manipulationModifier": 12.0,
+   "speedModifier": 12.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "Foregrip_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SteyrAug",
+   "IS_Firearm_SteyrAugA3",
+   "IS_Firearm_SteyrAugA3DS"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_SteyrAug145inch_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_SteyrAug145inch_556x45DS",
+  "name": "Steyr AUG Barrel - 14.5\" (Desert Storm)",
+  "short_name": "AUG 14.5\"",
+  "manufacturer": "Steyr Arms",
+  "description": "A 14.5\" cold-hammer-forged barrel chambered in 5.56x45mm NATO for the Steyr AUG. Its shorter length makes the weapon more compact and maneuverable than longer-barreled configurations, at the cost of some muzzle velocity and long-range ballistic performance. The chrome-lined bore and chamber provide increased durability.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.AUG"
+  ],
+  "weight": "0.38 kg",
+  "grid_size": "3x1",
+  "base_price": 1620.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 486.0
+   }
+  ],
+  "stats": {
+   "moa": 1.9,
+   "manipulationModifier": 14.0,
+   "speedModifier": 13.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "Foregrip_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SteyrAug",
+   "IS_Firearm_SteyrAugA3",
+   "IS_Firearm_SteyrAugA3DS"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_SteyrAug145inch_556x45DS.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_SteyrAug16inch_556x45",
+  "name": "Steyr AUG Barrel - 16\"",
+  "short_name": "AUG 16\"",
+  "manufacturer": "Steyr Arms",
+  "description": "A 16\" cold-hammer-forged barrel chambered in 5.56x45mm NATO for the Steyr AUG. Its intermediate length offers a balance between the compact handling of shorter barrels and the higher muzzle velocity of longer configurations, while the chrome-lined bore and chamber provide increased durability.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "WeaponPlatform.AUG"
+  ],
+  "weight": "0.43 kg",
+  "grid_size": "3x1",
+  "base_price": 820.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Collector",
+    "rank": 3,
+    "price": 820.0
+   }
+  ],
+  "sold_by": "Collector R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 246.0
+   }
+  ],
+  "stats": {
+   "moa": 2.0,
+   "manipulationModifier": 8.0,
+   "speedModifier": 16.0,
+   "maximumShots": 8700,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "Foregrip_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SteyrAug",
+   "IS_Firearm_SteyrAugA3",
+   "IS_Firearm_SteyrAugA3DS"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_SteyrAug16inch_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_SteyrAug20inch_556x45",
+  "name": "Steyr AUG Barrel - 20\"",
+  "short_name": "AUG 20\"",
+  "manufacturer": "Steyr Arms",
+  "description": "A 20\" cold-hammer-forged barrel chambered in 5.56x45mm NATO for the Steyr AUG. Its full-length configuration provides higher muzzle velocity than shorter AUG barrels, improving ballistic performance at longer ranges, while the chrome-lined bore and chamber provide increased durability.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.AUG"
+  ],
+  "weight": "0.6 kg",
+  "grid_size": "4x1",
+  "base_price": 1150.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 345.0
+   }
+  ],
+  "stats": {
+   "moa": 1.5,
+   "speedModifier": 20.0,
+   "maximumShots": 9500,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "556x45"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "Foregrip_F",
+    "critical": true
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SteyrAug",
+   "IS_Firearm_SteyrAugA3",
+   "IS_Firearm_SteyrAugA3DS"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_SteyrAug20inch_556x45.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Svd620mm_762x54",
+  "name": "SVD Barrel - 620mm",
+  "short_name": "SVD Barrel",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The SVD 620mm barrel is a chrome-lined, hammer-forged component designed for exceptional durability and accuracy. Chambered for 7.62×54mmR, it optimizes velocity and effective range. The 24.4-inch (620mm) length strikes a balance between precision and maneuverability, making it ideal for designated marksman roles. Additionally, the barrel is equipped with a distinctive flash suppressor.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "WeaponPlatform.SVD"
+  ],
+  "weight": "1.3 kg",
+  "grid_size": "5x1",
+  "base_price": 1360.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 1360.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 408.0
+   }
+  ],
+  "stats": {
+   "moa": 0.95,
+   "manipulationModifier": -5.0,
+   "maximumShots": 4000,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "762x54R"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Auxilary_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SvdDragunov",
+   "IS_Firearm_SvdDragunovSW"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Svd620mm_762x54.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Svd620mm_762x54SW",
+  "name": "SVD Barrel - 620mm (Silent Watch)",
+  "short_name": "SVD Barrel",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The SVD 620mm barrel is a chrome-lined, hammer-forged component designed for exceptional durability and accuracy. Chambered for 7.62×54mmR, it optimizes velocity and effective range. The 24.4-inch (620mm) length strikes a balance between precision and maneuverability, making it ideal for designated marksman roles. Additionally, the barrel is equipped with a distinctive flash suppressor.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "WeaponPlatform.SVD"
+  ],
+  "weight": "1.3 kg",
+  "grid_size": "5x1",
+  "base_price": 1360.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 408.0
+   }
+  ],
+  "stats": {
+   "moa": 0.95,
+   "manipulationModifier": -5.0,
+   "maximumShots": 4000,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "762x54R"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Handguard_F",
+    "critical": true
+   },
+   {
+    "slot": "Auxilary_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_SvdDragunov",
+   "IS_Firearm_SvdDragunovSW"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Svd620mm_762x54SW.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Type51_762x25",
+  "name": "Type 51 Barrel",
+  "short_name": "T51 B",
+  "manufacturer": "Norinco",
+  "description": "This barrel is typically made of high-grade steel for durability and resistance to wear. It is designed to handle the pressures generated by the 7.62x25mm Tokarev cartridge and has a rifled bore to stabilize the projectiles.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 221.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 221.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 66.3
+   }
+  ],
+  "stats": {
+   "moa": 12.23,
+   "manipulationModifier": 10.0,
+   "maximumShots": 2100,
+   "repairDifficultyModifier": 0.5,
+   "caliber": [
+    "762x25"
+   ]
+  },
+  "fits_on": [
+   "IS_Firearm_Type51",
+   "IS_Firearm_Type51Hammerhead",
+   "IS_Firearm_Type51Mako",
+   "IS_Firearm_Type51Pencil"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Type51_762x25.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Type51Threaded_762x25",
+  "name": "Type 51 Threaded Barrel",
+  "short_name": "T51 Thr B",
+  "manufacturer": "Norinco",
+  "description": "The Type 51 Tokarev's threaded barrel is made of high-quality steel, providing durability and longevity. This barrel has threading at the muzzle end, allowing for the attachment of muzzle devices like suppressors or compensators. Threaded barrels are designed to withstand the pressures of the 7.62x25mm Tokarev cartridge while maintaining the same precision engineering as standard barrels, providing consistent accuracy and reliability.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.TT"
+  ],
+  "weight": "0.062 kg",
+  "grid_size": "1x1",
+  "base_price": 306.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 306.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 91.8
+   }
+  ],
+  "stats": {
+   "moa": 12.23,
+   "manipulationModifier": 9.0,
+   "maximumShots": 2900,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "762x25"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Type51",
+   "IS_Firearm_Type51Hammerhead",
+   "IS_Firearm_Type51Mako",
+   "IS_Firearm_Type51Pencil"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Type51Threaded_762x25.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_UMP_45Acp",
+  "name": "UMP45 Barrel",
+  "short_name": "UMP45 B",
+  "manufacturer": "Heckler & Koch",
+  "description": "A standard 7.87\" barrel chambered in .45 ACP for the Heckler & Koch UMP45. Its cold-hammer-forged construction and chrome-lined polygonal bore provide excellent durability and resistance to wear.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.UMP"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "1x1",
+  "base_price": 702.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 210.6
+   }
+  ],
+  "stats": {
+   "moa": 5.0,
+   "manipulationModifier": 18.0,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.6,
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_UMP45",
+   "IS_Firearm_UMP45FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_UMP_45Acp.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_UMP_Threaded45Acp",
+  "name": "UMP45 Threaded Barrel",
+  "short_name": "UMP45 Thr B",
+  "manufacturer": "Heckler & Koch",
+  "description": "A standard-length 7.87\" barrel chambered in .45 ACP for the Heckler & Koch UMP45. Its threaded muzzle allows the attachment of compatible suppressors and other muzzle devices while retaining the weapon's original barrel length.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.UMP"
+  ],
+  "weight": "0.42 kg",
+  "grid_size": "1x1",
+  "base_price": 580.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 3,
+    "price": 580.0
+   }
+  ],
+  "sold_by": "Artisan R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 174.0
+   }
+  ],
+  "stats": {
+   "moa": 4.0,
+   "manipulationModifier": -5.0,
+   "speedModifier": 15.0,
+   "maximumShots": 6800,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_UMP45",
+   "IS_Firearm_UMP45FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_UMP_Threaded45Acp.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_UMP_Threaded165inch45Acp",
+  "name": "UMP45 Threaded Barrel - 16.5\"",
+  "short_name": "UMP45 Thr B 16.5\"",
+  "manufacturer": "Heckler & Koch",
+  "description": "A 16.5\" steel barrel chambered in .45 ACP for the HK UMP45. Its extended length provides higher muzzle velocity than standard-length UMP45 barrels, while the 16x1 LH threaded muzzle allows the attachment of compatible suppressors and other muzzle devices.",
+  "tags": [
+   "Origin.West",
+   "WeaponPlatform.UMP",
+   "Size.Middle"
+  ],
+  "weight": "0.75 kg",
+  "grid_size": "2x1",
+  "base_price": 600.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 180.0
+   }
+  ],
+  "stats": {
+   "moa": 4.0,
+   "manipulationModifier": -5.0,
+   "speedModifier": 15.0,
+   "maximumShots": 8200,
+   "repairDifficultyModifier": 0.7,
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_UMP45",
+   "IS_Firearm_UMP45FDE"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_UMP_Threaded165inch45Acp.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_Colt1911Comander_45AcpThreadedAvi",
+  "name": "Viper's Colt 1911 Barrel",
+  "short_name": "B 1911 Barrel",
+  "manufacturer": "EGMT",
+  "description": "Made from 416R-certified stainless steel, this barrel is CNC-machined with precise fit points on the back of the receiver and the bottom of the feet, allowing for accurate lock-up and improved performance with simple hand-file fitting.\n\nThis is a part of the Colt Commander belonging to Aawut \"Viper\" Phasuk, the leader of the armed group occupying Pha Lang Airfield.",
+  "tags": [
+   "Size.Small",
+   "Origin.East",
+   "WeaponPlatform.1911C",
+   "Boss"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 720.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 216.0
+   }
+  ],
+  "stats": {
+   "moa": 12.13,
+   "manipulationModifier": 1.0,
+   "speedModifier": 2.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "45ACP"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Colt1911Commander",
+   "IS_Firearm_Colt1911CommanderAvi",
+   "IS_Firearm_Colt1911CommanderHel"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_Colt1911Comander_45AcpThreadedAvi.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Barrel_M70022inchStandart_762x51Camo",
+  "name": "Yen's M700 Barrel - 22\"",
+  "short_name": "B M700 22''",
+  "manufacturer": "Remington",
+  "description": "A 22\" barrel for the Remington M700 with a unique triangular profile and built-in muzzle brake. This design delivers both on aesthetics and accuracy, providing a balanced mix of maneuverability and bullet velocity.\n\nThis is a part of the Remington M700 belonging to Bane \"Yen\" Seeha, the military commander of Midnight Sapphire.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "WeaponPlatform.M700",
+   "Boss"
+  ],
+  "weight": "1 kg",
+  "grid_size": "4x1",
+  "base_price": 1410.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 423.0
+   }
+  ],
+  "stats": {
+   "moa": 0.61,
+   "manipulationModifier": 1.0,
+   "maximumShots": 8100,
+   "repairDifficultyModifier": 0.8,
+   "caliber": [
+    "762x51"
+   ]
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_M700",
+   "IS_Firearm_M700Camo",
+   "IS_Firearm_M700GC"
+  ],
+  "image": "https://gzw-data.dev/assets/items/barrels/IS_Barrel_M70022inchStandart_762x51Camo.webp",
+  "source": "game-files"
+ }
+]

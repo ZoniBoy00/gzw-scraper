@@ -1,0 +1,1985 @@
+[
+ {
+  "id": "IS_Rig_6sh104",
+  "name": "6Sh104",
+  "manufacturer": "FORT technologies",
+  "description": "A practical and balanced load-carrying system for military and tactical use. Commonly used by the Russian Armed Forces, this rig features enough pouches for four magazines and one grenade, as well as two additional utility pouches and a combat backpack.",
+  "tags": [
+   "Origin.East",
+   "Size.Big"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "4x4",
+  "base_price": 700.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 700.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 210.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_6sh104.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_6sh104_Coyote",
+  "name": "6Sh104 (Coyote)",
+  "short_name": "6Sh104",
+  "manufacturer": "FORT technologies",
+  "description": "A practical and balanced load-carrying system for military and tactical use. Commonly used by the Russian Armed Forces, this rig features enough pouches for four magazines and one grenade, as well as two additional utility pouches and a combat backpack.",
+  "tags": [
+   "Origin.East",
+   "Size.Big"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "4x4",
+  "base_price": 680.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 680.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_6sh104_Coyote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_6sh104_Olive",
+  "name": "6Sh104 (Olive)",
+  "short_name": "6Sh104",
+  "manufacturer": "FORT technologies",
+  "description": "A practical and balanced load-carrying system for military and tactical use. Commonly used by the Russian Armed Forces, this rig features enough pouches for four magazines and one grenade, as well as two additional utility pouches and a combat backpack.",
+  "tags": [
+   "Origin.East",
+   "Size.Big"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "4x4",
+  "base_price": 680.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_6sh104_Olive.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Alice",
+  "name": "ALICE",
+  "manufacturer": "US Army",
+  "description": "The ALICE (All-Purpose Lightweight Individual Carrying Equipment) chest rig is a classic and reliable tactical gear known for its simplicity and effectiveness. Originally developed by the United States military, it has become a popular choice among outdoor enthusiasts and those seeking a lightweight and versatile load-carrying system.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.95 kg",
+  "grid_size": "2x4",
+  "base_price": 130.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 130.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 39.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Alice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_BikerChestRig",
+  "name": "Biker Chest Rig",
+  "short_name": "Biker",
+  "manufacturer": "Sepeda Moto",
+  "description": "A chest rig designed for bikers to have all their necessities close by.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.35 kg",
+  "grid_size": "2x3",
+  "base_price": 60.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 60.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_BikerChestRig.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_BikerChestRig_Lht_01",
+  "name": "Biker Chest Rig",
+  "short_name": "Biker",
+  "manufacturer": "Sepeda Moto",
+  "description": "A chest rig designed for bikers to have all their necessities close by.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.35 kg",
+  "grid_size": "2x3",
+  "base_price": 60.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_BikerChestRig_Lht_01.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_BikerChestRig_Lht_02",
+  "name": "Biker Chest Rig",
+  "short_name": "Biker",
+  "manufacturer": "Sepeda Moto",
+  "description": "A chest rig designed for bikers to have all their necessities close by.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.35 kg",
+  "grid_size": "2x3",
+  "base_price": 60.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_BikerChestRig_Lht_02.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_MiniRigATacs_Boss",
+  "name": "Broker's Training Mini Rig",
+  "short_name": "B TMR",
+  "manufacturer": "Helikon-Tex",
+  "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.\n\nThis rig belongs to Hoang \"Broker\" Lam Nam, the leader of the armed group occupying Hunter's Paradise.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "3x3",
+  "base_price": 210.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 63.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs_Boss.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_BikerChestRig_Boss",
+  "name": "Chaonai's Biker Chest Rig",
+  "short_name": "B Biker",
+  "manufacturer": "Sepeda Moto",
+  "description": "A chest rig designed for bikers to have all their necessities close by.\n\nThis rig belongs to Makan \"Chaonai\" Zhang, the leader of the Nam Thaven criminal gang.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.35 kg",
+  "grid_size": "2x3",
+  "base_price": 60.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_BikerChestRig_Boss.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_6sh104_Boss",
+  "name": "Colonel's 6Sh104",
+  "short_name": "B 6Sh104",
+  "manufacturer": "FORT technologies",
+  "description": "A practical and balanced load-carrying system for military and tactical use. Commonly used by the Russian Armed Forces, this rig features enough pouches for four magazines and one grenade, as well as two additional utility pouches and a combat backpack.\n\nThis rig belongs to Palani \"Colonel\" Ketthavong, the military commander of Tiger Bay.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "Boss"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "4x4",
+  "base_price": 700.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 210.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_6sh104_Boss.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Alice_BossLla",
+  "name": "Firebrand's ALICE",
+  "short_name": "B ALICE",
+  "manufacturer": "US Army",
+  "description": "The ALICE (All-Purpose Lightweight Individual Carrying Equipment) chest rig is a classic and reliable tactical gear known for its simplicity and effectiveness. Originally developed by the United States military, it has become a popular choice among outdoor enthusiasts and those seeking a lightweight and versatile load-carrying system.\n\nThis rig belongs to Lani \"Firebrand\" Sayavong, the leader of the armed group occupying YBL-1.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.95 kg",
+  "grid_size": "2x4",
+  "base_price": 130.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 39.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Alice_BossLla.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_MiniRigATacs_BossBL",
+  "name": "Grin's Training Mini Rig",
+  "short_name": "B TMR",
+  "manufacturer": "Helikon-Tex",
+  "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.\n\nThis rig belongs to Malo \"Grin\" Luangrath, the leader of the armed group occupying Blue Lagoon.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "3x3",
+  "base_price": 210.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 63.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs_BossBL.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_ImprovizedRig",
+  "name": "Improvized Rig",
+  "short_name": "IRig",
+  "manufacturer": "General Local",
+  "description": "A rough, makeshift rig assembled from available materials. It's a basic, hastily crafted solution for carrying gear, lacking finesse but serving its purpose in a pinch.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.2 kg",
+  "grid_size": "2x2",
+  "base_price": 30.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 9.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": null,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_ImprovizedRig.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_KangarooTacticalRig",
+  "name": "Kangaroo Tactical Rig",
+  "short_name": "Kangaroo",
+  "manufacturer": "ANA-Tactical",
+  "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.68 kg",
+  "grid_size": "3x4",
+  "base_price": 380.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 380.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 114.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 6,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_KangarooTacticalRig_Cat",
+  "name": "Kangaroo Tactical Rig",
+  "short_name": "Kangaroo",
+  "manufacturer": "ANA-Tactical",
+  "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.68 kg",
+  "grid_size": "3x4",
+  "base_price": 380.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 114.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 6,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_Cat.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_KangarooTacticalRig_Laf",
+  "name": "Kangaroo Tactical Rig",
+  "short_name": "Kangaroo",
+  "manufacturer": "ANA-Tactical",
+  "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.68 kg",
+  "grid_size": "3x4",
+  "base_price": 380.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 114.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 6,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_Laf.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_KangarooTacticalRig_Lht",
+  "name": "Kangaroo Tactical Rig",
+  "short_name": "Kangaroo",
+  "manufacturer": "ANA-Tactical",
+  "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.68 kg",
+  "grid_size": "3x4",
+  "base_price": 380.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 114.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 6,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_Lht.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_KangarooTacticalRig_Lla",
+  "name": "Kangaroo Tactical Rig",
+  "short_name": "Kangaroo",
+  "manufacturer": "ANA-Tactical",
+  "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.68 kg",
+  "grid_size": "3x4",
+  "base_price": 380.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 114.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 6,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_Lla.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_KangarooTacticalRig_NoDropPouch",
+  "name": "Kangaroo Tactical Rig",
+  "short_name": "Kangaroo",
+  "manufacturer": "ANA-Tactical",
+  "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.5 kg",
+  "grid_size": "3x3",
+  "base_price": 260.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 260.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 78.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_NoDropPouch.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_KangarooTacticalRig_NoDropPouch_Cat",
+  "name": "Kangaroo Tactical Rig",
+  "short_name": "Kangaroo",
+  "manufacturer": "ANA-Tactical",
+  "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.5 kg",
+  "grid_size": "3x3",
+  "base_price": 260.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 78.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_NoDropPouch_Cat.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_KangarooTacticalRig_NoDropPouch_Laf",
+  "name": "Kangaroo Tactical Rig",
+  "short_name": "Kangaroo",
+  "manufacturer": "ANA-Tactical",
+  "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.5 kg",
+  "grid_size": "3x3",
+  "base_price": 260.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 78.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_NoDropPouch_Laf.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_KangarooTacticalRig_NoDropPouch_Lht",
+  "name": "Kangaroo Tactical Rig",
+  "short_name": "Kangaroo",
+  "manufacturer": "ANA-Tactical",
+  "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.5 kg",
+  "grid_size": "3x3",
+  "base_price": 260.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 78.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_NoDropPouch_Lht.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Tactec_Boss",
+  "name": "Kaptei's TacTec Chest Rig",
+  "short_name": "B TacTec",
+  "manufacturer": "5.11",
+  "description": "The TacTec Chest Rig is a high-performance tactical load-carrying system that provides a sturdy and reliable foundation for any operator's tactical kit. With its durable construction and practical design, it provides a reliable platform for organizing and accessing essential gear during operations. \n\nThis rig belongs to Sang \"Kaptei\" Samnang, the leader of the armed group occupying the sawmill.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.55 kg",
+  "grid_size": "3x4",
+  "base_price": 320.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 96.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 5,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Tactec_Boss.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_MayflowerGenIV",
+  "name": "Mayflower UW Chest Rig Gen IV",
+  "short_name": "Mayflower",
+  "manufacturer": "Velocity Systems",
+  "description": "A low-profile cutting-edge tactical vest with a fully customizable and comfortable fit featuring ample storage space for magazines, grenades, and other essential gear. Durable and lightweight, the Mayflower UW Chest Rig Gen IV allows users to maintain peak performance and agility even during extended wear.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.57 kg",
+  "grid_size": "3x5",
+  "base_price": 640.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 640.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 192.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 5,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MayflowerGenIV.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Type56Ak_BossPirates",
+  "name": "Naga's Type 56 AK",
+  "short_name": "B Type 56",
+  "manufacturer": "Chinese Military",
+  "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.\n\nThis rig belongs to Sabtu \"Naga\" bin Panjang, the leader of the armed group occupying Ban Pa.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "3x3",
+  "base_price": 90.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 27.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Ak_BossPirates.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_ReconChestRig",
+  "name": "Recon Chest Rig",
+  "short_name": "Recon",
+  "manufacturer": "Condor Outdoor",
+  "description": "The Recon Chest Rig is a highly functional tactical gear with built-in kangaroo-style magazine pouches, offering quick and seamless access to up to six AR and pistol magazines. Its design facilitates faster reloads and keeps essential ammunition readily available during intense operations.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.78 kg",
+  "grid_size": "4x3",
+  "base_price": 440.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 440.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 132.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_ReconChestRig.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_ReconChestRig_Dark",
+  "name": "Recon Chest Rig",
+  "short_name": "Recon",
+  "manufacturer": "Condor Outdoor",
+  "description": "The Recon Chest Rig is a highly functional tactical gear with built-in kangaroo-style magazine pouches, offering quick and seamless access to up to six AR and pistol magazines. Its design facilitates faster reloads and keeps essential ammunition readily available during intense operations.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.78 kg",
+  "grid_size": "4x3",
+  "base_price": 440.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 132.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_ReconChestRig_Dark.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_ReconChestRig_Dark_ThaiMercs",
+  "name": "Recon Chest Rig",
+  "short_name": "Recon",
+  "manufacturer": "Condor Outdoor",
+  "description": "The Recon Chest Rig is a highly functional tactical gear with built-in kangaroo-style magazine pouches, offering quick and seamless access to up to six AR and pistol magazines. Its design facilitates faster reloads and keeps essential ammunition readily available during intense operations.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.78 kg",
+  "grid_size": "4x3",
+  "base_price": 440.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 132.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_ReconChestRig_Dark_ThaiMercs.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_SmallRig",
+  "name": "Small Rig",
+  "short_name": "SRig",
+  "manufacturer": "General Local",
+  "description": "A basic, compact rig designed for minimalistic gear carrying. It's a simple and unassuming accessory, offering limited storage capacity for essential items in a streamlined manner.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "2x3",
+  "base_price": 55.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 16.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_SmallRig.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_SmallRig_MalayPirates",
+  "name": "Small Rig",
+  "short_name": "SRig",
+  "manufacturer": "General Local",
+  "description": "A basic, compact rig designed for minimalistic gear carrying. It's a simple and unassuming accessory, offering limited storage capacity for essential items in a streamlined manner.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "2x3",
+  "base_price": 55.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 16.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_SmallRig_MalayPirates.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_SmallRig_MalayPirates_02",
+  "name": "Small Rig",
+  "short_name": "SRig",
+  "manufacturer": "General Local",
+  "description": "A basic, compact rig designed for minimalistic gear carrying. It's a simple and unassuming accessory, offering limited storage capacity for essential items in a streamlined manner.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "2x3",
+  "base_price": 55.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 16.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_SmallRig_MalayPirates_02.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Tactec",
+  "name": "TacTec Chest Rig",
+  "short_name": "TacTec",
+  "manufacturer": "5.11",
+  "description": "The TacTec Chest Rig is a high-performance tactical load-carrying system that provides a sturdy and reliable foundation for any operator's tactical kit. With its durable construction and practical design, it provides a reliable platform for organizing and accessing essential gear during operations.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.55 kg",
+  "grid_size": "3x4",
+  "base_price": 320.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 320.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 96.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 5,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Tactec.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Tactec_Cat",
+  "name": "TacTec Chest Rig",
+  "short_name": "TacTec",
+  "manufacturer": "5.11",
+  "description": "The TacTec Chest Rig is a high-performance tactical load-carrying system that provides a sturdy and reliable foundation for any operator's tactical kit. With its durable construction and practical design, it provides a reliable platform for organizing and accessing essential gear during operations.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.55 kg",
+  "grid_size": "3x4",
+  "base_price": 320.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 96.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 5,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Tactec_Cat.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Tactec_Dark",
+  "name": "TacTec Chest Rig",
+  "short_name": "TacTec",
+  "manufacturer": "5.11",
+  "description": "The TacTec Chest Rig is a high-performance tactical load-carrying system that provides a sturdy and reliable foundation for any operator's tactical kit. With its durable construction and practical design, it provides a reliable platform for organizing and accessing essential gear during operations.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.55 kg",
+  "grid_size": "3x4",
+  "base_price": 320.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 96.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 5,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Tactec_Dark.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Tactec_Lla",
+  "name": "TacTec Chest Rig",
+  "short_name": "TacTec",
+  "manufacturer": "5.11",
+  "description": "The TacTec Chest Rig is a high-performance tactical load-carrying system that provides a sturdy and reliable foundation for any operator's tactical kit. With its durable construction and practical design, it provides a reliable platform for organizing and accessing essential gear during operations.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.55 kg",
+  "grid_size": "3x4",
+  "base_price": 320.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 96.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 5,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Tactec_Lla.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Tactec_ThaiMercs",
+  "name": "TacTec Chest Rig",
+  "short_name": "TacTec",
+  "manufacturer": "5.11",
+  "description": "The TacTec Chest Rig is a high-performance tactical load-carrying system that provides a sturdy and reliable foundation for any operator's tactical kit. With its durable construction and practical design, it provides a reliable platform for organizing and accessing essential gear during operations.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.55 kg",
+  "grid_size": "3x4",
+  "base_price": 320.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 96.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 5,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Tactec_ThaiMercs.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Tactec_VietGang",
+  "name": "TacTec Chest Rig",
+  "short_name": "TacTec",
+  "manufacturer": "5.11",
+  "description": "The TacTec Chest Rig is a high-performance tactical load-carrying system that provides a sturdy and reliable foundation for any operator's tactical kit. With its durable construction and practical design, it provides a reliable platform for organizing and accessing essential gear during operations.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.55 kg",
+  "grid_size": "3x4",
+  "base_price": 320.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 96.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 5,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Tactec_VietGang.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_MiniRigATacs",
+  "name": "Training Mini Rig",
+  "short_name": "TMR",
+  "manufacturer": "Helikon-Tex",
+  "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "3x3",
+  "base_price": 210.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 210.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 63.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_MiniRigATacs_NoDropPouch",
+  "name": "Training Mini Rig",
+  "short_name": "TMR",
+  "manufacturer": "Helikon-Tex",
+  "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.6 kg",
+  "grid_size": "2x3",
+  "base_price": 100.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 1,
+    "price": 100.0
+   }
+  ],
+  "sold_by": "Handshake R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs_NoDropPouch.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_MiniRigATacs_NoDropPouch_CAT",
+  "name": "Training Mini Rig",
+  "short_name": "TMR",
+  "manufacturer": "Helikon-Tex",
+  "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.6 kg",
+  "grid_size": "2x3",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs_NoDropPouch_CAT.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_MiniRigATacs_NoDropPouch_ThaiMercs",
+  "name": "Training Mini Rig",
+  "short_name": "TMR",
+  "manufacturer": "Helikon-Tex",
+  "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.6 kg",
+  "grid_size": "2x3",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs_NoDropPouch_ThaiMercs.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_MiniRigATacs_NoDropPouch_VietGang",
+  "name": "Training Mini Rig",
+  "short_name": "TMR",
+  "manufacturer": "Helikon-Tex",
+  "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.6 kg",
+  "grid_size": "2x3",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs_NoDropPouch_VietGang.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_MiniRigATacs_NoDropPouch_VietGang_02",
+  "name": "Training Mini Rig",
+  "short_name": "TMR",
+  "manufacturer": "Helikon-Tex",
+  "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.6 kg",
+  "grid_size": "2x3",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs_NoDropPouch_VietGang_02.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_MiniRigATacs_ThaiMercs",
+  "name": "Training Mini Rig",
+  "short_name": "TMR",
+  "manufacturer": "Helikon-Tex",
+  "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.7 kg",
+  "grid_size": "3x3",
+  "base_price": 210.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 63.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs_ThaiMercs.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Type56Ak",
+  "name": "Type 56 AK",
+  "short_name": "Type 56",
+  "manufacturer": "Chinese Military",
+  "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "3x3",
+  "base_price": 90.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 90.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 27.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Ak.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Type56Ak_Black",
+  "name": "Type 56 AK",
+  "short_name": "Type 56",
+  "manufacturer": "Chinese Military",
+  "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "3x3",
+  "base_price": 90.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 27.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Ak_Black.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Type56Ak_Dark",
+  "name": "Type 56 AK",
+  "short_name": "Type 56",
+  "manufacturer": "Chinese Military",
+  "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "3x3",
+  "base_price": 90.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 27.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Ak_Dark.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Type56Ak_LLA",
+  "name": "Type 56 AK",
+  "short_name": "Type 56",
+  "manufacturer": "Chinese Military",
+  "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "3x3",
+  "base_price": 90.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 27.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Ak_LLA.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Type56Ak_Lht",
+  "name": "Type 56 AK",
+  "short_name": "Type 56",
+  "manufacturer": "Chinese Military",
+  "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "3x3",
+  "base_price": 90.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 27.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Ak_Lht.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Type56Ak_Pirates_01",
+  "name": "Type 56 AK",
+  "short_name": "Type 56",
+  "manufacturer": "Chinese Military",
+  "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "3x3",
+  "base_price": 90.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 27.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Ak_Pirates_01.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Type56Ak_Pirates_02",
+  "name": "Type 56 AK",
+  "short_name": "Type 56",
+  "manufacturer": "Chinese Military",
+  "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "3x3",
+  "base_price": 90.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 27.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Ak_Pirates_02.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Type56Sks",
+  "name": "Type 56 SKS",
+  "manufacturer": "Chinese Military",
+  "description": "This lightweight chest rig was designed for SKS ammunition clips. Its sturdy yet simple construction doesn’t limit movement and can be adjusted for a perfect fit.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.35 kg",
+  "grid_size": "3x3",
+  "base_price": 70.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 70.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 21.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 6,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Sks.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_Type56Sks_Dark",
+  "name": "Type 56 SKS",
+  "manufacturer": "Chinese Military",
+  "description": "This lightweight chest rig was designed for SKS ammunition clips. Its sturdy yet simple construction doesn’t limit movement and can be adjusted for a perfect fit.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.35 kg",
+  "grid_size": "3x3",
+  "base_price": 70.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 21.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 6,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Sks_Dark.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_UniversalChestBag",
+  "name": "Universal Chest Bag",
+  "short_name": "Chest Bag",
+  "manufacturer": "Changleedo",
+  "description": "Lightweight nylon chest bag with two side pouches.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "2x3",
+  "base_price": 40.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 40.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 12.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_UniversalChestBag.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Rig_UniversalChestBag_Lht",
+  "name": "Universal Chest Bag",
+  "short_name": "Chest Bag",
+  "manufacturer": "Changleedo",
+  "description": "Lightweight nylon chest bag with two side pouches.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "2x3",
+  "base_price": 40.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 12.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_UniversalChestBag_Lht.webp",
+  "source": "game-files"
+ }
+]

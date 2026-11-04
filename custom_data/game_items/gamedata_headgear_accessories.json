@@ -1,0 +1,2940 @@
+[
+ {
+  "id": "IS_Headset_3mPeltorComtacII",
+  "name": "3M Comtac II",
+  "short_name": "Comtac II",
+  "manufacturer": "Peltor",
+  "description": "An advanced tactical communication headset, designed to deliver exceptional hearing protection and clear two-way communication in challenging environments. Equipped with electronic noise reduction technology, it actively suppresses harmful noises while enhancing situational awareness by amplifying important ambient sounds. Waterproof with up to 270 hours of battery life.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.68 kg",
+  "grid_size": "2x2",
+  "base_price": 825.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 825.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 247.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Headset_3mPeltorComtacII.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Headset_ActiveHeadsetGssh01",
+  "name": "Active headset GSSh-01",
+  "short_name": "GSSh-01",
+  "manufacturer": "Zavod Luc",
+  "description": "The GSSh-01 is an active headset designed to provide hearing protection and clear communication in noisy environments. With its active noise-cancellation technology, it reduces harmful sounds while allowing important ambient sounds to be heard.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.33 kg",
+  "grid_size": "2x2",
+  "base_price": 170.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 170.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Headset_ActiveHeadsetGssh01.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_Aviator_Black",
+  "name": "Aviator (Black)",
+  "short_name": "Aviator",
+  "manufacturer": "Randolph",
+  "description": "These sunglasses feature oversized lenses that provide excellent eye coverage and protection from the sun's rays. Initially designed for pilots in the 1930s, the Aviator eyewear style is truly timeless.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.036 kg",
+  "grid_size": "2x1",
+  "base_price": 61.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18.3
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.2,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_Aviator_Black.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_Aviator_Green",
+  "name": "Aviator (Green)",
+  "short_name": "Aviator",
+  "manufacturer": "Randolph",
+  "description": "These sunglasses feature oversized lenses that provide excellent eye coverage and protection from the sun's rays. Initially designed for pilots in the 1930s, the Aviator eyewear style is truly timeless.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.036 kg",
+  "grid_size": "2x1",
+  "base_price": 61.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18.3
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.2,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_Aviator_Green.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BaseballCapBack_Blue",
+  "name": "Backwards Baseball Cap (Blue)",
+  "short_name": "BBCap",
+  "manufacturer": "Sunset Cap Company",
+  "description": "A baseball cap worn backwards for maximum coolness. How do you do, fellow kids?",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.11 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BaseballCapBack_Blue.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BaseballCapBack_Green",
+  "name": "Backwards Baseball Cap (Green)",
+  "short_name": "BBCap",
+  "manufacturer": "Sunset Cap Company",
+  "description": "A baseball cap worn backwards for maximum coolness. How do you do, fellow kids?",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.11 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BaseballCapBack_Green.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Enemy_RebelMask_RebelHead_Mask_01",
+  "name": "Balaclava (Black)",
+  "tags": [
+   "NotForStatistics"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 7.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 2.1
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Enemy_RebelMask_RebelHead_Mask_01.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Enemy_RebelMask_RebelHead_Mask_02",
+  "name": "Balaclava (Black)",
+  "tags": [
+   "NotForStatistics"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 7.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 2.1
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Enemy_RebelMask_RebelHead_Mask_02.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mask_BalaclavaHole_Cat",
+  "name": "Balaclava (Black)",
+  "short_name": "Blcv",
+  "manufacturer": "Happyclothes",
+  "description": "Made from breathable fabric, this balaclava offers effective facial concealment while shielding the wearer from harmful UV rays.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 8.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 2.4
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_BalaclavaHole_Cat.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mask_Balaclava_Black",
+  "name": "Balaclava (Black)",
+  "short_name": "Blcv",
+  "manufacturer": "Happyclothes",
+  "description": "Made from breathable fabric, this balaclava offers effective facial concealment while shielding the wearer from harmful UV rays.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 8.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 8.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 2.4
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_Balaclava_Black.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mask_Balaclava_Cat",
+  "name": "Balaclava (Black)",
+  "short_name": "Blcv",
+  "manufacturer": "Happyclothes",
+  "description": "Made from breathable fabric, this balaclava offers effective facial concealment while shielding the wearer from harmful UV rays.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 8.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 2.4
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_Balaclava_Cat.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mask_Balaclava_Green",
+  "name": "Balaclava (Green)",
+  "short_name": "Blcv",
+  "manufacturer": "Happyclothes",
+  "description": "Made from breathable fabric, this balaclava offers effective facial concealment while shielding the wearer from harmful UV rays.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 8.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 2.4
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_Balaclava_Green.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_OakleyBallisticMFrame30_Clear",
+  "name": "Ballistic M Frame 3.0 (Clear)",
+  "short_name": "MFrame C",
+  "manufacturer": "Oakley",
+  "description": "The Oakley Ballistic M Frame 3.0 is a high-performance eyewear system designed for rugged environments and ballistic protection. Its impact-resistant lenses provide perfect vision and shield the eyes from hazardous elements. The clear lenses provide excellent optical clarity and do not alter color perception, making them ideal for low-light and indoor settings.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.03 kg",
+  "grid_size": "2x1",
+  "base_price": 88.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 88.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 26.4
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.3,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_OakleyBallisticMFrame30_Clear.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_OakleyBallisticMFrame30_Tinted",
+  "name": "Ballistic M Frame 3.0 (Tinted)",
+  "short_name": "MFrame T",
+  "manufacturer": "Oakley",
+  "description": "The Oakley Ballistic M Frame 3.0 with tinted lenses is a high-performance eyewear system designed for versatile eye protection in bright and sunny conditions. With its impact-resistant lenses and tinted finish, it reduces glare and enhances visual clarity in outdoor environments.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.03 kg",
+  "grid_size": "2x1",
+  "base_price": 88.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 26.4
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.3,
+   "protectionFactor": 0.15,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_OakleyBallisticMFrame30_Tinted.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Bandana_Blue",
+  "name": "Bandana (Blue)",
+  "short_name": "Bandana",
+  "manufacturer": "FKH int. comp.",
+  "description": "A piece of cloth worn on the head for both protective and decorative purposes. This one is blue.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.9
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Bandana_Blue.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Bandana_Red",
+  "name": "Bandana (Red)",
+  "short_name": "Bandana",
+  "manufacturer": "FKH int. comp.",
+  "description": "A piece of cloth worn on the head for both protective and decorative purposes. This one is red.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.9
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Bandana_Red.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Bandana_Woodland",
+  "name": "Bandana (Woodland)",
+  "short_name": "Bandana",
+  "manufacturer": "FKH int. comp.",
+  "description": "A piece of cloth worn on the head for both protective and decorative purposes. Sadly, this one doesn't give you infinite ammo.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 6.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1.8
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Bandana_Woodland.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BaseballCapLogo_Cat",
+  "name": "Baseball Cap (Black)",
+  "short_name": "BCap",
+  "manufacturer": "Naksu Dress",
+  "description": "A soft hat that protects the eyes from the sun.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.9
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.2,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BaseballCapLogo_Cat.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BaseballCap_Dark",
+  "name": "Baseball Cap (Black)",
+  "short_name": "BCap",
+  "manufacturer": "Sunset Cap Company",
+  "description": "A soft hat that protects the eyes from the sun.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.11 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 1,
+    "price": 5.0
+   }
+  ],
+  "sold_by": "Handshake R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1.5
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.3,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BaseballCap_Dark.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BaseballCapLogo_Blue",
+  "name": "Baseball Cap (Blue)",
+  "short_name": "BCap",
+  "manufacturer": "Naksu Dress",
+  "description": "A soft hat that protects the eyes from the sun.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.9
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.3,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BaseballCapLogo_Blue.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BaseballCapLogo_Cat_02",
+  "name": "Baseball Cap (Blue)",
+  "short_name": "BCap",
+  "manufacturer": "Naksu Dress",
+  "description": "A soft hat that protects the eyes from the sun.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.9
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.2,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BaseballCapLogo_Cat_02.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BaseballCapLogo_Green",
+  "name": "Baseball Cap (Green)",
+  "short_name": "BCap",
+  "manufacturer": "Naksu Dress",
+  "description": "A soft hat that protects the eyes from the sun.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.9
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.3,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BaseballCapLogo_Green.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BaseballCap_Hacker",
+  "name": "Baseball Cap (Hacker)",
+  "short_name": "Bcap",
+  "manufacturer": "General West",
+  "description": "A soft hat that protects the eyes from the sun. Pulled low, it can also help keep unwanted attention away.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "NotForStatistics"
+  ],
+  "weight": "0.11 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1.5
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.2,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BaseballCap_Hacker.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BaseballCap_Green",
+  "name": "Baseball Cap (Khaki)",
+  "short_name": "BCap",
+  "manufacturer": "Mil-Tec",
+  "description": "A soft hat that protects the eyes from the sun. Made from 100% cotton and featuring an adjustable strap.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.11 kg",
+  "grid_size": "1x1",
+  "base_price": 7.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 2.1
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.3,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BaseballCap_Green.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BaseballCapLogo_Red",
+  "name": "Baseball Cap (Red)",
+  "short_name": "BCap",
+  "manufacturer": "Naksu Dress",
+  "description": "A soft hat that protects the eyes from the sun.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.9
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.3,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BaseballCapLogo_Red.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Beret_Black",
+  "name": "Beret (Black)",
+  "short_name": "Beret",
+  "manufacturer": "Force Paw",
+  "description": "Similar to the red beret, the black beret is worn by military forces all around the world, but sadly is not as famous as its more vivid sibling.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 13.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 3.9
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.2,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Beret_Black.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Beret_Green",
+  "name": "Beret (Green)",
+  "short_name": "Beret",
+  "manufacturer": "General East",
+  "description": "Possibly one of the most well-known types of headwear, the green beret is often worn by many military and police forces worldwide.",
+  "tags": [
+   "Size.Middle",
+   "Origin.East"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 14.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 4.2
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.2,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Beret_Green.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Beret_Laf",
+  "name": "Beret (Lamang Armed Forces)",
+  "short_name": "Beret",
+  "manufacturer": "General East",
+  "description": "A beret worn by the officers of the LAF.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 14.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 4.2
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Beret_Laf.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Beret_Red",
+  "name": "Beret (Red)",
+  "short_name": "Beret",
+  "manufacturer": "FKH int. comp.",
+  "description": "Possibly one of the most well-known types of headwear, the red beret is often worn by many military and police forces worldwide.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 14.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 4.2
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.2,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Beret_Red.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BoonieHat_Olive",
+  "name": "Boonie Hat (Olive)",
+  "short_name": "Boonie",
+  "manufacturer": "Mil-Tec",
+  "description": "A boonie hat, also known as a bush hat, is a wide-brimmed hat designed for military and outdoor use. It provides protection from sun and rain and includes an adjustable chin strap for a secure fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "2x2",
+  "base_price": 6.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 6.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1.8
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.4,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BoonieHat_Olive.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BoonieHat_OliveLla",
+  "name": "Boonie Hat (Olive)",
+  "short_name": "Boonie",
+  "manufacturer": "Mil-Tec",
+  "description": "A boonie hat, also known as a bush hat, is a wide-brimmed hat designed for military and outdoor use. It provides protection from sun and rain and includes an adjustable chin strap for a secure fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "2x2",
+  "base_price": 6.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1.8
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.4,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BoonieHat_OliveLla.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BoonieHat_Sand",
+  "name": "Boonie Hat (Sand)",
+  "short_name": "Boonie",
+  "manufacturer": "Westrooper",
+  "description": "A boonie hat, also known as a bush hat, is a wide-brimmed hat designed for military and outdoor use. It provides protection from sun and rain and includes an adjustable chin strap for a secure fit.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "2x2",
+  "base_price": 6.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 6.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1.8
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.4,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BoonieHat_Sand.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BoonieHat_Woodland",
+  "name": "Boonie Hat (Woodland)",
+  "short_name": "Boonie",
+  "manufacturer": "Tru-Spec",
+  "description": "A boonie hat, also known as a bush hat, is a wide-brimmed hat designed for military and outdoor use. It provides protection from sun and rain and includes an adjustable chin strap for a secure fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "2x2",
+  "base_price": 9.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 9.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 2.7
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.4,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BoonieHat_Woodland.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_BoonieHat_Woodland_ThaiMercs",
+  "name": "Boonie Hat (Woodland)",
+  "short_name": "Boonie",
+  "manufacturer": "Tru-Spec",
+  "description": "A boonie hat, also known as a bush hat, is a wide-brimmed hat designed for military and outdoor use. It provides protection from sun and rain and includes an adjustable chin strap for a secure fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "2x2",
+  "base_price": 9.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 2.7
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.4,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BoonieHat_Woodland_ThaiMercs.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mask_Balaclava_Camo",
+  "name": "Breathable Balaclava (Camo)",
+  "short_name": "Blcv",
+  "manufacturer": "Vulkit",
+  "description": "Made from breathable fabric, this balaclava offers effective facial concealment while shielding the wearer from harmful UV rays.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 10.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 3.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_Balaclava_Camo.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Beret_BossMB",
+  "name": "Buran's Beret",
+  "short_name": "B Beret",
+  "manufacturer": "Force Paw",
+  "description": "The beret is possibly one of the most well-known types of headwear. It is worn by many military and police forces worldwide.\n\nThis beret belongs to Arkady \"Buran\" Vititsky, the military commander of Fort Narith.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 13.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 3.9
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Beret_BossMB.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_Round_Sunglasses_Boss",
+  "name": "Chaonai's Round Sunglasses",
+  "short_name": "B Lennon",
+  "manufacturer": "Genlemen's Delight",
+  "description": "Iconic sunglasses that became popular in the 1960s and are still fashionable today. They are characterized by their circular lenses and thin metal frames, often associated with the legendary musician John Lennon, who frequently wore them.\n\nThese sunglasses belong to Makan \"Chaonai\" Zhang, the leader of the Nam Thaven criminal gang.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "Boss"
+  ],
+  "weight": "0.02 kg",
+  "grid_size": "2x1",
+  "base_price": 33.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 9.9
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.1,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_Round_Sunglasses_Boss.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Headset_ActiveHeadsetGssh01_Boss",
+  "name": "Colonel's Active headset GSSh-01",
+  "short_name": "B GSSh-01",
+  "manufacturer": "Zavod Luc",
+  "description": "The GSSh-01 is an active headset designed to provide hearing protection and clear communication in noisy environments. With its active noise-cancellation technology, it reduces harmful sounds while allowing important ambient sounds to be heard.\n\nThis headset belongs to Palani \"Colonel\" Ketthavong, the military commander of Tiger Bay.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.33 kg",
+  "grid_size": "2x2",
+  "base_price": 170.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Headset_ActiveHeadsetGssh01_Boss.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Beret_BossTB",
+  "name": "Colonel's Beret",
+  "short_name": "B Beret",
+  "manufacturer": "Force Paw",
+  "description": "The beret is possibly one of the most well-known types of headwear. It is worn by many military and police forces worldwide.\n\nThis beret belongs to Palani \"Colonel\" Ketthavong, the military commander of Tiger Bay.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 15.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 4.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Beret_BossTB.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_TacticalGlassesCondor_Clear",
+  "name": "Condor (Clear)",
+  "short_name": "Condor C",
+  "manufacturer": "NPP Klass",
+  "description": "A lightweight protective eyewear, offering solid eye coverage for shooting, airsoft, and outdoor activities while providing a comfortable fit.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.045 kg",
+  "grid_size": "2x1",
+  "base_price": 48.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 1,
+    "price": 48.0
+   }
+  ],
+  "sold_by": "Handshake R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 14.4
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.1,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_TacticalGlassesCondor_Clear.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_TacticalGlassesCondor_Tinted",
+  "name": "Condor (Tinted)",
+  "short_name": "Condor T",
+  "manufacturer": "NPP Klass",
+  "description": "A lightweight protective eyewear, offering solid eye coverage for shooting, airsoft, and outdoor activities while providing a comfortable fit.",
+  "tags": [
+   "Origin.East",
+   "Size.Small"
+  ],
+  "weight": "0.045 kg",
+  "grid_size": "2x1",
+  "base_price": 48.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 14.4
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.1,
+   "protectionFactor": 0.1,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_TacticalGlassesCondor_Tinted.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Headset_ConstructionEarmuffs",
+  "name": "Construction Earmuffs",
+  "short_name": "Earmuffs",
+  "manufacturer": "Taubschutz",
+  "description": "Designed to shield ears from loud noises in various environments, these earmuffs reduce sound intensity, safeguarding against potential hearing damage in industrial, construction, and other noisy settings.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.44 kg",
+  "grid_size": "2x2",
+  "base_price": 40.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 40.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 12.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Headset_ConstructionEarmuffs.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_CpuHatNycoRipstop",
+  "name": "CPU Hat Nyco Ripstop",
+  "short_name": "CPU Hat",
+  "manufacturer": "Helikon-Tex",
+  "description": "Designed for forest operations, the CPU (Combat Patrol Uniform) Hat features hidden mesh tunnels that enhance air circulation.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.113 kg",
+  "grid_size": "2x2",
+  "base_price": 14.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 14.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 4.2
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.5,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_CpuHatNycoRipstop.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_DesertLocust_Clear",
+  "name": "Desert Locust (Clear)",
+  "short_name": "Locust C",
+  "manufacturer": "Revision",
+  "description": "These goggles feature a durable and lightweight frame, providing a comfortable and secure fit during prolonged use. They are engineered to withstand impact, ballistic threats, and harsh environmental elements, making them suitable for combat zones and hazardous situations.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.13 kg",
+  "grid_size": "2x1",
+  "base_price": 125.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 125.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 37.5
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.5,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_DesertLocust_Clear.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_DesertLocust_Tinted",
+  "name": "Desert Locust (Tinted)",
+  "short_name": "Locust T",
+  "manufacturer": "Revision",
+  "description": "These goggles feature a durable and lightweight frame, providing a comfortable and secure fit during prolonged use. They are engineered to withstand impact, ballistic threats, and harsh environmental elements, making them suitable for combat zones and hazardous situations. The tinted lenses not only reduce glare but also provide 100% UVA and UVB protection, shielding the eyes from harmful sun rays.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.13 kg",
+  "grid_size": "2x1",
+  "base_price": 125.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 37.5
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.5,
+   "protectionFactor": 0.1,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_DesertLocust_Tinted.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_CapExSOF",
+  "name": "ExSOF Cap",
+  "short_name": "ExCap",
+  "manufacturer": "ExSOF Sec",
+  "description": "A baseball cap with the ExSOF Training and Security service logo.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 15.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 15.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 4.5
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.5,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_CapExSOF.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mask_FaceMask_Cat",
+  "name": "Face Mask",
+  "short_name": "FMask",
+  "manufacturer": "General Local",
+  "description": "A breathable face mask that protects the wearer from dust and other airborne particles.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.015 kg",
+  "grid_size": "1x1",
+  "base_price": 7.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 2.1
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_FaceMask_Cat.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mask_FaceMask_Hacker",
+  "name": "Face Mask (Hacker)",
+  "short_name": "FMask",
+  "manufacturer": "General Local",
+  "description": "A breathable black face mask that protects the wearer from dust and other airborne particles. Also useful for keeping a low profile when discretion matters.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "NotForStatistics"
+  ],
+  "weight": "0.015 kg",
+  "grid_size": "1x1",
+  "base_price": 7.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 2.1
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_FaceMask_Hacker.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_GatorzDelta",
+  "name": "Gatorz Delta",
+  "short_name": "Delta",
+  "manufacturer": "Gatorz",
+  "description": "The Gatorz Delta sunglasses are a premium tactical eyewear crafted for professionals, featuring impact-resistant lenses that ensure superior UV protection and durability. With a sleek, lightweight aluminum frame, these sunglasses offer a comfortable, adjustable fit, making them perfect for military personnel, law enforcement, and outdoor enthusiasts.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.09 kg",
+  "grid_size": "2x1",
+  "base_price": 143.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 143.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 42.9
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.4,
+   "protectionFactor": 0.2,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_GatorzDelta.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_GatorzMagnum",
+  "name": "Gatorz Magnum (Black)",
+  "short_name": "Magnum",
+  "manufacturer": "Gatorz",
+  "description": "A high-performance tactical eyewear designed for professionals, the Gatorz Magnum sunglasses feature impact-resistant lenses that provide excellent UV and ballistic protection along with enhanced durability, while the lightweight aluminum frame ensures a comfortable, adjustable fit, ideal for demanding environments.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.09 kg",
+  "grid_size": "2x1",
+  "base_price": 157.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 157.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 47.1
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.5,
+   "protectionFactor": 0.3,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_GatorzMagnum.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_GatorzMagnum_Green",
+  "name": "Gatorz Magnum (Green)",
+  "short_name": "Magnum",
+  "manufacturer": "Gatorz",
+  "description": "A high-performance tactical eyewear designed for professionals, the Gatorz Magnum sunglasses feature impact-resistant lenses that provide excellent UV and ballistic protection along with enhanced durability, while the lightweight aluminum frame ensures a comfortable, adjustable fit, ideal for demanding environments.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.09 kg",
+  "grid_size": "2x1",
+  "base_price": 157.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 47.1
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.5,
+   "protectionFactor": 0.3,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_GatorzMagnum_Green.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_GatorzMagnum_Tan",
+  "name": "Gatorz Magnum (Tan)",
+  "short_name": "Magnum",
+  "manufacturer": "Gatorz",
+  "description": "A high-performance tactical eyewear designed for professionals, the Gatorz Magnum sunglasses feature impact-resistant lenses that provide excellent UV and ballistic protection along with enhanced durability, while the lightweight aluminum frame ensures a comfortable, adjustable fit, ideal for demanding environments.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.09 kg",
+  "grid_size": "2x1",
+  "base_price": 157.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 47.1
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.5,
+   "protectionFactor": 0.3,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_GatorzMagnum_Tan.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mask_HalfMask_Black",
+  "name": "Half mask (Black)",
+  "short_name": "Mask",
+  "manufacturer": "5ive Star Gear",
+  "description": "A black half-mask. Perfect for when you don't want to deal with any bullshit, and just cover your face.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 16.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 16.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 4.8
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_HalfMask_Black.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mask_HalfMask_Cat",
+  "name": "Half mask (Green)",
+  "short_name": "Mask",
+  "manufacturer": "General West",
+  "description": "A green half-mask. Perfect for when you don't want to deal with any bullshit, and just cover your face.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_HalfMask_Cat.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mask_HalfMask_Multicam",
+  "name": "Half mask (Multicam)",
+  "short_name": "Mask",
+  "manufacturer": "General West",
+  "description": "A Multicam half-mask. Perfect for when you don't want to deal with any bullshit, and just cover your face.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 16.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 16.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 4.8
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_HalfMask_Multicam.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mask_HalfMask_Olive",
+  "name": "Half mask (Olive)",
+  "short_name": "Mask",
+  "manufacturer": "General West",
+  "description": "An olive half-mask. Perfect for when you don't want to deal with any bullshit, and just cover your face.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 5.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_HalfMask_Olive.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mask_HalfMask_Skull",
+  "name": "Half Mask (Skull)",
+  "short_name": "Mask",
+  "manufacturer": "General East",
+  "description": "A half-mask with a depiction of a skull. Perfect for covering your face while looking badass at the same time.",
+  "tags": [
+   "Size.Small",
+   "Origin.East"
+  ],
+  "weight": "0.03 kg",
+  "grid_size": "1x1",
+  "base_price": 16.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 4.8
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_HalfMask_Skull.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mask_HalfMask_Woodland",
+  "name": "Half Mask (Woodland)",
+  "short_name": "Mask",
+  "manufacturer": "General East",
+  "description": "A half-mask with a woodland camo pattern. Perfect for making your face disappear in the foliage.",
+  "tags": [
+   "Size.Small",
+   "Origin.East"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 12.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 12.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 3.6
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_HalfMask_Woodland.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Headscarf_BlackPattern",
+  "name": "Headscarf (Black Pattern)",
+  "short_name": "HScarf",
+  "manufacturer": "Mil-Tec",
+  "description": "A black headscarf that serves as a functional and stylish accessory.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.9
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Headscarf_BlackPattern.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Headscarf_BlackPattern_02",
+  "name": "Headscarf (Black Pattern)",
+  "short_name": "HScarf",
+  "manufacturer": "Mil-Tec",
+  "description": "A black headscarf that serves as a functional and stylish accessory.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.9
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Headscarf_BlackPattern_02.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Headscarf_Black",
+  "name": "Headscarf (Black)",
+  "short_name": "HScarf",
+  "manufacturer": "Mil-Tec",
+  "description": "A black headscarf that serves as a functional and stylish accessory.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.9
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Headscarf_Black.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Headscarf_GreenPattern",
+  "name": "Headscarf (Green Pattern)",
+  "short_name": "HScarf",
+  "manufacturer": "Mil-Tec",
+  "description": "A green headscarf that serves as a functional and stylish accessory.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.9
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Headscarf_GreenPattern.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Headscarf_Red",
+  "name": "Headscarf (Red)",
+  "short_name": "HScarf",
+  "manufacturer": "Mil-Tec",
+  "description": "A red headscarf that serves as a functional and stylish accessory.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.9
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Headscarf_Red.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Headset_ImpactSport",
+  "name": "Impact Sport",
+  "short_name": "Impact",
+  "manufacturer": "Honeywell",
+  "description": "The Impact Sport headset is ideal for industrial and military applications. Its slim earcup design reduces the risk of interference with the user’s firearm or other equipment.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.279 kg",
+  "grid_size": "2x2",
+  "base_price": 340.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 340.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Headset_ImpactSport.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_LafCap",
+  "name": "Lamang Armed Forces Cap",
+  "short_name": "LAF Cap",
+  "manufacturer": "General East",
+  "description": "A military flat-top cap worn by the Lamang Armed Forces personnel.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.07 kg",
+  "grid_size": "1x1",
+  "base_price": 13.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 3.9
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.4,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_LafCap.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_LeafyBoonie",
+  "name": "Leafy Boonie (Camo)",
+  "short_name": "LBoonie",
+  "manufacturer": "General East",
+  "description": "A stealthy and effective headgear designed to blend seamlessly with natural surroundings. Featuring a cover adorned with fabric leaves, it offers excellent camouflage for troops operating in dense foliage or forested environments.",
+  "tags": [
+   "Size.Middle",
+   "Origin.East"
+  ],
+  "weight": "0.14 kg",
+  "grid_size": "2x2",
+  "base_price": 16.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 16.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 4.8
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.6,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_LeafyBoonie.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_CapLLA",
+  "name": "LLA Vintage Cap",
+  "short_name": "VCap",
+  "manufacturer": "General Local",
+  "description": "A vintage military-style hat bearing the insignia of the Lamang Liberation Army.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.09 kg",
+  "grid_size": "1x1",
+  "base_price": 6.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1.8
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_CapLLA.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_MilitaryCap",
+  "name": "Military Cap",
+  "short_name": "MilCap",
+  "manufacturer": "General East",
+  "description": "A military flat-top cap with a woodland camo pattern.",
+  "tags": [
+   "Size.Middle",
+   "Origin.East"
+  ],
+  "weight": "0.07 kg",
+  "grid_size": "1x1",
+  "base_price": 11.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 3.3
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.4,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_MilitaryCap.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Mask_PandatacSun_CoyoteBrown",
+  "name": "Pandatac Sun Mask",
+  "short_name": "PMask",
+  "manufacturer": "Pandatac",
+  "description": "A breathable mask by Pandatac that shields the wearer from the sun.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 5.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 5.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_PandatacSun_CoyoteBrown.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_CapPandatac",
+  "name": "Pandatac Trucker Cap",
+  "short_name": "PCap",
+  "manufacturer": "Pandatac",
+  "description": "A trucker cap made by Pandatac.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.11 kg",
+  "grid_size": "1x1",
+  "base_price": 6.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 6.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1.8
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.5,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_CapPandatac.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Headset_WalkersRazorDigital",
+  "name": "Razor Slim Electronic Muff",
+  "short_name": "Razor",
+  "manufacturer": "Walkers",
+  "description": "The Razor Slim Electronic earmuffs are advanced hearing protectors that offer exceptional sound amplification and hearing protection. They provide clear and natural sound while actively reducing harmful noise levels and their low-profile construction allows for great maneuverability.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "2x2",
+  "base_price": 235.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 1,
+    "price": 235.0
+   }
+  ],
+  "sold_by": "Banshee R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 70.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Headset_WalkersRazorDigital.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_CapRegiment",
+  "name": "REGIMENT Cap",
+  "short_name": "RCap",
+  "manufacturer": "General West",
+  "description": "A baseball cap featuring the REGIMENT logo.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.11 kg",
+  "grid_size": "1x1",
+  "base_price": 12.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 1,
+    "price": 12.0
+   }
+  ],
+  "sold_by": "Handshake R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 3.6
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.5,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_CapRegiment.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_GiGlasses_Vietnam_Gold",
+  "name": "Retro Eyeglasses (Gold)",
+  "short_name": "Retro G",
+  "manufacturer": "General West",
+  "description": "Classic gold-framed eyeglasses with a timeless design. Perfect for anyone trying to look smarter than they actually are.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "NotForStatistics"
+  ],
+  "weight": "0.07 kg",
+  "grid_size": "2x1",
+  "base_price": 60.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18.0
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.1,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_GiGlasses_Vietnam_Gold.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_GiGlasses_Vietnam_Silver",
+  "name": "Retro Eyeglasses (Silver)",
+  "short_name": "Retro S",
+  "manufacturer": "General West",
+  "description": "Classic silver-framed eyeglasses with a timeless design. Perfect for anyone trying to look smarter than they actually are.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "NotForStatistics"
+  ],
+  "weight": "0.07 kg",
+  "grid_size": "2x1",
+  "base_price": 60.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18.0
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.1,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_GiGlasses_Vietnam_Silver.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_Round_Sunglasses",
+  "name": "Round Sunglasses",
+  "short_name": "Lennon",
+  "manufacturer": "Genlemen's Delight",
+  "description": "Iconic sunglasses that became popular in the 1960s and are still fashionable today. They are characterized by their circular lenses and thin metal frames, often associated with the legendary musician John Lennon, who frequently wore them.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.02 kg",
+  "grid_size": "2x1",
+  "base_price": 33.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 9.9
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.2,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_Round_Sunglasses.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_Round_Sunglasses_VietGang",
+  "name": "Round Sunglasses",
+  "short_name": "Lennon",
+  "manufacturer": "Genlemen's Delight",
+  "description": "Iconic sunglasses that became popular in the 1960s and are still fashionable today. They are characterized by their circular lenses and thin metal frames, often associated with the legendary musician John Lennon, who frequently wore them.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.02 kg",
+  "grid_size": "2x1",
+  "base_price": 32.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 9.6
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_Round_Sunglasses_VietGang.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Shemagh_Pirates",
+  "name": "Shemagh (Red)",
+  "short_name": "Shem",
+  "manufacturer": "FKH int. comp.",
+  "description": "A versatile scarf used for protection against sand, dust, and wind. Also great for concealing one's identity.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.125 kg",
+  "grid_size": "1x1",
+  "base_price": 3.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.9
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.1,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Shemagh_Pirates.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Shemagh_Red",
+  "name": "Shemagh (Red)",
+  "short_name": "Shem",
+  "manufacturer": "FKH int. comp.",
+  "description": "A versatile scarf used for protection against sand, dust, and wind. Also great for concealing one's identity.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.125 kg",
+  "grid_size": "1x1",
+  "base_price": 6.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1.8
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Shemagh_Red.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Headset_SelexTasc1",
+  "name": "TASC 1",
+  "short_name": "TASC1",
+  "manufacturer": "Z-Tactical",
+  "description": "Lightweight and well-fitted, this headset enables clear communication with your team thanks to its integrated microphone and isolated earcup.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.16 kg",
+  "grid_size": "2x2",
+  "base_price": 75.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 22.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Headset_SelexTasc1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Headset_WalkersUltimatePowerMuffQuads",
+  "name": "Ultimate Power Muff Quads",
+  "short_name": "Quads",
+  "manufacturer": "Walkers",
+  "description": "High-performance electronic earmuffs, providing superior hearing protection and sound enhancement. Featuring four Hi Gain Omni Directional Microphones, they actively suppress harmful noise while amplifying essential ambient sounds up to nine times.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.34 kg",
+  "grid_size": "2x2",
+  "base_price": 490.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 490.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 147.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Headset_WalkersUltimatePowerMuffQuads.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_Aviator_Boss",
+  "name": "Viper's Aviator",
+  "short_name": "B Aviator",
+  "manufacturer": "Randolph",
+  "description": "These sunglasses feature oversized lenses that provide excellent eye coverage and protection from the sun's rays. Initially designed for pilots in the 1930s, the Aviator eyewear style is truly timeless.\n\nThese sunglasses belong to Aawut \"Viper\" Phasuk, the leader of the armed group occupying Pha Lang Airfield.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "Boss"
+  ],
+  "weight": "0.036 kg",
+  "grid_size": "2x1",
+  "base_price": 61.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18.3
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.1,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_Aviator_Boss.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Headset_WalkersRazorDigital_Boss",
+  "name": "Viper's Razor Slim Electronic Muff",
+  "short_name": "B Razor",
+  "manufacturer": "Walkers",
+  "description": "The Razor Slim Electronic earmuffs are advanced hearing protectors that offer exceptional sound amplification and hearing protection. They provide clear and natural sound while actively reducing harmful noise levels and their low-profile construction allows for great maneuverability.\n\nThese earmuffs belong to Aawut \"Viper\" Phasuk, the leader of the armed group occupying Pha Lang Airfield.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "2x2",
+  "base_price": 235.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 70.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Headset_WalkersRazorDigital_Boss.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_Wayfarer",
+  "name": "Wayfarer",
+  "manufacturer": "Ray Ban",
+  "description": "A classic and enduring eyewear style that originated in the 1950s. Characterized by their trapezoidal shape and thick, plastic frames, these sunglasses have become one of the most recognizable designs in fashion history.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.03 kg",
+  "grid_size": "2x1",
+  "base_price": 46.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 13.8
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.1,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_Wayfarer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_Wayfarer_Agent",
+  "name": "Wayfarer (Agent)",
+  "short_name": "Wayfarer",
+  "manufacturer": "Ray Ban",
+  "description": "A classic and enduring eyewear style that originated in the 1950s. Fitted with clear lenses for a discreet, professional look that wouldn't seem out of place on a government operative.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "NotForStatistics"
+  ],
+  "weight": "0.03 kg",
+  "grid_size": "2x1",
+  "base_price": 0.03,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 0.01
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.1,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_Wayfarer_Agent.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_WileyXValor",
+  "name": "WX Valor",
+  "short_name": "Valor",
+  "manufacturer": "Wiley X",
+  "description": "A high-impact protective eyewear designed to provide superior eye protection in challenging environments. With its shatterproof lenses and rugged frame, it ensures reliable defense against impact, projectiles, and other hazards.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "2x1",
+  "base_price": 126.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 126.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 37.8
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.5,
+   "protectionFactor": 0.3,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_WileyXValor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_WileyXValor_Dark",
+  "name": "WX Valor (Worn)",
+  "short_name": "Valor",
+  "manufacturer": "Wiley X",
+  "description": "A high-impact protective eyewear designed to provide superior eye protection in challenging environments. With its shatterproof lenses and rugged frame, it ensures reliable defense against impact, projectiles, and other hazards. This pair has already seen some use and might not perform as well as brand new ones.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "2x1",
+  "base_price": 63.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18.9
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.3,
+   "protectionFactor": 0.2,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_WileyXValor_Dark.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Headset_ActiveHeadsetGssh01_BossRS",
+  "name": "Yen's Active headset GSSh-01",
+  "short_name": "B GSSh-01",
+  "manufacturer": "Zavod Luc",
+  "description": "The GSSh-01 is an active headset designed to provide hearing protection and clear communication in noisy environments. With its active noise-cancellation technology, it reduces harmful sounds while allowing important ambient sounds to be heard.\n\nThis headset belongs to Bane \"Yen\" Seeha, the military commander of Midnight Sapphire.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.33 kg",
+  "grid_size": "2x2",
+  "base_price": 170.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Headset_ActiveHeadsetGssh01_BossRS.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Hat_Beret_BossRS",
+  "name": "Yen's Beret",
+  "short_name": "B Beret",
+  "manufacturer": "Force Paw",
+  "description": "The beret is possibly one of the most well-known types of headwear. It is worn by many military and police forces worldwide.\n\nThis beret belongs to Bane \"Yen\" Seeha, the military commander of Midnight Sapphire.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 15.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 4.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Beret_BossRS.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Glasses_Crossfire_BossRS",
+  "name": "Yen's Crossfire",
+  "short_name": "B Crossfire",
+  "manufacturer": "Radians",
+  "description": "Crossfire glasses provide protective eyewear with a modern design. They are suitable for use in industrial worksites, law enforcement, military settings, and extreme sports, offering both durability and comfort for extended wear.\n\nThese glasses belong to Bane \"Yen\" Seeha, the military commander of Midnight Sapphire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "Boss"
+  ],
+  "weight": "0.024 kg",
+  "grid_size": "2x1",
+  "base_price": 63.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18.9
+   }
+  ],
+  "stats": {
+   "rainReduction": 0.2,
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_Crossfire_BossRS.webp",
+  "source": "game-files"
+ }
+]

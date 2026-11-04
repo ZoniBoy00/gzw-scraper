@@ -1,0 +1,1249 @@
+[
+ {
+  "id": "IS_Case_AdminDesk",
+  "name": "Admin Desk",
+  "short_name": "A Desk",
+  "manufacturer": "Pelican Products",
+  "description": "A rugged, foldable admin desk with multiple drawers and ample space for storing and organizing large volumes of documents. Designed for field use, it keeps paperwork secure and accessible wherever you need a mobile workstation.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "38.6 kg",
+  "grid_size": "4x4",
+  "base_price": 89481.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 3,
+    "price": 89481.0
+   }
+  ],
+  "sold_by": "Artisan R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 26844.3
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 15,
+    "height": 14
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_AdminDesk.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_AdminPouch",
+  "name": "Admin Pouch",
+  "short_name": "A Pouch",
+  "manufacturer": "Raptor Tactical",
+  "description": "A versatile, lightweight pouch designed for carrying everyday essentials in a convenient and organized way. Built with practicality in mind, it's perfect for storing documents, cards, keys, and money.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "0.18 kg",
+  "grid_size": "2x1",
+  "base_price": 75881.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 75881.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 22764.3
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 2,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_AdminPouch.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_Nanuk905FirstAidCase",
+  "name": "First Aid Case",
+  "short_name": "Med Case",
+  "manufacturer": "Nanuk",
+  "description": "A compact storage case for medical supplies.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "3x2",
+  "base_price": 63380.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 63380.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 19014.0
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 6,
+    "height": 5
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_Nanuk905FirstAidCase.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_HandGrenadeStorageBox",
+  "name": "Hand Grenade Storage Box",
+  "short_name": "Grenades",
+  "manufacturer": "German Army",
+  "description": "A reinforced container designed for the safe storage and transport of hand grenades.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "0.9 kg",
+  "grid_size": "3x2",
+  "base_price": 75452.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 75452.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 22635.6
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 5,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_HandGrenadeStorageBox.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Kit_HardCaseFirstAidKit",
+  "name": "Hard Case First Aid Kit",
+  "short_name": "HCKit",
+  "manufacturer": "Philippine Medical Supplies",
+  "description": "A small civilian-grade first aid kit containing essential medical supplies.",
+  "tags": [
+   "Size.Small",
+   "Origin.Local"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "1x1",
+  "base_price": 90.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 1,
+    "price": 90.0
+   }
+  ],
+  "sold_by": "LabRat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 27.0
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 2,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Med_Kit_HardCaseFirstAidKit.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_VaultCase",
+  "name": "HARDE Case",
+  "short_name": "Firearms",
+  "manufacturer": "Pelican Products",
+  "description": "A compact case for storing firearms.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "4.9 kg",
+  "grid_size": "7x3",
+  "base_price": 76788.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 76788.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 23036.4
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 10,
+    "height": 6
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_VaultCase.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_InjectorCase",
+  "name": "Injector Case",
+  "short_name": "Inj C",
+  "manufacturer": "General West",
+  "description": "A compact case designed for the safe transport of medical injectors. Its insulated walls help maintain an ideal internal temperature to preserve the substances inside.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.36 kg",
+  "grid_size": "2x1",
+  "base_price": 5000.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 4,
+    "price": 5000.0
+   }
+  ],
+  "sold_by": "LabRat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1500.0
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_InjectorCase.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_SportsmansTrunkLarge",
+  "name": "IV Truncase",
+  "short_name": "Trunk",
+  "manufacturer": "Plano Molding",
+  "description": "Provides ample storage space for various items and tools.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "2.7 kg",
+  "grid_size": "6x4",
+  "base_price": 61665.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 61665.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18499.5
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 9,
+    "height": 7
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_SportsmansTrunkLarge.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_KeyCase",
+  "name": "Key Case",
+  "short_name": "Key C",
+  "manufacturer": "General West",
+  "description": "A hardened key case that provides a convenient and safe way to store your keys.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.02 kg",
+  "grid_size": "2x1",
+  "base_price": 6015.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 3,
+    "price": 6015.0
+   }
+  ],
+  "sold_by": "Artisan R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Banshee",
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1804.5
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 5,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_KeyCase.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_KombatFolder",
+  "name": "Kombat Folder",
+  "short_name": "K Folder",
+  "manufacturer": "Kombat UK",
+  "description": "A durable A4 notebook holder designed to keep your essentials organized on the go. With internal sleeves for documents, cards, keys, and money, it provides quick access while protecting your items in the field or during everyday use.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "0.42 kg",
+  "grid_size": "2x2",
+  "base_price": 75423.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 3,
+    "price": 75423.0
+   }
+  ],
+  "sold_by": "Artisan R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 22626.9
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 4,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_KombatFolder.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_BigKeyCase",
+  "name": "Large Key Case",
+  "short_name": "L Key C",
+  "manufacturer": "General Local",
+  "description": "A sizeable case with many compartments for a secure and organized key storage.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.17 kg",
+  "grid_size": "3x1",
+  "base_price": 9022.0,
+  "tier": "Five",
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 4,
+    "price": 9022.0
+   }
+  ],
+  "sold_by": "Artisan R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Banshee",
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 2706.6
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 6,
+    "height": 5
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_BigKeyCase.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_LargeTresor",
+  "name": "Large Safe",
+  "short_name": "L Safe",
+  "manufacturer": "General West",
+  "description": "A sizeable safe with an electronic combination lock and reinforced walls. An ideal choice for storing valuable items.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "15 kg",
+  "grid_size": "3x4",
+  "base_price": 105560.0,
+  "tier": "Five",
+  "vendors": [
+   {
+    "vendor": "Collector",
+    "rank": 4,
+    "price": 105560.0
+   }
+  ],
+  "sold_by": "Collector R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 31668.0
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 9,
+    "height": 12
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_LargeTresor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_LeatherKeyHolder",
+  "name": "Leather Key Holder",
+  "short_name": "Key H",
+  "manufacturer": "General Local",
+  "description": "A leather key holder to help you organize your keys.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.048 kg",
+  "grid_size": "1x1",
+  "base_price": 4511.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 4511.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Banshee",
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1353.3
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_LeatherKeyHolder.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_LeatherWallet",
+  "name": "Leather Wallet",
+  "short_name": "Wallet",
+  "manufacturer": "General Local",
+  "description": "A leather wallet for storing your hard-earned money.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 4576.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 4576.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Banshee",
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1372.8
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 2,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_LeatherWallet.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_MagazineCase",
+  "name": "Magazine Case",
+  "short_name": "Magazines",
+  "manufacturer": "Pelican Products",
+  "description": "A lightweight case with internal padding that allows safe storage and transportation of firearm magazines.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "2.86 kg",
+  "grid_size": "3x2",
+  "base_price": 69054.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 69054.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 20716.2
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 6,
+    "height": 6
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_MagazineCase.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_VaccineTransportBox",
+  "name": "Medical Box",
+  "short_name": "Med Box",
+  "manufacturer": "B Medical Systems",
+  "description": "A medium-sized storage case for medical supplies.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "4.7 kg",
+  "grid_size": "4x3",
+  "base_price": 92940.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 4,
+    "price": 92940.0
+   }
+  ],
+  "sold_by": "LabRat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 27882.0
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 10,
+    "height": 8
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_VaccineTransportBox.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_UsSize2MetalAmmoBox",
+  "name": "Metal Ammo Box",
+  "short_name": "Ammo",
+  "manufacturer": "US Army",
+  "description": "A box for ammunition storage.",
+  "tags": [
+   "Origin.East",
+   "Size.Big"
+  ],
+  "weight": "2.4 kg",
+  "grid_size": "2x2",
+  "base_price": 60278.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 60278.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18083.4
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 5,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_UsSize2MetalAmmoBox.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Kit_MfakMini",
+  "name": "Mini First Aid Kit",
+  "short_name": "MFAK",
+  "manufacturer": "General West",
+  "description": "A compact, multi-use first aid kit designed to hold essential equipment for treating traumatic injuries.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 2,
+    "price": 200.0
+   }
+  ],
+  "sold_by": "LabRat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 3,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Med_Kit_MfakMini.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_PlanoAmmoBox",
+  "name": "MM Ammo Box",
+  "short_name": "Ammo",
+  "manufacturer": "Plano Molding",
+  "description": "A medium-sized box for ammunition storage.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "0.45 kg",
+  "grid_size": "3x2",
+  "base_price": 90316.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 90316.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 27094.8
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 7,
+    "height": 6
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_PlanoAmmoBox.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_MM24Case",
+  "name": "MM24 Case",
+  "short_name": "MM Trunk",
+  "manufacturer": "Pelican Products",
+  "description": "Designed for disaster and rescue operations, this capacious case provides storage for various items and tools.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "28 kg",
+  "grid_size": "7x5",
+  "base_price": 104520.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 4,
+    "price": 104520.0
+   }
+  ],
+  "sold_by": "Artisan R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 31356.0
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 12,
+    "height": 10
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_MM24Case.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_MortarRoundCase",
+  "name": "Mortar Round Crate",
+  "short_name": "MR Crate",
+  "manufacturer": "General East",
+  "description": "A sturdy, reinforced wooden crate designed to securely store and transport mortar rounds, protecting them from impact, moisture, and environmental damage.",
+  "tags": [
+   "Origin.East",
+   "Size.Big"
+  ],
+  "weight": "12 kg",
+  "grid_size": "5x2",
+  "base_price": 75547.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 75547.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 22664.1
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 5,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_MortarRoundCase.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_ProMaxRifleCase",
+  "name": "Muxxum Rifle Case",
+  "short_name": "Firearms",
+  "manufacturer": "Plano Molding",
+  "description": "A medium-sized case for storing firearms.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "6.2 kg",
+  "grid_size": "8x3",
+  "base_price": 105435.0,
+  "tier": "Five",
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 105435.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 31630.5
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 12,
+    "height": 8
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_ProMaxRifleCase.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_FlipLidPersonalCooler",
+  "name": "Personal Cooler",
+  "short_name": "Cooler",
+  "manufacturer": "Coleman",
+  "description": "A compact cooler for storing food and drinks. Although it has seen better times, it still seems fully functional.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "0.82 kg",
+  "grid_size": "4x3",
+  "base_price": 60237.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 60237.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18071.1
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 6,
+    "height": 6
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_FlipLidPersonalCooler.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Kit_QuickReleaseFirstAidKit",
+  "name": "Quick Release First Aid Kit",
+  "short_name": "QRKit",
+  "manufacturer": "ANA-Tactical",
+  "description": "This first aid kit incorporates a quick-release mechanism that allows for swift opening and deployment, ensuring immediate access to essential medical supplies during critical moments. The Quick Release First Aid Kit is particularly well-suited for situations where time is of the essence, such as emergencies and field operations.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "1x2",
+  "base_price": 320.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 3,
+    "price": 320.0
+   }
+  ],
+  "sold_by": "LabRat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 96.0
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 2,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Med_Kit_QuickReleaseFirstAidKit.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Med_Kit_RipAwayEmtPouch",
+  "name": "Rip-Away EMT Pouch",
+  "short_name": "EMT",
+  "manufacturer": "Condor Outdoor",
+  "description": "This pouch is compatible with MOLLE webbing and designed to be easily ripped away from the modular platform when needed. Equipped with organized compartments and elastic loops to secure medical items such as bandages, scissors, tourniquets, and other tools, the Rip-Away EMT Pouch is particularly valuable for first responders, medics, and individuals requiring rapid access to medical gear.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.4 kg",
+  "grid_size": "1x2",
+  "base_price": 440.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "LabRat",
+    "rank": 4,
+    "price": 440.0
+   }
+  ],
+  "sold_by": "LabRat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 132.0
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Med_Kit_RipAwayEmtPouch.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Pouch_R40PersonalUtilityRuckCase",
+  "name": "SafeLock Protected Ruck Case",
+  "short_name": "SafeLock",
+  "manufacturer": "General West",
+  "description": "A basic secure lockbox for valuable items.",
+  "tags": [
+   "Origin.West",
+   "Secured",
+   "Size.Middle"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "2x2",
+  "base_price": 10000.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 1,
+    "price": 10000.0
+   }
+  ],
+  "sold_by": "Handshake R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake"
+    ],
+    "price": 3000.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Pouch_R40PersonalUtilityRuckCase.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_SmallTresor",
+  "name": "Small Safe",
+  "short_name": "S Safe",
+  "manufacturer": "General West",
+  "description": "A compact yet secure safe with a combination lock. Ideal for storing valuables.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "3 kg",
+  "grid_size": "3x2",
+  "base_price": 75509.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Collector",
+    "rank": 3,
+    "price": 75509.0
+   }
+  ],
+  "sold_by": "Collector R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 22652.7
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 6,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_SmallTresor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Pouch_Nanuk908",
+  "name": "Snuck 908 Portable Lockbox",
+  "short_name": "Snuck 908",
+  "manufacturer": "General West",
+  "description": "A compact secure lockbox for valuable items.",
+  "tags": [
+   "Secured",
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "1.4 kg",
+  "grid_size": "3x2",
+  "base_price": 50000.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 50000.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake"
+    ],
+    "price": 15000.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Pouch_Nanuk908.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_TacticalWallet",
+  "name": "Tactical Wallet",
+  "short_name": "T Wallet",
+  "manufacturer": "General West",
+  "description": "A compact tactical pouch with dedicated compartments, ideal for storing money.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.13 kg",
+  "grid_size": "1x2",
+  "base_price": 7532.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 4,
+    "price": 7532.0
+   }
+  ],
+  "sold_by": "Artisan R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Banshee",
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 2259.6
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 4,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_TacticalWallet.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Pouch_RocstorRpcWaterproof",
+  "name": "TAS Secure Case",
+  "short_name": "TAS",
+  "manufacturer": "General West",
+  "description": "A spacious secure lockbox for valuable items.",
+  "tags": [
+   "Origin.West",
+   "Secured",
+   "Size.Middle"
+  ],
+  "weight": "1.6 kg",
+  "grid_size": "3x3",
+  "base_price": 150000.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 150000.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake"
+    ],
+    "price": 45000.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Pouch_RocstorRpcWaterproof.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Case_WeaponPartsCrate",
+  "name": "Weapon Parts Case",
+  "short_name": "Parts",
+  "manufacturer": "General West",
+  "description": "A durable, compartmentalized case designed for storing and organizing weapon components.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "6.2 kg",
+  "grid_size": "4x3",
+  "base_price": 74442.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 74442.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 22332.6
+   }
+  ],
+  "stats": {
+   "storageGrid": {
+    "width": 7,
+    "height": 6
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/containers_cases/IS_Case_WeaponPartsCrate.webp",
+  "source": "game-files"
+ }
+]

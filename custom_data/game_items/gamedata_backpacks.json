@@ -1,0 +1,889 @@
+[
+ {
+  "id": "IS_Backpack_Ratnik",
+  "name": "6Sh118 Ratnik V2",
+  "short_name": "Ratnik",
+  "manufacturer": "TsNIITochMash",
+  "description": "The 6Sh118 backpack was designed for the Ratnik program. With its aluminum frame, the backpack maintains its shape and provides ample space to carry weapons, ammunition, personal items, and mission-specific equipment for multi-day deployments.",
+  "tags": [
+   "Origin.East",
+   "Size.Big"
+  ],
+  "weight": "2.8 kg",
+  "grid_size": "5x6",
+  "base_price": 1450.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 435.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 5,
+    "height": 6
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_Ratnik.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_Amp12",
+  "name": "AMP12",
+  "manufacturer": "5.11",
+  "description": "Designed to minimize discomfort while providing exceptional and reliable functionality, this backpack features an innovative Hexgrid load-bearing system and spacious compartments essential for field operatives and professionals.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "1.32 kg",
+  "grid_size": "4x5",
+  "base_price": 810.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 810.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 243.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 5
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_Amp12.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_AssaultBackpack",
+  "name": "Assault Backpack",
+  "short_name": "Assault",
+  "manufacturer": "Techincom",
+  "description": "Constructed from durable materials, the Assault Backpack provides ample storage space for items such as ammunition, communication devices, tactical gear, and personal accessories. Its design is focused on efficiency and reliability in demanding environments.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "1.25 kg",
+  "grid_size": "3x3",
+  "base_price": 150.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 150.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 45.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_AssaultBackpack.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_SportBackpack_Boss",
+  "name": "Bloodhound's Sport Backpack",
+  "short_name": "B Sport",
+  "manufacturer": "Doldie",
+  "description": "A functional backpack designed for daily use. With a basic design, it offers a convenient option for carrying personal belongings during everyday activities.\n\nThis backpack belongs to Kahoku \"Bloodhound\" Phongsa, the leader of the Kiu Vongsa criminal gang.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.49 kg",
+  "grid_size": "3x3",
+  "base_price": 82.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 24.6
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_SportBackpack_Boss.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_C2BagCombatCompactBackpack",
+  "name": "C2 BAG Combat Compact Backpack",
+  "short_name": "C2 BAG",
+  "manufacturer": "Elite Bags",
+  "description": "The C2 BAG is a compact yet versatile tactical backpack made from durable 900D polyester. It offers ample space for essential gear while remaining lightweight, making it suitable for tactical, medical, or outdoor use.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "1.33 kg",
+  "grid_size": "3x4",
+  "base_price": 432.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 432.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 129.6
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_C2BagCombatCompactBackpack.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_Patagonia70l",
+  "name": "Civilian Trekstars 70L",
+  "short_name": "Trekstars",
+  "manufacturer": "Trekstars",
+  "description": "The Trekstars 70L is a robust, high-capacity backpack crafted from durable Cordura fabric. It’s designed for multi-day hikes and expeditions.",
+  "tags": [
+   "Origin.West",
+   "Size.Big"
+  ],
+  "weight": "2.32 kg",
+  "grid_size": "6x7",
+  "base_price": 1200.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 4,
+    "price": 1200.0
+   }
+  ],
+  "sold_by": "Artisan R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 360.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 6,
+    "height": 7
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_Patagonia70l.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_Delta",
+  "name": "Delta Backpack",
+  "short_name": "Delta",
+  "manufacturer": "ANA-Tactical",
+  "description": "The Delta Backpack boasts a substantial 65-liter capacity, making it a spacious and reliable choice for various operational demands. Despite its size, the backpack prioritizes comfort with adjustable padded straps with soft foam lining and elastic pads for added support, ensuring ergonomic wear during extended missions or outdoor activities.",
+  "tags": [
+   "Origin.East",
+   "Size.Big"
+  ],
+  "weight": "2.63 kg",
+  "grid_size": "6x6",
+  "base_price": 1650.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 1650.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 495.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 6,
+    "height": 6
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_Delta.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_DrawstringBackpack",
+  "name": "Drawstring Backpack",
+  "short_name": "Drawstring",
+  "manufacturer": "Oizys",
+  "description": "A lightweight and functional bag featuring a simple drawstring closure. Good as a last resort, but it won't fit much.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "2x2",
+  "base_price": 50.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_DrawstringBackpack.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_DrugsSmugglingBag",
+  "name": "Drug Shipment Backpack",
+  "short_name": "Drug Backpack",
+  "manufacturer": "General Local",
+  "description": "A sealed backpack containing a shipment of illegal drugs.",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "Treasure",
+   "Smuggling"
+  ],
+  "weight": "10 kg",
+  "grid_size": "5x5",
+  "base_price": 60000.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Banshee",
+     "Collector"
+    ],
+    "price": 60000.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 0,
+    "height": 0
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_DrugsSmugglingBag.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_SmallDrugsSmugglingBag",
+  "name": "Drug Shipment Backpack",
+  "short_name": "Drug Backpack",
+  "manufacturer": "General Local",
+  "description": "A sealed backpack containing a shipment of illegal drugs.",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "Smuggling",
+   "Treasure"
+  ],
+  "weight": "10 kg",
+  "grid_size": "5x5",
+  "base_price": 35000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Banshee",
+     "Collector"
+    ],
+    "price": 35000.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 0,
+    "height": 0
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_SmallDrugsSmugglingBag.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_Lamer28",
+  "name": "Falang 28",
+  "short_name": "Falang",
+  "manufacturer": "Falang",
+  "description": "A large civillian backpack for individuals seeking substantial storage capacity for their daily needs. It offers a reliable solution for carrying personal belongings, essentials, and even larger items during various activities.",
+  "tags": [
+   "Size.Middle",
+   "Origin.Local"
+  ],
+  "weight": "1.3 kg",
+  "grid_size": "4x5",
+  "base_price": 293.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 87.9
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 5
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_Lamer28.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_LeatherBackpack_Boss",
+  "name": "Golden Boy's Leather Backpack",
+  "short_name": "B Leather",
+  "manufacturer": "General Local",
+  "description": "A stylish, leather backpack designed for the pickiest of owners.\n\nThis backpack belongs to Songkram \"Golden Boy\" Manivanh, the leader of the Pha Lang criminal gang.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x3",
+  "base_price": 55.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 16.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_LeatherBackpack_Boss.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_Gunfighter14",
+  "name": "Gunfighter 14",
+  "short_name": "Gunfighter",
+  "manufacturer": "Mystery Ranch",
+  "description": "A tactical and compact backpack designed for users who require a balance between storage capacity and mobility. It offers a versatile option for carrying essential gear during short missions, outdoor activities, or everyday use.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.9 kg",
+  "grid_size": "3x3",
+  "base_price": 250.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 1,
+    "price": 250.0
+   }
+  ],
+  "sold_by": "Handshake R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_Gunfighter14.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_MoabJamBall",
+  "name": "JDEN Jam Ball",
+  "short_name": "JDEN",
+  "manufacturer": "Snakefish",
+  "description": "Popular among outdoor enthusiasts, the JDEN Jam Ball backpack strikes a balance between functionality and portability. Its compact design and durability make it a reliable choice for those seeking a versatile bag that can adapt to various situations and provide essential storage capacity.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.9 kg",
+  "grid_size": "3x4",
+  "base_price": 150.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 150.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 45.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_MoabJamBall.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_MilitarySmugglingBag",
+  "name": "Military Contraband Backpack",
+  "short_name": "Contraband Backpack",
+  "manufacturer": "General Local",
+  "description": "A sealed backpack containing a shipment of sensitive military technology and intelligence.",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "Smuggling",
+   "Treasure"
+  ],
+  "weight": "10 kg",
+  "grid_size": "5x5",
+  "base_price": 60000.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Banshee",
+     "Turncoat"
+    ],
+    "price": 60000.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 0,
+    "height": 0
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_MilitarySmugglingBag.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_SmallMilitarySmugglingBag",
+  "name": "Military Contraband Backpack",
+  "short_name": "Contraband Backpack",
+  "manufacturer": "General Local",
+  "description": "A sealed backpack containing a shipment of sensitive military technology and intelligence.",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "Smuggling",
+   "Treasure"
+  ],
+  "weight": "10 kg",
+  "grid_size": "5x5",
+  "base_price": 35000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Banshee",
+     "Turncoat"
+    ],
+    "price": 35000.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 0,
+    "height": 0
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_SmallMilitarySmugglingBag.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_PatrolBackpack",
+  "name": "Patrol Backpack",
+  "short_name": "Patrol",
+  "manufacturer": "Techincom",
+  "description": "A part of the Ratnik infantry combat system used by Russian special forces and military personnel, this backpack is designed to offer a substantial carrying capacity, allowing users to transport a range of mission-specific gear and equipment.",
+  "tags": [
+   "Origin.East",
+   "Size.Big"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "4x5",
+  "base_price": 750.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 750.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 225.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 5
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_PatrolBackpack.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_PatrolBackpackCoyote",
+  "name": "Patrol Backpack (Coyote)",
+  "short_name": "Patrol",
+  "manufacturer": "Techincom",
+  "description": "A part of the Ratnik infantry combat system used by Russian special forces and military personnel, this backpack is designed to offer a substantial carrying capacity, allowing users to transport a range of mission-specific gear and equipment.",
+  "tags": [
+   "Origin.East",
+   "Size.Big"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "4x5",
+  "base_price": 750.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 225.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 5
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_PatrolBackpackCoyote.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_Rush7220",
+  "name": "Rush 72 2.0",
+  "short_name": "Rush",
+  "manufacturer": "5.11",
+  "description": "A robust and highly versatile tactical pack built for extended missions and outdoor adventures. With a spacious 55-liter capacity, multiple compartments, and MOLLE webbing, it offers ample storage and customizable organization.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "2.4 kg",
+  "grid_size": "5x6",
+  "base_price": 1250.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 1250.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 375.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 5,
+    "height": 5
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_Rush7220.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_ScorpionOcpConvoyPack",
+  "name": "Scorpion OCP Convoy Pack (Coyote)",
+  "short_name": "Scorpion",
+  "manufacturer": "Condor Outdoor",
+  "description": "A military-style backpack designed for tactical and operational use. It offers a rugged and efficient solution for carrying gear and equipment during missions, field operations, and deployments while also featuring compatibility with hydration systems and MOLLE webbing for the attachment of additional pouches.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "1.36 kg",
+  "grid_size": "4x4",
+  "base_price": 650.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 650.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 195.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_ScorpionOcpConvoyPack.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_ScorpionOcpConvoyPack_Camo",
+  "name": "Scorpion OCP Convoy Pack (Multicam)",
+  "short_name": "Scorpion MC",
+  "manufacturer": "Condor Outdoor",
+  "description": "A military-style backpack designed for tactical and operational use. It offers a rugged and efficient solution for carrying gear and equipment during missions, field operations, and deployments while also featuring compatibility with hydration systems and MOLLE webbing for the attachment of additional pouches.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "1.36 kg",
+  "grid_size": "4x4",
+  "base_price": 650.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 650.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 195.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_ScorpionOcpConvoyPack_Camo.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_SmallTouristBackpack",
+  "name": "Small Tourist Backpack",
+  "short_name": "STourist",
+  "manufacturer": "Sea To Summit",
+  "description": "A small basic backpack designed for light outdoor activities. With a modest capacity, it offers a convenient option for carrying essentials during short trips or hikes.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.072 kg",
+  "grid_size": "2x3",
+  "base_price": 64.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 19.2
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_SmallTouristBackpack.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Backpack_SportBackpack",
+  "name": "Sport Backpack",
+  "short_name": "Sport",
+  "manufacturer": "Doldie",
+  "description": "A functional backpack designed for daily use. With a basic design, it offers a convenient option for carrying personal belongings during everyday activities.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.49 kg",
+  "grid_size": "3x3",
+  "base_price": 82.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 82.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 24.6
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_SportBackpack.webp",
+  "source": "game-files"
+ }
+]

@@ -1,0 +1,3958 @@
+[
+ {
+  "id": "IS_Muzzle_SigFlashHider3Prong",
+  "name": "3 Prong Flash Hider",
+  "short_name": "3 Prong FH",
+  "manufacturer": "SIG Sauer",
+  "description": "Three-pronged flash suppressor designed for 5.56mm SIG SAUER rifles.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.12 kg",
+  "grid_size": "1x1",
+  "base_price": 255.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 255.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.5
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 6400,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SigFlashHider3Prong.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Caa3LugthreadedHkMp5",
+  "name": "3-Lug threaded HK MP5",
+  "short_name": "3 Lug adapt.",
+  "manufacturer": "General West",
+  "description": "This adapter allows for the attachment of Heckler & Koch MP5/SP5 and Wyssen Defence WD9 muzzle devices, such as suppressors, flash hiders, and silencers, to 9mm Luger caliber firearms with muzzle threads.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP5"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 46.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 13.8
+   }
+  ],
+  "stats": {
+   "maximumShots": 55100,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Caa3LugthreadedHkMp5.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_ColtA2FlashHider",
+  "name": "A2 Flash Hider",
+  "short_name": "A2 FH",
+  "manufacturer": "COLT",
+  "description": "A flash hider for 5.56x45mm caliber weapons. Manufactured by Colt and designed to be compatible with the AR-15 weapon platform. It effectively reduces muzzle flash, providing improved visibility and reducing the potential for visual disruption during rapid-fire or low-light shooting scenarios.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.066 kg",
+  "grid_size": "1x1",
+  "base_price": 204.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 204.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 61.2
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_ColtA2FlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Ak14-1LH-2415Adapter",
+  "name": "AK Adapter 14-1LH to 24-1.5",
+  "short_name": "AK14-24",
+  "manufacturer": "General East",
+  "description": "This adapter converts standard 14-1LH threaded AK muzzles to the modern Russian 24mm thread design, allowing for easy installation of AK-74 type muzzle devices with 24mm threads. The adapter includes notches to accommodate a detent locking pin.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AKM"
+  ],
+  "weight": "0.044 kg",
+  "grid_size": "1x1",
+  "base_price": 90.1,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 90.1
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 27.03
+   }
+  ],
+  "stats": {
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_SaVz58300mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39BD",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Ak14-1LH-2415Adapter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_AkArsenalFlashHiderBulgarian",
+  "name": "AK Bulgarian Flash Hider",
+  "short_name": "AK B FH",
+  "manufacturer": "General East",
+  "description": "This Bulgarian-made 4-piece flash hider is designed for mil-spec standard AK rifles chambered in 7.62x39 and features 14mmx1 left-hand threads.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AKM"
+  ],
+  "weight": "0.157 kg",
+  "grid_size": "1x1",
+  "base_price": 153.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 153.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 45.9
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 3500,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_AkArsenalFlashHiderBulgarian.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Ak100SeriesMuzzleBrake",
+  "name": "AK-100 Series Muzzle Brake",
+  "short_name": "AK100 Brake",
+  "manufacturer": "Kalashnikov concern",
+  "description": "AN AK-74 Muzzle Brake made by Izhmash in the USSR.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK74"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 170.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 170.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Ak100SeriesMuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Ak19FlashHider",
+  "name": "AK-19 Flash Hider",
+  "short_name": "AK19 FH",
+  "manufacturer": "Kalashnikov concern",
+  "description": "A flash hider for the AK19. It reduces muzzle flash by dispersing ignited gases at the muzzle, lowering your visual signature when firing.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK19"
+  ],
+  "weight": "0.119 kg",
+  "grid_size": "1x1",
+  "base_price": 425.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 425.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 127.5
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 7300,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak19"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Ak19FlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_AK308FlashHider",
+  "name": "AK-308 Flash Hider",
+  "short_name": "AK308 FH",
+  "manufacturer": "Kalashnikov concern",
+  "description": "A flash hider for the AK-308. It reduces muzzle flash by dispersing ignited gases at the muzzle, lowering your visual signature when firing.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK308"
+  ],
+  "weight": "0.154 kg",
+  "grid_size": "1x1",
+  "base_price": 476.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 476.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 142.8
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 8300,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak308",
+   "IS_Firearm_Ak308HT"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_AK308FlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_AkmMuzzleBrake",
+  "name": "AKM Muzzle Brake",
+  "short_name": "AKM Brake",
+  "manufacturer": "Kalashnikov concern",
+  "description": "The Arsenal AK-47 7.62x39 muzzle brake reduces recoil and muzzle drift, improving shot recovery. It is ideal for competition and accuracy shooting.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AKM"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 153.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 45.9
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_AkmMuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_AkmSlantBrake",
+  "name": "AKM Slant Brake",
+  "short_name": "AKM Slant",
+  "manufacturer": "Kalashnikov concern",
+  "description": "A standard muzzle brake for the AKM and other compatible rifles. Its main purpose is to reduce recoil and muzzle rise, which improves overall weapon control and follow-up shot accuracy.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AKM"
+  ],
+  "weight": "0.03 kg",
+  "grid_size": "1x1",
+  "base_price": 102.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 102.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 30.6
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 3500,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Barrel_SaVz58390mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39BD",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_AkmSlantBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Aks74UMuzzleBrake",
+  "name": "AKS-74U Muzzle Brake",
+  "short_name": "AKS-74U Brake",
+  "manufacturer": "Kalashnikov concern",
+  "description": "A high quality accessory designed for the AKS-74U rifle. Constructed of durable materials, it effectively reduces recoil and muzzle rise, improving control and accuracy during rapid fire.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AKS74U"
+  ],
+  "weight": "0.19 kg",
+  "grid_size": "1x1",
+  "base_price": 187.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 187.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 56.1
+   }
+  ],
+  "stats": {
+   "moaModifier": 5.0,
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Aks74UMuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SteyrAugFlashHider",
+  "name": "AUG Flash Hider",
+  "short_name": "AUG FH",
+  "manufacturer": "Clawgear",
+  "description": "A standard tulip-style flash hider for the Steyr AUG rifle. Its open-prong design disperses propellant gases to reduce visible muzzle flash when firing.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AUG"
+  ],
+  "weight": "0.09 kg",
+  "grid_size": "1x1",
+  "base_price": 150.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 45.0
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 7400,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SteyrAugFlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SteyrAugHybridCompensator",
+  "name": "AUG Starblast Hybrid Compensator",
+  "short_name": "AUG HC",
+  "manufacturer": "Clawgear",
+  "description": "A Clawgear Starblast Hybrid Compensator for the Steyr AUG rifle. It combines the functions of a flash hider, muzzle brake, and compensator, redirecting propellant gases to reduce visible muzzle flash, recoil, and muzzle rise.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AUG"
+  ],
+  "weight": "0.136 kg",
+  "grid_size": "1x1",
+  "base_price": 350.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Collector",
+    "rank": 3,
+    "price": 350.0
+   }
+  ],
+  "sold_by": "Collector R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 105.0
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 15.0,
+   "maximumShots": 11400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SteyrAugHybridCompensator.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SteyrAugMuzzleBrake",
+  "name": "AUG Two-Chamber Muzzle Brake",
+  "short_name": "AUG Brake",
+  "manufacturer": "Clawgear",
+  "description": "A two-chamber muzzle brake manufactured by Clawgear for the Steyr AUG rifle. Its dual-chamber design redirects propellant gases to significantly reduce recoil.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AUG"
+  ],
+  "weight": "0.085 kg",
+  "grid_size": "1x1",
+  "base_price": 410.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 123.0
+   }
+  ],
+  "stats": {
+   "moaModifier": 2.5,
+   "muzzleEfficiency": 18.0,
+   "maximumShots": 9500,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SteyrAugMuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_BtMp5FlashHider",
+  "name": "B&T MP5 Flash Hider",
+  "short_name": "B&T FH",
+  "manufacturer": "B&T",
+  "description": "This flash hider can be easily attached to the end of the 3-lug barrel. Its quick-detach feature allows for effortless installation and removal, providing convenience and ease of use.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP5"
+  ],
+  "weight": "0.195 kg",
+  "grid_size": "1x1",
+  "base_price": 238.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 238.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 71.4
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 7100,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Muzzle_Mp53LugAdapter",
+   "IS_Muzzle_Mp53LugAdapterThread"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_BtMp5FlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Salvo12AdapterBenelli",
+  "name": "Benelli M4 Salvo 12 Choke Adapter",
+  "short_name": "M1014 S12 Ad",
+  "manufacturer": "SilencerCo",
+  "description": "A choke adapter for the Benelli M4 that allows the attachment of the SilencerCo Salvo 12 suppressor. It replaces the standard choke tube, combining the selected choke constriction with a mounting interface for the suppressor.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.BenelliM4"
+  ],
+  "weight": "0.075 kg",
+  "grid_size": "1x1",
+  "base_price": 561.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 168.3
+   }
+  ],
+  "stats": {
+   "moaModifier": -50.0,
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 5000,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_BenelliM414inch_12Gaug",
+   "IS_Barrel_BenelliM414inch_12GaugFDE",
+   "IS_Barrel_BenelliM414inch_12GaugRE",
+   "IS_Barrel_BenelliM414inch_12GaugSilver",
+   "IS_Barrel_BenelliM4185inch_12Gaug",
+   "IS_Barrel_BenelliM4185inch_12GaugFDE",
+   "IS_Barrel_BenelliM4185inch_12GaugSilver"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Salvo12AdapterBenelli.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Ak100SeriesMuzzleBrakeMedved",
+  "name": "Buran's AK-100 Series Muzzle Brake",
+  "short_name": "B AK100 Brake",
+  "manufacturer": "Kalashnikov concern",
+  "description": "AN AK-74 Muzzle Brake made by Izhmash in the USSR.\n\nThis is a part of the AK-74N belonging to Arkady \"Buran\" Vititsky, the military commander of Fort Narith.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK74",
+   "Boss"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 340.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "muzzleEfficiency": 25.0,
+   "maximumShots": 9300,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Ak100SeriesMuzzleBrakeMedved.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Colt1911MuzzleBrake",
+  "name": "Colt 1911 Muzzle Brake",
+  "short_name": "1911 Brake",
+  "manufacturer": "Valkyrie Dynamics",
+  "description": "Constructed of high-quality materials, this muzzle brake for the Colt 1911 ensures durability and reliable performance in a variety of shooting conditions.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.1911"
+  ],
+  "weight": "0.066 kg",
+  "grid_size": "1x1",
+  "base_price": 340.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "moaModifier": 15.0,
+   "muzzleEfficiency": 45.0,
+   "maximumShots": 6200,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Slide_Colt1911ComanderSlide",
+   "IS_Slide_Colt1911ComanderSlideAvi",
+   "IS_Slide_Colt1911ComanderSlideHel",
+   "IS_Slide_Colt1911LongSlide6",
+   "IS_Slide_Colt1911Slide",
+   "IS_Slide_Colt1911SlideMidas"
+  ],
+  "disables_socket_types": [
+   "Socket.Muzzle.1911",
+   "Socket.Muzzle.45ACP"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Colt1911MuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_CQA2FlashHider",
+  "name": "CQ A2 Flash Hider",
+  "short_name": "CQA2 FH",
+  "manufacturer": "Norinco",
+  "description": "The CQ A2 Flash Hider is a Chinese-made option designed to fit AR-15 rifles, which mimics the design of the classic A2 flash hider but may not meet the same quality standards as its American-made counterpart. It is ideal for budget-conscious shooters or those seeking a basic muzzle device option.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.066 kg",
+  "grid_size": "1x1",
+  "base_price": 170.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 170.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_CQA2FlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_DanielDefenseFlashSuppressorExtended",
+  "name": "DD Extended Flash Suppressor",
+  "short_name": "DD FH Ext.",
+  "manufacturer": "Daniel Defense",
+  "description": "The Daniel Defense Flash Suppressor is designed to reduce muzzle flash. Since it’s manufactured from aerospace grade 17-4 stainless steel and finished with a salt bath nitride, there is minimal chance of corrosion.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.095 kg",
+  "grid_size": "1x1",
+  "base_price": 340.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 340.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 6400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_DanielDefenseFlashSuppressorExtended.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_ZenitcoDtk1MuzzleBrake",
+  "name": "DTK-1 Muzzle Brake",
+  "short_name": "DTK-1",
+  "manufacturer": "Zenitco",
+  "description": "The DTK-1 muzzle brake is specifically designed for AK rifles with a thread size of 24x1.5. It effectively reduces recoil and compensates for barrel movement. Additionally, the crown is designed to break glass.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK74"
+  ],
+  "weight": "0.128 kg",
+  "grid_size": "1x1",
+  "base_price": 680.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "moaModifier": 5.0,
+   "muzzleEfficiency": 45.0,
+   "maximumShots": 7800,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_ZenitcoDtk1MuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_ZenitcoDtk1MuzzleBrakeJC",
+  "name": "DTK-1 Muzzle Brake (Jackal Company)",
+  "short_name": "DTK-1",
+  "manufacturer": "Zenitco",
+  "description": "The DTK-1 muzzle brake is specifically designed for AK rifles with a thread size of 24x1.5. It effectively reduces recoil and compensates for barrel movement. Additionally, the crown is designed to break glass.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK74"
+  ],
+  "weight": "0.128 kg",
+  "grid_size": "1x1",
+  "base_price": 680.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 204.0
+   }
+  ],
+  "stats": {
+   "moaModifier": 5.0,
+   "muzzleEfficiency": 46.0,
+   "maximumShots": 7800,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_ZenitcoDtk1MuzzleBrakeJC.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_ZenitcoDtk2MuzzleBrake",
+  "name": "DTK-2 Muzzle Brake",
+  "short_name": "DTK-2",
+  "manufacturer": "Zenitco",
+  "description": "The DTK-2 muzzle brake compensator is designed for use with 7.62mm and 5.45mm AK carbines, effectively reducing recoil and compensating for muzzle rise.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK74"
+  ],
+  "weight": "0.105 kg",
+  "grid_size": "1x1",
+  "base_price": 510.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 510.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "moaModifier": 5.0,
+   "muzzleEfficiency": 20.0,
+   "maximumShots": 6400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_ZenitcoDtk2MuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Aks74UMuzzleBrakeFather",
+  "name": "Firebrand's AKS-74U Muzzle Brake",
+  "short_name": "B AKS-74U Brake",
+  "manufacturer": "Kalashnikov concern",
+  "description": "A high quality accessory designed for the AKS-74U rifle. Constructed of durable materials, it effectively reduces recoil and muzzle rise, improving control and accuracy during rapid fire.\n\nThis is a part of the AKS-74U belonging to Lani \"Firebrand\" Sayavong, the leader of the armed group occupying YBL-1.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AKS74U",
+   "Boss"
+  ],
+  "weight": "0.19 kg",
+  "grid_size": "1x1",
+  "base_price": 374.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 112.2
+   }
+  ],
+  "stats": {
+   "moaModifier": 5.0,
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Aks74UMuzzleBrakeFather.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_FuryMuzzleBrake",
+  "name": "Fury Titanium Muzzle Brake",
+  "short_name": "Fury Brake",
+  "manufacturer": "Coda Evolution",
+  "description": "A lightweight, high-performance muzzle device engineered to reduce recoil and muzzle rise, enhancing shooting precision. Constructed from durable titanium, it directs gases away from the shooter and minimizes ground signature, making it ideal for prone shooting.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.062 kg",
+  "grid_size": "1x1",
+  "base_price": 595.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 178.5
+   }
+  ],
+  "stats": {
+   "moaModifier": 5.0,
+   "muzzleEfficiency": 20.0,
+   "maximumShots": 7600,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_FuryMuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_G3FlashHider",
+  "name": "G3 Flash Hider",
+  "short_name": "G3 FH",
+  "manufacturer": "Heckler & Koch",
+  "description": "A steel flash hider for G3 and HK91-pattern rifles chambered in 7.62x51mm. Based on the original HK flash hider design, it disperses propellant gases to reduce visible muzzle flash when firing.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.G3"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 320.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 96.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 8600,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_G3177inch_762x51",
+   "IS_Barrel_G3177inch_762x51ZH",
+   "IS_Barrel_M70018inchThreaded_762x51",
+   "IS_Barrel_M70022inchStandart_762x51",
+   "IS_Barrel_M70022inchStandart_762x51Camo",
+   "IS_Barrel_M70026inchHeavy_762x51",
+   "IS_Barrel_M70026inchHeavy_762x51GC",
+   "IS_Muzzle_M1AThreadAdapter5824"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_G3FlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_CompWeightCompensatorForGlock17",
+  "name": "Glock 17 Comp Weight Compensator",
+  "short_name": "G17 Comp",
+  "manufacturer": "General West",
+  "description": "This low-profile addition seamlessly integrates with the firearm's design, eliminating the need for a threaded barrel. The Comp Weight enhances aesthetics and functions as an effective compensator, directing pressure downward to reduce recoil and enhance accuracy, minimizing muzzle flip for improved performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.141 kg",
+  "grid_size": "1x1",
+  "base_price": 289.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 289.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 86.7
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 15.0,
+   "maximumShots": 8900,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Rail_BottomFront_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Glock17",
+   "IS_Firearm_Glock17Damascus",
+   "IS_Firearm_Glock17Olive",
+   "IS_Firearm_Glock18C",
+   "IS_Firearm_Glock18CWB"
+  ],
+  "disables_socket_types": [
+   "Socket.Muzzle.9x19",
+   "Socket.Muzzle.Glock"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_CompWeightCompensatorForGlock17.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_KiVelocityMuzzleBrakeForGlock17",
+  "name": "Glock 17 Velocity Muzzle Brake",
+  "short_name": "Velocity MB",
+  "manufacturer": "General West",
+  "description": "This low-profile addition improves aesthetics and significantly reduces recoil and muzzle climb, providing better control and accuracy.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Glock"
+  ],
+  "weight": "0.06 kg",
+  "grid_size": "1x1",
+  "base_price": 510.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 510.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "moaModifier": 10.0,
+   "muzzleEfficiency": 30.0,
+   "maximumShots": 7400,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Barrel_Glock17ZaffiriPrecisionGoldThreaded_9x19",
+   "IS_Barrel_Glock17ZevOptimizedThreaded_9x19"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_KiVelocityMuzzleBrakeForGlock17.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_AK74Brake545x39",
+  "name": "GPN 5.45x39mm Muzzle Brake",
+  "short_name": "GPN 5.45x39",
+  "manufacturer": "GPN",
+  "description": "A steel muzzle brake manufactured by GPN for 5.45x39mm AK-pattern rifles. Its compact ported design redirects propellant gases to help reduce recoil and muzzle rise.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.162 kg",
+  "grid_size": "1x1",
+  "base_price": 510.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 25.0,
+   "maximumShots": 6400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_AK74Brake545x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_AK47AKMBrake762x39",
+  "name": "GPN 7.62x39mm Muzzle Brake",
+  "short_name": "GPN 7.62x39",
+  "manufacturer": "GPN",
+  "description": "A steel muzzle brake manufactured by GPN for 7.62x39mm AK-pattern rifles. Its compact ported design redirects propellant gases to help reduce recoil and muzzle rise.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.129 kg",
+  "grid_size": "1x1",
+  "base_price": 510.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 153.0
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 25.0,
+   "maximumShots": 6400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_SaVz58390mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39BD",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_AK47AKMBrake762x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_HypertrapMuzzleBrake556",
+  "name": "Hypertap Muzzle Brake 5.56x45",
+  "short_name": "Hypertap Brake",
+  "manufacturer": "Precision Armament",
+  "description": "A precision-engineered muzzle device for 5.56mm rifles that reduces recoil and minimizes muzzle rise using a unique hybrid baffle and convergent-divergent port design. Its tunable gas bias allows for fine-tuned performance, while the universal timing nut ensures quick, hassle-free installation. Finished with a durable Ionbond CrCN coating, it provides enhanced wear resistance and long-lasting performance for tactical and precision shooting.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.085 kg",
+  "grid_size": "1x1",
+  "base_price": 595.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 595.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 178.5
+   }
+  ],
+  "stats": {
+   "moaModifier": 10.0,
+   "muzzleEfficiency": 45.0,
+   "maximumShots": 7800,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_HypertrapMuzzleBrake556.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_HypertrapMuzzleBrake762",
+  "name": "Hypertap Muzzle Brake 7.62x51",
+  "short_name": "Hypertap Brake",
+  "manufacturer": "Precision Armament",
+  "description": "A precision-engineered muzzle device for 7.62mm rifles that reduces recoil and minimizes muzzle rise using a unique hybrid baffle and convergent-divergent port design. Its tunable gas bias allows for fine-tuned performance, while the universal timing nut ensures quick, hassle-free installation. Finished with a durable Ionbond CrCN coating, it provides enhanced wear resistance and long-lasting performance for tactical and precision shooting.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.085 kg",
+  "grid_size": "1x1",
+  "base_price": 255.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 255.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.5
+   }
+  ],
+  "stats": {
+   "moaModifier": 10.0,
+   "muzzleEfficiency": 45.0,
+   "maximumShots": 7800,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Barrel_G3177inch_762x51",
+   "IS_Barrel_G3177inch_762x51ZH",
+   "IS_Barrel_M70018inchThreaded_762x51",
+   "IS_Barrel_M70022inchStandart_762x51",
+   "IS_Barrel_M70022inchStandart_762x51Camo",
+   "IS_Barrel_M70026inchHeavy_762x51",
+   "IS_Barrel_M70026inchHeavy_762x51GC",
+   "IS_Muzzle_M1AThreadAdapter5824"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_HypertrapMuzzleBrake762.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_LAFMuzzleBrake545x39",
+  "name": "LAF 5.45x39mm Muzzle Brake",
+  "short_name": "LAF 5.45x39",
+  "manufacturer": "Jmac Customs",
+  "description": "A large single-chamber muzzle brake manufactured by JMac Customs for 5.45x39mm AK-pattern rifles. True to its \"Loud And Flashy\" name, it redirects propellant gases to reduce recoil and muzzle rise while producing a pronounced muzzle flash and concussive blast.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.122 kg",
+  "grid_size": "1x1",
+  "base_price": 910.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 273.0
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 25.0,
+   "maximumShots": 7400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_LAFMuzzleBrake545x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_LAFMuzzleBrake762x39",
+  "name": "LAF 7.62x39mm Muzzle Brake",
+  "short_name": "LAF 7.62x39",
+  "manufacturer": "Jmac Customs",
+  "description": "A large single-chamber muzzle brake manufactured by JMac Customs for 7.62x39mm AK-pattern rifles. True to its \"Loud And Flashy\" name, it redirects propellant gases to reduce recoil and muzzle rise while producing a pronounced muzzle flash and concussive blast.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.122 kg",
+  "grid_size": "1x1",
+  "base_price": 910.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 273.0
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 25.0,
+   "maximumShots": 7400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_SaVz58390mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39BD",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_LAFMuzzleBrake762x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_M16A1A2FlashHider",
+  "name": "M16A1 Flash Hider",
+  "short_name": "M16A1 FH",
+  "manufacturer": "COLT",
+  "description": "A classic M16A1 flash hider designed for AR-15/M16 pattern rifles.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.066 kg",
+  "grid_size": "1x1",
+  "base_price": 187.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 1,
+    "price": 187.0
+   }
+  ],
+  "sold_by": "Gunny R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 56.1
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_M16A1A2FlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_M1AFlashHider",
+  "name": "M1A Flash Hider",
+  "short_name": "M1A FH",
+  "manufacturer": "Springfield",
+  "description": "This standard-issue muzzle device for the M14 and M1A is designed to suppress visible muzzle flash without altering the rifle’s recoil profile. Its design makes it well-suited for low-light conditions and operations in dense vegetation where concealment is critical.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "0.154 kg",
+  "grid_size": "1x1",
+  "base_price": 306.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 2,
+    "price": 306.0
+   }
+  ],
+  "sold_by": "Banshee R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 91.8
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_M1A16inch_762x51",
+   "IS_Barrel_M1A16inch_762x51BH",
+   "IS_Barrel_M1A185inch_762x51",
+   "IS_Barrel_M1A22inch_762x51"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_M1AFlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_M1AMuzzleBrake",
+  "name": "M1A Muzzle Brake",
+  "short_name": "M1A Brake",
+  "manufacturer": "Springfield",
+  "description": "This steel muzzle brake is engineered for the M14 and M1A platforms. Featuring a multi-port baffle system, it effectively reduces recoil and muzzle rise. Its matte black finish offers a low-profile look while enhancing overall rifle stability during sustained fire.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "0.14 kg",
+  "grid_size": "1x1",
+  "base_price": 357.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 107.1
+   }
+  ],
+  "stats": {
+   "moaModifier": 5.0,
+   "muzzleEfficiency": 20.0,
+   "maximumShots": 8200,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_M1A16inch_762x51",
+   "IS_Barrel_M1A16inch_762x51BH",
+   "IS_Barrel_M1A185inch_762x51",
+   "IS_Barrel_M1A22inch_762x51"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_M1AMuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_M1ASocom16MuzzleBrake",
+  "name": "M1A SOCOM 16\" Muzzle Brake",
+  "short_name": "M1A SOC MB",
+  "manufacturer": "Springfield",
+  "description": "The M1A SOCOM 16 muzzle brake is a compact device for the Springfield Armory SOCOM-16 rifle. This short brake reduces recoil and muzzle rise from the 16.25-inch barrel while preserving the rifle’s compact profile.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "0.12 kg",
+  "grid_size": "1x1",
+  "base_price": 391.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 391.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 117.3
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 15.0,
+   "maximumShots": 6800,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_M1A16inch_762x51",
+   "IS_Barrel_M1A16inch_762x51BH",
+   "IS_Barrel_M1A185inch_762x51",
+   "IS_Barrel_M1A22inch_762x51"
+  ],
+  "disables_socket_types": [
+   "Socket.Barrel.M1A.Long"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_M1ASocom16MuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_M1ASocom16MuzzleBrakeBH",
+  "name": "M1A SOCOM 16\" Muzzle Brake (Black Hawk)",
+  "short_name": "M1A SOC MB",
+  "manufacturer": "Springfield",
+  "description": "The M1A SOCOM 16 muzzle brake is a compact device for the Springfield Armory SOCOM-16 rifle. This short brake reduces recoil and muzzle rise from the 16.25-inch barrel while preserving the rifle’s compact profile.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "0.12 kg",
+  "grid_size": "1x1",
+  "base_price": 580.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 174.0
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 15.0,
+   "maximumShots": 6800,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_M1A16inch_762x51",
+   "IS_Barrel_M1A16inch_762x51BH",
+   "IS_Barrel_M1A185inch_762x51",
+   "IS_Barrel_M1A22inch_762x51"
+  ],
+  "disables_socket_types": [
+   "Socket.Barrel.M1A.Long"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_M1ASocom16MuzzleBrakeBH.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_M1AThreadAdapter5824",
+  "name": "M1A Thread Adapter 5/8x-24",
+  "short_name": "M1A Thread",
+  "manufacturer": "Smith Enterprise",
+  "description": "The Smith Enterprise M14/M1A Thread Adapter converts the muzzle threads on a Springfield M1A to the standard 5/8x-24 size, allowing compatibility with a wider range of flash hiders, muzzle brakes, and suppressors.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "0.054 kg",
+  "grid_size": "1x1",
+  "base_price": 306.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 306.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 91.8
+   }
+  ],
+  "stats": {
+   "maximumShots": 8500,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "FrontSight_F",
+    "critical": false
+   },
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_M1A16inch_762x51",
+   "IS_Barrel_M1A16inch_762x51BH",
+   "IS_Barrel_M1A185inch_762x51",
+   "IS_Barrel_M1A22inch_762x51"
+  ],
+  "disables_socket_types": [
+   "Socket.Barrel.M1A.Short"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_M1AThreadAdapter5824.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_KacM4QdFlashHider",
+  "name": "M4QD Flash Hider",
+  "short_name": "KAC QD",
+  "manufacturer": "KAC",
+  "description": "A flash hider engineered by Knight's Armament Company (KAC). Designed for 5.56x45mm caliber firearms, particularly the M4 and AR-15 platforms, this device effectively mitigates muzzle flash, reducing the shooter's visual signature and enhancing target acquisition. It also serves as a platform for attaching a sound suppressor.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.068 kg",
+  "grid_size": "1x1",
+  "base_price": 391.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 391.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 117.3
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 6900,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_KacM4QdFlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Salvo12AdapterMossberg",
+  "name": "M590 Salvo 12 Choke Adapter",
+  "short_name": "M590 S12 Ad",
+  "manufacturer": "SilencerCo",
+  "description": "The Salvo 12 Choke Adapter serves as both a choke and suppressor adapter. It allows compatibility between the shotgun and the Salvo 12 suppressor, providing quieter shooting and customizable choke options for enhanced performance and versatility.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M590"
+  ],
+  "weight": "0.075 kg",
+  "grid_size": "1x1",
+  "base_price": 561.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 168.3
+   }
+  ],
+  "stats": {
+   "moaModifier": -50.0,
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 4000,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_Mossberg500185inch_12Gaug",
+   "IS_Barrel_Mossberg50020inch1ring_12Gaug",
+   "IS_Barrel_Mossberg50020inch_12Gaug",
+   "IS_Barrel_Mossberg50020inch_12GaugRT"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Salvo12AdapterMossberg.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_DbTacMuzzleBreak",
+  "name": "M590/M870 Tactical Muzzle Brake",
+  "short_name": "TMB",
+  "manufacturer": "General West",
+  "description": "A tactical muzzle brake for the Mossberg M590 and Remington M870 shotguns. Its ported design redirects propellant gases to help reduce felt recoil and muzzle rise.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M590",
+   "WeaponPlatform.M870"
+  ],
+  "weight": "0.233 kg",
+  "grid_size": "1x1",
+  "base_price": 935.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 935.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 280.5
+   }
+  ],
+  "stats": {
+   "moaModifier": 10.0,
+   "muzzleEfficiency": 40.0,
+   "maximumShots": 9700,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Barrel_Mossberg500185inch_12Gaug",
+   "IS_Barrel_Mossberg50020inch1ring_12Gaug",
+   "IS_Barrel_Mossberg50020inch_12Gaug",
+   "IS_Barrel_Mossberg50020inch_12GaugRT",
+   "IS_Barrel_RemingtonM870185inch_12Gaug",
+   "IS_Barrel_RemingtonM87023inch_12Gaug",
+   "IS_Barrel_RemingtonM87026inch_12Gaug"
+  ],
+  "disables_socket_types": [
+   "Socket.Sight.FrontSight.Mossberg"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_DbTacMuzzleBreak.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_DbTacMuzzleBreakRT",
+  "name": "M590/M870 Tactical Muzzle Brake (Raven Team)",
+  "short_name": "TMB",
+  "manufacturer": "General West",
+  "description": "A tactical muzzle brake for the Mossberg M590 and Remington M870 shotguns. Its ported design redirects propellant gases to help reduce felt recoil and muzzle rise.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M590",
+   "WeaponPlatform.M870"
+  ],
+  "weight": "0.233 kg",
+  "grid_size": "1x1",
+  "base_price": 935.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 280.5
+   }
+  ],
+  "stats": {
+   "moaModifier": 10.0,
+   "muzzleEfficiency": 40.0,
+   "maximumShots": 9700,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Barrel_Mossberg500185inch_12Gaug",
+   "IS_Barrel_Mossberg50020inch1ring_12Gaug",
+   "IS_Barrel_Mossberg50020inch_12Gaug",
+   "IS_Barrel_Mossberg50020inch_12GaugRT",
+   "IS_Barrel_RemingtonM870185inch_12Gaug",
+   "IS_Barrel_RemingtonM87023inch_12Gaug",
+   "IS_Barrel_RemingtonM87026inch_12Gaug"
+  ],
+  "disables_socket_types": [
+   "Socket.Sight.FrontSight.Mossberg"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_DbTacMuzzleBreakRT.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_M700ThreadCap",
+  "name": "M700 Thread Cap",
+  "short_name": "700 cap",
+  "manufacturer": "General West",
+  "description": "The Remington M700 barrel thread protector is a durable steel device that shields the rifle's barrel threads from damage when a muzzle device is not in use. It prevents impacts and debris, ensuring thread integrity. The protector is easy to install and remove, allowing for quick interchangeability with other muzzle devices.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.04 kg",
+  "grid_size": "1x1",
+  "base_price": 51.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 51.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 15.3
+   }
+  ],
+  "stats": {
+   "maximumShots": 7700,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Barrel_G3177inch_762x51",
+   "IS_Barrel_G3177inch_762x51ZH",
+   "IS_Barrel_M70018inchThreaded_762x51",
+   "IS_Barrel_M70022inchStandart_762x51",
+   "IS_Barrel_M70022inchStandart_762x51Camo",
+   "IS_Barrel_M70026inchHeavy_762x51",
+   "IS_Barrel_M70026inchHeavy_762x51GC",
+   "IS_Muzzle_M1AThreadAdapter5824"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_M700ThreadCap.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Salvo12Adapter",
+  "name": "M870 Salvo 12 Choke Adapter",
+  "short_name": "M870 S12 Ad",
+  "manufacturer": "SilencerCo",
+  "description": "The Salvo 12 Choke Adapter functions as both a choke and a suppressor adapter. It enables compatibility between your shotgun and Salvo 12 suppressor, resulting in quieter shooting while also providing customizable choke options for improved performance and versatility.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M870"
+  ],
+  "weight": "0.075 kg",
+  "grid_size": "1x1",
+  "base_price": 561.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 561.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 168.3
+   }
+  ],
+  "stats": {
+   "moaModifier": -50.0,
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 4000,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_RemingtonM870185inch_12Gaug",
+   "IS_Barrel_RemingtonM87023inch_12Gaug",
+   "IS_Barrel_RemingtonM87026inch_12Gaug"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Salvo12Adapter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SigMCX-3ProngFlashHider",
+  "name": "MCX 3 Prong Flash Hider",
+  "short_name": "MCX 3Prong",
+  "manufacturer": "SIG Sauer",
+  "description": "Crafted from high-quality steel and coated in a sleek black finish, the Sig Sauer MCX 3-Prong Flash Hider is a fast-attach suppressor that minimizes flash and muzzle climb, thus enhancing the firearm’s performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.12 kg",
+  "grid_size": "1x1",
+  "base_price": 153.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 153.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 45.9
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_G3177inch_762x51",
+   "IS_Barrel_G3177inch_762x51ZH",
+   "IS_Barrel_M70018inchThreaded_762x51",
+   "IS_Barrel_M70022inchStandart_762x51",
+   "IS_Barrel_M70022inchStandart_762x51Camo",
+   "IS_Barrel_M70026inchHeavy_762x51",
+   "IS_Barrel_M70026inchHeavy_762x51GC",
+   "IS_Barrel_SigMcx16inch_300AC",
+   "IS_Barrel_SigMcx675inch_300AC",
+   "IS_Barrel_SigMcx675inch_300ACGN",
+   "IS_Barrel_SigMcx9inch_300AC",
+   "IS_Muzzle_M1AThreadAdapter5824"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SigMCX-3ProngFlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_MosinHowlingRavenMuzzleBrake",
+  "name": "Mosin-Nagant Howling Raven Muzzle Brake",
+  "short_name": "Raven",
+  "manufacturer": "Howling Raven",
+  "description": "This muzzle brake is designed specifically for the original Mosin-Nagant 91/30 model and is intended to fit snugly around the front sight post. It is secured in place by three brass set screws. Made in America from steel with a black oxide coating, this muzzle brake significantly reduces recoil.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Mosin"
+  ],
+  "weight": "0.283 kg",
+  "grid_size": "1x1",
+  "base_price": 170.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 51.0
+   }
+  ],
+  "stats": {
+   "moaModifier": 5.0,
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 5300,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Barrel_Mosin514mm_762x54",
+   "IS_Barrel_Mosin730mm_762x54"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_MosinHowlingRavenMuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_MosinTacfireTankerStyleMuzzleBrake",
+  "name": "Mosin-Nagant Tanker Muzzle Brake",
+  "short_name": "Tanker",
+  "manufacturer": "General West",
+  "description": "The M44 Tanker-style Bolt-on Muzzle Brake is made of durable steel and has a robust construction with a heat-treated, erosion-resistant black oxide finish. It has side and top ports that minimize muzzle flip, recoil, and barrel whip, enhancing shooting stability and control by efficiently redirecting gases.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.Mosin"
+  ],
+  "weight": "0.257 kg",
+  "grid_size": "1x1",
+  "base_price": 374.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 3,
+    "price": 374.0
+   }
+  ],
+  "sold_by": "Artisan R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 112.2
+   }
+  ],
+  "stats": {
+   "moaModifier": 5.0,
+   "muzzleEfficiency": 20.0,
+   "maximumShots": 6800,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_Mosin514mm_762x54",
+   "IS_Barrel_Mosin730mm_762x54"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_MosinTacfireTankerStyleMuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Mp53LugAdapter",
+  "name": "MP5 3 Lug Adapter",
+  "short_name": "3 Lug",
+  "manufacturer": "Heckler & Koch",
+  "description": "This adapter enables users to add 3-lug attachments, such as flash hiders, compensators, suppressors, and silencers, to their MP5.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP5"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 119.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 119.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 35.7
+   }
+  ],
+  "stats": {
+   "maximumShots": 10600,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_Mp5"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Mp53LugAdapter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Mp5MuzzleCap",
+  "name": "MP5 Muzzle Cap",
+  "short_name": "MP5 Cap",
+  "manufacturer": "General West",
+  "description": "The MP5 Muzzle Cap is a protective accessory that covers and safeguards the MP5's muzzle. It prevents damage to the muzzle threads and keeps debris out of the barrel when the firearm is not used.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP5"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 34.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 34.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 10.2
+   }
+  ],
+  "stats": {
+   "maximumShots": 5000,
+   "repairDifficultyModifier": 0.5
+  },
+  "fits_on": [
+   "IS_Muzzle_Mp53LugAdapterThread"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Mp5MuzzleCap.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Mp53LugAdapterThread",
+  "name": "MP5 Threaded 3 Lug Adapter",
+  "short_name": "3 Lug Ad",
+  "manufacturer": "Heckler & Koch",
+  "description": "Designed to provide versatility in attaching various muzzle devices such as suppressors, flash hiders, or compensators to an MP5 or similar firearm, this adapter typically combines a threaded section with the traditional 3-lug system found on the MP5.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP5"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 255.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 255.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.5
+   }
+  ],
+  "stats": {
+   "maximumShots": 11300,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   },
+   {
+    "slot": "Cap_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Receiver_Mp5"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Mp53LugAdapterThread.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Mp7FlashHider",
+  "name": "MP7 Flash Hider",
+  "short_name": "MP7 FH",
+  "manufacturer": "Heckler & Koch",
+  "description": "The H&K MP7 flash hider reduces muzzle flash, preserving night vision and minimizing the weapon's visible signature. It is constructed from high-quality steel and features a durable melonite finish for enhanced longevity and performance.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.MP7"
+  ],
+  "weight": "0.04 kg",
+  "grid_size": "1x1",
+  "base_price": 408.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 408.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 122.4
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 11300,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Mp7A1",
+   "IS_Firearm_Mp7A2",
+   "IS_Firearm_Mp7A2SC"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Mp7FlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_Pcam472",
+  "name": "PCAM4-72",
+  "manufacturer": "Precision Armament",
+  "description": "The PCAM4-72 features a triple baffle design, which significantly reduces recoil. Precision-canted side vents eliminate muzzle climb, ensuring minimal movement and reduced dust signature when prone. Built for durability and impact resistance, it features a lightweight design that can withstand combat conditions without rapid erosion.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.09 kg",
+  "grid_size": "1x1",
+  "base_price": 255.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.5
+   }
+  ],
+  "stats": {
+   "moaModifier": 5.0,
+   "muzzleEfficiency": 20.0,
+   "maximumShots": 9200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_G3177inch_762x51",
+   "IS_Barrel_G3177inch_762x51ZH",
+   "IS_Barrel_M70018inchThreaded_762x51",
+   "IS_Barrel_M70022inchStandart_762x51",
+   "IS_Barrel_M70022inchStandart_762x51Camo",
+   "IS_Barrel_M70026inchHeavy_762x51",
+   "IS_Barrel_M70026inchHeavy_762x51GC",
+   "IS_Muzzle_M1AThreadAdapter5824"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_Pcam472.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_MamsMuzzleBrake556",
+  "name": "QDC MAMS Brake 5.56x45",
+  "short_name": "MAMS Brake",
+  "manufacturer": "KAC",
+  "description": "A steel muzzle brake for 5.56×45mm rifles with 1/2×28 threads. It reduces recoil and muzzle rise. It is compatible with KAC QDC suppressors.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.065 kg",
+  "grid_size": "1x1",
+  "base_price": 867.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 867.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 260.1
+   }
+  ],
+  "stats": {
+   "moaModifier": 10.0,
+   "muzzleEfficiency": 30.0,
+   "maximumShots": 9300,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_MamsMuzzleBrake556.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SaVz58ZendlCompensator",
+  "name": "Sa vz. 58 Zendl Compensator",
+  "short_name": "Zendl Comp",
+  "manufacturer": "Zendl Guns & Accessories",
+  "description": "This precision-machined steel compensator by Zendl is designed for the Sa vz. 58 rifle. It features CNC-cut lateral ports that help reduce recoil and muzzle rise, keeping shots on target during rapid fire. Heat-treated for durability, it performs reliably under harsh conditions. The compensator installs easily on the threaded barrel, enhancing control and accuracy for a more disciplined, combat-ready setup.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.094 kg",
+  "grid_size": "1x1",
+  "base_price": 374.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 374.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 112.2
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "muzzleEfficiency": 20.0,
+   "maximumShots": 8200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_SaVz58300mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39BD"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SaVz58ZendlCompensator.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SaVz58ZendlCompensatorBD",
+  "name": "Sa vz. 58 Zendl Compensator (Blackwood Division)",
+  "short_name": "Zendl Comp",
+  "manufacturer": "Zendl Guns & Accessories",
+  "description": "This precision-machined steel compensator by Zendl is designed for the Sa vz. 58 rifle. It features CNC-cut lateral ports that help reduce recoil and muzzle rise, keeping shots on target during rapid fire. Heat-treated for durability, it performs reliably under harsh conditions. The compensator installs easily on the threaded barrel, enhancing control and accuracy for a more disciplined, combat-ready setup.",
+  "tags": [
+   "Origin.West",
+   "Size.Small"
+  ],
+  "weight": "0.094 kg",
+  "grid_size": "1x1",
+  "base_price": 610.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 183.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "muzzleEfficiency": 20.0,
+   "maximumShots": 8200,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_SaVz58300mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39BD"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SaVz58ZendlCompensatorBD.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SksAdapterMuzzleBrake",
+  "name": "SKS Muzzle Brake Adapter",
+  "short_name": "SKS Adapt",
+  "manufacturer": "Kalashnikov concern",
+  "description": "An M24×1.5 muzzle adapter for the SKS, allowing it to accept compatible muzzle devices commonly used on 5.45 mm AK-pattern rifles.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AKM"
+  ],
+  "weight": "0.055 kg",
+  "grid_size": "1x1",
+  "base_price": 153.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 2,
+    "price": 153.0
+   }
+  ],
+  "sold_by": "Artisan R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 45.9
+   }
+  ],
+  "stats": {
+   "maximumShots": 7400,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Firearm_Sks"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SksAdapterMuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SlotMuzzleBrake",
+  "name": "Slot Muzzle Brake",
+  "short_name": "Slot Brake",
+  "manufacturer": "Sparrow Dynamics",
+  "description": "The Slot Brake is a muzzle device designed for AR-style rifles chambered in 5.56 with a 1/2-28 thread. It minimizes recoil and redirects gases forward, reducing the blast experienced by the shooter and bystanders. Precision-machined from hardened stainless steel, it features a tapered crown and a closed bottom to minimize dust kick-up.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.072 kg",
+  "grid_size": "1x1",
+  "base_price": 221.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 66.3
+   }
+  ],
+  "stats": {
+   "moaModifier": 5.0,
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 4900,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SlotMuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SurefireSocom3Prong762FlashHider",
+  "name": "SOCOM 3 Prong 7.62 Flash Hider",
+  "short_name": "SF3P",
+  "manufacturer": "Surefire",
+  "description": "The SureFire SOCOM 3-Prong Flash Hider is a precisely machined muzzle device designed for 5.56/223 rifles. Constructed from heat-treated stainless steel with a DLC coating, it reduces over 99% of the flash and offers a secure mount for SOCOM suppressors. It includes multiple bearing surfaces for proper alignment and a shim kit for correct installation.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M1A"
+  ],
+  "weight": "0.11 kg",
+  "grid_size": "1x1",
+  "base_price": 544.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 4,
+    "price": 544.0
+   }
+  ],
+  "sold_by": "Banshee R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 163.2
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 20.0,
+   "maximumShots": 10000,
+   "repairDifficultyModifier": 0.8
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_G3177inch_762x51",
+   "IS_Barrel_G3177inch_762x51ZH",
+   "IS_Barrel_M70018inchThreaded_762x51",
+   "IS_Barrel_M70022inchStandart_762x51",
+   "IS_Barrel_M70022inchStandart_762x51Camo",
+   "IS_Barrel_M70026inchHeavy_762x51",
+   "IS_Barrel_M70026inchHeavy_762x51GC",
+   "IS_Muzzle_M1AThreadAdapter5824"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SurefireSocom3Prong762FlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SurefireSocom3ProngFlashHider",
+  "name": "SOCOM 3 Prong Flash Hider",
+  "short_name": "SF3P",
+  "manufacturer": "Surefire",
+  "description": "Designed to minimize muzzle flash and recoil. Manufactured by Surefire, this flash hider is specifically engineered for 5.56x45mm caliber rifles. Its advanced design effectively reduces muzzle rise, providing improved weapon control and faster follow-up shots while also serving as a platform for attaching a sound suppressor.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.11 kg",
+  "grid_size": "1x1",
+  "base_price": 340.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 340.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 7600,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SurefireSocom3ProngFlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SputnikBrake545x39",
+  "name": "Sputnik 5.45x39mm Muzzle Brake",
+  "short_name": "Sput 5.45x39",
+  "manufacturer": "STRELA",
+  "description": "A steel muzzle brake manufactured by STRELA for 5.45x39mm AK-pattern rifles. Its ported design redirects propellant gases to reduce recoil and muzzle rise, at the cost of increased firing noise.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.18 kg",
+  "grid_size": "1x1",
+  "base_price": 930.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 279.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "muzzleEfficiency": 30.0,
+   "maximumShots": 9300,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Firearm_Ak74M",
+   "IS_Firearm_Ak74N",
+   "IS_Firearm_Ak74NFDE",
+   "IS_Firearm_Ak74NMedved",
+   "IS_Firearm_Aks74U",
+   "IS_Firearm_Aks74UFather",
+   "IS_Muzzle_Ak14-1LH-2415Adapter",
+   "IS_Muzzle_SksAdapterMuzzleBrake"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SputnikBrake545x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SputnikBrake762x39",
+  "name": "Sputnik 7.62x39mm Muzzle Brake",
+  "short_name": "Sput 7.62x39",
+  "manufacturer": "STRELA",
+  "description": "A steel muzzle brake manufactured by STRELA for 7.62x39mm AK-pattern rifles. Its ported design redirects propellant gases to reduce recoil and muzzle rise, at the cost of increased firing noise.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.171 kg",
+  "grid_size": "1x1",
+  "base_price": 930.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 279.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "muzzleEfficiency": 30.0,
+   "maximumShots": 7800,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Barrel_SaVz58300mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39BD",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SputnikBrake762x39.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SrdQdTaperLokCqbFlashHider",
+  "name": "SRD762-QD Flash Hider",
+  "short_name": "SRD762 FH",
+  "manufacturer": "SIG Sauer",
+  "description": "The SRD762-QD Flash Hider optimizes alignment, improves accuracy, and reduces point of impact shift. It is low-profile yet very effective at reducing muzzle flash.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.07 kg",
+  "grid_size": "1x1",
+  "base_price": 306.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 306.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 91.8
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 9500,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_G3177inch_762x51",
+   "IS_Barrel_G3177inch_762x51ZH",
+   "IS_Barrel_M70018inchThreaded_762x51",
+   "IS_Barrel_M70022inchStandart_762x51",
+   "IS_Barrel_M70022inchStandart_762x51Camo",
+   "IS_Barrel_M70026inchHeavy_762x51",
+   "IS_Barrel_M70026inchHeavy_762x51GC",
+   "IS_Muzzle_M1AThreadAdapter5824"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SrdQdTaperLokCqbFlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SrdQdMuzzleBrake",
+  "name": "SRD762-QD Muzzle Brake",
+  "short_name": "SRD762 MB",
+  "manufacturer": "SIG Sauer",
+  "description": "The SRD762-QD Taper-Lok Muzzle Brake self-centers the firearm and suppressor, which reduces group dispersion and improves accuracy.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.095 kg",
+  "grid_size": "1x1",
+  "base_price": 391.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 3,
+    "price": 391.0
+   }
+  ],
+  "sold_by": "Banshee R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 117.3
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 8.0,
+   "maximumShots": 9500,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_G3177inch_762x51",
+   "IS_Barrel_G3177inch_762x51ZH",
+   "IS_Barrel_M70018inchThreaded_762x51",
+   "IS_Barrel_M70022inchStandart_762x51",
+   "IS_Barrel_M70022inchStandart_762x51Camo",
+   "IS_Barrel_M70026inchHeavy_762x51",
+   "IS_Barrel_M70026inchHeavy_762x51GC",
+   "IS_Barrel_SigMcx16inch_300AC",
+   "IS_Barrel_SigMcx675inch_300AC",
+   "IS_Barrel_SigMcx675inch_300ACGN",
+   "IS_Barrel_SigMcx9inch_300AC",
+   "IS_Muzzle_M1AThreadAdapter5824"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SrdQdMuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_SrdQdTaperLokMuzzleBrake",
+  "name": "SRD762-QD Taper-Lok Muzzle Brake",
+  "short_name": "SRD Taper",
+  "manufacturer": "SIG Sauer",
+  "description": "The SRD762-QD Taper-Lok Muzzle Brake self-centers the firearm and suppressor, which reduces group dispersion and improves accuracy.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.065 kg",
+  "grid_size": "1x1",
+  "base_price": 255.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 76.5
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 6.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_G3177inch_762x51",
+   "IS_Barrel_G3177inch_762x51ZH",
+   "IS_Barrel_M70018inchThreaded_762x51",
+   "IS_Barrel_M70022inchStandart_762x51",
+   "IS_Barrel_M70022inchStandart_762x51Camo",
+   "IS_Barrel_M70026inchHeavy_762x51",
+   "IS_Barrel_M70026inchHeavy_762x51GC",
+   "IS_Barrel_SigMcx16inch_300AC",
+   "IS_Barrel_SigMcx675inch_300AC",
+   "IS_Barrel_SigMcx675inch_300ACGN",
+   "IS_Barrel_SigMcx9inch_300AC",
+   "IS_Muzzle_M1AThreadAdapter5824"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_SrdQdTaperLokMuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_StrelaFlashHider",
+  "name": "Strela 7.62x39mm Flash Hider",
+  "short_name": "Strela 7.62x39 FH",
+  "manufacturer": "STRELA",
+  "description": "A flash hider manufactured by STRELA for 7.62x39mm AK-pattern rifles. Its design disperses propellant gases to reduce visible muzzle flash when firing.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.234 kg",
+  "grid_size": "1x1",
+  "base_price": 410.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 410.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 123.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "muzzleEfficiency": 15.0,
+   "maximumShots": 6400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_SaVz58390mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39BD",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_StrelaFlashHider.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_StrelaFlashHiderFDE",
+  "name": "Strela 7.62x39mm Flash Hider (FDE)",
+  "short_name": "Strela 7.62x39 FH",
+  "manufacturer": "STRELA",
+  "description": "A flash hider manufactured by STRELA for 7.62x39mm AK-pattern rifles. Its design disperses propellant gases to reduce visible muzzle flash when firing.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.234 kg",
+  "grid_size": "1x1",
+  "base_price": 410.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 123.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "muzzleEfficiency": 15.0,
+   "maximumShots": 6400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_SaVz58390mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39BD",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_StrelaFlashHiderFDE.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_StrelaFlashHiderGreen",
+  "name": "Strela 7.62x39mm Flash Hider (Green)",
+  "short_name": "Strela 7.62x39 FH",
+  "manufacturer": "STRELA",
+  "description": "A flash hider manufactured by STRELA for 7.62x39mm AK-pattern rifles. Its design disperses propellant gases to reduce visible muzzle flash when firing.",
+  "tags": [
+   "Origin.East",
+   "Size.Small",
+   "WeaponPlatform.AK"
+  ],
+  "weight": "0.234 kg",
+  "grid_size": "1x1",
+  "base_price": 410.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 123.0
+   }
+  ],
+  "stats": {
+   "moaModifier": -5.0,
+   "muzzleEfficiency": 15.0,
+   "maximumShots": 6400,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_SaVz58390mm_762x39",
+   "IS_Barrel_SaVz58390mm_762x39BD",
+   "IS_Firearm_Akm",
+   "IS_Firearm_Akmn",
+   "IS_Firearm_AkmnFDE",
+   "IS_Firearm_AkmnJC",
+   "IS_Firearm_Akmsn"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_StrelaFlashHiderGreen.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_CarlsonsTacticalMuzzleBrake",
+  "name": "Tactical Muzzle Brake",
+  "short_name": "Carlson MB",
+  "manufacturer": "Carlson's Choke Tubes",
+  "description": "This muzzle device is designed to significantly reduce recoil. It extends about 2.75 inches beyond the barrel's end and has a matte black finish, improving the appearance of any shotgun while also providing better firearm control and faster follow-up shots.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M590",
+   "WeaponPlatform.M870"
+  ],
+  "weight": "0.107 kg",
+  "grid_size": "1x1",
+  "base_price": 425.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 425.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 127.5
+   }
+  ],
+  "stats": {
+   "moaModifier": -10.0,
+   "muzzleEfficiency": 20.0,
+   "maximumShots": 7900,
+   "repairDifficultyModifier": 0.7
+  },
+  "fits_on": [
+   "IS_Barrel_BenelliM414inch_12Gaug",
+   "IS_Barrel_BenelliM414inch_12GaugFDE",
+   "IS_Barrel_BenelliM414inch_12GaugRE",
+   "IS_Barrel_BenelliM414inch_12GaugSilver",
+   "IS_Barrel_BenelliM4185inch_12Gaug",
+   "IS_Barrel_BenelliM4185inch_12GaugFDE",
+   "IS_Barrel_BenelliM4185inch_12GaugSilver",
+   "IS_Barrel_Mossberg500185inch_12Gaug",
+   "IS_Barrel_Mossberg50020inch1ring_12Gaug",
+   "IS_Barrel_Mossberg50020inch_12Gaug",
+   "IS_Barrel_Mossberg50020inch_12GaugRT",
+   "IS_Barrel_RemingtonM870185inch_12Gaug",
+   "IS_Barrel_RemingtonM87023inch_12Gaug",
+   "IS_Barrel_RemingtonM87026inch_12Gaug"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_CarlsonsTacticalMuzzleBrake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_BarrettStyleTankerMuzzleBreake",
+  "name": "Tanker Muzzle Break",
+  "short_name": "Tanker",
+  "manufacturer": "General West",
+  "description": "The “Tanker” muzzle brake has six large side ports angled at 45 degrees, which effectively reduce recoil and stabilize the rifle. It also has six smaller vertical ports that reduce muzzle rise, allowing for faster realignment and more precise follow-up shots.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.162 kg",
+  "grid_size": "1x1",
+  "base_price": 476.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 4,
+    "price": 476.0
+   }
+  ],
+  "sold_by": "Gunny R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 142.8
+   }
+  ],
+  "stats": {
+   "moaModifier": 20.0,
+   "muzzleEfficiency": 45.0,
+   "maximumShots": 9700,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Barrel_G3177inch_762x51",
+   "IS_Barrel_G3177inch_762x51ZH",
+   "IS_Barrel_M70018inchThreaded_762x51",
+   "IS_Barrel_M70022inchStandart_762x51",
+   "IS_Barrel_M70022inchStandart_762x51Camo",
+   "IS_Barrel_M70026inchHeavy_762x51",
+   "IS_Barrel_M70026inchHeavy_762x51GC",
+   "IS_Muzzle_M1AThreadAdapter5824"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_BarrettStyleTankerMuzzleBreake.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_BarrettStyleTankerMuzzleBreakeZH",
+  "name": "Tanker Muzzle Break (Zero Hour)",
+  "short_name": "Tanker",
+  "manufacturer": "General West",
+  "description": "The “Tanker” muzzle brake has six large side ports angled at 45 degrees, which effectively reduce recoil and stabilize the rifle. It also has six smaller vertical ports that reduce muzzle rise, allowing for faster realignment and more precise follow-up shots.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M700"
+  ],
+  "weight": "0.162 kg",
+  "grid_size": "1x1",
+  "base_price": 476.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 142.8
+   }
+  ],
+  "stats": {
+   "moaModifier": 20.0,
+   "muzzleEfficiency": 45.0,
+   "maximumShots": 9700,
+   "repairDifficultyModifier": 0.8
+  },
+  "fits_on": [
+   "IS_Barrel_G3177inch_762x51",
+   "IS_Barrel_G3177inch_762x51ZH",
+   "IS_Barrel_M70018inchThreaded_762x51",
+   "IS_Barrel_M70022inchStandart_762x51",
+   "IS_Barrel_M70022inchStandart_762x51Camo",
+   "IS_Barrel_M70026inchHeavy_762x51",
+   "IS_Barrel_M70026inchHeavy_762x51GC",
+   "IS_Muzzle_M1AThreadAdapter5824"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_BarrettStyleTankerMuzzleBreakeZH.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_AntregVulcanF1",
+  "name": "Vulcan F1",
+  "manufacturer": "Antreg",
+  "description": "A flash hider designed for 5.56x45mm caliber firearms. Manufactured by ANTREG, a trusted name in firearm accessories, it effectively mitigates muzzle flash, reducing the shooter's visibility and maintaining their position covert while also serving as a platform for attaching a sound suppressor.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.105 kg",
+  "grid_size": "1x1",
+  "base_price": 340.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 102.0
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 10.0,
+   "maximumShots": 7200,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_AntregVulcanF1.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_AntregVulcanM1COMP",
+  "name": "Vulcan M1",
+  "manufacturer": "Antreg",
+  "description": "A device engineered to enhance the performance of 5.56x45mm caliber firearms. Designed by ANTREG with efficiency in mind, this muzzle brake effectively reduces recoil and muzzle rise, allowing for improved accuracy and faster target acquisition. It also serves as a platform for attaching a sound suppressor.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.105 kg",
+  "grid_size": "1x1",
+  "base_price": 544.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 3,
+    "price": 544.0
+   }
+  ],
+  "sold_by": "Gunny R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 163.2
+   }
+  ],
+  "stats": {
+   "moaModifier": 4.0,
+   "muzzleEfficiency": 14.0,
+   "maximumShots": 6400,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Muzzle_F",
+    "critical": false
+   }
+  ],
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_AntregVulcanM1COMP.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_XFactorChoke",
+  "name": "X-Factor Choke",
+  "short_name": "XF Choke",
+  "manufacturer": "Mossberg",
+  "description": "This precision-engineered accessory enhances shotgun performance. Its ported design reduces muzzle jump and recoil, allowing for faster follow-up shots and increased accuracy. Featuring an Improved Cylinder constriction pattern, it guarantees an optimal spread tailored for close-range targets, rendering it well-suited for hunting and tactical scenarios demanding swift, precise shooting.",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.M590",
+   "WeaponPlatform.M870"
+  ],
+  "weight": "0.101 kg",
+  "grid_size": "1x1",
+  "base_price": 136.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 136.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 40.8
+   }
+  ],
+  "stats": {
+   "moaModifier": -20.0,
+   "maximumShots": 2600,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Barrel_Mossberg500185inch_12Gaug",
+   "IS_Barrel_Mossberg50020inch1ring_12Gaug",
+   "IS_Barrel_Mossberg50020inch_12Gaug",
+   "IS_Barrel_Mossberg50020inch_12GaugRT",
+   "IS_Barrel_RemingtonM870185inch_12Gaug",
+   "IS_Barrel_RemingtonM87023inch_12Gaug",
+   "IS_Barrel_RemingtonM87026inch_12Gaug"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_XFactorChoke.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Muzzle_ColtXm177E2ModeratorFlashHider_556x45",
+  "name": "XM177E2 Moderator Flash Hider",
+  "short_name": "XM177E2 FH",
+  "manufacturer": "COLT",
+  "description": "This early flash hider for 5.56x45mm caliber weapons effectively reduces muzzle flash, improving shooter visibility and reducing the risk of giving away their position in low-light conditions. Originally manufactured by Colt in early 1967, this particular model was consistently utilized on the XM177E2. However, production of the Moderators by Colt ceased in the mid-1970s, following a ruling by the ATF categorizing the device as a sound \"suppressor.\"",
+  "tags": [
+   "Origin.West",
+   "Size.Small",
+   "WeaponPlatform.AR15"
+  ],
+  "weight": "0.12 kg",
+  "grid_size": "1x1",
+  "base_price": 204.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Gunny",
+    "rank": 2,
+    "price": 204.0
+   }
+  ],
+  "sold_by": "Gunny R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 61.2
+   }
+  ],
+  "stats": {
+   "muzzleEfficiency": 5.0,
+   "maximumShots": 5900,
+   "repairDifficultyModifier": 0.6
+  },
+  "fits_on": [
+   "IS_Barrel_Ar15105inch_556x45",
+   "IS_Barrel_Ar15145inch_556x45",
+   "IS_Barrel_Ar15145inch_Norinco_556x45",
+   "IS_Barrel_Ar1516inch_556x45",
+   "IS_Barrel_Ar1518inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45",
+   "IS_Barrel_Ar1520inch_556x45PL",
+   "IS_Barrel_G36125Inch_556x45",
+   "IS_Barrel_G36189Inch_556x45",
+   "IS_Barrel_G36898Inch_556x45",
+   "IS_Barrel_L403A1137nch_556x45",
+   "IS_Barrel_L403A1137nch_556x45SG",
+   "IS_Barrel_M16A120inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45",
+   "IS_Barrel_SteyrAug145inch_556x45DS",
+   "IS_Barrel_SteyrAug16inch_556x45",
+   "IS_Barrel_SteyrAug20inch_556x45"
+  ],
+  "image": "https://gzw-data.dev/assets/items/muzzle_devices/IS_Muzzle_ColtXm177E2ModeratorFlashHider_556x45.webp",
+  "source": "game-files"
+ }
+]

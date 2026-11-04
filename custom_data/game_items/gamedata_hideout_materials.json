@@ -1,0 +1,3193 @@
+[
+ {
+  "id": "IS_Misc_TestBuildingItem",
+  "name": "<DEV> TEST BUILDING ITEM",
+  "short_name": "<DEV> Build",
+  "manufacturer": "General Local",
+  "description": "<DEV>",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "NotForStatistics"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x2",
+  "base_price": 2000.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 600.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_TestBuildingItem.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_TestCraftItem",
+  "name": "<DEV> TEST CRAFT ITEM",
+  "short_name": "<DEV> Craft",
+  "manufacturer": "General Local",
+  "description": "<DEV>",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "NotForStatistics"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x2",
+  "base_price": 2000.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 600.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_TestCraftItem.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_TestDisassemblyItem",
+  "name": "<DEV> TEST DISASSEMBLY ITEM",
+  "short_name": "<DEV> Disass",
+  "manufacturer": "General Local",
+  "description": "<DEV>",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "NotForStatistics"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x2",
+  "base_price": 2000.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 600.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_TestDisassemblyItem.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_TestProductionItem",
+  "name": "<DEV> TEST PRODUCTION ITEM",
+  "short_name": "<DEV> Prod",
+  "manufacturer": "General Local",
+  "description": "<DEV>",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "NotForStatistics"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x2",
+  "base_price": 2000.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 600.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_TestProductionItem.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_AceticAnyhdride",
+  "name": "Acetic Anhydride",
+  "short_name": "AcAnh",
+  "manufacturer": "General Local",
+  "description": "A colorless liquid with a strong, pungent odor, commonly used in the production of photographic film and cigarette filters. Its availability is restricted due to its potential for criminal misuse, particularly in the production of gray heroin.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "1 kg",
+  "grid_size": "1x2",
+  "base_price": 250.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_AceticAnyhdride.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_AmmoniumChloride",
+  "name": "Ammonium Chloride",
+  "short_name": "AmChl",
+  "manufacturer": "General Local",
+  "description": "An inorganic compound commonly used as a fertilizer for crops such as rice and wheat. Prolonged application can increase soil acidity, so it should be used with caution. It can also be used in the extraction of morphine from opium.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.5 kg",
+  "grid_size": "1x2",
+  "base_price": 150.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 45.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_AmmoniumChloride.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_AnalogIndicator",
+  "name": "Analog Indicator",
+  "short_name": "AInd",
+  "manufacturer": "General Local",
+  "description": "An analog gauge used to display measured values. Currently, it sits at zero. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "0.25 kg",
+  "grid_size": "1x1",
+  "base_price": 50.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_AnalogIndicator.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Aniline",
+  "name": "Aniline",
+  "short_name": "Anil",
+  "manufacturer": "General Local",
+  "description": "An aromatic amine widely used as a chemical intermediate in the synthesis of various organic compounds. Suitable for use in the production of stimulants.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.Straight.FwdY_UpZ"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Aniline.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_ArtilleryBallisticCalculator",
+  "name": "Artillery Ballistic Calculator",
+  "short_name": "ArCom",
+  "manufacturer": "General Local",
+  "description": "A portable yet powerful computer capable of rapidly calculating accurate ballistic solutions for indirect-fire weapon systems. Contains valuable data on LAF artillery capabilities and electronic components useful for constructing hacking devices.",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "1.7 kg",
+  "grid_size": "1x2",
+  "base_price": 5000.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 1500.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_ArtilleryBallisticCalculator.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_AvionicsProcessorBoard",
+  "name": "Avionics Processor Board",
+  "short_name": "AvProc",
+  "manufacturer": "General East",
+  "description": "A processor board extracted from a Baget-53-31 avionics computer, equipped with powerful microchips capable of performing complex computations at high speed. An essential component for constructing an advanced hacking tool.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZ_UpX"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x2",
+  "base_price": 3000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 900.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_AvionicsProcessorBoard.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Baget5331OnboardComputer",
+  "name": "Baget-53-31 Onboard Computer",
+  "short_name": "Baget",
+  "manufacturer": "General East",
+  "description": "A powerful superscalar onboard computer capable of executing multiple instructions in parallel. Contains valuable flight logs and advanced electronic components useful for constructing hacking devices.",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "5.5 kg",
+  "grid_size": "3x2",
+  "base_price": 10000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 3000.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Baget5331OnboardComputer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_BoneDensityStimulant",
+  "name": "Bone Density Stimulant",
+  "short_name": "BoneDS",
+  "manufacturer": "General Local",
+  "description": "A specialized compound designed to promote osteoblast activity and accelerate the formation and mineralization of bone tissue. Suitable for use in the production of stimulants.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.Straight.FwdY_UpZ"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_BoneDensityStimulant.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Bromopyridine",
+  "name": "Bromopyridine",
+  "short_name": "Brompyr",
+  "manufacturer": "General Local",
+  "description": "A halogenated pyridine compound commonly used as a chemical intermediate in the synthesis of more complex organic substances. Suitable for use in the production of stimulants.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.Straight.FwdY_UpZ"
+  ],
+  "weight": "0.5 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Bromopyridine.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_BurnerHead",
+  "name": "Burner Head",
+  "short_name": "BHead",
+  "manufacturer": "General Local",
+  "description": "A cast-iron burner head designed to channel flammable gas and produce a controlled flame. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "0.25 kg",
+  "grid_size": "1x1",
+  "base_price": 50.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_BurnerHead.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_MilitaryChemicalsContainmentCanister",
+  "name": "Chemical Containment Container",
+  "short_name": "Chem Container",
+  "manufacturer": "General Local",
+  "description": "A container used to store hazardous chemicals and other experimental materials at Lakevale Sanctuary.",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.Straight.FwdY_UpZ"
+  ],
+  "weight": "15 kg",
+  "grid_size": "3x3",
+  "base_price": 15000.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Turncoat"
+    ],
+    "price": 15000.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_MilitaryChemicalsContainmentCanister.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_ChemicalChargesContainer",
+  "name": "Chemical Munitions Container",
+  "short_name": "Chemical Munitions",
+  "manufacturer": "General Local",
+  "description": "A secured container holding canisters of a lethal chemical agent. Its presence suggests that the LAF was prepared to use chemical weapons against civilians.",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "15 kg",
+  "grid_size": "4x3",
+  "base_price": 10000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Turncoat"
+    ],
+    "price": 10000.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_ChemicalChargesContainer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Chemicals",
+  "name": "Chemicals",
+  "short_name": "Chems",
+  "manufacturer": "General Local",
+  "description": "A collection of assorted laboratory chemicals suitable for a variety of technical applications. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x2",
+  "base_price": 300.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Chemicals.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Chloroform",
+  "name": "Chloroform",
+  "short_name": "Chlor",
+  "manufacturer": "General Local",
+  "description": "A volatile organic solvent whose vapors can have a narcotic effect. A common culprit in countless detective novels, it also has legitimate industrial and laboratory applications, as well as uses in heroin production.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "1 kg",
+  "grid_size": "1x2",
+  "base_price": 150.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 45.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Chloroform.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_CircuitBoard",
+  "name": "Circuit Board",
+  "short_name": "PCB",
+  "manufacturer": "General Local",
+  "description": "A versatile circuit board with multiple inputs and outputs, as well as a microprocessor for basic programming. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZ_UpY"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "1x1",
+  "base_price": 150.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 45.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_CircuitBoard.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_CitricAcid",
+  "name": "Citric Acid",
+  "short_name": "CAcid",
+  "manufacturer": "General Local",
+  "description": "An eco-friendly alternative to harsher cleaning chemicals, citric acid is effective at removing mineral buildup, grease, and everyday grime. Its acidic properties also make it useful in the production of morphine solution.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "1 kg",
+  "grid_size": "1x2",
+  "base_price": 50.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_CitricAcid.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_CivilianSoftware",
+  "name": "Civilian Software",
+  "short_name": "CivSoft",
+  "manufacturer": "General Local",
+  "description": "A USB drive containing an assortment of civilian software, applications, and other potentially useful data. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "0.02 kg",
+  "grid_size": "1x1",
+  "base_price": 250.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_CivilianSoftware.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_CncDrillBits",
+  "name": "CNC Drill Bits",
+  "short_name": "DriBit",
+  "manufacturer": "General Local",
+  "description": "High-precision drill bits made from high-grade steel for exceptional durability and wear resistance. Built to last a lifetime. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "0.42 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_CncDrillBits.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_ComplexGlassElectrode",
+  "name": "Complex Glass Electrode",
+  "short_name": "CGElect",
+  "manufacturer": "General Local",
+  "description": "An engineered glass electrode designed to measure ionic activity in liquids. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "0.45 kg",
+  "grid_size": "1x2",
+  "base_price": 500.0,
+  "tier": "Five",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_ComplexGlassElectrode.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_ConstructionMaterial",
+  "name": "Construction Material",
+  "short_name": "Construction Mat",
+  "manufacturer": "General Local",
+  "description": "Concrete, the foundation upon which civilization is built. A useful material for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "10 kg",
+  "grid_size": "3x3",
+  "base_price": 50.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_ConstructionMaterial.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Copper",
+  "name": "Copper",
+  "manufacturer": "General Local",
+  "description": "An excellent conductor of heat and electricity, widely used in wiring, electronics, and heat-transfer systems. A useful material for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "3 kg",
+  "grid_size": "3x3",
+  "base_price": 100.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Copper.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_CounterIedJammerUnit",
+  "name": "Counter IED/Jammer Unit",
+  "short_name": "Jammer",
+  "manufacturer": "General Local",
+  "description": "A programmable manpack jammer designed to disrupt nearby communication networks and electronic signals. Contains extremely valuable data on LAF electronic warfare capabilities and advanced electronic components useful for constructing hacking devices.",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "9 kg",
+  "grid_size": "2x2",
+  "base_price": 15000.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 4500.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_CounterIedJammerUnit.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Cpu",
+  "name": "CPU",
+  "manufacturer": "General Local",
+  "description": "The primary processing component of a computer, responsible for executing program instructions and performing calculations. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZ_UpX"
+  ],
+  "weight": "0.07 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Cpu.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_CpuCard",
+  "name": "CPU Card",
+  "short_name": "CCard",
+  "manufacturer": "General Local",
+  "description": "A CPU card extracted from an LAF artillery computer, providing enough processing power to perform dictionary attacks and generate PIN codes. An essential component for constructing a basic hacking tool.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZ_UpY"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "1x1",
+  "base_price": 2000.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 600.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_CpuCard.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_CrystalPrism",
+  "name": "Crystal Prism",
+  "short_name": "Prism",
+  "manufacturer": "General Local",
+  "description": "A precisely calibrated prism that refracts light, allowing it to be separated into its full spectrum. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.035 kg",
+  "grid_size": "1x1",
+  "base_price": 500.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_CrystalPrism.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_DigitalSynthesisEngine",
+  "name": "Digital Synthesis Engine",
+  "short_name": "DSE",
+  "manufacturer": "General Local",
+  "description": "A specialized circuit board capable of generating arbitrary high-frequency analog waveforms with high precision. An essential component for constructing a superior hacking tool.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 4000.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 1200.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_DigitalSynthesisEngine.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_MilitaryDroneInterceptor",
+  "name": "Drone Interceptor",
+  "short_name": "Interceptor",
+  "manufacturer": "Russian Army",
+  "description": "A specialized drone designed to intercept unauthorized small aircraft entering Midnight Sapphire airspace. Equipped with valuable electronics and AI-assisted targeting technology.",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZ_UpX"
+  ],
+  "weight": "1.3 kg",
+  "grid_size": "4x3",
+  "base_price": 10000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Turncoat"
+    ],
+    "price": 10000.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_MilitaryDroneInterceptor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Dynamo",
+  "name": "Dynamo",
+  "manufacturer": "General Local",
+  "description": "A device that generates alternating current when its core is spun at the appropriate speed. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "3 kg",
+  "grid_size": "2x2",
+  "base_price": 500.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Dynamo.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_EdetateDisodium",
+  "name": "Edetate Disodium",
+  "short_name": "EDTA",
+  "manufacturer": "General Local",
+  "description": "EDTA is a powerful synthetic chelating agent that binds to metal ions in solution. Improper dosage can cause a potentially fatal drop in blood calcium levels. Its chelating properties also make it useful for purifying high-quality morphine solutions.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 250.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_EdetateDisodium.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_ElectricalParts",
+  "name": "Electrical Parts",
+  "short_name": "EParts",
+  "manufacturer": "General Local",
+  "description": "A box filled with assorted transistors, capacitors, resistors, and other electronic components. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x2",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_ElectricalParts.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_EmptyAutoinjector",
+  "name": "Empty Autoinjector",
+  "short_name": "EAInj",
+  "manufacturer": "General Local",
+  "description": "An empty autoinjector that can be filled with a variety of medical substances for quick and simple administration. Required for crafting most stimulants.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.Straight.FwdZ_UpX"
+  ],
+  "weight": "0.09 kg",
+  "grid_size": "1x1",
+  "base_price": 50.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_EmptyAutoinjector.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Ether",
+  "name": "Ether",
+  "manufacturer": "General Local",
+  "description": "An organic solvent commonly used in chemical synthesis, drying, and purification processes. It can also be used to clean laboratory glassware and remove unwanted residues. Its solvent properties make it useful in the production of high-quality heroin.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "1.2 kg",
+  "grid_size": "1x2",
+  "base_price": 300.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Ether.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_EthylAlcohol",
+  "name": "Ethyl Alcohol",
+  "short_name": "Ethanol",
+  "manufacturer": "General Local",
+  "description": "A clear, flammable organic liquid with antiseptic and psychoactive properties. Commonly used as a solvent in a wide range of chemical processes, including the production of high-quality heroin. Not recommended for consumption.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "2.8 kg",
+  "grid_size": "2x2",
+  "base_price": 300.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_EthylAlcohol.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Fabrics",
+  "name": "Fabrics",
+  "short_name": "Fab",
+  "manufacturer": "General Local",
+  "description": "A roll of durable cloth fabric suitable for insulation, filtration, padding, and other practical uses. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.Straight.FwdNegX_UpZ"
+  ],
+  "weight": "2 kg",
+  "grid_size": "4x1",
+  "base_price": 50.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Fabrics.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_FineMetalMesh",
+  "name": "Fine Metal Mesh",
+  "short_name": "Mesh",
+  "manufacturer": "General Local",
+  "description": "A fine metal mesh ideal for filtration, allowing water to pass through while leaving solid particles behind. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdX_UpZ"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "3x2",
+  "base_price": 250.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_FineMetalMesh.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_FieldProgrammableGateArray",
+  "name": "FPGA Module",
+  "short_name": "FPGA",
+  "manufacturer": "General Local",
+  "description": "A specialized circuit board built around a field-programmable gate array (FPGA), allowing its hardware logic to be dynamically reconfigured for different tasks. An essential component for constructing an advanced hacking tool.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZ_UpX"
+  ],
+  "weight": "0.2 kg",
+  "grid_size": "2x1",
+  "base_price": 3000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 900.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_FieldProgrammableGateArray.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_GardenLime",
+  "name": "Garden Lime",
+  "short_name": "Lime",
+  "manufacturer": "General Local",
+  "description": "A granular soil conditioner. Its acid-neutralizing properties allow beneficial bacteria to flourish, improving the growth and resilience of crops. It can also be used in the morphine extraction process. Keep out of reach of children.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "3 kg",
+  "grid_size": "2x2",
+  "base_price": 50.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_GardenLime.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Glass",
+  "name": "Glass",
+  "manufacturer": "General Local",
+  "description": "Thick glass panes suitable for a variety of construction purposes. Durable but brittle, they can be used to build and upgrade Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.Straight.FwdY_UpZ"
+  ],
+  "weight": "4 kg",
+  "grid_size": "3x3",
+  "base_price": 150.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 45.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Glass.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Glucose",
+  "name": "Glucose",
+  "short_name": "Gluc",
+  "manufacturer": "General Local",
+  "description": "A simple sugar that serves as a major source of energy for human cells. This chemical-grade glucose is intended for laboratory use rather than direct consumption. Suitable for use in the production of stimulants.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.Straight.FwdNegY_UpZ"
+  ],
+  "weight": "1 kg",
+  "grid_size": "1x2",
+  "base_price": 50.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Glucose.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_GraphicsCard",
+  "name": "Graphics Card",
+  "short_name": "GPU",
+  "manufacturer": "General Local",
+  "description": "A computer component designed for highly parallel processing, making it ideal for performing large numbers of calculations simultaneously. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZ_UpX"
+  ],
+  "weight": "0.5 kg",
+  "grid_size": "2x1",
+  "base_price": 500.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_GraphicsCard.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_HepaFilter",
+  "name": "HEPA Filter",
+  "short_name": "HEPA",
+  "manufacturer": "General Local",
+  "description": "A high-efficiency air filter designed to capture fine airborne particles and contaminants. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "2 kg",
+  "grid_size": "3x3",
+  "base_price": 500.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_HepaFilter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_HqMorphineBase",
+  "name": "High-Quality Morphine Base",
+  "short_name": "HQMB",
+  "manufacturer": "General Local",
+  "description": "A highly refined morphine base containing minimal impurities and suitable for advanced pharmaceutical production. Its refined composition makes it ideal for producing high-quality morphine solutions or pure heroin.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x2",
+  "base_price": 3000.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Collector",
+     "LabRat"
+    ],
+    "price": 3000.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_HqMorphineBase.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_HighSpeedDigitalProcessorBoard",
+  "name": "High-Speed Digital Processor Board",
+  "short_name": "DPBoard",
+  "manufacturer": "General Local",
+  "description": "A powerful digital processor board capable of performing multiple high-precision computations in parallel, with high-speed serial interfaces for rapid data transfer. An essential component for constructing a superior hacking tool.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZ_UpY"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "2x1",
+  "base_price": 4000.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 1200.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_HighSpeedDigitalProcessorBoard.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_HumanGrowthHormone",
+  "name": "Human Growth Hormone",
+  "short_name": "HGH",
+  "manufacturer": "General Local",
+  "description": "A peptide hormone that stimulates tissue growth, protein synthesis, and cellular regeneration while influencing the body's metabolism. Suitable for use in the production of stimulants.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.Straight.FwdY_UpZ"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_HumanGrowthHormone.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_HydrochloricAcid",
+  "name": "Hydrochloric Acid",
+  "short_name": "HAcid",
+  "manufacturer": "General Local",
+  "description": "High-purity acid designed for trace analysis and other precision applications. Commonly used in environmental analysis, pharmaceutical manufacturing, and materials research. Its purity and strong acidic properties also make it suitable for use in the heroin purification process.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "2.7 kg",
+  "grid_size": "2x2",
+  "base_price": 500.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_HydrochloricAcid.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_ImsiCatcher",
+  "name": "IMSI Catcher",
+  "short_name": "IMSI",
+  "manufacturer": "General Local",
+  "description": "A device that masquerades as a cell tower to intercept and monitor communications from nearby mobile devices. A useful tool for anyone interested in conversations they weren't invited to. Contains valuable electronic components useful for constructing hacking devices.",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "8 kg",
+  "grid_size": "2x2",
+  "base_price": 5000.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 1500.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_ImsiCatcher.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_IronSucrose",
+  "name": "Iron Sucrose",
+  "short_name": "IronSuc",
+  "manufacturer": "General Local",
+  "description": "An iron complex used to replenish the body's iron stores and support the production of hemoglobin and red blood cells. Suitable for use in the production of stimulants.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.Straight.FwdY_UpZ"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_IronSucrose.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_LaboratoryFlask",
+  "name": "Laboratory Flask",
+  "short_name": "Flask",
+  "manufacturer": "General Local",
+  "description": "A simple glass flask found in laboratories around the world. Its shape makes it look a little like a potion bottle. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x2",
+  "base_price": 100.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_LaboratoryFlask.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_LaserTube",
+  "name": "Laser Tube",
+  "short_name": "LTube",
+  "manufacturer": "General Local",
+  "description": "A device containing a crystal and optical components designed to generate and direct light into a narrow, concentrated beam. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZ_UpX"
+  ],
+  "weight": "0.21 kg",
+  "grid_size": "3x1",
+  "base_price": 500.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_LaserTube.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_LastLineDefenceContainer",
+  "name": "Last Line Defense Container",
+  "short_name": "LLD Container",
+  "manufacturer": "General Local",
+  "description": "A container with canisters of an extremely potent nerve agent, intended as a last-resort security measure at RLSL-1. The instructions on the container read: “In case of imminent loss of facility control, open the contents near the air-conditioning intakes.”",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "8 kg",
+  "grid_size": "3x2",
+  "base_price": 15000.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Turncoat"
+    ],
+    "price": 15000.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_LastLineDefenceContainer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_LqMorphineBase",
+  "name": "Low-Quality Morphine Base",
+  "short_name": "LQMB",
+  "manufacturer": "General Local",
+  "description": "A low-quality morphine base extracted from opium gum. The presence of impurities limits its use to basic production processes, but it can serve as a base for low-quality morphine solutions.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x2",
+  "base_price": 2000.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Collector",
+     "LabRat"
+    ],
+    "price": 2000.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_LqMorphineBase.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_ManpackTacticalRadio",
+  "name": "Manpack Tactical Radio",
+  "short_name": "TacRad",
+  "manufacturer": "General Local",
+  "description": "A powerful tactical radio combining wideband and narrowband capabilities. Its software-defined architecture makes it highly configurable and compatible with modern encryption systems. Contains LAF encryption keys and advanced electronic components useful for constructing hacking devices.",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "4.98 kg",
+  "grid_size": "3x2",
+  "base_price": 10000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 3000.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_ManpackTacticalRadio.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_MechanicalParts",
+  "name": "Mechanical Parts",
+  "short_name": "MParts",
+  "manufacturer": "General Local",
+  "description": "A box filled with assorted gears, springs, joints, and other mechanical components. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x2",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_MechanicalParts.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_MechanicalPipette",
+  "name": "Mechanical Pipette",
+  "short_name": "Pipette",
+  "manufacturer": "General Local",
+  "description": "A mechanical pipette that makes laboratory work faster, safer, and more precise. No more sucking chemicals into a glass pipette by mouth. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "0.13 kg",
+  "grid_size": "1x2",
+  "base_price": 500.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_MechanicalPipette.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_MqMorphineBase",
+  "name": "Medium-Quality Morphine Base",
+  "short_name": "MQMB",
+  "manufacturer": "General Local",
+  "description": "A partially purified morphine base with fewer impurities, making it suitable for more advanced production processes. Can be used to produce morphine solutions or as a precursor in heroin production.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x2",
+  "base_price": 2500.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Collector",
+     "LabRat"
+    ],
+    "price": 2500.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_MqMorphineBase.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Methanol",
+  "name": "Methanol",
+  "short_name": "Methol",
+  "manufacturer": "General Local",
+  "description": "A simple alcohol widely used as a solvent and chemical feedstock in a variety of synthesis processes. Suitable for use in the production of stimulants.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.Straight.FwdY_UpZ"
+  ],
+  "weight": "0.5 kg",
+  "grid_size": "1x2",
+  "base_price": 100.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Methanol.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_MethyleneBlue",
+  "name": "Methylene Blue",
+  "short_name": "Metblue",
+  "manufacturer": "General Local",
+  "description": "A bioactive compound capable of influencing cellular metabolism and mitochondrial function, with a long history of medical and laboratory use. Suitable for use in the production of stimulants.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.Straight.FwdY_UpZ"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_MethyleneBlue.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Methylparaben",
+  "name": "Methylparaben",
+  "short_name": "MePa",
+  "manufacturer": "General Local",
+  "description": "An organic compound commonly used as a preservative in the food, pharmaceutical, and cosmetics industries. Although generally considered safe, it can cause allergic reactions in some individuals. Its preservative properties also make it useful for stabilizing morphine solutions.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.15 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Methylparaben.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Microscope",
+  "name": "Microscope",
+  "manufacturer": "General Local",
+  "description": "A precision optical instrument used to observe and work with components too small to be seen clearly by the naked eye. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.Straight.FwdY_UpZ"
+  ],
+  "weight": "1.6 kg",
+  "grid_size": "2x3",
+  "base_price": 1000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 300.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Microscope.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_MilitarySoftware",
+  "name": "Military Software",
+  "short_name": "MilSoft",
+  "manufacturer": "General Local",
+  "description": "A USB drive containing specialized military software, including targeting solutions, personnel tracking tools, and other applications, along with a selection of classified data. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "0.03 kg",
+  "grid_size": "1x1",
+  "base_price": 250.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_MilitarySoftware.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_RocketTargettingHead",
+  "name": "Missile Seeker Head",
+  "short_name": "Optical Seeker",
+  "manufacturer": "Russian Army",
+  "description": "An optical seeker from air-to-air missiles at Fort Narith. Contains valuable electronic components.",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "6 kg",
+  "grid_size": "3x3",
+  "base_price": 10000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Turncoat"
+    ],
+    "price": 10000.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_RocketTargettingHead.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_MotherBoard",
+  "name": "Motherboard",
+  "short_name": "MBoard",
+  "manufacturer": "General Local",
+  "description": "A computer's main circuit board, providing connections and communication between the processor, memory, storage, and other hardware components. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZ_UpY"
+  ],
+  "weight": "0.8 kg",
+  "grid_size": "2x2",
+  "base_price": 300.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_MotherBoard.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_MotorOil",
+  "name": "Motor Oil",
+  "short_name": "MOil",
+  "manufacturer": "General Local",
+  "description": "A lubricant used to reduce friction and wear in internal combustion engines. An essential resource for the construction and maintenance of generators.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "4.3 kg",
+  "grid_size": "2x2",
+  "base_price": 50.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_MotorOil.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_MultibusConverter",
+  "name": "Multi-Bus Converter",
+  "short_name": "MBC",
+  "manufacturer": "General Local",
+  "description": "An industrial-grade serial communication adapter designed to bridge different hardware communication protocols. An essential component for constructing a basic hacking tool.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "0.25 kg",
+  "grid_size": "1x1",
+  "base_price": 2000.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 600.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_MultibusConverter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Multimeter",
+  "name": "Multimeter",
+  "short_name": "MMeter",
+  "manufacturer": "General Local",
+  "description": "A versatile diagnostic tool used to measure voltage, current, and resistance when testing and troubleshooting electrical circuits. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.5 kg",
+  "grid_size": "1x2",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Multimeter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_OpiumGum",
+  "name": "Opium Gum",
+  "short_name": "OGum",
+  "manufacturer": "General Local",
+  "description": "A sticky, gum-like substance collected by scoring poppy seedpods. An essential raw material for opiate production.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "2 kg",
+  "grid_size": "2x2",
+  "base_price": 500.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_OpiumGum.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Oscilloscope",
+  "name": "Oscilloscope",
+  "short_name": "OsciScope",
+  "manufacturer": "General Local",
+  "description": "A specialized electronic instrument used to visualize and analyze electrical signals as they change over time. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "Boss",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "3 kg",
+  "grid_size": "3x2",
+  "base_price": 500.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Oscilloscope.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_OvenControlledCrystalOscillator",
+  "name": "Oven-Controlled Crystal Oscillator",
+  "short_name": "OCXO",
+  "manufacturer": "General Local",
+  "description": "A precision timing component that maintains an extremely stable frequency, enabling precisely timed signal injection attacks against cryptographic locks. An essential component for constructing a superior hacking tool.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 4000.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 1200.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_OvenControlledCrystalOscillator.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_PcFan",
+  "name": "PC Fan",
+  "short_name": "Fan",
+  "manufacturer": "General Local",
+  "description": "A cooling fan taken from a PC. Surprisingly dustless. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "0.12 kg",
+  "grid_size": "1x1",
+  "base_price": 50.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_PcFan.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Plastics",
+  "name": "Plastics",
+  "manufacturer": "General Local",
+  "description": "A bag of plastic pellets suitable for molding into a wide range of components and parts. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "1 kg",
+  "grid_size": "1x2",
+  "base_price": 50.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Plastics.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_PlumbingParts",
+  "name": "Plumbing Parts",
+  "short_name": "PParts",
+  "manufacturer": "General Local",
+  "description": "A box filled with assorted copper pipes, fittings, valves, and other plumbing components. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x2",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_PlumbingParts.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_PortableSatcomTerminal",
+  "name": "Portable SATCOM Terminal",
+  "short_name": "SATCOM",
+  "manufacturer": "General Local",
+  "description": "A portable VSAT system providing high-speed satellite data communications. Easy to deploy and capable of high transmission rates, it provides a reliable platform for secure, difficult-to-trace communications. Contains extremely valuable uplink credentials and advanced electronic components useful for constructing hacking devices.",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "12.2 kg",
+  "grid_size": "3x3",
+  "base_price": 15000.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 4500.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_PortableSatcomTerminal.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_PowerSupply",
+  "name": "Power Supply",
+  "short_name": "PSU",
+  "manufacturer": "General Local",
+  "description": "A computer component that converts electrical power and supplies the appropriate voltages to the system's internal components. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "1 kg",
+  "grid_size": "2x2",
+  "base_price": 250.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_PowerSupply.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_PurifiedWater",
+  "name": "Purified Water",
+  "short_name": "PWat",
+  "manufacturer": "General Local",
+  "description": "Water purified through boiling and condensation to remove impurities. Not intended for consumption, but ideal for use in opiate production.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "5 kg",
+  "grid_size": "2x2",
+  "base_price": 100.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_PurifiedWater.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_RadarSignalProcessor",
+  "name": "Radar Signal Processor",
+  "short_name": "RSP",
+  "manufacturer": "General Local",
+  "description": "A powerful processing unit designed to handle radar data and video signals. Its rugged construction allows it to operate as a standalone unit or as part of a larger computing system. Contains extremely valuable data on deep-space observations and advanced electronic components useful for constructing hacking devices.",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdX_UpZ"
+  ],
+  "weight": "15 kg",
+  "grid_size": "3x3",
+  "base_price": 15000.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 4500.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_RadarSignalProcessor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_ThermoelectricGeneratorCell",
+  "name": "Radioisotope Fuel Cell",
+  "short_name": "Fuel Cell",
+  "manufacturer": "General Local",
+  "description": "A fuel cell used in a radioisotope thermoelectric generator, which converts heat from radioactive decay into electricity. The contained radioactive material can be extracted.",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "16 kg",
+  "grid_size": "2x3",
+  "base_price": 15000.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Turncoat"
+    ],
+    "price": 15000.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_ThermoelectricGeneratorCell.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Ram",
+  "name": "RAM",
+  "manufacturer": "General Local",
+  "description": "Random-access memory used to temporarily store data for quick access by the processor. Generally, the more you have, the better. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZ_UpY"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Ram.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Refrigerant",
+  "name": "Refrigerant",
+  "manufacturer": "General Local",
+  "description": "A refrigerant used in cooling systems to keep food, drinks, and, most importantly, beer cold. Unlike older refrigerants, it does not contribute to ozone layer depletion. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.Straight.FwdY_UpZ"
+  ],
+  "weight": "3 kg",
+  "grid_size": "2x3",
+  "base_price": 150.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 45.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Refrigerant.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Saline",
+  "name": "Saline",
+  "manufacturer": "General Local",
+  "description": "A sterile saline solution with a variety of laboratory and medical applications, including wound cleaning, nasal rinsing, and contamination control. It also serves as a suitable base for morphine solutions.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "1 kg",
+  "grid_size": "1x2",
+  "base_price": 50.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Saline.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_ServerCpu",
+  "name": "Server CPU",
+  "short_name": "SCPU",
+  "manufacturer": "General Local",
+  "description": "A specialized processing unit designed to handle a large number of simultaneous processing threads. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "0.08 kg",
+  "grid_size": "1x1",
+  "base_price": 600.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 180.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_ServerCpu.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_ServerRamModule",
+  "name": "Server RAM Module",
+  "short_name": "SRAMM",
+  "manufacturer": "General Local",
+  "description": "A high-capacity RAM module extracted from a storage computer. Its error-correcting code (ECC) memory can automatically detect and correct data corruption, ensuring reliable operation. An essential component for constructing an advanced hacking tool.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZ_UpX"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "2x1",
+  "base_price": 3000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 900.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_ServerRamModule.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_SignalGenerator",
+  "name": "Signal Generator",
+  "short_name": "SigGen",
+  "manufacturer": "General Local",
+  "description": "A device capable of accurately generating a wide range of electrical signal waveforms. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "1.2 kg",
+  "grid_size": "2x2",
+  "base_price": 500.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_SignalGenerator.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_SiliconeSealant",
+  "name": "Silicone Sealant",
+  "short_name": "Seal",
+  "manufacturer": "General Local",
+  "description": "An aquarium-grade silicone sealant resistant to water and a wide range of chemicals. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "1 kg",
+  "grid_size": "1x3",
+  "base_price": 50.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_SiliconeSealant.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_SodiumCarbonate",
+  "name": "Sodium Carbonate",
+  "short_name": "SodCar",
+  "manufacturer": "General Local",
+  "description": "Also known as soda ash, this alkaline compound has a wide range of uses, from laundry and household cleaning to glass manufacturing. Its chemical properties also make it useful during the precipitation stage of heroin production.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.55 kg",
+  "grid_size": "1x2",
+  "base_price": 120.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 36.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_SodiumCarbonate.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_SodiumCitrate",
+  "name": "Sodium Citrate",
+  "short_name": "SodCit",
+  "manufacturer": "General Local",
+  "description": "Sodium citrate is commonly used as an acidity regulator in foods, beverages, and pharmaceutical products. Its ability to prevent blood clotting also makes it useful as a preservative for stored blood. These same properties make it suitable for the production of high-quality morphine solutions.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.55 kg",
+  "grid_size": "1x2",
+  "base_price": 150.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 45.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_SodiumCitrate.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_SolderingIron",
+  "name": "Soldering Iron",
+  "short_name": "SIron",
+  "manufacturer": "General Local",
+  "description": "A handheld tool used to melt solder, allowing electrical components and connections to be joined together. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZ_UpY"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_SolderingIron.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_SpoofingAsic",
+  "name": "Spoofing ASIC Module",
+  "short_name": "ASIC",
+  "manufacturer": "General Local",
+  "description": "A specialized electronic module built around an application-specific integrated circuit (ASIC), designed to emulate, override, and spoof nearby wireless signatures and reproduce signal handshakes. An essential component for constructing a basic hacking tool.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "0.32 kg",
+  "grid_size": "1x1",
+  "base_price": 2000.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 600.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_SpoofingAsic.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_St1122StorageComputer",
+  "name": "ST1122 Storage Computer",
+  "short_name": "StComp",
+  "manufacturer": "General Local",
+  "description": "A rugged and reliable network storage system equipped with multiple SATA drives. Contains extensive records apparently collected for surveillance and blackmail, along with advanced electronic components useful for constructing hacking devices.",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "8 kg",
+  "grid_size": "3x2",
+  "base_price": 10000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 3000.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_St1122StorageComputer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_StainlessSteelSheet",
+  "name": "Stainless Steel Sheet",
+  "short_name": "SSteel",
+  "manufacturer": "General Local",
+  "description": "A sheet of stainless steel resistant to most common corrosive chemicals. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdX_UpZ"
+  ],
+  "weight": "2 kg",
+  "grid_size": "3x2",
+  "base_price": 150.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 45.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_StainlessSteelSheet.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Steel",
+  "name": "Steel",
+  "manufacturer": "General Local",
+  "description": "A set of steel profiles commonly used for structural support and fabrication. A useful material for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdX_UpZ"
+  ],
+  "weight": "4.4 kg",
+  "grid_size": "4x2",
+  "base_price": 100.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Steel.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_SulfuricAcid",
+  "name": "Sulfuric Acid",
+  "short_name": "Acid",
+  "manufacturer": "General Local",
+  "description": "One of the world's most widely produced industrial chemicals, sulfuric acid is primarily used in the manufacture of phosphate fertilizers. It also has numerous other applications, including the production of explosives, dyes, adhesives, wood preservatives, and automotive batteries, as well as certain processes involved in morphine production.",
+  "type": "HideoutMaterial.Production",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "5.03 kg",
+  "grid_size": "2x2",
+  "base_price": 132.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 39.6
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_SulfuricAcid.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Theophylline",
+  "name": "Theophylline",
+  "short_name": "Theoph",
+  "manufacturer": "General Local",
+  "description": "A methylxanthine compound with stimulant and bronchodilatory properties, capable of increasing central nervous system activity while relaxing smooth muscle in the airways. Suitable for use in the production of stimulants.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdY_UpZ"
+  ],
+  "weight": "0.1 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Theophylline.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_ToolingCoolant",
+  "name": "Tooling Coolant",
+  "short_name": "Coolant",
+  "manufacturer": "General Local",
+  "description": "A specialized coolant used to reduce heat and friction during precision machining. Essential for accurate and reliable tooling operations. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdX_UpZ"
+  ],
+  "weight": "2 kg",
+  "grid_size": "2x2",
+  "base_price": 250.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_ToolingCoolant.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Toolset",
+  "name": "Toolset",
+  "manufacturer": "General Local",
+  "description": "A collection of practical tools suitable for a wide range of repair and construction work. Useful for building and upgrading various Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "1.6 kg",
+  "grid_size": "2x2",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Toolset.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_UnlraFieldTerminal",
+  "name": "UNLRA Field Terminal",
+  "short_name": "FiTer",
+  "manufacturer": "General Local",
+  "description": "A portable handheld computer used by UNLRA personnel for communication and data sharing in the field. Contains valuable intelligence on UNLRA operations and electronic components useful for constructing hacking devices.",
+  "type": "HideoutMaterial.Disassembly",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "0.72 kg",
+  "grid_size": "2x1",
+  "base_price": 5000.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 1500.0
+   }
+  ],
+  "stats": {
+   "maxStack": 1,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_UnlraFieldTerminal.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_VaporLamp",
+  "name": "Vapor Lamp",
+  "short_name": "VLamp",
+  "manufacturer": "General Local",
+  "description": "A vapor lamp that emits light within a very narrow spectral range, making it a useful light source for high-precision analysis. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.05 kg",
+  "grid_size": "1x1",
+  "base_price": 500.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_VaporLamp.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_VitaminB12",
+  "name": "Vitamin B12",
+  "short_name": "B12",
+  "manufacturer": "General Local",
+  "description": "An essential vitamin involved in red blood cell formation, DNA synthesis, and normal nervous system function. Suitable for use in the production of stimulants.",
+  "type": "HideoutMaterial.Crafting",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZ_UpX"
+  ],
+  "weight": "0.25 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "LabRat"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_VitaminB12.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_WaterPump",
+  "name": "Water Pump",
+  "short_name": "WPump",
+  "manufacturer": "General Local",
+  "description": "A small powered device designed to move liquids from one place to another. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdX_UpZ"
+  ],
+  "weight": "15 kg",
+  "grid_size": "4x3",
+  "base_price": 1500.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 450.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_WaterPump.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_Wood",
+  "name": "Wood",
+  "manufacturer": "General Local",
+  "description": "Wooden planks suitable for furniture and all kinds of construction. Wood is such a blessing for humanity. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Big",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdX_UpZ"
+  ],
+  "weight": "3 kg",
+  "grid_size": "4x1",
+  "base_price": 50.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 15.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_Wood.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Misc_ZincElectrode",
+  "name": "Zinc Electrode",
+  "short_name": "Elect",
+  "manufacturer": "General Local",
+  "description": "A zinc electrode that serves as a source of zinc atoms during the galvanization process. Useful for building and upgrading Hideout stations.",
+  "type": "HideoutMaterial.Building",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "IconDrawer.ViewOrientation.ThreeQuarter.FwdZNegY"
+  ],
+  "weight": "0.5 kg",
+  "grid_size": "1x2",
+  "base_price": 400.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 120.0
+   }
+  ],
+  "stats": {
+   "maxStack": 5,
+   "initialStack": 1
+  },
+  "image": "https://gzw-data.dev/assets/items/hideout_materials/IS_Misc_ZincElectrode.webp",
+  "source": "game-files"
+ }
+]

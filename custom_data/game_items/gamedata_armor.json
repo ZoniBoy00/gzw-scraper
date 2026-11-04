@@ -1,0 +1,3555 @@
+[
+ {
+  "id": "IS_Vest_6b231_Digital",
+  "name": "6B23-1 (Digital)",
+  "short_name": "6B23-1",
+  "manufacturer": "Techincom",
+  "description": "This ballistic vest is a part of the 6B23 series, designed to provide reliable protection for soldiers in various combat situations. It features a digital camouflage pattern which helps the wearer to stay hidden thanks to its pixellated patterns.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "Protection.Plate.Front",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3p"
+  ],
+  "weight": "7.4 kg",
+  "grid_size": "3x4",
+  "base_price": 2300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 690.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 30000.0,
+   "minimumDamageJoules": 200.0,
+   "repairDifficultyModifier": 0.8
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_6b231_Digital.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_6b231_Flora",
+  "name": "6B23-1 (Flora)",
+  "short_name": "6B23-1",
+  "manufacturer": "Techincom",
+  "description": "This ballistic vest is a part of the 6B23 series, designed to provide reliable protection for soldiers in various combat situations. It features an iconic \"Flora\" camouflage pattern, which is used by the Russian Armed Forces.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "Protection.Plate.Front",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3p"
+  ],
+  "weight": "7.4 kg",
+  "grid_size": "3x4",
+  "base_price": 2300.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 2300.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 690.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 30000.0,
+   "minimumDamageJoules": 200.0,
+   "repairDifficultyModifier": 0.8
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_6b231_Flora.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_6b45Ratnik",
+  "name": "6B45 Ratnik",
+  "short_name": "6B45",
+  "manufacturer": "Techincom",
+  "description": "A part of the Ratnik infantry combat system. It is designed to provide comprehensive ballistic protection and versatility for soldiers in modern warfare scenarios. The 6B45 Ratnik features integrated ceramic plates and soft armor materials, offering effective defense against bullets and fragments.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Protection.Plate.Side",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3p"
+  ],
+  "weight": "13.2 kg",
+  "grid_size": "3x4",
+  "base_price": 2900.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 2900.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 870.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 30000.0,
+   "minimumDamageJoules": 200.0,
+   "repairDifficultyModifier": 0.8,
+   "storageGrid": {
+    "width": 3,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_6b45Ratnik.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_6b45Ratnik_Black",
+  "name": "6B45 Ratnik (Black)",
+  "short_name": "6B45",
+  "manufacturer": "Techincom",
+  "description": "A part of the Ratnik infantry combat system. It is designed to provide comprehensive ballistic protection and versatility for soldiers in modern warfare scenarios. The 6B45 Ratnik features integrated ceramic plates and soft armor materials, offering effective defense against bullets and fragments.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Ceramic",
+   "Armor.Class.NIJ3pp"
+  ],
+  "weight": "12.1 kg",
+  "grid_size": "3x4",
+  "base_price": 4350.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1305.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 23400.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.5,
+   "storageGrid": {
+    "width": 3,
+    "height": 4
+   }
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_6b47Ratnik",
+  "name": "6B47 Ratnik",
+  "short_name": "6B47",
+  "manufacturer": "Armokom",
+  "description": "An advanced ballistic helmet and a key component of the Ratnik modern infantry combat system. With its innovative design and materials, it provides superior protection against ballistic threats and impact. Designed to accommodate various attachments, the 6B47 allows the integration of night vision goggles, communication devices, and other accessories, enhancing situational awareness and combat effectiveness.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ2"
+  ],
+  "weight": "1.1 kg",
+  "grid_size": "2x2",
+  "base_price": 400.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 400.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 120.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 3000.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.1,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_6b47Ratnik.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_Amp1TpLc_RangerGreen",
+  "name": "AMP-1 TP LC (Ranger Green)",
+  "short_name": "AMP-1 TP LC",
+  "manufacturer": "Busch Protective",
+  "description": "The AMP-1 TP LC (Low Cut) is a state-of-the-art, modular and comfortable ballistic helmet with next-to-zero bullet penetration. It is fully customizable and allows for various attachments while offering total head protection during close-quarter combat operations.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3Ap"
+  ],
+  "weight": "1.4 kg",
+  "grid_size": "2x2",
+  "base_price": 3250.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 3250.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 975.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 9100.0,
+   "minimumDamageJoules": 28.0,
+   "rainReduction": 0.3,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_Amp1TpLc_RangerGreen.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_Amp1TpLc_UN",
+  "name": "AMP-1 TP LC (UNLRA)",
+  "short_name": "AMP-1 TP LC",
+  "manufacturer": "Busch Protective",
+  "description": "The AMP-1 TP LC (Low Cut) is a state-of-the-art, modular and comfortable ballistic helmet with next-to-zero bullet penetration. It is fully customizable and allows for various attachments while offering total head protection during close-quarter combat operations.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3Ap"
+  ],
+  "weight": "1.4 kg",
+  "grid_size": "2x2",
+  "base_price": 3250.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 975.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 9100.0,
+   "minimumDamageJoules": 28.0,
+   "rainReduction": 0.3,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_Amp1TpLc_UN.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_Amp1TpMc_RangerGreen",
+  "name": "AMP-1 TP MC (Ranger Green)",
+  "short_name": "AMP-1 TP MC",
+  "manufacturer": "Busch Protective",
+  "description": "The AMP-1 TP MC (Mid Cut) is a state-of-the-art, modular and comfortable ballistic helmet with next-to-zero bullet penetration. It is fully customizable and allows for various attachments while offering total head protection during close-quarter combat operations.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3Ap"
+  ],
+  "weight": "1.25 kg",
+  "grid_size": "2x2",
+  "base_price": 3250.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 975.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 9100.0,
+   "minimumDamageJoules": 28.0,
+   "rainReduction": 0.3,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_Amp1TpMc_RangerGreen.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_AtbvVest",
+  "name": "ATBV Vest",
+  "short_name": "ATBV",
+  "manufacturer": "Aholdtech",
+  "description": "A Chinese-made ballistic vest with pouches for additional armor plates. Adjustable shoulder straps and a secure cummerbund allow for a customizable fit across most body types.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "3.8 kg",
+  "grid_size": "3x3",
+  "base_price": 1700.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 1700.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 510.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 24500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.7
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_AtbvVest.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_AtbvVest_Cat",
+  "name": "ATBV Vest",
+  "short_name": "ATBV",
+  "manufacturer": "Aholdtech",
+  "description": "A Chinese-made ballistic vest with pouches for additional armor plates. Adjustable shoulder straps and a secure cummerbund allow for a customizable fit across most body types.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "3.8 kg",
+  "grid_size": "3x3",
+  "base_price": 1700.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 510.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 24500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.7
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_AtbvVest_Olive",
+  "name": "ATBV Vest (Olive)",
+  "short_name": "ATBV",
+  "manufacturer": "Aholdtech",
+  "description": "A Chinese-made ballistic vest with pouches for additional armor plates. Adjustable shoulder straps and a secure cummerbund allow for a customizable fit across most body types.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Ceramic",
+   "Armor.Class.NIJ3p"
+  ],
+  "weight": "6.6 kg",
+  "grid_size": "3x3",
+  "base_price": 2400.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 720.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 22500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.5
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_BkAch_Green",
+  "name": "BK-ACH",
+  "manufacturer": "Gared",
+  "description": "The BK-ACH is a modern ballistic helmet designed for police and military use. Its EBSP manufacturing process provides protection against fragments and shrapnel while offering increased resistance to environmental factors.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.4 kg",
+  "grid_size": "2x2",
+  "base_price": 1150.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 1150.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 345.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.1,
+   "repairDifficultyModifier": 0.6
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_BkAchHc_Green",
+  "name": "BK-ACH-HC",
+  "short_name": "BK-ACH",
+  "manufacturer": "Gared",
+  "description": "The BK-ACH is a modern ballistic helmet designed for police and military use. Its EBSP manufacturing process provides protection against fragments and shrapnel while offering increased resistance to environmental factors.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.3 kg",
+  "grid_size": "2x2",
+  "base_price": 1050.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 1050.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 315.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.1,
+   "repairDifficultyModifier": 0.6
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_Cgpc3Tqs",
+  "name": "CGPC3 TQS",
+  "short_name": "CGPC3",
+  "manufacturer": "Custom Gear",
+  "description": "A low-profile, lightweight, and fully modular plate carrier made in the Czech Republic. With its sturdy construction and advanced materials, it offers reliable defense against ballistic threats and fragmentation, while its Tube Quick System allows for comfortable and silent unfastening.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "3.7 kg",
+  "grid_size": "3x3",
+  "base_price": 880.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 1,
+    "price": 880.0
+   }
+  ],
+  "sold_by": "Handshake R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 264.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 8050.0,
+   "minimumDamageJoules": 28.0,
+   "repairDifficultyModifier": 0.7,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_Cgpc3Tqs.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_Cgpc3Tqs_ThaiMercs",
+  "name": "CGPC3 TQS",
+  "short_name": "CGPC3",
+  "manufacturer": "Custom Gear",
+  "description": "A low-profile, lightweight, and fully modular plate carrier made in the Czech Republic. With its sturdy construction and advanced materials, it offers reliable defense against ballistic threats and fragmentation, while its Tube Quick System allows for comfortable and silent unfastening.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Ceramic",
+   "Armor.Class.NIJ3p"
+  ],
+  "weight": "6.2 kg",
+  "grid_size": "3x3",
+  "base_price": 3100.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 930.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 22500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.5,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_ChestRig901Elite4",
+  "name": "Chest Rig 901 Elite 4",
+  "short_name": "Elite 4",
+  "manufacturer": "Warrior Assault Systems",
+  "description": "A high-performance and versatile tactical gear designed to provide efficient load-carrying capabilities for military and law enforcement. This version allows for a ballistic plate to be worn in its wider upper section, while still enabling the user to get in and out of the rig at speed and without any assistance.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "5.7 kg",
+  "grid_size": "4x3",
+  "base_price": 1500.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 1500.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 450.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 28000.0,
+   "minimumDamageJoules": 200.0,
+   "repairDifficultyModifier": 0.8,
+   "storageGrid": {
+    "width": 5,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_ChestRig901Elite4.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_ChestRig901Elite4_ThaiMercs",
+  "name": "Chest Rig 901 Elite 4",
+  "short_name": "Elite 4",
+  "manufacturer": "Warrior Assault Systems",
+  "description": "A high-performance and versatile tactical gear designed to provide efficient load-carrying capabilities for military and law enforcement. This version allows for a ballistic plate to be worn in its wider upper section, while still enabling the user to get in and out of the rig at speed and without any assistance.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3p"
+  ],
+  "weight": "4.8 kg",
+  "grid_size": "4x3",
+  "base_price": 3200.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 960.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 30000.0,
+   "minimumDamageJoules": 200.0,
+   "repairDifficultyModifier": 0.8,
+   "storageGrid": {
+    "width": 5,
+    "height": 2
+   }
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_Commander_Black",
+  "name": "Commander (Black)",
+  "short_name": "Commander",
+  "manufacturer": "Safeguard Armor",
+  "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "2.45 kg",
+  "grid_size": "3x3",
+  "base_price": 400.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 1,
+    "price": 400.0
+   }
+  ],
+  "sold_by": "Handshake R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 120.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "repairDifficultyModifier": 0.6
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_Commander_Black.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_Commander_Dark",
+  "name": "Commander (Black)",
+  "short_name": "Commander",
+  "manufacturer": "Safeguard Armor",
+  "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "9.2 kg",
+  "grid_size": "3x3",
+  "base_price": 1500.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 450.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 28000.0,
+   "minimumDamageJoules": 200.0,
+   "repairDifficultyModifier": 0.8
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_Commander_Navy",
+  "name": "Commander (Navy)",
+  "short_name": "Commander",
+  "manufacturer": "Safeguard Armor",
+  "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "2.45 kg",
+  "grid_size": "3x3",
+  "base_price": 400.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 1,
+    "price": 400.0
+   }
+  ],
+  "sold_by": "Handshake R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 120.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "repairDifficultyModifier": 0.6
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_Commander_Navy.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_Commander_Lla",
+  "name": "Commander (Olive)",
+  "short_name": "Commander",
+  "manufacturer": "Safeguard Armor",
+  "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "2.45 kg",
+  "grid_size": "3x3",
+  "base_price": 400.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 120.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "repairDifficultyModifier": 0.6
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_Commander_MalayPirates",
+  "name": "Commander (Olive)",
+  "short_name": "Commander",
+  "manufacturer": "Safeguard Armor",
+  "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "2.45 kg",
+  "grid_size": "3x3",
+  "base_price": 400.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 120.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "repairDifficultyModifier": 0.6
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_Commander_MalayPirates_02",
+  "name": "Commander (Olive)",
+  "short_name": "Commander",
+  "manufacturer": "Safeguard Armor",
+  "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "2.45 kg",
+  "grid_size": "3x3",
+  "base_price": 400.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 120.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "repairDifficultyModifier": 0.6
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_Commander_Olive",
+  "name": "Commander (Olive)",
+  "short_name": "Commander",
+  "manufacturer": "Safeguard Armor",
+  "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "2.45 kg",
+  "grid_size": "3x3",
+  "base_price": 400.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 1,
+    "price": 400.0
+   }
+  ],
+  "sold_by": "Handshake R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 120.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "repairDifficultyModifier": 0.6
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_Commander_Olive.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_CoolmaxCovertVest",
+  "name": "Coolmax Covert Vest",
+  "short_name": "Coolmax",
+  "manufacturer": "Safeguard Armor",
+  "description": "A covert ballistic vest designed for low-profile use. Its special liner promotes airflow and dissipates body heat, reducing sweat buildup and making it well-suited for hot and humid environments.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "3.1 kg",
+  "grid_size": "3x3",
+  "base_price": 550.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 165.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "repairDifficultyModifier": 0.6
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_CoolmaxCovertVest.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_CovertTacticalBodyArmour_VietGang",
+  "name": "Covert Tactical Body Armour (Black)",
+  "short_name": "Covert",
+  "manufacturer": "VestGuard",
+  "description": "Extremely popular with international security organizations and law enforcement. The Covert Tactical Body Armour safeguards against most handgun threats.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3Ap"
+  ],
+  "weight": "2.35 kg",
+  "grid_size": "3x3",
+  "base_price": 850.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 255.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 9100.0,
+   "minimumDamageJoules": 28.0,
+   "repairDifficultyModifier": 0.7
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_CovertTacticalBodyArmour_Police",
+  "name": "Covert Tactical Body Armour (Police)",
+  "short_name": "Covert",
+  "manufacturer": "VestGuard",
+  "description": "Extremely popular with international security organizations and law enforcement. The Covert Tactical Body Armour safeguards against most handgun threats.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3p"
+  ],
+  "weight": "4.25 kg",
+  "grid_size": "3x3",
+  "base_price": 2800.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 840.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 26250.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.7
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_CovertTacticalBodyArmour_Police.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_CovertTacticalBodyArmour_Press",
+  "name": "Covert Tactical Body Armour (Press)",
+  "short_name": "Covert",
+  "manufacturer": "VestGuard",
+  "description": "Extremely popular with international security organizations and law enforcement. The Covert Tactical Body Armour safeguards against most handgun threats.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "8.8 kg",
+  "grid_size": "3x3",
+  "base_price": 1500.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 450.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 28000.0,
+   "minimumDamageJoules": 200.0,
+   "repairDifficultyModifier": 0.8
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_CovertTacticalBodyArmour_Press.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_CovertTacticalBodyArmour_Un",
+  "name": "Covert Tactical Body Armour (UNLRA)",
+  "short_name": "Covert",
+  "manufacturer": "VestGuard",
+  "description": "Extremely popular with international security organizations and law enforcement, the Covert Tactical Body Armour provides level IIIA ballistic protection according to the NIJ (National Institute of Justice) standard, safeguarding against most handgun threats. This particular UNLRA version doesn't feature any additional ballistic plates.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "2.1 kg",
+  "grid_size": "3x3",
+  "base_price": 400.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 120.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "repairDifficultyModifier": 0.6
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_CovertTacticalBodyArmour_Un.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_CovertTacticalBodyArmour_Woodland",
+  "name": "Covert Tactical Body Armour (Woodland)",
+  "short_name": "Covert",
+  "manufacturer": "VestGuard",
+  "description": "Extremely popular with international security organizations and law enforcement. The Covert Tactical Body Armour safeguards against most handgun threats.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "8.8 kg",
+  "grid_size": "3x3",
+  "base_price": 1500.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 1500.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 450.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 28000.0,
+   "minimumDamageJoules": 200.0,
+   "repairDifficultyModifier": 0.8
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_CovertTacticalBodyArmour_Woodland.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_Hornet_LLA",
+  "name": "CZ 4M HORNET",
+  "short_name": "Hornet",
+  "manufacturer": "4M",
+  "description": "A Czech-made ballistic vest with pouches for additional armor plates.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "4.4 kg",
+  "grid_size": "3x3",
+  "base_price": 1600.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 480.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 24500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.7
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_Hornet_UN",
+  "name": "CZ 4M HORNET (UNLRA)",
+  "short_name": "Hornet",
+  "manufacturer": "4M",
+  "description": "A Czech-made ballistic vest with pouches for additional armor plates.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "4.4 kg",
+  "grid_size": "3x3",
+  "base_price": 1600.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 480.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 24500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.7
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_Hornet_UN.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_Hornet_Green",
+  "name": "CZ 4M HORNET Green",
+  "short_name": "Hornet",
+  "manufacturer": "4M",
+  "description": "A Czech-made ballistic vest with pouches for additional armor plates.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Ceramic",
+   "Armor.Class.NIJ3p"
+  ],
+  "weight": "6.9 kg",
+  "grid_size": "3x3",
+  "base_price": 2400.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 2400.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 720.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 22500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.5
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_Lancer",
+  "name": "CZ 4M Lancer",
+  "short_name": "Lancer",
+  "manufacturer": "4M",
+  "description": "The CZ 4M Lancer offers advanced ballistic protection for high-risk operations. With its unique anatomic design, it ensures optimal weight distribution between the operator's back and torso, reducing shoulder strain during extended wear.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "5 kg",
+  "grid_size": "3x3",
+  "base_price": 1750.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 525.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 24500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.7,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_Lancer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_Lancer_Cat",
+  "name": "CZ 4M Lancer",
+  "short_name": "Lancer",
+  "manufacturer": "4M",
+  "description": "The CZ 4M Lancer offers advanced ballistic protection for high-risk operations. With its unique anatomic design, it ensures optimal weight distribution between the operator's back and torso, reducing shoulder strain during extended wear.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Ceramic",
+   "Armor.Class.NIJ3p"
+  ],
+  "weight": "5.6 kg",
+  "grid_size": "3x3",
+  "base_price": 2850.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 855.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 22500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.5,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_Lancer_UN",
+  "name": "CZ 4M Lancer (UNLRA)",
+  "short_name": "Lancer",
+  "manufacturer": "4M",
+  "description": "The CZ 4M Lancer offers advanced ballistic protection for high-risk operations. With its unique anatomic design, it ensures optimal weight distribution between the operator's back and torso, reducing shoulder strain during extended wear. This variant was used by the UNLRA forces during their mission in Lamang.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "5.8 kg",
+  "grid_size": "3x3",
+  "base_price": 1900.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 570.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 24500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.7,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_Lancer_UN.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_Vip_Black",
+  "name": "CZ VIP (Black)",
+  "short_name": "VIP",
+  "manufacturer": "4M",
+  "description": "Offers discreet ballistic protection for everyday use. Favored especially by bodyguards and security personnel.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "4.8 kg",
+  "grid_size": "3x3",
+  "base_price": 1100.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 1100.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 330.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 28000.0,
+   "minimumDamageJoules": 200.0,
+   "repairDifficultyModifier": 0.8
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_Vip_Black.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_Exfil_CoyoteBrown",
+  "name": "EXFIL (Coyote Brown)",
+  "short_name": "EXFIL",
+  "manufacturer": "Team Wendy",
+  "description": "The EXFIL Ballistic is an advanced and versatile helmet engineered for superior protection and performance in high-risk environments. It features a hybrid composite shell and guarantees an optimal fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.18 kg",
+  "grid_size": "2x2",
+  "base_price": 2100.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 2100.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 630.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 8050.0,
+   "minimumDamageJoules": 28.0,
+   "rainReduction": 0.3,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_Exfil_CoyoteBrown.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_Exfil_Multicam",
+  "name": "EXFIL (Multicam)",
+  "short_name": "EXFIL",
+  "manufacturer": "Team Wendy",
+  "description": "The EXFIL Ballistic is an advanced and versatile helmet engineered for superior protection and performance in high-risk environments. It features a hybrid composite shell and guarantees an optimal fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.18 kg",
+  "grid_size": "2x2",
+  "base_price": 2270.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 2270.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 681.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 8050.0,
+   "minimumDamageJoules": 28.0,
+   "rainReduction": 0.3,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_Exfil_Multicam.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_FastMt_Multicam",
+  "name": "FAST MT (Multicam)",
+  "short_name": "FAST MT",
+  "manufacturer": "Ops-Core",
+  "description": "The FAST (Future Assault Shell Technology) MT is a high-performance tactical ballistic helmet manufactured by Ops-Core. Engineered with state-of-the-art materials, it provides exceptional protection and enhanced peripheral vision, promoting situational awareness in dynamic environments.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.1 kg",
+  "grid_size": "2x2",
+  "base_price": 2350.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 2350.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 705.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 8050.0,
+   "minimumDamageJoules": 28.0,
+   "rainReduction": 0.3,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_FastMt_Multicam.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_FastMt_Tan",
+  "name": "FAST MT (Tan)",
+  "short_name": "FAST MT",
+  "manufacturer": "Ops-Core",
+  "description": "The FAST (Future Assault Shell Technology) MT is a high-performance tactical ballistic helmet manufactured by Ops-Core. Engineered with state-of-the-art materials, it provides exceptional protection and enhanced peripheral vision, promoting situational awareness in dynamic environments.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.05 kg",
+  "grid_size": "2x2",
+  "base_price": 2300.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 2300.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 690.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 8050.0,
+   "minimumDamageJoules": 28.0,
+   "rainReduction": 0.3,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_FastMt_Tan.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_FastXpHc_Multicam",
+  "name": "FAST XP HC (Multicam)",
+  "short_name": "FAST XP HC",
+  "manufacturer": "Ops-Core",
+  "description": "The FAST XP HC is a top-tier, high-cut ballistic helmet designed to meet the needs of specialized military and law enforcement units. Its advanced ballistic protection provides superior protection against many threats on the battlefield.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.25 kg",
+  "grid_size": "2x2",
+  "base_price": 2080.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 2080.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 624.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 8050.0,
+   "minimumDamageJoules": 28.0,
+   "rainReduction": 0.3,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_FastXpHc_Multicam.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_FastXpHc_Olive",
+  "name": "FAST XP HC (Olive)",
+  "short_name": "FAST XP HC",
+  "manufacturer": "Ops-Core",
+  "description": "The FAST XP HC is a top-tier, high-cut ballistic helmet designed to meet the needs of specialized military and law enforcement units. Its advanced ballistic protection provides superior protection against many threats on the battlefield.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.25 kg",
+  "grid_size": "2x2",
+  "base_price": 2050.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 2050.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 615.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 8050.0,
+   "minimumDamageJoules": 28.0,
+   "rainReduction": 0.3,
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_FastXpHc_Olive.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_Lbt6094G3v2",
+  "name": "LBT-6094 G3v2",
+  "short_name": "G3v2",
+  "manufacturer": "LBT",
+  "description": "A third-generation variant of the LBT-6094 plate carrier series, tailored to provide enhanced performance and functionality for military, law enforcement, and tactical operators. Featuring a rugged and lightweight construction, the LBT-6094 G3v2 offers reliable ballistic protection with integrated pockets for ballistic plates.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Ceramic",
+   "Armor.Class.NIJ3pp"
+  ],
+  "weight": "7.1 kg",
+  "grid_size": "3x3",
+  "base_price": 5230.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 5230.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1569.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 23400.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.5,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_Lbt6094G3v2.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_LcsSentry",
+  "name": "LCS Sentry",
+  "short_name": "LCS",
+  "manufacturer": "Condor Outdoor",
+  "description": "The LCS Sentry is a sleek plate carrier designed with mobility and maneuverability in mind. Its laser-cut MOLLE slots cover most of the front and back plate pouches, allowing for extensive customization.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "3.9 kg",
+  "grid_size": "3x3",
+  "base_price": 1650.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 1650.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 495.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 24500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.7,
+   "storageGrid": {
+    "width": 4,
+    "height": 2
+   }
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_LcsSentry_UNLRA",
+  "name": "LCS Sentry (UNLRA)",
+  "short_name": "LCS",
+  "manufacturer": "Condor Outdoor",
+  "description": "The LCS Sentry is a sleek plate carrier designed with mobility and maneuverability in mind. Its laser-cut MOLLE slots cover most of the front and back plate pouches, allowing for extensive customization.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "4.7 kg",
+  "grid_size": "3x3",
+  "base_price": 1700.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 510.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 24500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.7,
+   "storageGrid": {
+    "width": 4,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_LcsSentry_UNLRA.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_Lshz1_Black",
+  "name": "LShZ 1+",
+  "short_name": "LShZ",
+  "manufacturer": "Armokom",
+  "description": "A copy of the Ops-Core FAST helmet, the LshZ 1+ has a flatter shell and was designed to mount Russian night vision and communication devices. It offers enhanced peripheral vision and comfort, while providing comprehensive coverage for vital areas.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.3 kg",
+  "grid_size": "2x2",
+  "base_price": 1650.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 1650.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 495.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.1,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_Lshz1_Black.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_Lshz1_Multicam",
+  "name": "LShZ 1+ (Multicam)",
+  "short_name": "LShZ",
+  "manufacturer": "Armokom",
+  "description": "A copy of the Ops-Core FAST helmet, the LshZ 1+ has a flatter shell and was designed to mount Russian night vision and communication devices. It offers enhanced peripheral vision and comfort, while providing comprehensive coverage for vital areas.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.3 kg",
+  "grid_size": "2x2",
+  "base_price": 1700.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 1700.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 510.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.1,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_Lshz1_Multicam.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_LVSOvert_RangerGreen",
+  "name": "LVS Overt (Ranger Green)",
+  "short_name": "LVS Overt",
+  "manufacturer": "Crye-Precision",
+  "description": "A lightweight, concealable body armor vest shaped to match the wearer’s body for comfort and reduced profile.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3Ap"
+  ],
+  "weight": "7.5 kg",
+  "grid_size": "3x3",
+  "base_price": 700.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 1,
+    "price": 700.0
+   }
+  ],
+  "sold_by": "Handshake R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 210.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 10400.0,
+   "minimumDamageJoules": 40.0,
+   "repairDifficultyModifier": 0.8
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_LVSTactical_MC",
+  "name": "LVS Tactical (Multicam)",
+  "short_name": "LVS Tactical",
+  "manufacturer": "Crye-Precision",
+  "description": "A lightweight vest featuring a tactical cover which can support additional pouches and attachment points for modular equipment.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Protection.Plate.Side",
+   "Armor.Material.Ceramic",
+   "Armor.Class.NIJ3pp"
+  ],
+  "weight": "8.2 kg",
+  "grid_size": "3x3",
+  "base_price": 4000.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 4000.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1200.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 23400.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.5
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_LVSTactical_RangerGreen",
+  "name": "LVS Tactical (Ranger Green)",
+  "short_name": "LVS Tactical",
+  "manufacturer": "Crye-Precision",
+  "description": "A lightweight vest featuring a tactical cover which can support additional pouches and attachment points for modular equipment.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Protection.Plate.Side",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "10.8 kg",
+  "grid_size": "3x3",
+  "base_price": 1900.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 1900.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 570.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 28000.0,
+   "minimumDamageJoules": 200.0,
+   "repairDifficultyModifier": 0.8
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_M1_Vietnam_Heart",
+  "name": "M1 (Ace Of Hearts)",
+  "short_name": "M1 H",
+  "manufacturer": "General West",
+  "description": "An M1 helmet adorned with handwritten slogans and an Ace of Hearts tucked into the band.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "NotForStatistics",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ1"
+  ],
+  "weight": "1.43 kg",
+  "grid_size": "2x2",
+  "base_price": 250.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.1,
+   "repairDifficultyModifier": 0.8
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_M1_Vietnam_Heart.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_M1_Vietnam_Spade",
+  "name": "M1 (Ace Of Spades)",
+  "short_name": "M1 S",
+  "manufacturer": "General West",
+  "description": "An M1 helmet adorned with handwritten slogans and an Ace of Spades tucked into the band.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "NotForStatistics",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ1"
+  ],
+  "weight": "1.43 kg",
+  "grid_size": "2x2",
+  "base_price": 250.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.1,
+   "repairDifficultyModifier": 0.8
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_M1_Vietnam_Spade.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_M2",
+  "name": "M2 Plate Carrier",
+  "short_name": "M2",
+  "manufacturer": "ANA-Tactical",
+  "description": "This versatile plate carrier is used by the National Guard of Russia. Offering excellent protection while remaining compact and lightweight, the M2 features a modular design that allows for easy customization and adjustment to accommodate different mission requirements and gear setups.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Ceramic",
+   "Armor.Class.NIJ3p"
+  ],
+  "weight": "7.7 kg",
+  "grid_size": "3x4",
+  "base_price": 3250.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 975.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 22500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.5,
+   "storageGrid": {
+    "width": 3,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_M2.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_M2_Laf",
+  "name": "M2 Plate Carrier",
+  "short_name": "M2",
+  "manufacturer": "ANA-Tactical",
+  "description": "This versatile plate carrier is used by the National Guard of Russia. Offering excellent protection while remaining compact and lightweight, the M2 features a modular design that allows for easy customization and adjustment to accommodate different mission requirements and gear setups.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Ceramic",
+   "Armor.Class.NIJ3pp"
+  ],
+  "weight": "8.9 kg",
+  "grid_size": "3x4",
+  "base_price": 5000.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1500.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 23400.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.5,
+   "storageGrid": {
+    "width": 4,
+    "height": 3
+   }
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_MichLc",
+  "name": "MICH LC",
+  "manufacturer": "Aholdtech",
+  "description": "A Chinese helmet inspired by the classic MICH-2000. Made from UHMWPE, it offers adequate protection compared to its Western counterparts.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.6 kg",
+  "grid_size": "2x2",
+  "base_price": 620.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 620.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 186.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.2,
+   "repairDifficultyModifier": 0.6
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_MichLc.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_MichTc2000_Black",
+  "name": "MICH TC-2000 (Black)",
+  "short_name": "TC-2000",
+  "manufacturer": "MSA",
+  "description": "A modern combat helmet providing advanced ballistic and fragmentation protection. The NVG shroud allows for the installation of night vision devices, while adjustable padding ensures a secure fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "2x2",
+  "base_price": 820.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 820.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 246.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.2,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_MichTc2000_Black.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_MichTc2000_Green",
+  "name": "MICH TC-2000 (Green)",
+  "short_name": "TC-2000",
+  "manufacturer": "MSA",
+  "description": "A modern combat helmet providing advanced ballistic and fragmentation protection. Its adjustable padding ensures a secure and comfortable fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "2x2",
+  "base_price": 650.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 650.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 195.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.2,
+   "repairDifficultyModifier": 0.6
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_MichTc2000_Green.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_MichTc2000_UN",
+  "name": "MICH TC-2000 (UNLRA)",
+  "short_name": "TC-2000",
+  "manufacturer": "UNOPS",
+  "description": "A modern combat helmet providing advanced ballistic and fragmentation protection. The NVG shroud allows for the installation of night vision devices, while adjustable padding ensures a secure fit.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "2x2",
+  "base_price": 800.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 240.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.2,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_MichTc2000_UN.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_MichTc2002_Green",
+  "name": "MICH TC-2002 (Green)",
+  "short_name": "TC-2002",
+  "manufacturer": "MSA",
+  "description": "An advanced version of the MICH TC-2000 combat helmet, offering upgraded ballistic protection and features. It retains the streamlined and lightweight characteristics of its predecessor, reducing strain and fatigue during extended missions.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "2x2",
+  "base_price": 1550.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 1550.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 465.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.3,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_MichTc2002_Green.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_MichTc2002_Tan",
+  "name": "MICH TC-2002 (Tan)",
+  "short_name": "TC-2002",
+  "manufacturer": "MSA",
+  "description": "An advanced version of the MICH TC-2000 combat helmet, offering upgraded ballistic protection and features. It retains the streamlined and lightweight characteristics of its predecessor, reducing strain and fatigue during extended missions.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.5 kg",
+  "grid_size": "2x2",
+  "base_price": 1450.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 1450.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 435.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.3,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_MichTc2002_Tan.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_ModularOperatorCarrierGenII",
+  "name": "Modular Operator Carrier Gen II",
+  "short_name": "MOC II",
+  "manufacturer": "Condor Outdoor",
+  "description": "An advanced and versatile tactical vest designed to provide reliable protection and adaptability for military and law enforcement personnel. With its modular design, it offers customizable load-carrying capabilities to accommodate various mission requirements.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Protection.Plate.Side",
+   "Armor.Material.UHMWPE",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "4.2 kg",
+  "grid_size": "3x3",
+  "base_price": 650.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 1,
+    "price": 650.0
+   }
+  ],
+  "sold_by": "Handshake R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 195.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 8050.0,
+   "minimumDamageJoules": 28.0,
+   "repairDifficultyModifier": 0.7,
+   "storageGrid": {
+    "width": 4,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_ModularOperatorCarrierGenII.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_UnbrandedMolleVest",
+  "name": "Molle Vest",
+  "short_name": "Molle",
+  "manufacturer": "General Local",
+  "description": "An unbranded ballistic vest with MOLLE webbing. It provides basic soft‑armor protection and modular attachment points, but its effectiveness against high‑power rifle calibers is limited.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "2.6 kg",
+  "grid_size": "3x3",
+  "base_price": 300.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 300.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 9200.0,
+   "minimumDamageJoules": 40.0,
+   "repairDifficultyModifier": 0.8
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_UnbrandedMolleVest.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_UnbrandedMolleVest_DarkOlive",
+  "name": "Molle Vest",
+  "short_name": "Molle",
+  "manufacturer": "General Local",
+  "description": "An unbranded ballistic vest with MOLLE webbing. It provides basic soft‑armor protection and modular attachment points, but its effectiveness against high‑power rifle calibers is limited.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "2.6 kg",
+  "grid_size": "3x3",
+  "base_price": 300.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 9200.0,
+   "minimumDamageJoules": 40.0,
+   "repairDifficultyModifier": 0.8
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_UnbrandedMolleVest_Lla",
+  "name": "Molle Vest",
+  "short_name": "Molle",
+  "manufacturer": "General Local",
+  "description": "An unbranded ballistic vest with MOLLE webbing. It provides basic soft‑armor protection and modular attachment points, but its effectiveness against high‑power rifle calibers is limited.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "2.6 kg",
+  "grid_size": "3x3",
+  "base_price": 300.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 9200.0,
+   "minimumDamageJoules": 40.0,
+   "repairDifficultyModifier": 0.8
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_Pantsir20",
+  "name": "Pantsir 2.0",
+  "manufacturer": "SSO",
+  "description": "The Pantsir 2.0 is a Russian plate carrier compatible with 265x 340mm SAPI, ESAPI, and Granit plates, featuring additional soft armor. It provides ballistic defense against threats in high-risk operational environments and can be fitted with climatic inserts that reduce sweating and increase the wearer's comfort.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Protection.Plate.Side",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "12.1 kg",
+  "grid_size": "3x4",
+  "base_price": 1850.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 1850.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 555.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 28000.0,
+   "minimumDamageJoules": 200.0,
+   "repairDifficultyModifier": 0.8,
+   "storageGrid": {
+    "width": 3,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_Pantsir20.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_Pantsir20_Cat",
+  "name": "Pantsir 2.0",
+  "manufacturer": "SSO",
+  "description": "The Pantsir 2.0 is a Russian plate carrier compatible with 265x 340mm SAPI, ESAPI, and Granit plates, featuring additional soft armor. It provides ballistic defense against threats in high-risk operational environments and can be fitted with climatic inserts that reduce sweating and increase the wearer's comfort.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Protection.Plate.Side",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3"
+  ],
+  "weight": "10.5 kg",
+  "grid_size": "3x4",
+  "base_price": 1700.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 510.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 28000.0,
+   "minimumDamageJoules": 200.0,
+   "repairDifficultyModifier": 0.8,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_Pantsir20_Laf",
+  "name": "Pantsir 2.0",
+  "manufacturer": "SSO",
+  "description": "The Pantsir 2.0 is a Russian plate carrier compatible with 265x 340mm SAPI, ESAPI, and Granit plates, featuring additional soft armor. It provides ballistic defense against threats in high-risk operational environments and can be fitted with climatic inserts that reduce sweating and increase the wearer's comfort.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Protection.Plate.Side",
+   "Armor.Material.Ceramic",
+   "Armor.Class.NIJ3p"
+  ],
+  "weight": "8.9 kg",
+  "grid_size": "3x4",
+  "base_price": 3000.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 900.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 22500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.5,
+   "storageGrid": {
+    "width": 3,
+    "height": 4
+   }
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_Pastg",
+  "name": "PASGT",
+  "manufacturer": "Aholdtech",
+  "description": "A Chinese helmet inspired by the classic M88. Made from UHMWPE, it offers adequate protection compared to its Western counterparts.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ2p"
+  ],
+  "weight": "1.6 kg",
+  "grid_size": "2x2",
+  "base_price": 500.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 500.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 150.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 3600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.25,
+   "repairDifficultyModifier": 0.6
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_Pastg.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_PhantomType2",
+  "name": "Phantom Type 2",
+  "short_name": "Phantom",
+  "manufacturer": "Raid Gear & MBC",
+  "description": "The Phantom Type 2 is a modular plate carrier designed for versatility and comfort. It features quick-release ROC-40 buckles, adjustable shoulder straps, and side webbing for a customizable fit. The MOLLEminus system allows for easy integration of various armor plates and ballistic panels, making it suitable for both covert and patrol use.",
+  "tags": [
+   "Origin.East",
+   "Size.Big",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Protection.Plate.Side",
+   "Armor.Material.Ceramic",
+   "Armor.Class.NIJ3pp"
+  ],
+  "weight": "13.2 kg",
+  "grid_size": "3x4",
+  "base_price": 4600.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 4600.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1380.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 23400.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.5,
+   "storageGrid": {
+    "width": 4,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_PhantomType2.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_Plate6",
+  "name": "Plate6 Plate Carrier",
+  "short_name": "Plate6",
+  "manufacturer": "Blue Force Gear",
+  "description": "One of the lightest MOLLE-compatible plate carriers available, designed for maximum mobility. Featuring the MOLLEminus system, its cumberbund includes built-in pouches for side armor panels, while the MOLLE mounting points are laser-cut directly into the fabric, minimizing bulk compared to other carriers.",
+  "tags": [
+   "Origin.West",
+   "Size.Big",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Ceramic",
+   "Armor.Class.NIJ3pp"
+  ],
+  "weight": "9.6 kg",
+  "grid_size": "3x4",
+  "base_price": 4450.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 4,
+    "price": 4450.0
+   }
+  ],
+  "sold_by": "Handshake R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1335.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 23400.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.5,
+   "storageGrid": {
+    "width": 4,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_Plate6.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_Qgf03_Ghillie",
+  "name": "QGF-03 (Ghillie)",
+  "short_name": "QGF-03",
+  "manufacturer": "Chinese Military",
+  "description": "The QGF-03 is a composite helmet based on the MICH design developed for the Chinese military. Along with its predecessor, it has replaced the steel helmets previously used by the armed forces. This one has been customized with additional camouflage.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.25 kg",
+  "grid_size": "2x2",
+  "base_price": 760.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 228.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.2,
+   "repairDifficultyModifier": 0.6
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_Qgf03",
+  "name": "QGF-03 (LAF Cover)",
+  "short_name": "QGF-03",
+  "manufacturer": "Chinese Military",
+  "description": "The QGF-03 is a composite helmet based on the MICH design developed for the Chinese military. Along with its predecessor, it has replaced the steel helmets previously used by the armed forces.",
+  "tags": [
+   "Size.Middle",
+   "Origin.Local",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.25 kg",
+  "grid_size": "2x2",
+  "base_price": 720.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 216.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.2,
+   "repairDifficultyModifier": 0.6
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_Qgf03.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_Qgf03_Woodland",
+  "name": "QGF-03 (Woodland)",
+  "short_name": "QGF-03",
+  "manufacturer": "Chinese Military",
+  "description": "The QGF-03 is a composite helmet based on the MICH design developed for the Chinese military. Along with its predecessor, it has replaced the steel helmets previously used by the armed forces.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.25 kg",
+  "grid_size": "2x2",
+  "base_price": 720.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 216.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.2,
+   "repairDifficultyModifier": 0.6
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_Qgf03_Woodland.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_Rpc",
+  "name": "Recon Plate Carrier",
+  "short_name": "RPC",
+  "manufacturer": "Warrior Assault Systems",
+  "description": "A lightweight and versatile low-profile plate carrier offering enhanced mobility without compromising protection. It is trusted by professionals for its durability and adaptability, making it an ideal choice for those facing dynamic and challenging environments.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Ceramic",
+   "Armor.Class.NIJ3p"
+  ],
+  "weight": "4.3 kg",
+  "grid_size": "3x3",
+  "base_price": 3150.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 3150.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 945.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 22500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.5,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_Rpc.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_Rpc_Agent",
+  "name": "Recon Plate Carrier (Agent)",
+  "short_name": "RPC",
+  "manufacturer": "Warrior Assault Systems",
+  "description": "A lightweight and versatile low-profile plate carrier offering enhanced mobility without compromising protection. Built for professionals who prefer practical gear, plain clothes, and getting the job done.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "NotForStatistics",
+   "Armor.Material.Ceramic",
+   "Armor.Class.NIJ3p"
+  ],
+  "weight": "4.3 kg",
+  "grid_size": "3x3",
+  "base_price": 3150.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 945.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 22500.0,
+   "minimumDamageJoules": 140.0,
+   "repairDifficultyModifier": 0.5,
+   "storageGrid": {
+    "width": 3,
+    "height": 3
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_Rpc_Agent.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_SksBallisticVest",
+  "name": "SK-S Vest",
+  "short_name": "SK-S",
+  "manufacturer": "Armokom",
+  "description": "A covert ballistic vest designed to be worn under a uniform that offers protection against small arms fire, shrapnel, and edged weapons.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ2"
+  ],
+  "weight": "1.85 kg",
+  "grid_size": "3x3",
+  "base_price": 200.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 1,
+    "price": 200.0
+   }
+  ],
+  "sold_by": "Turncoat R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 3000.0,
+   "minimumDamageJoules": 20.0,
+   "repairDifficultyModifier": 0.6
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_SksBallisticVest.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Vest_SksBallisticVest_Cat",
+  "name": "SK-S Vest",
+  "short_name": "SK-S",
+  "manufacturer": "Armokom",
+  "description": "A covert ballistic vest designed to be worn under a uniform that offers protection against small arms fire, shrapnel, and edged weapons.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ2"
+  ],
+  "weight": "1.85 kg",
+  "grid_size": "3x3",
+  "base_price": 200.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 3000.0,
+   "minimumDamageJoules": 20.0,
+   "repairDifficultyModifier": 0.6
+  },
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_SkullCrusher",
+  "name": "Skull Crusher",
+  "short_name": "Crusher",
+  "manufacturer": "Raptor Tactical",
+  "description": "A lightweight solution for mounting NVG devices to the user's head without requiring a helmet.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.28 kg",
+  "grid_size": "2x2",
+  "base_price": 105.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Banshee",
+    "rank": 1,
+    "price": 105.0
+   },
+   {
+    "vendor": "Handshake",
+    "rank": 1,
+    "price": 105.0
+   }
+  ],
+  "sold_by": "Banshee R.1, Handshake R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 31.5
+   }
+  ],
+  "stats": {
+   "repairDifficultyModifier": 0.7
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_SkullCrusher.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_Specter",
+  "name": "Specter",
+  "manufacturer": "Condor Outdoor",
+  "description": "With its streamlined and low-profile design, the Specter plate carrier offers a discreet and efficient platform for carrying plates during surveillance operations.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "2.8 kg",
+  "grid_size": "2x3",
+  "base_price": 300.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 1,
+    "price": 300.0
+   }
+  ],
+  "sold_by": "Handshake R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "repairDifficultyModifier": 0.6,
+   "storageGrid": {
+    "width": 3,
+    "height": 2
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_Specter.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Armor_Spitfire",
+  "name": "Spitfire Plate Carrier",
+  "short_name": "Spitfire",
+  "manufacturer": "Direct Action",
+  "description": "Used by the GROM Polish special forces, the Spitfire, taking its name from the iconic World War II fighter plane, is a lightweight and highly customizable plate carrier that offers advanced ballistic protection.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Protection.Plate.Front",
+   "Protection.Plate.Back",
+   "Protection.Plate.Side",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ3p"
+  ],
+  "weight": "6.5 kg",
+  "grid_size": "3x4",
+  "base_price": 3450.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 3450.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 1035.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 30000.0,
+   "minimumDamageJoules": 200.0,
+   "repairDifficultyModifier": 0.5,
+   "storageGrid": {
+    "width": 3,
+    "height": 4
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Armor_Spitfire.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_SSh60",
+  "name": "SSh-60",
+  "manufacturer": "NII Stali",
+  "description": "A steel Soviet-era helmet that was widely used by various branches of the Soviet military and later by the Russian armed forces. While it has been largely phased out in favor of more modern helmet designs, it remains an iconic representation of Cold War-era military gear.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ1"
+  ],
+  "weight": "1.3 kg",
+  "grid_size": "2x2",
+  "base_price": 150.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 150.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 45.0
+   }
+  ],
+  "stats": {
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.1,
+   "repairDifficultyModifier": 0.8
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_SSh60.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_SSh68n",
+  "name": "SSh-68N",
+  "manufacturer": "NII Stali",
+  "description": "The SSh-68N is a battle-tested steel helmet, offering reliable protection against ballistic threats and shrapnel. Although newer helmet models have emerged, the SSh-68N remains in service due to its proven durability and affordability, making it an essential piece of equipment for troops in many regions around the world.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ1"
+  ],
+  "weight": "2 kg",
+  "grid_size": "2x2",
+  "base_price": 200.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 200.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.1,
+   "repairDifficultyModifier": 0.8
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_SSh68n.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_TorL",
+  "name": "Tor-L",
+  "manufacturer": "Classcom",
+  "description": "The Tor-L is a lightweight, combat-ready helmet designed for high-stakes engagements. Its internal shock-absorbing pads mitigate the impact of non-penetrating hits, and its quick-adjustment system ensures a secure and comfortable fit.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.2 kg",
+  "grid_size": "2x2",
+  "base_price": 1750.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 525.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.3,
+   "repairDifficultyModifier": 0.6
+  },
+  "slots": [
+   {
+    "slot": "Helmet_F",
+    "critical": false
+   }
+  ],
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_TorL.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_Type66",
+  "name": "Type 66",
+  "manufacturer": "Kawasaki Steel Corporation",
+  "description": "The Type 66 helmet is based on the legendary US M1 helmet. Although it has mostly been replaced by the Type 88 helmet, the Type 66 is still used for training exercises and by reserve units of Japanese National Defense Forces.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Armor.Material.Steel",
+   "Armor.Class.NIJ1"
+  ],
+  "weight": "1.4 kg",
+  "grid_size": "2x2",
+  "base_price": 250.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 250.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 75.0
+   }
+  ],
+  "stats": {
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.1,
+   "repairDifficultyModifier": 0.8
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_Type66.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_Type88",
+  "name": "Type 88",
+  "manufacturer": "Kawasaki Steel Corporation",
+  "description": "The Type 88 helmet is a first-generation composite helmet used by Japanese National Defense Forces. Based on the PASGT design, it was developed to safeguard its users from fragments and handgun projectiles.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.3 kg",
+  "grid_size": "2x2",
+  "base_price": 600.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 180.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.2,
+   "repairDifficultyModifier": 0.6
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_Type88.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Helmet_Type88Type2",
+  "name": "Type 88 (Type 2)",
+  "short_name": "Type 88",
+  "manufacturer": "Kawasaki Steel Corporation",
+  "description": "The Type 88 helmet is a first-generation composite helmet used by Japanese National Defense Forces. Based on the PASGT design, it was developed to safeguard its users from fragments and handgun projectiles.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Armor.Material.Aramid",
+   "Armor.Class.NIJ3A"
+  ],
+  "weight": "1.3 kg",
+  "grid_size": "2x2",
+  "base_price": 700.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 210.0
+   }
+  ],
+  "stats": {
+   "overallJoules": 4600.0,
+   "minimumDamageJoules": 20.0,
+   "rainReduction": 0.2,
+   "repairDifficultyModifier": 0.6
+  },
+  "image": "https://gzw-data.dev/assets/items/armor/IS_Helmet_Type88Type2.webp",
+  "source": "game-files"
+ }
+]

@@ -1,0 +1,35 @@
+[
+ {
+  "id": "IS_Melee_UsmcFightingKnife",
+  "name": "USMC Fighting Knife",
+  "short_name": "Ka-Bar",
+  "manufacturer": "Ka-Bar",
+  "description": "First issued by the United States Marine Corps in 1942, this legendary combat/utility knife is still favored to this day, both by the armed forces and the civilian sector.",
+  "tags": [
+   "Origin.West",
+   "Secured",
+   "Size.Small"
+  ],
+  "weight": "0.356 kg",
+  "grid_size": "2x1",
+  "base_price": 200.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan",
+     "Banshee",
+     "Gunny",
+     "Turncoat"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/melee/IS_Melee_UsmcFightingKnife.webp",
+  "source": "game-files"
+ }
+]

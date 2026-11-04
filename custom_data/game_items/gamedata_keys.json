@@ -1,0 +1,2229 @@
+[
+ {
+  "id": "IS_Key_MilitaryBase_Barracks_A210",
+  "name": "A210 Key",
+  "short_name": "FN A210",
+  "manufacturer": "General Local",
+  "description": "A key to the A210 room in Fort Narith barracks.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_MilitaryBase_Barracks_A210.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Ban_Khamphet_House",
+  "name": "Ban Khamphet House Key",
+  "short_name": "BK House",
+  "manufacturer": "General Local",
+  "description": "A key to a house in Ban Khamphet.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Ban_Khamphet_House.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_BanPaHall",
+  "name": "Ban Pa Elder's House Key",
+  "short_name": "BP Elder",
+  "manufacturer": "General Local",
+  "description": "A key to the Elder's House in Ban Pa.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_BanPaHall.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_BanPaMayor",
+  "name": "Ban Pa Elder's Room Key",
+  "short_name": "BP ElderRm",
+  "manufacturer": "General Local",
+  "description": "A key to a room inside the Elder's House in Ban Pa.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_BanPaMayor.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_BanPaFishingHut",
+  "name": "Ban Pa Fishing Hut Key",
+  "short_name": "BP Hut",
+  "manufacturer": "General Local",
+  "description": "A key to one of the fishing huts in Ban Pa.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_BanPaFishingHut.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Ban_Phouphienge_Room",
+  "name": "Ban Phouphienge Room Key",
+  "short_name": "BP Room",
+  "manufacturer": "General Local",
+  "description": "A key to a top-floor room in a house in Ban Phouphienge.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Ban_Phouphienge_Room.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_BlueLagoonRestaurantStorage",
+  "name": "Blue Lagoon Restaurant Storage Key",
+  "short_name": "BL Strg",
+  "manufacturer": "General Local",
+  "description": "A key to a storage room of a restaurant in the Blue Lagoon.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_BlueLagoonRestaurantStorage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_BlueLagoonOldWarehouse",
+  "name": "Blue Lagoon Shack Key",
+  "short_name": "BL Shack",
+  "manufacturer": "General Local",
+  "description": "A key to the back room of an old shack in the Blue Lagoon.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_BlueLagoonOldWarehouse.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Asylum_DrugLab_Office",
+  "name": "Dr. Khae's Private Lab Key",
+  "short_name": "LS KLab",
+  "manufacturer": "General Local",
+  "description": "A key to Dr. Khae's private laboratory inside Lakevale Sanctuary.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Asylum_DrugLab_Office.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Strip_Club_Office",
+  "name": "Fanny Paradise Office Key",
+  "short_name": "FP Ofc",
+  "manufacturer": "General Local",
+  "description": "A key to the manager's office in Fanny Paradise.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Strip_Club_Office.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_MilitaryBase_AirTrafficControlTower",
+  "name": "Fort Narith Air Traffic Control Tower Key",
+  "short_name": "FN ATC",
+  "manufacturer": "General Local",
+  "description": "A key to the air traffic control tower in Fort Narith.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_MilitaryBase_AirTrafficControlTower.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_MilitaryBase_GarageOffice",
+  "name": "Fort Narith Garage Office Key",
+  "short_name": "FN GOfc",
+  "manufacturer": "General Local",
+  "description": "A key to the garage office in Fort Narith.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_MilitaryBase_GarageOffice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_MilitaryBase_HQStorageRoom",
+  "name": "Fort Narith HQ Storage Room Key",
+  "short_name": "FN HQStrg",
+  "manufacturer": "General Local",
+  "description": "A key to a storage room located in Fort Narith HQ.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_MilitaryBase_HQStorageRoom.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Card_FortNarith_InfirmaryOperationRoom",
+  "name": "Fort Narith Infirmary Operating Room Key Card",
+  "short_name": "FN ORINF",
+  "manufacturer": "General Local",
+  "description": "An access card to the operating room inside Fort Narith's Infirmary.",
+  "type": "Key.Card",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Card_FortNarith_InfirmaryOperationRoom.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_MilitaryBase_OutskirtsMotelArmory",
+  "name": "Fort Narith Motel Makeshift Armory Key",
+  "short_name": "FN Motel",
+  "manufacturer": "General Local",
+  "description": "A key to a motel in the Fort Narith outskirts.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_MilitaryBase_OutskirtsMotelArmory.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_MilitaryBase_OutskirtsHouseArmory",
+  "name": "Fort Narith Outskirts Makeshift Armory Key",
+  "short_name": "FN OArm",
+  "manufacturer": "General Local",
+  "description": "A key to a makeshift bandit armory hidden in a house nearby Fort Narith.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_MilitaryBase_OutskirtsHouseArmory.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_AirportHangar03",
+  "name": "Hangar 03 Key",
+  "short_name": "PLA H03",
+  "manufacturer": "General Local",
+  "description": "A key to Hangar 03 at Pha Lang Airfield.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_AirportHangar03.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Poppy_Fields_02_Hut",
+  "name": "Hidden Fields 02 Hut Key",
+  "short_name": "HF2 Hut",
+  "manufacturer": "General Local",
+  "description": "A key to a hut near hidden poppy fields north of Ground Zero.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Poppy_Fields_02_Hut.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Card_Resort_HotelCleaningRoomStorage",
+  "name": "Hotel Supply Closet Key Card",
+  "short_name": "MSH Supply",
+  "manufacturer": "General Local",
+  "description": "A key card to a supply closet in the Midnight Sapphire Hotel.",
+  "type": "Key.Card",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Card_Resort_HotelCleaningRoomStorage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_ShootingRangeBunker",
+  "name": "Hunter’s Paradise Bunker Key",
+  "short_name": "HP Bunk",
+  "manufacturer": "General Local",
+  "description": "A key for the small bunker near Hunter’s Paradise.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_ShootingRangeBunker.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_ShootingRangeWeaponStorage",
+  "name": "Hunter’s Paradise Weapon Storage Key",
+  "short_name": "HP Wep",
+  "manufacturer": "General Local",
+  "description": "A key for the weapon storage room in Hunter’s Paradise.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_ShootingRangeWeaponStorage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Khamhao_Rice_Depot_Room",
+  "name": "Khamhao Rice Depot Room Key",
+  "short_name": "KRD Room",
+  "manufacturer": "General Local",
+  "description": "A key to a room in the Khamhao Rice Depot main warehouse.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Khamhao_Rice_Depot_Room.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_KiuVongsaDoctorOffice",
+  "name": "Kiu Vongsa Doctor's Office Key",
+  "short_name": "KV Doc",
+  "manufacturer": "General Local",
+  "description": "A key for the local doctor's office in Kiu Vongsa.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Gamma"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_KiuVongsaDoctorOffice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_KiuVongsaMarketplaceOffice",
+  "name": "Kiu Vongsa Marketplace Office Key",
+  "short_name": "KV MarOfc",
+  "manufacturer": "General Local",
+  "description": "A key for an office in the Kiu Vongsa marketplace.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Gamma"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_KiuVongsaMarketplaceOffice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_KiuVongsaOccupiedVillaBedroom",
+  "name": "Kiu Vongsa Occupied Villa Bedroom Key",
+  "short_name": "KV OVB",
+  "manufacturer": "General Local",
+  "description": "A key for a bedroom inside the occupied villa.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Gamma"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_KiuVongsaOccupiedVillaBedroom.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_KiuVongsaAtticRestaurant",
+  "name": "Kiu Vongsa Restaurant Storage Key",
+  "short_name": "KV Attic",
+  "manufacturer": "General Local",
+  "description": "A key for the attic storage space of a restaurant in Kiu Vongsa.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Gamma"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_KiuVongsaAtticRestaurant.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Card_KiuVongsa_TownHallFinancialSection",
+  "name": "Kiu Vongsa Town Hall Finance Department Key Card",
+  "short_name": "KV Fin",
+  "manufacturer": "General Local",
+  "description": "An access card to the finance department of the Kiu Vongsa town hall.",
+  "type": "Key.Card",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Gamma"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Card_KiuVongsa_TownHallFinancialSection.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_LAF_Radio_Tower_Room",
+  "name": "LAF Radio Tower Room Key",
+  "short_name": "RT Room",
+  "manufacturer": "General Local",
+  "description": "A key to a storage room in the LAF radio tower main building.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_LAF_Radio_Tower_Room.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Asylum_SergantOffice",
+  "name": "Lakevale Sanctuary Commander's Office Key",
+  "short_name": "LS C Ofc",
+  "manufacturer": "General Local",
+  "description": "A key to the LAF commander's office in the villa at Lakevale Sanctuary.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Asylum_SergantOffice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_TigerBay_MainStreetHideout",
+  "name": "Makeshift Bandit Lookout Key",
+  "short_name": "TB Lookout",
+  "manufacturer": "General Local",
+  "description": "A key to a house used by the bandits to keep eyes on Tiger Bay Central.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_TigerBay_MainStreetHideout.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Resort_OutskirtsOffice",
+  "name": "Midnight Sapphire Employee Housing Office Key",
+  "short_name": "MS EmOfc",
+  "manufacturer": "General Local",
+  "description": "A key to an office situated in the employee housing section of Midnight Sapphire.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Resort_OutskirtsOffice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Resort_HotelPartyRoom",
+  "name": "Midnight Sapphire Hotel \"Party Room\" Key",
+  "short_name": "MSH PR",
+  "manufacturer": "General Local",
+  "description": "A key to the \"Party Room\" in one of the suites at the Midnight Sapphire Hotel.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Resort_HotelPartyRoom.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Card_Resort_PanickRoom",
+  "name": "Midnight Sapphire Presidential Suite Roof Access Key Card",
+  "short_name": "MS PSRA",
+  "manufacturer": "General Local",
+  "description": "An access card the roof of the Midnight Sapphire Hotel.",
+  "type": "Key.Card",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Card_Resort_PanickRoom.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Card_Resort_VillaMartaMonica",
+  "name": "Midnight Sapphire Villa Marta Monica Key Card",
+  "short_name": "MS Marta",
+  "manufacturer": "General Local",
+  "description": "An access card to Villa Marta Monica.",
+  "type": "Key.Card",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Card_Resort_VillaMartaMonica.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_NamThavenDoctorOffice",
+  "name": "Nam Thaven Doctor's Office Key",
+  "short_name": "NT Doc",
+  "manufacturer": "General Local",
+  "description": "A key for the local doctor's office in Nam Thaven.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Beta"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_NamThavenDoctorOffice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_NamThavenMarketplaceOffice",
+  "name": "Nam Thaven Marketplace Office Key",
+  "short_name": "NT MarOfc",
+  "manufacturer": "General Local",
+  "description": "A key for an office in the Nam Thaven marketplace.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Beta"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_NamThavenMarketplaceOffice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_NamThavenOccupiedVillaBedroom",
+  "name": "Nam Thaven Occupied Villa Bedroom Key",
+  "short_name": "NT OVB",
+  "manufacturer": "General Local",
+  "description": "A key for a bedroom inside the occupied villa.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Beta"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_NamThavenOccupiedVillaBedroom.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_NamThavenAtticRestaurant",
+  "name": "Nam Thaven Restaurant Storage Key",
+  "short_name": "NT Attic",
+  "manufacturer": "General Local",
+  "description": "A key for the attic storage space of a restaurant in Nam Thaven.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Beta"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_NamThavenAtticRestaurant.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Card_NamThaven_TownHallFinancialSection",
+  "name": "Nam Thaven Town Hall Finance Department Key Card",
+  "short_name": "NT Fin",
+  "manufacturer": "General Local",
+  "description": "An access card to the finance department of the Nam Thaven town hall.",
+  "type": "Key.Card",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Beta"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Card_NamThaven_TownHallFinancialSection.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Research_Site_Armory",
+  "name": "Northern Reach Armory Key",
+  "short_name": "NR Arm",
+  "manufacturer": "General Local",
+  "description": "A key to the high-security storage in the Northern Reach armory.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Research_Site_Armory.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_SmallAirport_DrugStorageOffice",
+  "name": "Pha Lang Airfield Storage Office Key",
+  "short_name": "PLA Strg",
+  "manufacturer": "General Local",
+  "description": "Key to the office room in the storage building at the Pha Lang Airfield",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_SmallAirport_DrugStorageOffice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_PhaLangDoctorOffice",
+  "name": "Pha Lang Doctor's Office Key",
+  "short_name": "PL Doc",
+  "manufacturer": "General Local",
+  "description": "A key for the local doctor's office in Pha Lang.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Alpha"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_PhaLangDoctorOffice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_PhaLangMarketplaceOffice",
+  "name": "Pha Lang Marketplace Office Key",
+  "short_name": "PL MarOfc",
+  "manufacturer": "General Local",
+  "description": "A key for an office in the Pha Lang marketplace.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Alpha"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_PhaLangMarketplaceOffice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_PhaLangOccupiedVillaBedroom",
+  "name": "Pha Lang Occupied Villa Bedroom Key",
+  "short_name": "PL OVB",
+  "manufacturer": "General Local",
+  "description": "A key for a bedroom inside the occupied villa.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Alpha"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_PhaLangOccupiedVillaBedroom.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_PhaLangAtticRestaurant",
+  "name": "Pha Lang Restaurant Storage Key",
+  "short_name": "PL Attic",
+  "manufacturer": "General Local",
+  "description": "A key for the attic storage space of a restaurant in Pha Lang.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Alpha"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_PhaLangAtticRestaurant.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Card_PhaLang_TownHallFinancialSection",
+  "name": "Pha Lang Town Hall Finance Department Key Card",
+  "short_name": "PL Fin",
+  "manufacturer": "General Local",
+  "description": "An access card to the finance department of the Pha Lang town hall.",
+  "type": "Key.Card",
+  "tags": [
+   "Origin.Local",
+   "Size.Small",
+   "Faction.Player.Alpha"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 100.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 30.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Card_PhaLang_TownHallFinancialSection.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Remote_Farm_Shed",
+  "name": "Phon Chai Farm Shed Key",
+  "short_name": "PCh Shed",
+  "manufacturer": "General Local",
+  "description": "A key to storage shed at Phon Chai Farm.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Remote_Farm_Shed.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Phouarun_Restaurant_Room",
+  "name": "Phouarun Restaurant Attic Room Key",
+  "short_name": "PR Attic",
+  "manufacturer": "General Local",
+  "description": "A key to a top-floor room in Phouarun restaurant.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Phouarun_Restaurant_Room.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Radar_Barracks",
+  "name": "RLSL-1 Barracks Locker Room Key",
+  "short_name": "RLSL BrLR",
+  "manufacturer": "General Local",
+  "description": "A key to the locker room in the RLSL-1 barracks building.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Radar_Barracks.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Radar_Generator",
+  "name": "RLSL-1 Generator Building Key",
+  "short_name": "RLSL Gen",
+  "manufacturer": "General Local",
+  "description": "A key to the backup generator building at RLSL-1.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Radar_Generator.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Radar_RadarBuildingStorage",
+  "name": "RLSL-1 Radio Telescope Storage Key",
+  "short_name": "RLSL Strg",
+  "manufacturer": "General Local",
+  "description": "A key to the storage room in the radio telescope building at RLSL-1.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Radar_RadarBuildingStorage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_SawmillOffice",
+  "name": "Sawmill Office Key",
+  "short_name": "SM Ofc",
+  "manufacturer": "General Local",
+  "description": "A key for the office building at the Tonmai Hainy Lumber Company.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_SawmillOffice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Sawmill_StorageShed",
+  "name": "Sawmill Storage Shed Key",
+  "short_name": "SM Strg",
+  "manufacturer": "General Local",
+  "description": "A key to a storage shed at the Tonmai Hainy Lumber Company.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Sawmill_StorageShed.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_School_Room",
+  "name": "School Room Key",
+  "short_name": "S Room",
+  "manufacturer": "General Local",
+  "description": "A key to a room in the main building of a school repurposed as a UNLRA evac center.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_School_Room.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Lamang_Radio_Station_Room",
+  "name": "Siang Radio Station Room Key",
+  "short_name": "SRS Room",
+  "manufacturer": "General Local",
+  "description": "A key to a top-floor room in the Siang Radio Station.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Lamang_Radio_Station_Room.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Small_Marketplace_House",
+  "name": "Small Marketplace House Key",
+  "short_name": "SMP House",
+  "manufacturer": "General Local",
+  "description": "A key to a house near a small marketplace southwest of Pha Lang Airfield.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Small_Marketplace_House.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_SunsetChaletCottage",
+  "name": "Sunset Chalet Cottage Key",
+  "short_name": "SCH Cot",
+  "manufacturer": "General Local",
+  "description": "A key to one of the cottages next to Sunset Chalet.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_SunsetChaletCottage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Sunset_Chalet_Arms_Chest",
+  "name": "Sunset Chalet Firearms Case Key",
+  "short_name": "SC Case",
+  "manufacturer": "General Local",
+  "description": "A key to a firearms case inside Sunset Chalet.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Sunset_Chalet_Arms_Chest.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_TigerBay_CityHall_ImprovisedStorage",
+  "name": "Tiger Bay Municipal Office Building Makeshift Storage Key",
+  "short_name": "TB MOS",
+  "manufacturer": "General Local",
+  "description": "A key to a makeshift storage room in the Tiger Bay Municipal Office building.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_TigerBay_CityHall_ImprovisedStorage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_TigerBay_SouthWestGarage",
+  "name": "Tiger Bay Outskirts Garage Key",
+  "short_name": "TBO Garage",
+  "manufacturer": "General Local",
+  "description": "A key to a garage in the outkirst southwest of Tiger Bay.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_TigerBay_SouthWestGarage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_TigerBay_MilitaryDepotOffice",
+  "name": "Tiger Bay Trade Depot Office Key",
+  "short_name": "TB Depot",
+  "manufacturer": "General Local",
+  "description": "A key to an office in the Tiger Bay Trade Depot.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_TigerBay_MilitaryDepotOffice.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_TigerBay_MallToToHDStorage",
+  "name": "Toto Hardware Storage Key",
+  "short_name": "TBC Toto",
+  "manufacturer": "General Local",
+  "description": "A key to Toto Hardware storage room in Tiger Bay Central.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_TigerBay_MallToToHDStorage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_TigerBay_UnlraEquipmentContainer",
+  "name": "UNLRA Equipment Container Key",
+  "short_name": "TB UNCon",
+  "manufacturer": "General Local",
+  "description": "A key to an UNLRA equipment shipping container in Tiger Bay.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_TigerBay_UnlraEquipmentContainer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_TigerBayYachtclubRepairShop",
+  "name": "UNLRA HQ Lab Key",
+  "short_name": "TB UNLab",
+  "manufacturer": "General Local",
+  "description": "A key for the UNLRA HQ laboratory in Tiger bay.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_TigerBayYachtclubRepairShop.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Card_TigerBayYachtclubShop",
+  "name": "UNLRA HQ Office Key Card",
+  "short_name": "TB UNOf",
+  "manufacturer": "General Local",
+  "description": "An access card to one of the offices inside the UNLRA HQ in Tiger bay.",
+  "type": "Key.Card",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Card_TigerBayYachtclubShop.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_TigerBay_UnlraMedicalContainer",
+  "name": "UNLRA Medical Container Key",
+  "short_name": "TB UNMed",
+  "manufacturer": "General Local",
+  "description": "A key to an UNLRA medical shipping container in Tiger Bay",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_TigerBay_UnlraMedicalContainer.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_TigerBayUNLRAQuarantine",
+  "name": "UNLRA Quarantine Key",
+  "short_name": "TB UNQr",
+  "manufacturer": "General Local",
+  "description": "A key for the UNLRA quarantine section in Tiger Bay.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_TigerBayUNLRAQuarantine.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Resort_VillaAnnaJana",
+  "name": "Villa Anna Jana Key",
+  "short_name": "MS AnnaJana",
+  "manufacturer": "General Local",
+  "description": "A key to villa Anna Jana in the Midnight Sapphire Resort.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Resort_VillaAnnaJana.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Resort_VillaGarage",
+  "name": "Villa Elena Garage Key",
+  "short_name": "MS ElenaGar",
+  "manufacturer": "General Local",
+  "description": "A key to the garage of villa Elena in the Midnight Sapphire Resort.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Resort_VillaGarage.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Resort_Villa4",
+  "name": "Villa Katherine Key",
+  "short_name": "MS Kate",
+  "manufacturer": "General Local",
+  "description": "A key to Villa Katherine in the Midnight Sapphire Resort.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Resort_Villa4.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Resort_VillaFantastica",
+  "name": "Villa Luisa Key",
+  "short_name": "MS Luisa",
+  "manufacturer": "General Local",
+  "description": "A key to Villa Luisa in the Midnight Sapphire Resort.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 300.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 90.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Resort_VillaFantastica.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Villa_Vongphet_Room",
+  "name": "Villa Vongphet Room Key",
+  "short_name": "VV Room",
+  "manufacturer": "General Local",
+  "description": "A key to a top-floor room in Villa Vongphet.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Villa_Vongphet_Room.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Bunker_Bedroom",
+  "name": "YBL-1 Bedroom Key",
+  "short_name": "YBL Bed",
+  "manufacturer": "General Local",
+  "description": "A key to the first floor bedroom in YBL-1.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Bunker_Bedroom.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Bunker_MaintenanceEntrance",
+  "name": "YBL-1 Maintenance Door Key",
+  "short_name": "YBL Main",
+  "manufacturer": "General Local",
+  "description": "A key to the maintenance entrance to YBL-1.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Bunker_MaintenanceEntrance.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Ybl1Office2",
+  "name": "YBL-1 Office 02 Key",
+  "short_name": "YBL Ofc2",
+  "manufacturer": "General Local",
+  "description": "A key to office 02 in YBL-1.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Ybl1Office2.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Key_Ybl1WeaponStorage",
+  "name": "YBL-1 Weapon Storage Key",
+  "short_name": "YBL Wep",
+  "manufacturer": "General Local",
+  "description": "A key to the weapon storage room in YBL-1.",
+  "tags": [
+   "Origin.Local",
+   "Size.Small"
+  ],
+  "weight": "0.01 kg",
+  "grid_size": "1x1",
+  "base_price": 200.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Artisan"
+    ],
+    "price": 60.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/keys/IS_Key_Ybl1WeaponStorage.webp",
+  "source": "game-files"
+ }
+]

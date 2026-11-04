@@ -1,0 +1,788 @@
+[
+ {
+  "id": "IS_Belt_RussianFannyPack",
+  "name": "Belt Bag",
+  "short_name": "BeltB",
+  "manufacturer": "ANA-Tactical",
+  "description": "A comfortable and secure belt bag with double-locked zippers and a Velcro panel.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.3 kg",
+  "grid_size": "2x2",
+  "base_price": 148.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 44.4
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_RussianFannyPack.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_CivilianSportFannyPack_Boss",
+  "name": "Bloodhound's Civilian Sport Fanny Pack",
+  "short_name": "B SFPack",
+  "manufacturer": "General Local",
+  "description": "A small bag worn around the waist. It offers limited storage space and may not be suitable for carrying larger items or valuables securely.\n\nThis fanny pack belongs to Kahoku \"Bloodhound\" Phongsa, the leader of the Kiu Vongsa criminal gang.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.2 kg",
+  "grid_size": "2x1",
+  "base_price": 49.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 14.7
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CivilianSportFannyPack_Boss.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_LightAnatomicalBeltType2_BossMB",
+  "name": "Buran's Light Anatomical Belt Type 2",
+  "short_name": "B Type 2",
+  "manufacturer": "Raid Gear & MBC",
+  "description": "A durable belt with a flat profile that adapts to its wearer's anatomy for increased comfort. Thanks to its modularity, it can be equipped with many pouches, hip panels, or holsters.\n\nThis belt belongs to Arkady \"Buran\" Vititsky, the military commander of Fort Narith.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.95 kg",
+  "grid_size": "3x2",
+  "base_price": 245.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 73.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_LightAnatomicalBeltType2_BossMB.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_CivilianLeatherFannyPack_BossMakan",
+  "name": "Chaonai's Civilian Leather Fanny Pack",
+  "short_name": "B LFPack",
+  "manufacturer": "General Local",
+  "description": "A small bag worn around the waist. Made from genuine leather, it is durable but offers limited storage space and may not be suitable for carrying larger items or valuables securely. \n\nThis fanny pack belongs to Makan \"Chaonai\" Zhang, the leader of the Nam Thaven criminal gang.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.345 kg",
+  "grid_size": "2x1",
+  "base_price": 72.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 21.6
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CivilianLeatherFannyPack_BossMakan.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_CivilianLeatherFannyPack",
+  "name": "Civilian Leather Fanny Pack",
+  "short_name": "LFPack",
+  "manufacturer": "General Local",
+  "description": "A small bag worn around the waist. Made from genuine leather, it is durable but offers limited storage space and may not be suitable for carrying larger items or valuables securely.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.345 kg",
+  "grid_size": "2x1",
+  "base_price": 72.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 21.6
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CivilianLeatherFannyPack.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_CivilianSportFannyPack",
+  "name": "Civilian Sport Fanny Pack",
+  "short_name": "SFPack",
+  "manufacturer": "General Local",
+  "description": "A small bag worn around the waist. It offers limited storage space and may not be suitable for carrying larger items or valuables securely.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.2 kg",
+  "grid_size": "2x1",
+  "base_price": 49.0,
+  "tier": 1,
+  "vendors": [
+   {
+    "vendor": "Artisan",
+    "rank": 1,
+    "price": 49.0
+   }
+  ],
+  "sold_by": "Artisan R.1",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 14.7
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CivilianSportFannyPack.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_CivilianSportFannyPack_Pirates_01",
+  "name": "Civilian Sport Fanny Pack",
+  "short_name": "SFPack",
+  "manufacturer": "General Local",
+  "description": "A small bag worn around the waist. It offers limited storage space and may not be suitable for carrying larger items or valuables securely.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.2 kg",
+  "grid_size": "2x1",
+  "base_price": 49.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 14.7
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CivilianSportFannyPack_Pirates_01.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_CivilianSportFannyPack_Pirates_02",
+  "name": "Civilian Sport Fanny Pack",
+  "short_name": "SFPack",
+  "manufacturer": "General Local",
+  "description": "A small bag worn around the waist. It offers limited storage space and may not be suitable for carrying larger items or valuables securely.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.2 kg",
+  "grid_size": "2x1",
+  "base_price": 49.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 14.7
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CivilianSportFannyPack_Pirates_02.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_CustomGearLowproBelt",
+  "name": "Custom Gear Lowpro belt",
+  "short_name": "CGLB",
+  "manufacturer": "Custom Gear",
+  "description": "A low-profile tactical belt with a smaller 25mm Cobra buckle. Made in the Czech Republic, this belt is fully MOLLE-compatible, and thanks to its versatility, it is also perfect for everyday use.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.25 kg",
+  "grid_size": "2x1",
+  "base_price": 110.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 2,
+    "price": 110.0
+   }
+  ],
+  "sold_by": "Turncoat R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 33.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CustomGearLowproBelt.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_CustomGearLowproBelt_ThaiMercs",
+  "name": "Custom Gear Lowpro belt",
+  "short_name": "CGLB",
+  "manufacturer": "Custom Gear",
+  "description": "A low-profile tactical belt with a smaller 25mm Cobra buckle. Made in the Czech Republic, this belt is fully MOLLE-compatible, and thanks to its versatility, it is also perfect for everyday use.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.25 kg",
+  "grid_size": "2x1",
+  "base_price": 110.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 33.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CustomGearLowproBelt_ThaiMercs.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_CivilianLeatherFannyPack_Boss",
+  "name": "Golden Boy's Civilian Leather Fanny Pack",
+  "short_name": "B LFPack",
+  "manufacturer": "General Local",
+  "description": "A small bag worn around the waist. Made from genuine leather, it is durable but offers limited storage space and may not be suitable for carrying larger items or valuables securely. \n\nThis fanny pack belongs to Songkram \"Golden Boy\" Manivanh, the leader of the Pha Lang criminal gang.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.345 kg",
+  "grid_size": "2x1",
+  "base_price": 72.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 21.6
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CivilianLeatherFannyPack_Boss.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_LeatherBelt",
+  "name": "Leather Belt",
+  "short_name": "Belt",
+  "manufacturer": "Homemade",
+  "description": "A leather belt with a clip case.",
+  "tags": [
+   "Origin.Local",
+   "Size.Middle"
+  ],
+  "weight": "0.305 kg",
+  "grid_size": "2x1",
+  "base_price": 61.0,
+  "tier": 1,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 18.3
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_LeatherBelt.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_LightAnatomicalBeltType2_Laf",
+  "name": "Light Anatomical Belt Type 2",
+  "short_name": "Type 2",
+  "manufacturer": "Raid Gear & MBC",
+  "description": "A durable belt with a flat profile that adapts to its wearer's anatomy for increased comfort. Thanks to its modularity, it can be equipped with many pouches, hip panels, or holsters.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.95 kg",
+  "grid_size": "3x2",
+  "base_price": 245.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 73.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_LightAnatomicalBeltType2_Laf.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_LightAnatomicalBeltType2_Olive",
+  "name": "Light Anatomical Belt Type 2 (Olive)",
+  "short_name": "Type 2",
+  "manufacturer": "Raid Gear & MBC",
+  "description": "A durable belt with a flat profile that adapts to its wearer's anatomy for increased comfort. Thanks to its modularity, it can be equipped with many pouches, hip panels, or holsters.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.95 kg",
+  "grid_size": "3x2",
+  "base_price": 245.0,
+  "tier": 4,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 4,
+    "price": 245.0
+   }
+  ],
+  "sold_by": "Turncoat R.4",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 73.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_LightAnatomicalBeltType2_Olive.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_LightweightCombatBelt",
+  "name": "Lightweight Combat Belt",
+  "short_name": "LCB",
+  "manufacturer": "Techincom",
+  "description": "This tactical belt features a breathable mesh base with three rows of MOLLE, plus an internal waist belt for fastening and size adjustment",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.95 kg",
+  "grid_size": "2x2",
+  "base_price": 150.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Turncoat",
+    "rank": 3,
+    "price": 150.0
+   }
+  ],
+  "sold_by": "Turncoat R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 45.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_LightweightCombatBelt.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_LightweightCombatBelt_Laf",
+  "name": "Lightweight Combat Belt",
+  "short_name": "LCB",
+  "manufacturer": "Techincom",
+  "description": "This tactical belt features a breathable mesh base with three rows of MOLLE, plus an internal waist belt for fastening and size adjustment",
+  "tags": [
+   "Origin.East",
+   "Size.Middle"
+  ],
+  "weight": "0.95 kg",
+  "grid_size": "2x2",
+  "base_price": 150.0,
+  "tier": 3,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 45.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_LightweightCombatBelt_Laf.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_CustomGearMc50LaserEdition",
+  "name": "MC50 Laser Edition",
+  "short_name": "MC50",
+  "manufacturer": "Custom Gear",
+  "description": "A feature-rich tactical belt, designed to meet the demands of professionals in military and law enforcement. Made in the Czech Republic, this belt features a 50mm Cobra buckle and is MOLLE-compatible.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.65 kg",
+  "grid_size": "2x2",
+  "base_price": 180.0,
+  "tier": 3,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 3,
+    "price": 180.0
+   }
+  ],
+  "sold_by": "Handshake R.3",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 54.0
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 3,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CustomGearMc50LaserEdition.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_CondorTacticalBelt",
+  "name": "Tactical Belt",
+  "short_name": "Tactical",
+  "manufacturer": "Condor Outdoor",
+  "description": "A rugged and functional belt designed for tactical and outdoor use. Made from durable materials, it provides a reliable platform for carrying essential gear and accessories.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.45 kg",
+  "grid_size": "2x1",
+  "base_price": 84.0,
+  "tier": 2,
+  "vendors": [
+   {
+    "vendor": "Handshake",
+    "rank": 2,
+    "price": 84.0
+   }
+  ],
+  "sold_by": "Handshake R.2",
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 25.2
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CondorTacticalBelt.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_CondorTacticalBelt_Lla",
+  "name": "Tactical Belt",
+  "short_name": "Tactical",
+  "manufacturer": "Condor Outdoor",
+  "description": "A rugged and functional belt designed for tactical and outdoor use. Made from durable materials, it provides a reliable platform for carrying essential gear and accessories.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.45 kg",
+  "grid_size": "2x1",
+  "base_price": 84.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 25.2
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CondorTacticalBelt_Lla.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_CondorTacticalBelt_ThaiMercs",
+  "name": "Tactical Belt",
+  "short_name": "Tactical",
+  "manufacturer": "Condor Outdoor",
+  "description": "A rugged and functional belt designed for tactical and outdoor use. Made from durable materials, it provides a reliable platform for carrying essential gear and accessories.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle"
+  ],
+  "weight": "0.45 kg",
+  "grid_size": "2x1",
+  "base_price": 84.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 25.2
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CondorTacticalBelt_ThaiMercs.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_CondorTacticalBelt_Boss",
+  "name": "Viper's Tactical Belt",
+  "short_name": "B Tactical",
+  "manufacturer": "Condor Outdoor",
+  "description": "A rugged and functional belt designed for tactical and outdoor use. Made from durable materials, it provides a reliable platform for carrying essential gear and accessories.\n\nThis belt belongs to Aawut \"Viper\" Phasuk, the leader of the armed group occupying Pha Lang Airfield.",
+  "tags": [
+   "Origin.West",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.45 kg",
+  "grid_size": "2x1",
+  "base_price": 84.0,
+  "tier": 2,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 25.2
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 2,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CondorTacticalBelt_Boss.webp",
+  "source": "game-files"
+ },
+ {
+  "id": "IS_Belt_LightAnatomicalBeltType2_BossRS",
+  "name": "Yen's Light Anatomical Belt Type 2",
+  "short_name": "B Type 2",
+  "manufacturer": "Raid Gear & MBC",
+  "description": "A durable belt with a flat profile that adapts to its wearer's anatomy for increased comfort. Thanks to its modularity, it can be equipped with many pouches, hip panels, or holsters.\n\nThis belt belongs to Bane \"Yen\" Seeha, the military commander of Midnight Sapphire.",
+  "tags": [
+   "Origin.East",
+   "Size.Middle",
+   "Boss"
+  ],
+  "weight": "0.95 kg",
+  "grid_size": "3x2",
+  "base_price": 245.0,
+  "tier": 4,
+  "sell_prices": [
+   {
+    "vendors": [
+     "Handshake",
+     "Turncoat"
+    ],
+    "price": 73.5
+   }
+  ],
+  "stats": {
+   "canBeRepaired": false,
+   "repairDifficultyModifier": 0.0,
+   "storageGrid": {
+    "width": 4,
+    "height": null
+   }
+  },
+  "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_LightAnatomicalBeltType2_BossRS.webp",
+  "source": "game-files"
+ }
+]
