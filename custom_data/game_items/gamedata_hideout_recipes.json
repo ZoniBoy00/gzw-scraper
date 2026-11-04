@@ -1,0 +1,1077 @@
+[
+ {
+  "id": "DA_Recipe_Craft_HackingDevice_L2",
+  "name": "Basic Hacking Tool",
+  "pipeline": "MicroLab.Craft",
+  "craft_time_seconds": 1,
+  "inputs": [
+   {
+    "id": "IS_Misc_MultibusConverter",
+    "name": "Multi-Bus Converter",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_CpuCard",
+    "name": "CPU Card",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_SpoofingAsic",
+    "name": "Spoofing ASIC Module",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_HackingTool_SimpleHackingTool",
+    "name": "Basic Hacking Tool",
+    "amount": 1
+   }
+  ],
+  "required_capabilities": {
+   "mechanical": 1,
+   "compute": 1
+  }
+ },
+ {
+  "id": "DA_Recipe_Craft_HackingDevice_L3",
+  "name": "Advanced Hacking Tool",
+  "pipeline": "MicroLab.Craft",
+  "craft_time_seconds": 1,
+  "inputs": [
+   {
+    "id": "IS_Misc_FieldProgrammableGateArray",
+    "name": "FPGA Module",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_AvionicsProcessorBoard",
+    "name": "Avionics Processor Board",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_ServerRamModule",
+    "name": "Server RAM Module",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_HackingTool_BasicHackingTool",
+    "name": "Advanced Hacking Tool",
+    "amount": 1
+   }
+  ],
+  "required_capabilities": {
+   "compute": 5
+  }
+ },
+ {
+  "id": "DA_Recipe_Craft_HackingDevice_L4",
+  "name": "Superior Hacking Tool",
+  "pipeline": "MicroLab.Craft",
+  "craft_time_seconds": 1,
+  "inputs": [
+   {
+    "id": "IS_Misc_OvenControlledCrystalOscillator",
+    "name": "Oven-Controlled Crystal Oscillator",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_HighSpeedDigitalProcessorBoard",
+    "name": "High-Speed Digital Processor Board",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_DigitalSynthesisEngine",
+    "name": "Digital Synthesis Engine",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_HackingTool_AdvancedHackingTool",
+    "name": "Superior Hacking Tool",
+    "amount": 1
+   }
+  ],
+  "required_capabilities": {
+   "compute": 9
+  }
+ },
+ {
+  "id": "DA_Recipe_Craft_Med_Stim_BoneHealingSubstance",
+  "name": "ORI-12",
+  "pipeline": "ChemLab.Craft",
+  "craft_time_seconds": 1,
+  "inputs": [
+   {
+    "id": "IS_Misc_EmptyAutoinjector",
+    "name": "Empty Autoinjector",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_BoneDensityStimulant",
+    "name": "Bone Density Stimulant",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Med_Stim_BoneHealingSubstance",
+    "name": "ORI-12",
+    "amount": 1
+   }
+  ]
+ },
+ {
+  "id": "DA_Recipe_Craft_Med_Stim_DetoxSubstance",
+  "name": "DT-0X",
+  "pipeline": "ChemLab.Craft",
+  "craft_time_seconds": 1,
+  "inputs": [
+   {
+    "id": "IS_Misc_EmptyAutoinjector",
+    "name": "Empty Autoinjector",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_MethyleneBlue",
+    "name": "Methylene Blue",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Med_Stim_DetoxSubstance",
+    "name": "DT-0X",
+    "amount": 1
+   }
+  ]
+ },
+ {
+  "id": "DA_Recipe_Craft_Med_Stim_Epo",
+  "name": "EPO",
+  "pipeline": "ChemLab.Craft",
+  "craft_time_seconds": 1,
+  "inputs": [
+   {
+    "id": "IS_Misc_EmptyAutoinjector",
+    "name": "Empty Autoinjector",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_VitaminB12",
+    "name": "Vitamin B12",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_IronSucrose",
+    "name": "Iron Sucrose",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Med_Stim_Epo",
+    "name": "EPO",
+    "amount": 1
+   }
+  ]
+ },
+ {
+  "id": "DA_Recipe_Craft_Med_Stim_Fenethylline",
+  "name": "Fenethylline",
+  "pipeline": "ChemLab.Craft",
+  "craft_time_seconds": 1,
+  "inputs": [
+   {
+    "id": "IS_Misc_Glucose",
+    "name": "Glucose",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Theophylline",
+    "name": "Theophylline",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Med_Stim_Fenethylline",
+    "name": "Fenethylline",
+    "amount": 1
+   }
+  ]
+ },
+ {
+  "id": "DA_Recipe_Craft_Med_Stim_Morphine",
+  "name": "Morphine",
+  "pipeline": "ChemLab.Craft",
+  "craft_time_seconds": 1,
+  "inputs": [
+   {
+    "id": "IS_Misc_EmptyAutoinjector",
+    "name": "Empty Autoinjector",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_HqMorphineBase",
+    "name": "High-Quality Morphine Base",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Saline",
+    "name": "Saline",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Med_Stim_Morphine",
+    "name": "Morphine",
+    "amount": 1
+   }
+  ]
+ },
+ {
+  "id": "DA_Recipe_Craft_Med_Stim_OrganHealingSubstance",
+  "name": "HpR 3-S",
+  "pipeline": "ChemLab.Craft",
+  "craft_time_seconds": 1,
+  "inputs": [
+   {
+    "id": "IS_Misc_EmptyAutoinjector",
+    "name": "Empty Autoinjector",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_HumanGrowthHormone",
+    "name": "Human Growth Hormone",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Med_Stim_OrganHealingSubstance",
+    "name": "HpR 3-S",
+    "amount": 1
+   }
+  ]
+ },
+ {
+  "id": "DA_Recipe_Craft_Med_Stim_Ritalin",
+  "name": "Methylphenidate",
+  "pipeline": "ChemLab.Craft",
+  "craft_time_seconds": 1,
+  "inputs": [
+   {
+    "id": "IS_Misc_Glucose",
+    "name": "Glucose",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Bromopyridine",
+    "name": "Bromopyridine",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Med_Stim_Ritalin",
+    "name": "Methylphenidate",
+    "amount": 1
+   }
+  ]
+ },
+ {
+  "id": "DA_Recipe_Craft_Med_Stim_Strychnine",
+  "name": "Strychnine",
+  "pipeline": "ChemLab.Craft",
+  "craft_time_seconds": 1,
+  "inputs": [
+   {
+    "id": "IS_Misc_EmptyAutoinjector",
+    "name": "Empty Autoinjector",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Aniline",
+    "name": "Aniline",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Methanol",
+    "name": "Methanol",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Med_Stim_Strychnine",
+    "name": "Strychnine",
+    "amount": 1
+   }
+  ]
+ },
+ {
+  "id": "DA_Recipe_Craft_TrackingTag_AdvancedGpsTag",
+  "name": "Advanced Tracking Tag",
+  "pipeline": "MicroLab.Craft",
+  "craft_time_seconds": 1,
+  "inputs": [
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_MilitarySoftware",
+    "name": "Military Software",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Cpu",
+    "name": "CPU",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_TrackingTag_AdvancedGpsTag",
+    "name": "Advanced Tracking Tag",
+    "amount": 1
+   }
+  ]
+ },
+ {
+  "id": "DA_Recipe_Craft_TrackingTag_GpsTag",
+  "name": "Tracking Tag",
+  "pipeline": "MicroLab.Craft",
+  "craft_time_seconds": 1,
+  "inputs": [
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_CivilianSoftware",
+    "name": "Civilian Software",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_CircuitBoard",
+    "name": "Circuit Board",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_TrackingTag_GpsTag",
+    "name": "Tracking Tag",
+    "amount": 1
+   }
+  ]
+ },
+ {
+  "id": "DA_Recipe_Craft_TrackingTag_SmallGpsTag",
+  "name": "Basic Tracking Tag",
+  "pipeline": "MicroLab.Craft",
+  "craft_time_seconds": 1,
+  "inputs": [
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_CivilianSoftware",
+    "name": "Civilian Software",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_TrackingTag_SmallGpsTag",
+    "name": "Basic Tracking Tag",
+    "amount": 1
+   }
+  ]
+ },
+ {
+  "id": "DA_Recipe_Disassemble_ArtilleryBallisticCalculator",
+  "name": "Artillery Ballistic Calculator",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_ArtilleryBallisticCalculator",
+    "name": "Artillery Ballistic Calculator",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_LafArtilleryDataLog",
+    "name": "LAF Artillery Data Logs",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_CpuCard",
+    "name": "CPU Card",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Disassemble_Baget5331OnboardComputer",
+  "name": "Baget-53-31 Onboard Computer",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_Baget5331OnboardComputer",
+    "name": "Baget-53-31 Onboard Computer",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_FlightDataDrive",
+    "name": "Flight Data Drive",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_AvionicsProcessorBoard",
+    "name": "Avionics Processor Board",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Disassemble_ChemicalChargesContainer",
+  "name": "Chemical Munitions Container",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_ChemicalChargesContainer",
+    "name": "Chemical Munitions Container",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_PressurizedSarinCanister",
+    "name": "Sarin Canister",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Disassemble_CounterIedJammerUnit",
+  "name": "Counter IED/Jammer Unit",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_CounterIedJammerUnit",
+    "name": "Counter IED/Jammer Unit",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_ElectronicWarfareDataDrive",
+    "name": "Electronic Warfare Configuration Drive",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_DigitalSynthesisEngine",
+    "name": "Digital Synthesis Engine",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Disassemble_DroneInterceptor",
+  "name": "Drone Interceptor",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_MilitaryDroneInterceptor",
+    "name": "Drone Interceptor",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_AiTargettingModule",
+    "name": "AI Targeting Module",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Disassemble_ImsiCatcher",
+  "name": "IMSI Catcher",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_ImsiCatcher",
+    "name": "IMSI Catcher",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_PhoneLogs",
+    "name": "Incriminating Phone Logs",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_SpoofingAsic",
+    "name": "Spoofing ASIC Module",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Disassemble_LastLineDefenceCanister",
+  "name": "Last Line Defense Container",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_LastLineDefenceContainer",
+    "name": "Last Line Defense Container",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_NerveGasCanister",
+    "name": "Nerve Gas Canister",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Disassemble_ManpackTacticalRadio",
+  "name": "Manpack Tactical Radio",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_ManpackTacticalRadio",
+    "name": "Manpack Tactical Radio",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_ExtractedEncryptionKeysDrive",
+    "name": "Encryption Key Drive",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_FieldProgrammableGateArray",
+    "name": "FPGA Module",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Disassemble_MilitaryChemicalsContainmentCanister",
+  "name": "Chemical Containment Container",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_MilitaryChemicalsContainmentCanister",
+    "name": "Chemical Containment Container",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_BiohazardMaterialContainer",
+    "name": "Biohazard Canister",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Disassemble_PortableSatcomTerminal",
+  "name": "Portable SATCOM Terminal",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_PortableSatcomTerminal",
+    "name": "Portable SATCOM Terminal",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_UplinkDataDrive",
+    "name": "Uplink Credentials Drive",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_OvenControlledCrystalOscillator",
+    "name": "Oven-Controlled Crystal Oscillator",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Disassemble_RadarSignalProcessor",
+  "name": "Radar Signal Processor",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_RadarSignalProcessor",
+    "name": "Radar Signal Processor",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_DeepSpaceDataDrive",
+    "name": "Deep-Space Observation Data Drive",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_HighSpeedDigitalProcessorBoard",
+    "name": "High-Speed Digital Processor Board",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Disassemble_RocketTargetingHead",
+  "name": "Missile Seeker Head",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_RocketTargettingHead",
+    "name": "Missile Seeker Head",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_RocketNavigationCircuit",
+    "name": "Missile Guidance Circuit",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Disassemble_St1122StorageComputer",
+  "name": "ST1122 Storage Computer",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_St1122StorageComputer",
+    "name": "ST1122 Storage Computer",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_IncriminatigDataDrive",
+    "name": "Incriminating Data Drive",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_ServerRamModule",
+    "name": "Server RAM Module",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Disassemble_ThermoelectricGeneratorCell",
+  "name": "Radioisotope Fuel Cell",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_ThermoelectricGeneratorCell",
+    "name": "Radioisotope Fuel Cell",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_PlutoniumCanister",
+    "name": "Plutonium Canister",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Disassemble_UnlraFieldTerminal",
+  "name": "UNLRA Field Terminal",
+  "pipeline": "MicroLab.Disassembly",
+  "craft_time_seconds": 43200,
+  "inputs": [
+   {
+    "id": "IS_Misc_UnlraFieldTerminal",
+    "name": "UNLRA Field Terminal",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_UnlraReliefManifest",
+    "name": "UNLRA Relief Manifest",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_MultibusConverter",
+    "name": "Multi-Bus Converter",
+    "amount": 1
+   }
+  ],
+  "known_by_default": true
+ },
+ {
+  "id": "DA_Recipe_Produce_GrayHeroin",
+  "name": "Gray Heroin",
+  "pipeline": "ChemLab.Production",
+  "craft_time_seconds": 19800,
+  "inputs": [
+   {
+    "id": "IS_Misc_MqMorphineBase",
+    "name": "Medium-Quality Morphine Base",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_AceticAnyhdride",
+    "name": "Acetic Anhydride",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_SodiumCarbonate",
+    "name": "Sodium Carbonate",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Chloroform",
+    "name": "Chloroform",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_GrayHeroin",
+    "name": "Gray Heroin",
+    "amount": 1
+   }
+  ],
+  "required_capabilities": {
+   "filtration": 2,
+   "analysis": 4
+  }
+ },
+ {
+  "id": "DA_Recipe_Produce_HqMorphineBase",
+  "name": "High-Quality Morphine Base",
+  "pipeline": "ChemLab.Production",
+  "craft_time_seconds": 7200,
+  "inputs": [
+   {
+    "id": "IS_Misc_OpiumGum",
+    "name": "Opium Gum",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_GardenLime",
+    "name": "Garden Lime",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_AmmoniumChloride",
+    "name": "Ammonium Chloride",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_PurifiedWater",
+    "name": "Purified Water",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_HqMorphineBase",
+    "name": "High-Quality Morphine Base",
+    "amount": 1
+   }
+  ],
+  "required_capabilities": {
+   "heat_control": 4,
+   "extraction": 8
+  }
+ },
+ {
+  "id": "DA_Recipe_Produce_LqMorphineBase",
+  "name": "Low-Quality Morphine Base",
+  "pipeline": "ChemLab.Production",
+  "craft_time_seconds": 7200,
+  "inputs": [
+   {
+    "id": "IS_Misc_OpiumGum",
+    "name": "Opium Gum",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_GardenLime",
+    "name": "Garden Lime",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_AmmoniumChloride",
+    "name": "Ammonium Chloride",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_PurifiedWater",
+    "name": "Purified Water",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_LqMorphineBase",
+    "name": "Low-Quality Morphine Base",
+    "amount": 1
+   }
+  ],
+  "required_capabilities": {
+   "heat_control": 1,
+   "extraction": 3,
+   "filtration": 1,
+   "safety": 1
+  }
+ },
+ {
+  "id": "DA_Recipe_Produce_MorphineSolution",
+  "name": "10% Morphine Solution",
+  "pipeline": "ChemLab.Production",
+  "craft_time_seconds": 19800,
+  "inputs": [
+   {
+    "id": "IS_Misc_LqMorphineBase",
+    "name": "Low-Quality Morphine Base",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_CitricAcid",
+    "name": "Citric Acid",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_PurifiedWater",
+    "name": "Purified Water",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_MorphineSolution",
+    "name": "10% Morphine Solution",
+    "amount": 1
+   }
+  ],
+  "required_capabilities": {
+   "analysis": 1,
+   "storage": 1
+  }
+ },
+ {
+  "id": "DA_Recipe_Produce_MqMorphineBase",
+  "name": "Medium-Quality Morphine Base",
+  "pipeline": "ChemLab.Production",
+  "craft_time_seconds": 7200,
+  "inputs": [
+   {
+    "id": "IS_Misc_OpiumGum",
+    "name": "Opium Gum",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_GardenLime",
+    "name": "Garden Lime",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_AmmoniumChloride",
+    "name": "Ammonium Chloride",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_PurifiedWater",
+    "name": "Purified Water",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_MqMorphineBase",
+    "name": "Medium-Quality Morphine Base",
+    "amount": 1
+   }
+  ],
+  "required_capabilities": {
+   "heat_control": 2,
+   "extraction": 7,
+   "filtration": 1
+  }
+ },
+ {
+  "id": "DA_Recipe_Produce_PureWhiteHeroin",
+  "name": "Pure White Heroin",
+  "pipeline": "ChemLab.Production",
+  "craft_time_seconds": 19800,
+  "inputs": [
+   {
+    "id": "IS_Misc_HqMorphineBase",
+    "name": "High-Quality Morphine Base",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_AceticAnyhdride",
+    "name": "Acetic Anhydride",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Ether",
+    "name": "Ether",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_HydrochloricAcid",
+    "name": "Hydrochloric Acid",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_EthylAlcohol",
+    "name": "Ethyl Alcohol",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_PureWhiteHeroin",
+    "name": "Pure White Heroin",
+    "amount": 1
+   }
+  ],
+  "required_capabilities": {
+   "filtration": 2,
+   "analysis": 8,
+   "safety": 3
+  }
+ },
+ {
+  "id": "DA_Recipe_Produce_StabilizedMorphineSulfateLiquid",
+  "name": "Stabilized Morphine Sulfate Liquid",
+  "pipeline": "ChemLab.Production",
+  "craft_time_seconds": 19800,
+  "inputs": [
+   {
+    "id": "IS_Misc_MqMorphineBase",
+    "name": "Medium-Quality Morphine Base",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_SulfuricAcid",
+    "name": "Sulfuric Acid",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Methylparaben",
+    "name": "Methylparaben",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Saline",
+    "name": "Saline",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_StabilizedMorphineSulfateLiquid",
+    "name": "Stabilized Morphine Sulfate Liquid",
+    "amount": 1
+   }
+  ],
+  "required_capabilities": {
+   "analysis": 3,
+   "storage": 4
+  }
+ },
+ {
+  "id": "DA_Recipe_Produce_UspMorphineSulfate",
+  "name": "USP Morphine Sulfate",
+  "pipeline": "ChemLab.Production",
+  "craft_time_seconds": 19800,
+  "inputs": [
+   {
+    "id": "IS_Misc_HqMorphineBase",
+    "name": "High-Quality Morphine Base",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_SulfuricAcid",
+    "name": "Sulfuric Acid",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_SodiumCitrate",
+    "name": "Sodium Citrate",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_EdetateDisodium",
+    "name": "Edetate Disodium",
+    "amount": 1
+   }
+  ],
+  "outputs": [
+   {
+    "id": "IS_Misc_UspMorphineSulfate",
+    "name": "USP Morphine Sulfate",
+    "amount": 1
+   }
+  ],
+  "required_capabilities": {
+   "storage": 6
+  }
+ }
+]

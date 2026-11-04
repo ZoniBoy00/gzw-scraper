@@ -1,0 +1,80 @@
+[
+ {
+  "room": "ChemLab",
+  "unlock": {
+   "player_rank": 1,
+   "vendor_ranks": {
+    "lab_rat": 2
+   }
+  },
+  "device_slots": [
+   "ChemLab.Storage",
+   "ChemLab.SolventProcessing",
+   "ChemLab.Safety",
+   "ChemLab.ReactionVessel",
+   "ChemLab.HeatSource",
+   "ChemLab.Glassware",
+   "ChemLab.Filtration",
+   "ChemLab.ExtractionVessel",
+   "ChemLab.Analysis"
+  ],
+  "pipelines": [
+   {
+    "pipeline": "ChemLab.Production",
+    "refund_vendor": "LabRat"
+   },
+   {
+    "pipeline": "ChemLab.Craft",
+    "refund_vendor": "LabRat"
+   }
+  ],
+  "id": "ChemLab",
+  "name": "ChemLab"
+ },
+ {
+  "room": "MicroLab",
+  "unlock": {
+   "player_rank": 1,
+   "vendor_ranks": {
+    "artisan": 2,
+    "lab_rat": 2
+   }
+  },
+  "device_slots": [
+   "MicroLab.Storage",
+   "MicroLab.Software",
+   "MicroLab.MicroElectronics",
+   "MicroLab.RFSensors",
+   "MicroLab.Mechanical",
+   "MicroLab.Anomalous",
+   "MicroLab.Hardware"
+  ],
+  "pipelines": [
+   {
+    "pipeline": "MicroLab.Disassembly",
+    "refund_vendor": "Artisan"
+   },
+   {
+    "pipeline": "MicroLab.Craft",
+    "refund_vendor": "Artisan"
+   }
+  ],
+  "id": "MicroLab",
+  "name": "MicroLab"
+ },
+ {
+  "room": "Support",
+  "unlock": {
+   "player_rank": 1,
+   "vendor_ranks": {
+    "lab_rat": 2
+   }
+  },
+  "device_slots": [
+   "Support.Power"
+  ],
+  "pipelines": [],
+  "id": "Support",
+  "name": "Support"
+ }
+]

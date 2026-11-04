@@ -1,0 +1,206 @@
+[
+ {
+  "storage": "ChemLab.Output",
+  "size_by_level": {
+   "1": {
+    "width": 2,
+    "height": 2
+   },
+   "2": {
+    "width": 2,
+    "height": 3
+   },
+   "3": {
+    "width": 3,
+    "height": 3
+   },
+   "4": {
+    "width": 3,
+    "height": 4
+   },
+   "5": {
+    "width": 4,
+    "height": 4
+   },
+   "6": {
+    "width": 4,
+    "height": 5
+   },
+   "0": {
+    "width": 0,
+    "height": 0
+   },
+   "7": {
+    "width": 5,
+    "height": 5
+   },
+   "8": {
+    "width": 5,
+    "height": 6
+   },
+   "9": {
+    "width": 6,
+    "height": 6
+   },
+   "10": {
+    "width": 6,
+    "height": 7
+   }
+  },
+  "id": "ChemLab.Output",
+  "name": "ChemLab.Output"
+ },
+ {
+  "storage": "MicroLab.Input",
+  "size_by_level": {
+   "1": {
+    "width": 2,
+    "height": 2
+   },
+   "2": {
+    "width": 2,
+    "height": 3
+   },
+   "3": {
+    "width": 3,
+    "height": 3
+   },
+   "4": {
+    "width": 3,
+    "height": 4
+   },
+   "5": {
+    "width": 4,
+    "height": 4
+   },
+   "6": {
+    "width": 4,
+    "height": 5
+   },
+   "0": {
+    "width": 0,
+    "height": 0
+   },
+   "7": {
+    "width": 5,
+    "height": 5
+   },
+   "8": {
+    "width": 5,
+    "height": 6
+   },
+   "9": {
+    "width": 6,
+    "height": 6
+   },
+   "10": {
+    "width": 6,
+    "height": 7
+   }
+  },
+  "id": "MicroLab.Input",
+  "name": "MicroLab.Input"
+ },
+ {
+  "storage": "MicroLab.Output",
+  "size_by_level": {
+   "1": {
+    "width": 2,
+    "height": 2
+   },
+   "2": {
+    "width": 2,
+    "height": 3
+   },
+   "3": {
+    "width": 3,
+    "height": 3
+   },
+   "4": {
+    "width": 3,
+    "height": 4
+   },
+   "5": {
+    "width": 4,
+    "height": 4
+   },
+   "6": {
+    "width": 4,
+    "height": 5
+   },
+   "0": {
+    "width": 0,
+    "height": 0
+   },
+   "7": {
+    "width": 5,
+    "height": 5
+   },
+   "8": {
+    "width": 5,
+    "height": 6
+   },
+   "9": {
+    "width": 6,
+    "height": 6
+   },
+   "10": {
+    "width": 6,
+    "height": 7
+   }
+  },
+  "id": "MicroLab.Output",
+  "name": "MicroLab.Output"
+ },
+ {
+  "storage": "ChemLab.Input",
+  "size_by_level": {
+   "0": {
+    "width": 0,
+    "height": 0
+   },
+   "1": {
+    "width": 2,
+    "height": 2
+   },
+   "2": {
+    "width": 2,
+    "height": 3
+   },
+   "3": {
+    "width": 3,
+    "height": 3
+   },
+   "4": {
+    "width": 3,
+    "height": 4
+   },
+   "5": {
+    "width": 4,
+    "height": 4
+   },
+   "6": {
+    "width": 4,
+    "height": 5
+   },
+   "7": {
+    "width": 5,
+    "height": 5
+   },
+   "8": {
+    "width": 5,
+    "height": 6
+   },
+   "9": {
+    "width": 6,
+    "height": 6
+   },
+   "10": {
+    "width": 6,
+    "height": 7
+   }
+  },
+  "id": "ChemLab.Input",
+  "name": "ChemLab.Input"
+ }
+]

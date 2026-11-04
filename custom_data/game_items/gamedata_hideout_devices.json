@@ -1,0 +1,1304 @@
+[
+ {
+  "id": "DA_HideoutDevice_ChemLab_Analysis_L1",
+  "name": "pH Meter",
+  "description": "An instrument providing pH readings for better monitoring and control of chemical conditions.",
+  "slot": "ChemLab.Analysis",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Plastics",
+    "name": "Plastics",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_CircuitBoard",
+    "name": "Circuit Board",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_ComplexGlassElectrode",
+    "name": "Complex Glass Electrode",
+    "amount": 1
+   }
+  ],
+  "capabilities_required": {
+   "analysis": 1
+  },
+  "capabilities_provided": {
+   "analysis": 3
+  },
+  "infrastructure_required": {
+   "power": 1
+  },
+  "next_upgrade": "DA_HideoutDevice_ChemLab_Analysis_L2"
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_Analysis_L2",
+  "name": "Spectrometer",
+  "description": "A basic analytical instrument used to identify substances and detect impurities. Provides greater insight into the composition and quality of samples.",
+  "slot": "ChemLab.Analysis",
+  "level": 2,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Plastics",
+    "name": "Plastics",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 4
+   },
+   {
+    "id": "IS_Misc_CircuitBoard",
+    "name": "Circuit Board",
+    "amount": 3
+   },
+   {
+    "id": "IS_Misc_MechanicalParts",
+    "name": "Mechanical Parts",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_VaporLamp",
+    "name": "Vapor Lamp",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_CrystalPrism",
+    "name": "Crystal Prism",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Dollars",
+    "name": "US Dollars",
+    "amount": 35000
+   }
+  ],
+  "capabilities_required": {
+   "analysis": 5
+  },
+  "capabilities_provided": {
+   "analysis": 5
+  },
+  "infrastructure_required": {
+   "power": 2
+  }
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_ExtractionVessel_L1",
+  "name": "Oil Tank",
+  "description": "A repurposed oil tank used as a crude extraction vessel. Large and durable, but poorly suited for precise chemical processing.",
+  "slot": "ChemLab.ExtractionVessel",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Copper",
+    "name": "Copper",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_PlumbingParts",
+    "name": "Plumbing Parts",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_AnalogIndicator",
+    "name": "Analog Indicator",
+    "amount": 1
+   }
+  ],
+  "capabilities_required": {
+   "heat_control": 1
+  },
+  "capabilities_provided": {
+   "extraction": 2
+  },
+  "next_upgrade": "DA_HideoutDevice_ChemLab_ExtractionVessel_L2"
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_ExtractionVessel_L2",
+  "name": "Copper Distillation Still",
+  "description": "A copper still designed for basic distillation and extraction. Provides better control over separation and produces more consistent results than improvised equipment.",
+  "slot": "ChemLab.ExtractionVessel",
+  "level": 2,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Copper",
+    "name": "Copper",
+    "amount": 5
+   },
+   {
+    "id": "IS_Misc_PlumbingParts",
+    "name": "Plumbing Parts",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_AnalogIndicator",
+    "name": "Analog Indicator",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_WaterPump",
+    "name": "Water Pump",
+    "amount": 1
+   }
+  ],
+  "capabilities_required": {
+   "heat_control": 2
+  },
+  "capabilities_provided": {
+   "extraction": 5
+  }
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_FiltrationUnit_L1",
+  "name": "Cloth Sheet Filter",
+  "description": "A simple cloth filter capable of removing larger particles. Inefficient and inconsistent, but adequate for basic filtration.",
+  "slot": "ChemLab.Filtration",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Wood",
+    "name": "Wood",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_Fabrics",
+    "name": "Fabrics",
+    "amount": 4
+   }
+  ],
+  "capabilities_required": {
+   "extraction": 1
+  },
+  "capabilities_provided": {
+   "filtration": 1
+  },
+  "next_upgrade": "DA_HideoutDevice_ChemLab_FiltrationUnit_L2"
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_FiltrationUnit_L2",
+  "name": "Metal Sieve",
+  "description": "A fine-mesh metal sieve capable of separating smaller particles with greater consistency. More reliable and effective than basic cloth filtration.",
+  "slot": "ChemLab.Filtration",
+  "level": 2,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 3
+   },
+   {
+    "id": "IS_Misc_FineMetalMesh",
+    "name": "Fine Metal Mesh",
+    "amount": 3
+   }
+  ],
+  "capabilities_provided": {
+   "filtration": 2
+  }
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_Glassware_L1",
+  "name": "Basic Glass Set",
+  "description": "A basic set of laboratory glassware suitable for simple handling, measuring, and mixing. Limited in precision, but adequate for basic chemical work.",
+  "slot": "ChemLab.Glassware",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Glass",
+    "name": "Glass",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Plastics",
+    "name": "Plastics",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_LaboratoryFlask",
+    "name": "Laboratory Flask",
+    "amount": 1
+   }
+  ],
+  "capabilities_provided": {
+   "analysis": 1
+  },
+  "next_upgrade": "DA_HideoutDevice_ChemLab_Glassware_L2"
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_Glassware_L2",
+  "name": "Laboratory Glass Set",
+  "description": "A standardized set of laboratory glassware suitable for a wide range of chemical operations. Offers improved precision and reliability over basic equipment.",
+  "slot": "ChemLab.Glassware",
+  "level": 2,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Glass",
+    "name": "Glass",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_Plastics",
+    "name": "Plastics",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_LaboratoryFlask",
+    "name": "Laboratory Flask",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_MechanicalPipette",
+    "name": "Mechanical Pipette",
+    "amount": 1
+   }
+  ],
+  "capabilities_provided": {
+   "analysis": 3
+  }
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_HeatSource_L1",
+  "name": "Open Fire Pit",
+  "description": "A crude, open-flame heat source using basic fuel. Provides uneven, poorly controlled heat, making precise reactions difficult and results inconsistent.",
+  "slot": "ChemLab.HeatSource",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 3
+   },
+   {
+    "id": "IS_Misc_ConstructionMaterial",
+    "name": "Construction Material",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_Wood",
+    "name": "Wood",
+    "amount": 1
+   }
+  ],
+  "capabilities_provided": {
+   "heat_control": 1
+  },
+  "next_upgrade": "DA_HideoutDevice_ChemLab_HeatSource_L2"
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_HeatSource_L2",
+  "name": "Single Burner",
+  "description": "A basic fuel-powered burner offering improved heat control compared to an open flame. Still limited in temperature stability, but suitable for simple chemical processes.",
+  "slot": "ChemLab.HeatSource",
+  "level": 2,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 4
+   },
+   {
+    "id": "IS_Misc_PlumbingParts",
+    "name": "Plumbing Parts",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_ConstructionMaterial",
+    "name": "Construction Material",
+    "amount": 3
+   },
+   {
+    "id": "IS_Misc_BurnerHead",
+    "name": "Burner Head",
+    "amount": 1
+   }
+  ],
+  "capabilities_required": {
+   "safety": 1
+  },
+  "capabilities_provided": {
+   "heat_control": 2
+  },
+  "next_upgrade": "DA_HideoutDevice_ChemLab_HeatSource_L3"
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_HeatSource_L3",
+  "name": "Multiple Burner Array",
+  "description": "A modular heating system with multiple burners, allowing for better heat distribution and simultaneous processing. Improves consistency and throughput.",
+  "slot": "ChemLab.HeatSource",
+  "level": 3,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 10
+   },
+   {
+    "id": "IS_Misc_PlumbingParts",
+    "name": "Plumbing Parts",
+    "amount": 5
+   },
+   {
+    "id": "IS_Misc_ConstructionMaterial",
+    "name": "Construction Material",
+    "amount": 5
+   },
+   {
+    "id": "IS_Misc_BurnerHead",
+    "name": "Burner Head",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_MechanicalParts",
+    "name": "Mechanical Parts",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_Dollars",
+    "name": "US Dollars",
+    "amount": 40000
+   }
+  ],
+  "capabilities_provided": {
+   "heat_control": 4
+  }
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_ReactionVessel_L1",
+  "name": "Plastic Drums",
+  "description": "Basic plastic drums repurposed as reaction vessels. Cheap and readily available, but offer little control over reaction conditions.",
+  "slot": "ChemLab.ReactionVessel",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Plastics",
+    "name": "Plastics",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_ConstructionMaterial",
+    "name": "Construction Material",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_SiliconeSealant",
+    "name": "Silicone Sealant",
+    "amount": 1
+   }
+  ],
+  "capabilities_provided": {
+   "extraction": 1
+  },
+  "next_upgrade": "DA_HideoutDevice_ChemLab_ReactionVessel_L2"
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_ReactionVessel_L2",
+  "name": "Galvanized Tank",
+  "description": "A durable metal tank offering improved resistance to chemicals and corrosion. Still limited when dealing with more aggressive reactions.",
+  "slot": "ChemLab.ReactionVessel",
+  "level": 2,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 4
+   },
+   {
+    "id": "IS_Misc_Chemicals",
+    "name": "Chemicals",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_ZincElectrode",
+    "name": "Zinc Electrode",
+    "amount": 1
+   }
+  ],
+  "capabilities_provided": {
+   "extraction": 2
+  },
+  "next_upgrade": "DA_HideoutDevice_ChemLab_ReactionVessel_L3"
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_ReactionVessel_L3",
+  "name": "Stainless Steel Tank",
+  "description": "A chemically stable and corrosion-resistant vessel suitable for controlled reactions and more consistent results.",
+  "slot": "ChemLab.ReactionVessel",
+  "level": 3,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 12
+   },
+   {
+    "id": "IS_Misc_StainlessSteelSheet",
+    "name": "Stainless Steel Sheet",
+    "amount": 3
+   },
+   {
+    "id": "IS_Misc_MechanicalParts",
+    "name": "Mechanical Parts",
+    "amount": 6
+   },
+   {
+    "id": "IS_Misc_Dollars",
+    "name": "US Dollars",
+    "amount": 45000
+   }
+  ],
+  "capabilities_provided": {
+   "extraction": 4
+  }
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_Safety_L1",
+  "name": "Fan",
+  "description": "A basic ventilation system that helps disperse chemical fumes but provides limited protection.",
+  "slot": "ChemLab.Safety",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_Plastics",
+    "name": "Plastics",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_PcFan",
+    "name": "PC Fan",
+    "amount": 2
+   }
+  ],
+  "capabilities_provided": {
+   "safety": 1
+  },
+  "infrastructure_required": {
+   "power": 1
+  },
+  "next_upgrade": "DA_HideoutDevice_ChemLab_Safety_L3"
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_Safety_L3",
+  "name": "Ventilation",
+  "description": "An advanced ventilation system providing controlled airflow and efficient removal of hazardous fumes. Suitable for more demanding chemical processes.",
+  "slot": "ChemLab.Safety",
+  "level": 3,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 10
+   },
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 5
+   },
+   {
+    "id": "IS_Misc_PlumbingParts",
+    "name": "Plumbing Parts",
+    "amount": 5
+   },
+   {
+    "id": "IS_Misc_PcFan",
+    "name": "PC Fan",
+    "amount": 3
+   },
+   {
+    "id": "IS_Misc_HepaFilter",
+    "name": "HEPA Filter",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Dollars",
+    "name": "US Dollars",
+    "amount": 35000
+   }
+  ],
+  "capabilities_provided": {
+   "safety": 3
+  },
+  "infrastructure_required": {
+   "power": 3
+  }
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_Storage_L1",
+  "name": "Rusty Old Fridge",
+  "description": "An old, unreliable refrigerator providing basic cooling with poor temperature control. Better than nothing, but hardly suitable for sensitive materials.",
+  "slot": "ChemLab.Storage",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Refrigerant",
+    "name": "Refrigerant",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_PlumbingParts",
+    "name": "Plumbing Parts",
+    "amount": 1
+   }
+  ],
+  "capabilities_provided": {
+   "storage": 1
+  },
+  "infrastructure_required": {
+   "power": 1
+  },
+  "next_upgrade": "DA_HideoutDevice_ChemLab_Storage_L2"
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_Storage_L2",
+  "name": "Beverage Cooler",
+  "description": "A repurposed beverage cooler providing more consistent cooling and improved temperature stability than basic refrigeration.",
+  "slot": "ChemLab.Storage",
+  "level": 2,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 3
+   },
+   {
+    "id": "IS_Misc_Glass",
+    "name": "Glass",
+    "amount": 3
+   },
+   {
+    "id": "IS_Misc_PlumbingParts",
+    "name": "Plumbing Parts",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Refrigerant",
+    "name": "Refrigerant",
+    "amount": 1
+   }
+  ],
+  "capabilities_provided": {
+   "storage": 4
+  },
+  "infrastructure_required": {
+   "power": 2
+  },
+  "next_upgrade": "DA_HideoutDevice_ChemLab_Storage_L3"
+ },
+ {
+  "id": "DA_HideoutDevice_ChemLab_Storage_L3",
+  "name": "Laboratory Fridge",
+  "description": "A laboratory-grade refrigerator providing controlled storage conditions for sensitive materials and reagents. Offers precise and stable temperature control.",
+  "slot": "ChemLab.Storage",
+  "level": 3,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 6
+   },
+   {
+    "id": "IS_Misc_Glass",
+    "name": "Glass",
+    "amount": 5
+   },
+   {
+    "id": "IS_Misc_PlumbingParts",
+    "name": "Plumbing Parts",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_Refrigerant",
+    "name": "Refrigerant",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_CircuitBoard",
+    "name": "Circuit Board",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_Dollars",
+    "name": "US Dollars",
+    "amount": 45000
+   }
+  ],
+  "capabilities_provided": {
+   "storage": 6
+  },
+  "infrastructure_required": {
+   "power": 3
+  }
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_Hardware_L1",
+  "name": "Scavenged PC Rig",
+  "description": "An old civilian-grade computer pieced together from salvaged parts. Suitable for basic hardware diagnostics and data processing, but limited in performance.",
+  "slot": "MicroLab.Hardware",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_MotherBoard",
+    "name": "Motherboard",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_GraphicsCard",
+    "name": "Graphics Card",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Cpu",
+    "name": "CPU",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_PcFan",
+    "name": "PC Fan",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Ram",
+    "name": "RAM",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_PowerSupply",
+    "name": "Power Supply",
+    "amount": 1
+   }
+  ],
+  "capabilities_provided": {
+   "compute": 1
+  },
+  "infrastructure_required": {
+   "power": 1
+  },
+  "next_upgrade": "DA_HideoutDevice_MicroLab_Hardware_L2"
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_Hardware_L2",
+  "name": "High-End Workstation",
+  "description": "A heavily customized computer optimized for demanding computational tasks. Offers significantly greater processing power for complex hardware analysis and data processing.",
+  "slot": "MicroLab.Hardware",
+  "level": 2,
+  "build_materials": [
+   {
+    "id": "IS_Misc_MotherBoard",
+    "name": "Motherboard",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_GraphicsCard",
+    "name": "Graphics Card",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Cpu",
+    "name": "CPU",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_PlumbingParts",
+    "name": "Plumbing Parts",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_Ram",
+    "name": "RAM",
+    "amount": 3
+   },
+   {
+    "id": "IS_Misc_PowerSupply",
+    "name": "Power Supply",
+    "amount": 1
+   }
+  ],
+  "capabilities_provided": {
+   "compute": 3
+  },
+  "infrastructure_required": {
+   "power": 2
+  },
+  "next_upgrade": "DA_HideoutDevice_MicroLab_Hardware_L3"
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_Hardware_L3",
+  "name": "Dedicated Server Rack",
+  "description": "A multi-node server system equipped with specialized processing hardware. Provides substantial computing power for complex analysis and demanding data-processing tasks.",
+  "slot": "MicroLab.Hardware",
+  "level": 3,
+  "build_materials": [
+   {
+    "id": "IS_Misc_MotherBoard",
+    "name": "Motherboard",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_ServerCpu",
+    "name": "Server CPU",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 5
+   },
+   {
+    "id": "IS_Misc_Ram",
+    "name": "RAM",
+    "amount": 4
+   },
+   {
+    "id": "IS_Misc_PowerSupply",
+    "name": "Power Supply",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Dollars",
+    "name": "US Dollars",
+    "amount": 45000
+   }
+  ],
+  "capabilities_provided": {
+   "compute": 5
+  },
+  "infrastructure_required": {
+   "power": 3
+  }
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_Mechanical_L1",
+  "name": "Manual Tooling Rig",
+  "description": "A heavy-duty manual workspace equipped for cutting, welding, and basic metalworking. Suitable for rough fabrication and working with salvaged materials.",
+  "slot": "MicroLab.Mechanical",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Wood",
+    "name": "Wood",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Toolset",
+    "name": "Toolset",
+    "amount": 1
+   }
+  ],
+  "capabilities_provided": {
+   "mechanical": 1
+  },
+  "next_upgrade": "DA_HideoutDevice_MicroLab_Mechanical_L2"
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_Mechanical_L2",
+  "name": "CNC System",
+  "description": "A precision computer-controlled machining system utilizing automated lathes and mills. Capable of producing complex mechanical components with high accuracy and consistency.",
+  "slot": "MicroLab.Mechanical",
+  "level": 2,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 3
+   },
+   {
+    "id": "IS_Misc_MechanicalParts",
+    "name": "Mechanical Parts",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_ToolingCoolant",
+    "name": "Tooling Coolant",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_CncDrillBits",
+    "name": "CNC Drill Bits",
+    "amount": 1
+   }
+  ],
+  "capabilities_provided": {
+   "mechanical": 3
+  },
+  "infrastructure_required": {
+   "power": 2
+  }
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_MicroElectronics_L1",
+  "name": "Basic Electronics Bench",
+  "description": "A simple workbench equipped with basic tools for working with electronic components. Limited in precision, but adequate for simple electronics work.",
+  "slot": "MicroLab.MicroElectronics",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_SolderingIron",
+    "name": "Soldering Iron",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Multimeter",
+    "name": "Multimeter",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Toolset",
+    "name": "Toolset",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_PowerSupply",
+    "name": "Power Supply",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Wood",
+    "name": "Wood",
+    "amount": 1
+   }
+  ],
+  "capabilities_provided": {
+   "electronics": 1
+  },
+  "next_upgrade": "DA_HideoutDevice_MicroLab_MicroElectronics_L2"
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_MicroElectronics_L2",
+  "name": "Advanced Technical Workbench",
+  "description": "A well-equipped workbench with specialized tools for more complex technical work. Offers greater precision and versatility than a basic setup.",
+  "slot": "MicroLab.MicroElectronics",
+  "level": 2,
+  "build_materials": [
+   {
+    "id": "IS_Misc_SolderingIron",
+    "name": "Soldering Iron",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_Multimeter",
+    "name": "Multimeter",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_PowerSupply",
+    "name": "Power Supply",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Oscilloscope",
+    "name": "Oscilloscope",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 4
+   }
+  ],
+  "capabilities_provided": {
+   "electronics": 3
+  },
+  "infrastructure_required": {
+   "power": 2
+  },
+  "next_upgrade": "DA_HideoutDevice_MicroLab_MicroElectronics_L3"
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_MicroElectronics_L3",
+  "name": "Microelectronics Station",
+  "description": "A specialized workstation equipped for precise work with complex electronic components. Provides greater accuracy and control when handling delicate circuitry.",
+  "slot": "MicroLab.MicroElectronics",
+  "level": 3,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Microscope",
+    "name": "Microscope",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Multimeter",
+    "name": "Multimeter",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_CircuitBoard",
+    "name": "Circuit Board",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_PowerSupply",
+    "name": "Power Supply",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Oscilloscope",
+    "name": "Oscilloscope",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 5
+   },
+   {
+    "id": "IS_Misc_Dollars",
+    "name": "US Dollars",
+    "amount": 35000
+   }
+  ],
+  "capabilities_provided": {
+   "electronics": 6
+  },
+  "infrastructure_required": {
+   "power": 3
+  }
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_RFSensors_L1",
+  "name": "Signal Diagnostics Bench",
+  "description": "A basic workstation equipped for testing and analyzing electronic signals. Suitable for diagnosing simple communication and sensor systems.",
+  "slot": "MicroLab.RFSensors",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Wood",
+    "name": "Wood",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_SignalGenerator",
+    "name": "Signal Generator",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_SolderingIron",
+    "name": "Soldering Iron",
+    "amount": 1
+   }
+  ],
+  "capabilities_provided": {
+   "sensor_r_f": 1
+  },
+  "infrastructure_required": {
+   "power": 1
+  },
+  "next_upgrade": "DA_HideoutDevice_MicroLab_RFSensors_L2"
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_RFSensors_L2",
+  "name": "Electro-Optics & Radar Suite",
+  "description": "An advanced workstation for analyzing radar, optical, and electronic systems. Provides the specialized tools needed to examine complex sensors and military-grade components.",
+  "slot": "MicroLab.RFSensors",
+  "level": 2,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 6
+   },
+   {
+    "id": "IS_Misc_MechanicalParts",
+    "name": "Mechanical Parts",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 4
+   },
+   {
+    "id": "IS_Misc_SignalGenerator",
+    "name": "Signal Generator",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Oscilloscope",
+    "name": "Oscilloscope",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_LaserTube",
+    "name": "Laser Tube",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Dollars",
+    "name": "US Dollars",
+    "amount": 30000
+   }
+  ],
+  "capabilities_provided": {
+   "sensor_r_f": 3
+  },
+  "infrastructure_required": {
+   "power": 2
+  }
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_Software_L1",
+  "name": "Leaked Military Firmware Bypass",
+  "description": "A modified version of leaked military software designed to circumvent basic security restrictions. Limited in capability, but effective against older systems",
+  "slot": "MicroLab.Software",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_CivilianSoftware",
+    "name": "Civilian Software",
+    "amount": 3
+   },
+   {
+    "id": "IS_Misc_MilitarySoftware",
+    "name": "Military Software",
+    "amount": 1
+   }
+  ],
+  "capabilities_required": {
+   "compute": 1
+  },
+  "capabilities_provided": {
+   "compute": 2
+  },
+  "next_upgrade": "DA_HideoutDevice_MicroLab_Software_L2"
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_Software_L2",
+  "name": "GPU-Accelerated Brute-Force Matrix",
+  "description": "A heavy-duty cryptographic cracking suite that uses GPU parallel processing to tackle complex encryption. Significantly more capable than basic security bypass tools.",
+  "slot": "MicroLab.Software",
+  "level": 2,
+  "build_materials": [
+   {
+    "id": "IS_Misc_CivilianSoftware",
+    "name": "Civilian Software",
+    "amount": 6
+   },
+   {
+    "id": "IS_Misc_MilitarySoftware",
+    "name": "Military Software",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_GraphicsCard",
+    "name": "Graphics Card",
+    "amount": 1
+   }
+  ],
+  "capabilities_required": {
+   "compute": 5
+  },
+  "capabilities_provided": {
+   "compute": 4
+  }
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_Storage_L1",
+  "name": "Salvaged Wooden Crate",
+  "description": "A battered wooden crate repurposed for storing tools, components, and equipment. Offers little organization or protection, but gets the job done.",
+  "slot": "MicroLab.Storage",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Wood",
+    "name": "Wood",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_MechanicalParts",
+    "name": "Mechanical Parts",
+    "amount": 1
+   }
+  ],
+  "capabilities_provided": {
+   "storage": 1
+  },
+  "next_upgrade": "DA_HideoutDevice_MicroLab_Storage_L2"
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_Storage_L2",
+  "name": "Heavy-Duty Steel Locker",
+  "description": "A sturdy steel locker with organized shelving for storing tools, components, and equipment. Provides better protection and organization than improvised storage.",
+  "slot": "MicroLab.Storage",
+  "level": 2,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 9
+   },
+   {
+    "id": "IS_Misc_MechanicalParts",
+    "name": "Mechanical Parts",
+    "amount": 3
+   }
+  ],
+  "capabilities_provided": {
+   "storage": 4
+  },
+  "next_upgrade": "DA_HideoutDevice_MicroLab_Storage_L3"
+ },
+ {
+  "id": "DA_HideoutDevice_MicroLab_Storage_L3",
+  "name": "Modified Server Cabinet",
+  "description": "A repurposed server cabinet fitted with custom partitions and cooling fans. Provides organized, ventilated storage for sensitive electronic equipment and components.",
+  "slot": "MicroLab.Storage",
+  "level": 3,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 12
+   },
+   {
+    "id": "IS_Misc_MechanicalParts",
+    "name": "Mechanical Parts",
+    "amount": 6
+   },
+   {
+    "id": "IS_Misc_StainlessSteelSheet",
+    "name": "Stainless Steel Sheet",
+    "amount": 4
+   },
+   {
+    "id": "IS_Misc_Dollars",
+    "name": "US Dollars",
+    "amount": 30000
+   }
+  ],
+  "capabilities_provided": {
+   "storage": 6
+  }
+ },
+ {
+  "id": "DA_HideoutDevice_Support_Generator_L1",
+  "name": "Two-Stroke Engine",
+  "description": "A crude two-stroke engine repurposed as a power source. Inefficient and inconsistent, but capable of meeting basic power needs.",
+  "slot": "Support.Power",
+  "level": 1,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_MechanicalParts",
+    "name": "Mechanical Parts",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_MotorOil",
+    "name": "Motor Oil",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Dynamo",
+    "name": "Dynamo",
+    "amount": 1
+   }
+  ],
+  "infrastructure_provided": {
+   "power": 9
+  },
+  "next_upgrade": "DA_HideoutDevice_Support_Generator_L2"
+ },
+ {
+  "id": "DA_HideoutDevice_Support_Generator_L2",
+  "name": "Diesel Generator",
+  "description": "A reliable diesel generator providing stable and consistent power for a wide range of equipment.",
+  "slot": "Support.Power",
+  "level": 2,
+  "build_materials": [
+   {
+    "id": "IS_Misc_Steel",
+    "name": "Steel",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_MechanicalParts",
+    "name": "Mechanical Parts",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_MotorOil",
+    "name": "Motor Oil",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_Dynamo",
+    "name": "Dynamo",
+    "amount": 1
+   },
+   {
+    "id": "IS_Misc_PlumbingParts",
+    "name": "Plumbing Parts",
+    "amount": 2
+   },
+   {
+    "id": "IS_Misc_ElectricalParts",
+    "name": "Electrical Parts",
+    "amount": 2
+   }
+  ],
+  "infrastructure_provided": {
+   "power": 18
+  }
+ }
+]

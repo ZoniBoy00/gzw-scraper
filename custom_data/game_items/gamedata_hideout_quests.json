@@ -1,0 +1,1964 @@
+[
+ {
+  "id": "DA_Quest_Hideout_Artisan_Quest_01",
+  "name": "Technical Foundation",
+  "vendor": "Artisan",
+  "required_vendor_level": 2,
+  "requires_quests": [],
+  "briefing": "Help Artisan establish an electronics workshop for crafting useful gadgets, with the eventual goal of producing specialized equipment for expeditions into Ground Zero.",
+  "accept_message": "Merc, I've got something I need to set up. There's a lot of dirty shit buried on this island, and I want proof of it getting out before someone makes damn sure it disappears for good.\n\nThat's where you come in. Plenty of people around here went to great lengths to keep their secrets locked away. I've secured some space for an electronics workshop, but right now it's pretty fucking bare. Get it up and running, and sooner or later you'll be able to build tools that'll get you past more than a few locked doors.\n\nAnd that's just for starters. Keep improving the place, and you'll be able to build all kinds of useful shit. Might even come in handy when you finally decide to stick your nose into Ground Zero one day.\n\nYou get your toys, I get the dirt. Sounds fair, doesn't it? Now get the workshop running.",
+  "debriefing": "Not bad, merc. At least it looks like a proper workshop now instead of an empty fucking room.\n\nIt's not much yet, but we've got somewhere to start. There's plenty of tech lying around this island that we can put to good use, and I've already got a few ideas about where we go from here.\n\nFor now, keep the place running. I'll let you know when it's time to take this further.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the workshop capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Sensor and RF Processing",
+      "kind": "hideout_capability",
+      "room": "MicroLab",
+      "capability": "SensorRF",
+      "required_value": 1
+     },
+     {
+      "id": 3,
+      "description": "Electronics Capability",
+      "kind": "hideout_capability",
+      "room": "MicroLab",
+      "capability": "Electronics",
+      "required_value": 1
+     },
+     {
+      "id": 4,
+      "description": "Storage Capacity",
+      "kind": "hideout_capability",
+      "room": "MicroLab",
+      "capability": "Storage",
+      "required_value": 1
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Craft_TrackingTag_SmallGpsTag",
+     "name": "Basic Tracking Tag"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Artisan_Quest_02",
+  "name": "Open Channels",
+  "vendor": "Artisan",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_Artisan_Quest_01"
+  ],
+  "briefing": "Help Artisan improve the electronics workshop and establish contacts with journalists who can expose Lamang's secrets to the outside world.",
+  "accept_message": "Merc, I've figured out our next move. If we're going to get our hands on the kind of information I'm after, that workshop needs some better equipment. Upgrade the place, and I'll give you what you need to start putting together something useful. Let's just say electronic locks won't be quite as good at keeping you out anymore.\n\nThere's one more thing. I need money. Getting information out of Lamang is one thing, making sure someone on the outside actually pays attention to it is another. I've got a few journalists in mind, but getting the right people on board isn't going to be fucking cheap.\n\nGet me the funds and upgrade the workshop. You do that, and we can finally start making this whole thing useful.",
+  "debriefing": "Look at you, merc. Maybe you're not so good for nothing after all. Here, I've got something for you to put together.\n\nIt's a hacking tool. Should help you deal with electronic locks and other security bullshit that would normally keep your nosy ass out. I'll show you how to make one. And before you ask how I know this shit, don't. A girl in Lamang sometimes has to get into places where she isn't exactly welcome.\n\nAs for the money, I'll put it to good use. I know where to start, and with a little luck, we'll soon have people on the outside willing to listen. Then maybe all the bastards hiding behind this mess won't get to decide what the rest of the world hears about it.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the workshop capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Mechanical Engineering",
+      "kind": "hideout_capability",
+      "room": "MicroLab",
+      "capability": "Mechanical",
+      "required_value": 1
+     },
+     {
+      "id": 3,
+      "description": "Compute Capacity",
+      "kind": "hideout_capability",
+      "room": "MicroLab",
+      "capability": "Compute",
+      "required_value": 1
+     }
+    ]
+   },
+   {
+    "id": 4,
+    "description": "Provide Artisan with the funds needed to establish contacts with journalists outside Lamang",
+    "kind": "hand_over_money",
+    "item": {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars"
+    },
+    "amount": 50000
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Craft_HackingDevice_L2",
+     "name": "Basic Hacking Tool"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Artisan_Quest_03",
+  "name": "Applied Engineering",
+  "vendor": "Artisan",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_Artisan_Quest_02"
+  ],
+  "briefing": "Upgrade the electronics workshop to support the crafting of more advanced gadgets.",
+  "accept_message": "Merc, that workshop of yours is coming along, but don't start thinking you're some kind of fucking engineer just yet. There's still plenty of room for improvement.\n\nThe stuff you can put together now is useful, sure, but we're barely scratching the surface. Upgrade the workshop again, and I'll show you how to make some more sophisticated gear. You might even manage to build something without setting yourself on fire.\n\nGet me what we need and make it happen. The better that workshop gets, the more useful shit you'll be able to make.",
+  "debriefing": "Well, shit. You actually did a decent job. The workshop's starting to look like something I wouldn't be embarrassed to work in.\n\nIt can handle some more sophisticated work now, so I've got a few new tricks for you. Don't get cocky, though. Better equipment won't magically make you smarter. You'll still have to figure out what the hell to do with it.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the workshop capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Sensor and RF Processing",
+      "kind": "hideout_capability",
+      "room": "MicroLab",
+      "capability": "SensorRF",
+      "required_value": 3
+     },
+     {
+      "id": 3,
+      "description": "Electronics Capability",
+      "kind": "hideout_capability",
+      "room": "MicroLab",
+      "capability": "Electronics",
+      "required_value": 3
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Craft_TrackingTag_GpsTag",
+     "name": "Tracking Tag"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Artisan_Quest_04",
+  "name": "Information Exchange",
+  "vendor": "Artisan",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_Artisan_Quest_02"
+  ],
+  "briefing": "Artisan's contacts are looking for extracted intel. Supply the requested amount while demand is high.",
+  "accept_message": "Merc, looks like some of my contacts on the outside are hungry for information. They're looking for anything useful we can dig up, and now we just need to give them something worth a damn.\n\nTake apart whatever electronics you can get your hands on and bring me any intel you manage to extract. I'll pass it along, and if there's something worth exposing in there, they'll take care of the rest.\n\nAnd don't worry, they're paying extra while they're interested. Bring me something useful, and I'll make sure you get payed more. Happy? I don't give a fuck.",
+  "debriefing": "There we go. There's some useful shit in here. I'll pass it along and let my contacts figure out what they can do with it.\n\nAnd listen, you don't have to wait for me to ask like a good boy. If you extract any intel from the electronics you take apart, I'll always take it off your hands. But when I've got people on the outside looking for something, they'll pay more for it, which means you get a bigger cut. Simple enough, even for you.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Selling",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Provide Artisan with the requested items",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Incriminating Phone Logs",
+      "kind": "hand_over_item",
+      "item": {
+       "id": "IS_Misc_PhoneLogs",
+       "name": "Incriminating Phone Logs"
+      },
+      "amount": 1
+     },
+     {
+      "id": 3,
+      "description": "LAF Artillery Data Logs",
+      "kind": "hand_over_item",
+      "item": {
+       "id": "IS_Misc_LafArtilleryDataLog",
+       "name": "LAF Artillery Data Logs"
+      },
+      "amount": 1
+     },
+     {
+      "id": 4,
+      "description": "UNLRA Relief Manifest",
+      "kind": "hand_over_item",
+      "item": {
+       "id": "IS_Misc_UnlraReliefManifest",
+       "name": "UNLRA Relief Manifest"
+      },
+      "amount": 1
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "items": [
+    {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars",
+     "count": 30000
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Artisan_Quest_05",
+  "name": "Wider Reach",
+  "vendor": "Artisan",
+  "required_vendor_level": 3,
+  "requires_quests": [
+   "DA_Quest_Hideout_Artisan_Quest_03"
+  ],
+  "briefing": "Upgrade the electronics workshop and help Artisan expand her network outside Lamang.",
+  "accept_message": "Merc, looks like our little arrangement is actually getting somewhere. I've been working on those contacts of mine, but if we want to get anything worthwhile out of this, we're going to need to step things up.\n\nFirst, the workshop. Upgrade it again. The kind of security you're going to run into won't get any easier to crack, and that basic hacking tool of yours will only get you so far. Get the workshop up to speed, and I'll show you how to put together a more capable one.\n\nI also need more money. The contacts we've got are useful, but I want to cast a wider net. There are people out there who can make a lot more noise about what's happening here, but getting their attention takes more than a friendly fucking introduction.\n\nGet both done, merc. The better equipped you are, the deeper you can dig. And the better my connections are, the harder it'll be for anyone to bury what you find.",
+  "debriefing": "I can't believe I'm saying this, but you've held up your end, merc. I'll show you how to put together a more advanced hacking tool, so try not to fuck it up.\n\nThings are moving on my end, too. What started with a few journalists is turning into something bigger. More people asking questions, more places to send what we find, and fewer chances for some asshole to make it all disappear.\n\nWe're getting somewhere, merc. Don't let it go to your head.",
+  "tags": [
+   "Quests.For.Player",
+   "Quests.Level.3",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the workshop capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Compute Capacity",
+      "kind": "hideout_capability",
+      "room": "MicroLab",
+      "capability": "Compute",
+      "required_value": 3
+     }
+    ]
+   },
+   {
+    "id": 3,
+    "description": "Provide Artisan with the funds needed to expand her network outside Lamang",
+    "kind": "hand_over_money",
+    "item": {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars"
+    },
+    "amount": 150000
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Craft_HackingDevice_L3",
+     "name": "Advanced Hacking Tool"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Artisan_Quest_06",
+  "name": "Precision Work",
+  "vendor": "Artisan",
+  "required_vendor_level": 3,
+  "requires_quests": [
+   "DA_Quest_Hideout_Artisan_Quest_05"
+  ],
+  "briefing": "Upgrade the electronics workshop to support the crafting of more advanced gadgets.",
+  "accept_message": "Merc, I've been looking at what that workshop can do, and we're still leaving a lot on the table. You've got decent equipment in there, but decent only gets you so far.\n\nUpgrade the place again. I want to see what you can do once you've got some proper tools to work with. There are more complicated gadgets we should be able to put together, but you're not getting there with what you've got now. Get it done, and I'll show you a few more tricks. And don't start feeling proud of yourself just yet. You're still a long way from impressing me.",
+  "debriefing": "All right, merc, you did what I asked. I've got something new for you to make, and this one's a little more sophisticated than the shit I've shown you before.\n\nYou've come a long way from that empty room we started with. Don't misunderstand me, I'm not suddenly impressed or anything. But at least now I don't have to worry about you trying to fix a circuit board with a fucking hammer.",
+  "tags": [
+   "Quests.For.Player",
+   "Quests.Level.3",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the workshop capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Mechanical Engineering",
+      "kind": "hideout_capability",
+      "room": "MicroLab",
+      "capability": "Mechanical",
+      "required_value": 3
+     },
+     {
+      "id": 3,
+      "description": "Electronics Capability",
+      "kind": "hideout_capability",
+      "room": "MicroLab",
+      "capability": "Electronics",
+      "required_value": 6
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Craft_TrackingTag_AdvancedGpsTag",
+     "name": "Advanced Tracking Tag"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Artisan_Quest_07",
+  "name": "Information Exchange II",
+  "vendor": "Artisan",
+  "required_vendor_level": 3,
+  "requires_quests": [
+   "DA_Quest_Hideout_Artisan_Quest_05"
+  ],
+  "briefing": "Artisan's contacts are looking for extracted intel. Supply the requested amount while demand is high.",
+  "accept_message": "Merc, I've got some people asking for something a little more specific this time. Looks like our little information network is starting to attract some serious attention.\n\nThey're looking for a particular set of intel. If you manage to get your hands on what they need, bring it to me. They'll pay good money for the whole package, and I'll make sure you get your cut. Seems people on the outside are getting awfully curious about what was happening on Lamang. Can't imagine why...",
+  "debriefing": "That's everything they wanted. Nice work, merc. I'll get it where it needs to go and make sure you get what's coming to you.\n\nLooks like expanding our little network is paying off. More people are taking an interest in what happened here, and they're starting to ask the right fucking questions. That's exactly what I wanted.\n\nKeep digging. The more we give them, the harder this shit becomes to ignore.",
+  "tags": [
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Selling",
+   "Quests.Level.3",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Provide Artisan with the requested items",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Incriminating Data Drive",
+      "kind": "hand_over_item",
+      "item": {
+       "id": "IS_Misc_IncriminatigDataDrive",
+       "name": "Incriminating Data Drive"
+      },
+      "amount": 1
+     },
+     {
+      "id": 3,
+      "description": "Encryption Key Drive",
+      "kind": "hand_over_item",
+      "item": {
+       "id": "IS_Misc_ExtractedEncryptionKeysDrive",
+       "name": "Encryption Key Drive"
+      },
+      "amount": 1
+     },
+     {
+      "id": 4,
+      "description": "Flight Data Drive",
+      "kind": "hand_over_item",
+      "item": {
+       "id": "IS_Misc_FlightDataDrive",
+       "name": "Flight Data Drive"
+      },
+      "amount": 1
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "items": [
+    {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars",
+     "count": 45000
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Artisan_Quest_08",
+  "name": "Unrestricted Access",
+  "vendor": "Artisan",
+  "required_vendor_level": 4,
+  "requires_quests": [
+   "DA_Quest_Hideout_Artisan_Quest_06"
+  ],
+  "briefing": "Upgrade the electronics workshop and help Artisan expand her network outside Lamang.",
+  "accept_message": "Merc, things are starting to move faster than I expected. More people on the outside are paying attention, and the shit we're digging up is making its way further than I could've hoped.\n\nBut I'm not stopping there. I want to push this as far as it'll go, and that's going to take more money. There are still people we haven't reached, and if I can get the right information in front of them, it'll become a hell of a lot harder for anyone to pretend none of this ever happened.\n\nI need you to push the workshop further, too. You've gotten pretty good at sticking your nose where it doesn't belong, so I might as well help you get into the places that are still keeping you out. Upgrade the place, and I'll show you how to put together the best hacking tool I know how to make.\n\nGet to it, merc. We've come too fucking far to stop now.",
+  "debriefing": "Well, merc, would you look at that. We actually pulled it off. The workshop's got everything you need, and I've got enough people on the outside listening that it'll be pretty fucking difficult to keep Lamang's secrets buried forever.\n\nAnd since you've held up your end of the deal, I'll hold up mine. I'll show you how to make the best hacking tool we've got. If there's something locked away on this island, you've got a damn good chance of getting to it now. \n\nAs for the workshop, keep it running. We've pushed it about as far as we can for now, but don't think we're finished with it. There are still things I want to show you how to make once we figure out what we're dealing with. Especially when you finally head into Ground Zero.\n\nSomething tells me all these little toys are going to look pretty fucking basic once you get in there.",
+  "tags": [
+   "Quests.For.Player",
+   "Quests.Level.4",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the workshop capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Compute Capacity",
+      "kind": "hideout_capability",
+      "room": "MicroLab",
+      "capability": "Compute",
+      "required_value": 9
+     }
+    ]
+   },
+   {
+    "id": 3,
+    "description": "Provide Artisan with the funds needed to expand her network outside Lamang",
+    "kind": "hand_over_money",
+    "item": {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars"
+    },
+    "amount": 500000
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Craft_HackingDevice_L4",
+     "name": "Superior Hacking Tool"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Artisan_Quest_09",
+  "name": "Information Exchange III",
+  "vendor": "Artisan",
+  "required_vendor_level": 4,
+  "requires_quests": [
+   "DA_Quest_Hideout_Artisan_Quest_08"
+  ],
+  "briefing": "Artisan's contacts are looking for extracted intel. Supply the requested amount while demand is high.",
+  "accept_message": "Merc, word's getting around. I've got more people asking about what we can get out of Lamang, and this time they're after some seriously sensitive shit.\n\nThey've sent me another list. Whatever they're digging into, they're not fucking around anymore. Get your hands on everything they need and bring it to me. I'll make sure it reaches the right people, and you'll get paid better than usual for the trouble.\n\nFunny, isn't it? For a place everyone was so eager to forget about, Lamang suddenly has a lot of people asking some very uncomfortable questions.",
+  "debriefing": "That's everything. Good work, merc. I'll make sure it gets out of Lamang and into the right hands. I want every dirty secret, every lie, every little piece of truth they've tried to bury dragged out into the fucking daylight. I want people out there to know what happened here and who was responsible for it. Maybe then someone will actually do something about it.\n\nSo keep digging. Anything you find that can help expose the truth, bring it to me. I don't care whose name is on it or how badly they want it hidden.",
+  "tags": [
+   "Quests.For.Player",
+   "Quests.Level.4",
+   "Quests.Type.Hideout.Selling",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Provide Artisan with the requested items",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Electronic Warfare Configuration Drive",
+      "kind": "hand_over_item",
+      "item": {
+       "id": "IS_Misc_ElectronicWarfareDataDrive",
+       "name": "Electronic Warfare Configuration Drive"
+      },
+      "amount": 1
+     },
+     {
+      "id": 3,
+      "description": "Deep-Space Observation Data Drive",
+      "kind": "hand_over_item",
+      "item": {
+       "id": "IS_Misc_DeepSpaceDataDrive",
+       "name": "Deep-Space Observation Data Drive"
+      },
+      "amount": 1
+     },
+     {
+      "id": 4,
+      "description": "Uplink Credentials Drive",
+      "kind": "hand_over_item",
+      "item": {
+       "id": "IS_Misc_UplinkDataDrive",
+       "name": "Uplink Credentials Drive"
+      },
+      "amount": 1
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "items": [
+    {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars",
+     "count": 60000
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Smuggling_Heroin_Easy",
+  "name": "Drug Run",
+  "vendor": "Collector",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_Vulture_Quest_01"
+  ],
+  "briefing": "Vulture needs assistance with his smuggling operation. Provide the required amount of heroin, then take off your backpack, equip the shipment backpack, and deliver it to the marked location, all within the time limit. Be prepared to leave your own backpack behind, as the shipment must be carried on your back!",
+  "accept_message": "I have a… business opportunity for you. Simple work, but… profitable… if you can handle it. First, I need… product. Bring it to me, and I’ll show you where to collect the shipment.\n\nYou’ll find it packed in a backpack and… ready to move. Pick it up and take it to the location I give you. And remember… the clock started the moment you accepted this job. My… customers do not appreciate being kept… waiting.\n\nOne more thing. Word has a way of… traveling on this island. Someone may hear about the shipment and decide they want it for… themselves. If that happens, do not… disappoint me. The package reaches its destination. You do whatever is… necessary to make sure it does.",
+  "debriefing": "There you are. And my… product is exactly where it needs to be. Very good.\r\n\r\nMoving merchandise through Lamang can be a… delicate business. Too many… hungry eyes, too many greedy hands. But you delivered on time and without losing what… belongs to me. That makes you… useful.\r\n\r\nEnjoy your cut. There will be… more.",
+  "tags": [
+   "Quests.For.Player",
+   "Quests.Level.1",
+   "Quests.Type.Hideout.Smuggling",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 36,
+    "description": "Time remaining",
+    "kind": "time_limit",
+    "enabled": false,
+    "duration_seconds": 3600,
+    "on_expiry": "ExpirationIsFail"
+   },
+   {
+    "id": 19,
+    "description": "Provide Vulture with the requested amount of product",
+    "kind": "smuggling_pickup",
+    "cargo_item": {
+     "id": null,
+     "name": null
+    },
+    "possible_items": [
+     {
+      "id": "IS_Misc_GrayHeroin",
+      "name": "Gray Heroin",
+      "min": 5,
+      "max": 5
+     }
+    ],
+    "interaction": null
+   },
+   {
+    "id": 37,
+    "description": "Equip the backpack containing the shipment",
+    "kind": "equip_cargo",
+    "cargo_item": {
+     "id": "IS_Backpack_SmallDrugsSmugglingBag",
+     "name": "Drug Shipment Backpack"
+    },
+    "interaction": "Shipment Pickup Point"
+   },
+   {
+    "id": 34,
+    "description": "Deliver the backpack to the designated location",
+    "kind": "smuggling_delivery",
+    "interaction": "Drop Off Shipment"
+   }
+  ],
+  "rewards": {
+   "items": [
+    {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars",
+     "count": 55000
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Smuggling_Heroin_Easy_GYM",
+  "name": "Drug Run (GYM)",
+  "vendor": "Collector",
+  "required_vendor_level": 2,
+  "requires_quests": [],
+  "briefing": "Vulture needs assistance with his smuggling operation. Provide the required amount of heroin, then take off your backpack, equip the shipment backpack, and deliver it to the marked location, all within the time limit. Be prepared to leave your own backpack behind, as the shipment must be carried on your back!",
+  "accept_message": "I have a… business opportunity for you. Simple work, but… profitable… if you can handle it. First, I need… product. Bring it to me, and I’ll show you where to collect the shipment.\n\nYou’ll find it packed in a backpack and… ready to move. Pick it up and take it to the location I give you. And remember… the clock started the moment you accepted this job. My… customers do not appreciate being kept… waiting.\n\nOne more thing. Word has a way of… traveling on this island. Someone may hear about the shipment and decide they want it for… themselves. If that happens, do not… disappoint me. The package reaches its destination. You do whatever is… necessary to make sure it does.",
+  "debriefing": "There you are. And my… product is exactly where it needs to be. Very good.\r\n\r\nMoving merchandise through Lamang can be a… delicate business. Too many… hungry eyes, too many greedy hands. But you delivered on time and without losing what… belongs to me. That makes you… useful.\r\n\r\nEnjoy your cut. There will be… more.",
+  "tags": [
+   "Quests.For.Player",
+   "Quests.Level.1",
+   "WorldRegion.NamThaven",
+   "Quests.Type.LongTermContract",
+   "Quests.Type.Hideout.Smuggling"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 36,
+    "description": "Time remaining",
+    "kind": "time_limit",
+    "enabled": false,
+    "duration_seconds": 3600,
+    "on_expiry": "ExpirationIsFail"
+   },
+   {
+    "id": 19,
+    "description": "Provide Vulture with the requested amount of product",
+    "kind": "smuggling_pickup",
+    "cargo_item": {
+     "id": null,
+     "name": null
+    },
+    "possible_items": [
+     {
+      "id": "IS_Misc_GrayHeroin",
+      "name": "Gray Heroin",
+      "min": 2,
+      "max": 4
+     }
+    ],
+    "interaction": null
+   },
+   {
+    "id": 37,
+    "description": "Equip the backpack containing the shipment",
+    "kind": "equip_cargo",
+    "cargo_item": {
+     "id": "IS_Backpack_DrugsSmugglingBag",
+     "name": "Drug Shipment Backpack"
+    },
+    "interaction": "Shipment Pickup Point"
+   },
+   {
+    "id": 34,
+    "description": "Deliver the backpack to the designated location",
+    "kind": "smuggling_delivery",
+    "interaction": "Drop Off Shipment"
+   }
+  ],
+  "rewards": {},
+  "display_name": "Drug Run"
+ },
+ {
+  "id": "DA_Quest_Hideout_Smuggling_Heroin_Hard",
+  "name": "Drug Run: High Risk",
+  "vendor": "Collector",
+  "required_vendor_level": 4,
+  "requires_quests": [
+   "DA_Quest_Hideout_Vulture_Quest_02"
+  ],
+  "briefing": "Vulture needs assistance with a long-distance smuggling operation. Provide the required amount of heroin, then take off your backpack, equip the shipment backpack, and deliver it to the marked location, all within the time limit. Be prepared to leave your own backpack behind, as the shipment must be carried on your back!",
+  "accept_message": "You have proven yourself… capable. So I think it is time we expanded our… reach. There are customers farther… afield with an appetite for something a little more… refined. And you are going to satisfy it.\r\n\r\nBring me the… product. Once I have it, I’ll show you where the backpack is waiting. From there, you have a long journey ahead of you, and distance attracts… complications. The longer my merchandise is out there, the more opportunities there are for someone to take an… unhealthy interest in it. Time is of the… essence, so I suggest you do not linger.\r\n\r\nYou know how this works. Get the package where it needs to go… whatever it takes.",
+  "debriefing": "Impressive. A long way to carry something so… valuable, with so many opportunities for it to… disappear. Yet here we are. The… merchandise arrived exactly where it was supposed to. This opens up some… interesting possibilities. Distance is no longer an obstacle, and there are always new markets waiting to be… supplied.\r\n\r\nTake your cut. You have… earned it.",
+  "tags": [
+   "Quests.For.Player",
+   "Quests.Level.3",
+   "Quests.Type.Hideout.Smuggling",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 36,
+    "description": "Time remaining",
+    "kind": "time_limit",
+    "enabled": false,
+    "duration_seconds": 3600,
+    "on_expiry": "ExpirationIsFail"
+   },
+   {
+    "id": 19,
+    "description": "Provide Vulture with the requested amount of product",
+    "kind": "smuggling_pickup",
+    "cargo_item": {
+     "id": null,
+     "name": null
+    },
+    "possible_items": [
+     {
+      "id": "IS_Misc_PureWhiteHeroin",
+      "name": "Pure White Heroin",
+      "min": 5,
+      "max": 5
+     }
+    ],
+    "interaction": null
+   },
+   {
+    "id": 37,
+    "description": "Equip the backpack containing the shipment",
+    "kind": "equip_cargo",
+    "cargo_item": {
+     "id": "IS_Backpack_DrugsSmugglingBag",
+     "name": "Drug Shipment Backpack"
+    },
+    "interaction": "Shipment Pickup Point"
+   },
+   {
+    "id": 34,
+    "description": "Deliver the backpack to the designated location",
+    "kind": "smuggling_delivery",
+    "interaction": "Drop Off Shipment"
+   }
+  ],
+  "rewards": {
+   "items": [
+    {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars",
+     "count": 90000
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Vulture_Quest_01",
+  "name": "Diversification",
+  "vendor": "Collector",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_04"
+  ],
+  "briefing": "Upgrade the laboratory and help Vulture establish a new business opportunity.",
+  "accept_message": "I hear you have been... industrious.\n\nA laboratory. Equipment. Production. And yet you use it for... medicine. Admirable, perhaps. But wasteful. There are other substances people... desire. Products with considerably greater... margins.\n\nI can provide the knowledge. The contacts. But first, our little arrangement requires... investment. Improve your laboratory and give me the resources I need to establish the necessary... connections.\n\nThen we can make something people will be very... eager to buy.",
+  "debriefing": "Good. Everything is... prepared.\n\nNow, our product. Heroin. Simple. Familiar. Always in... demand.\n\nI will give you the process. What you produce will not be the finest... quality, but that does not matter. There are always buyers for something... affordable.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Filtration & Processing",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Filtration",
+      "required_value": 2
+     },
+     {
+      "id": 3,
+      "description": "Analysis & Precision",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Analysis",
+      "required_value": 3
+     }
+    ]
+   },
+   {
+    "id": 4,
+    "description": "Provide Vulture with the funds needed to establish a route off the island",
+    "kind": "hand_over_money",
+    "item": {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars"
+    },
+    "amount": 500000
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Produce_GrayHeroin",
+     "name": "Gray Heroin"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Vulture_Quest_02",
+  "name": "Premium Product",
+  "vendor": "Collector",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_Vulture_Quest_01",
+   "DA_Quest_Hideout_LabRat_Quest_06"
+  ],
+  "briefing": "Upgrade the laboratory and help Vulture expand his growing operation.",
+  "accept_message": "Our little... venture has potential. But I have been thinking... bigger.\n\nThere is a market for a better product. Purer. More valuable. And with your laboratory now capable of more... sophisticated work, I see no reason we should not provide it. However, quality brings... expectations. More buyers. More people involved. More risk. If we are going to expand, I need considerably more... resources. And your laboratory will require further improvements before it can produce what I have in mind.\n\nExpensive, yes. But opportunity rarely comes... cheap.",
+  "debriefing": "Excellent. Everything is in... place. More buyers. Better connections. Our reach is considerably... greater than before.\n\nAnd now... the product. What I am giving you is a more refined process. More difficult to produce, certainly... but considerably more valuable.\n\nQuality has its... price. Fortunately, there are people willing to pay it.",
+  "tags": [
+   "Quests.For.Player",
+   "Quests.Level.2",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Analysis & Precision",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Analysis",
+      "required_value": 8
+     },
+     {
+      "id": 3,
+      "description": "Safety",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Safety",
+      "required_value": 3
+     }
+    ]
+   },
+   {
+    "id": 4,
+    "description": "Provide Vulture with the funds needed to expand his smuggling operation",
+    "kind": "hand_over_money",
+    "item": {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars"
+    },
+    "amount": 1000000
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Produce_PureWhiteHeroin",
+     "name": "Pure White Heroin"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_01",
+  "name": "Proof of Concept",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [],
+  "briefing": "Help Lab Rat establish a makeshift laboratory to lay the groundwork for independent research into Ground Zero.",
+  "accept_message": "I've been thinking about everything we've found on Lamang, and there's something that's been bothering me. Our employers know more than they're telling us. I'm certain of it. And if we keep relying on them for equipment, information, and permission to investigate every little thing, we'll only ever learn what they want us to learn. So, I propose we do some research of our own. Quietly. Off the books.\n\nThe good news is that I've managed to secure us some space for a laboratory. Well... calling it a laboratory at this point might be a little generous, but we have to start somewhere.\n\nBefore we can do anything worthwhile, though, we need to get the place up and running. It would seem that Lamang was practically a drug-maker's paradise before the evacuation, so there should be plenty of abandoned laboratory equipment and supplies lying around. Nothing sophisticated, mind you, but enough to get us started.\n\nFind what we need and bring it back. It won't be pretty, but once it's operational, we can start putting all this abandoned equipment to better use.",
+  "debriefing": "Well, look at that! It's crude, improvised, and I'm fairly certain half of it would give a health inspector a heart attack... but it works.\n\nThis should be enough for some basic processing. Nothing particularly exciting yet, but it's a start. I've already worked out something we can produce with what we have. Morphine base. Crude stuff, but useful. We can turn some of it into medicine and sell the surplus. Whatever we make goes straight back into the laboratory.\n\nThat gives us money for better equipment. Better equipment gives us more options. And eventually, we'll have a laboratory capable of doing the kind of research our employers would rather we didn't.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Filtration & Processing",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Filtration",
+      "required_value": 1
+     },
+     {
+      "id": 3,
+      "description": "Extraction & Reaction",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Extraction",
+      "required_value": 3
+     },
+     {
+      "id": 4,
+      "description": "Heat Control",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "HeatControl",
+      "required_value": 1
+     },
+     {
+      "id": 5,
+      "description": "Safety",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Safety",
+      "required_value": 1
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Produce_LqMorphineBase",
+     "name": "Low-Quality Morphine Base"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_02",
+  "name": "Means of Production",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_01"
+  ],
+  "briefing": "Upgrade the laboratory and help Lab Rat put her plan into practice.",
+  "accept_message": "I've been looking at what we've built, and I think this might actually work! But before we get ahead of ourselves, there are a few things we need to take care of.\n\nFirst, the laboratory needs another round of improvements. What we have now is enough to produce morphine base, but if we're going to do this regularly, I want something a little more reliable than our current collection of improvised chemistry equipment. I also need you to make the first batch. Consider it a test run. I want to make sure the process works in practice before we take this any further.\n\nThere's one other problem. Getting it off the island. I know people who can help with that, but establishing a reliable route won't be cheap. Think of it as an investment. Once we have a steady way to move what we produce, this laboratory can start paying for its own development.",
+  "debriefing": "Excellent! The first batch came out about as well as I expected, which, considering what we're working with, is saying something. In the meantime, I've already started making arrangements for getting our product off the island. It'll take some time before everything is running smoothly, but we have what we need to make it work.\n\nNow, the morphine base isn't worth much on its own, but I've worked out a process for turning it into a 10% percent morphine solution. That's something we can actually put to good use and, more importantly for our little enterprise, something we can sell.\n\nNot quite the cutting edge of scientific research yet, but we're getting there.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Analysis & Precision",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Analysis",
+      "required_value": 1
+     },
+     {
+      "id": 5,
+      "description": "Storage Capacity",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Storage",
+      "required_value": 1
+     }
+    ]
+   },
+   {
+    "id": 3,
+    "description": "Produce low-quality morphine base",
+    "kind": "produce_recipe",
+    "recipe": "DA_Recipe_Produce_LqMorphineBase",
+    "recipe_name": "Low-Quality Morphine Base",
+    "amount": 1
+   },
+   {
+    "id": 4,
+    "description": "Provide Lab Rat with the funds needed to establish a route off the island",
+    "kind": "hand_over_money",
+    "item": {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars"
+    },
+    "amount": 50000
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Produce_MorphineSolution",
+     "name": "10% Morphine Solution"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_03",
+  "name": "Supply and Demand",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_02"
+  ],
+  "briefing": "One of Lab Rat's contacts has placed an order for 10% Morphine Solution. Supply the requested amount while demand is high.",
+  "accept_message": "Everything's in place. The laboratory works, we have a product worth selling, and I've got people ready to move it. In fact, one of my contacts has already placed an order. Apparently, there's quite an appetite for what we're producing.\n\nI need you to make the requested amount of morphine solution and bring it to me. They're willing to pay well for it, so naturally, so am I. I'll make sure it gets to the right hands.\n\nIf we can keep this arrangement going, we should finally have a steady source of income for the laboratory. And with enough time and investment, we might actually turn this place into something worthy of the name.",
+  "debriefing": "Perfect! That's exactly what they asked for. I'll take care of the rest from here. You don't have to wait for one of my contacts to place an order, either. I'll happily buy whatever you can produce whenever you have some to spare. We'll simply get a better price when I already have a buyer waiting.\n\nOnce everything is sold and expenses are covered, whatever is left goes straight back into the laboratory. For now, keep the equipment running and don't get too attached to our charming little setup. I have every intention of improving it.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Selling",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Provide Lab Rat with the requested amount of 10% Morphine Solution",
+    "kind": "hand_over_item",
+    "item": {
+     "id": "IS_Misc_MorphineSolution",
+     "name": "10% Morphine Solution"
+    },
+    "amount": 5
+   }
+  ],
+  "rewards": {
+   "items": [
+    {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars",
+     "count": 30000
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_04",
+  "name": "Refining the Process",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_02"
+  ],
+  "briefing": "Upgrade the laboratory to support more advanced production.",
+  "accept_message": "I've been thinking about our little setup, and while I'm pleased with what we've accomplished, we're already starting to run into its limitations.\n\nIt was fine for proving that this could work, but if we're going to keep expanding our operation, we'll need something more capable. You know, something that resembles an actual laboratory rather than a collection of things we found lying around.\n\nSo, let's give it another round of improvements. There's no point in building all these grand plans on a foundation held together by duct tape and optimism.",
+  "debriefing": "Much better. And I've already found a way to take advantage of the improvements.\n\nI've made some adjustments to the process we were using for the morphine base. With this setup, we should be able to produce a much cleaner product with fewer impurities. I'll give you the new procedure.\n\nLet's see what you can do with some proper chemistry for a change.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Extraction & Reaction",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Extraction",
+      "required_value": 7
+     },
+     {
+      "id": 3,
+      "description": "Heat Control",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "HeatControl",
+      "required_value": 2
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Produce_MqMorphineBase",
+     "name": "Medium-Quality Morphine Base"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_05",
+  "name": "Expanding Operations",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_04"
+  ],
+  "briefing": "Upgrade the laboratory and help Lab Rat expand her distribution network.",
+  "accept_message": "The arrangements I've made for getting our product off the island are a good start, but I've been looking into what it would take to expand them. Turns out, quite a lot.\n\nI can bring in more people and establish a larger, more reliable route, but I'll need additional funds to make it happen. And if we're going to increase our output, the laboratory will need another round of improvements as well.\n\nIt's going to be expensive, I know. But if we're serious about funding our research this way, we might as well do it properly.",
+  "debriefing": "That should do it. I've already contacted a few people who can help us broaden our distribution network. With the money you've provided, I can make the necessary arrangements and ensure everything stays discreet.\n\nAs for the laboratory, the improvements couldn't have come at a better time. There's a more refined morphine preparation I'd like to try, but our previous setup simply wasn't up to the task. Now it should be. I've made the necessary adjustments to the process, so let's see how it performs in practice.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Analysis & Precision",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Analysis",
+      "required_value": 3
+     },
+     {
+      "id": 3,
+      "description": "Storage Capacity",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Storage",
+      "required_value": 4
+     }
+    ]
+   },
+   {
+    "id": 4,
+    "description": "Provide Lab Rat with the funds needed to expand her distribution network",
+    "kind": "hand_over_money",
+    "item": {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars"
+    },
+    "amount": 150000
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Produce_StabilizedMorphineSulfateLiquid",
+     "name": "Stabilized Morphine Sulfate Liquid"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_06",
+  "name": "Higher Standards",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_04"
+  ],
+  "briefing": "Upgrade the laboratory to support more advanced production.",
+  "accept_message": "I've been taking a closer look at the morphine base we're producing. It's certainly better than what we started with, but there's still plenty of room for improvement. The process itself is sound. The problem is consistency. With better control over the conditions we're working under, I think we can significantly improve the quality of the final product.\n\nWe'll need to make a few changes to the laboratory first. Nothing revolutionary, but chemistry can be rather unforgiving when you start demanding better results.",
+  "debriefing": "Perfect! With this level of control, we should be able to eliminate much of the inconsistency we've been dealing with.\n\nI've refined the procedure accordingly, and the resulting morphine base should be considerably purer than what we've been producing so far.",
+  "tags": [
+   "Quests.For.Player",
+   "Quests.Level.2",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Extraction & Reaction",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Extraction",
+      "required_value": 9
+     },
+     {
+      "id": 3,
+      "description": "Heat Control",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "HeatControl",
+      "required_value": 4
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Produce_HqMorphineBase",
+     "name": "High-Quality Morphine Base"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_07",
+  "name": "The Price of Progress",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_06"
+  ],
+  "briefing": "Upgrade the laboratory and help Lab Rat expand her distribution network.",
+  "accept_message": "We've reached an interesting problem. The laboratory has advanced considerably, but our ability to properly store what we produce hasn't kept pace, and the distribution network is starting to outgrow the arrangements we've made for it.\n\nBefore we take this any further, I want to address both. We need more storage capacity here, and I need considerably more resources to expand our network again. At this point, we're well beyond a few discreet arrangements between friends. If we're going to keep this operation reliable and, more importantly, out of sight, we need proper infrastructure behind it.\n\nI know I'm asking for a lot. But we've come too far to let logistics become the thing that holds us back.",
+  "debriefing": "The arrangements are made. It'll take some time for everything to settle into place, but our distribution network should be able to handle considerably more than before.\n\nAnd I have something else for you. With everything we've learned so far, I've managed to develop a process for producing morphine sulfate to a proper pharmaceutical standard. Quite a step up from the crude base we started with, wouldn't you say? Funny. This whole thing was supposed to be a way to fund our research, and we've somehow built ourselves a rather respectable pharmaceutical operation in the process.\n\nStill, it's served its purpose. And I haven't forgotten what we built this laboratory for in the first place.",
+  "tags": [
+   "Quests.For.Player",
+   "Quests.Level.2",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Storage Capacity",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Storage",
+      "required_value": 6
+     }
+    ]
+   },
+   {
+    "id": 3,
+    "description": "Provide Lab Rat with the funds needed to expand her distribution network",
+    "kind": "hand_over_money",
+    "item": {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars"
+    },
+    "amount": 500000
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Produce_UspMorphineSulfate",
+     "name": "USP Morphine Sulfate"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_08",
+  "name": "Supply and Demand II",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_05"
+  ],
+  "briefing": "One of Lab Rat's contacts has placed an order for Stabilized Morphine Sulfate Liquid. Supply the requested amount while demand is high.",
+  "accept_message": "Well, well! It seems our little enterprise is attracting attention. One of my contacts has placed an order, and this time they're asking for something a little more sophisticated. Stabilized Morphine Sulfate Liquid. Apparently, our customers are developing rather discerning tastes.\n\nYou know the arrangement. Produce the requested amount and bring it to me. They're willing to pay a premium, and I'm certainly not going to argue with them. Fascinating, isn't it? Give people access to a better product and suddenly the old one simply won't do.",
+  "debriefing": "Excellent! Exactly what they ordered. I have to admit, this little arrangement is working out even better than I expected. Better equipment, better product, better prices. There's a rather satisfying logic to it.\n\nYou keep the laboratory running, and I'll make sure there are people willing to pay for what comes out of it.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Selling",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Provide Lab Rat with the requested amount of Stabilized Morphine Sulfate Liquid",
+    "kind": "hand_over_item",
+    "item": {
+     "id": "IS_Misc_StabilizedMorphineSulfateLiquid",
+     "name": "Stabilized Morphine Sulfate Liquid"
+    },
+    "amount": 5
+   }
+  ],
+  "rewards": {
+   "items": [
+    {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars",
+     "count": 45000
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_09",
+  "name": "Supply and Demand III",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_07"
+  ],
+  "briefing": "One of Lab Rat's contacts has placed an order for USP Morphine Sulfate. Supply the requested amount while demand is high.",
+  "accept_message": "Oh, this is wonderful! One of my contacts has placed another order, but they're not interested in our usual fare this time. They want USP Morphine Sulfate. A pharmaceutical-grade product made right here in our charming little laboratory. I have to admit, there's something deeply satisfying about that.\n\nYou know the arrangement. Produce the requested amount and bring it to me. They're prepared to pay very well for this one, and considering the quality they're asking for, they should be. Who would have thought our little operation would develop such a distinguished clientele?",
+  "debriefing": "Beautiful! Look at that. We've come quite a long way from those first few batches, haven't we?\n\nMy contacts certainly seem to think so. They're willing to pay handsomely for quality like this, and as long as they keep asking for it, I see no reason to disappoint them. Keep the laboratory running. Something tells me there will always be demand for what we can produce.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Selling",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Provide Lab Rat with the requested amount of USP Morphine Sulfate",
+    "kind": "hand_over_item",
+    "item": {
+     "id": "IS_Misc_UspMorphineSulfate",
+     "name": "USP Morphine Sulfate"
+    },
+    "amount": 5
+   }
+  ],
+  "rewards": {
+   "items": [
+    {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars",
+     "count": 60000
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_10",
+  "name": "New Batch: Fenethylline",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_01"
+  ],
+  "briefing": "Upgrade the laboratory and help Lab Rat develop a new stimulant.",
+  "accept_message": "I've been thinking about what else we could produce in the laboratory, and I may have found something useful. Have you ever heard of fenethylline? It was originally developed to treat ADHD and narcolepsy, but its stimulant properties eventually made it rather... problematic. Which, in our case, might actually be an advantage.\n\nProperly formulated, it could help you recover your stamina much faster when you need it most. Improve the laboratory a little further, and I'll show you how to make it.",
+  "debriefing": "Perfect! That should be enough to work with. I've put together a formulation for fenethylline that you should be able to produce yourself now.\n\nIt should significantly improve your stamina recovery for a few minutes, but there is a price. It'll dehydrate you faster, and the intoxicating effects aren't exactly subtle. So perhaps don't take it when you're already seeing double.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Analysis & Precision",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Analysis",
+      "required_value": 1
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Craft_Med_Stim_Fenethylline",
+     "name": "Fenethylline"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_11",
+  "name": "New Batch: Methylphenidate",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_01"
+  ],
+  "briefing": "Upgrade the laboratory and help Lab Rat develop a new stimulant.",
+  "accept_message": "I think I found a stimulant that might be useful to you. Methylphenidate. You've probably heard of it, but I think we can put it to somewhat more practical use. It should help you maintain physical performance for longer, especially when you're under pressure. You should tire more slowly and handle stressful situations much better.\n\nI think we're close to being able to produce it ourselves. Get the laboratory up to speed, and I'll work out the rest.",
+  "debriefing": "There, that should do it! I've added the methylphenidate formula to our records. You should be able to produce it in the laboratory now, provided you can source the necessary ingredients.\n\nA word of caution, though. It's not exactly gentle on the body. Take too much and it'll mess with your head, and your liver will be doing more work than it signed up for, so try not to treat it like candy. I'm all for field testing, but preferably with at least a little scientific restraint.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Storage Capacity",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Storage",
+      "required_value": 1
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Craft_Med_Stim_Ritalin",
+     "name": "Methylphenidate"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_12",
+  "name": "New Batch: ORI-12",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_01"
+  ],
+  "briefing": "Upgrade the laboratory and help Lab Rat develop a new stimulant.",
+  "accept_message": "I've been studying a rather interesting compound called ORI-12. It's designed to accelerate bone regeneration by essentially convincing the body that it needs to repair itself much faster than it normally would. If we can produce it here, damaged bones could begin healing in minutes rather than weeks. Of course, forcing the human body to do something that quickly is bound to have consequences, but that's what makes this so fascinating!\n\nThe laboratory isn't quite ready for it yet. Improve our setup, and I should be able to work out a viable formulation.",
+  "debriefing": "Here we go! I've finished the ORI-12 formula, and you should be able to produce it now. Just don't expect accelerated bone growth to be pleasant. Forcing that much regeneration into a few minutes is going to hurt. A lot. You may feel pretty sick while it's happening too, so be careful.\n\nStill, repairing that much bone damage in a matter of minutes is remarkable. I'd love to see what's happening at the cellular level while it works. Preferably without having to break any of your bones myself. Ha ha!",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Extraction & Reaction",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Extraction",
+      "required_value": 4
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Craft_Med_Stim_BoneHealingSubstance",
+     "name": "ORI-12"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_13",
+  "name": "New Batch: EPO",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_01"
+  ],
+  "briefing": "Upgrade the laboratory and help Lab Rat develop a new stimulant.",
+  "accept_message": "I have an idea for something that could help with blood loss. Erythropoietin, or EPO. Your body produces it naturally to stimulate red blood cell production, but with the right formulation, we might be able to push that process considerably harder. It won't replace the blood you've lost instantly, of course, but it could help your body recover much faster after a serious injury. Considering how often you come back full of holes, I'd say that's worth exploring.\n\nGet the laboratory ready for it, and I'll see what I can come up with.",
+  "debriefing": "Good news! I've worked out the EPO formula, so you can start producing it whenever you have the necessary ingredients. There are a few catches, naturally. Pushing red blood cell production that hard puts quite a strain on the body. You'll burn through fluids faster, and your liver won't exactly thank you for it. You might feel a little light-headed, too.\n\nStill, I'd say that's preferable to bleeding out. Although I suppose that's a rather low bar.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Heat Control",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "HeatControl",
+      "required_value": 2
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Craft_Med_Stim_Epo",
+     "name": "EPO"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_14",
+  "name": "New Batch: HpR 3-S",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_04"
+  ],
+  "briefing": "Upgrade the laboratory and help Lab Rat develop a new stimulant.",
+  "accept_message": "You know, when we first started producing these compounds, I wasn't entirely sure how far we could take it. But with what the laboratory can do now, I think we're ready for something much more ambitious.\n\nThere's a substance called HpR 3-S that's designed to regenerate damaged tissue inside vital organs. Not just stabilize the injury or help the body recover naturally, but actually replace damaged tissue with new, functional cells. Imagine what that could do for someone with a serious internal injury!\n\nI'd really like to try producing it ourselves. Improve the laboratory, and I think we can pull it off.",
+  "debriefing": "There we are! I've worked out how to produce HpR 3-S, so the formula is all yours.\n\nI should warn you, though, rapid tissue regeneration isn't going to feel particularly pleasant. In fact, I expect it'll hurt like hell while your organs are repairing themselves. You may feel pretty disoriented too, but considering the benefits, I'd say that's a reasonable trade-off.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Analysis & Precision",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Analysis",
+      "required_value": 6
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Craft_Med_Stim_OrganHealingSubstance",
+     "name": "HpR 3-S"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_15",
+  "name": "New Batch: DT-0X",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_04"
+  ],
+  "briefing": "Upgrade the laboratory and help Lab Rat develop a new stimulant.",
+  "accept_message": "I just realized there's something rather obvious we've been overlooking. Most of the compounds we've developed have one rather inconvenient thing in common. They can leave you feeling pretty awful afterward.\n\nFortunately, I think I have a solution. DT-0X. It's a fast-acting detoxification compound designed to clear harmful substances from the bloodstream. If we can produce it ourselves, you could use it to counteract intoxication before it becomes a serious problem.\n\nWe'll need to improve the laboratory before I can work out the process, but I think this one could prove extremely useful.",
+  "debriefing": "And there we have it! DT-0X is ready. I've added the formula to our records, so you should be able to produce it now.\n\nClearing that much from your bloodstream so quickly is going to put some strain on your body. You'll need to replace fluids afterward, and your liver is going to be doing a lot of the heavy lifting, so don't overdo it.\n\nStill, it's nice to finally have something that cleans up after all our other experiments, isn't it?",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Extraction & Reaction",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Extraction",
+      "required_value": 9
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Craft_Med_Stim_DetoxSubstance",
+     "name": "DT-0X"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_16",
+  "name": "New Batch: Morphine",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_06"
+  ],
+  "briefing": "Upgrade the laboratory and help Lab Rat develop a new stimulant.",
+  "accept_message": "We've developed some rather remarkable compounds together, haven't we? And yet there's something much simpler that could be just as useful in the field. Morphine.\n\nThere's nothing particularly exotic about it, but there's a reason it's been used for severe pain for so long. With the right formulation, we could make something potent enough to keep you functioning even with a serious fracture. It won't fix the injury, of course, but it should make it considerably easier to ignore for a while. \n\nMake the necessary improvements to the laboratory, and I'll take care of the formula.",
+  "debriefing": "Amazing work! I've finalized the morphine formula, so you can produce it in the laboratory now.\n\nIt should be extremely effective at keeping pain under control, but don't mistake that for being healed. The injury will still be there, even if you can't feel it. And between the intoxication and the strain on your liver, I wouldn't make a habit of relying on it too often.\n\nJust remember, not feeling a broken leg doesn't make it any less broken. Try not to prove that the hard way.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Storage Capacity",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Storage",
+      "required_value": 6
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Craft_Med_Stim_Morphine",
+     "name": "Morphine"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_LabRat_Quest_17",
+  "name": "New Batch: Strychnine",
+  "vendor": "LabRat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_LabRat_Quest_06"
+  ],
+  "briefing": "Upgrade the laboratory and help Lab Rat develop a new stimulant.",
+  "accept_message": "All right, this one is going to sound a little crazy. Strychnine. Yes, the poison.\n\nIn very small doses, it has a rather interesting effect on the nervous system. It was even used as a stimulant and performance enhancer in the past. With a carefully controlled dose, we might be able to push your physical endurance far beyond its normal limits for a short time. Emphasis on carefully controlled. Get the laboratory ready, and I'll work out a formulation that hopefully won't kill you.",
+  "debriefing": "Done! I've worked out a strychnine formula that should give you the effect we're after without killing you. Probably.\n\nWhile it's active, you should be able to push yourself remarkably hard without tiring. Once it wears off, though, expect your body to make its displeasure very clear. Your arms may feel completely drained for a while, and there'll be some pain to go with it. Your heart won't exactly be having a wonderful time either.\n\nSo use it sparingly. I'd prefer our research into strychnine not to end with an autopsy.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "WorldRegion.Hideout",
+   "Quests.Type.Hideout.Progression"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Upgrade the laboratory capabilities to the required levels",
+    "kind": "group",
+    "sub_objectives": [
+     {
+      "id": 2,
+      "description": "Analysis & Precision",
+      "kind": "hideout_capability",
+      "room": "ChemLab",
+      "capability": "Analysis",
+      "required_value": 8
+     }
+    ]
+   }
+  ],
+  "rewards": {
+   "recipes": [
+    {
+     "id": "DA_Recipe_Craft_Med_Stim_Strychnine",
+     "name": "Strychnine"
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Smuggling_MilElectronics_Easy",
+  "name": "Special Delivery",
+  "vendor": "Turncoat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_Turncoat_Quest_01"
+  ],
+  "briefing": "Turncoat has valuable merchandise that needs to be moved discreetly. Provide the required items, then take off your backpack, equip the shipment backpack, and deliver it to the marked location, all within the time limit. Be prepared to leave your own backpack behind, as the shipment must be carried on your back!",
+  "accept_message": "Friend, it seems our investment is already bearing fruit. Some of my new associates have expressed an interest in certain commodities that have become rather easy to acquire here. You would be surprised what certain people are willing to pay for them.\n\nOr perhaps you wouldn’t.\n\nBring me the items I require, and I will arrange the rest. A backpack will be waiting for you at the location I provide. Collect it and deliver it to its destination before our window closes. The clock is ticking, so I would advise you not to waste time wondering who is buying. Governments, revolutionaries, men with… ambitious plans. Money spends the same regardless of whose hands it comes from.\n\nOf course, valuable cargo attracts unwanted attention. Should anyone attempt to relieve you of it, I trust you will discourage them. The contents must reach their destination. What happens afterward is none of our concern.",
+  "debriefing": "Excellent work, friend. The cargo has reached its destination, and our client is satisfied. What they intend to do with their new acquisition is, of course, their business.\n\nThere is something rather beautiful about commerce, don’t you think? No politics or principles, no tedious questions of right and wrong. Simply something one man desires and another is willing to provide.\n\nAnd today, friend, you were the one who provided it.",
+  "tags": [
+   "Quests.For.Player",
+   "Quests.Level.1",
+   "Quests.Type.Hideout.Smuggling",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 36,
+    "description": "Time remaining",
+    "kind": "time_limit",
+    "enabled": false,
+    "duration_seconds": 3600,
+    "on_expiry": "ExpirationIsFail"
+   },
+   {
+    "id": 19,
+    "description": "Provide Turncoat with the requested items",
+    "kind": "smuggling_pickup",
+    "cargo_item": {
+     "id": null,
+     "name": null
+    },
+    "possible_items": [
+     {
+      "id": "IS_Misc_AiTargettingModule",
+      "name": "AI Targeting Module",
+      "min": 1,
+      "max": 1
+     },
+     {
+      "id": "IS_Misc_PressurizedSarinCanister",
+      "name": "Sarin Canister",
+      "min": 1,
+      "max": 1
+     },
+     {
+      "id": "IS_Misc_RocketNavigationCircuit",
+      "name": "Missile Guidance Circuit",
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "interaction": null
+   },
+   {
+    "id": 37,
+    "description": "Equip the backpack containing the shipment",
+    "kind": "equip_cargo",
+    "cargo_item": {
+     "id": "IS_Backpack_SmallMilitarySmugglingBag",
+     "name": "Military Contraband Backpack"
+    },
+    "interaction": "Shipment Pickup Point"
+   },
+   {
+    "id": 34,
+    "description": "Deliver the backpack to the designated location",
+    "kind": "smuggling_delivery",
+    "interaction": "Drop Off Shipment"
+   }
+  ],
+  "rewards": {
+   "items": [
+    {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars",
+     "count": 55000
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Smuggling_MilElectronics_Hard",
+  "name": "Special Delivery: High Risk",
+  "vendor": "Turncoat",
+  "required_vendor_level": 4,
+  "requires_quests": [
+   "DA_Quest_Hideout_Turncoat_Quest_02"
+  ],
+  "briefing": "Turncoat has valuable merchandise that needs to be moved over a considerable distance. Provide the required items, then take off your backpack, equip the shipment backpack, and deliver it to the marked location, all within the time limit. Be prepared to leave your own backpack behind, as the shipment must be carried on your back!",
+  "accept_message": "Friend, it pleases me to admit that our previous arrangements proved rather fruitful. I believe you are ready for something a little more consequential.\n\nSome commodities command a premium not merely because they are rare, but because of what they allow the right people to accomplish. A piece of information, a miniscule component, a few kilograms of the right material... such insignificant things on their own. Put them in capable hands, however, and entire governments may suddenly find themselves having a very bad day. Thankfully, I have buyers for precisely such things.\n\nThe journey will be longer this time, and our window is already closing. Just like before, I am sure you will see that what you're carrying reaches the right hands intact. And remember, friend, the less you know about what comes next, the better.",
+  "debriefing": "Very good, friend. Everything arrived safely, and precisely when it was expected. I knew entrusting you with such sensitive merchandise would not be a mistake. I have to say, there are very few people I would trust with a shipment of this nature. Competence is common enough. Reliability, however, is a much rarer commodity. You have proven to possess both.\n\nLet us hope the recipients prove equally adept at putting their new acquisition to use.",
+  "tags": [
+   "Quests.For.Player",
+   "Quests.Level.3",
+   "Quests.Type.Hideout.Smuggling",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 36,
+    "description": "Time remaining",
+    "kind": "time_limit",
+    "enabled": false,
+    "duration_seconds": 3600,
+    "on_expiry": "ExpirationIsFail"
+   },
+   {
+    "id": 19,
+    "description": "Provide Turncoat with the requested items",
+    "kind": "smuggling_pickup",
+    "cargo_item": {
+     "id": null,
+     "name": null
+    },
+    "possible_items": [
+     {
+      "id": "IS_Misc_NerveGasCanister",
+      "name": "Nerve Gas Canister",
+      "min": 1,
+      "max": 1
+     },
+     {
+      "id": "IS_Misc_PlutoniumCanister",
+      "name": "Plutonium Canister",
+      "min": 1,
+      "max": 1
+     },
+     {
+      "id": "IS_Misc_BiohazardMaterialContainer",
+      "name": "Biohazard Canister",
+      "min": 1,
+      "max": 1
+     }
+    ],
+    "interaction": null
+   },
+   {
+    "id": 37,
+    "description": "Equip the backpack containing the shipment",
+    "kind": "equip_cargo",
+    "cargo_item": {
+     "id": "IS_Backpack_MilitarySmugglingBag",
+     "name": "Military Contraband Backpack"
+    },
+    "interaction": "Shipment Pickup Point"
+   },
+   {
+    "id": 34,
+    "description": "Deliver the backpack to the designated location",
+    "kind": "smuggling_delivery",
+    "interaction": "Drop Off Shipment"
+   }
+  ],
+  "rewards": {
+   "items": [
+    {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars",
+     "count": 90000
+    }
+   ]
+  }
+ },
+ {
+  "id": "DA_Quest_Hideout_Turncoat_Quest_01",
+  "name": "Price of Admission",
+  "vendor": "Turncoat",
+  "required_vendor_level": 2,
+  "requires_quests": [
+   "DA_Quest_Hideout_Artisan_Quest_03"
+  ],
+  "briefing": "Help Turncoat establish black-market connections for selling valuable military material recovered on Lamang.",
+  "accept_message": "Friend, I have been considering a new opportunity for us. There is a great deal of valuable military material scattered across Lamang, and leaving it here to gather dust seems terribly wasteful.\n\nIn the right circles, such things can command rather impressive prices. I know how to reach those circles, but establishing the necessary connections will require a substantial investment. People in this business tend to be rather particular about whom they deal with.\n\nProvide me with the funds I need, and I will take care of the rest. Once everything is in place, I believe you will find there are people beyond Lamang with a considerable appetite for what this island has to offer.",
+  "debriefing": "Excellent, friend. That should be more than sufficient. Leave the rest to me.\n\nI have already begun making the necessary arrangements. Soon, we will have access to a rather exclusive market, one where discretion is valued almost as highly as the merchandise itself. I suggest you keep an eye out for anything interesting. Our new associates will be quite eager to do business with us forthwith.",
+  "tags": [
+   "Quests.Level.2",
+   "Quests.For.Player",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Provide Turncoat with the funds needed to establish black-market connections",
+    "kind": "hand_over_money",
+    "item": {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars"
+    },
+    "amount": 500000
+   }
+  ],
+  "rewards": {}
+ },
+ {
+  "id": "DA_Quest_Hideout_Turncoat_Quest_02",
+  "name": "Higher Circles",
+  "vendor": "Turncoat",
+  "required_vendor_level": 4,
+  "requires_quests": [
+   "DA_Quest_Hideout_Artisan_Quest_08",
+   "DA_Quest_Hideout_Turncoat_Quest_01"
+  ],
+  "briefing": "Help Turncoat expand his black-market connections for selling valuable military material recovered on Lamang.",
+  "accept_message": "Friend, our little venture has performed even better than I anticipated. It seems we have earned ourselves something rather valuable in this business. Reputation. And reputation has a way of opening doors. There are certain circles that would not have entertained us before, but I believe they may be considerably more receptive now. Of course, gaining their confidence will require another investment. A substantial one.\n\nProvide me with the necessary funds, and I will see just how far our reputation can take us. If all goes well, we may soon find ourselves doing business on an entirely different level.",
+  "debriefing": "Fantastic, friend! I believe this will do nicely.\n\nI have already made a few inquiries, and our growing reputation appears to have preceded us. Doors that were firmly closed before are beginning to open, and I intend to make full use of the opportunity. Give me a little time to make the necessary arrangements. I suspect our new clientele will have rather... interesting requirements.",
+  "tags": [
+   "Quests.For.Player",
+   "Quests.Level.4",
+   "Quests.Type.Hideout.Progression",
+   "WorldRegion.Hideout"
+  ],
+  "replayable": false,
+  "reset_policy": "Never",
+  "objectives": [
+   {
+    "id": 1,
+    "description": "Provide Turncoat with the funds needed to expand his black-market connections",
+    "kind": "hand_over_money",
+    "item": {
+     "id": "IS_Misc_Dollars",
+     "name": "US Dollars"
+    },
+    "amount": 1000000
+   }
+  ],
+  "rewards": {}
+ }
+]
