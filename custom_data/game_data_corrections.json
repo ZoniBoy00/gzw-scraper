@@ -1006,6 +1006,14 @@
   },
   {
    "dataset": "auxiliary",
+   "id": "colt-1911-hammer",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.05 kg",
+   "gameItem": "IS_Auxiliary_Colt1911Hammer"
+  },
+  {
+   "dataset": "auxiliary",
    "id": "sks-receiver-cover-retaining-pin",
    "field": "buy_price",
    "from": "$29",
@@ -1027,6 +1035,46 @@
    "from": "Artisan R.4",
    "to": "Turncoat R.3",
    "gameItem": "IS_Auxiliary_SvdRearSightRing"
+  },
+  {
+   "dataset": "backpacks",
+   "id": "amp12",
+   "field": "weight",
+   "from": "2.630kg",
+   "to": "1.32 kg",
+   "gameItem": "IS_Backpack_Amp12"
+  },
+  {
+   "dataset": "backpacks",
+   "id": "assault-backpack",
+   "field": "grid_size",
+   "from": "3x4",
+   "to": "3x3",
+   "gameItem": "IS_Backpack_AssaultBackpack"
+  },
+  {
+   "dataset": "backpacks",
+   "id": "falang-28",
+   "field": "grid_size",
+   "from": "3x4",
+   "to": "4x5",
+   "gameItem": "IS_Backpack_Lamer28"
+  },
+  {
+   "dataset": "backpacks",
+   "id": "rush-72-2.0",
+   "field": "grid_size",
+   "from": "5x5",
+   "to": "5x6",
+   "gameItem": "IS_Backpack_Rush7220"
+  },
+  {
+   "dataset": "barrels",
+   "id": "ar-15-barrel---14.5\"",
+   "field": "weight",
+   "from": ".725 kg",
+   "to": "0.725 kg",
+   "gameItem": "IS_Barrel_Ar15145inch_556x45"
   },
   {
    "dataset": "barrels",
@@ -1051,6 +1099,14 @@
    "from": "$204",
    "to": "$425",
    "gameItem": "IS_Barrel_Glock17ZaffiriPrecision_9x19"
+  },
+  {
+   "dataset": "barrels",
+   "id": "glock-17-match-grade-threaded-barrel-gold",
+   "field": "weight",
+   "from": "???? kg",
+   "to": "0.12 kg",
+   "gameItem": "IS_Barrel_Glock17ZaffiriPrecisionGoldThreaded_9x19"
   },
   {
    "dataset": "barrels",
@@ -1126,6 +1182,14 @@
   },
   {
    "dataset": "barrels",
+   "id": "mosin-nagant-barrel---730mm",
+   "field": "weight",
+   "from": "???? kg",
+   "to": "1.45 kg",
+   "gameItem": "IS_Barrel_Mosin730mm_762x54"
+  },
+  {
+   "dataset": "barrels",
    "id": "optimized-glock-17-match-grade-threaded-barrel",
    "field": "buy_price",
    "from": "$339",
@@ -1166,11 +1230,59 @@
   },
   {
    "dataset": "belts",
+   "id": "light-anatomical-belt-type-2-olive",
+   "field": "weight",
+   "from": "1.310kg",
+   "to": "0.95 kg",
+   "gameItem": "IS_Belt_LightAnatomicalBeltType2_Olive"
+  },
+  {
+   "dataset": "belts",
    "id": "mc50-laser-edition",
    "field": "sold_by",
    "from": "Handshake R.1",
    "to": "Handshake R.3",
    "gameItem": "IS_Belt_CustomGearMc50LaserEdition"
+  },
+  {
+   "dataset": "belts",
+   "id": "mc50-laser-edition",
+   "field": "weight",
+   "from": "2.531kg",
+   "to": "0.65 kg",
+   "gameItem": "IS_Belt_CustomGearMc50LaserEdition"
+  },
+  {
+   "dataset": "binoculars",
+   "id": "m1050-lrf-rangefinder",
+   "field": "grid_size",
+   "from": "???",
+   "to": "2x1",
+   "gameItem": "IS_Rangefinder_M1050Lrf"
+  },
+  {
+   "dataset": "building_material",
+   "id": "analog-indicator",
+   "field": "weight",
+   "from": "0.500kg",
+   "to": "0.25 kg",
+   "gameItem": "IS_Misc_AnalogIndicator"
+  },
+  {
+   "dataset": "building_material",
+   "id": "glass",
+   "field": "grid_size",
+   "from": "2x2",
+   "to": "3x3",
+   "gameItem": "IS_Misc_Glass"
+  },
+  {
+   "dataset": "building_material",
+   "id": "motherboard",
+   "field": "grid_size",
+   "from": "0.800",
+   "to": "2x2",
+   "gameItem": "IS_Misc_MotherBoard"
   },
   {
    "dataset": "charging_handle",
@@ -1187,6 +1299,14 @@
    "from": "$162",
    "to": "$212",
    "gameItem": "IS_Handle_SigMcx"
+  },
+  {
+   "dataset": "charging_handle",
+   "id": "vz.-61-charging-knobs",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.012 kg",
+   "gameItem": "IS_Handle_vz61ChargingKnob"
   },
   {
    "dataset": "collimators",
@@ -1218,6 +1338,14 @@
    "field": "buy_price",
    "from": "$1,043",
    "to": "$1,360",
+   "gameItem": "IS_Sight_EotechHwsXps3"
+  },
+  {
+   "dataset": "collimators",
+   "id": "hws-exps3-holographic-sight-circle-1-dot",
+   "field": "weight",
+   "from": ".318 kg",
+   "to": "0.318 kg",
    "gameItem": "IS_Sight_EotechHwsXps3"
   },
   {
@@ -1286,11 +1414,115 @@
   },
   {
    "dataset": "containers",
+   "id": "mm24-case",
+   "field": "grid_size",
+   "from": "9x7",
+   "to": "7x5",
+   "gameItem": "IS_Case_MM24Case"
+  },
+  {
+   "dataset": "containers",
+   "id": "quick-release-first-aid-kit",
+   "field": "weight",
+   "from": "0.550kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_Med_Kit_QuickReleaseFirstAidKit"
+  },
+  {
+   "dataset": "containers",
    "id": "small-safe",
    "field": "sold_by",
    "from": "Vulture R.3",
    "to": "Collector R.3",
    "gameItem": "IS_Case_SmallTresor"
+  },
+  {
+   "dataset": "crafting_material",
+   "id": "digital-synthesis-engine",
+   "field": "weight",
+   "from": "0.010kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_Misc_DigitalSynthesisEngine"
+  },
+  {
+   "dataset": "crafting_material",
+   "id": "multi-bus-converter",
+   "field": "weight",
+   "from": "0.252kg",
+   "to": "0.25 kg",
+   "gameItem": "IS_Misc_MultibusConverter"
+  },
+  {
+   "dataset": "drinks",
+   "id": "nuklear-energy:-meltdown-mango",
+   "field": "weight",
+   "from": "0.340kg",
+   "to": "0.55 kg",
+   "gameItem": "IS_Prov_Drink_Gatorade"
+  },
+  {
+   "dataset": "drinks",
+   "id": "white-orchid-crystal-water-2-l",
+   "field": "weight",
+   "from": "2.000kg",
+   "to": "2.04 kg",
+   "gameItem": "IS_Prov_Drink_LocalWater2L"
+  },
+  {
+   "dataset": "electronics",
+   "id": "black-luxury-phone",
+   "field": "weight",
+   "from": "0.100kg",
+   "to": "0.22 kg",
+   "gameItem": "IS_Misc_CustomLuxuryPhone"
+  },
+  {
+   "dataset": "electronics",
+   "id": "expensive-smartphone",
+   "field": "weight",
+   "from": "0.100kg",
+   "to": "0.25 kg",
+   "gameItem": "IS_Misc_ExpensiveSmartphone"
+  },
+  {
+   "dataset": "electronics",
+   "id": "missile-guidance-circuit",
+   "field": "weight",
+   "from": "0.010kg",
+   "to": "2 kg",
+   "gameItem": "IS_Misc_RocketNavigationCircuit"
+  },
+  {
+   "dataset": "electronics",
+   "id": "smartphone",
+   "field": "weight",
+   "from": "0.100kg",
+   "to": "0.22 kg",
+   "gameItem": "IS_Misc_Smartphone"
+  },
+  {
+   "dataset": "evidence",
+   "id": "digital-camera",
+   "field": "weight",
+   "from": "0.250kg",
+   "to": "0.35 kg",
+   "gameItem": "IS_Misc_SimpleCameraIntel"
+  },
+  {
+   "dataset": "evidence",
+   "id": "local-id-card",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.05 kg",
+   "gameItem": "IS_Misc_IDCardLocal"
+  },
+  {
+   "dataset": "evidence",
+   "id": "reflex-camera",
+   "field": "weight",
+   "from": "0.400kg",
+   "to": "0.95 kg",
+   "gameItem": "IS_Misc_CameraIntel"
   },
   {
    "dataset": "face_cover",
@@ -1309,6 +1541,14 @@
    "gameItem": "IS_Prov_Food_MRE"
   },
   {
+   "dataset": "food",
+   "id": "lychee-in-syrup",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "1x2",
+   "gameItem": "IS_Prov_Food_LycheeInSyrup"
+  },
+  {
    "dataset": "foregrips",
    "id": "afg-2",
    "field": "buy_price",
@@ -1318,11 +1558,51 @@
   },
   {
    "dataset": "foregrips",
+   "id": "dd-vertical-foregrip",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.068 kg",
+   "gameItem": "IS_Foregrip_DanielDefenceVertical"
+  },
+  {
+   "dataset": "foregrips",
+   "id": "dd-vertical-foregrip-milspec",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.068 kg",
+   "gameItem": "IS_Foregrip_DanielDefenceVerticalMilSpec"
+  },
+  {
+   "dataset": "foregrips",
+   "id": "m-lok-afg-fde",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.034 kg",
+   "gameItem": "IS_Foregrip_MagpulMLokAfgFDE"
+  },
+  {
+   "dataset": "foregrips",
    "id": "rk-1",
    "field": "buy_price",
    "from": "$70",
    "to": "$289",
    "gameItem": "IS_Foregrip_ZenitcoRk1"
+  },
+  {
+   "dataset": "foregrips",
+   "id": "rk-2",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.18 kg",
+   "gameItem": "IS_Foregrip_ZenitcoRk2"
+  },
+  {
+   "dataset": "foregrips",
+   "id": "rk-4",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.127 kg",
+   "gameItem": "IS_Foregrip_ZenitcoRk4"
   },
   {
    "dataset": "foregrips",
@@ -1366,6 +1646,14 @@
   },
   {
    "dataset": "foregrips",
+   "id": "ultra-slim-m-lok-mt-fgm01x-foregrip",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.04 kg",
+   "gameItem": "IS_Foregrip_UtgUltraSlimMLokMtFgm01X"
+  },
+  {
+   "dataset": "foregrips",
    "id": "ultraslim-angled-foregrip",
    "field": "sold_by",
    "from": "Gunny R.2",
@@ -1374,11 +1662,35 @@
   },
   {
    "dataset": "front_iron_sights",
+   "id": "colt-1911-front-sight",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.015 kg",
+   "gameItem": "IS_Sight_Colt1911FrontSight"
+  },
+  {
+   "dataset": "front_iron_sights",
+   "id": "colt-1911-tritium-front-sight",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.045 kg",
+   "gameItem": "IS_Sight_1911TrijconTritiumFrontSight"
+  },
+  {
+   "dataset": "front_iron_sights",
    "id": "glock-17-oem-front-tritium-sight",
    "field": "buy_price",
    "from": "$48",
    "to": "$110",
    "gameItem": "IS_Sight_Glock17OemTritiumFrontSight"
+  },
+  {
+   "dataset": "front_iron_sights",
+   "id": "m590-front-ghost-ring-sight",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.06 kg",
+   "gameItem": "IS_Sight_MossbergGhostringFrontSight"
   },
   {
    "dataset": "front_iron_sights",
@@ -1411,6 +1723,30 @@
    "from": "Artisan R.4",
    "to": "Turncoat R.3",
    "gameItem": "IS_Sight_SvdFrontSight"
+  },
+  {
+   "dataset": "front_iron_sights",
+   "id": "tt-33-front-iron-sight",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.015 kg",
+   "gameItem": "IS_Sight_Type33SlideFrontSight"
+  },
+  {
+   "dataset": "front_iron_sights",
+   "id": "type-51-front-iron-sight",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.015 kg",
+   "gameItem": "IS_Sight_Type51SlideFrontSight"
+  },
+  {
+   "dataset": "funds",
+   "id": "black-credit-card",
+   "field": "weight",
+   "from": "0.010kg",
+   "to": "0.005 kg",
+   "gameItem": "IS_Misc_BlackCreditCard"
   },
   {
    "dataset": "gas_blocks",
@@ -1462,11 +1798,99 @@
   },
   {
    "dataset": "gear",
+   "id": "amp12",
+   "field": "weight",
+   "from": "2.630kg",
+   "to": "1.32 kg",
+   "gameItem": "IS_Backpack_Amp12"
+  },
+  {
+   "dataset": "gear",
+   "id": "assault-backpack",
+   "field": "grid_size",
+   "from": "3x4",
+   "to": "3x3",
+   "gameItem": "IS_Backpack_AssaultBackpack"
+  },
+  {
+   "dataset": "gear",
+   "id": "falang-28",
+   "field": "grid_size",
+   "from": "3x4",
+   "to": "4x5",
+   "gameItem": "IS_Backpack_Lamer28"
+  },
+  {
+   "dataset": "gear",
    "id": "half-mask-black",
    "field": "sold_by",
    "from": "Banshee R.3",
    "to": "Handshake R.4",
    "gameItem": "IS_Mask_HalfMask_Black"
+  },
+  {
+   "dataset": "gear",
+   "id": "rush-72-2.0",
+   "field": "grid_size",
+   "from": "5x5",
+   "to": "5x6",
+   "gameItem": "IS_Backpack_Rush7220"
+  },
+  {
+   "dataset": "glasses",
+   "id": "aviator-black",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x1",
+   "gameItem": "IS_Glasses_Aviator_Black"
+  },
+  {
+   "dataset": "glasses",
+   "id": "aviator-green",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x1",
+   "gameItem": "IS_Glasses_Aviator_Green"
+  },
+  {
+   "dataset": "glasses",
+   "id": "ballistic-m-frame-3.0-clear",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x1",
+   "gameItem": "IS_Glasses_OakleyBallisticMFrame30_Clear"
+  },
+  {
+   "dataset": "glasses",
+   "id": "ballistic-m-frame-3.0-tinted",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x1",
+   "gameItem": "IS_Glasses_OakleyBallisticMFrame30_Tinted"
+  },
+  {
+   "dataset": "glasses",
+   "id": "desert-locust-clear",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x1",
+   "gameItem": "IS_Glasses_DesertLocust_Clear"
+  },
+  {
+   "dataset": "glasses",
+   "id": "desert-locust-tinted",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x1",
+   "gameItem": "IS_Glasses_DesertLocust_Tinted"
+  },
+  {
+   "dataset": "glasses",
+   "id": "gatorz-delta",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x1",
+   "gameItem": "IS_Glasses_GatorzDelta"
   },
   {
    "dataset": "glasses",
@@ -1475,6 +1899,38 @@
    "from": "Banshee R.3",
    "to": "Handshake R.4",
    "gameItem": "IS_Glasses_GatorzMagnum"
+  },
+  {
+   "dataset": "glasses",
+   "id": "round-sunglasses",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x1",
+   "gameItem": "IS_Glasses_Round_Sunglasses"
+  },
+  {
+   "dataset": "glasses",
+   "id": "wayfarer",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x1",
+   "gameItem": "IS_Glasses_Wayfarer"
+  },
+  {
+   "dataset": "glasses",
+   "id": "wx-valor",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x1",
+   "gameItem": "IS_Glasses_WileyXValor"
+  },
+  {
+   "dataset": "handguards",
+   "id": "ak-74-wooden-handguard",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.221 kg",
+   "gameItem": "IS_Handguard_Ak74Wooden"
   },
   {
    "dataset": "handguards",
@@ -1574,6 +2030,30 @@
   },
   {
    "dataset": "handguards",
+   "id": "benelli-m4-handguard",
+   "field": "weight",
+   "from": "0.022 kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_Handguard_BenelliM4"
+  },
+  {
+   "dataset": "handguards",
+   "id": "m590-forend",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.212 kg",
+   "gameItem": "IS_Handguard_MossbergForearm"
+  },
+  {
+   "dataset": "handguards",
+   "id": "m590-tri-rail-forend",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.223 kg",
+   "gameItem": "IS_Handguard_MossbergTriRail"
+  },
+  {
+   "dataset": "handguards",
    "id": "m700-mod*x-handguard",
    "field": "buy_price",
    "from": "$271",
@@ -1669,6 +2149,70 @@
    "gameItem": "IS_Handguard_F1FirearmsX7M13"
   },
   {
+   "dataset": "handguards",
+   "id": "x7m-13-handguard-gray",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.379 kg",
+   "gameItem": "IS_Handguard_F1FirearmsX7M13GRAY"
+  },
+  {
+   "dataset": "handguards",
+   "id": "x7m-15-handguard-gray",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.413 kg",
+   "gameItem": "IS_Handguard_F1FirearmsX7M15GRAY"
+  },
+  {
+   "dataset": "handguards",
+   "id": "x7m-7-handguard-gray",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.295 kg",
+   "gameItem": "IS_Handguard_F1FirearmsX7M7GRAY"
+  },
+  {
+   "dataset": "helmets",
+   "id": "6b47-ratnik",
+   "field": "weight",
+   "from": "1;200kg",
+   "to": "1.1 kg",
+   "gameItem": "IS_Helmet_6b47Ratnik"
+  },
+  {
+   "dataset": "helmets",
+   "id": "amp-1-tp-lc-unlra",
+   "field": "weight",
+   "from": "1.690kg",
+   "to": "1.4 kg",
+   "gameItem": "IS_Helmet_Amp1TpLc_UN"
+  },
+  {
+   "dataset": "helmets",
+   "id": "amp-1-tp-mc-ranger-green",
+   "field": "weight",
+   "from": "1.630kg",
+   "to": "1.25 kg",
+   "gameItem": "IS_Helmet_Amp1TpMc_RangerGreen"
+  },
+  {
+   "dataset": "helmets",
+   "id": "baseball-cap-khaki",
+   "field": "weight",
+   "from": "0.080kg",
+   "to": "0.11 kg",
+   "gameItem": "IS_Hat_BaseballCap_Green"
+  },
+  {
+   "dataset": "helmets",
+   "id": "cpu-hat-nyco-ripstop",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x2",
+   "gameItem": "IS_Hat_CpuHatNycoRipstop"
+  },
+  {
    "dataset": "helmets",
    "id": "exfil-coyote-brown",
    "field": "sold_by",
@@ -1694,6 +2238,14 @@
   },
   {
    "dataset": "helmets",
+   "id": "fast-mt-multicam",
+   "field": "weight",
+   "from": "0.693kg",
+   "to": "1.1 kg",
+   "gameItem": "IS_Helmet_FastMt_Multicam"
+  },
+  {
+   "dataset": "helmets",
    "id": "fast-mt-tan",
    "field": "sold_by",
    "from": "Handshake R.3",
@@ -1702,10 +2254,58 @@
   },
   {
    "dataset": "helmets",
+   "id": "fast-mt-tan",
+   "field": "weight",
+   "from": "0.693kg",
+   "to": "1.05 kg",
+   "gameItem": "IS_Helmet_FastMt_Tan"
+  },
+  {
+   "dataset": "helmets",
+   "id": "leafy-boonie-camo",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x2",
+   "gameItem": "IS_Hat_LeafyBoonie"
+  },
+  {
+   "dataset": "helmets",
+   "id": "lshz-1+-multicam",
+   "field": "weight",
+   "from": "1.100kg",
+   "to": "1.3 kg",
+   "gameItem": "IS_Helmet_Lshz1_Multicam"
+  },
+  {
+   "dataset": "helmets",
+   "id": "mich-tc-2000-unlra",
+   "field": "weight",
+   "from": "1.250kg",
+   "to": "1.5 kg",
+   "gameItem": "IS_Helmet_MichTc2000_UN"
+  },
+  {
+   "dataset": "helmets",
+   "id": "mich-tc-2002-green",
+   "field": "weight",
+   "from": "1.230kg",
+   "to": "1.5 kg",
+   "gameItem": "IS_Helmet_MichTc2002_Green"
+  },
+  {
+   "dataset": "helmets",
    "id": "mich-tc-2002-tan",
    "field": "sold_by",
    "from": "Handshake R.2",
    "to": "Handshake R.3",
+   "gameItem": "IS_Helmet_MichTc2002_Tan"
+  },
+  {
+   "dataset": "helmets",
+   "id": "mich-tc-2002-tan",
+   "field": "weight",
+   "from": "1.230kg",
+   "to": "1.5 kg",
    "gameItem": "IS_Helmet_MichTc2002_Tan"
   },
   {
@@ -1718,11 +2318,267 @@
   },
   {
    "dataset": "helmets",
+   "id": "pasgt",
+   "field": "weight",
+   "from": "1.430kg",
+   "to": "1.6 kg",
+   "gameItem": "IS_Helmet_Pastg"
+  },
+  {
+   "dataset": "helmets",
    "id": "regiment-cap",
    "field": "sold_by",
    "from": "Banshee R.4",
    "to": "Handshake R.1",
    "gameItem": "IS_Hat_CapRegiment"
+  },
+  {
+   "dataset": "household_item",
+   "id": "bleach",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "1x2",
+   "gameItem": "IS_Misc_Bleach"
+  },
+  {
+   "dataset": "jewellery",
+   "id": "emerald-necklace",
+   "field": "weight",
+   "from": "0.010kg",
+   "to": "0.05 kg",
+   "gameItem": "IS_Misc_EmeraldNecklace"
+  },
+  {
+   "dataset": "jewellery",
+   "id": "gold-necklace",
+   "field": "weight",
+   "from": "0.020kg",
+   "to": "0.05 kg",
+   "gameItem": "IS_Misc_GoldenNeckalce"
+  },
+  {
+   "dataset": "jewellery",
+   "id": "luxury-smartwatch",
+   "field": "weight",
+   "from": "0.050kg",
+   "to": "0.15 kg",
+   "gameItem": "IS_Misc_LuxurySmartwatch"
+  },
+  {
+   "dataset": "jewellery",
+   "id": "modern-watch",
+   "field": "weight",
+   "from": "0.050kg",
+   "to": "0.12 kg",
+   "gameItem": "IS_Misc_ModernWatch"
+  },
+  {
+   "dataset": "jewellery",
+   "id": "sleek-luxury-watch",
+   "field": "weight",
+   "from": "0.050kg",
+   "to": "0.13 kg",
+   "gameItem": "IS_Misc_SleekWatch"
+  },
+  {
+   "dataset": "lockboxes",
+   "id": "tas-secure-case",
+   "field": "weight",
+   "from": "2.440kg",
+   "to": "1.6 kg",
+   "gameItem": "IS_Pouch_RocstorRpcWaterproof"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "acumulator-drill",
+   "field": "weight",
+   "from": "???kg",
+   "to": "1.18 kg",
+   "gameItem": "IS_Misc_AcumulatorDrill"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "black-credit-card",
+   "field": "weight",
+   "from": "0.010kg",
+   "to": "0.005 kg",
+   "gameItem": "IS_Misc_BlackCreditCard"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "black-luxury-phone",
+   "field": "weight",
+   "from": "0.100kg",
+   "to": "0.22 kg",
+   "gameItem": "IS_Misc_CustomLuxuryPhone"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "bleach",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "1x2",
+   "gameItem": "IS_Misc_Bleach"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "c2-military-laptop",
+   "field": "weight",
+   "from": "5.000kg",
+   "to": "5.5 kg",
+   "gameItem": "IS_Misc_C2MilitaryNotebook"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "digital-camera",
+   "field": "weight",
+   "from": "0.250kg",
+   "to": "0.35 kg",
+   "gameItem": "IS_Misc_SimpleCameraIntel"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "expensive-smartphone",
+   "field": "weight",
+   "from": "0.100kg",
+   "to": "0.25 kg",
+   "gameItem": "IS_Misc_ExpensiveSmartphone"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "gold-necklace",
+   "field": "weight",
+   "from": "0.020kg",
+   "to": "0.05 kg",
+   "gameItem": "IS_Misc_GoldenNeckalce"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "gold-ring",
+   "field": "weight",
+   "from": "0.020kg",
+   "to": "0.01 kg",
+   "gameItem": "IS_Misc_GoldenRing"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "heavenly-perfume-bottle",
+   "field": "grid_size",
+   "from": "1x2",
+   "to": "1x1",
+   "gameItem": "IS_Misc_PerfumeBottleOutlandish"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "heavenly-perfume-bottle",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_Misc_PerfumeBottleOutlandish"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "luxury-smartphone",
+   "field": "weight",
+   "from": "0.100kg",
+   "to": "0.22 kg",
+   "gameItem": "IS_Misc_LuxurySmartphone"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "reflex-camera",
+   "field": "weight",
+   "from": "0.400kg",
+   "to": "0.95 kg",
+   "gameItem": "IS_Misc_CameraIntel"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "smartphone",
+   "field": "weight",
+   "from": "0.100kg",
+   "to": "0.22 kg",
+   "gameItem": "IS_Misc_Smartphone"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "toolset",
+   "field": "weight",
+   "from": "1.000kg",
+   "to": "1.6 kg",
+   "gameItem": "IS_Misc_Toolset"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "white-lithium-grease",
+   "field": "grid_size",
+   "from": "2x3",
+   "to": "2x2",
+   "gameItem": "IS_Misc_WhiteLithiumGrease"
+  },
+  {
+   "dataset": "loot_items",
+   "id": "white-lithium-grease",
+   "field": "weight",
+   "from": "15.880kg",
+   "to": "5.22 kg",
+   "gameItem": "IS_Misc_WhiteLithiumGrease"
+  },
+  {
+   "dataset": "magazines",
+   "id": "1911-.45acp-15-round-extended-magazine",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.086 kg",
+   "gameItem": "IS_MP_Colt1911ProMag_15Rnd_45Acp_Ap_L3"
+  },
+  {
+   "dataset": "magazines",
+   "id": "ak-5.45×39mm-30-round-black-magazine",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.22 kg",
+   "gameItem": "IS_MP_Mag_IzhmashBlackAk74_30Rnd_545x39_Bp7N22_L4"
+  },
+  {
+   "dataset": "magazines",
+   "id": "ak-7.62x39mm-30-round-pmag-magazine",
+   "field": "weight",
+   "from": "0.725 kg",
+   "to": "0.2 kg",
+   "gameItem": "IS_MP_Mag_PmagAkm_30Rnd_762x39_57N231Ps_L3"
+  },
+  {
+   "dataset": "magazines",
+   "id": "ak15-7.62x39mm-30-round-magazine",
+   "field": "weight",
+   "from": "0.670 kg",
+   "to": "0.181 kg",
+   "gameItem": "IS_MP_Mag_Ak15_30Rnd_762x39_57N231Ps_L3"
+  },
+  {
+   "dataset": "magazines",
+   "id": "colt-1911-.45acp-7-round-magazine",
+   "field": "weight",
+   "from": "0.215 kg",
+   "to": "0.068 kg",
+   "gameItem": "IS_MP_Colt1911_7Rnd_45Acp_Ap_L4"
+  },
+  {
+   "dataset": "magazines",
+   "id": "m590-12ga-10-round-magazine",
+   "field": "weight",
+   "from": "0.940 kg",
+   "to": "0.44 kg",
+   "gameItem": "IS_MP_Mag_MossbergNordicMagazineExt_10Rnd_12Gaug_SstSabotSlug_L3"
+  },
+  {
+   "dataset": "magazines",
+   "id": "m590-12ga-6-round-cap",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_Mag_MossbergMag_6Rnd_12Gaug"
   },
   {
    "dataset": "magazines",
@@ -1734,11 +2590,91 @@
   },
   {
    "dataset": "magazines",
+   "id": "m870-12ga-10-round-magazine",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_MP_Mag_M870_10Rnd_12Gaug_FC00Buckshot_L2"
+  },
+  {
+   "dataset": "magazines",
+   "id": "m9a1-9x19mm-30-round-magazine",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.091 kg",
+   "gameItem": "IS_Mag_BerettaM9A1_30Rnd_9x19"
+  },
+  {
+   "dataset": "magazines",
    "id": "mosin-nagant-7.62x54r-5-round-internal-magazine",
    "field": "sold_by",
    "from": "Artisan R.1",
    "to": "Artisan R.2",
    "gameItem": "IS_Mag_MosinInternalMagazine_5Rnd_762x54"
+  },
+  {
+   "dataset": "magazines",
+   "id": "pmag-5.56x45mm/.300-blk-20-round-magazine",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.113 kg",
+   "gameItem": "IS_MP_Mag_Pmag20ArM4_20Rnd_556x45_M855A1_L4"
+  },
+  {
+   "dataset": "magazines",
+   "id": "pmag-5.56x45mm/.300-blk-30-round-magazine-fde",
+   "field": "weight",
+   "from": "0.441 kg",
+   "to": "0.141 kg",
+   "gameItem": "IS_MP_Mag_Pmag30ArM4FDE_30Rnd_556x45_M855_L2"
+  },
+  {
+   "dataset": "magazines",
+   "id": "sks-7.62x39mm-35-round-archangel-magazine",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.362 kg",
+   "gameItem": "IS_MP_SksArchangel_35Rnd_762x39_57N231Ps"
+  },
+  {
+   "dataset": "magazines",
+   "id": "svd-dragunov-20-round-magazine",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.35 kg",
+   "gameItem": "IS_MP_Mag_SvdDragunov_20Rnd_762x54_7N1SniperRound_L3"
+  },
+  {
+   "dataset": "magazines",
+   "id": "type-51-7.62x25mm-8-round-magazine",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.09 kg",
+   "gameItem": "IS_MP_Mag_Type51_8Rnd_762x25_Fmj_L1"
+  },
+  {
+   "dataset": "magazines",
+   "id": "vz.-61-7.65-browning-10-round-magazine",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.08 kg",
+   "gameItem": "IS_MP_Mag_Vz61_10Rnd_765_Fmj_L1"
+  },
+  {
+   "dataset": "magazines",
+   "id": "vz.-61-7.65-browning-20-round-magazine",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_MP_Mag_Vz61_20Rnd_765_Jhp_L2"
+  },
+  {
+   "dataset": "medical",
+   "id": "activated-charcoal",
+   "field": "weight",
+   "from": "0.060kg",
+   "to": "0.15 kg",
+   "gameItem": "IS_Med_Pills_ActivatedCharcoal"
   },
   {
    "dataset": "medical",
@@ -1750,11 +2686,35 @@
   },
   {
    "dataset": "medical",
+   "id": "civilian-gauze",
+   "field": "weight",
+   "from": "0.020kg",
+   "to": "0.03 kg",
+   "gameItem": "IS_Med_Band_CivilianGauze"
+  },
+  {
+   "dataset": "medical",
+   "id": "fenethylline",
+   "field": "weight",
+   "from": "0.050kg",
+   "to": "0.15 kg",
+   "gameItem": "IS_Med_Stim_Fenethylline"
+  },
+  {
+   "dataset": "medical",
    "id": "flexible-splint",
    "field": "sold_by",
    "from": "Lab Rat R.2",
    "to": "Lab Rat R.3",
    "gameItem": "IS_Med_Splint_FlexibleSplint"
+  },
+  {
+   "dataset": "medical",
+   "id": "large-blood-bag",
+   "field": "weight",
+   "from": "1.000kg",
+   "to": "2.1 kg",
+   "gameItem": "IS_Med_IV_BloodBag_Large"
   },
   {
    "dataset": "medical",
@@ -1779,6 +2739,46 @@
    "from": "Lab Rat R.1",
    "to": "Lab Rat R.2",
    "gameItem": "IS_Med_Pills_PotassiumIodine"
+  },
+  {
+   "dataset": "medical",
+   "id": "retractable-tourniquet",
+   "field": "weight",
+   "from": "0.050kgkg",
+   "to": "0.08 kg",
+   "gameItem": "IS_Med_Tour_RetractableTourniquet"
+  },
+  {
+   "dataset": "medical",
+   "id": "small-blood-bag",
+   "field": "weight",
+   "from": "0.500kg",
+   "to": "0.6 kg",
+   "gameItem": "IS_Med_IV_BloodBag_Small"
+  },
+  {
+   "dataset": "military_equipment",
+   "id": "c2-military-laptop",
+   "field": "weight",
+   "from": "5.000kg",
+   "to": "5.5 kg",
+   "gameItem": "IS_Misc_C2MilitaryNotebook"
+  },
+  {
+   "dataset": "military_equipment",
+   "id": "handheld-ecm-jammer",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "1x2",
+   "gameItem": "IS_Misc_HandheldEcmSignalJammer"
+  },
+  {
+   "dataset": "military_equipment",
+   "id": "kik-11-tactical-key-loader",
+   "field": "grid_size",
+   "from": "2x1",
+   "to": "1x1",
+   "gameItem": "IS_Misc_Kik11TacticalKeyLoader"
   },
   {
    "dataset": "mortar_rounds",
@@ -1813,6 +2813,14 @@
    "gameItem": "IS_Mortar_Ammo_M933HEZone2"
   },
   {
+   "dataset": "mortar_rounds",
+   "id": "m933-120mm-he-cartridge-medium-range",
+   "field": "weight",
+   "from": "13.650kgkg",
+   "to": "13.65 kg",
+   "gameItem": "IS_Mortar_Ammo_M933HEZone2"
+  },
+  {
    "dataset": "mounts",
    "id": "1911-grip-scope-mount",
    "field": "sold_by",
@@ -1843,6 +2851,14 @@
    "from": "Artisan R.2",
    "to": "Turncoat R.2",
    "gameItem": "IS_Mount_OriginalBp02AkAkmSideMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "b-13-rail",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.175 kg",
+   "gameItem": "IS_Mount_ZenitcoB13Rail"
   },
   {
    "dataset": "mounts",
@@ -2030,6 +3046,30 @@
   },
   {
    "dataset": "mounts",
+   "id": "m-lok-rail---9-slot",
+   "field": "weight",
+   "from": "0.41 kg",
+   "to": "0.041 kg",
+   "gameItem": "IS_Mount_MLokRail9slot"
+  },
+  {
+   "dataset": "mounts",
+   "id": "m14/m1a-cluster-rail",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.382 kg",
+   "gameItem": "IS_Mount_VltorM14M1AClusterRail"
+  },
+  {
+   "dataset": "mounts",
+   "id": "m590-picatinny-scope-rail",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_Mount_MossbergPicatinnyScopeRail"
+  },
+  {
+   "dataset": "mounts",
    "id": "m700-mod*x-rail",
    "field": "buy_price",
    "from": "$72",
@@ -2054,11 +3094,27 @@
   },
   {
    "dataset": "mounts",
+   "id": "micro-standard-mount",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.045 kg",
+   "gameItem": "IS_Mount_AimpointMicroStandardMount"
+  },
+  {
+   "dataset": "mounts",
    "id": "mosin-nagant-tri-rail-scope-mount",
    "field": "buy_price",
    "from": "$37",
    "to": "$49",
    "gameItem": "IS_Mount_MosinNagantTriRailScopeMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "mt-mb590-optic-rail-mount",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.12 kg",
+   "gameItem": "IS_Mount_UtgMtMb590MossbergRail"
   },
   {
    "dataset": "mounts",
@@ -2099,6 +3155,14 @@
    "from": "$23",
    "to": "$30",
    "gameItem": "IS_Mount_KochetovringsforPu3522"
+  },
+  {
+   "dataset": "mounts",
+   "id": "sks-101-advanced-rail-system",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.22 kg",
+   "gameItem": "IS_Mount_SksKodiakDefenceRail"
   },
   {
    "dataset": "mounts",
@@ -2147,6 +3211,30 @@
    "from": "Gunny R.4",
    "to": "Gunny R.3",
    "gameItem": "IS_Mount_VortexLowMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "vortex-spitfire-cover-stripe",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.033 kg",
+   "gameItem": "IS_Mount_VortexSpitfire5x"
+  },
+  {
+   "dataset": "mounts",
+   "id": "z17-citadel-cover-stripe",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.035 kg",
+   "gameItem": "IS_Mount_Glock17ZevZ17CitadelStrippedSlide"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "3-lug-threaded-hk-mp5",
+   "field": "weight",
+   "from": "0.080 kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_Muzzle_Caa3LugthreadedHkMp5"
   },
   {
    "dataset": "muzzle_devices",
@@ -2198,6 +3286,22 @@
   },
   {
    "dataset": "muzzle_devices",
+   "id": "ak-bulgarian-flash-hider",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.157 kg",
+   "gameItem": "IS_Muzzle_AkArsenalFlashHiderBulgarian"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "akm-muzzle-brake",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_Muzzle_AkmMuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
    "id": "akm-slant-brake",
    "field": "buy_price",
    "from": "$13",
@@ -2230,6 +3334,22 @@
   },
   {
    "dataset": "muzzle_devices",
+   "id": "colt-1911-muzzle-brake",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.066 kg",
+   "gameItem": "IS_Muzzle_Colt1911MuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "dtk-1-muzzle-brake",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.128 kg",
+   "gameItem": "IS_Muzzle_ZenitcoDtk1MuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
    "id": "dtk-2-muzzle-brake",
    "field": "buy_price",
    "from": "$117",
@@ -2246,6 +3366,22 @@
   },
   {
    "dataset": "muzzle_devices",
+   "id": "fury-titanium-muzzle-brake",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.062 kg",
+   "gameItem": "IS_Muzzle_FuryMuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "glock-17-comp-weight-compensator",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.141 kg",
+   "gameItem": "IS_Muzzle_CompWeightCompensatorForGlock17"
+  },
+  {
+   "dataset": "muzzle_devices",
    "id": "glock-17-velocity-muzzle-brake",
    "field": "buy_price",
    "from": "$150",
@@ -2254,11 +3390,51 @@
   },
   {
    "dataset": "muzzle_devices",
+   "id": "hypertap-muzzle-brake-5.56x45",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.085 kg",
+   "gameItem": "IS_Muzzle_HypertrapMuzzleBrake556"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "hypertap-muzzle-brake-7.62x51",
+   "field": "weight",
+   "from": "0.850 kg",
+   "to": "0.085 kg",
+   "gameItem": "IS_Muzzle_HypertrapMuzzleBrake762"
+  },
+  {
+   "dataset": "muzzle_devices",
    "id": "m4qd-flash-hider",
    "field": "sold_by",
    "from": "Gunny R.2",
    "to": "Gunny R.3",
    "gameItem": "IS_Muzzle_KacM4QdFlashHider"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "m700-thread-cap",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.04 kg",
+   "gameItem": "IS_Muzzle_M700ThreadCap"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "mcx-3-prong-flash-hider",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.12 kg",
+   "gameItem": "IS_Muzzle_SigMCX-3ProngFlashHider"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "mosin-nagant-howling-raven-muzzle-brake",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.283 kg",
+   "gameItem": "IS_Muzzle_MosinHowlingRavenMuzzleBrake"
   },
   {
    "dataset": "muzzle_devices",
@@ -2278,6 +3454,22 @@
   },
   {
    "dataset": "muzzle_devices",
+   "id": "mp5-muzzle-cap",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.05 kg",
+   "gameItem": "IS_Muzzle_Mp5MuzzleCap"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "slot-muzzle-brake",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.072 kg",
+   "gameItem": "IS_Muzzle_SlotMuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
    "id": "srd762-qd-muzzle-brake",
    "field": "buy_price",
    "from": "$150",
@@ -2291,6 +3483,22 @@
    "from": "Banshee R.4",
    "to": "Banshee R.3",
    "gameItem": "IS_Muzzle_SrdQdMuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "srd762-qd-taper-lok-muzzle-brake",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.065 kg",
+   "gameItem": "IS_Muzzle_SrdQdTaperLokMuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "tactical-muzzle-brake",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.107 kg",
+   "gameItem": "IS_Muzzle_CarlsonsTacticalMuzzleBrake"
   },
   {
    "dataset": "muzzle_devices",
@@ -2366,6 +3574,22 @@
   },
   {
    "dataset": "pistol_grips",
+   "id": "mod-pistol-grip",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.112 kg",
+   "gameItem": "IS_PistolGrip_TyrantMod"
+  },
+  {
+   "dataset": "pistol_grips",
+   "id": "mod-pistol-grip-fde",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.112 kg",
+   "gameItem": "IS_PistolGrip_TyrantModFDE"
+  },
+  {
+   "dataset": "pistol_grips",
    "id": "moe-ak-pistol-grip",
    "field": "buy_price",
    "from": "$41",
@@ -2387,6 +3611,62 @@
    "from": "$94",
    "to": "$374",
    "gameItem": "IS_PistolGrip_ZenitcoRk9"
+  },
+  {
+   "dataset": "pistol_grips",
+   "id": "type-51-grip",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.051 kg",
+   "gameItem": "IS_PistolGrip_Type51Grips"
+  },
+  {
+   "dataset": "plate_carriers",
+   "id": "cz-4m-lancer-unlra",
+   "field": "weight",
+   "from": "5.750kg",
+   "to": "5.8 kg",
+   "gameItem": "IS_Armor_Lancer_UN"
+  },
+  {
+   "dataset": "plate_carriers",
+   "id": "phantom-type-2",
+   "field": "weight",
+   "from": "8.704kg",
+   "to": "13.2 kg",
+   "gameItem": "IS_Armor_PhantomType2"
+  },
+  {
+   "dataset": "provisions",
+   "id": "nuklear-energy:-meltdown-mango-*",
+   "field": "weight",
+   "from": "0.340 kg",
+   "to": "0.55 kg",
+   "gameItem": "IS_Prov_Drink_Gatorade"
+  },
+  {
+   "dataset": "provisions",
+   "id": "riminda-green-bubbly-bliss-*",
+   "field": "weight",
+   "from": "2.000 kg",
+   "to": "2.08 kg",
+   "gameItem": "IS_Prov_Drink_SodaDrink2L"
+  },
+  {
+   "dataset": "provisions",
+   "id": "touchdown-lemon-soda",
+   "field": "weight",
+   "from": "0.330 kg",
+   "to": "0.38 kg",
+   "gameItem": "IS_Prov_Drink_LemonSoda"
+  },
+  {
+   "dataset": "provisions",
+   "id": "white-orchid-crystal-water-2-l",
+   "field": "weight",
+   "from": "2.000 kg",
+   "to": "2.04 kg",
+   "gameItem": "IS_Prov_Drink_LocalWater2L"
   },
   {
    "dataset": "rear_iron_sights",
@@ -2430,6 +3710,14 @@
   },
   {
    "dataset": "rear_iron_sights",
+   "id": "colt-1911-rear-sight-lpa",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.03 kg",
+   "gameItem": "IS_Sight_Colt1911RearSightLPA"
+  },
+  {
+   "dataset": "rear_iron_sights",
    "id": "folding-micro-rear-iron-sight",
    "field": "sold_by",
    "from": "Gunny R.2",
@@ -2443,6 +3731,14 @@
    "from": "$48",
    "to": "$110",
    "gameItem": "IS_Sight_Glock17OemTritiumRearSight"
+  },
+  {
+   "dataset": "rear_iron_sights",
+   "id": "m590-rear-ghost-ring-sight",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.06 kg",
+   "gameItem": "IS_Sight_MossbergGhostringRearSight"
   },
   {
    "dataset": "rear_iron_sights",
@@ -2477,12 +3773,92 @@
    "gameItem": "IS_Sight_SksRearSight"
   },
   {
+   "dataset": "rear_iron_sights",
+   "id": "svd-rear-sight",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.06 kg",
+   "gameItem": "IS_Sight_SvdRearSight"
+  },
+  {
+   "dataset": "rear_iron_sights",
+   "id": "tt-33-rear-iron-sight",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.025 kg",
+   "gameItem": "IS_Sight_Type33SlideRearSight"
+  },
+  {
+   "dataset": "rear_iron_sights",
+   "id": "type-51-rear-iron-sight",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.025 kg",
+   "gameItem": "IS_Sight_Type51SlideRearSight"
+  },
+  {
    "dataset": "rigs",
    "id": "alice",
    "field": "sold_by",
    "from": "Handshake R.1",
    "to": "Handshake R.2",
    "gameItem": "IS_Rig_Alice"
+  },
+  {
+   "dataset": "rigs",
+   "id": "alice",
+   "field": "weight",
+   "from": "0.500kg",
+   "to": "0.95 kg",
+   "gameItem": "IS_Rig_Alice"
+  },
+  {
+   "dataset": "rigs",
+   "id": "improvized-rig",
+   "field": "grid_size",
+   "from": "2x3",
+   "to": "2x2",
+   "gameItem": "IS_Rig_ImprovizedRig"
+  },
+  {
+   "dataset": "rigs",
+   "id": "improvized-rig",
+   "field": "weight",
+   "from": "0.300kg",
+   "to": "0.2 kg",
+   "gameItem": "IS_Rig_ImprovizedRig"
+  },
+  {
+   "dataset": "rigs",
+   "id": "recon-chest-rig",
+   "field": "weight",
+   "from": "0.820kg",
+   "to": "0.78 kg",
+   "gameItem": "IS_Rig_ReconChestRig"
+  },
+  {
+   "dataset": "rigs",
+   "id": "small-rig",
+   "field": "weight",
+   "from": "0.300kg",
+   "to": "0.4 kg",
+   "gameItem": "IS_Rig_SmallRig"
+  },
+  {
+   "dataset": "rigs",
+   "id": "tactec-chest-rig",
+   "field": "grid_size",
+   "from": "2x5",
+   "to": "3x4",
+   "gameItem": "IS_Rig_Tactec"
+  },
+  {
+   "dataset": "rigs",
+   "id": "type-56-ak",
+   "field": "grid_size",
+   "from": "3x2",
+   "to": "3x3",
+   "gameItem": "IS_Rig_Type56Ak"
   },
   {
    "dataset": "scopes",
@@ -2550,6 +3926,22 @@
   },
   {
    "dataset": "slides",
+   "id": "colt-1911-long-slide",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.41 kg",
+   "gameItem": "IS_Slide_Colt1911LongSlide6"
+  },
+  {
+   "dataset": "slides",
+   "id": "colt-1911-slide",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.38 kg",
+   "gameItem": "IS_Slide_Colt1911Slide"
+  },
+  {
+   "dataset": "slides",
    "id": "glock-17-zps.6-slide",
    "field": "buy_price",
    "from": "$353",
@@ -2566,6 +3958,22 @@
   },
   {
    "dataset": "slides",
+   "id": "tt-33-slide",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.21 kg",
+   "gameItem": "IS_Slide_Type33Slide"
+  },
+  {
+   "dataset": "slides",
+   "id": "type-51-slide",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.21 kg",
+   "gameItem": "IS_Slide_Type51Slide"
+  },
+  {
+   "dataset": "slides",
    "id": "tyton-glock-17-slide",
    "field": "buy_price",
    "from": "$661",
@@ -2579,6 +3987,678 @@
    "from": "$864",
    "to": "$884",
    "gameItem": "IS_Slide_Glock17ZevZ17CitadelStrippedSlide"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "box-of-ids",
+   "field": "grid_size",
+   "from": "???",
+   "to": "2x2",
+   "gameItem": "IS_RTTItem_PassportBox_Task_Handshake_14_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "box-of-ids",
+   "field": "weight",
+   "from": "???kg",
+   "to": "1.4 kg",
+   "gameItem": "IS_RTTItem_PassportBox_Task_Handshake_14_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "compromising-folder",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.08 kg",
+   "gameItem": "IS_RTTItem_Folder_Task_Handshake_03_01a"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "eugene-l.-fleming-file",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_Note_Task_Handshake_14_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "eugene-l.-fleming-file",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.03 kg",
+   "gameItem": "IS_RTTItem_Note_Task_Handshake_14_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-drug-note",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_Note_Task_Handshake_15_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-drug-note",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.03 kg",
+   "gameItem": "IS_RTTItem_Note_Task_Handshake_15_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-medical-samples",
+   "field": "grid_size",
+   "from": "???",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_Samples_Task_Labrat_04_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-medical-samples",
+   "field": "weight",
+   "from": "???kg",
+   "to": "22 kg",
+   "gameItem": "IS_RTTItem_Samples_Task_Labrat_04_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-military-box",
+   "field": "grid_size",
+   "from": "???",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_MilBox_Task_Gunny_03_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-military-box",
+   "field": "weight",
+   "from": "???kg",
+   "to": "21.5 kg",
+   "gameItem": "IS_RTTItem_MilBox_Task_Gunny_03_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-prototype-part-crate",
+   "field": "grid_size",
+   "from": "3x3",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_Prototype_Task_Gunny_01_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-prototype-part-crate",
+   "field": "weight",
+   "from": "?kg",
+   "to": "20 kg",
+   "gameItem": "IS_RTTItem_Prototype_Task_Gunny_01_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-stolen-box",
+   "field": "grid_size",
+   "from": "????",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_WepBox_Task_Gunny_04_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-stolen-box",
+   "field": "weight",
+   "from": "???kg",
+   "to": "19 kg",
+   "gameItem": "IS_RTTItem_WepBox_Task_Gunny_04_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-supply-box",
+   "field": "grid_size",
+   "from": "???",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_SuppBox_Task_Gunny_05_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-supply-box",
+   "field": "weight",
+   "from": "???kg",
+   "to": "21 kg",
+   "gameItem": "IS_RTTItem_SuppBox_Task_Gunny_05_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-suspicious-package",
+   "field": "grid_size",
+   "from": "???",
+   "to": "2x2",
+   "gameItem": "IS_RTTItem_SupplyBox_Task_Handshake_10_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-suspicious-package",
+   "field": "weight",
+   "from": "???kg",
+   "to": "10.2 kg",
+   "gameItem": "IS_RTTItem_SupplyBox_Task_Handshake_10_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-weapon-cargo-crate",
+   "field": "grid_size",
+   "from": "??",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_WeaponCargo_Task_Gunny_02_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "first-weapon-cargo-crate",
+   "field": "weight",
+   "from": "??kg",
+   "to": "21.5 kg",
+   "gameItem": "IS_RTTItem_WeaponCargo_Task_Gunny_02_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "floppy-disks",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_FloppyDisks_Task_Labrat_01_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "floppy-disks",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.15 kg",
+   "gameItem": "IS_RTTItem_FloppyDisks_Task_Labrat_01_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "fourth-military-box",
+   "field": "grid_size",
+   "from": "???",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_MilBox_Task_Gunny_03_04"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "fourth-military-box",
+   "field": "weight",
+   "from": "???kg",
+   "to": "21.5 kg",
+   "gameItem": "IS_RTTItem_MilBox_Task_Gunny_03_04"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "fourth-suspicious-package",
+   "field": "grid_size",
+   "from": "???",
+   "to": "2x2",
+   "gameItem": "IS_RTTItem_SupplyBox_Task_Handshake_10_04"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "fourth-suspicious-package",
+   "field": "weight",
+   "from": "???kg",
+   "to": "8 kg",
+   "gameItem": "IS_RTTItem_SupplyBox_Task_Handshake_10_04"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "gang-folder",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_Folder_Task_Handshake_18_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "gang-folder",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.25 kg",
+   "gameItem": "IS_RTTItem_Folder_Task_Handshake_18_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "gang-note",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_Note_Task_Handshake_18_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "gang-note",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.03 kg",
+   "gameItem": "IS_RTTItem_Note_Task_Handshake_18_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "hacking-tool",
+   "field": "weight",
+   "from": "??kg",
+   "to": "0.04 kg",
+   "gameItem": "IS_RTTItem_HackToolUSB_Task_Handshake_06_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "intel-folder",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_Folder_Task_Handshake_11_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "intel-folder",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_RTTItem_Folder_Task_Handshake_11_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "laf-documents",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_Documents_Task_Handshake_08_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "laf-documents",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.01 kg",
+   "gameItem": "IS_RTTItem_Documents_Task_Handshake_08_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "laf-suitcase",
+   "field": "grid_size",
+   "from": "???",
+   "to": "2x2",
+   "gameItem": "IS_RTTItem_Suitcase_Task_Handshake_08_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "laf-suitcase",
+   "field": "weight",
+   "from": "???kg",
+   "to": "3 kg",
+   "gameItem": "IS_RTTItem_Suitcase_Task_Handshake_08_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "medallion",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.2 kg",
+   "gameItem": "IS_RTTItem_medallionKey_Task_Handshake_01_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "micro-sd-autocracker-003",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_MicroSD_Task_Handshake_09_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "micro-sd-autocracker-003",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.02 kg",
+   "gameItem": "IS_RTTItem_MicroSD_Task_Handshake_09_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "military-suitcase",
+   "field": "grid_size",
+   "from": "?",
+   "to": "2x2",
+   "gameItem": "IS_RTTItem_Suitcase_Task_Gunny_01_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "military-suitcase",
+   "field": "weight",
+   "from": "?kg",
+   "to": "9 kg",
+   "gameItem": "IS_RTTItem_Suitcase_Task_Gunny_01_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "mysterious-cargo-crate",
+   "field": "grid_size",
+   "from": "???",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_Strauss_Task_Handshake_07_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "mysterious-cargo-crate",
+   "field": "weight",
+   "from": "???kg",
+   "to": "6 kg",
+   "gameItem": "IS_RTTItem_Strauss_Task_Handshake_07_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "old-diary",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_Book_Task_Handshake_15_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "old-diary",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.105 kg",
+   "gameItem": "IS_RTTItem_Book_Task_Handshake_15_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "old-hard-disk-drive",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_HWkey_Task_Handshake_12_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "old-hard-disk-drive",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.5 kg",
+   "gameItem": "IS_RTTItem_HWkey_Task_Handshake_12_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "prisoner-info-folder-193",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_Documents_Task_Handshake_13_03"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "prisoner-info-folder-193",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.01 kg",
+   "gameItem": "IS_RTTItem_Documents_Task_Handshake_13_03"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "prisoner-info-folder-251",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_Documents_Task_Handshake_13_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "prisoner-info-folder-251",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.01 kg",
+   "gameItem": "IS_RTTItem_Documents_Task_Handshake_13_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "prisoner-info-folder-712",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_Documents_Task_Handshake_13_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "prisoner-info-folder-712",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.01 kg",
+   "gameItem": "IS_RTTItem_Documents_Task_Handshake_13_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "second-drug-note",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_Note_Task_Handshake_15_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "second-drug-note",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.03 kg",
+   "gameItem": "IS_RTTItem_Note_Task_Handshake_15_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "second-medical-samples",
+   "field": "grid_size",
+   "from": "???",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_Samples_Task_Labrat_04_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "second-medical-samples",
+   "field": "weight",
+   "from": "???kg",
+   "to": "18 kg",
+   "gameItem": "IS_RTTItem_Samples_Task_Labrat_04_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "second-military-box",
+   "field": "grid_size",
+   "from": "??",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_MilBox_Task_Gunny_03_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "second-military-box",
+   "field": "weight",
+   "from": "??kg",
+   "to": "21.5 kg",
+   "gameItem": "IS_RTTItem_MilBox_Task_Gunny_03_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "second-stolen-box",
+   "field": "grid_size",
+   "from": "???",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_WepBox_Task_Gunny_04_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "second-stolen-box",
+   "field": "weight",
+   "from": "???kg",
+   "to": "20.4 kg",
+   "gameItem": "IS_RTTItem_WepBox_Task_Gunny_04_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "second-supply-box",
+   "field": "grid_size",
+   "from": "???",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_SuppBox_Task_Gunny_05_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "second-suspicious-package",
+   "field": "grid_size",
+   "from": "???",
+   "to": "2x2",
+   "gameItem": "IS_RTTItem_SupplyBox_Task_Handshake_10_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "second-suspicious-package",
+   "field": "weight",
+   "from": "???kg",
+   "to": "9.5 kg",
+   "gameItem": "IS_RTTItem_SupplyBox_Task_Handshake_10_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "second-weapon-cargo-crate",
+   "field": "grid_size",
+   "from": "??",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_WeaponCargo_Task_Gunny_02_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "second-weapon-cargo-crate",
+   "field": "weight",
+   "from": "??kg",
+   "to": "19 kg",
+   "gameItem": "IS_RTTItem_WeaponCargo_Task_Gunny_02_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "third-military-box",
+   "field": "grid_size",
+   "from": "???",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_MilBox_Task_Gunny_03_03"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "third-military-box",
+   "field": "weight",
+   "from": "???kg",
+   "to": "21.5 kg",
+   "gameItem": "IS_RTTItem_MilBox_Task_Gunny_03_03"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "third-stolen-box",
+   "field": "grid_size",
+   "from": "???",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_WepBox_Task_Gunny_04_03"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "third-stolen-box",
+   "field": "weight",
+   "from": "???kg",
+   "to": "21.5 kg",
+   "gameItem": "IS_RTTItem_WepBox_Task_Gunny_04_03"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "third-supply-box",
+   "field": "grid_size",
+   "from": "???",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_SuppBox_Task_Gunny_05_03"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "third-suspicious-package",
+   "field": "grid_size",
+   "from": "???",
+   "to": "2x2",
+   "gameItem": "IS_RTTItem_SupplyBox_Task_Handshake_10_03"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "third-suspicious-package",
+   "field": "weight",
+   "from": "???kg",
+   "to": "9 kg",
+   "gameItem": "IS_RTTItem_SupplyBox_Task_Handshake_10_03"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "third-weapon-cargo-crate",
+   "field": "grid_size",
+   "from": "???",
+   "to": "3x2",
+   "gameItem": "IS_RTTItem_WeaponCargo_Task_Gunny_02_03"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "third-weapon-cargo-crate",
+   "field": "weight",
+   "from": "???kg",
+   "to": "22 kg",
+   "gameItem": "IS_RTTItem_WeaponCargo_Task_Gunny_02_03"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "transcript-of-conversations",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.03 kg",
+   "gameItem": "IS_RTTItem_Note_Task_Handshake_03_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "usb-drive-autocracker",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.04 kg",
+   "gameItem": "IS_RTTItem_HackToolUSB_Task_Handshake_05_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "usb-drive-autocracker-001",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_HackToolUSB_Task_Handshake_09_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "usb-drive-autocracker-001",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.04 kg",
+   "gameItem": "IS_RTTItem_HackToolUSB_Task_Handshake_09_01"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "usb-drive-autocracker-002",
+   "field": "grid_size",
+   "from": "???",
+   "to": "1x1",
+   "gameItem": "IS_RTTItem_HackToolUSB_Task_Handshake_09_02"
+  },
+  {
+   "dataset": "squad_strike_missions_item",
+   "id": "usb-drive-autocracker-002",
+   "field": "weight",
+   "from": "??kg",
+   "to": "0.04 kg",
+   "gameItem": "IS_RTTItem_HackToolUSB_Task_Handshake_09_02"
+  },
+  {
+   "dataset": "stock_adapters",
+   "id": "ak-74m/100-pt-stock-adapter",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.088 kg",
+   "gameItem": "IS_StockAdapter_ZenitcoPtAk74M100"
   },
   {
    "dataset": "stock_adapters",
@@ -2598,6 +4678,14 @@
   },
   {
    "dataset": "stock_adapters",
+   "id": "akm-zenitco-stock-adapter",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.113 kg",
+   "gameItem": "IS_StockAdapter_AkmZenitco"
+  },
+  {
+   "dataset": "stock_adapters",
    "id": "akm-zhukov-adapter",
    "field": "buy_price",
    "from": "$81",
@@ -2613,12 +4701,36 @@
    "gameItem": "IS_StockAdapter_AkmZhukovAdapter"
   },
   {
+   "dataset": "stock_adapters",
+   "id": "armacon-svd-stock-adapter",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.11 kg",
+   "gameItem": "IS_StockAdapter_SvdArmacon"
+  },
+  {
+   "dataset": "stock_adapters",
+   "id": "m870-stock-adapter",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_StockAdapter_RemingtonM870MesaTacticalTelescoping"
+  },
+  {
    "dataset": "stocks",
    "id": "ak-47/akm-wooden-stock",
    "field": "sold_by",
    "from": "Artisan R.1",
    "to": "Turncoat R.1",
    "gameItem": "IS_Stock_Ak47AkmWooden"
+  },
+  {
+   "dataset": "stocks",
+   "id": "ak-74m-polymer-stock",
+   "field": "weight",
+   "from": "0.350 kg kg",
+   "to": "0.35 kg",
+   "gameItem": "IS_Stock_Ak74MPolymer"
   },
   {
    "dataset": "stocks",
@@ -2710,6 +4822,14 @@
   },
   {
    "dataset": "stocks",
+   "id": "ar-15-sopmod-stock",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.352 kg",
+   "gameItem": "IS_Stock_LmtSopmodStock"
+  },
+  {
+   "dataset": "stocks",
    "id": "ar15-moe-stock",
    "field": "buy_price",
    "from": "$167",
@@ -2726,11 +4846,51 @@
   },
   {
    "dataset": "stocks",
+   "id": "ctr-cheek-riser",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.12 kg",
+   "gameItem": "IS_Stock_Ar15ArchangelCheekRiser"
+  },
+  {
+   "dataset": "stocks",
+   "id": "dd-adjustable-buttstock-black",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.227 kg",
+   "gameItem": "IS_Stock_DanielDefenseAdjustableBlack"
+  },
+  {
+   "dataset": "stocks",
+   "id": "m590-sga-stock",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.68 kg",
+   "gameItem": "IS_Stock_MagpulSgaMossbergStock"
+  },
+  {
+   "dataset": "stocks",
+   "id": "m590-stock",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.64 kg",
+   "gameItem": "IS_Stock_MossbergSyntheticStock"
+  },
+  {
+   "dataset": "stocks",
    "id": "m700-hunter-stock",
    "field": "sold_by",
    "from": "Banshee R.3",
    "to": "Gunny R.3",
    "gameItem": "IS_Stock_Rem700MagpulHunter"
+  },
+  {
+   "dataset": "stocks",
+   "id": "m700-hunter-stock-fde",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "1.45 kg",
+   "gameItem": "IS_Stock_Rem700MagpulHunterFDE"
   },
   {
    "dataset": "stocks",
@@ -2758,11 +4918,27 @@
   },
   {
    "dataset": "stocks",
+   "id": "m870-sga-stock-fde",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.68 kg",
+   "gameItem": "IS_Stock_RemingtonM870MagpulSgaFDE"
+  },
+  {
+   "dataset": "stocks",
    "id": "mcx/mpx-minimalist-folding-stock",
    "field": "buy_price",
    "from": "$405",
    "to": "$884",
    "gameItem": "IS_Stock_McxMpxMinimalistFolding"
+  },
+  {
+   "dataset": "stocks",
+   "id": "mcx/mpx-skel-folding-stock",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_Stock_McxMpxFolding"
   },
   {
    "dataset": "stocks",
@@ -2795,6 +4971,22 @@
    "from": "Artisan R.1",
    "to": "Artisan R.2",
    "gameItem": "IS_Stock_MosinCarbineWooden"
+  },
+  {
+   "dataset": "stocks",
+   "id": "mosin-nagant-wooden-stock-rifle",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "1.13 kg",
+   "gameItem": "IS_Stock_MosinRifleWooden"
+  },
+  {
+   "dataset": "stocks",
+   "id": "mosin-nagant-wooden-stock-sniper",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "1.13 kg",
+   "gameItem": "IS_Stock_MosinSniperRifleWooden"
   },
   {
    "dataset": "stocks",
@@ -2877,6 +5069,22 @@
    "gameItem": "IS_Stock_SvdPolymerStockwithGrip"
   },
   {
+   "dataset": "stocks",
+   "id": "svd-wooden-stock-with-grip",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.46 kg",
+   "gameItem": "IS_Stock_SvdWoodenStockwithGrip"
+  },
+  {
+   "dataset": "stocks",
+   "id": "vz.-61-wire-stock",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.25 kg",
+   "gameItem": "IS_Stock_Vz61Wire"
+  },
+  {
    "dataset": "suppressors",
    "id": "762-sd-suppressor",
    "field": "buy_price",
@@ -2918,6 +5126,14 @@
   },
   {
    "dataset": "suppressors",
+   "id": "hk-mp5sd-9mm-suppressor",
+   "field": "weight",
+   "from": ".476 kg",
+   "to": "0.476 kg",
+   "gameItem": "IS_Suppressor_HkMp5Sd9mmSuppressor"
+  },
+  {
+   "dataset": "suppressors",
    "id": "mosin-nagant-bramit-suppressor",
    "field": "buy_price",
    "from": "$880",
@@ -2950,6 +5166,14 @@
   },
   {
    "dataset": "suppressors",
+   "id": "sig-suppressor-srd556",
+   "field": "weight",
+   "from": "0.411 Kg kg",
+   "to": "0.411 kg",
+   "gameItem": "IS_Suppressor_SigSRD556"
+  },
+  {
+   "dataset": "suppressors",
    "id": "slh300ti-qd-suppressor",
    "field": "buy_price",
    "from": "$2,198",
@@ -2974,6 +5198,14 @@
   },
   {
    "dataset": "suppressors",
+   "id": "type-51-suppressor",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.332 kg",
+   "gameItem": "IS_Suppressor_Type51Suppressor"
+  },
+  {
+   "dataset": "suppressors",
    "id": "vlc-556-mark-1-suppressor",
    "field": "buy_price",
    "from": "$2,004",
@@ -2987,6 +5219,14 @@
    "from": "Gunny R.4",
    "to": "Gunny R.3",
    "gameItem": "IS_Suppressor_Vlc556Mark1Suppressor"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "vz.-61-tos-suppressor",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.36 kg",
+   "gameItem": "IS_Suppressor_Vz61TosSuppressor"
   },
   {
    "dataset": "tactical_devices",
@@ -3035,6 +5275,630 @@
    "from": "Turncoat R.2",
    "to": "Turncoat R.1",
    "gameItem": "IS_TacticalDev_ZenitcoKlesch2"
+  },
+  {
+   "dataset": "task_items",
+   "id": "appeal-to-the-rebels",
+   "field": "weight",
+   "from": ".010kg",
+   "to": "0.01 kg",
+   "gameItem": "IS_QuestItem_ArtisanPlea"
+  },
+  {
+   "dataset": "task_items",
+   "id": "arrest-warrant",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.05 kg",
+   "gameItem": "IS_QuestItem_ArrestOrders"
+  },
+  {
+   "dataset": "task_items",
+   "id": "artisans-toolbox",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x2",
+   "gameItem": "IS_QuestItem_ArtisansTools"
+  },
+  {
+   "dataset": "task_items",
+   "id": "blue-lagoon-intel",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_Banshee15"
+  },
+  {
+   "dataset": "task_items",
+   "id": "box-of-passports",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x2",
+   "gameItem": "IS_QuestItem_BoxFullOfPassports"
+  },
+  {
+   "dataset": "task_items",
+   "id": "box-of-passports",
+   "field": "weight",
+   "from": "?kg",
+   "to": "1.5 kg",
+   "gameItem": "IS_QuestItem_BoxFullOfPassports"
+  },
+  {
+   "dataset": "task_items",
+   "id": "case-with-a-revolver",
+   "field": "weight",
+   "from": "?kg",
+   "to": "2 kg",
+   "gameItem": "IS_QuestItem_RevolverCase"
+  },
+  {
+   "dataset": "task_items",
+   "id": "clients-passport",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.05 kg",
+   "gameItem": "IS_QuestItem_PassportResort"
+  },
+  {
+   "dataset": "task_items",
+   "id": "clients-phone",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_QuestItem_ClientPhone"
+  },
+  {
+   "dataset": "task_items",
+   "id": "commander-details-folder",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_CommanderDetails"
+  },
+  {
+   "dataset": "task_items",
+   "id": "compromising-materials",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.01 kg",
+   "gameItem": "IS_QuestItem_GoatFolder"
+  },
+  {
+   "dataset": "task_items",
+   "id": "detonator-case",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x2",
+   "gameItem": "IS_QuestItem_DetonatorCase"
+  },
+  {
+   "dataset": "task_items",
+   "id": "detonator-case",
+   "field": "weight",
+   "from": "?kg",
+   "to": "5 kg",
+   "gameItem": "IS_QuestItem_DetonatorCase"
+  },
+  {
+   "dataset": "task_items",
+   "id": "elisa-testing-kit",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.01 kg",
+   "gameItem": "IS_QuestItem_ElisaTestingKit"
+  },
+  {
+   "dataset": "task_items",
+   "id": "encrypted-letter",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.05 kg",
+   "gameItem": "IS_QuestItem_FriendLetter_A23"
+  },
+  {
+   "dataset": "task_items",
+   "id": "evacuation-orders",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.05 kg",
+   "gameItem": "IS_QuestItem_WrittenOrders"
+  },
+  {
+   "dataset": "task_items",
+   "id": "fake-intel",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_FalseIntel"
+  },
+  {
+   "dataset": "task_items",
+   "id": "fighter-jet-deal",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_MilitaryJetsDeal"
+  },
+  {
+   "dataset": "task_items",
+   "id": "flight-manifest-database",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_QuestItem_FlightDataHDD"
+  },
+  {
+   "dataset": "task_items",
+   "id": "fn-infirmary-samples",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_VialForSamples_InfirmarySamples"
+  },
+  {
+   "dataset": "task_items",
+   "id": "goodbye-letter",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.05 kg",
+   "gameItem": "IS_QuestItem_GoodbyeLetter"
+  },
+  {
+   "dataset": "task_items",
+   "id": "government-laptop",
+   "field": "weight",
+   "from": "?kg",
+   "to": "3 kg",
+   "gameItem": "IS_QuestItem_Laptop_Handshake_Quest_36"
+  },
+  {
+   "dataset": "task_items",
+   "id": "ground-samples",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_VialForSamples_GroundSamples"
+  },
+  {
+   "dataset": "task_items",
+   "id": "guest-list",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_ShootingGuestsList"
+  },
+  {
+   "dataset": "task_items",
+   "id": "hp-bio-samples",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_VialForSamples_HuntersParadiseRestaurant"
+  },
+  {
+   "dataset": "task_items",
+   "id": "industrial-air-filter",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "1x2",
+   "gameItem": "IS_QuestItem_IndustrialWaterFilter"
+  },
+  {
+   "dataset": "task_items",
+   "id": "informants-smartphone",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_QuestItem_IntelPhone"
+  },
+  {
+   "dataset": "task_items",
+   "id": "interrogation-orders",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_StraussFolder"
+  },
+  {
+   "dataset": "task_items",
+   "id": "laf-gz-laptop",
+   "field": "weight",
+   "from": "?kg",
+   "to": "2.5 kg",
+   "gameItem": "IS_Questitem_MilitaryLaptop_Handshake_59"
+  },
+  {
+   "dataset": "task_items",
+   "id": "laf-medical-records",
+   "field": "weight",
+   "from": "?kg",
+   "to": "1 kg",
+   "gameItem": "IS_QuestItem_InfirmaryMedicalRecords"
+  },
+  {
+   "dataset": "task_items",
+   "id": "laf-orders",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_ListofNames2"
+  },
+  {
+   "dataset": "task_items",
+   "id": "list-of-evacuees",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_ListofNames"
+  },
+  {
+   "dataset": "task_items",
+   "id": "list-of-orders",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.01 kg",
+   "gameItem": "IS_QuestItem_AirportFlashDrive"
+  },
+  {
+   "dataset": "task_items",
+   "id": "lla-attack-plans",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_PlansOfAttack"
+  },
+  {
+   "dataset": "task_items",
+   "id": "lost-smartphone",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_DirtyIntel2"
+  },
+  {
+   "dataset": "task_items",
+   "id": "medics-notes",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_QuestItem_SawmillMedicDiary"
+  },
+  {
+   "dataset": "task_items",
+   "id": "military-flash-drive",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.01 kg",
+   "gameItem": "IS_QuestItem_FlashDrive"
+  },
+  {
+   "dataset": "task_items",
+   "id": "military-intel",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_Handshake36"
+  },
+  {
+   "dataset": "task_items",
+   "id": "military-patrol-schedule",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.05 kg",
+   "gameItem": "IS_QuestItem_PatrolSchedule"
+  },
+  {
+   "dataset": "task_items",
+   "id": "ms-intel-phone",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_QuestItem_SuspiciousPhone_Turncoat_Quest_23"
+  },
+  {
+   "dataset": "task_items",
+   "id": "ms-usb-drive",
+   "field": "weight",
+   "from": "0.100kg",
+   "to": "0.01 kg",
+   "gameItem": "IS_QuestItem_FlashDrive_Banshee_Quest_24"
+  },
+  {
+   "dataset": "task_items",
+   "id": "ospreys-laptop",
+   "field": "weight",
+   "from": "?kg",
+   "to": "3 kg",
+   "gameItem": "IS_QuestItem_Laptop_LabRat_Quest_26"
+  },
+  {
+   "dataset": "task_items",
+   "id": "personal-folder-00616",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_TurncoatFolder"
+  },
+  {
+   "dataset": "task_items",
+   "id": "poison-vial",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.02 kg",
+   "gameItem": "IS_QuestItem_PoisonVial"
+  },
+  {
+   "dataset": "task_items",
+   "id": "precious-cigars",
+   "field": "weight",
+   "from": "8.000kg",
+   "to": "5 kg",
+   "gameItem": "IS_QuestItem_CigarsResort"
+  },
+  {
+   "dataset": "task_items",
+   "id": "precious-golf-club",
+   "field": "weight",
+   "from": "?kg",
+   "to": "5 kg",
+   "gameItem": "IS_QuestItem_GolfClubs"
+  },
+  {
+   "dataset": "task_items",
+   "id": "prisoner-info-folder",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_PrisonerFolder"
+  },
+  {
+   "dataset": "task_items",
+   "id": "r.-taylor-unlra-employee-card",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_UNLRAEmployeeCard"
+  },
+  {
+   "dataset": "task_items",
+   "id": "range-&-rifle:-ak-308",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_Magazine_Stock_Vulture_03"
+  },
+  {
+   "dataset": "task_items",
+   "id": "range-&-rifle:-akmn",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_Magazine_Stock_Artisan_03"
+  },
+  {
+   "dataset": "task_items",
+   "id": "range-&-rifle:-ddm4",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_Magazine_Stock_Gunny_03"
+  },
+  {
+   "dataset": "task_items",
+   "id": "range-&-rifle:-m14",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_Magazine_Stock_Banshee_Quest_05"
+  },
+  {
+   "dataset": "task_items",
+   "id": "range-&-rifle:-m700",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_Magazine_Stock_Banshee_Quest_04"
+  },
+  {
+   "dataset": "task_items",
+   "id": "range-&-rifle:-mcx",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_Magazine_Stock_Banshee_Quest_02"
+  },
+  {
+   "dataset": "task_items",
+   "id": "range-&-rifle:-mossberg-590",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_Magazine_Stock_Gunny_04"
+  },
+  {
+   "dataset": "task_items",
+   "id": "range-&-rifle:-mp7a2",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_Magazine_Stock_Banshee_Quest_03"
+  },
+  {
+   "dataset": "task_items",
+   "id": "range-&-rifle:-svd",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_Magazine_Stock_Artisan_Quest_04"
+  },
+  {
+   "dataset": "task_items",
+   "id": "recovered-vhs",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_DirtyIntel1"
+  },
+  {
+   "dataset": "task_items",
+   "id": "soldiers-diary",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_Intel_NB_SoldiersDiary"
+  },
+  {
+   "dataset": "task_items",
+   "id": "suspicious-box",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x2",
+   "gameItem": "IS_QuestItem_SuspitiousBox"
+  },
+  {
+   "dataset": "task_items",
+   "id": "suspicious-box",
+   "field": "weight",
+   "from": "?kg",
+   "to": "5 kg",
+   "gameItem": "IS_QuestItem_SuspitiousBox"
+  },
+  {
+   "dataset": "task_items",
+   "id": "tourists-diary",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_GirlDiary"
+  },
+  {
+   "dataset": "task_items",
+   "id": "turncoats-box",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x2",
+   "gameItem": "IS_QuestItem_TurncoatPackage"
+  },
+  {
+   "dataset": "task_items",
+   "id": "turncoats-box",
+   "field": "weight",
+   "from": "?kg",
+   "to": "1 kg",
+   "gameItem": "IS_QuestItem_TurncoatPackage"
+  },
+  {
+   "dataset": "task_items",
+   "id": "turncoats-valuables",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x2",
+   "gameItem": "IS_QuestItem_TurncoatValuables"
+  },
+  {
+   "dataset": "task_items",
+   "id": "turncoats-valuables",
+   "field": "weight",
+   "from": "?kg",
+   "to": "5 kg",
+   "gameItem": "IS_QuestItem_TurncoatValuables"
+  },
+  {
+   "dataset": "task_items",
+   "id": "unlra-bio-samples",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_VialForSamples_LabRat_17"
+  },
+  {
+   "dataset": "task_items",
+   "id": "unlra-details",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_UNLRA3"
+  },
+  {
+   "dataset": "task_items",
+   "id": "unlra-file",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_UNLRA1"
+  },
+  {
+   "dataset": "task_items",
+   "id": "unlra-hq-orders",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_UNLRA4"
+  },
+  {
+   "dataset": "task_items",
+   "id": "unlra-medical-records",
+   "field": "weight",
+   "from": "?kg",
+   "to": "1 kg",
+   "gameItem": "IS_QuestItem_UNLRAMedicalRecords"
+  },
+  {
+   "dataset": "task_items",
+   "id": "unlra-medical-supplies",
+   "field": "weight",
+   "from": "?kg",
+   "to": "5 kg",
+   "gameItem": "IS_QuestItem_UNSupplies"
+  },
+  {
+   "dataset": "task_items",
+   "id": "unlra-peacekeeper-bio-samples",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_VialForSamples_LabRat_21"
+  },
+  {
+   "dataset": "task_items",
+   "id": "unlra-usb-drive",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.01 kg",
+   "gameItem": "IS_QuestItem_FlashDrive_Handshake_Quest_47"
+  },
+  {
+   "dataset": "task_items",
+   "id": "vip-client-list",
+   "field": "weight",
+   "from": "0.1kgkg",
+   "to": "0.1 kg",
+   "gameItem": "IS_Intel_PAP_VIPClientList"
+  },
+  {
+   "dataset": "task_items",
+   "id": "vip-program-info",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_QuestItem_RangeNotes"
+  },
+  {
+   "dataset": "task_items",
+   "id": "weird-book",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_QuestItem_WeirdBook"
+  },
+  {
+   "dataset": "task_items",
+   "id": "ybl-1-interrogation-footage",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_QuestItem_AtrocitiesVHS"
   },
   {
    "dataset": "throwables",
@@ -3141,12 +6005,44 @@
    "gameItem": "IS_Grenade_M84_Stun"
   },
   {
+   "dataset": "tools",
+   "id": "box-of-supplies",
+   "field": "weight",
+   "from": "?kg",
+   "to": "2 kg",
+   "gameItem": "IS_QuestItem_SuppliesForPoor"
+  },
+  {
+   "dataset": "tools",
+   "id": "sample-collection-kit",
+   "field": "weight",
+   "from": "?kg",
+   "to": "0.1 kg",
+   "gameItem": "IS_QuestItem_BiologicalSampleTakingKit"
+  },
+  {
+   "dataset": "upper_receivers",
+   "id": "ak-100-series-dust-cover",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.104 kg",
+   "gameItem": "IS_Receiver_Ak100SeriesDustCover"
+  },
+  {
    "dataset": "upper_receivers",
    "id": "ak-ratnik-dust-cover",
    "field": "buy_price",
    "from": "$487",
    "to": "$850",
    "gameItem": "IS_Receiver_AkRatnikDustCover"
+  },
+  {
+   "dataset": "upper_receivers",
+   "id": "ak/akm-dust-cover-late",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.104 kg",
+   "gameItem": "IS_Receiver_AkAkmDustCoverLate"
   },
   {
    "dataset": "upper_receivers",
@@ -3182,6 +6078,14 @@
   },
   {
    "dataset": "upper_receivers",
+   "id": "m16a1-upper-receiver",
+   "field": "weight",
+   "from": "0.388 kg",
+   "to": "0.335 kg",
+   "gameItem": "IS_Receiver_M16A1UpperReceiver"
+  },
+  {
+   "dataset": "upper_receivers",
    "id": "picatinny-dust-cover",
    "field": "buy_price",
    "from": "$326",
@@ -3213,11 +6117,123 @@
    "gameItem": "IS_Receiver_SvdDustCover"
   },
   {
+   "dataset": "vests",
+   "id": "6b23-1digital",
+   "field": "grid_size",
+   "from": "3x3",
+   "to": "3x4",
+   "gameItem": "IS_Vest_6b231_Digital"
+  },
+  {
+   "dataset": "vests",
+   "id": "6b23-1digital",
+   "field": "weight",
+   "from": "7.900kg",
+   "to": "7.4 kg",
+   "gameItem": "IS_Vest_6b231_Digital"
+  },
+  {
+   "dataset": "vests",
+   "id": "6b23-1flora",
+   "field": "grid_size",
+   "from": "3x3",
+   "to": "3x4",
+   "gameItem": "IS_Vest_6b231_Flora"
+  },
+  {
+   "dataset": "vests",
+   "id": "coolmax-covert-vest",
+   "field": "weight",
+   "from": "1.760kg",
+   "to": "3.1 kg",
+   "gameItem": "IS_Vest_CoolmaxCovertVest"
+  },
+  {
+   "dataset": "vests",
+   "id": "covert-tactical-body-armour-police",
+   "field": "weight",
+   "from": "5.770kg",
+   "to": "4.25 kg",
+   "gameItem": "IS_Vest_CovertTacticalBodyArmour_Police"
+  },
+  {
+   "dataset": "vests",
+   "id": "covert-tactical-body-armour-press",
+   "field": "weight",
+   "from": "10.410kg",
+   "to": "8.8 kg",
+   "gameItem": "IS_Vest_CovertTacticalBodyArmour_Press"
+  },
+  {
+   "dataset": "vests",
+   "id": "cz-4m-hornet-unlra",
+   "field": "weight",
+   "from": "6.450kg",
+   "to": "4.4 kg",
+   "gameItem": "IS_Vest_Hornet_UN"
+  },
+  {
+   "dataset": "vices",
+   "id": "breda-rum---30y",
+   "field": "weight",
+   "from": "1.000kg",
+   "to": "1.7 kg",
+   "gameItem": "IS_Misc_Rum"
+  },
+  {
+   "dataset": "vices",
+   "id": "heavenly-perfume-bottle",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_Misc_PerfumeBottleOutlandish"
+  },
+  {
+   "dataset": "vices",
+   "id": "lambert-cigars",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "2x1",
+   "gameItem": "IS_Misc_Cigars"
+  },
+  {
+   "dataset": "vices",
+   "id": "lambert-cigars",
+   "field": "weight",
+   "from": "???kg",
+   "to": "0.6 kg",
+   "gameItem": "IS_Misc_Cigars"
+  },
+  {
+   "dataset": "vices",
+   "id": "snake-wine",
+   "field": "weight",
+   "from": "1.000kg",
+   "to": "1.4 kg",
+   "gameItem": "IS_Misc_SnakeWine"
+  },
+  {
+   "dataset": "vices",
+   "id": "tzintzimitl-tequila---25y",
+   "field": "weight",
+   "from": "1.000kg",
+   "to": "1.8 kg",
+   "gameItem": "IS_Misc_Tequila"
+  },
+  {
    "dataset": "weapons",
    "id": "ak-12",
    "field": "sold_by",
    "from": "Turncoat R.2",
    "to": "Turncoat R.3",
+   "gameItem": "IS_Firearm_Ak12"
+  },
+  {
+   "dataset": "weapons",
+   "id": "ak-12",
+   "field": "weight",
+   "from": "3.553 kg",
+   "to": "2 kg",
    "gameItem": "IS_Firearm_Ak12"
   },
   {
@@ -3230,10 +6246,34 @@
   },
   {
    "dataset": "weapons",
+   "id": "ak-15",
+   "field": "weight",
+   "from": "3.810 kg",
+   "to": "2.1 kg",
+   "gameItem": "IS_Firearm_Ak15"
+  },
+  {
+   "dataset": "weapons",
+   "id": "ak-19",
+   "field": "weight",
+   "from": "3.690 kg",
+   "to": "2.1 kg",
+   "gameItem": "IS_Firearm_Ak19"
+  },
+  {
+   "dataset": "weapons",
    "id": "ak-308",
    "field": "sold_by",
    "from": "Vulture R.4",
    "to": "Turncoat R.4",
+   "gameItem": "IS_Firearm_Ak308"
+  },
+  {
+   "dataset": "weapons",
+   "id": "ak-308",
+   "field": "weight",
+   "from": "5.712 kg",
+   "to": "2.7 kg",
    "gameItem": "IS_Firearm_Ak308"
   },
   {
@@ -3246,11 +6286,147 @@
   },
   {
    "dataset": "weapons",
+   "id": "akm",
+   "field": "weight",
+   "from": "3,780 kg",
+   "to": "2 kg",
+   "gameItem": "IS_Firearm_Akm"
+  },
+  {
+   "dataset": "weapons",
+   "id": "aks-74u",
+   "field": "weight",
+   "from": "2.757 kg",
+   "to": "1.7 kg",
+   "gameItem": "IS_Firearm_Aks74U"
+  },
+  {
+   "dataset": "weapons",
+   "id": "burans-ak-74n",
+   "field": "weight",
+   "from": "3.405 kg",
+   "to": "2.1 kg",
+   "gameItem": "IS_Firearm_Ak74NMedved"
+  },
+  {
+   "dataset": "weapons",
+   "id": "colt-1911",
+   "field": "weight",
+   "from": "1.052 kg",
+   "to": "0.231 kg",
+   "gameItem": "IS_Firearm_Colt1911"
+  },
+  {
+   "dataset": "weapons",
+   "id": "cq-a1",
+   "field": "weight",
+   "from": "2.674 kg",
+   "to": "0.6 kg",
+   "gameItem": "IS_Firearm_NornicoCQA1"
+  },
+  {
+   "dataset": "weapons",
+   "id": "ddm4",
+   "field": "weight",
+   "from": "3.451 kg",
+   "to": "0.7 kg",
+   "gameItem": "IS_Firearm_DdMk18"
+  },
+  {
+   "dataset": "weapons",
+   "id": "firebrands-aks-74u",
+   "field": "weight",
+   "from": "2.740 kg",
+   "to": "1.7 kg",
+   "gameItem": "IS_Firearm_Aks74UFather"
+  },
+  {
+   "dataset": "weapons",
+   "id": "glock-17",
+   "field": "weight",
+   "from": "0.810 kg",
+   "to": "0.231 kg",
+   "gameItem": "IS_Firearm_Glock17"
+  },
+  {
+   "dataset": "weapons",
+   "id": "grins-colt-1911-commander",
+   "field": "weight",
+   "from": "1.116 kg",
+   "to": "0.454 kg",
+   "gameItem": "IS_Firearm_Colt1911CommanderHel"
+  },
+  {
+   "dataset": "weapons",
+   "id": "l403a1",
+   "field": "weight",
+   "from": "4.438 kg",
+   "to": "0.7 kg",
+   "gameItem": "IS_Firearm_L403A1"
+  },
+  {
+   "dataset": "weapons",
+   "id": "m16-a1",
+   "field": "weight",
+   "from": "3.595 kg",
+   "to": "0.65 kg",
+   "gameItem": "IS_Firearm_M16A1"
+  },
+  {
+   "dataset": "weapons",
+   "id": "m201c",
+   "field": "weight",
+   "from": "??? kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_Firearm_M201C"
+  },
+  {
+   "dataset": "weapons",
+   "id": "m4a1",
+   "field": "weight",
+   "from": "3.299 kg",
+   "to": "0.65 kg",
+   "gameItem": "IS_Firearm_ColtM4A1"
+  },
+  {
+   "dataset": "weapons",
+   "id": "m870",
+   "field": "weight",
+   "from": "4.502 kg",
+   "to": "1.1 kg",
+   "gameItem": "IS_Firearm_RemingtonM870"
+  },
+  {
+   "dataset": "weapons",
    "id": "mosin-nagant",
    "field": "sold_by",
    "from": "Artisan R.1",
    "to": "Artisan R.2",
    "gameItem": "IS_Firearm_MosinNagant"
+  },
+  {
+   "dataset": "weapons",
+   "id": "mosin-nagant",
+   "field": "weight",
+   "from": "3.525 kg",
+   "to": "0.9 kg",
+   "gameItem": "IS_Firearm_MosinNagant"
+  },
+  {
+   "dataset": "weapons",
+   "id": "mossberg-590",
+   "field": "weight",
+   "from": "3.412 kg",
+   "to": "1.1 kg",
+   "gameItem": "IS_Firearm_Mossberg590"
+  },
+  {
+   "dataset": "weapons",
+   "id": "mp5",
+   "field": "weight",
+   "from": "2.507 kg",
+   "to": "0.74 kg",
+   "gameItem": "IS_Firearm_Mp5"
   },
   {
    "dataset": "weapons",
@@ -3267,6 +6443,78 @@
    "from": "Vulture R.2",
    "to": "Banshee R.2",
    "gameItem": "IS_Firearm_Mp7A2"
+  },
+  {
+   "dataset": "weapons",
+   "id": "sa-vz.-58",
+   "field": "weight",
+   "from": "3.287 kg",
+   "to": "0.75 kg",
+   "gameItem": "IS_Firearm_SaVz58"
+  },
+  {
+   "dataset": "weapons",
+   "id": "sig-mcx",
+   "field": "weight",
+   "from": "4.310 kg",
+   "to": "0.8 kg",
+   "gameItem": "IS_Firearm_SigMcx"
+  },
+  {
+   "dataset": "weapons",
+   "id": "type-51",
+   "field": "weight",
+   "from": "0.828 kg",
+   "to": "0.3 kg",
+   "gameItem": "IS_Firearm_Type51"
+  },
+  {
+   "dataset": "weapons",
+   "id": "vz.-61-skorpion",
+   "field": "weight",
+   "from": "1.375 kg",
+   "to": "0.9 kg",
+   "gameItem": "IS_Firearm_SkorpionVz61"
+  },
+  {
+   "dataset": "workshop_supplies",
+   "id": "broken-jigsaw",
+   "field": "grid_size",
+   "from": "2x1",
+   "to": "2x2",
+   "gameItem": "IS_Misc_Jigsaw_01b"
+  },
+  {
+   "dataset": "workshop_supplies",
+   "id": "multitool",
+   "field": "grid_size",
+   "from": "1x1",
+   "to": "1x2",
+   "gameItem": "IS_Misc_Multitool"
+  },
+  {
+   "dataset": "workshop_supplies",
+   "id": "multitool",
+   "field": "weight",
+   "from": "0.120kg",
+   "to": "0.27 kg",
+   "gameItem": "IS_Misc_Multitool"
+  },
+  {
+   "dataset": "workshop_supplies",
+   "id": "white-lithium-grease",
+   "field": "grid_size",
+   "from": "2x3",
+   "to": "2x2",
+   "gameItem": "IS_Misc_WhiteLithiumGrease"
+  },
+  {
+   "dataset": "workshop_supplies",
+   "id": "white-lithium-grease",
+   "field": "weight",
+   "from": "15.880kg",
+   "to": "5.22 kg",
+   "gameItem": "IS_Misc_WhiteLithiumGrease"
   }
  ]
 }
