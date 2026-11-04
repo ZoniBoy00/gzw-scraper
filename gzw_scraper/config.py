@@ -39,6 +39,10 @@ DEFAULT_CONFIG: Dict[str, Any] = {
         "enabled": True,
         "api_url": "https://gzwitems.com/api/items",
     },
+    "game_data_corrections": {
+        "enabled": True,
+        "path": "custom_data/game_data_corrections.json",
+    },
     "output": {
         "directory": "data",
         "backup_directory": "data_backup",
@@ -229,7 +233,7 @@ def apply_settings(config_path: Path = CONFIG_PATH) -> None:
 
     # Imported lazily to avoid circular imports (network/pipeline/storage
     # read their settings from this module).
-    from gzw_scraper import community_prices, network, pipeline, storage  # noqa: PLC0415
+    from gzw_scraper import community_prices, game_data_corrections, network, pipeline, storage  # noqa: PLC0415
 
     cfg = load_config(config_path)
     CONFIG = cfg
@@ -273,6 +277,10 @@ def apply_settings(config_path: Path = CONFIG_PATH) -> None:
     community_config = cfg["community_prices"]
     community_prices.ENABLED = bool(community_config["enabled"])
     community_prices.API_URL = community_config["api_url"]
+
+    corrections_config = cfg["game_data_corrections"]
+    game_data_corrections.ENABLED = bool(corrections_config["enabled"])
+    game_data_corrections.PATH = root / corrections_config["path"]
 
     storage.OUTPUT_DIR = root / output_config["directory"]
     storage.BACKUP_DIR = root / output_config["backup_directory"]

@@ -19,7 +19,7 @@ try:
 except ImportError:  # pragma: no cover
     tqdm = None  # type: ignore[assignment]
 
-from gzw_scraper import community_prices, network, parsing, storage
+from gzw_scraper import community_prices, game_data_corrections, network, parsing, storage
 from scripts.generate_metadata import PARSER_REVISION, SCRAPER_VERSION, write_metadata
 
 logger = logging.getLogger("gzw-scraper")
@@ -672,6 +672,14 @@ def run_full_scrape() -> bool:
     filled_prices = community_prices.apply_prices(merged)
     if filled_prices:
         logger.info("Filled %d missing sell prices from %s", filled_prices, community_prices.SOURCE)
+
+    # Replace stale wiki values with reviewed values from the game files (only while the wiki still holds the observed stale value).
+    corrected, correction_skipped, correction_missing = game_data_corrections.apply_corrections(merged)
+    if corrected or correction_skipped or correction_missing:
+        logger.info(
+            "Game data corrections: %d applied, %d skipped (wiki changed), %d not found",
+            corrected, correction_skipped, correction_missing,
+        )
 
     # Vendor inventories come from the items' own sold_by fields, once every dataset is complete.
     vendor_names = {str(v.get("name")) for v in merged.get("vendors.json", []) if v.get("name")}

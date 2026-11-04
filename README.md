@@ -68,6 +68,7 @@ The implementation is split into the `gzw_scraper/` package by responsibility. T
 - `parsing.py` — infobox, article-section, listing-table, and Ballistics parsing
 - `storage.py` — validation, backups, drop guard, field preservation, and JSON writes
 - `pipeline.py` — category scraping and full-run orchestration
+- `game_data_corrections.py` — reviewed corrections from the game files (`custom_data/game_data_corrections.json`: stale wiki value -> game value, applied only while the wiki still holds the stale value; applied values get a `<field>_source: game-files` marker; switch off with `[game_data_corrections] enabled = false`)
 - `cli.py` — command-line argument parsing and dispatch
 
 ## Bulletproof features

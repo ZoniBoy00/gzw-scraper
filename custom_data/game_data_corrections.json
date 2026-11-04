@@ -1,0 +1,3272 @@
+{
+ "source": "game-files",
+ "gameVersion": "0.5.0.2",
+ "steamBuild": "26256519",
+ "note": "Values read from the installed game's files and checked against 27 in-game data points. 'from' is the stale wiki value observed on the site; a correction applies only while the record still holds it.",
+ "corrections": [
+  {
+   "dataset": "ammo",
+   "id": ".222-remington-fmj",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ 0",
+   "to": "NIJ III",
+   "gameItem": "IS_Ammo_FMJ_222"
+  },
+  {
+   "dataset": "ammo",
+   "id": ".222-remington-hp",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ 0",
+   "to": "NIJ IIIA+",
+   "gameItem": "IS_Ammo_Hp_222"
+  },
+  {
+   "dataset": "ammo",
+   "id": ".222-remington-sp",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ 0",
+   "to": "NIJ I",
+   "gameItem": "IS_Ammo_Sp_222"
+  },
+  {
+   "dataset": "ammo",
+   "id": ".222-remington-vmax",
+   "field": "accuracy_modifier",
+   "from": "-5 %",
+   "to": "+7 %",
+   "gameItem": "IS_Ammo_VMax_222"
+  },
+  {
+   "dataset": "ammo",
+   "id": ".222-remington-vmax",
+   "field": "muzzle_velocity",
+   "from": "970 m/s",
+   "to": "1020 m/s",
+   "gameItem": "IS_Ammo_VMax_222"
+  },
+  {
+   "dataset": "ammo",
+   "id": ".222-remington-vmax",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ 0",
+   "to": "NIJ IIIA",
+   "gameItem": "IS_Ammo_VMax_222"
+  },
+  {
+   "dataset": "ammo",
+   "id": ".300-aac-blackout-cq",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III",
+   "to": "NIJ III+",
+   "gameItem": "IS_Ammo_CQ_300Aac"
+  },
+  {
+   "dataset": "ammo",
+   "id": ".300-aac-blackout-fmj",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IIIA+",
+   "to": "NIJ III",
+   "gameItem": "IS_Ammo_Fmj_300Aac"
+  },
+  {
+   "dataset": "ammo",
+   "id": ".300-aac-blackout-v-max",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IIIA+",
+   "to": "NIJ IIIA",
+   "gameItem": "IS_Ammo_VMax_300Aac"
+  },
+  {
+   "dataset": "ammo",
+   "id": ".45-acp-ap",
+   "field": "muzzle_velocity",
+   "from": "299 m/s",
+   "to": "450 m/s",
+   "gameItem": "IS_Ammo_Ap_45Acp"
+  },
+  {
+   "dataset": "ammo",
+   "id": ".45-acp-ap",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IIIA",
+   "to": "NIJ III+",
+   "gameItem": "IS_Ammo_Ap_45Acp"
+  },
+  {
+   "dataset": "ammo",
+   "id": ".45-acp-fmj",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IIA",
+   "to": "NIJ I++",
+   "gameItem": "IS_Ammo_Fmj_45Acp"
+  },
+  {
+   "dataset": "ammo",
+   "id": ".45-acp-hydra-shok",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ 0",
+   "to": "NIJ I+",
+   "gameItem": "IS_Ammo_HydraShock_45Acp"
+  },
+  {
+   "dataset": "ammo",
+   "id": ".45-acp-jhp-+p",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ 0",
+   "to": "NIJ I",
+   "gameItem": "IS_Ammo_JhpP_45Acp"
+  },
+  {
+   "dataset": "ammo",
+   "id": "12ga-00-buckshot",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ 0",
+   "to": "NIJ I",
+   "gameItem": "IS_Ammo_00Buckshot_12Gaug"
+  },
+  {
+   "dataset": "ammo",
+   "id": "12ga-fc-00-buckshot",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IIIA",
+   "to": "NIJ III",
+   "gameItem": "IS_Ammo_00FCBuckshot_12Gaug"
+  },
+  {
+   "dataset": "ammo",
+   "id": "12ga-slug",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ 0",
+   "to": "NIJ I",
+   "gameItem": "IS_Ammo_Slug_12Gaug"
+  },
+  {
+   "dataset": "ammo",
+   "id": "12ga-sst-sabot-slug",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III",
+   "to": "NIJ III+",
+   "gameItem": "IS_Ammo_SstSabotSlug_12Gaug"
+  },
+  {
+   "dataset": "ammo",
+   "id": "4.6x30mm-action-sx",
+   "field": "muzzle_velocity",
+   "from": "680 m/s",
+   "to": "690 m/s",
+   "gameItem": "IS_Ammo_ActionSx_46x30"
+  },
+  {
+   "dataset": "ammo",
+   "id": "4.6x30mm-action-sx",
+   "field": "sold_by",
+   "from": "Banshee R.2",
+   "to": "Banshee R.1",
+   "gameItem": "IS_Ammo_ActionSx_46x30"
+  },
+  {
+   "dataset": "ammo",
+   "id": "4.6x30mm-action-sx",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IIA+",
+   "to": "NIJ IIIA",
+   "gameItem": "IS_Ammo_ActionSx_46x30"
+  },
+  {
+   "dataset": "ammo",
+   "id": "4.6x30mm-ap-sx",
+   "field": "muzzle_velocity",
+   "from": "690 m/s",
+   "to": "680 m/s",
+   "gameItem": "IS_Ammo_ApSx_46x30"
+  },
+  {
+   "dataset": "ammo",
+   "id": "4.6x30mm-ap-sx",
+   "field": "sold_by",
+   "from": "Banshee R.4",
+   "to": "Banshee R.3",
+   "gameItem": "IS_Ammo_ApSx_46x30"
+  },
+  {
+   "dataset": "ammo",
+   "id": "4.6x30mm-ap-sx",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IIIA",
+   "to": "NIJ III+",
+   "gameItem": "IS_Ammo_ApSx_46x30"
+  },
+  {
+   "dataset": "ammo",
+   "id": "4.6x30mm-fmj-sx",
+   "field": "muzzle_velocity",
+   "from": "612 m/s",
+   "to": "620 m/s",
+   "gameItem": "IS_Ammo_FmjSx_46x30"
+  },
+  {
+   "dataset": "ammo",
+   "id": "4.6x30mm-fmj-sx",
+   "field": "sold_by",
+   "from": "Banshee R.2",
+   "to": "Banshee R.1",
+   "gameItem": "IS_Ammo_FmjSx_46x30"
+  },
+  {
+   "dataset": "ammo",
+   "id": "4.6x30mm-fmj-sx",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IIIA",
+   "to": "NIJ IIIA+",
+   "gameItem": "IS_Ammo_FmjSx_46x30"
+  },
+  {
+   "dataset": "ammo",
+   "id": "4.6x30mm-subsonic-sx",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IIIA",
+   "to": "NIJ IIA",
+   "gameItem": "IS_Ammo_SubsonicSx_46x30"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-bp-7n22",
+   "field": "accuracy_modifier",
+   "from": "-1 %",
+   "to": "+1 %",
+   "gameItem": "IS_Ammo_Bp7N22_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-bp-7n22",
+   "field": "muzzle_velocity",
+   "from": "840 m/s",
+   "to": "860 m/s",
+   "gameItem": "IS_Ammo_Bp7N22_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-bp-7n22",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0105 kg",
+   "gameItem": "IS_Ammo_Bp7N22_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-bs-7n24",
+   "field": "accuracy_modifier",
+   "from": "-6 %",
+   "to": "+6 %",
+   "gameItem": "IS_Ammo_Bs7N24_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-bs-7n24",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III++",
+   "to": "NIJ IV",
+   "gameItem": "IS_Ammo_Bs7N24_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-bs-7n24",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.011 kg",
+   "gameItem": "IS_Ammo_Bs7N24_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-bt-7bt4",
+   "field": "accuracy_modifier",
+   "from": "-2 %",
+   "to": "+2 %",
+   "gameItem": "IS_Ammo_Bt7Bt4_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-bt-7bt4",
+   "field": "muzzle_velocity",
+   "from": "880 m/s",
+   "to": "915 m/s",
+   "gameItem": "IS_Ammo_Bt7Bt4_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-bt-7bt4",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III+",
+   "to": "NIJ III++",
+   "gameItem": "IS_Ammo_Bt7Bt4_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-bt-7bt4",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0105 kg",
+   "gameItem": "IS_Ammo_Bt7Bt4_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-fmj",
+   "field": "muzzle_velocity",
+   "from": "884 m/s",
+   "to": "855 m/s",
+   "gameItem": "IS_Ammo_Fmj_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-fmj",
+   "field": "sold_by",
+   "from": "Turncoat R.1",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_Ammo_Fmj_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-fmj",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IIIA+",
+   "to": "NIJ III",
+   "gameItem": "IS_Ammo_Fmj_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-fmj",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0105 kg",
+   "gameItem": "IS_Ammo_Fmj_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-hp",
+   "field": "accuracy_modifier",
+   "from": "+6 %",
+   "to": "-6 %",
+   "gameItem": "IS_Ammo_Hp_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-hp",
+   "field": "muzzle_velocity",
+   "from": "884 m/s",
+   "to": "880 m/s",
+   "gameItem": "IS_Ammo_Hp_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-hp",
+   "field": "sold_by",
+   "from": "Turncoat R.1",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_Ammo_Hp_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-hp",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0105 kg",
+   "gameItem": "IS_Ammo_Hp_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-pp-7n10",
+   "field": "accuracy_modifier",
+   "from": "-2 %",
+   "to": "+2 %",
+   "gameItem": "IS_Ammo_Pp7N10_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-pp-7n10",
+   "field": "muzzle_velocity",
+   "from": "880 m/s",
+   "to": "870 m/s",
+   "gameItem": "IS_Ammo_Pp7N10_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-pp-7n10",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III+",
+   "to": "NIJ III++",
+   "gameItem": "IS_Ammo_Pp7N10_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-pp-7n10",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0105 kg",
+   "gameItem": "IS_Ammo_Pp7N10_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-ps-7n6",
+   "field": "accuracy_modifier",
+   "from": "+2 %",
+   "to": "-2 %",
+   "gameItem": "IS_Ammo_Ps7N6_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-ps-7n6",
+   "field": "muzzle_velocity",
+   "from": "880 m/s",
+   "to": "900 m/s",
+   "gameItem": "IS_Ammo_Ps7N6_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-ps-7n6",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III",
+   "to": "NIJ III+",
+   "gameItem": "IS_Ammo_Ps7N6_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-ps-7n6",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0105 kg",
+   "gameItem": "IS_Ammo_Ps7N6_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-us-7u1",
+   "field": "accuracy_modifier",
+   "from": "+6 %",
+   "to": "-6 %",
+   "gameItem": "IS_Ammo_US7U1_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-us-7u1",
+   "field": "muzzle_velocity",
+   "from": "304 m/s",
+   "to": "303 m/s",
+   "gameItem": "IS_Ammo_US7U1_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-us-7u1",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0125 kg",
+   "gameItem": "IS_Ammo_US7U1_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-wolf",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ 0",
+   "to": "NIJ I",
+   "gameItem": "IS_Ammo_Wolf_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.45x39mm-wolf",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0108 kg",
+   "gameItem": "IS_Ammo_Wolf_545x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.56x45mm-ap-m855",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III++",
+   "to": "NIJ III+",
+   "gameItem": "IS_Ammo_M855_556x45"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.56x45mm-ap-m855a1",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IV",
+   "to": "NIJ III++",
+   "gameItem": "IS_Ammo_M855A1_556x45"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.56x45mm-ap-m855a1",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0116 kg",
+   "gameItem": "IS_Ammo_M855A1_556x45"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.56x45mm-ap-m995",
+   "field": "muzzle_velocity",
+   "from": "1,030 m/s",
+   "to": "1030 m/s",
+   "gameItem": "IS_Ammo_M995_556x45"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.56x45mm-hpbt",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III",
+   "to": "NIJ IIIA+",
+   "gameItem": "IS_Ammo_Hpbt_556x45"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.56x45mm-sp",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ 0",
+   "to": "NIJ I",
+   "gameItem": "IS_Ammo_Sp_556x45"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.56x45mm-tracer-m856",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III",
+   "to": "NIJ III+",
+   "gameItem": "IS_Ammo_M856_556x45"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.56x45mm-tracer-m856",
+   "field": "weight",
+   "from": "0.014kg",
+   "to": "0.0135 kg",
+   "gameItem": "IS_Ammo_M856_556x45"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.56x45mm-tracer-m856a1",
+   "field": "accuracy_modifier",
+   "from": "-7 %",
+   "to": "-4 %",
+   "gameItem": "IS_Ammo_M856A1_556x45"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.56x45mm-tracer-m856a1",
+   "field": "muzzle_velocity",
+   "from": "970 m/s",
+   "to": "945 m/s",
+   "gameItem": "IS_Ammo_M856A1_556x45"
+  },
+  {
+   "dataset": "ammo",
+   "id": "5.56x45mm-tracer-m856a1",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0125 kg",
+   "gameItem": "IS_Ammo_M856A1_556x45"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x25mm-fmj",
+   "field": "accuracy_modifier",
+   "from": "+2 %",
+   "to": "+0 %",
+   "gameItem": "IS_Ammo_Fmj_762x25"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x25mm-fmj",
+   "field": "muzzle_velocity",
+   "from": "415 m/s",
+   "to": "430 m/s",
+   "gameItem": "IS_Ammo_Fmj_762x25"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x25mm-fmj",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IIA",
+   "to": "NIJ II",
+   "gameItem": "IS_Ammo_Fmj_762x25"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x25mm-pst",
+   "field": "accuracy_modifier",
+   "from": "-2 %",
+   "to": "+2 %",
+   "gameItem": "IS_Ammo_Pst_762x25"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x25mm-pst",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.011 kg",
+   "gameItem": "IS_Ammo_Pst_762x25"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x25mm-pt",
+   "field": "accuracy_modifier",
+   "from": "+2 %",
+   "to": "-2 %",
+   "gameItem": "IS_Ammo_Pt_762x25"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x25mm-pt",
+   "field": "sold_by",
+   "from": "Artisan R.2",
+   "to": "Artisan R.1",
+   "gameItem": "IS_Ammo_Pt_762x25"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x25mm-pt",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.011 kg",
+   "gameItem": "IS_Ammo_Pt_762x25"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x39mm-bp-7n23",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III++",
+   "to": "NIJ IV",
+   "gameItem": "IS_Ammo_7N23Bp_762x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x39mm-bp-7n23",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0163 kg",
+   "gameItem": "IS_Ammo_7N23Bp_762x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x39mm-ps-57-n-231c",
+   "field": "sold_by",
+   "from": "Artisan R.3",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_Ammo_57N231Ps_762x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x39mm-ps-57-n-231c",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0163 kg",
+   "gameItem": "IS_Ammo_57N231Ps_762x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x39mm-sp",
+   "field": "accuracy_modifier",
+   "from": "+2 %",
+   "to": "-2 %",
+   "gameItem": "IS_Ammo_Sp_762x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x39mm-sp",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ 0",
+   "to": "NIJ I",
+   "gameItem": "IS_Ammo_Sp_762x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x39mm-sp",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0175 kg",
+   "gameItem": "IS_Ammo_Sp_762x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x39mm-tracer-57-n-231p",
+   "field": "accuracy_modifier",
+   "from": "+3 %",
+   "to": "-3 %",
+   "gameItem": "IS_Ammo_57N231PTracer_762x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x39mm-tracer-57-n-231p",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III+",
+   "to": "NIJ III",
+   "gameItem": "IS_Ammo_57N231PTracer_762x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x39mm-tracer-57-n-231p",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0163 kg",
+   "gameItem": "IS_Ammo_57N231PTracer_762x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x39mm-us",
+   "field": "accuracy_modifier",
+   "from": "+6 %",
+   "to": "-6 %",
+   "gameItem": "IS_Ammo_Us_762x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x39mm-us",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0163 kg",
+   "gameItem": "IS_Ammo_Us_762x39"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x51mm-ap-m61",
+   "field": "accuracy_modifier",
+   "from": "-4 %",
+   "to": "+4 %",
+   "gameItem": "IS_Ammo_M61_762x51"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x51mm-ap-m61",
+   "field": "weight",
+   "from": "0.024kg",
+   "to": "0.0245 kg",
+   "gameItem": "IS_Ammo_M61_762x51"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x51mm-fmj-m80a1",
+   "field": "accuracy_modifier",
+   "from": "-3 %",
+   "to": "+3 %",
+   "gameItem": "IS_Ammo_M80A1_762x51"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x51mm-fmj-m80a1",
+   "field": "sold_by",
+   "from": "Banshee R.3",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Ammo_M80A1_762x51"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x51mm-fmj-m80a1",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.024 kg",
+   "gameItem": "IS_Ammo_M80A1_762x51"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x51mm-hpbt",
+   "field": "sold_by",
+   "from": "Banshee R.2",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Ammo_Hpbt_762x51"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x51mm-hpbt",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III",
+   "to": "NIJ IIIA+",
+   "gameItem": "IS_Ammo_Hpbt_762x51"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x51mm-hpbt",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.0275 kg",
+   "gameItem": "IS_Ammo_Hpbt_762x51"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x51mm-tracer-m62",
+   "field": "accuracy_modifier",
+   "from": "+4 %",
+   "to": "-4 %",
+   "gameItem": "IS_Ammo_M62_762x51"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x51mm-tracer-m62",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III++",
+   "to": "NIJ III",
+   "gameItem": "IS_Ammo_M62_762x51"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x54r-ap-7n13",
+   "field": "accuracy_modifier",
+   "from": "-2 %",
+   "to": "+2 %",
+   "gameItem": "IS_Ammo_7N13Ap_762x54"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x54r-ap-7n13",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IV",
+   "to": "NIJ IV++",
+   "gameItem": "IS_Ammo_7N13Ap_762x54"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x54r-lps-57-n-323s",
+   "field": "accuracy_modifier",
+   "from": "-1 %",
+   "to": "+1 %",
+   "gameItem": "IS_Ammo_Lps_762x54"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x54r-lps-57-n-323s",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Artisan R.2",
+   "gameItem": "IS_Ammo_Lps_762x54"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x54r-lps-57-n-323s",
+   "field": "weight",
+   "from": "0.01 kg",
+   "to": "0.021 kg",
+   "gameItem": "IS_Ammo_Lps_762x54"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x54r-sniper-round-7n1",
+   "field": "accuracy_modifier",
+   "from": "-5 %",
+   "to": "+5 %",
+   "gameItem": "IS_Ammo_7N1SniperRound_762x54"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x54r-sniper-round-7n1",
+   "field": "muzzle_velocity",
+   "from": "835 m/s",
+   "to": "830 m/s",
+   "gameItem": "IS_Ammo_7N1SniperRound_762x54"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x54r-sniper-round-7n1",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III++",
+   "to": "NIJ IVA+",
+   "gameItem": "IS_Ammo_7N1SniperRound_762x54"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x54r-sniper-round-7n1",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.021 kg",
+   "gameItem": "IS_Ammo_7N1SniperRound_762x54"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x54r-tracer-t-46m",
+   "field": "accuracy_modifier",
+   "from": "+3%",
+   "to": "-3 %",
+   "gameItem": "IS_Ammo_T46MTracer_762x54"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x54r-tracer-t-46m",
+   "field": "sold_by",
+   "from": "Artisan R.2",
+   "to": "Artisan R.3",
+   "gameItem": "IS_Ammo_T46MTracer_762x54"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x54r-tracer-t-46m",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III+",
+   "to": "NIJ III++",
+   "gameItem": "IS_Ammo_T46MTracer_762x54"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.62x54r-tracer-t-46m",
+   "field": "weight",
+   "from": "0.01 kg",
+   "to": "0.022 kg",
+   "gameItem": "IS_Ammo_T46MTracer_762x54"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.65-browning-fmj",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ 0",
+   "to": "NIJ IIA",
+   "gameItem": "IS_Ammo_765BrowningFmj_765"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.65-browning-fmj",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.008 kg",
+   "gameItem": "IS_Ammo_765BrowningFmj_765"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.65-browning-jhp",
+   "field": "accuracy_modifier",
+   "from": "+4 %",
+   "to": "-4 %",
+   "gameItem": "IS_Ammo_765BrowningJhp_765"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.65-browning-jhp",
+   "field": "muzzle_velocity",
+   "from": "238 m/s",
+   "to": "276 m/s",
+   "gameItem": "IS_Ammo_765BrowningJhp_765"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.65-browning-jhp",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ 0",
+   "to": "NIJ I",
+   "gameItem": "IS_Ammo_765BrowningJhp_765"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.65-browning-jhp",
+   "field": "weight",
+   "from": "0.01kg",
+   "to": "0.008 kg",
+   "gameItem": "IS_Ammo_765BrowningJhp_765"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.65-browning-xtreme-defender",
+   "field": "accuracy_modifier",
+   "from": "+2 %",
+   "to": "-2 %",
+   "gameItem": "IS_Ammo_765Browning55grXtremeDefender_765"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.65-browning-xtreme-defender",
+   "field": "muzzle_velocity",
+   "from": "289 m/s",
+   "to": "290 m/s",
+   "gameItem": "IS_Ammo_765Browning55grXtremeDefender_765"
+  },
+  {
+   "dataset": "ammo",
+   "id": "7.65-browning-xtreme-defender",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IIA",
+   "to": "NIJ II+",
+   "gameItem": "IS_Ammo_765Browning55grXtremeDefender_765"
+  },
+  {
+   "dataset": "ammo",
+   "id": "9x19mm-hp",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IIA",
+   "to": "NIJ I++",
+   "gameItem": "IS_Ammo_Hp_9x19"
+  },
+  {
+   "dataset": "ammo",
+   "id": "9x19mm-libra-snail",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ III",
+   "to": "NIJ III+",
+   "gameItem": "IS_Ammo_LibraSnail_9x19"
+  },
+  {
+   "dataset": "ammo",
+   "id": "9x19mm-xtreme-penetrator-p+",
+   "field": "stopped_by_armor_class",
+   "from": "NIJ IIIA",
+   "to": "NIJ IIIA+",
+   "gameItem": "IS_Ammo_XtremePenetratorP_9x19"
+  },
+  {
+   "dataset": "auxiliary",
+   "id": "sks-receiver-cover-retaining-pin",
+   "field": "buy_price",
+   "from": "$29",
+   "to": "$39",
+   "gameItem": "IS_Auxiliary_SksCoverPin"
+  },
+  {
+   "dataset": "auxiliary",
+   "id": "svd-rear-sight-ring",
+   "field": "buy_price",
+   "from": "$81",
+   "to": "$107",
+   "gameItem": "IS_Auxiliary_SvdRearSightRing"
+  },
+  {
+   "dataset": "auxiliary",
+   "id": "svd-rear-sight-ring",
+   "field": "sold_by",
+   "from": "Artisan R.4",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Auxiliary_SvdRearSightRing"
+  },
+  {
+   "dataset": "barrels",
+   "id": "ar-15-barrel---18\"",
+   "field": "buy_price",
+   "from": "$598",
+   "to": "$867",
+   "gameItem": "IS_Barrel_Ar1518inch_556x45"
+  },
+  {
+   "dataset": "barrels",
+   "id": "ar-15-barrel---18\"",
+   "field": "sold_by",
+   "from": "Gunny R.4",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Barrel_Ar1518inch_556x45"
+  },
+  {
+   "dataset": "barrels",
+   "id": "glock-17-match-grade-barrel",
+   "field": "buy_price",
+   "from": "$204",
+   "to": "$425",
+   "gameItem": "IS_Barrel_Glock17ZaffiriPrecision_9x19"
+  },
+  {
+   "dataset": "barrels",
+   "id": "m700-barrel---22\"",
+   "field": "sold_by",
+   "from": "Banshee R.2",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Barrel_M70022inchStandart_762x51"
+  },
+  {
+   "dataset": "barrels",
+   "id": "m700-suppressed-barrel---20\"",
+   "field": "buy_price",
+   "from": "$1,219",
+   "to": "$2,210",
+   "gameItem": "IS_Barrel_M70020inchSuppressed_762x51"
+  },
+  {
+   "dataset": "barrels",
+   "id": "m700-suppressed-barrel---20\"",
+   "field": "sold_by",
+   "from": "Banshee R.3",
+   "to": "Gunny R.4",
+   "gameItem": "IS_Barrel_M70020inchSuppressed_762x51"
+  },
+  {
+   "dataset": "barrels",
+   "id": "m700-threaded-barrel---18\"",
+   "field": "sold_by",
+   "from": "Banshee R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Barrel_M70018inchThreaded_762x51"
+  },
+  {
+   "dataset": "barrels",
+   "id": "m700-vtr-barrel---22\"",
+   "field": "buy_price",
+   "from": "$1,105",
+   "to": "$1,445",
+   "gameItem": "IS_Barrel_M70022inchVTR_762x51"
+  },
+  {
+   "dataset": "barrels",
+   "id": "m700-vtr-barrel---22\"",
+   "field": "sold_by",
+   "from": "Banshee R.3",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Barrel_M70022inchVTR_762x51"
+  },
+  {
+   "dataset": "barrels",
+   "id": "m9a1-threaded-barrel",
+   "field": "sold_by",
+   "from": "Gunny R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Barrel_BerettaM9A1Threaded"
+  },
+  {
+   "dataset": "barrels",
+   "id": "mosin-nagant-barrel---514mm",
+   "field": "buy_price",
+   "from": "$104",
+   "to": "$272",
+   "gameItem": "IS_Barrel_Mosin514mm_762x54"
+  },
+  {
+   "dataset": "barrels",
+   "id": "mosin-nagant-barrel---514mm",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Artisan R.2",
+   "gameItem": "IS_Barrel_Mosin514mm_762x54"
+  },
+  {
+   "dataset": "barrels",
+   "id": "optimized-glock-17-match-grade-threaded-barrel",
+   "field": "buy_price",
+   "from": "$339",
+   "to": "$544",
+   "gameItem": "IS_Barrel_Glock17ZevOptimizedThreaded_9x19"
+  },
+  {
+   "dataset": "barrels",
+   "id": "sig-mcx-barrel---16\"",
+   "field": "buy_price",
+   "from": "$1,266",
+   "to": "$1,360",
+   "gameItem": "IS_Barrel_SigMcx16inch_300AC"
+  },
+  {
+   "dataset": "barrels",
+   "id": "sig-mcx-barrel---9\"",
+   "field": "buy_price",
+   "from": "$1,255",
+   "to": "$1,224",
+   "gameItem": "IS_Barrel_SigMcx9inch_300AC"
+  },
+  {
+   "dataset": "barrels",
+   "id": "svd-barrel---620mm",
+   "field": "sold_by",
+   "from": "Artisan R.4",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Barrel_Svd620mm_762x54"
+  },
+  {
+   "dataset": "belts",
+   "id": "light-anatomical-belt-type-2-olive",
+   "field": "sold_by",
+   "from": "Turncoat R.3",
+   "to": "Turncoat R.4",
+   "gameItem": "IS_Belt_LightAnatomicalBeltType2_Olive"
+  },
+  {
+   "dataset": "belts",
+   "id": "mc50-laser-edition",
+   "field": "sold_by",
+   "from": "Handshake R.1",
+   "to": "Handshake R.3",
+   "gameItem": "IS_Belt_CustomGearMc50LaserEdition"
+  },
+  {
+   "dataset": "charging_handle",
+   "id": "ar-15-supreme-charging-handle",
+   "field": "buy_price",
+   "from": "$166",
+   "to": "$234",
+   "gameItem": "IS_Handle_AntregAr15"
+  },
+  {
+   "dataset": "charging_handle",
+   "id": "sig-mcx-charging-handle",
+   "field": "buy_price",
+   "from": "$162",
+   "to": "$212",
+   "gameItem": "IS_Handle_SigMcx"
+  },
+  {
+   "dataset": "collimators",
+   "id": "510c-reflex-sight",
+   "field": "sold_by",
+   "from": "Gunny R.4",
+   "to": "Banshee R.4",
+   "gameItem": "IS_Sight_Holosun510C"
+  },
+  {
+   "dataset": "collimators",
+   "id": "aimpoint-acro-p-2",
+   "field": "buy_price",
+   "from": "$1,015",
+   "to": "$1,360",
+   "gameItem": "IS_Sight_AimpointAcroP2"
+  },
+  {
+   "dataset": "collimators",
+   "id": "hs507c-x2-reflex-sight",
+   "field": "buy_price",
+   "from": "$989",
+   "to": "$1,224",
+   "gameItem": "IS_Sight_Holosun507cX2"
+  },
+  {
+   "dataset": "collimators",
+   "id": "hws-exps3-holographic-sight-circle-1-dot",
+   "field": "buy_price",
+   "from": "$1,043",
+   "to": "$1,360",
+   "gameItem": "IS_Sight_EotechHwsXps3"
+  },
+  {
+   "dataset": "collimators",
+   "id": "micro-t-1-red-dot-sight",
+   "field": "sold_by",
+   "from": "Gunny R.2",
+   "to": "Banshee R.2",
+   "gameItem": "IS_Sight_AimpointMicroT1"
+  },
+  {
+   "dataset": "collimators",
+   "id": "okp7-red-dot-sight",
+   "field": "sold_by",
+   "from": "Artisan R.2",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_Sight_Okp7Picatinny"
+  },
+  {
+   "dataset": "collimators",
+   "id": "pilad-р2.5х24l-brevis-assault-scope",
+   "field": "buy_price",
+   "from": "$468",
+   "to": "$1,530",
+   "gameItem": "IS_Sight_PiladP25x24lBrevis"
+  },
+  {
+   "dataset": "collimators",
+   "id": "pilad-р2.5х24l-brevis-assault-scope",
+   "field": "sold_by",
+   "from": "Turncoat R.2",
+   "to": "Artisan R.2",
+   "gameItem": "IS_Sight_PiladP25x24lBrevis"
+  },
+  {
+   "dataset": "collimators",
+   "id": "pk-01-vs-red-dot-sight",
+   "field": "buy_price",
+   "from": "$386",
+   "to": "$731",
+   "gameItem": "IS_Sight_BelomoPk01Vs"
+  },
+  {
+   "dataset": "collimators",
+   "id": "pk-01-vs-red-dot-sight",
+   "field": "sold_by",
+   "from": "Artisan R.2",
+   "to": "Turncoat R.1",
+   "gameItem": "IS_Sight_BelomoPk01Vs"
+  },
+  {
+   "dataset": "collimators",
+   "id": "viper-red-dot-sight",
+   "field": "buy_price",
+   "from": "$578",
+   "to": "$850",
+   "gameItem": "IS_Sight_VortexViperRedDot"
+  },
+  {
+   "dataset": "containers",
+   "id": "large-safe",
+   "field": "sold_by",
+   "from": "Vulture R.4",
+   "to": "Collector R.4",
+   "gameItem": "IS_Case_LargeTresor"
+  },
+  {
+   "dataset": "containers",
+   "id": "small-safe",
+   "field": "sold_by",
+   "from": "Vulture R.3",
+   "to": "Collector R.3",
+   "gameItem": "IS_Case_SmallTresor"
+  },
+  {
+   "dataset": "face_cover",
+   "id": "half-mask-black",
+   "field": "sold_by",
+   "from": "Banshee R.3",
+   "to": "Handshake R.4",
+   "gameItem": "IS_Mask_HalfMask_Black"
+  },
+  {
+   "dataset": "food",
+   "id": "combat-ration-pack",
+   "field": "sold_by",
+   "from": "Lab Rat R.3",
+   "to": "Lab Rat R.4",
+   "gameItem": "IS_Prov_Food_MRE"
+  },
+  {
+   "dataset": "foregrips",
+   "id": "afg-2",
+   "field": "buy_price",
+   "from": "$80",
+   "to": "$476",
+   "gameItem": "IS_Foregrip_MagpulAfg2"
+  },
+  {
+   "dataset": "foregrips",
+   "id": "rk-1",
+   "field": "buy_price",
+   "from": "$70",
+   "to": "$289",
+   "gameItem": "IS_Foregrip_ZenitcoRk1"
+  },
+  {
+   "dataset": "foregrips",
+   "id": "rk-5",
+   "field": "buy_price",
+   "from": "$59",
+   "to": "$195",
+   "gameItem": "IS_Foregrip_ZenitcoRk5"
+  },
+  {
+   "dataset": "foregrips",
+   "id": "rk-6",
+   "field": "buy_price",
+   "from": "$55",
+   "to": "$178",
+   "gameItem": "IS_Foregrip_ZenitcoRk6"
+  },
+  {
+   "dataset": "foregrips",
+   "id": "rk-6",
+   "field": "sold_by",
+   "from": "Turncoat R.1",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_Foregrip_ZenitcoRk6"
+  },
+  {
+   "dataset": "foregrips",
+   "id": "shift-vertical-foregrip",
+   "field": "buy_price",
+   "from": "$78",
+   "to": "$340",
+   "gameItem": "IS_Foregrip_ShiftVertical"
+  },
+  {
+   "dataset": "foregrips",
+   "id": "shift-vertical-foregrip",
+   "field": "sold_by",
+   "from": "Banshee R.2",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Foregrip_ShiftVertical"
+  },
+  {
+   "dataset": "foregrips",
+   "id": "ultraslim-angled-foregrip",
+   "field": "sold_by",
+   "from": "Gunny R.2",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Foregrip_UtgUltraSlimAngeled"
+  },
+  {
+   "dataset": "front_iron_sights",
+   "id": "glock-17-oem-front-tritium-sight",
+   "field": "buy_price",
+   "from": "$48",
+   "to": "$110",
+   "gameItem": "IS_Sight_Glock17OemTritiumFrontSight"
+  },
+  {
+   "dataset": "front_iron_sights",
+   "id": "mosin-nagant-front-iron-sight",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Artisan R.2",
+   "gameItem": "IS_Sight_MosinFrontSight"
+  },
+  {
+   "dataset": "front_iron_sights",
+   "id": "sig-sauer-flip-up-front-iron-sights",
+   "field": "buy_price",
+   "from": "$52",
+   "to": "$119",
+   "gameItem": "IS_Sight_SigSauerFlipUpFrontIronSights"
+  },
+  {
+   "dataset": "front_iron_sights",
+   "id": "svd-front-sight",
+   "field": "buy_price",
+   "from": "$68",
+   "to": "$153",
+   "gameItem": "IS_Sight_SvdFrontSight"
+  },
+  {
+   "dataset": "front_iron_sights",
+   "id": "svd-front-sight",
+   "field": "sold_by",
+   "from": "Artisan R.4",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Sight_SvdFrontSight"
+  },
+  {
+   "dataset": "gas_blocks",
+   "id": "ak-74-gas-tube",
+   "field": "buy_price",
+   "from": "$7",
+   "to": "$13",
+   "gameItem": "IS_GasBlock_Ak74GasTube"
+  },
+  {
+   "dataset": "gas_blocks",
+   "id": "akm-gas-tube",
+   "field": "buy_price",
+   "from": "$10",
+   "to": "$22",
+   "gameItem": "IS_GasBlock_Akm6P1Sb12GasTube"
+  },
+  {
+   "dataset": "gas_blocks",
+   "id": "akm-gas-tube",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_GasBlock_Akm6P1Sb12GasTube"
+  },
+  {
+   "dataset": "gas_blocks",
+   "id": "aks-74u-gas-tube",
+   "field": "buy_price",
+   "from": "$68",
+   "to": "$127",
+   "gameItem": "IS_GasBlock_Aks74UGasTube"
+  },
+  {
+   "dataset": "gas_blocks",
+   "id": "ratnik-gas-tube",
+   "field": "buy_price",
+   "from": "$244",
+   "to": "$319",
+   "gameItem": "IS_GasBlock_AkRatnikGasTube"
+  },
+  {
+   "dataset": "gas_blocks",
+   "id": "sig-mcx-gas-block",
+   "field": "buy_price",
+   "from": "$312",
+   "to": "$408",
+   "gameItem": "IS_GasBlock_SigMcx"
+  },
+  {
+   "dataset": "gear",
+   "id": "half-mask-black",
+   "field": "sold_by",
+   "from": "Banshee R.3",
+   "to": "Handshake R.4",
+   "gameItem": "IS_Mask_HalfMask_Black"
+  },
+  {
+   "dataset": "glasses",
+   "id": "gatorz-magnum-black",
+   "field": "sold_by",
+   "from": "Banshee R.3",
+   "to": "Handshake R.4",
+   "gameItem": "IS_Glasses_GatorzMagnum"
+  },
+  {
+   "dataset": "handguards",
+   "id": "ak-b10m-+-b19-handguard",
+   "field": "buy_price",
+   "from": "$167",
+   "to": "$850",
+   "gameItem": "IS_Handguard_B10B19Ak"
+  },
+  {
+   "dataset": "handguards",
+   "id": "ak-b10m-+-b19-handguard",
+   "field": "sold_by",
+   "from": "Turncoat R.2",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Handguard_B10B19Ak"
+  },
+  {
+   "dataset": "handguards",
+   "id": "ak-ratnik-handguard",
+   "field": "buy_price",
+   "from": "$406",
+   "to": "$1,020",
+   "gameItem": "IS_Handguard_AkRatnik"
+  },
+  {
+   "dataset": "handguards",
+   "id": "akm-wooden-handguard",
+   "field": "buy_price",
+   "from": "$59",
+   "to": "$136",
+   "gameItem": "IS_Handguard_AkmWooden"
+  },
+  {
+   "dataset": "handguards",
+   "id": "akm-wooden-handguard",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_Handguard_AkmWooden"
+  },
+  {
+   "dataset": "handguards",
+   "id": "aks-74u-mlok-handguard",
+   "field": "buy_price",
+   "from": "$84",
+   "to": "$391",
+   "gameItem": "IS_Handguard_Aks74UMlok"
+  },
+  {
+   "dataset": "handguards",
+   "id": "aks-74u-mlok-handguard",
+   "field": "sold_by",
+   "from": "Turncoat R.2",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Handguard_Aks74UMlok"
+  },
+  {
+   "dataset": "handguards",
+   "id": "aks-74u-quad-rail-handguard",
+   "field": "buy_price",
+   "from": "$50",
+   "to": "$476",
+   "gameItem": "IS_Handguard_Aks74UQuad"
+  },
+  {
+   "dataset": "handguards",
+   "id": "aks-74u-quad-rail-handguard",
+   "field": "sold_by",
+   "from": "Turncoat R.1",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Handguard_Aks74UQuad"
+  },
+  {
+   "dataset": "handguards",
+   "id": "aks-74u-wooden-handguard",
+   "field": "buy_price",
+   "from": "$33",
+   "to": "$136",
+   "gameItem": "IS_Handguard_Aks74UWooden"
+  },
+  {
+   "dataset": "handguards",
+   "id": "ar-15-moe-m-lok-carbine-handguard",
+   "field": "sold_by",
+   "from": "Gunny R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Handguard_MagpulMoeMLokAr15Carabine"
+  },
+  {
+   "dataset": "handguards",
+   "id": "b&t-hk-mp5-tl-99a1-3-rail-handguard",
+   "field": "buy_price",
+   "from": "$345",
+   "to": "$646",
+   "gameItem": "IS_Handguard_Mp5BTl99A13Rail"
+  },
+  {
+   "dataset": "handguards",
+   "id": "m700-mod*x-handguard",
+   "field": "buy_price",
+   "from": "$271",
+   "to": "$850",
+   "gameItem": "IS_Handguard_M700ModX"
+  },
+  {
+   "dataset": "handguards",
+   "id": "m700-mod*x-handguard",
+   "field": "sold_by",
+   "from": "Banshee R.4",
+   "to": "Gunny R.4",
+   "gameItem": "IS_Handguard_M700ModX"
+  },
+  {
+   "dataset": "handguards",
+   "id": "m870-moe-handguard",
+   "field": "buy_price",
+   "from": "$83",
+   "to": "$340",
+   "gameItem": "IS_Handguard_RemingtonM870MagpulMoe"
+  },
+  {
+   "dataset": "handguards",
+   "id": "m870-voa-handguard",
+   "field": "buy_price",
+   "from": "$100",
+   "to": "$544",
+   "gameItem": "IS_Handguard_RemingtonM870StrikeIndustriesVoa"
+  },
+  {
+   "dataset": "handguards",
+   "id": "m870-voa-handguard",
+   "field": "sold_by",
+   "from": "Gunny R.4",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Handguard_RemingtonM870StrikeIndustriesVoa"
+  },
+  {
+   "dataset": "handguards",
+   "id": "m870-walnut-forend",
+   "field": "buy_price",
+   "from": "$33",
+   "to": "$153",
+   "gameItem": "IS_Handguard_RemingtonM870Walnut"
+  },
+  {
+   "dataset": "handguards",
+   "id": "sig-mcx-10\"-handguard",
+   "field": "buy_price",
+   "from": "$434",
+   "to": "$850",
+   "gameItem": "IS_Handguard_SigMcx10"
+  },
+  {
+   "dataset": "handguards",
+   "id": "sig-mcx-16\"-handguard",
+   "field": "buy_price",
+   "from": "$438",
+   "to": "$1,224",
+   "gameItem": "IS_Handguard_SigMcx16"
+  },
+  {
+   "dataset": "handguards",
+   "id": "sig-mcx-8\"-handguard",
+   "field": "buy_price",
+   "from": "$365",
+   "to": "$935",
+   "gameItem": "IS_Handguard_SigMcx8"
+  },
+  {
+   "dataset": "handguards",
+   "id": "svd-polymer-handguard",
+   "field": "buy_price",
+   "from": "$555",
+   "to": "$595",
+   "gameItem": "IS_Handguard_SvdPolymer"
+  },
+  {
+   "dataset": "handguards",
+   "id": "svd-polymer-handguard",
+   "field": "sold_by",
+   "from": "Artisan R.4",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Handguard_SvdPolymer"
+  },
+  {
+   "dataset": "handguards",
+   "id": "x7m-13-handguard",
+   "field": "buy_price",
+   "from": "$508",
+   "to": "$1,275",
+   "gameItem": "IS_Handguard_F1FirearmsX7M13"
+  },
+  {
+   "dataset": "helmets",
+   "id": "exfil-coyote-brown",
+   "field": "sold_by",
+   "from": "Handshake R.2",
+   "to": "Handshake R.4",
+   "gameItem": "IS_Helmet_Exfil_CoyoteBrown"
+  },
+  {
+   "dataset": "helmets",
+   "id": "exfil-multicam",
+   "field": "sold_by",
+   "from": "Handshake R.3",
+   "to": "Handshake R.4",
+   "gameItem": "IS_Helmet_Exfil_Multicam"
+  },
+  {
+   "dataset": "helmets",
+   "id": "exsof-cap",
+   "field": "sold_by",
+   "from": "Banshee R.1",
+   "to": "Banshee R.2",
+   "gameItem": "IS_Hat_CapExSOF"
+  },
+  {
+   "dataset": "helmets",
+   "id": "fast-mt-tan",
+   "field": "sold_by",
+   "from": "Handshake R.3",
+   "to": "Handshake R.4",
+   "gameItem": "IS_Helmet_FastMt_Tan"
+  },
+  {
+   "dataset": "helmets",
+   "id": "mich-tc-2002-tan",
+   "field": "sold_by",
+   "from": "Handshake R.2",
+   "to": "Handshake R.3",
+   "gameItem": "IS_Helmet_MichTc2002_Tan"
+  },
+  {
+   "dataset": "helmets",
+   "id": "pasgt",
+   "field": "sold_by",
+   "from": "Turncoat R.2",
+   "to": "Handshake R.2",
+   "gameItem": "IS_Helmet_Pastg"
+  },
+  {
+   "dataset": "helmets",
+   "id": "regiment-cap",
+   "field": "sold_by",
+   "from": "Banshee R.4",
+   "to": "Handshake R.1",
+   "gameItem": "IS_Hat_CapRegiment"
+  },
+  {
+   "dataset": "magazines",
+   "id": "m700-7.62x51mm-5-round-magazine",
+   "field": "sold_by",
+   "from": "Banshee R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Mag_Remington700Aics_5Rnd_762x51"
+  },
+  {
+   "dataset": "magazines",
+   "id": "mosin-nagant-7.62x54r-5-round-internal-magazine",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Artisan R.2",
+   "gameItem": "IS_Mag_MosinInternalMagazine_5Rnd_762x54"
+  },
+  {
+   "dataset": "medical",
+   "id": "arf-trauma-bandage-4",
+   "field": "sold_by",
+   "from": "Lab Rat R.1",
+   "to": "Lab Rat R.2",
+   "gameItem": "IS_Med_Band_EmergencyTraumaDressing"
+  },
+  {
+   "dataset": "medical",
+   "id": "flexible-splint",
+   "field": "sold_by",
+   "from": "Lab Rat R.2",
+   "to": "Lab Rat R.3",
+   "gameItem": "IS_Med_Splint_FlexibleSplint"
+  },
+  {
+   "dataset": "medical",
+   "id": "m.f.a.t.-tourniquet",
+   "field": "sold_by",
+   "from": "Lab Rat R.1",
+   "to": "Lab Rat R.2",
+   "gameItem": "IS_Med_Tour_Rats"
+  },
+  {
+   "dataset": "medical",
+   "id": "paracetamol",
+   "field": "sold_by",
+   "from": "Lab Rat R.2",
+   "to": "Lab Rat R.1",
+   "gameItem": "IS_Med_Pills_Paracetamol"
+  },
+  {
+   "dataset": "medical",
+   "id": "potassium-iodide",
+   "field": "sold_by",
+   "from": "Lab Rat R.1",
+   "to": "Lab Rat R.2",
+   "gameItem": "IS_Med_Pills_PotassiumIodine"
+  },
+  {
+   "dataset": "mortar_rounds",
+   "id": "m933-120mm-he-cartridge-low-range",
+   "field": "buy_price",
+   "from": "$500",
+   "to": "$5,000",
+   "gameItem": "IS_Mortar_Ammo_M933HEZone1"
+  },
+  {
+   "dataset": "mortar_rounds",
+   "id": "m933-120mm-he-cartridge-low-range",
+   "field": "sold_by",
+   "from": "Gunny R.2",
+   "to": "Gunny R.1",
+   "gameItem": "IS_Mortar_Ammo_M933HEZone1"
+  },
+  {
+   "dataset": "mortar_rounds",
+   "id": "m933-120mm-he-cartridge-medium-range",
+   "field": "buy_price",
+   "from": "$1,000",
+   "to": "$10,000",
+   "gameItem": "IS_Mortar_Ammo_M933HEZone2"
+  },
+  {
+   "dataset": "mortar_rounds",
+   "id": "m933-120mm-he-cartridge-medium-range",
+   "field": "sold_by",
+   "from": "Gunny R.3",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Mortar_Ammo_M933HEZone2"
+  },
+  {
+   "dataset": "mounts",
+   "id": "1911-grip-scope-mount",
+   "field": "sold_by",
+   "from": "Vulture R.2",
+   "to": "Artisan R.3",
+   "gameItem": "IS_Mount_1911GripScopeMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "aimpoint-acro-picatinny-mount",
+   "field": "buy_price",
+   "from": "$88",
+   "to": "$149",
+   "gameItem": "IS_Mount_AcroPicatinnyMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "ak/akm-bp-02-side-mount",
+   "field": "buy_price",
+   "from": "$96",
+   "to": "$125",
+   "gameItem": "IS_Mount_OriginalBp02AkAkmSideMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "ak/akm-bp-02-side-mount",
+   "field": "sold_by",
+   "from": "Artisan R.2",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_Mount_OriginalBp02AkAkmSideMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "bm-1-akm-accessory-mount",
+   "field": "buy_price",
+   "from": "$94",
+   "to": "$124",
+   "gameItem": "IS_Mount_Bm1AkmAccessoryMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "glock-17-rear-sight-acro-mount",
+   "field": "buy_price",
+   "from": "$58",
+   "to": "$76",
+   "gameItem": "IS_Mount_Glock17RearSightAcroMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "glock-17-vortex-viper-adapter",
+   "field": "buy_price",
+   "from": "$52",
+   "to": "$68",
+   "gameItem": "IS_Mount_Glock17VortexViper"
+  },
+  {
+   "dataset": "mounts",
+   "id": "glock17-holosun-507c-adapter",
+   "field": "buy_price",
+   "from": "$54",
+   "to": "$71",
+   "gameItem": "IS_Mount_Glock17Holosun507c"
+  },
+  {
+   "dataset": "mounts",
+   "id": "high-sight-mount",
+   "field": "sold_by",
+   "from": "Gunny R.2",
+   "to": "Banshee R.2",
+   "gameItem": "IS_Mount_HolosunHighMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "keymod-rail---5-slot",
+   "field": "buy_price",
+   "from": "$380",
+   "to": "$498",
+   "gameItem": "IS_Mount_KeyModRail5slot"
+  },
+  {
+   "dataset": "mounts",
+   "id": "keymod-rail---5-slot",
+   "field": "sold_by",
+   "from": "Banshee R.3",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Mount_KeyModRail5slot"
+  },
+  {
+   "dataset": "mounts",
+   "id": "keymod-rail---7-slot",
+   "field": "buy_price",
+   "from": "$380",
+   "to": "$498",
+   "gameItem": "IS_Mount_KeyModRail7slot"
+  },
+  {
+   "dataset": "mounts",
+   "id": "keymod-rail---7-slot",
+   "field": "sold_by",
+   "from": "Banshee R.3",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Mount_KeyModRail7slot"
+  },
+  {
+   "dataset": "mounts",
+   "id": "kochetov-mount",
+   "field": "buy_price",
+   "from": "$37",
+   "to": "$49",
+   "gameItem": "IS_Mount_MosinKochetovMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "leap/03-acro-mount",
+   "field": "buy_price",
+   "from": "$279",
+   "to": "$470",
+   "gameItem": "IS_Mount_LeapAcroMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "leap/03-acro-mount",
+   "field": "sold_by",
+   "from": "Banshee R.4",
+   "to": "Banshee R.3",
+   "gameItem": "IS_Mount_LeapAcroMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "light-mount-v-block-and-rings",
+   "field": "sold_by",
+   "from": "Banshee R.1",
+   "to": "Banshee R.2",
+   "gameItem": "IS_Mount_LightMountVBlockandRings"
+  },
+  {
+   "dataset": "mounts",
+   "id": "low-profile-o-ring---30mm",
+   "field": "buy_price",
+   "from": "$292",
+   "to": "$489",
+   "gameItem": "IS_Mount_30mmOringLowProfile"
+  },
+  {
+   "dataset": "mounts",
+   "id": "low-profile-o-ring---30mm",
+   "field": "sold_by",
+   "from": "Banshee R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Mount_30mmOringLowProfile"
+  },
+  {
+   "dataset": "mounts",
+   "id": "low-profile-o-ring---34mm",
+   "field": "buy_price",
+   "from": "$292",
+   "to": "$489",
+   "gameItem": "IS_Mount_34mmOringLowProfile"
+  },
+  {
+   "dataset": "mounts",
+   "id": "low-profile-o-ring---34mm",
+   "field": "sold_by",
+   "from": "Banshee R.3",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Mount_34mmOringLowProfile"
+  },
+  {
+   "dataset": "mounts",
+   "id": "low-sight-mount",
+   "field": "sold_by",
+   "from": "Gunny R.2",
+   "to": "Banshee R.2",
+   "gameItem": "IS_Mount_HolosunLowMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "m-lok-rail---3-slot",
+   "field": "buy_price",
+   "from": "$20",
+   "to": "$27",
+   "gameItem": "IS_Mount_MLokRail3slot"
+  },
+  {
+   "dataset": "mounts",
+   "id": "m-lok-rail---3-slot",
+   "field": "sold_by",
+   "from": "Gunny R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Mount_MLokRail3slot"
+  },
+  {
+   "dataset": "mounts",
+   "id": "m-lok-rail---5-slot",
+   "field": "buy_price",
+   "from": "$24",
+   "to": "$32",
+   "gameItem": "IS_Mount_MLokRail5slot"
+  },
+  {
+   "dataset": "mounts",
+   "id": "m-lok-rail---7-slot",
+   "field": "buy_price",
+   "from": "$28",
+   "to": "$37",
+   "gameItem": "IS_Mount_MLokRail7slot"
+  },
+  {
+   "dataset": "mounts",
+   "id": "m-lok-rail---9-slot",
+   "field": "buy_price",
+   "from": "$33",
+   "to": "$44",
+   "gameItem": "IS_Mount_MLokRail9slot"
+  },
+  {
+   "dataset": "mounts",
+   "id": "m700-mod*x-rail",
+   "field": "buy_price",
+   "from": "$72",
+   "to": "$102",
+   "gameItem": "IS_Mount_ModXRail"
+  },
+  {
+   "dataset": "mounts",
+   "id": "m700-mod*x-rail",
+   "field": "sold_by",
+   "from": "Banshee R.4",
+   "to": "Gunny R.4",
+   "gameItem": "IS_Mount_ModXRail"
+  },
+  {
+   "dataset": "mounts",
+   "id": "m870-picatinny-quad-rail",
+   "field": "buy_price",
+   "from": "$497",
+   "to": "$651",
+   "gameItem": "IS_Mount_BlackAcesTacticalPicatinnyQuadRailRemington870"
+  },
+  {
+   "dataset": "mounts",
+   "id": "mosin-nagant-tri-rail-scope-mount",
+   "field": "buy_price",
+   "from": "$37",
+   "to": "$49",
+   "gameItem": "IS_Mount_MosinNagantTriRailScopeMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "o-ring---30mm",
+   "field": "buy_price",
+   "from": "$345",
+   "to": "$532",
+   "gameItem": "IS_Mount_30mmOring"
+  },
+  {
+   "dataset": "mounts",
+   "id": "o-ring---30mm",
+   "field": "sold_by",
+   "from": "Banshee R.1",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Mount_30mmOring"
+  },
+  {
+   "dataset": "mounts",
+   "id": "o-ring---34mm",
+   "field": "buy_price",
+   "from": "$345",
+   "to": "$532",
+   "gameItem": "IS_Mount_34mmOring"
+  },
+  {
+   "dataset": "mounts",
+   "id": "o-ring---34mm",
+   "field": "sold_by",
+   "from": "Banshee R.3",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Mount_34mmOring"
+  },
+  {
+   "dataset": "mounts",
+   "id": "pu-3.5×22-kochetov-rings",
+   "field": "buy_price",
+   "from": "$23",
+   "to": "$30",
+   "gameItem": "IS_Mount_KochetovringsforPu3522"
+  },
+  {
+   "dataset": "mounts",
+   "id": "sks-barrel-picatinny-mount",
+   "field": "buy_price",
+   "from": "$42",
+   "to": "$56",
+   "gameItem": "IS_Mount_SksBarrelPicatinnyMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "sks-rear-sight-picatinny-rail",
+   "field": "buy_price",
+   "from": "$65",
+   "to": "$85",
+   "gameItem": "IS_Mount_SksRearSightPicatinnyRail"
+  },
+  {
+   "dataset": "mounts",
+   "id": "vortex-high-mount",
+   "field": "buy_price",
+   "from": "$291",
+   "to": "$489",
+   "gameItem": "IS_Mount_VortexHighMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "vortex-high-mount",
+   "field": "sold_by",
+   "from": "Gunny R.4",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Mount_VortexHighMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "vortex-low-mount",
+   "field": "buy_price",
+   "from": "$299",
+   "to": "$494",
+   "gameItem": "IS_Mount_VortexLowMount"
+  },
+  {
+   "dataset": "mounts",
+   "id": "vortex-low-mount",
+   "field": "sold_by",
+   "from": "Gunny R.4",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Mount_VortexLowMount"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "3-prong-flash-hider",
+   "field": "buy_price",
+   "from": "$146",
+   "to": "$255",
+   "gameItem": "IS_Muzzle_SigFlashHider3Prong"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "3-prong-flash-hider",
+   "field": "sold_by",
+   "from": "Banshee R.4",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Muzzle_SigFlashHider3Prong"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "ak-100-series-muzzle-brake",
+   "field": "buy_price",
+   "from": "$70",
+   "to": "$170",
+   "gameItem": "IS_Muzzle_Ak100SeriesMuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "ak-100-series-muzzle-brake",
+   "field": "sold_by",
+   "from": "Artisan R.2",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_Muzzle_Ak100SeriesMuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "ak-adapter-14-1lh-to-24-1.5",
+   "field": "buy_price",
+   "from": "$41",
+   "to": "$90",
+   "gameItem": "IS_Muzzle_Ak14-1LH-2415Adapter"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "ak-adapter-14-1lh-to-24-1.5",
+   "field": "sold_by",
+   "from": "Artisan R.4",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_Muzzle_Ak14-1LH-2415Adapter"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "akm-slant-brake",
+   "field": "buy_price",
+   "from": "$13",
+   "to": "$102",
+   "gameItem": "IS_Muzzle_AkmSlantBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "akm-slant-brake",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_Muzzle_AkmSlantBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "aks-74u-muzzle-brake",
+   "field": "buy_price",
+   "from": "$13",
+   "to": "$187",
+   "gameItem": "IS_Muzzle_Aks74UMuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "aks-74u-muzzle-brake",
+   "field": "sold_by",
+   "from": "Turncoat R.1",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_Muzzle_Aks74UMuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "dtk-2-muzzle-brake",
+   "field": "buy_price",
+   "from": "$117",
+   "to": "$510",
+   "gameItem": "IS_Muzzle_ZenitcoDtk2MuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "dtk-2-muzzle-brake",
+   "field": "sold_by",
+   "from": "Artisan R.3",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Muzzle_ZenitcoDtk2MuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "glock-17-velocity-muzzle-brake",
+   "field": "buy_price",
+   "from": "$150",
+   "to": "$510",
+   "gameItem": "IS_Muzzle_KiVelocityMuzzleBrakeForGlock17"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "m4qd-flash-hider",
+   "field": "sold_by",
+   "from": "Gunny R.2",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Muzzle_KacM4QdFlashHider"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "mosin-nagant-tanker-muzzle-brake",
+   "field": "buy_price",
+   "from": "$130",
+   "to": "$374",
+   "gameItem": "IS_Muzzle_MosinTacfireTankerStyleMuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "mp5-3-lug-adapter",
+   "field": "sold_by",
+   "from": "Gunny R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Muzzle_Mp53LugAdapter"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "srd762-qd-muzzle-brake",
+   "field": "buy_price",
+   "from": "$150",
+   "to": "$391",
+   "gameItem": "IS_Muzzle_SrdQdMuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "srd762-qd-muzzle-brake",
+   "field": "sold_by",
+   "from": "Banshee R.4",
+   "to": "Banshee R.3",
+   "gameItem": "IS_Muzzle_SrdQdMuzzleBrake"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "vulcan-m1",
+   "field": "buy_price",
+   "from": "$284",
+   "to": "$544",
+   "gameItem": "IS_Muzzle_AntregVulcanM1COMP"
+  },
+  {
+   "dataset": "muzzle_devices",
+   "id": "vulcan-m1",
+   "field": "sold_by",
+   "from": "Gunny R.4",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Muzzle_AntregVulcanM1COMP"
+  },
+  {
+   "dataset": "pistol_grips",
+   "id": "ak-polymer-pistol-grip",
+   "field": "buy_price",
+   "from": "$27",
+   "to": "$136",
+   "gameItem": "IS_PistolGrip_AkPolymer"
+  },
+  {
+   "dataset": "pistol_grips",
+   "id": "ak-polymer-pistol-grip",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Turncoat R.1",
+   "gameItem": "IS_PistolGrip_AkPolymer"
+  },
+  {
+   "dataset": "pistol_grips",
+   "id": "ak-ratnik-grip",
+   "field": "buy_price",
+   "from": "$130",
+   "to": "$340",
+   "gameItem": "IS_PistolGrip_AkRatnik"
+  },
+  {
+   "dataset": "pistol_grips",
+   "id": "archangel-ak-series-pistol-grip",
+   "field": "buy_price",
+   "from": "$70",
+   "to": "$306",
+   "gameItem": "IS_PistolGrip_ArchangelAkSeries"
+  },
+  {
+   "dataset": "pistol_grips",
+   "id": "m9a1-rubber-grip",
+   "field": "buy_price",
+   "from": "$31",
+   "to": "$136",
+   "gameItem": "IS_PistolGrip_BerettaM9A1Rubber"
+  },
+  {
+   "dataset": "pistol_grips",
+   "id": "m9a1-wooden-grip",
+   "field": "buy_price",
+   "from": "$50",
+   "to": "$110",
+   "gameItem": "IS_PistolGrip_BerettaM9A1Wood"
+  },
+  {
+   "dataset": "pistol_grips",
+   "id": "m9a1-wooden-grip",
+   "field": "sold_by",
+   "from": "Gunny R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_PistolGrip_BerettaM9A1Wood"
+  },
+  {
+   "dataset": "pistol_grips",
+   "id": "moe-ak-pistol-grip",
+   "field": "buy_price",
+   "from": "$41",
+   "to": "$153",
+   "gameItem": "IS_PistolGrip_MagpulMoeAk"
+  },
+  {
+   "dataset": "pistol_grips",
+   "id": "moe-pistol-grip-fde",
+   "field": "sold_by",
+   "from": "Gunny R.2",
+   "to": "Gunny R.4",
+   "gameItem": "IS_PistolGrip_MagpulMoeFDE"
+  },
+  {
+   "dataset": "pistol_grips",
+   "id": "rk-9-pistol-grip",
+   "field": "buy_price",
+   "from": "$94",
+   "to": "$374",
+   "gameItem": "IS_PistolGrip_ZenitcoRk9"
+  },
+  {
+   "dataset": "rear_iron_sights",
+   "id": "ak-12-rear-sight",
+   "field": "buy_price",
+   "from": "$41",
+   "to": "$110",
+   "gameItem": "IS_Sight_Ak12RearSight"
+  },
+  {
+   "dataset": "rear_iron_sights",
+   "id": "ak-rear-iron-sight",
+   "field": "buy_price",
+   "from": "$26",
+   "to": "$85",
+   "gameItem": "IS_Sight_AkRearSight"
+  },
+  {
+   "dataset": "rear_iron_sights",
+   "id": "ak-rear-iron-sight",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Turncoat R.1",
+   "gameItem": "IS_Sight_AkRearSight"
+  },
+  {
+   "dataset": "rear_iron_sights",
+   "id": "aks-74u-rear-sight",
+   "field": "buy_price",
+   "from": "$22",
+   "to": "$68",
+   "gameItem": "IS_Sight_Aks74URearSight"
+  },
+  {
+   "dataset": "rear_iron_sights",
+   "id": "ar-15-carrying-handle",
+   "field": "sold_by",
+   "from": "Gunny R.2",
+   "to": "Gunny R.1",
+   "gameItem": "IS_Sight_ColtAr15CarryHandle"
+  },
+  {
+   "dataset": "rear_iron_sights",
+   "id": "folding-micro-rear-iron-sight",
+   "field": "sold_by",
+   "from": "Gunny R.2",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Sight_KacRearMicroIronSight"
+  },
+  {
+   "dataset": "rear_iron_sights",
+   "id": "glock-17-oem-rear-tritium-sight",
+   "field": "buy_price",
+   "from": "$48",
+   "to": "$110",
+   "gameItem": "IS_Sight_Glock17OemTritiumRearSight"
+  },
+  {
+   "dataset": "rear_iron_sights",
+   "id": "mosin-nagant-rear-iron-sight",
+   "field": "buy_price",
+   "from": "$26",
+   "to": "$85",
+   "gameItem": "IS_Sight_MosinRearSight"
+  },
+  {
+   "dataset": "rear_iron_sights",
+   "id": "mosin-nagant-rear-iron-sight",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Artisan R.2",
+   "gameItem": "IS_Sight_MosinRearSight"
+  },
+  {
+   "dataset": "rear_iron_sights",
+   "id": "sig-sauer-flip-up-rear-iron-sights",
+   "field": "buy_price",
+   "from": "$52",
+   "to": "$119",
+   "gameItem": "IS_Sight_SigSauerFlipUpRearIronSights"
+  },
+  {
+   "dataset": "rear_iron_sights",
+   "id": "sks-rear-iron-sight",
+   "field": "buy_price",
+   "from": "$23",
+   "to": "$51",
+   "gameItem": "IS_Sight_SksRearSight"
+  },
+  {
+   "dataset": "rigs",
+   "id": "alice",
+   "field": "sold_by",
+   "from": "Handshake R.1",
+   "to": "Handshake R.2",
+   "gameItem": "IS_Rig_Alice"
+  },
+  {
+   "dataset": "scopes",
+   "id": "kaps-classic-4x36-oc",
+   "field": "sold_by",
+   "from": "Banshee R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Sight_Kaps4x36"
+  },
+  {
+   "dataset": "scopes",
+   "id": "pso-1-4x24",
+   "field": "buy_price",
+   "from": "$1,990",
+   "to": "$1,275",
+   "gameItem": "IS_Sight_Pso14x24"
+  },
+  {
+   "dataset": "scopes",
+   "id": "pso-1-4x24",
+   "field": "sold_by",
+   "from": "Artisan R.4",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Sight_Pso14x24"
+  },
+  {
+   "dataset": "scopes",
+   "id": "razor-1-6x-rifle-scope",
+   "field": "buy_price",
+   "from": "$3,250",
+   "to": "$4,420",
+   "gameItem": "IS_Sight_VortexRazor16x"
+  },
+  {
+   "dataset": "scopes",
+   "id": "viper-pst-gen-ii-5-25x50-rifle-scope",
+   "field": "buy_price",
+   "from": "$2,468",
+   "to": "$4,080",
+   "gameItem": "IS_Sight_VortexViperPST_525x50"
+  },
+  {
+   "dataset": "scopes",
+   "id": "viper-pst-gen-ii-5-25x50-rifle-scope",
+   "field": "sold_by",
+   "from": "Banshee R.4",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Sight_VortexViperPST_525x50"
+  },
+  {
+   "dataset": "scopes",
+   "id": "vudu-3.5-18x50-ffp-rifle-scope",
+   "field": "buy_price",
+   "from": "$2,420",
+   "to": "$3,400",
+   "gameItem": "IS_Sight_EotechVudu3518x50Ffp"
+  },
+  {
+   "dataset": "scopes",
+   "id": "vudu-3.5-18x50-ffp-rifle-scope",
+   "field": "sold_by",
+   "from": "Banshee R.3",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Sight_EotechVudu3518x50Ffp"
+  },
+  {
+   "dataset": "slides",
+   "id": "glock-17-zps.6-slide",
+   "field": "buy_price",
+   "from": "$353",
+   "to": "$561",
+   "gameItem": "IS_Slide_Glock17ZaffiriPrecisionStainlessSteelSlideZps6"
+  },
+  {
+   "dataset": "slides",
+   "id": "n17-reptile-edc-slide",
+   "field": "buy_price",
+   "from": "$817",
+   "to": "$1,360",
+   "gameItem": "IS_Slide_Glock17N17ReptileEdcSlide"
+  },
+  {
+   "dataset": "slides",
+   "id": "tyton-glock-17-slide",
+   "field": "buy_price",
+   "from": "$661",
+   "to": "$765",
+   "gameItem": "IS_Slide_Glock17L2dCombatStrippedTyton17"
+  },
+  {
+   "dataset": "slides",
+   "id": "z17-citadel-slide",
+   "field": "buy_price",
+   "from": "$864",
+   "to": "$884",
+   "gameItem": "IS_Slide_Glock17ZevZ17CitadelStrippedSlide"
+  },
+  {
+   "dataset": "stock_adapters",
+   "id": "ak-buffer-tube-adapter",
+   "field": "buy_price",
+   "from": "$68",
+   "to": "$90",
+   "gameItem": "IS_StockAdapter_AkBufferTube"
+  },
+  {
+   "dataset": "stock_adapters",
+   "id": "ak-buffer-tube-adapter",
+   "field": "sold_by",
+   "from": "Artisan R.3",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_StockAdapter_AkBufferTube"
+  },
+  {
+   "dataset": "stock_adapters",
+   "id": "akm-zhukov-adapter",
+   "field": "buy_price",
+   "from": "$81",
+   "to": "$107",
+   "gameItem": "IS_StockAdapter_AkmZhukovAdapter"
+  },
+  {
+   "dataset": "stock_adapters",
+   "id": "akm-zhukov-adapter",
+   "field": "sold_by",
+   "from": "Artisan R.3",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_StockAdapter_AkmZhukovAdapter"
+  },
+  {
+   "dataset": "stocks",
+   "id": "ak-47/akm-wooden-stock",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Turncoat R.1",
+   "gameItem": "IS_Stock_Ak47AkmWooden"
+  },
+  {
+   "dataset": "stocks",
+   "id": "ak-74n-wooden-stock",
+   "field": "buy_price",
+   "from": "$52",
+   "to": "$170",
+   "gameItem": "IS_Stock_Ak74NWooden"
+  },
+  {
+   "dataset": "stocks",
+   "id": "ak-moe-stock",
+   "field": "buy_price",
+   "from": "$211",
+   "to": "$272",
+   "gameItem": "IS_Stock_AkMagpulMoe"
+  },
+  {
+   "dataset": "stocks",
+   "id": "ak-moe-stock",
+   "field": "sold_by",
+   "from": "Artisan R.2",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_Stock_AkMagpulMoe"
+  },
+  {
+   "dataset": "stocks",
+   "id": "ak-pt-1-stock",
+   "field": "buy_price",
+   "from": "$423",
+   "to": "$765",
+   "gameItem": "IS_Stock_ZenitcoPt1"
+  },
+  {
+   "dataset": "stocks",
+   "id": "ak-zhukov-stock",
+   "field": "buy_price",
+   "from": "$226",
+   "to": "$391",
+   "gameItem": "IS_Stock_ZhukovStock"
+  },
+  {
+   "dataset": "stocks",
+   "id": "ak-zhukov-stock",
+   "field": "sold_by",
+   "from": "Artisan R.3",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Stock_ZhukovStock"
+  },
+  {
+   "dataset": "stocks",
+   "id": "akmsn-foldable-stock",
+   "field": "buy_price",
+   "from": "$91",
+   "to": "$221",
+   "gameItem": "IS_Stock_AkmsnFoldable"
+  },
+  {
+   "dataset": "stocks",
+   "id": "akmsn-foldable-stock",
+   "field": "sold_by",
+   "from": "Artisan R.2",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_Stock_AkmsnFoldable"
+  },
+  {
+   "dataset": "stocks",
+   "id": "aks-74u-foldable-stock",
+   "field": "buy_price",
+   "from": "$163",
+   "to": "$187",
+   "gameItem": "IS_Stock_Aks74UFoldable"
+  },
+  {
+   "dataset": "stocks",
+   "id": "ar-15-archangel-low-profile-buttstock",
+   "field": "sold_by",
+   "from": "Gunny R.3",
+   "to": "Gunny R.4",
+   "gameItem": "IS_Stock_Ar15ArchangelLowProfile"
+  },
+  {
+   "dataset": "stocks",
+   "id": "ar-15-m401-nylon-stock",
+   "field": "buy_price",
+   "from": "$89",
+   "to": "$255",
+   "gameItem": "IS_Stock_CaaM401NylonStock"
+  },
+  {
+   "dataset": "stocks",
+   "id": "ar15-moe-stock",
+   "field": "buy_price",
+   "from": "$167",
+   "to": "$289",
+   "gameItem": "IS_Stock_MagpulMoe"
+  },
+  {
+   "dataset": "stocks",
+   "id": "ar15-moe-stock",
+   "field": "sold_by",
+   "from": "Gunny R.4",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Stock_MagpulMoe"
+  },
+  {
+   "dataset": "stocks",
+   "id": "m700-hunter-stock",
+   "field": "sold_by",
+   "from": "Banshee R.3",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Stock_Rem700MagpulHunter"
+  },
+  {
+   "dataset": "stocks",
+   "id": "m700-mod*x-stock",
+   "field": "buy_price",
+   "from": "$852",
+   "to": "$1,105",
+   "gameItem": "IS_Stock_M700ModX"
+  },
+  {
+   "dataset": "stocks",
+   "id": "m700-mod*x-stock",
+   "field": "sold_by",
+   "from": "Banshee R.4",
+   "to": "Gunny R.4",
+   "gameItem": "IS_Stock_M700ModX"
+  },
+  {
+   "dataset": "stocks",
+   "id": "m700-stock",
+   "field": "sold_by",
+   "from": "Banshee R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Stock_M700Wood"
+  },
+  {
+   "dataset": "stocks",
+   "id": "mcx/mpx-minimalist-folding-stock",
+   "field": "buy_price",
+   "from": "$405",
+   "to": "$884",
+   "gameItem": "IS_Stock_McxMpxMinimalistFolding"
+  },
+  {
+   "dataset": "stocks",
+   "id": "mcx/mpx-telescoping-stock",
+   "field": "buy_price",
+   "from": "$455",
+   "to": "$425",
+   "gameItem": "IS_Stock_McxMpxTelescoping"
+  },
+  {
+   "dataset": "stocks",
+   "id": "mosin-nagant-archangel-stock",
+   "field": "buy_price",
+   "from": "$284",
+   "to": "$935",
+   "gameItem": "IS_Stock_MosinProMagArchangel"
+  },
+  {
+   "dataset": "stocks",
+   "id": "mosin-nagant-wooden-stock-carbine",
+   "field": "buy_price",
+   "from": "$114",
+   "to": "$340",
+   "gameItem": "IS_Stock_MosinCarbineWooden"
+  },
+  {
+   "dataset": "stocks",
+   "id": "mosin-nagant-wooden-stock-carbine",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Artisan R.2",
+   "gameItem": "IS_Stock_MosinCarbineWooden"
+  },
+  {
+   "dataset": "stocks",
+   "id": "mp5-a3-stock",
+   "field": "sold_by",
+   "from": "Gunny R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Stock_Mp5A3Stock"
+  },
+  {
+   "dataset": "stocks",
+   "id": "mp5/hk33/53-stock",
+   "field": "buy_price",
+   "from": "$448",
+   "to": "$935",
+   "gameItem": "IS_Stock_SpuhrMp5Hk3353Stock"
+  },
+  {
+   "dataset": "stocks",
+   "id": "mp7a1-retractable-stock",
+   "field": "buy_price",
+   "from": "$432",
+   "to": "$595",
+   "gameItem": "IS_Stock_Mp7A1Retractable"
+  },
+  {
+   "dataset": "stocks",
+   "id": "mp7a1-retractable-stock",
+   "field": "sold_by",
+   "from": "Banshee R.2",
+   "to": "Banshee R.1",
+   "gameItem": "IS_Stock_Mp7A1Retractable"
+  },
+  {
+   "dataset": "stocks",
+   "id": "ratnik-foldable-stock",
+   "field": "sold_by",
+   "from": "Artisan R.3",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Stock_AkRatnikFoldable"
+  },
+  {
+   "dataset": "stocks",
+   "id": "recoil-reducing-pad",
+   "field": "buy_price",
+   "from": "$141",
+   "to": "$102",
+   "gameItem": "IS_Stock_RussianRecoilReducingPad"
+  },
+  {
+   "dataset": "stocks",
+   "id": "recoil-reducing-pad",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Turncoat R.1",
+   "gameItem": "IS_Stock_RussianRecoilReducingPad"
+  },
+  {
+   "dataset": "stocks",
+   "id": "sks-strikeforce-tactlite-stock",
+   "field": "buy_price",
+   "from": "$206",
+   "to": "$442",
+   "gameItem": "IS_Stock_AtiSksStrikeforceTactLite"
+  },
+  {
+   "dataset": "stocks",
+   "id": "svd-polymer-stock-with-grip",
+   "field": "buy_price",
+   "from": "$591",
+   "to": "$1,190",
+   "gameItem": "IS_Stock_SvdPolymerStockwithGrip"
+  },
+  {
+   "dataset": "stocks",
+   "id": "svd-polymer-stock-with-grip",
+   "field": "sold_by",
+   "from": "Artisan R.4",
+   "to": "Turncoat R.4",
+   "gameItem": "IS_Stock_SvdPolymerStockwithGrip"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "762-sd-suppressor",
+   "field": "buy_price",
+   "from": "$1,961",
+   "to": "$1,530",
+   "gameItem": "IS_Suppressor_SuppressorAac"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "ak-12-suppressor",
+   "field": "buy_price",
+   "from": "$1,160",
+   "to": "$1,190",
+   "gameItem": "IS_Suppressor_Ak12Suppressor"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "ak-15-suppressor",
+   "field": "buy_price",
+   "from": "$1,160",
+   "to": "$1,275",
+   "gameItem": "IS_Suppressor_Ak15Suppressor"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "ak-15-suppressor",
+   "field": "sold_by",
+   "from": "Artisan R.3",
+   "to": "Turncoat R.4",
+   "gameItem": "IS_Suppressor_Ak15Suppressor"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "banish-45-suppressor",
+   "field": "buy_price",
+   "from": "$1,544",
+   "to": "$1,700",
+   "gameItem": "IS_Suppressor_BanishSuppressor"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "mosin-nagant-bramit-suppressor",
+   "field": "buy_price",
+   "from": "$880",
+   "to": "$1,020",
+   "gameItem": "IS_Suppressor_MosinBramitSuppressor"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "mp7-rotex-suppressor",
+   "field": "buy_price",
+   "from": "$2,535",
+   "to": "$2,380",
+   "gameItem": "IS_Suppressor_RotexMp7Suppressor"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "qdss-nt4-suppressor",
+   "field": "sold_by",
+   "from": "Gunny R.2",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Suppressor_KacQdssNt4Suppressor"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "salvo-12-suppressor",
+   "field": "buy_price",
+   "from": "$2,390",
+   "to": "$2,040",
+   "gameItem": "IS_Suppressor_Salvo12"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "slh300ti-qd-suppressor",
+   "field": "buy_price",
+   "from": "$2,198",
+   "to": "$2,720",
+   "gameItem": "IS_Suppressor_SigSlhTiQdSuppressor"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "slh762-qd-suppressor",
+   "field": "buy_price",
+   "from": "$2,314",
+   "to": "$2,380",
+   "gameItem": "IS_Suppressor_SigSlhQdSuppressor"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "socom556-rc1-suppressor",
+   "field": "sold_by",
+   "from": "Gunny R.3",
+   "to": "Gunny R.4",
+   "gameItem": "IS_Suppressor_SurefireSocomRc1Suppressor"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "vlc-556-mark-1-suppressor",
+   "field": "buy_price",
+   "from": "$2,004",
+   "to": "$2,210",
+   "gameItem": "IS_Suppressor_Vlc556Mark1Suppressor"
+  },
+  {
+   "dataset": "suppressors",
+   "id": "vlc-556-mark-1-suppressor",
+   "field": "sold_by",
+   "from": "Gunny R.4",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Suppressor_Vlc556Mark1Suppressor"
+  },
+  {
+   "dataset": "tactical_devices",
+   "id": "ade-advanced-red-laser",
+   "field": "sold_by",
+   "from": "Gunny R.2",
+   "to": "Gunny R.1",
+   "gameItem": "IS_TacticalDev_AdeAdvancedRedLaser"
+  },
+  {
+   "dataset": "tactical_devices",
+   "id": "steiner-cqbl-1",
+   "field": "buy_price",
+   "from": "$964",
+   "to": "$1,400",
+   "gameItem": "IS_TacticalDev_SteinerCqbl1"
+  },
+  {
+   "dataset": "tactical_devices",
+   "id": "surefire-m600-scout-light",
+   "field": "sold_by",
+   "from": "Gunny R.3",
+   "to": "Gunny R.2",
+   "gameItem": "IS_TacticalDev_SurefireM600IbScoutlight"
+  },
+  {
+   "dataset": "tactical_devices",
+   "id": "surefire-p1r-peacekeeper",
+   "field": "sold_by",
+   "from": "Banshee R.1",
+   "to": "Banshee R.2",
+   "gameItem": "IS_TacticalDev_SurefireP1RPeacekeeper"
+  },
+  {
+   "dataset": "tactical_devices",
+   "id": "zenitco-klesch-2",
+   "field": "buy_price",
+   "from": "$260",
+   "to": "$350",
+   "gameItem": "IS_TacticalDev_ZenitcoKlesch2"
+  },
+  {
+   "dataset": "tactical_devices",
+   "id": "zenitco-klesch-2",
+   "field": "sold_by",
+   "from": "Turncoat R.2",
+   "to": "Turncoat R.1",
+   "gameItem": "IS_TacticalDev_ZenitcoKlesch2"
+  },
+  {
+   "dataset": "throwables",
+   "id": "f-1",
+   "field": "buy_price",
+   "from": "$61",
+   "to": "$75",
+   "gameItem": "IS_Grenade_F1"
+  },
+  {
+   "dataset": "throwables",
+   "id": "f-1",
+   "field": "sold_by",
+   "from": "Gunny R.1",
+   "to": "Turncoat R.4",
+   "gameItem": "IS_Grenade_F1"
+  },
+  {
+   "dataset": "throwables",
+   "id": "m18-smoke-grenade-green",
+   "field": "buy_price",
+   "from": "$37",
+   "to": "$40",
+   "gameItem": "IS_Grenade_M18SmokeGrenade_Green"
+  },
+  {
+   "dataset": "throwables",
+   "id": "m18-smoke-grenade-green",
+   "field": "sold_by",
+   "from": "Gunny R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Grenade_M18SmokeGrenade_Green"
+  },
+  {
+   "dataset": "throwables",
+   "id": "m18-smoke-grenade-red",
+   "field": "buy_price",
+   "from": "$37",
+   "to": "$40",
+   "gameItem": "IS_Grenade_M18SmokeGrenade_Red"
+  },
+  {
+   "dataset": "throwables",
+   "id": "m18-smoke-grenade-red",
+   "field": "sold_by",
+   "from": "Gunny R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Grenade_M18SmokeGrenade_Red"
+  },
+  {
+   "dataset": "throwables",
+   "id": "m18-smoke-grenade-yellow",
+   "field": "buy_price",
+   "from": "$37",
+   "to": "$40",
+   "gameItem": "IS_Grenade_M18SmokeGrenade_Yellow"
+  },
+  {
+   "dataset": "throwables",
+   "id": "m18-smoke-grenade-yellow",
+   "field": "sold_by",
+   "from": "Gunny R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Grenade_M18SmokeGrenade_Yellow"
+  },
+  {
+   "dataset": "throwables",
+   "id": "m26",
+   "field": "buy_price",
+   "from": "$62",
+   "to": "$55",
+   "gameItem": "IS_Grenade_M26"
+  },
+  {
+   "dataset": "throwables",
+   "id": "m26",
+   "field": "sold_by",
+   "from": "Gunny R.1",
+   "to": "Gunny R.2",
+   "gameItem": "IS_Grenade_M26"
+  },
+  {
+   "dataset": "throwables",
+   "id": "m67",
+   "field": "buy_price",
+   "from": "$61",
+   "to": "$69",
+   "gameItem": "IS_Grenade_M67"
+  },
+  {
+   "dataset": "throwables",
+   "id": "m67",
+   "field": "sold_by",
+   "from": "Gunny R.1",
+   "to": "Gunny R.3",
+   "gameItem": "IS_Grenade_M67"
+  },
+  {
+   "dataset": "throwables",
+   "id": "m84-stun-grenade",
+   "field": "buy_price",
+   "from": "$41",
+   "to": "$45",
+   "gameItem": "IS_Grenade_M84_Stun"
+  },
+  {
+   "dataset": "upper_receivers",
+   "id": "ak-ratnik-dust-cover",
+   "field": "buy_price",
+   "from": "$487",
+   "to": "$850",
+   "gameItem": "IS_Receiver_AkRatnikDustCover"
+  },
+  {
+   "dataset": "upper_receivers",
+   "id": "aks-74u-dust-cover",
+   "field": "buy_price",
+   "from": "$107",
+   "to": "$170",
+   "gameItem": "IS_Receiver_Aks74U"
+  },
+  {
+   "dataset": "upper_receivers",
+   "id": "cq-a1-upper-receiver",
+   "field": "buy_price",
+   "from": "$126",
+   "to": "$425",
+   "gameItem": "IS_Receiver_NorincoCqA1UpperReceiver"
+  },
+  {
+   "dataset": "upper_receivers",
+   "id": "cq-a1-upper-receiver",
+   "field": "sold_by",
+   "from": "Gunny R.2",
+   "to": "Gunny R.1",
+   "gameItem": "IS_Receiver_NorincoCqA1UpperReceiver"
+  },
+  {
+   "dataset": "upper_receivers",
+   "id": "dog-leg-rail",
+   "field": "sold_by",
+   "from": "Artisan R.3",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Receiver_TwsDogLegRail"
+  },
+  {
+   "dataset": "upper_receivers",
+   "id": "picatinny-dust-cover",
+   "field": "buy_price",
+   "from": "$326",
+   "to": "$850",
+   "gameItem": "IS_Receiver_FabPdc"
+  },
+  {
+   "dataset": "upper_receivers",
+   "id": "sig-mcx-upper-receiver",
+   "field": "buy_price",
+   "from": "$894",
+   "to": "$935",
+   "gameItem": "IS_Receiver_SigMcx"
+  },
+  {
+   "dataset": "upper_receivers",
+   "id": "svd-dust-cover",
+   "field": "buy_price",
+   "from": "$192",
+   "to": "$595",
+   "gameItem": "IS_Receiver_SvdDustCover"
+  },
+  {
+   "dataset": "upper_receivers",
+   "id": "svd-dust-cover",
+   "field": "sold_by",
+   "from": "Artisan R.4",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Receiver_SvdDustCover"
+  },
+  {
+   "dataset": "weapons",
+   "id": "ak-12",
+   "field": "sold_by",
+   "from": "Turncoat R.2",
+   "to": "Turncoat R.3",
+   "gameItem": "IS_Firearm_Ak12"
+  },
+  {
+   "dataset": "weapons",
+   "id": "ak-15",
+   "field": "sold_by",
+   "from": "Artisan R3",
+   "to": "Turncoat R.4",
+   "gameItem": "IS_Firearm_Ak15"
+  },
+  {
+   "dataset": "weapons",
+   "id": "ak-308",
+   "field": "sold_by",
+   "from": "Vulture R.4",
+   "to": "Turncoat R.4",
+   "gameItem": "IS_Firearm_Ak308"
+  },
+  {
+   "dataset": "weapons",
+   "id": "akm",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Turncoat R.2",
+   "gameItem": "IS_Firearm_Akm"
+  },
+  {
+   "dataset": "weapons",
+   "id": "mosin-nagant",
+   "field": "sold_by",
+   "from": "Artisan R.1",
+   "to": "Artisan R.2",
+   "gameItem": "IS_Firearm_MosinNagant"
+  },
+  {
+   "dataset": "weapons",
+   "id": "mp7a1",
+   "field": "sold_by",
+   "from": "Banshee R.2",
+   "to": "Banshee R.1",
+   "gameItem": "IS_Firearm_Mp7A1"
+  },
+  {
+   "dataset": "weapons",
+   "id": "mp7a2",
+   "field": "sold_by",
+   "from": "Vulture R.2",
+   "to": "Banshee R.2",
+   "gameItem": "IS_Firearm_Mp7A2"
+  }
+ ]
+}
