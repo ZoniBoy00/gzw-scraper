@@ -3346,7 +3346,7 @@
  },
  {
   "id": "IS_MineShrapnel",
-  "name": "Mine shrapnel",
+  "name": "Mine shrapnel (MineShrapnel)",
   "short_name": "Shrapnel",
   "manufacturer": "General East",
   "description": "<DEV>",
@@ -3383,11 +3383,12 @@
    "stoppedByArmorClass": "Nij3Ap"
   },
   "image": "https://gzw-data.dev/assets/items/ammo/IS_MineShrapnel.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Mine shrapnel"
  },
  {
   "id": "IS_Shrapnel",
-  "name": "Mine shrapnel",
+  "name": "Mine shrapnel (Shrapnel)",
   "short_name": "Shrapnel",
   "manufacturer": "General East",
   "description": "<DEV>",
@@ -3424,7 +3425,8 @@
    "stoppedByArmorClass": "Nij3Ap"
   },
   "image": "https://gzw-data.dev/assets/items/ammo/IS_Shrapnel.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Mine shrapnel"
  },
  {
   "id": "IS_MortarShrapnel",

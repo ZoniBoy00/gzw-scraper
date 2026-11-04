@@ -382,7 +382,7 @@
  },
  {
   "id": "IS_Vest_AtbvVest_Cat",
-  "name": "ATBV Vest",
+  "name": "ATBV Vest (Cat)",
   "short_name": "ATBV",
   "manufacturer": "Aholdtech",
   "description": "A Chinese-made ballistic vest with pouches for additional armor plates. Adjustable shoulder straps and a secure cummerbund allow for a customizable fit across most body types.",
@@ -412,7 +412,8 @@
    "minimumDamageJoules": 140.0,
    "repairDifficultyModifier": 0.7
   },
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "ATBV Vest"
  },
  {
   "id": "IS_Vest_AtbvVest_Olive",
@@ -578,7 +579,7 @@
  },
  {
   "id": "IS_Armor_Cgpc3Tqs_ThaiMercs",
-  "name": "CGPC3 TQS",
+  "name": "CGPC3 TQS (ThaiMercs)",
   "short_name": "CGPC3",
   "manufacturer": "Custom Gear",
   "description": "A low-profile, lightweight, and fully modular plate carrier made in the Czech Republic. With its sturdy construction and advanced materials, it offers reliable defense against ballistic threats and fragmentation, while its Tube Quick System allows for comfortable and silent unfastening.",
@@ -612,7 +613,8 @@
     "height": 3
    }
   },
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "CGPC3 TQS"
  },
  {
   "id": "IS_Armor_ChestRig901Elite4",
@@ -662,7 +664,7 @@
  },
  {
   "id": "IS_Armor_ChestRig901Elite4_ThaiMercs",
-  "name": "Chest Rig 901 Elite 4",
+  "name": "Chest Rig 901 Elite 4 (ThaiMercs)",
   "short_name": "Elite 4",
   "manufacturer": "Warrior Assault Systems",
   "description": "A high-performance and versatile tactical gear designed to provide efficient load-carrying capabilities for military and law enforcement. This version allows for a ballistic plate to be worn in its wider upper section, while still enabling the user to get in and out of the rig at speed and without any assistance.",
@@ -695,11 +697,12 @@
     "height": 2
    }
   },
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Chest Rig 901 Elite 4"
  },
  {
   "id": "IS_Vest_Commander_Black",
-  "name": "Commander (Black)",
+  "name": "Commander (Black) (Black)",
   "short_name": "Commander",
   "manufacturer": "Safeguard Armor",
   "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
@@ -738,11 +741,12 @@
    "repairDifficultyModifier": 0.6
   },
   "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_Commander_Black.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Commander (Black)"
  },
  {
   "id": "IS_Vest_Commander_Dark",
-  "name": "Commander (Black)",
+  "name": "Commander (Black) (Dark)",
   "short_name": "Commander",
   "manufacturer": "Safeguard Armor",
   "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
@@ -772,7 +776,8 @@
    "minimumDamageJoules": 200.0,
    "repairDifficultyModifier": 0.8
   },
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Commander (Black)"
  },
  {
   "id": "IS_Vest_Commander_Navy",
@@ -819,7 +824,7 @@
  },
  {
   "id": "IS_Vest_Commander_Lla",
-  "name": "Commander (Olive)",
+  "name": "Commander (Olive) (Lla)",
   "short_name": "Commander",
   "manufacturer": "Safeguard Armor",
   "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
@@ -849,11 +854,12 @@
    "minimumDamageJoules": 20.0,
    "repairDifficultyModifier": 0.6
   },
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Commander (Olive)"
  },
  {
   "id": "IS_Vest_Commander_MalayPirates",
-  "name": "Commander (Olive)",
+  "name": "Commander (Olive) (MalayPirates)",
   "short_name": "Commander",
   "manufacturer": "Safeguard Armor",
   "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
@@ -883,11 +889,12 @@
    "minimumDamageJoules": 20.0,
    "repairDifficultyModifier": 0.6
   },
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Commander (Olive)"
  },
  {
   "id": "IS_Vest_Commander_MalayPirates_02",
-  "name": "Commander (Olive)",
+  "name": "Commander (Olive) (MalayPirates_02)",
   "short_name": "Commander",
   "manufacturer": "Safeguard Armor",
   "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
@@ -917,11 +924,12 @@
    "minimumDamageJoules": 20.0,
    "repairDifficultyModifier": 0.6
   },
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Commander (Olive)"
  },
  {
   "id": "IS_Vest_Commander_Olive",
-  "name": "Commander (Olive)",
+  "name": "Commander (Olive) (Olive)",
   "short_name": "Commander",
   "manufacturer": "Safeguard Armor",
   "description": "The Commander Series 1 provides good protection against ballistic threats and fragmentation, featuring a Cordura carrier for enhanced durability and fully adjustable waist and shoulder straps for a perfect fit.",
@@ -960,7 +968,8 @@
    "repairDifficultyModifier": 0.6
   },
   "image": "https://gzw-data.dev/assets/items/armor/IS_Vest_Commander_Olive.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Commander (Olive)"
  },
  {
   "id": "IS_Vest_CoolmaxCovertVest",
@@ -1331,7 +1340,7 @@
  },
  {
   "id": "IS_Armor_Lancer_Cat",
-  "name": "CZ 4M Lancer",
+  "name": "CZ 4M Lancer (Cat)",
   "short_name": "Lancer",
   "manufacturer": "4M",
   "description": "The CZ 4M Lancer offers advanced ballistic protection for high-risk operations. With its unique anatomic design, it ensures optimal weight distribution between the operator's back and torso, reducing shoulder strain during extended wear.",
@@ -1365,7 +1374,8 @@
     "height": 3
    }
   },
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "CZ 4M Lancer"
  },
  {
   "id": "IS_Armor_Lancer_UN",
@@ -2201,7 +2211,7 @@
  },
  {
   "id": "IS_Armor_M2_Laf",
-  "name": "M2 Plate Carrier",
+  "name": "M2 Plate Carrier (Laf)",
   "short_name": "M2",
   "manufacturer": "ANA-Tactical",
   "description": "This versatile plate carrier is used by the National Guard of Russia. Offering excellent protection while remaining compact and lightweight, the M2 features a modular design that allows for easy customization and adjustment to accommodate different mission requirements and gear setups.",
@@ -2235,7 +2245,8 @@
     "height": 3
    }
   },
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M2 Plate Carrier"
  },
  {
   "id": "IS_Helmet_MichLc",
@@ -2596,7 +2607,7 @@
  },
  {
   "id": "IS_Vest_UnbrandedMolleVest_DarkOlive",
-  "name": "Molle Vest",
+  "name": "Molle Vest (DarkOlive)",
   "short_name": "Molle",
   "manufacturer": "General Local",
   "description": "An unbranded ballistic vest with MOLLE webbing. It provides basic soft‑armor protection and modular attachment points, but its effectiveness against high‑power rifle calibers is limited.",
@@ -2625,11 +2636,12 @@
    "minimumDamageJoules": 40.0,
    "repairDifficultyModifier": 0.8
   },
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Molle Vest"
  },
  {
   "id": "IS_Vest_UnbrandedMolleVest_Lla",
-  "name": "Molle Vest",
+  "name": "Molle Vest (Lla)",
   "short_name": "Molle",
   "manufacturer": "General Local",
   "description": "An unbranded ballistic vest with MOLLE webbing. It provides basic soft‑armor protection and modular attachment points, but its effectiveness against high‑power rifle calibers is limited.",
@@ -2658,7 +2670,8 @@
    "minimumDamageJoules": 40.0,
    "repairDifficultyModifier": 0.8
   },
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Molle Vest"
  },
  {
   "id": "IS_Armor_Pantsir20",
@@ -2709,7 +2722,7 @@
  },
  {
   "id": "IS_Armor_Pantsir20_Cat",
-  "name": "Pantsir 2.0",
+  "name": "Pantsir 2.0 (Cat)",
   "manufacturer": "SSO",
   "description": "The Pantsir 2.0 is a Russian plate carrier compatible with 265x 340mm SAPI, ESAPI, and Granit plates, featuring additional soft armor. It provides ballistic defense against threats in high-risk operational environments and can be fitted with climatic inserts that reduce sweating and increase the wearer's comfort.",
   "tags": [
@@ -2743,11 +2756,12 @@
     "height": 3
    }
   },
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Pantsir 2.0"
  },
  {
   "id": "IS_Armor_Pantsir20_Laf",
-  "name": "Pantsir 2.0",
+  "name": "Pantsir 2.0 (Laf)",
   "manufacturer": "SSO",
   "description": "The Pantsir 2.0 is a Russian plate carrier compatible with 265x 340mm SAPI, ESAPI, and Granit plates, featuring additional soft armor. It provides ballistic defense against threats in high-risk operational environments and can be fitted with climatic inserts that reduce sweating and increase the wearer's comfort.",
   "tags": [
@@ -2781,7 +2795,8 @@
     "height": 4
    }
   },
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Pantsir 2.0"
  },
  {
   "id": "IS_Helmet_Pastg",
@@ -3152,7 +3167,7 @@
  },
  {
   "id": "IS_Vest_SksBallisticVest_Cat",
-  "name": "SK-S Vest",
+  "name": "SK-S Vest (Cat)",
   "short_name": "SK-S",
   "manufacturer": "Armokom",
   "description": "A covert ballistic vest designed to be worn under a uniform that offers protection against small arms fire, shrapnel, and edged weapons.",
@@ -3182,7 +3197,8 @@
    "minimumDamageJoules": 20.0,
    "repairDifficultyModifier": 0.6
   },
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SK-S Vest"
  },
  {
   "id": "IS_Helmet_SkullCrusher",

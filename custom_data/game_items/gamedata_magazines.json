@@ -1,7 +1,7 @@
 [
  {
   "id": "IS_MP_Colt1911ProMag_15Rnd_45Acp_Ap_L3",
-  "name": "1911 .45ACP 15-Round Extended Magazine",
+  "name": "1911 .45ACP 15-Round Extended Magazine (MP_Colt1911ProMag_15Rnd_45Acp_Ap_L3)",
   "short_name": "1911 Mag",
   "manufacturer": "Promag Industries",
   "description": "ProMag's 15-round magazine for full-sized Colt 1911s is constructed of rugged, heat-treated steel and uses a chrome-silicon wire-wound follower spring that maintains tension over time.",
@@ -36,11 +36,12 @@
    "IS_Firearm_Colt1911Midas"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Colt1911ProMag_15Rnd_45Acp_Ap_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "1911 .45ACP 15-Round Extended Magazine"
  },
  {
   "id": "IS_Mag_Colt1911ProMag_15Rnd_45Acp",
-  "name": "1911 .45ACP 15-Round Extended Magazine",
+  "name": "1911 .45ACP 15-Round Extended Magazine (Mag_Colt1911ProMag_15Rnd_45Acp)",
   "short_name": "1911 Mag",
   "manufacturer": "Promag Industries",
   "description": "ProMag's 15-round magazine for full-sized Colt 1911s is constructed of rugged, heat-treated steel and uses a chrome-silicon wire-wound follower spring that maintains tension over time.",
@@ -90,11 +91,12 @@
    "IS_Firearm_Colt1911Midas"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Colt1911ProMag_15Rnd_45Acp.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "1911 .45ACP 15-Round Extended Magazine"
  },
  {
   "id": "IS_MP_Mag_AkPolymer_10Rnd_545x39_FMJ_L2",
-  "name": "AK 5.45x39mm 10-Round Polymer Magazine",
+  "name": "AK 5.45x39mm 10-Round Polymer Magazine (MP_Mag_AkPolymer_10Rnd_545x39_FMJ_L2)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The Molot Vepr OEM 5.45x39mm 10-Round Polymer Magazine is a durable and reliable magazine designed for use with Vepr rifles chambered in 5.45x39mm. It is constructed from high-quality polymer and offers a lightweight yet robust solution for shooters who value reliable feeding and smooth operation.",
@@ -131,11 +133,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_AkPolymer_10Rnd_545x39_FMJ_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 5.45x39mm 10-Round Polymer Magazine"
  },
  {
   "id": "IS_MP_Mag_AkPolymer_10Rnd_545x39_Wolf_L1",
-  "name": "AK 5.45x39mm 10-Round Polymer Magazine",
+  "name": "AK 5.45x39mm 10-Round Polymer Magazine (MP_Mag_AkPolymer_10Rnd_545x39_Wolf_L1)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The Molot Vepr OEM 5.45x39mm 10-Round Polymer Magazine is a durable and reliable magazine designed for use with Vepr rifles chambered in 5.45x39mm. It is constructed from high-quality polymer and offers a lightweight yet robust solution for shooters who value reliable feeding and smooth operation.",
@@ -172,11 +175,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_AkPolymer_10Rnd_545x39_Wolf_L1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 5.45x39mm 10-Round Polymer Magazine"
  },
  {
   "id": "IS_Mag_AkPolymer_10Rnd_545x39",
-  "name": "AK 5.45x39mm 10-Round Polymer Magazine",
+  "name": "AK 5.45x39mm 10-Round Polymer Magazine (Mag_AkPolymer_10Rnd_545x39)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The Molot Vepr OEM 5.45x39mm 10-Round Polymer Magazine is a durable and reliable magazine designed for use with Vepr rifles chambered in 5.45x39mm. It is constructed from high-quality polymer and offers a lightweight yet robust solution for shooters who value reliable feeding and smooth operation.",
@@ -228,11 +232,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_AkPolymer_10Rnd_545x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 5.45x39mm 10-Round Polymer Magazine"
  },
  {
   "id": "IS_MP_Mag_PmagAk74_30Rnd_545x39_Bp7N22_L4",
-  "name": "AK 5.45x39mm 30-Round PMAG Magazine",
+  "name": "AK 5.45x39mm 30-Round PMAG Magazine (MP_Mag_PmagAk74_30Rnd_545x39_Bp7N22_L4)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Magpul",
   "description": "The PMAG 30 AK74 MOE is a lightweight and reliable 30-round polymer magazine designed for Kalashnikov-pattern rifles chambered in 5.45x39mm, including the AK-74, MPi-AK-74N, PA md. 86, and similar models. It features a detachable floorplate, consistent curve geometry, stainless steel spring, and a low-friction follower, providing cost-effective performance as expected from a MOE PMAG.",
@@ -269,11 +274,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_PmagAk74_30Rnd_545x39_Bp7N22_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 5.45x39mm 30-Round PMAG Magazine"
  },
  {
   "id": "IS_MP_Mag_PmagAk74_30Rnd_545x39_Ps7N6_L3",
-  "name": "AK 5.45x39mm 30-Round PMAG Magazine",
+  "name": "AK 5.45x39mm 30-Round PMAG Magazine (MP_Mag_PmagAk74_30Rnd_545x39_Ps7N6_L3)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Magpul",
   "description": "The PMAG 30 AK74 MOE is a lightweight and reliable 30-round polymer magazine designed for Kalashnikov-pattern rifles chambered in 5.45x39mm, including the AK-74, MPi-AK-74N, PA md. 86, and similar models. It features a detachable floorplate, consistent curve geometry, stainless steel spring, and a low-friction follower, providing cost-effective performance as expected from a MOE PMAG.",
@@ -310,11 +316,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_PmagAk74_30Rnd_545x39_Ps7N6_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 5.45x39mm 30-Round PMAG Magazine"
  },
  {
   "id": "IS_Mag_PmagAk74_30Rnd_545x39",
-  "name": "AK 5.45x39mm 30-Round PMAG Magazine",
+  "name": "AK 5.45x39mm 30-Round PMAG Magazine (Mag_PmagAk74_30Rnd_545x39)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Magpul",
   "description": "The PMAG 30 AK74 MOE is a lightweight and reliable 30-round polymer magazine designed for Kalashnikov-pattern rifles chambered in 5.45x39mm, including the AK-74, MPi-AK-74N, PA md. 86, and similar models. It features a detachable floorplate, consistent curve geometry, stainless steel spring, and a low-friction follower, providing cost-effective performance as expected from a MOE PMAG.",
@@ -366,7 +373,8 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_PmagAk74_30Rnd_545x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 5.45x39mm 30-Round PMAG Magazine"
  },
  {
   "id": "IS_Mag_PmagAk74_30Rnd_545x39FDE",
@@ -418,7 +426,7 @@
  },
  {
   "id": "IS_MP_Mag_IzhmashBakeliteAk74_30Rnd_545x39_Bp7N22_L4",
-  "name": "AK 5.45×39mm 30-Round Bakelite Magazine",
+  "name": "AK 5.45×39mm 30-Round Bakelite Magazine (MP_Mag_IzhmashBakeliteAk74_30Rnd_545x39_Bp7N22_L4)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "A Russian 5.45x39mm bakelite magazine with a capacity of 30 rounds.",
@@ -455,11 +463,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_IzhmashBakeliteAk74_30Rnd_545x39_Bp7N22_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 5.45×39mm 30-Round Bakelite Magazine"
  },
  {
   "id": "IS_MP_Mag_IzhmashBakeliteAk74_30Rnd_545x39_Fmj_L2",
-  "name": "AK 5.45×39mm 30-Round Bakelite Magazine",
+  "name": "AK 5.45×39mm 30-Round Bakelite Magazine (MP_Mag_IzhmashBakeliteAk74_30Rnd_545x39_Fmj_L2)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "A Russian 5.45x39mm bakelite magazine with a capacity of 30 rounds.",
@@ -496,11 +505,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_IzhmashBakeliteAk74_30Rnd_545x39_Fmj_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 5.45×39mm 30-Round Bakelite Magazine"
  },
  {
   "id": "IS_MP_Mag_IzhmashBakeliteAk74_30Rnd_545x39_Pp7N10_L3",
-  "name": "AK 5.45×39mm 30-Round Bakelite Magazine",
+  "name": "AK 5.45×39mm 30-Round Bakelite Magazine (MP_Mag_IzhmashBakeliteAk74_30Rnd_545x39_Pp7N10_L3)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "A Russian 5.45x39mm bakelite magazine with a capacity of 30 rounds.",
@@ -537,11 +547,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_IzhmashBakeliteAk74_30Rnd_545x39_Pp7N10_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 5.45×39mm 30-Round Bakelite Magazine"
  },
  {
   "id": "IS_Mag_IzhmashBakeliteAk74_30Rnd_545x39",
-  "name": "AK 5.45×39mm 30-Round Bakelite Magazine",
+  "name": "AK 5.45×39mm 30-Round Bakelite Magazine (Mag_IzhmashBakeliteAk74_30Rnd_545x39)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "A Russian 5.45x39mm bakelite magazine with a capacity of 30 rounds.",
@@ -593,11 +604,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_IzhmashBakeliteAk74_30Rnd_545x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 5.45×39mm 30-Round Bakelite Magazine"
  },
  {
   "id": "IS_MP_Mag_IzhmashBlackAk74_30Rnd_545x39_Bp7N22_L4",
-  "name": "AK 5.45×39mm 30-Round Black Magazine",
+  "name": "AK 5.45×39mm 30-Round Black Magazine (MP_Mag_IzhmashBlackAk74_30Rnd_545x39_Bp7N22_L4)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This Izhmash-branded Super Black (True Black) 30-Round AK-74 magazine is compatible with standard AK-74 or RPK-74 rifles that accept 5.45x39mm double-stack magazines.",
@@ -634,11 +646,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_IzhmashBlackAk74_30Rnd_545x39_Bp7N22_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 5.45×39mm 30-Round Black Magazine"
  },
  {
   "id": "IS_MP_Mag_IzhmashBlackAk74_30Rnd_545x39_Fmj_L2",
-  "name": "AK 5.45×39mm 30-Round Black Magazine",
+  "name": "AK 5.45×39mm 30-Round Black Magazine (MP_Mag_IzhmashBlackAk74_30Rnd_545x39_Fmj_L2)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This Izhmash-branded Super Black (True Black) 30-Round AK-74 magazine is compatible with standard AK-74 or RPK-74 rifles that accept 5.45x39mm double-stack magazines.",
@@ -675,11 +688,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_IzhmashBlackAk74_30Rnd_545x39_Fmj_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 5.45×39mm 30-Round Black Magazine"
  },
  {
   "id": "IS_MP_Mag_IzhmashBlackAk74_30Rnd_545x39_Ps7N6_L3",
-  "name": "AK 5.45×39mm 30-Round Black Magazine",
+  "name": "AK 5.45×39mm 30-Round Black Magazine (MP_Mag_IzhmashBlackAk74_30Rnd_545x39_Ps7N6_L3)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This Izhmash-branded Super Black (True Black) 30-Round AK-74 magazine is compatible with standard AK-74 or RPK-74 rifles that accept 5.45x39mm double-stack magazines.",
@@ -716,11 +730,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_IzhmashBlackAk74_30Rnd_545x39_Ps7N6_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 5.45×39mm 30-Round Black Magazine"
  },
  {
   "id": "IS_Mag_IzhmashBlackAk74_30Rnd_545x39",
-  "name": "AK 5.45×39mm 30-Round Black Magazine",
+  "name": "AK 5.45×39mm 30-Round Black Magazine (Mag_IzhmashBlackAk74_30Rnd_545x39)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This Izhmash-branded Super Black (True Black) 30-Round AK-74 magazine is compatible with standard AK-74 or RPK-74 rifles that accept 5.45x39mm double-stack magazines.",
@@ -764,11 +779,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_IzhmashBlackAk74_30Rnd_545x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 5.45×39mm 30-Round Black Magazine"
  },
  {
   "id": "IS_MP_Mag_SchemiserAk_60Rnd_762x39_7N23Bp_L4",
-  "name": "AK 7.62x39 Schmeisser 60-round Magazine",
+  "name": "AK 7.62x39 Schmeisser 60-round Magazine (MP_Mag_SchemiserAk_60Rnd_762x39_7N23Bp_L4)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Schmeisser",
   "description": "The AK-47 60-round quad stack magazine is chambered for 7.62x39mm and constructed from durable fiberglass polymer. It features an anti-tilt follower for smooth, reliable operation.",
@@ -804,11 +820,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_SchemiserAk_60Rnd_762x39_7N23Bp_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39 Schmeisser 60-round Magazine"
  },
  {
   "id": "IS_Mag_SchemiserAk_60Rnd_762x39",
-  "name": "AK 7.62x39 Schmeisser 60-round Magazine",
+  "name": "AK 7.62x39 Schmeisser 60-round Magazine (Mag_SchemiserAk_60Rnd_762x39)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Schmeisser",
   "description": "The AK-47 60-round quad stack magazine is chambered for 7.62x39mm and constructed from durable fiberglass polymer. It features an anti-tilt follower for smooth, reliable operation.",
@@ -859,7 +876,8 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_SchemiserAk_60Rnd_762x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39 Schmeisser 60-round Magazine"
  },
  {
   "id": "IS_Mag_SchemiserAk_60Rnd_762x39FDE",
@@ -957,7 +975,7 @@
  },
  {
   "id": "IS_MP_Mag_AkSteel_10Rnd_762x39_FMJ_L1",
-  "name": "AK 7.62x39mm 10-Round Steel Magazine",
+  "name": "AK 7.62x39mm 10-Round Steel Magazine (MP_Mag_AkSteel_10Rnd_762x39_FMJ_L1)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The AK-47 7.62x39 10-round Steel Magazine is a cost-effective and high-quality option made of durable stainless steel, featuring a precision-engineered locking lug and a corrosion-resistant finish.",
@@ -993,11 +1011,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_AkSteel_10Rnd_762x39_FMJ_L1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39mm 10-Round Steel Magazine"
  },
  {
   "id": "IS_MP_Mag_AkSteel_10Rnd_762x39_Sp_L1",
-  "name": "AK 7.62x39mm 10-Round Steel Magazine",
+  "name": "AK 7.62x39mm 10-Round Steel Magazine (MP_Mag_AkSteel_10Rnd_762x39_Sp_L1)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The AK-47 7.62x39 10-round Steel Magazine is a cost-effective and high-quality option made of durable stainless steel, featuring a precision-engineered locking lug and a corrosion-resistant finish.",
@@ -1033,11 +1052,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_AkSteel_10Rnd_762x39_Sp_L1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39mm 10-Round Steel Magazine"
  },
  {
   "id": "IS_Mag_AkSteel_10Rnd_762x39",
-  "name": "AK 7.62x39mm 10-Round Steel Magazine",
+  "name": "AK 7.62x39mm 10-Round Steel Magazine (Mag_AkSteel_10Rnd_762x39)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The AK-47 7.62x39 10-round Steel Magazine is a cost-effective and high-quality option made of durable stainless steel, featuring a precision-engineered locking lug and a corrosion-resistant finish.",
@@ -1088,11 +1108,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_AkSteel_10Rnd_762x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39mm 10-Round Steel Magazine"
  },
  {
   "id": "IS_MP_Mag_IzhmashBakeliteAk47_30Rnd_762x39_57N231Ps_L3",
-  "name": "AK 7.62x39mm 30-Round Bakelite Magazine",
+  "name": "AK 7.62x39mm 30-Round Bakelite Magazine (MP_Mag_IzhmashBakeliteAk47_30Rnd_762x39_57N231Ps_L3)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This 30-round AK-47 magazine is made of durable bakelite and designed for 7.62x39mm rounds.",
@@ -1128,11 +1149,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_IzhmashBakeliteAk47_30Rnd_762x39_57N231Ps_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39mm 30-Round Bakelite Magazine"
  },
  {
   "id": "IS_MP_Mag_IzhmashBakeliteAk47_30Rnd_762x39_7N23Bp_L4",
-  "name": "AK 7.62x39mm 30-Round Bakelite Magazine",
+  "name": "AK 7.62x39mm 30-Round Bakelite Magazine (MP_Mag_IzhmashBakeliteAk47_30Rnd_762x39_7N23Bp_L4)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This 30-round AK-47 magazine is made of durable bakelite and designed for 7.62x39mm rounds.",
@@ -1168,11 +1190,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_IzhmashBakeliteAk47_30Rnd_762x39_7N23Bp_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39mm 30-Round Bakelite Magazine"
  },
  {
   "id": "IS_MP_Mag_IzhmashBakeliteAk47_30Rnd_762x39_FMJ_L3",
-  "name": "AK 7.62x39mm 30-Round Bakelite Magazine",
+  "name": "AK 7.62x39mm 30-Round Bakelite Magazine (MP_Mag_IzhmashBakeliteAk47_30Rnd_762x39_FMJ_L3)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This 30-round AK-47 magazine is made of durable bakelite and designed for 7.62x39mm rounds.",
@@ -1208,11 +1231,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_IzhmashBakeliteAk47_30Rnd_762x39_FMJ_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39mm 30-Round Bakelite Magazine"
  },
  {
   "id": "IS_MP_Mag_IzhmashBakeliteAk47_30Rnd_762x39_Us_L2",
-  "name": "AK 7.62x39mm 30-Round Bakelite Magazine",
+  "name": "AK 7.62x39mm 30-Round Bakelite Magazine (MP_Mag_IzhmashBakeliteAk47_30Rnd_762x39_Us_L2)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This 30-round AK-47 magazine is made of durable bakelite and designed for 7.62x39mm rounds.",
@@ -1248,11 +1272,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_IzhmashBakeliteAk47_30Rnd_762x39_Us_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39mm 30-Round Bakelite Magazine"
  },
  {
   "id": "IS_Mag_IzhmashBakeliteAk47_30Rnd_762x39",
-  "name": "AK 7.62x39mm 30-Round Bakelite Magazine",
+  "name": "AK 7.62x39mm 30-Round Bakelite Magazine (Mag_IzhmashBakeliteAk47_30Rnd_762x39)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This 30-round AK-47 magazine is made of durable bakelite and designed for 7.62x39mm rounds.",
@@ -1294,11 +1319,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_IzhmashBakeliteAk47_30Rnd_762x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39mm 30-Round Bakelite Magazine"
  },
  {
   "id": "IS_MP_Mag_PmagAkm_30Rnd_762x39_57N231Ps_L3",
-  "name": "AK 7.62x39mm 30-Round PMAG Magazine",
+  "name": "AK 7.62x39mm 30-Round PMAG Magazine (MP_Mag_PmagAkm_30Rnd_762x39_57N231Ps_L3)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Magpul",
   "description": "The PMAG 30 AK/AKM MOE is a lightweight and reliable 30-round polymer magazine designed for 7.62x39mm Kalashnikov-pattern rifles, such as the AK-47, AKM, AKS, SIG556R, and similar models. It features a detachable floorplate, consistent curve design, stainless steel spring, and a high-reliability, low-friction follower. The magazine is cost-effective and delivers the reliable performance associated with MOE PMAGs.",
@@ -1334,11 +1360,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_PmagAkm_30Rnd_762x39_57N231Ps_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39mm 30-Round PMAG Magazine"
  },
  {
   "id": "IS_Mag_PmagAkm_30Rnd_762x39",
-  "name": "AK 7.62x39mm 30-Round PMAG Magazine",
+  "name": "AK 7.62x39mm 30-Round PMAG Magazine (Mag_PmagAkm_30Rnd_762x39)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Magpul",
   "description": "The PMAG 30 AK/AKM MOE is a lightweight and reliable 30-round polymer magazine designed for 7.62x39mm Kalashnikov-pattern rifles, such as the AK-47, AKM, AKS, SIG556R, and similar models. It features a detachable floorplate, consistent curve design, stainless steel spring, and a high-reliability, low-friction follower. The magazine is cost-effective and delivers the reliable performance associated with MOE PMAGs.",
@@ -1389,7 +1416,8 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_PmagAkm_30Rnd_762x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39mm 30-Round PMAG Magazine"
  },
  {
   "id": "IS_Mag_PmagAkm_30Rnd_762x39FDE",
@@ -1487,7 +1515,7 @@
  },
  {
   "id": "IS_MP_Mag_IzhmashStampedAkMagazine_30Rnd_762x39_7N23Bp_L3",
-  "name": "AK 7.62x39mm 30-Round Stamped Magazine",
+  "name": "AK 7.62x39mm 30-Round Stamped Magazine (MP_Mag_IzhmashStampedAkMagazine_30Rnd_762x39_7N23Bp_L3)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "A standard 30-round steel magazine for the 7.62x39 AK and other compatible firearms.",
@@ -1523,11 +1551,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_IzhmashStampedAkMagazine_30Rnd_762x39_7N23Bp_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39mm 30-Round Stamped Magazine"
  },
  {
   "id": "IS_MP_Mag_IzhmashStampedAkMagazine_30Rnd_762x39_FMJ_L2",
-  "name": "AK 7.62x39mm 30-Round Stamped Magazine",
+  "name": "AK 7.62x39mm 30-Round Stamped Magazine (MP_Mag_IzhmashStampedAkMagazine_30Rnd_762x39_FMJ_L2)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "A standard 30-round steel magazine for the 7.62x39 AK and other compatible firearms.",
@@ -1563,11 +1592,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_IzhmashStampedAkMagazine_30Rnd_762x39_FMJ_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39mm 30-Round Stamped Magazine"
  },
  {
   "id": "IS_MP_Mag_IzhmashStampedAkMagazine_30Rnd_762x39_Us_L2",
-  "name": "AK 7.62x39mm 30-Round Stamped Magazine",
+  "name": "AK 7.62x39mm 30-Round Stamped Magazine (MP_Mag_IzhmashStampedAkMagazine_30Rnd_762x39_Us_L2)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "A standard 30-round steel magazine for the 7.62x39 AK and other compatible firearms.",
@@ -1603,11 +1633,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_IzhmashStampedAkMagazine_30Rnd_762x39_Us_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39mm 30-Round Stamped Magazine"
  },
  {
   "id": "IS_Mag_IzhmashStampedAkMagazine_30Rnd_762x39",
-  "name": "AK 7.62x39mm 30-Round Stamped Magazine",
+  "name": "AK 7.62x39mm 30-Round Stamped Magazine (Mag_IzhmashStampedAkMagazine_30Rnd_762x39)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "A standard 30-round steel magazine for the 7.62x39 AK and other compatible firearms.",
@@ -1657,11 +1688,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_IzhmashStampedAkMagazine_30Rnd_762x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK 7.62x39mm 30-Round Stamped Magazine"
  },
  {
   "id": "IS_MP_Mag_Ak12_30Rnd_545x39_Bs7N24_L4",
-  "name": "AK12 5.45x39mm 30-Round Magazine",
+  "name": "AK12 5.45x39mm 30-Round Magazine (MP_Mag_Ak12_30Rnd_545x39_Bs7N24_L4)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This magazine meets military standards and features a stamped steel AK-12 angled base plate for enhanced durability. It is made from lightweight, impact-resistant polymer and features a double-detent mag insert for secure locking.",
@@ -1698,11 +1730,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Ak12_30Rnd_545x39_Bs7N24_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK12 5.45x39mm 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Ak12_30Rnd_545x39_Pp7N10_L3",
-  "name": "AK12 5.45x39mm 30-Round Magazine",
+  "name": "AK12 5.45x39mm 30-Round Magazine (MP_Mag_Ak12_30Rnd_545x39_Pp7N10_L3)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This magazine meets military standards and features a stamped steel AK-12 angled base plate for enhanced durability. It is made from lightweight, impact-resistant polymer and features a double-detent mag insert for secure locking.",
@@ -1739,11 +1772,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Ak12_30Rnd_545x39_Pp7N10_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK12 5.45x39mm 30-Round Magazine"
  },
  {
   "id": "IS_Mag_Ak12_30Rnd_545x39",
-  "name": "AK12 5.45x39mm 30-Round Magazine",
+  "name": "AK12 5.45x39mm 30-Round Magazine (Mag_Ak12_30Rnd_545x39)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This magazine meets military standards and features a stamped steel AK-12 angled base plate for enhanced durability. It is made from lightweight, impact-resistant polymer and features a double-detent mag insert for secure locking.",
@@ -1795,11 +1829,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Ak12_30Rnd_545x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK12 5.45x39mm 30-Round Magazine"
  },
  {
   "id": "IS_Mag_Ak12_30Rnd_PPN10",
-  "name": "AK12 5.45x39mm 30-Round Magazine",
+  "name": "AK12 5.45x39mm 30-Round Magazine (Mag_Ak12_30Rnd_PPN10)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This magazine meets military standards and features a stamped steel AK-12 angled base plate for enhanced durability. It is made from lightweight, impact-resistant polymer and features a double-detent mag insert for secure locking.",
@@ -1843,11 +1878,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Ak12_30Rnd_PPN10.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK12 5.45x39mm 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Ak15_30Rnd_762x39_57N231Ps_L3",
-  "name": "AK15 7.62x39mm 30-Round Magazine",
+  "name": "AK15 7.62x39mm 30-Round Magazine (MP_Mag_Ak15_30Rnd_762x39_57N231Ps_L3)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The new AK-15 30-round magazine designed for 7.62x39mm rifles boasts a rugged stamped steel AK-15 angled base plate and a unique double-detent mag insert for secure locking. Made from a lightweight, impact-resistant polymer, it offers reliable durability across a range of temperatures.",
@@ -1883,11 +1919,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Ak15_30Rnd_762x39_57N231Ps_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK15 7.62x39mm 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Ak15_30Rnd_762x39_7N23Bp_L4",
-  "name": "AK15 7.62x39mm 30-Round Magazine",
+  "name": "AK15 7.62x39mm 30-Round Magazine (MP_Mag_Ak15_30Rnd_762x39_7N23Bp_L4)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The new AK-15 30-round magazine designed for 7.62x39mm rifles boasts a rugged stamped steel AK-15 angled base plate and a unique double-detent mag insert for secure locking. Made from a lightweight, impact-resistant polymer, it offers reliable durability across a range of temperatures.",
@@ -1923,11 +1960,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Ak15_30Rnd_762x39_7N23Bp_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK15 7.62x39mm 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Ak15_30Rnd_762x39_7N27Pp_L4",
-  "name": "AK15 7.62x39mm 30-Round Magazine",
+  "name": "AK15 7.62x39mm 30-Round Magazine (MP_Mag_Ak15_30Rnd_762x39_7N27Pp_L4)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The new AK-15 30-round magazine designed for 7.62x39mm rifles boasts a rugged stamped steel AK-15 angled base plate and a unique double-detent mag insert for secure locking. Made from a lightweight, impact-resistant polymer, it offers reliable durability across a range of temperatures.",
@@ -1963,11 +2001,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Ak15_30Rnd_762x39_7N27Pp_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK15 7.62x39mm 30-Round Magazine"
  },
  {
   "id": "IS_Mag_Ak15_30Rnd_762x39",
-  "name": "AK15 7.62x39mm 30-Round Magazine",
+  "name": "AK15 7.62x39mm 30-Round Magazine (Mag_Ak15_30Rnd_762x39)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The new AK-15 30-round magazine designed for 7.62x39mm rifles boasts a rugged stamped steel AK-15 angled base plate and a unique double-detent mag insert for secure locking. Made from a lightweight, impact-resistant polymer, it offers reliable durability across a range of temperatures.",
@@ -2017,11 +2056,12 @@
    "IS_Firearm_Akmsn"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Ak15_30Rnd_762x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK15 7.62x39mm 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Ak19_30Rnd_556x45_Fmj_L2",
-  "name": "AK19 5.56x45mm 30-Round Magazine",
+  "name": "AK19 5.56x45mm 30-Round Magazine (MP_Mag_Ak19_30Rnd_556x45_Fmj_L2)",
   "short_name": "AK 5.56 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The new AK-19 30-round magazine designed for 5.56x45mm rifles boasts a rugged stamped steel AK-19 angled base plate and a unique double-detent mag insert for secure locking. Made from a lightweight, impact-resistant polymer, it offers reliable durability across a range of temperatures.",
@@ -2052,11 +2092,12 @@
    "IS_Firearm_Ak19"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Ak19_30Rnd_556x45_Fmj_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK19 5.56x45mm 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Ak19_30Rnd_556x45_M855A1_L4",
-  "name": "AK19 5.56x45mm 30-Round Magazine",
+  "name": "AK19 5.56x45mm 30-Round Magazine (MP_Mag_Ak19_30Rnd_556x45_M855A1_L4)",
   "short_name": "AK 5.56 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The new AK-19 30-round magazine designed for 5.56x45mm rifles boasts a rugged stamped steel AK-19 angled base plate and a unique double-detent mag insert for secure locking. Made from a lightweight, impact-resistant polymer, it offers reliable durability across a range of temperatures.",
@@ -2087,11 +2128,12 @@
    "IS_Firearm_Ak19"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Ak19_30Rnd_556x45_M855A1_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK19 5.56x45mm 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Ak19_30Rnd_556x45_M855_L3",
-  "name": "AK19 5.56x45mm 30-Round Magazine",
+  "name": "AK19 5.56x45mm 30-Round Magazine (MP_Mag_Ak19_30Rnd_556x45_M855_L3)",
   "short_name": "AK 5.56 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The new AK-19 30-round magazine designed for 5.56x45mm rifles boasts a rugged stamped steel AK-19 angled base plate and a unique double-detent mag insert for secure locking. Made from a lightweight, impact-resistant polymer, it offers reliable durability across a range of temperatures.",
@@ -2122,11 +2164,12 @@
    "IS_Firearm_Ak19"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Ak19_30Rnd_556x45_M855_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK19 5.56x45mm 30-Round Magazine"
  },
  {
   "id": "IS_Mag_Ak19_30Rnd_556x45",
-  "name": "AK19 5.56x45mm 30-Round Magazine",
+  "name": "AK19 5.56x45mm 30-Round Magazine (Mag_Ak19_30Rnd_556x45)",
   "short_name": "AK 5.56 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The new AK-19 30-round magazine designed for 5.56x45mm rifles boasts a rugged stamped steel AK-19 angled base plate and a unique double-detent mag insert for secure locking. Made from a lightweight, impact-resistant polymer, it offers reliable durability across a range of temperatures.",
@@ -2172,11 +2215,12 @@
    "IS_Firearm_Ak19"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Ak19_30Rnd_556x45.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK19 5.56x45mm 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Ak308_20Rnd_762x51_M80A1_L4",
-  "name": "AK308 7.62x51mm 20-Round Magazine",
+  "name": "AK308 7.62x51mm 20-Round Magazine (MP_Mag_Ak308_20Rnd_762x51_M80A1_L4)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The new AK-308 20-round magazine designed for 7.62x51 mm rifles. Developed by izhmash, it adheres to strict military standards. This magazine features a robust stamped steel AK-308 angled baseplate and a unique double detent mag insert for secure locking. Constructed from lightweight, impact-resistant polymer, it ensures durability in various temperatures.",
@@ -2208,11 +2252,12 @@
    "IS_Firearm_Ak308HT"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Ak308_20Rnd_762x51_M80A1_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK308 7.62x51mm 20-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Ak308_20Rnd_762x51_M80_L3",
-  "name": "AK308 7.62x51mm 20-Round Magazine",
+  "name": "AK308 7.62x51mm 20-Round Magazine (MP_Mag_Ak308_20Rnd_762x51_M80_L3)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The new AK-308 20-round magazine designed for 7.62x51 mm rifles. Developed by izhmash, it adheres to strict military standards. This magazine features a robust stamped steel AK-308 angled baseplate and a unique double detent mag insert for secure locking. Constructed from lightweight, impact-resistant polymer, it ensures durability in various temperatures.",
@@ -2244,11 +2289,12 @@
    "IS_Firearm_Ak308HT"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Ak308_20Rnd_762x51_M80_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK308 7.62x51mm 20-Round Magazine"
  },
  {
   "id": "IS_Mag_Ak308_20Rnd_762x51",
-  "name": "AK308 7.62x51mm 20-Round Magazine",
+  "name": "AK308 7.62x51mm 20-Round Magazine (Mag_Ak308_20Rnd_762x51)",
   "short_name": "AK 7.62 Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The new AK-308 20-round magazine designed for 7.62x51 mm rifles. Developed by izhmash, it adheres to strict military standards. This magazine features a robust stamped steel AK-308 angled baseplate and a unique double detent mag insert for secure locking. Constructed from lightweight, impact-resistant polymer, it ensures durability in various temperatures.",
@@ -2294,7 +2340,8 @@
    "IS_Firearm_Ak308HT"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Ak308_20Rnd_762x51.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK308 7.62x51mm 20-Round Magazine"
  },
  {
   "id": "IS_Mag_Ak308_20Rnd_762x51HT",
@@ -2340,7 +2387,7 @@
  },
  {
   "id": "IS_MP_Mag_Ak74_60Rnd_545x39_Bp7N22_L4",
-  "name": "AK74 5.45x39mm 60-Round Magazine",
+  "name": "AK74 5.45x39mm 60-Round Magazine (MP_Mag_Ak74_60Rnd_545x39_Bp7N22_L4)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Pufgun",
   "description": "This AK magazine holds 60 rounds of 5.45x39mm ammunition and is compatible with any AK-74 type rifle. It is made from military-grade materials, including a rugged black polyamide polymer composite reinforced with fiberglass.",
@@ -2377,11 +2424,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Ak74_60Rnd_545x39_Bp7N22_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK74 5.45x39mm 60-Round Magazine"
  },
  {
   "id": "IS_Mag_Ak74_60Rnd_545x39",
-  "name": "AK74 5.45x39mm 60-Round Magazine",
+  "name": "AK74 5.45x39mm 60-Round Magazine (Mag_Ak74_60Rnd_545x39)",
   "short_name": "AK 5.45 Mag",
   "manufacturer": "Pufgun",
   "description": "This AK magazine holds 60 rounds of 5.45x39mm ammunition and is compatible with any AK-74 type rifle. It is made from military-grade materials, including a rugged black polyamide polymer composite reinforced with fiberglass.",
@@ -2433,7 +2481,8 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Ak74_60Rnd_545x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AK74 5.45x39mm 60-Round Magazine"
  },
  {
   "id": "IS_Mag_Ak74_60Rnd_545x39FDE",
@@ -2634,7 +2683,7 @@
  },
  {
   "id": "IS_MP_Mag_Ar15AtiSchmeisserS60_60Rnd_556x45_Ap_300Aac_L4",
-  "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine",
+  "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine (MP_Mag_Ar15AtiSchmeisserS60_60Rnd_556x45_Ap_300Aac_L4)",
   "short_name": "ATI 5.56/.300 BLK Mag",
   "manufacturer": "Schmeisser",
   "description": "The S60 ATI Schmeisser magazine has a stunning ammo capacity of 60 rounds, making it useful for full-auto fire and long combat scenarios. It can be chambered with 5.56x45mm or .300 AAC Blackout rounds, and is compatible with AR-style firearms.",
@@ -2676,11 +2725,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Ar15AtiSchmeisserS60_60Rnd_556x45_Ap_300Aac_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Ar15AtiSchmeisserS60_60Rnd_556x45_M855A1_L4",
-  "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine",
+  "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine (MP_Mag_Ar15AtiSchmeisserS60_60Rnd_556x45_M855A1_L4)",
   "short_name": "ATI 5.56/.300 BLK Mag",
   "manufacturer": "Schmeisser",
   "description": "The S60 ATI Schmeisser magazine has a stunning ammo capacity of 60 rounds, making it useful for full-auto fire and long combat scenarios. It can be chambered with 5.56x45mm or .300 AAC Blackout rounds, and is compatible with AR-style firearms.",
@@ -2722,11 +2772,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Ar15AtiSchmeisserS60_60Rnd_556x45_M855A1_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Ar15AtiSchmeisserS60_60Rnd_556x45_M855_L3",
-  "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine",
+  "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine (MP_Mag_Ar15AtiSchmeisserS60_60Rnd_556x45_M855_L3)",
   "short_name": "ATI 5.56/.300 BLK Mag",
   "manufacturer": "Schmeisser",
   "description": "The S60 ATI Schmeisser magazine has a stunning ammo capacity of 60 rounds, making it useful for full-auto fire and long combat scenarios. It can be chambered with 5.56x45mm or .300 AAC Blackout rounds, and is compatible with AR-style firearms.",
@@ -2768,11 +2819,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Ar15AtiSchmeisserS60_60Rnd_556x45_M855_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine"
  },
  {
   "id": "IS_Mag_Ar15AtiSchmeisserS60_60Rnd_556x45",
-  "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine",
+  "name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine (Mag_Ar15AtiSchmeisserS60_60Rnd_556x45)",
   "short_name": "ATI 5.56/.300 BLK Mag",
   "manufacturer": "Schmeisser",
   "description": "The S60 ATI Schmeisser magazine has a stunning ammo capacity of 60 rounds, making it useful for full-auto fire and long combat scenarios. It can be chambered with 5.56x45mm or .300 AAC Blackout rounds, and is compatible with AR-style firearms.",
@@ -2830,7 +2882,8 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Ar15AtiSchmeisserS60_60Rnd_556x45.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "ATI S60 5.56x45mm/.300 BLK 60-Round Magazine"
  },
  {
   "id": "IS_Mag_Ar15AtiSchmeisserS60_60Rnd_556x45GN",
@@ -3450,7 +3503,7 @@
  },
  {
   "id": "IS_MP_Mag_IzhmashBlackAk74_30Rnd_545x39Medved_Pp7N10_L4",
-  "name": "Buran's AK 5.45×39mm 30-Round Magazine",
+  "name": "Buran's AK 5.45×39mm 30-Round Magazine (MP_Mag_IzhmashBlackAk74_30Rnd_545x39Medved_Pp7N10_L4)",
   "short_name": "B AK 5.45 Mag",
   "manufacturer": "EGMT",
   "description": "This Izhmash-branded 30-Round AK-74 magazine is compatible with standard AK-74 or RPK-74 rifles that accept 5.45x39mm double-stack magazines.\n\nThis is a part of the AK-74N belonging to Arkady \"Buran\" Vititsky, the military commander of Fort Narith.",
@@ -3488,11 +3541,12 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_IzhmashBlackAk74_30Rnd_545x39Medved_Pp7N10_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Buran's AK 5.45×39mm 30-Round Magazine"
  },
  {
   "id": "IS_Mag_IzhmashBlackAk74_30Rnd_545x39Medved",
-  "name": "Buran's AK 5.45×39mm 30-Round Magazine",
+  "name": "Buran's AK 5.45×39mm 30-Round Magazine (Mag_IzhmashBlackAk74_30Rnd_545x39Medved)",
   "short_name": "B AK 5.45 Mag",
   "manufacturer": "EGMT",
   "description": "This Izhmash-branded 30-Round AK-74 magazine is compatible with standard AK-74 or RPK-74 rifles that accept 5.45x39mm double-stack magazines.\n\nThis is a part of the AK-74N belonging to Arkady \"Buran\" Vititsky, the military commander of Fort Narith.",
@@ -3536,7 +3590,8 @@
    "IS_Firearm_Aks74UFather"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_IzhmashBlackAk74_30Rnd_545x39Medved.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Buran's AK 5.45×39mm 30-Round Magazine"
  },
  {
   "id": "IS_Mag_Type51_8Rnd_762x25Mako",
@@ -3630,7 +3685,7 @@
  },
  {
   "id": "IS_MP_Colt1911_7Rnd_45Acp_Ap_L4",
-  "name": "Colt 1911 .45ACP 7-Round Magazine",
+  "name": "Colt 1911 .45ACP 7-Round Magazine (MP_Colt1911_7Rnd_45Acp_Ap_L4)",
   "short_name": "1911 Mag",
   "manufacturer": "COLT",
   "description": "The Colt 1911 Government/Commander Magazine is a high-quality steel magazine designed for the 1911 model pistol. It has a 7-round capacity for .45 ACP ammunition and features a blued finish. This magazine is compatible with several 1911 models, including the Government, Commander, and Gold Cup series.",
@@ -3665,11 +3720,12 @@
    "IS_Firearm_Colt1911Midas"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Colt1911_7Rnd_45Acp_Ap_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Colt 1911 .45ACP 7-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Colt1911_7Rnd_45Acp_Fmj_L1",
-  "name": "Colt 1911 .45ACP 7-Round Magazine",
+  "name": "Colt 1911 .45ACP 7-Round Magazine (MP_Mag_Colt1911_7Rnd_45Acp_Fmj_L1)",
   "short_name": "1911 Mag",
   "manufacturer": "COLT",
   "description": "The Colt 1911 Government/Commander Magazine is a high-quality steel magazine designed for the 1911 model pistol. It has a 7-round capacity for .45 ACP ammunition and features a blued finish. This magazine is compatible with several 1911 models, including the Government, Commander, and Gold Cup series.",
@@ -3704,11 +3760,12 @@
    "IS_Firearm_Colt1911Midas"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Colt1911_7Rnd_45Acp_Fmj_L1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Colt 1911 .45ACP 7-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Colt1911_7Rnd_45Acp_HydraShock_L2",
-  "name": "Colt 1911 .45ACP 7-Round Magazine",
+  "name": "Colt 1911 .45ACP 7-Round Magazine (MP_Mag_Colt1911_7Rnd_45Acp_HydraShock_L2)",
   "short_name": "1911 Mag",
   "manufacturer": "COLT",
   "description": "The Colt 1911 Government/Commander Magazine is a high-quality steel magazine designed for the 1911 model pistol. It has a 7-round capacity for .45 ACP ammunition and features a blued finish. This magazine is compatible with several 1911 models, including the Government, Commander, and Gold Cup series.",
@@ -3743,11 +3800,12 @@
    "IS_Firearm_Colt1911Midas"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Colt1911_7Rnd_45Acp_HydraShock_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Colt 1911 .45ACP 7-Round Magazine"
  },
  {
   "id": "IS_Mag_Colt1911_7Rnd_45Acp",
-  "name": "Colt 1911 .45ACP 7-Round Magazine",
+  "name": "Colt 1911 .45ACP 7-Round Magazine (Mag_Colt1911_7Rnd_45Acp)",
   "short_name": "1911 Mag",
   "manufacturer": "COLT",
   "description": "The Colt 1911 Government/Commander Magazine is a high-quality steel magazine designed for the 1911 model pistol. It has a 7-round capacity for .45 ACP ammunition and features a blued finish. This magazine is compatible with several 1911 models, including the Government, Commander, and Gold Cup series.",
@@ -3796,11 +3854,12 @@
    "IS_Firearm_Colt1911Midas"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Colt1911_7Rnd_45Acp.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Colt 1911 .45ACP 7-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_DdAr15_32Rnd_556x45_Ap_300Aac_L4",
-  "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine",
+  "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine (MP_Mag_DdAr15_32Rnd_556x45_Ap_300Aac_L4)",
   "short_name": "DD 5.56/.300 BLK Mag",
   "manufacturer": "Daniel Defense",
   "description": "The DD Magazine is constructed with the same high quality and strict standards as Daniel Defense firearms. It offers 32-round capacity for both 5.56x45mm and .300 AAC Blackout rounds, all within the familiar size of industry-standard 30-round magazines. The magazine is compatible with AR-style firearms.",
@@ -3842,11 +3901,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_DdAr15_32Rnd_556x45_Ap_300Aac_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "DD 5.56x45mm/.300 BLK 32-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_DdAr15_32Rnd_556x45_Ap_300Aac_L5",
-  "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine",
+  "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine (MP_Mag_DdAr15_32Rnd_556x45_Ap_300Aac_L5)",
   "short_name": "DD 5.56/.300 BLK Mag",
   "manufacturer": "Daniel Defense",
   "description": "The DD Magazine is constructed with the same high quality and strict standards as Daniel Defense firearms. It offers 32-round capacity for both 5.56x45mm and .300 AAC Blackout rounds, all within the familiar size of industry-standard 30-round magazines. The magazine is compatible with AR-style firearms.",
@@ -3888,11 +3948,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_DdAr15_32Rnd_556x45_Ap_300Aac_L5.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "DD 5.56x45mm/.300 BLK 32-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_DdAr15_32Rnd_556x45_M855A1_L4",
-  "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine",
+  "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine (MP_Mag_DdAr15_32Rnd_556x45_M855A1_L4)",
   "short_name": "DD 5.56/.300 BLK Mag",
   "manufacturer": "Daniel Defense",
   "description": "The DD Magazine is constructed with the same high quality and strict standards as Daniel Defense firearms. It offers 32-round capacity for both 5.56x45mm and .300 AAC Blackout rounds, all within the familiar size of industry-standard 30-round magazines. The magazine is compatible with AR-style firearms.",
@@ -3934,11 +3995,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_DdAr15_32Rnd_556x45_M855A1_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "DD 5.56x45mm/.300 BLK 32-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_DdAr15_32Rnd_556x45_M855_L3",
-  "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine",
+  "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine (MP_Mag_DdAr15_32Rnd_556x45_M855_L3)",
   "short_name": "DD 5.56/.300 BLK Mag",
   "manufacturer": "Daniel Defense",
   "description": "The DD Magazine is constructed with the same high quality and strict standards as Daniel Defense firearms. It offers 32-round capacity for both 5.56x45mm and .300 AAC Blackout rounds, all within the familiar size of industry-standard 30-round magazines. The magazine is compatible with AR-style firearms.",
@@ -3980,11 +4042,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_DdAr15_32Rnd_556x45_M855_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "DD 5.56x45mm/.300 BLK 32-Round Magazine"
  },
  {
   "id": "IS_Mag_DdAr15_32Rnd_556x45",
-  "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine",
+  "name": "DD 5.56x45mm/.300 BLK 32-Round Magazine (Mag_DdAr15_32Rnd_556x45)",
   "short_name": "DD 5.56/.300 BLK Mag",
   "manufacturer": "Daniel Defense",
   "description": "The DD Magazine is constructed with the same high quality and strict standards as Daniel Defense firearms. It offers 32-round capacity for both 5.56x45mm and .300 AAC Blackout rounds, all within the familiar size of industry-standard 30-round magazines. The magazine is compatible with AR-style firearms.",
@@ -4042,7 +4105,8 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_DdAr15_32Rnd_556x45.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "DD 5.56x45mm/.300 BLK 32-Round Magazine"
  },
  {
   "id": "IS_Mag_FabSaVz58_30Rnd_762x39",
@@ -4097,7 +4161,7 @@
  },
  {
   "id": "IS_Mag_FabSaVz58_30Rnd_762x39_FMJ",
-  "name": "FAB Sa vz. 58 7.62x39mm 30-Round Magazine",
+  "name": "FAB Sa vz. 58 7.62x39mm 30-Round Magazine (FMJ)",
   "short_name": "FAB Mag",
   "manufacturer": "F.A.B.",
   "description": "This lightweight yet durable 30-round polymer magazine is designed for the Sa vz. 58 rifle chambered in 7.62×39mm. Reinforced with internal steel feed lips and a hardened spring, it ensures reliable cartridge feeding. The impact-resistant polymer body provides long-lasting durability. Its slim, ergonomic profile matches the rifle’s contours for smooth handling and fast reloads, delivering extended-capacity performance with minimal weight for field use.",
@@ -4137,7 +4201,8 @@
    "IS_Firearm_SaVz58FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_FabSaVz58_30Rnd_762x39_FMJ.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "FAB Sa vz. 58 7.62x39mm 30-Round Magazine"
  },
  {
   "id": "IS_Mag_FabSaVz58_30Rnd_762x39BD",
@@ -4184,7 +4249,7 @@
  },
  {
   "id": "IS_Mag_Famas_25Rnd_556x45",
-  "name": "FAMAS 5.56x45mm 25-Round Steel Magazine",
+  "name": "FAMAS 5.56x45mm 25-Round Steel Magazine (556x45)",
   "short_name": "FAMAS Mag",
   "manufacturer": "MAS",
   "description": "A 25-round steel magazine chambered in 5.56x45mm for the FAMAS rifle.",
@@ -4229,11 +4294,12 @@
    "IS_Firearm_Famas"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Famas_25Rnd_556x45.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "FAMAS 5.56x45mm 25-Round Steel Magazine"
  },
  {
   "id": "IS_Mag_Famas_25Rnd_556x46_M855",
-  "name": "FAMAS 5.56x45mm 25-Round Steel Magazine",
+  "name": "FAMAS 5.56x45mm 25-Round Steel Magazine (556x46_M855)",
   "short_name": "FAMAS Mag",
   "manufacturer": "MAS",
   "description": "A 25-round steel magazine chambered in 5.56x45mm for the FAMAS rifle.",
@@ -4270,7 +4336,8 @@
    "IS_Firearm_Famas"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Famas_25Rnd_556x46_M855.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "FAMAS 5.56x45mm 25-Round Steel Magazine"
  },
  {
   "id": "IS_Mag_IzhmashBlackAk74_30Rnd_545x39Father",
@@ -4323,7 +4390,7 @@
  },
  {
   "id": "IS_Mag_G3_15Rnd_762x51",
-  "name": "G3 7.62x51mm 15-Round Aluminum Magazine",
+  "name": "G3 7.62x51mm 15-Round Aluminum Magazine (762x51)",
   "short_name": "G3 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 15-round aluminum magazine chambered in 7.62x51mm for the Heckler & Koch G3.",
@@ -4369,11 +4436,12 @@
    "IS_Firearm_G3ZH"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_G3_15Rnd_762x51.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "G3 7.62x51mm 15-Round Aluminum Magazine"
  },
  {
   "id": "IS_Mag_G3_15Rnd_762x52_m80",
-  "name": "G3 7.62x51mm 15-Round Aluminum Magazine",
+  "name": "G3 7.62x51mm 15-Round Aluminum Magazine (762x52_m80)",
   "short_name": "G3 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 15-round aluminum magazine chambered in 7.62x51mm for the Heckler & Koch G3.",
@@ -4411,7 +4479,8 @@
    "IS_Firearm_G3ZH"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_G3_15Rnd_762x52_m80.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "G3 7.62x51mm 15-Round Aluminum Magazine"
  },
  {
   "id": "IS_Mag_G3_20Rnd_762x51",
@@ -4595,7 +4664,7 @@
  },
  {
   "id": "IS_Mag_G36_20Rnd_556x45",
-  "name": "G36 5.56x45mm 20-Round Magazine",
+  "name": "G36 5.56x45mm 20-Round Magazine (556x45)",
   "short_name": "G36 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 20-round polymer magazine chambered in 5.56x45mm for the Heckler & Koch G36. Its compact design minimizes overall length.",
@@ -4642,11 +4711,12 @@
    "IS_Firearm_G36FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_G36_20Rnd_556x45.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "G36 5.56x45mm 20-Round Magazine"
  },
  {
   "id": "IS_Mag_G36_20Rnd_556x46_M855",
-  "name": "G36 5.56x45mm 20-Round Magazine",
+  "name": "G36 5.56x45mm 20-Round Magazine (556x46_M855)",
   "short_name": "G36 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 20-round polymer magazine chambered in 5.56x45mm for the Heckler & Koch G36. Its compact design minimizes overall length.",
@@ -4685,11 +4755,12 @@
    "IS_Firearm_G36FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_G36_20Rnd_556x46_M855.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "G36 5.56x45mm 20-Round Magazine"
  },
  {
   "id": "IS_Mag_G36_30Rnd_556x45",
-  "name": "G36 5.56x45mm 30-Round Magazine",
+  "name": "G36 5.56x45mm 30-Round Magazine (556x45)",
   "short_name": "G36 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 30-round polymer magazine chambered in 5.56x45mm for the Heckler & Koch G36.",
@@ -4735,11 +4806,12 @@
    "IS_Firearm_G36FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_G36_30Rnd_556x45.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "G36 5.56x45mm 30-Round Magazine"
  },
  {
   "id": "IS_Mag_G36_30Rnd_556x46_M855",
-  "name": "G36 5.56x45mm 30-Round Magazine",
+  "name": "G36 5.56x45mm 30-Round Magazine (556x46_M855)",
   "short_name": "G36 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 30-round polymer magazine chambered in 5.56x45mm for the Heckler & Koch G36.",
@@ -4777,11 +4849,12 @@
    "IS_Firearm_G36FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_G36_30Rnd_556x46_M855.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "G36 5.56x45mm 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Glock17_17Rnd_9x19mm_LibraSnail_L3",
-  "name": "Glock 17 9x19mm 17-Round Magazine",
+  "name": "Glock 17 9x19mm 17-Round Magazine (MP_Mag_Glock17_17Rnd_9x19mm_LibraSnail_L3)",
   "short_name": "G17 Mag",
   "manufacturer": "GLOCK",
   "description": "A polymer magazine designed for the Glock 17 pistol. It has a capacity of 17 rounds and is chambered for 9x19mm ammunition.",
@@ -4816,11 +4889,12 @@
    "IS_Firearm_Glock18CWB"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Glock17_17Rnd_9x19mm_LibraSnail_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Glock 17 9x19mm 17-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Glock17_17Rnd_9x19mm_XtremePenetratorP_L2",
-  "name": "Glock 17 9x19mm 17-Round Magazine",
+  "name": "Glock 17 9x19mm 17-Round Magazine (MP_Mag_Glock17_17Rnd_9x19mm_XtremePenetratorP_L2)",
   "short_name": "G17 Mag",
   "manufacturer": "GLOCK",
   "description": "A polymer magazine designed for the Glock 17 pistol. It has a capacity of 17 rounds and is chambered for 9x19mm ammunition.",
@@ -4855,11 +4929,12 @@
    "IS_Firearm_Glock18CWB"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Glock17_17Rnd_9x19mm_XtremePenetratorP_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Glock 17 9x19mm 17-Round Magazine"
  },
  {
   "id": "IS_Mag_Glock17_17Rnd_9x19mm",
-  "name": "Glock 17 9x19mm 17-Round Magazine",
+  "name": "Glock 17 9x19mm 17-Round Magazine (Mag_Glock17_17Rnd_9x19mm)",
   "short_name": "G17 Mag",
   "manufacturer": "GLOCK",
   "description": "A polymer magazine designed for the Glock 17 pistol. It has a capacity of 17 rounds and is chambered for 9x19mm ammunition.",
@@ -4908,11 +4983,12 @@
    "IS_Firearm_Glock18CWB"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Glock17_17Rnd_9x19mm.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Glock 17 9x19mm 17-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_PromagGlock17_27Rnd_9x19mm_LibraSnail_L4",
-  "name": "Glock 17 9x19mm 27-Round Magazine",
+  "name": "Glock 17 9x19mm 27-Round Magazine (MP_Mag_PromagGlock17_27Rnd_9x19mm_LibraSnail_L4)",
   "short_name": "G17 Mag",
   "manufacturer": "Promag Industries",
   "description": "The PMAG 27 GL9 is a 27-round magazine for GLOCK 9mm handguns. It is made entirely of polymer, ensuring reliable and durable performance even with extensive use. The magazine is compliant with the specified overall length for a 170MM competition magazine, providing increased capacity without the need for costly extensions.",
@@ -4947,11 +5023,12 @@
    "IS_Firearm_Glock18CWB"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_PromagGlock17_27Rnd_9x19mm_LibraSnail_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Glock 17 9x19mm 27-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_PromagGlock17_27Rnd_9x19mm_XtremePenetratorP_L3",
-  "name": "Glock 17 9x19mm 27-Round Magazine",
+  "name": "Glock 17 9x19mm 27-Round Magazine (MP_Mag_PromagGlock17_27Rnd_9x19mm_XtremePenetratorP_L3)",
   "short_name": "G17 Mag",
   "manufacturer": "Promag Industries",
   "description": "The PMAG 27 GL9 is a 27-round magazine for GLOCK 9mm handguns. It is made entirely of polymer, ensuring reliable and durable performance even with extensive use. The magazine is compliant with the specified overall length for a 170MM competition magazine, providing increased capacity without the need for costly extensions.",
@@ -4986,11 +5063,12 @@
    "IS_Firearm_Glock18CWB"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_PromagGlock17_27Rnd_9x19mm_XtremePenetratorP_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Glock 17 9x19mm 27-Round Magazine"
  },
  {
   "id": "IS_Mag_PromagGlock17_27Rnd_9x19mm",
-  "name": "Glock 17 9x19mm 27-Round Magazine",
+  "name": "Glock 17 9x19mm 27-Round Magazine (Mag_PromagGlock17_27Rnd_9x19mm)",
   "short_name": "G17 Mag",
   "manufacturer": "Promag Industries",
   "description": "The PMAG 27 GL9 is a 27-round magazine for GLOCK 9mm handguns. It is made entirely of polymer, ensuring reliable and durable performance even with extensive use. The magazine is compliant with the specified overall length for a 170MM competition magazine, providing increased capacity without the need for costly extensions.",
@@ -5040,7 +5118,8 @@
    "IS_Firearm_Glock18CWB"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_PromagGlock17_27Rnd_9x19mm.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Glock 17 9x19mm 27-Round Magazine"
  },
  {
   "id": "IS_Mag_PromagGlock17_27Rnd_9x19mmWB",
@@ -5278,7 +5357,7 @@
  },
  {
   "id": "IS_Mag_SpringfieldM1A_10Rnd_762x51",
-  "name": "M1A Springfield 10-Round Magazine",
+  "name": "M1A Springfield 10-Round Magazine (762x51)",
   "short_name": "M1A Mag",
   "manufacturer": "Springfield",
   "description": "A 10-round factory magazine built to Springfield’s exact specifications for the M1A or M14. Made in the USA, it features a heat-treated steel body with a black oxide finish, a steel base plate, a chrome-silicone spring, and a polymer follower for reliable feeding.",
@@ -5326,11 +5405,12 @@
    "IS_Firearm_M1A"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_SpringfieldM1A_10Rnd_762x51.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M1A Springfield 10-Round Magazine"
  },
  {
   "id": "IS_Mag_SpringfieldM1A_10Rnd_M80a1",
-  "name": "M1A Springfield 10-Round Magazine",
+  "name": "M1A Springfield 10-Round Magazine (M80a1)",
   "short_name": "M1A Mag",
   "manufacturer": "Springfield",
   "description": "A 10-round factory magazine built to Springfield’s exact specifications for the M1A or M14. Made in the USA, it features a heat-treated steel body with a black oxide finish, a steel base plate, a chrome-silicone spring, and a polymer follower for reliable feeding.",
@@ -5370,7 +5450,8 @@
    "IS_Firearm_M1A"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_SpringfieldM1A_10Rnd_M80a1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M1A Springfield 10-Round Magazine"
  },
  {
   "id": "IS_Mag_SpringfieldM1A_20Rnd_762x51",
@@ -5521,7 +5602,7 @@
  },
  {
   "id": "IS_MP_Mag_MossbergNordicMagazineExt_10Rnd_12Gaug_SstSabotSlug_L3",
-  "name": "M590 12ga 10-Round Magazine",
+  "name": "M590 12ga 10-Round Magazine (MP_Mag_MossbergNordicMagazineExt_10Rnd_12Gaug_SstSabotSlug_L3)",
   "short_name": "M590 Mag",
   "manufacturer": "Nordic Components",
   "description": "The Nordic Magazine Extension is designed for Mossberg shotguns and has a capacity of 10 rounds. It allows users to carry more rounds for their firearm.",
@@ -5558,11 +5639,12 @@
    "Socket.Muzzle.Suppressor.12Gauge"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_MossbergNordicMagazineExt_10Rnd_12Gaug_SstSabotSlug_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M590 12ga 10-Round Magazine"
  },
  {
   "id": "IS_Mag_MossbergNordicMagazineExt_10Rnd_12Gaug",
-  "name": "M590 12ga 10-Round Magazine",
+  "name": "M590 12ga 10-Round Magazine (Mag_MossbergNordicMagazineExt_10Rnd_12Gaug)",
   "short_name": "M590 Mag",
   "manufacturer": "Nordic Components",
   "description": "The Nordic Magazine Extension is designed for Mossberg shotguns and has a capacity of 10 rounds. It allows users to carry more rounds for their firearm.",
@@ -5606,7 +5688,8 @@
    "Socket.Muzzle.Suppressor.12Gauge"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_MossbergNordicMagazineExt_10Rnd_12Gaug.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M590 12ga 10-Round Magazine"
  },
  {
   "id": "IS_Mag_MossbergNordicMagazineExt_10Rnd_12GaugRT",
@@ -5703,7 +5786,7 @@
  },
  {
   "id": "IS_MP_Mag_MossbergNordicMagazineExt_7Rnd_12Gaug_Slug_L2",
-  "name": "M590 12ga 7-Round Magazine",
+  "name": "M590 12ga 7-Round Magazine (MP_Mag_MossbergNordicMagazineExt_7Rnd_12Gaug_Slug_L2)",
   "short_name": "M590 Mag",
   "manufacturer": "Nordic Components",
   "description": "The Nordic Magazine Extension is designed for Mossberg shotguns and has a capacity of 7 rounds. It allows users to carry more rounds for their firearm.",
@@ -5737,11 +5820,12 @@
    "IS_Firearm_Mossberg590RT"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_MossbergNordicMagazineExt_7Rnd_12Gaug_Slug_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M590 12ga 7-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_MossbergNordicMagazineExt_7Rnd_12Gaug_SstSabotSlug_L3",
-  "name": "M590 12ga 7-Round Magazine",
+  "name": "M590 12ga 7-Round Magazine (MP_Mag_MossbergNordicMagazineExt_7Rnd_12Gaug_SstSabotSlug_L3)",
   "short_name": "M590 Mag",
   "manufacturer": "Nordic Components",
   "description": "The Nordic Magazine Extension is designed for Mossberg shotguns and has a capacity of 7 rounds. It allows users to carry more rounds for their firearm.",
@@ -5775,11 +5859,12 @@
    "IS_Firearm_Mossberg590RT"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_MossbergNordicMagazineExt_7Rnd_12Gaug_SstSabotSlug_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M590 12ga 7-Round Magazine"
  },
  {
   "id": "IS_Mag_MossbergNordicMagazineExt_7Rnd_12Gaug",
-  "name": "M590 12ga 7-Round Magazine",
+  "name": "M590 12ga 7-Round Magazine (Mag_MossbergNordicMagazineExt_7Rnd_12Gaug)",
   "short_name": "M590 Mag",
   "manufacturer": "Nordic Components",
   "description": "The Nordic Magazine Extension is designed for Mossberg shotguns and has a capacity of 7 rounds. It allows users to carry more rounds for their firearm.",
@@ -5820,11 +5905,12 @@
    "IS_Firearm_Mossberg590RT"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_MossbergNordicMagazineExt_7Rnd_12Gaug.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M590 12ga 7-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_MossbergNordicMagazineExt_8Rnd_12Gaug_SstSabotSlug_L3",
-  "name": "M590 12ga 8-Round Magazine",
+  "name": "M590 12ga 8-Round Magazine (MP_Mag_MossbergNordicMagazineExt_8Rnd_12Gaug_SstSabotSlug_L3)",
   "short_name": "M590 Mag",
   "manufacturer": "Nordic Components",
   "description": "The Nordic Magazine Extension is designed for Mossberg shotguns and has a capacity of 8 rounds. It allows users to carry more rounds for their firearm.",
@@ -5861,11 +5947,12 @@
    "Socket.Muzzle.Suppressor.12Gauge"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_MossbergNordicMagazineExt_8Rnd_12Gaug_SstSabotSlug_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M590 12ga 8-Round Magazine"
  },
  {
   "id": "IS_Mag_MossbergNordicMagazineExt_8Rnd_12Gaug",
-  "name": "M590 12ga 8-Round Magazine",
+  "name": "M590 12ga 8-Round Magazine (Mag_MossbergNordicMagazineExt_8Rnd_12Gaug)",
   "short_name": "M590 Mag",
   "manufacturer": "Nordic Components",
   "description": "The Nordic Magazine Extension is designed for Mossberg shotguns and has a capacity of 8 rounds. It allows users to carry more rounds for their firearm.",
@@ -5908,11 +5995,12 @@
    "Socket.Muzzle.Suppressor.12Gauge"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_MossbergNordicMagazineExt_8Rnd_12Gaug.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M590 12ga 8-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Remington700Aics_10Rnd_762x51_M80A1_L4",
-  "name": "M700 7.62x51mm 10-Round Magazine",
+  "name": "M700 7.62x51mm 10-Round Magazine (MP_Mag_Remington700Aics_10Rnd_762x51_M80A1_L4)",
   "short_name": "M700 Mag",
   "manufacturer": "Accuracy International",
   "description": "The Single Stack Accuracy International Magazine is both durable and corrosion-resistant. It is constructed from steel and features special coatings, while the removable springs and followers make cleaning simple. It can hold ten rounds.",
@@ -5945,11 +6033,12 @@
    "IS_Firearm_M700GC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Remington700Aics_10Rnd_762x51_M80A1_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M700 7.62x51mm 10-Round Magazine"
  },
  {
   "id": "IS_Mag_Remington700Aics_10Rnd_762x51",
-  "name": "M700 7.62x51mm 10-Round Magazine",
+  "name": "M700 7.62x51mm 10-Round Magazine (Mag_Remington700Aics_10Rnd_762x51)",
   "short_name": "M700 Mag",
   "manufacturer": "Accuracy International",
   "description": "The Single Stack Accuracy International Magazine is both durable and corrosion-resistant. It is constructed from steel and features special coatings, while the removable springs and followers make cleaning simple. It can hold ten rounds.",
@@ -5997,7 +6086,8 @@
    "IS_Firearm_M700GC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Remington700Aics_10Rnd_762x51.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M700 7.62x51mm 10-Round Magazine"
  },
  {
   "id": "IS_Mag_Remington700Aics_10Rnd_762x51GC",
@@ -6045,7 +6135,7 @@
  },
  {
   "id": "IS_MP_Mag_Remington700Pmag_10Rnd_762x51_Hpbt_L3",
-  "name": "M700 7.62x51mm 10-Round PMAG AC Magazine",
+  "name": "M700 7.62x51mm 10-Round PMAG AC Magazine (MP_Mag_Remington700Pmag_10Rnd_762x51_Hpbt_L3)",
   "short_name": "M700 Mag",
   "manufacturer": "Magpul",
   "description": "The PMAG 10 7.62 AC is a durable polymer magazine that holds ten rounds and is designed for .308 Winchester cartridges. It is compatible with short-action AICS-spec bottom metal, including the Bolt Action Magazine Well for the Hunter 700 Stock. The magazine features a paint-pen dot matrix for easy identification and a flared base plate for enhanced control and quick retrieval.",
@@ -6078,11 +6168,12 @@
    "IS_Firearm_M700GC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Remington700Pmag_10Rnd_762x51_Hpbt_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M700 7.62x51mm 10-Round PMAG AC Magazine"
  },
  {
   "id": "IS_MP_Mag_Remington700Pmag_10Rnd_762x51_M62_L4",
-  "name": "M700 7.62x51mm 10-Round PMAG AC Magazine",
+  "name": "M700 7.62x51mm 10-Round PMAG AC Magazine (MP_Mag_Remington700Pmag_10Rnd_762x51_M62_L4)",
   "short_name": "M700 Mag",
   "manufacturer": "Magpul",
   "description": "The PMAG 10 7.62 AC is a durable polymer magazine that holds ten rounds and is designed for .308 Winchester cartridges. It is compatible with short-action AICS-spec bottom metal, including the Bolt Action Magazine Well for the Hunter 700 Stock. The magazine features a paint-pen dot matrix for easy identification and a flared base plate for enhanced control and quick retrieval.",
@@ -6115,11 +6206,12 @@
    "IS_Firearm_M700GC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Remington700Pmag_10Rnd_762x51_M62_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M700 7.62x51mm 10-Round PMAG AC Magazine"
  },
  {
   "id": "IS_Mag_Remington700Pmag_10Rnd_762x51",
-  "name": "M700 7.62x51mm 10-Round PMAG AC Magazine",
+  "name": "M700 7.62x51mm 10-Round PMAG AC Magazine (Mag_Remington700Pmag_10Rnd_762x51)",
   "short_name": "M700 Mag",
   "manufacturer": "Magpul",
   "description": "The PMAG 10 7.62 AC is a durable polymer magazine that holds ten rounds and is designed for .308 Winchester cartridges. It is compatible with short-action AICS-spec bottom metal, including the Bolt Action Magazine Well for the Hunter 700 Stock. The magazine features a paint-pen dot matrix for easy identification and a flared base plate for enhanced control and quick retrieval.",
@@ -6167,11 +6259,12 @@
    "IS_Firearm_M700GC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Remington700Pmag_10Rnd_762x51.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M700 7.62x51mm 10-Round PMAG AC Magazine"
  },
  {
   "id": "IS_Mag_Remington700Pmag_10Rnd_M80A1",
-  "name": "M700 7.62x51mm 10-Round PMAG AC Magazine",
+  "name": "M700 7.62x51mm 10-Round PMAG AC Magazine (Mag_Remington700Pmag_10Rnd_M80A1)",
   "short_name": "M700 Mag",
   "manufacturer": "Magpul",
   "description": "The PMAG 10 7.62 AC is a durable polymer magazine that holds ten rounds and is designed for .308 Winchester cartridges. It is compatible with short-action AICS-spec bottom metal, including the Bolt Action Magazine Well for the Hunter 700 Stock. The magazine features a paint-pen dot matrix for easy identification and a flared base plate for enhanced control and quick retrieval.",
@@ -6211,7 +6304,8 @@
    "IS_Firearm_M700GC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Remington700Pmag_10Rnd_M80A1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M700 7.62x51mm 10-Round PMAG AC Magazine"
  },
  {
   "id": "IS_Mag_Remington700Aics_5Rnd_762x51",
@@ -6267,7 +6361,7 @@
  },
  {
   "id": "IS_MP_Mag_Remington700Pmag_5Rnd_762x51_M80_L2",
-  "name": "M700 7.62x51mm 5-Round PMAG AC Magazine",
+  "name": "M700 7.62x51mm 5-Round PMAG AC Magazine (MP_Mag_Remington700Pmag_5Rnd_762x51_M80_L2)",
   "short_name": "M700 Mag",
   "manufacturer": "Magpul",
   "description": "The PMAG 5 7.62 AC is a durable polymer magazine that holds five rounds and is specifically designed for .308 Winchester cartridges. It is compatible with short-action AICS-spec bottom metal, including the Bolt Action Magazine Well for the Hunter 700 Stock. The magazine features a paint-pen dot matrix for easy identification and a flared base plate for enhanced control and quick retrieval.",
@@ -6300,11 +6394,12 @@
    "IS_Firearm_M700GC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Remington700Pmag_5Rnd_762x51_M80_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M700 7.62x51mm 5-Round PMAG AC Magazine"
  },
  {
   "id": "IS_Mag_Remington700Pmag_5Rnd_762x51",
-  "name": "M700 7.62x51mm 5-Round PMAG AC Magazine",
+  "name": "M700 7.62x51mm 5-Round PMAG AC Magazine (Mag_Remington700Pmag_5Rnd_762x51)",
   "short_name": "M700 Mag",
   "manufacturer": "Magpul",
   "description": "The PMAG 5 7.62 AC is a durable polymer magazine that holds five rounds and is specifically designed for .308 Winchester cartridges. It is compatible with short-action AICS-spec bottom metal, including the Bolt Action Magazine Well for the Hunter 700 Stock. The magazine features a paint-pen dot matrix for easy identification and a flared base plate for enhanced control and quick retrieval.",
@@ -6352,11 +6447,12 @@
    "IS_Firearm_M700GC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Remington700Pmag_5Rnd_762x51.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M700 7.62x51mm 5-Round PMAG AC Magazine"
  },
  {
   "id": "IS_MP_Mag_M870_10Rnd_12Gaug_FC00Buckshot_L2",
-  "name": "M870 12ga 10-Round Magazine",
+  "name": "M870 12ga 10-Round Magazine (MP_Mag_M870_10Rnd_12Gaug_FC00Buckshot_L2)",
   "short_name": "M870 Mag",
   "manufacturer": "General West",
   "description": "This tactical magazine extension tube for 12 gauge shotguns is highly durable. It increases the magazine's capacity to hold up to 10 rounds.",
@@ -6389,11 +6485,12 @@
    "IS_Firearm_RemingtonM870FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_M870_10Rnd_12Gaug_FC00Buckshot_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M870 12ga 10-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_M870_10Rnd_12Gaug_SstSabotSlug_L3",
-  "name": "M870 12ga 10-Round Magazine",
+  "name": "M870 12ga 10-Round Magazine (MP_Mag_M870_10Rnd_12Gaug_SstSabotSlug_L3)",
   "short_name": "M870 Mag",
   "manufacturer": "General West",
   "description": "This tactical magazine extension tube for 12 gauge shotguns is highly durable. It increases the magazine's capacity to hold up to 10 rounds.",
@@ -6426,11 +6523,12 @@
    "IS_Firearm_RemingtonM870FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_M870_10Rnd_12Gaug_SstSabotSlug_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M870 12ga 10-Round Magazine"
  },
  {
   "id": "IS_Mag_M870_10Rnd_12Gaug",
-  "name": "M870 12ga 10-Round Magazine",
+  "name": "M870 12ga 10-Round Magazine (Mag_M870_10Rnd_12Gaug)",
   "short_name": "M870 Mag",
   "manufacturer": "General West",
   "description": "This tactical magazine extension tube for 12 gauge shotguns is highly durable. It increases the magazine's capacity to hold up to 10 rounds.",
@@ -6478,11 +6576,12 @@
    "IS_Firearm_RemingtonM870FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_M870_10Rnd_12Gaug.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M870 12ga 10-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_M870_4Rnd_12Gaug_FC00Buckshot_L2",
-  "name": "M870 12ga 4-Round Cap",
+  "name": "M870 12ga 4-Round Cap (MP_Mag_M870_4Rnd_12Gaug_FC00Buckshot_L2)",
   "short_name": "M870 Mag",
   "manufacturer": "General West",
   "description": "The Remington 870 Magazine Cap for 12 gauge shotguns is a factory OEM part made from black-finished steel. It is designed for Remington Model 870 12 gauge shotguns and features inner detent ridges for secure attachment to a detented magazine tube.",
@@ -6515,11 +6614,12 @@
    "IS_Firearm_RemingtonM870FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_M870_4Rnd_12Gaug_FC00Buckshot_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M870 12ga 4-Round Cap"
  },
  {
   "id": "IS_MP_Mag_M870_4Rnd_12Gaug_SSTSabotSlug_L3",
-  "name": "M870 12ga 4-Round Cap",
+  "name": "M870 12ga 4-Round Cap (MP_Mag_M870_4Rnd_12Gaug_SSTSabotSlug_L3)",
   "short_name": "M870 Mag",
   "manufacturer": "General West",
   "description": "The Remington 870 Magazine Cap for 12 gauge shotguns is a factory OEM part made from black-finished steel. It is designed for Remington Model 870 12 gauge shotguns and features inner detent ridges for secure attachment to a detented magazine tube.",
@@ -6552,11 +6652,12 @@
    "IS_Firearm_RemingtonM870FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_M870_4Rnd_12Gaug_SSTSabotSlug_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M870 12ga 4-Round Cap"
  },
  {
   "id": "IS_MP_Mag_M870_4Rnd_12Gaug_Slug_L2",
-  "name": "M870 12ga 4-Round Cap",
+  "name": "M870 12ga 4-Round Cap (MP_Mag_M870_4Rnd_12Gaug_Slug_L2)",
   "short_name": "M870 Mag",
   "manufacturer": "General West",
   "description": "The Remington 870 Magazine Cap for 12 gauge shotguns is a factory OEM part made from black-finished steel. It is designed for Remington Model 870 12 gauge shotguns and features inner detent ridges for secure attachment to a detented magazine tube.",
@@ -6589,11 +6690,12 @@
    "IS_Firearm_RemingtonM870FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_M870_4Rnd_12Gaug_Slug_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M870 12ga 4-Round Cap"
  },
  {
   "id": "IS_Mag_M870_4Rnd_12Gaug",
-  "name": "M870 12ga 4-Round Cap",
+  "name": "M870 12ga 4-Round Cap (Mag_M870_4Rnd_12Gaug)",
   "short_name": "M870 Mag",
   "manufacturer": "General West",
   "description": "The Remington 870 Magazine Cap for 12 gauge shotguns is a factory OEM part made from black-finished steel. It is designed for Remington Model 870 12 gauge shotguns and features inner detent ridges for secure attachment to a detented magazine tube.",
@@ -6641,11 +6743,12 @@
    "IS_Firearm_RemingtonM870FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_M870_4Rnd_12Gaug.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M870 12ga 4-Round Cap"
  },
  {
   "id": "IS_MP_Mag_M870_6Rnd_12Gaug_FC00Buckshot_L2",
-  "name": "M870 12ga 6-Round Magazine",
+  "name": "M870 12ga 6-Round Magazine (MP_Mag_M870_6Rnd_12Gaug_FC00Buckshot_L2)",
   "short_name": "M870 Mag",
   "manufacturer": "Remington",
   "description": "This magazine extension tube for 12 gauge shotguns is known for its durability. It increases the magazine's capacity to hold 6 rounds.",
@@ -6678,11 +6781,12 @@
    "IS_Firearm_RemingtonM870FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_M870_6Rnd_12Gaug_FC00Buckshot_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M870 12ga 6-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_M870_6Rnd_12Gaug_Slug_L2",
-  "name": "M870 12ga 6-Round Magazine",
+  "name": "M870 12ga 6-Round Magazine (MP_Mag_M870_6Rnd_12Gaug_Slug_L2)",
   "short_name": "M870 Mag",
   "manufacturer": "Remington",
   "description": "This magazine extension tube for 12 gauge shotguns is known for its durability. It increases the magazine's capacity to hold 6 rounds.",
@@ -6715,11 +6819,12 @@
    "IS_Firearm_RemingtonM870FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_M870_6Rnd_12Gaug_Slug_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M870 12ga 6-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_M870_6Rnd_12Gaug_SstSabotSlug_L3",
-  "name": "M870 12ga 6-Round Magazine",
+  "name": "M870 12ga 6-Round Magazine (MP_Mag_M870_6Rnd_12Gaug_SstSabotSlug_L3)",
   "short_name": "M870 Mag",
   "manufacturer": "Remington",
   "description": "This magazine extension tube for 12 gauge shotguns is known for its durability. It increases the magazine's capacity to hold 6 rounds.",
@@ -6752,11 +6857,12 @@
    "IS_Firearm_RemingtonM870FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_M870_6Rnd_12Gaug_SstSabotSlug_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M870 12ga 6-Round Magazine"
  },
  {
   "id": "IS_Mag_M870_6Rnd_12Gaug",
-  "name": "M870 12ga 6-Round Magazine",
+  "name": "M870 12ga 6-Round Magazine (Mag_M870_6Rnd_12Gaug)",
   "short_name": "M870 Mag",
   "manufacturer": "Remington",
   "description": "This magazine extension tube for 12 gauge shotguns is known for its durability. It increases the magazine's capacity to hold 6 rounds.",
@@ -6804,7 +6910,8 @@
    "IS_Firearm_RemingtonM870FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_M870_6Rnd_12Gaug.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "M870 12ga 6-Round Magazine"
  },
  {
   "id": "IS_Mag_BerettaM9A1_15Rnd_9x19",
@@ -6909,7 +7016,7 @@
  },
  {
   "id": "IS_MP_Mag_MosinArchangel_10Rnd_762x54_7N1SniperRound",
-  "name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine",
+  "name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine (MP_Mag_MosinArchangel_10Rnd_762x54_7N1SniperRound)",
   "short_name": "Mosin Mag",
   "manufacturer": "Promag Industries",
   "description": "This is a durable and lightweight black polymer magazine designed specifically for use with the Archangel AA9130 stock. It has a capacity of 10 rounds and is detachable, allowing for efficient and reliable feeding of 7.62x54R ammunition in Mosin-Nagant rifles equipped with the AA9130 stock.",
@@ -6946,11 +7053,12 @@
    "Socket.Stock.Mosin.Sniper"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_MosinArchangel_10Rnd_762x54_7N1SniperRound.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine"
  },
  {
   "id": "IS_MP_MosinArchangel_10Rnd_762x54_Lps",
-  "name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine",
+  "name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine (MP_MosinArchangel_10Rnd_762x54_Lps)",
   "short_name": "Mosin Mag",
   "manufacturer": "Promag Industries",
   "description": "This is a durable and lightweight black polymer magazine designed specifically for use with the Archangel AA9130 stock. It has a capacity of 10 rounds and is detachable, allowing for efficient and reliable feeding of 7.62x54R ammunition in Mosin-Nagant rifles equipped with the AA9130 stock.",
@@ -6987,11 +7095,12 @@
    "Socket.Stock.Mosin.Sniper"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_MosinArchangel_10Rnd_762x54_Lps.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine"
  },
  {
   "id": "IS_Mag_MosinArchangel_10Rnd_762x54",
-  "name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine",
+  "name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine (Mag_MosinArchangel_10Rnd_762x54)",
   "short_name": "Mosin Mag",
   "manufacturer": "Promag Industries",
   "description": "This is a durable and lightweight black polymer magazine designed specifically for use with the Archangel AA9130 stock. It has a capacity of 10 rounds and is detachable, allowing for efficient and reliable feeding of 7.62x54R ammunition in Mosin-Nagant rifles equipped with the AA9130 stock.",
@@ -7043,7 +7152,8 @@
    "Socket.Stock.Mosin.Sniper"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_MosinArchangel_10Rnd_762x54.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Mosin-Nagant 7.62x54R 10-Round Archangel Magazine"
  },
  {
   "id": "IS_Mag_MosinInternalMagazine_5Rnd_762x54",
@@ -7151,7 +7261,7 @@
  },
  {
   "id": "IS_MP_Mag_Mp5Standard_15Rnd_9x19mm_LibraSnail_L3",
-  "name": "MP5 Standard 15-Round Magazine",
+  "name": "MP5 Standard 15-Round Magazine (MP_Mag_Mp5Standard_15Rnd_9x19mm_LibraSnail_L3)",
   "short_name": "MP5 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 15-round, curved, all-steel magazine designed for 9mm firearms. It is crafted in Germany and offers robust construction and reliable performance.",
@@ -7182,11 +7292,12 @@
    "IS_Firearm_Mp5"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Mp5Standard_15Rnd_9x19mm_LibraSnail_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP5 Standard 15-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Mp5Standard_15Rnd_9x19mm_XtremePenetrator_L2",
-  "name": "MP5 Standard 15-Round Magazine",
+  "name": "MP5 Standard 15-Round Magazine (MP_Mag_Mp5Standard_15Rnd_9x19mm_XtremePenetrator_L2)",
   "short_name": "MP5 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 15-round, curved, all-steel magazine designed for 9mm firearms. It is crafted in Germany and offers robust construction and reliable performance.",
@@ -7217,11 +7328,12 @@
    "IS_Firearm_Mp5"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Mp5Standard_15Rnd_9x19mm_XtremePenetrator_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP5 Standard 15-Round Magazine"
  },
  {
   "id": "IS_Mag_Mp5Standard_15Rnd_9x19mm",
-  "name": "MP5 Standard 15-Round Magazine",
+  "name": "MP5 Standard 15-Round Magazine (Mag_Mp5Standard_15Rnd_9x19mm)",
   "short_name": "MP5 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 15-round, curved, all-steel magazine designed for 9mm firearms. It is crafted in Germany and offers robust construction and reliable performance.",
@@ -7266,7 +7378,8 @@
    "IS_Firearm_Mp5"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Mp5Standard_15Rnd_9x19mm.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP5 Standard 15-Round Magazine"
  },
  {
   "id": "IS_Mag_Mp5Standard_15RndRal8k_9x19mm",
@@ -7311,7 +7424,7 @@
  },
  {
   "id": "IS_MP_Mag_Mp5Standard_30Rnd_9x19mm_FMJ_L1",
-  "name": "MP5 Standard 30-Round Magazine",
+  "name": "MP5 Standard 30-Round Magazine (MP_Mag_Mp5Standard_30Rnd_9x19mm_FMJ_L1)",
   "short_name": "MP5 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 30-round, curved, all-steel magazine designed for 9mm firearms. It is crafted in Germany and offers robust construction and reliable performance for extended shooting sessions.",
@@ -7342,11 +7455,12 @@
    "IS_Firearm_Mp5"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Mp5Standard_30Rnd_9x19mm_FMJ_L1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP5 Standard 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Mp5Standard_30Rnd_9x19mm_LibraSnail_L3",
-  "name": "MP5 Standard 30-Round Magazine",
+  "name": "MP5 Standard 30-Round Magazine (MP_Mag_Mp5Standard_30Rnd_9x19mm_LibraSnail_L3)",
   "short_name": "MP5 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 30-round, curved, all-steel magazine designed for 9mm firearms. It is crafted in Germany and offers robust construction and reliable performance for extended shooting sessions.",
@@ -7377,11 +7491,12 @@
    "IS_Firearm_Mp5"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Mp5Standard_30Rnd_9x19mm_LibraSnail_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP5 Standard 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Mp5Standard_30Rnd_9x19mm_LibraSnail_L4",
-  "name": "MP5 Standard 30-Round Magazine",
+  "name": "MP5 Standard 30-Round Magazine (MP_Mag_Mp5Standard_30Rnd_9x19mm_LibraSnail_L4)",
   "short_name": "MP5 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 30-round, curved, all-steel magazine designed for 9mm firearms. It is crafted in Germany and offers robust construction and reliable performance for extended shooting sessions.",
@@ -7412,11 +7527,12 @@
    "IS_Firearm_Mp5"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Mp5Standard_30Rnd_9x19mm_LibraSnail_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP5 Standard 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Mp5Standard_30Rnd_9x19mm_XtremePenetratorP_L2",
-  "name": "MP5 Standard 30-Round Magazine",
+  "name": "MP5 Standard 30-Round Magazine (MP_Mag_Mp5Standard_30Rnd_9x19mm_XtremePenetratorP_L2)",
   "short_name": "MP5 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 30-round, curved, all-steel magazine designed for 9mm firearms. It is crafted in Germany and offers robust construction and reliable performance for extended shooting sessions.",
@@ -7447,11 +7563,12 @@
    "IS_Firearm_Mp5"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Mp5Standard_30Rnd_9x19mm_XtremePenetratorP_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP5 Standard 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Mp5_30Rnd_9x19_XP_L2",
-  "name": "MP5 Standard 30-Round Magazine",
+  "name": "MP5 Standard 30-Round Magazine (MP_Mag_Mp5_30Rnd_9x19_XP_L2)",
   "short_name": "MP5 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 30-round, curved, all-steel magazine designed for 9mm firearms. It is crafted in Germany and offers robust construction and reliable performance for extended shooting sessions.",
@@ -7488,11 +7605,12 @@
    "IS_Firearm_Mp5"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Mp5_30Rnd_9x19_XP_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP5 Standard 30-Round Magazine"
  },
  {
   "id": "IS_Mag_Mp5Standard_30Rnd_9x19mm",
-  "name": "MP5 Standard 30-Round Magazine",
+  "name": "MP5 Standard 30-Round Magazine (Mag_Mp5Standard_30Rnd_9x19mm)",
   "short_name": "MP5 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A 30-round, curved, all-steel magazine designed for 9mm firearms. It is crafted in Germany and offers robust construction and reliable performance for extended shooting sessions.",
@@ -7538,7 +7656,8 @@
    "IS_Firearm_Mp5"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Mp5Standard_30Rnd_9x19mm.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP5 Standard 30-Round Magazine"
  },
  {
   "id": "IS_Mag_Mp5Standard_30RndRal8k_9x19mm",
@@ -7626,7 +7745,7 @@
  },
  {
   "id": "IS_MP_Mag_Mp7_20Rnd_46x30_FmjSx_L3",
-  "name": "MP7 20-Round Magazine",
+  "name": "MP7 20-Round Magazine (MP_Mag_Mp7_20Rnd_46x30_FmjSx_L3)",
   "short_name": "MP7 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A standard capacity 20-round magazine. This compact option maintains the MP7's minimal profile, rendering it well-suited for scenarios where maneuverability and reduced weight are priorities.",
@@ -7660,11 +7779,12 @@
    "IS_Firearm_Mp7A2SC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Mp7_20Rnd_46x30_FmjSx_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP7 20-Round Magazine"
  },
  {
   "id": "IS_Mag_Mp7_20Rnd_46x30",
-  "name": "MP7 20-Round Magazine",
+  "name": "MP7 20-Round Magazine (Mag_Mp7_20Rnd_46x30)",
   "short_name": "MP7 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "A standard capacity 20-round magazine. This compact option maintains the MP7's minimal profile, rendering it well-suited for scenarios where maneuverability and reduced weight are priorities.",
@@ -7712,11 +7832,12 @@
    "IS_Firearm_Mp7A2SC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Mp7_20Rnd_46x30.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP7 20-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Mp7_30Rnd_46x30_ApSx_L4",
-  "name": "MP7 30-Round Magazine",
+  "name": "MP7 30-Round Magazine (MP_Mag_Mp7_30Rnd_46x30_ApSx_L4)",
   "short_name": "MP7 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "This 30-round magazine provides an optimal balance between capacity and size, offering extended firepower without significantly impacting the MP7's handling characteristics.",
@@ -7749,11 +7870,12 @@
    "IS_Firearm_Mp7A2SC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Mp7_30Rnd_46x30_ApSx_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP7 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Mp7_30Rnd_46x30_FmjSx_L3",
-  "name": "MP7 30-Round Magazine",
+  "name": "MP7 30-Round Magazine (MP_Mag_Mp7_30Rnd_46x30_FmjSx_L3)",
   "short_name": "MP7 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "This 30-round magazine provides an optimal balance between capacity and size, offering extended firepower without significantly impacting the MP7's handling characteristics.",
@@ -7786,11 +7908,12 @@
    "IS_Firearm_Mp7A2SC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Mp7_30Rnd_46x30_FmjSx_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP7 30-Round Magazine"
  },
  {
   "id": "IS_Mag_Mp7_30Rnd_46x30",
-  "name": "MP7 30-Round Magazine",
+  "name": "MP7 30-Round Magazine (Mag_Mp7_30Rnd_46x30)",
   "short_name": "MP7 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "This 30-round magazine provides an optimal balance between capacity and size, offering extended firepower without significantly impacting the MP7's handling characteristics.",
@@ -7838,11 +7961,12 @@
    "IS_Firearm_Mp7A2SC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Mp7_30Rnd_46x30.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP7 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Mp7_40Rnd_46x30_ApSx_L4",
-  "name": "MP7 40-Round Magazine",
+  "name": "MP7 40-Round Magazine (MP_Mag_Mp7_40Rnd_46x30_ApSx_L4)",
   "short_name": "MP7 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "The MP7's 40-round magazine maximizes ammunition capacity, extending the duration of sustained fire in situations that require it. However, this increase in capacity comes with a slight increase in weight and size.",
@@ -7875,11 +7999,12 @@
    "IS_Firearm_Mp7A2SC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Mp7_40Rnd_46x30_ApSx_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP7 40-Round Magazine"
  },
  {
   "id": "IS_Mag_Mp7_40Rnd_46x30",
-  "name": "MP7 40-Round Magazine",
+  "name": "MP7 40-Round Magazine (Mag_Mp7_40Rnd_46x30)",
   "short_name": "MP7 Mag",
   "manufacturer": "Heckler & Koch",
   "description": "The MP7's 40-round magazine maximizes ammunition capacity, extending the duration of sustained fire in situations that require it. However, this increase in capacity comes with a slight increase in weight and size.",
@@ -7927,7 +8052,8 @@
    "IS_Firearm_Mp7A2SC"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Mp7_40Rnd_46x30.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MP7 40-Round Magazine"
  },
  {
   "id": "IS_Mag_Mp7_40Rnd_46x30SC",
@@ -8020,7 +8146,7 @@
  },
  {
   "id": "IS_MP_Mag_Pmag20ArM4_20Rnd_556x45_M855A1_L4",
-  "name": "PMAG 5.56x45mm/.300 BLK 20-Round Magazine",
+  "name": "PMAG 5.56x45mm/.300 BLK 20-Round Magazine (MP_Mag_Pmag20ArM4_20Rnd_556x45_M855A1_L4)",
   "short_name": "PMAG 5.56/.300 BLK Mag",
   "manufacturer": "Magpul",
   "description": "A 20-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -8062,11 +8188,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Pmag20ArM4_20Rnd_556x45_M855A1_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "PMAG 5.56x45mm/.300 BLK 20-Round Magazine"
  },
  {
   "id": "IS_Mag_Pmag20ArM4_20Rnd_556x45",
-  "name": "PMAG 5.56x45mm/.300 BLK 20-Round Magazine",
+  "name": "PMAG 5.56x45mm/.300 BLK 20-Round Magazine (Mag_Pmag20ArM4_20Rnd_556x45)",
   "short_name": "PMAG 5.56/.300 BLK Mag",
   "manufacturer": "Magpul",
   "description": "A 20-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -8124,11 +8251,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Pmag20ArM4_20Rnd_556x45.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "PMAG 5.56x45mm/.300 BLK 20-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Pmag30ArM4_30Rnd_556x45_Ap_300Aac_L4",
-  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine",
+  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (MP_Mag_Pmag30ArM4_30Rnd_556x45_Ap_300Aac_L4)",
   "short_name": "PMAG 5.56/.300 BLK Mag",
   "manufacturer": "Magpul",
   "description": "A 30-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -8170,11 +8298,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Pmag30ArM4_30Rnd_556x45_Ap_300Aac_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Pmag30ArM4_30Rnd_556x45_FMJ_L2",
-  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine",
+  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (MP_Mag_Pmag30ArM4_30Rnd_556x45_FMJ_L2)",
   "short_name": "PMAG 5.56/.300 BLK Mag",
   "manufacturer": "Magpul",
   "description": "A 30-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -8216,11 +8345,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Pmag30ArM4_30Rnd_556x45_FMJ_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Pmag30ArM4_30Rnd_556x45_Fmj_300Aac_L3",
-  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine",
+  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (MP_Mag_Pmag30ArM4_30Rnd_556x45_Fmj_300Aac_L3)",
   "short_name": "PMAG 5.56/.300 BLK Mag",
   "manufacturer": "Magpul",
   "description": "A 30-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -8262,11 +8392,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Pmag30ArM4_30Rnd_556x45_Fmj_300Aac_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Pmag30ArM4_30Rnd_556x45_M193_L2",
-  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine",
+  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (MP_Mag_Pmag30ArM4_30Rnd_556x45_M193_L2)",
   "short_name": "PMAG 5.56/.300 BLK Mag",
   "manufacturer": "Magpul",
   "description": "A 30-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -8308,11 +8439,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Pmag30ArM4_30Rnd_556x45_M193_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Pmag30ArM4_30Rnd_556x45_M855A1_L4",
-  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine",
+  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (MP_Mag_Pmag30ArM4_30Rnd_556x45_M855A1_L4)",
   "short_name": "PMAG 5.56/.300 BLK Mag",
   "manufacturer": "Magpul",
   "description": "A 30-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -8354,11 +8486,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Pmag30ArM4_30Rnd_556x45_M855A1_L4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Pmag30ArM4_30Rnd_556x45_M855_L3",
-  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine",
+  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (MP_Mag_Pmag30ArM4_30Rnd_556x45_M855_L3)",
   "short_name": "PMAG 5.56/.300 BLK Mag",
   "manufacturer": "Magpul",
   "description": "A 30-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -8400,11 +8533,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Pmag30ArM4_30Rnd_556x45_M855_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine"
  },
  {
   "id": "IS_Mag_Pmag30ArM4_30Rnd_300BLK_CQ",
-  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine",
+  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (Mag_Pmag30ArM4_30Rnd_300BLK_CQ)",
   "short_name": "PMAG 5.56/.300 BLK Mag",
   "manufacturer": "Magpul",
   "description": "A 30-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -8454,11 +8588,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Pmag30ArM4_30Rnd_300BLK_CQ.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine"
  },
  {
   "id": "IS_Mag_Pmag30ArM4_30Rnd_556x45",
-  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine",
+  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (Mag_Pmag30ArM4_30Rnd_556x45)",
   "short_name": "PMAG 5.56/.300 BLK Mag",
   "manufacturer": "Magpul",
   "description": "A 30-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -8516,11 +8651,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Pmag30ArM4_30Rnd_556x45.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Pmag30ArM4FDE_30Rnd_556x45_M855_L2",
-  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (FDE)",
+  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (FDE) (MP_Mag_Pmag30ArM4FDE_30Rnd_556x45_M855_L2)",
   "short_name": "PMAG 5.56/.300 BLK Mag",
   "manufacturer": "Magpul",
   "description": "A 30-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -8562,11 +8698,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Pmag30ArM4FDE_30Rnd_556x45_M855_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (FDE)"
  },
  {
   "id": "IS_Mag_Pmag30ArM4FDE_30Rnd_300Aac",
-  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (FDE)",
+  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (FDE) (Mag_Pmag30ArM4FDE_30Rnd_300Aac)",
   "short_name": "PMAG 5.56/.300 BLK Mag",
   "manufacturer": "Magpul",
   "description": "A 30-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -8616,11 +8753,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Pmag30ArM4FDE_30Rnd_300Aac.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (FDE)"
  },
  {
   "id": "IS_Mag_Pmag30ArM4FDE_30Rnd_556x45",
-  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (FDE)",
+  "name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (FDE) (Mag_Pmag30ArM4FDE_30Rnd_556x45)",
   "short_name": "PMAG 5.56/.300 BLK Mag",
   "manufacturer": "Magpul",
   "description": "A 30-round polymer magazine for AR-15/M4 compatible weapons. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -8670,11 +8808,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Pmag30ArM4FDE_30Rnd_556x45.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "PMAG 5.56x45mm/.300 BLK 30-Round Magazine (FDE)"
  },
  {
   "id": "IS_MP_Mag_Remington788_4Rnd_222_FMJ_L2",
-  "name": "Remington 788 .222 4-Round Magazine",
+  "name": "Remington 788 .222 4-Round Magazine (MP_Mag_Remington788_4Rnd_222_FMJ_L2)",
   "short_name": "788 Mag",
   "manufacturer": "Remington",
   "description": "A detachable, single-column steel box magazine designed specifically for the Remington 788, chambered in .222. With a capacity of four rounds, it feeds smoothly into the rifle’s rear-lugged bolt action. It is a compact, reliable, and easy-to-swap magazine that complements the Model 788’s reputation as a simple yet accurate hunting rifle.",
@@ -8704,11 +8843,12 @@
    "IS_Firearm_Remington788"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Remington788_4Rnd_222_FMJ_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Remington 788 .222 4-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Remington788_4Rnd_222_SP_L1",
-  "name": "Remington 788 .222 4-Round Magazine",
+  "name": "Remington 788 .222 4-Round Magazine (MP_Mag_Remington788_4Rnd_222_SP_L1)",
   "short_name": "788 Mag",
   "manufacturer": "Remington",
   "description": "A detachable, single-column steel box magazine designed specifically for the Remington 788, chambered in .222. With a capacity of four rounds, it feeds smoothly into the rifle’s rear-lugged bolt action. It is a compact, reliable, and easy-to-swap magazine that complements the Model 788’s reputation as a simple yet accurate hunting rifle.",
@@ -8738,11 +8878,12 @@
    "IS_Firearm_Remington788"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Remington788_4Rnd_222_SP_L1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Remington 788 .222 4-Round Magazine"
  },
  {
   "id": "IS_Mag_Remington788_4Rnd_222",
-  "name": "Remington 788 .222 4-Round Magazine",
+  "name": "Remington 788 .222 4-Round Magazine (Mag_Remington788_4Rnd_222)",
   "short_name": "788 Mag",
   "manufacturer": "Remington",
   "description": "A detachable, single-column steel box magazine designed specifically for the Remington 788, chambered in .222. With a capacity of four rounds, it feeds smoothly into the rifle’s rear-lugged bolt action. It is a compact, reliable, and easy-to-swap magazine that complements the Model 788’s reputation as a simple yet accurate hunting rifle.",
@@ -8787,7 +8928,8 @@
    "IS_Firearm_Remington788"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Remington788_4Rnd_222.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Remington 788 .222 4-Round Magazine"
  },
  {
   "id": "IS_Mag_SaVz58_10Rnd_762x39",
@@ -8842,7 +8984,7 @@
  },
  {
   "id": "IS_MP_Mag_SaVz58_30Rnd_762x39_Ps_L3",
-  "name": "Sa vz. 58 7.62x39mm 30-Round Magazine",
+  "name": "Sa vz. 58 7.62x39mm 30-Round Magazine (MP_Mag_SaVz58_30Rnd_762x39_Ps_L3)",
   "short_name": "Sa vz. 58 Mag",
   "manufacturer": "CZ",
   "description": "This high-capacity steel magazine is designed for the Sa vz. 58 rifle chambered in 7.62×39 mm. Precision-stamped and heat-treated, this rugged 30-round magazine ensures reliable feeding even in the most demanding conditions. Its ergonomic design allows for quick, secure reloads while maintaining the rifle’s balance, making it an ideal choice for extended engagements in tactical or field environments.",
@@ -8874,11 +9016,12 @@
    "IS_Firearm_SaVz58FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_SaVz58_30Rnd_762x39_Ps_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sa vz. 58 7.62x39mm 30-Round Magazine"
  },
  {
   "id": "IS_Mag_SaVz58_30Rnd_762x39",
-  "name": "Sa vz. 58 7.62x39mm 30-Round Magazine",
+  "name": "Sa vz. 58 7.62x39mm 30-Round Magazine (Mag_SaVz58_30Rnd_762x39)",
   "short_name": "Sa vz. 58 Mag",
   "manufacturer": "CZ",
   "description": "This high-capacity steel magazine is designed for the Sa vz. 58 rifle chambered in 7.62×39 mm. Precision-stamped and heat-treated, this rugged 30-round magazine ensures reliable feeding even in the most demanding conditions. Its ergonomic design allows for quick, secure reloads while maintaining the rifle’s balance, making it an ideal choice for extended engagements in tactical or field environments.",
@@ -8924,11 +9067,12 @@
    "IS_Firearm_SaVz58FDE"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_SaVz58_30Rnd_762x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sa vz. 58 7.62x39mm 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_SksOriginal_10Rnd_762x39_FMJ_L2",
-  "name": "SKS 7.62x39mm 10-Round Internal Magazine",
+  "name": "SKS 7.62x39mm 10-Round Internal Magazine (MP_Mag_SksOriginal_10Rnd_762x39_FMJ_L2)",
   "short_name": "SKS Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The standard SKS internal magazine is a reliable, fixed magazine system that is an integral part of the rifle's design. Built into the firearm, it securely holds 10 rounds of ammunition and provides a consistent and dependable feed for the semi-automatic action.",
@@ -8960,11 +9104,12 @@
    "IS_Firearm_Sks"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_SksOriginal_10Rnd_762x39_FMJ_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SKS 7.62x39mm 10-Round Internal Magazine"
  },
  {
   "id": "IS_Mag_SksOriginal_10Rnd_762x39",
-  "name": "SKS 7.62x39mm 10-Round Internal Magazine",
+  "name": "SKS 7.62x39mm 10-Round Internal Magazine (Mag_SksOriginal_10Rnd_762x39)",
   "short_name": "SKS Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "The standard SKS internal magazine is a reliable, fixed magazine system that is an integral part of the rifle's design. Built into the firearm, it securely holds 10 rounds of ammunition and provides a consistent and dependable feed for the semi-automatic action.",
@@ -9010,11 +9155,12 @@
    "IS_Firearm_Sks"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_SksOriginal_10Rnd_762x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SKS 7.62x39mm 10-Round Internal Magazine"
  },
  {
   "id": "IS_MP_Mag_SksArchangelLVLX_20Rnd_762x39_57N231Ps",
-  "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine",
+  "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine (MP_Mag_SksArchangelLVLX_20Rnd_762x39_57N231Ps)",
   "short_name": "SKS ProMag Mag",
   "manufacturer": "Promag Industries",
   "description": "Constructed from a blend of carbon fiber and glass-reinforced black polymer, this magazine is designed for durability. Its body is made with high-strength materials and features a patented steel lever release for quick, one-handed magazine changes. The textured finish provides improved grip and control during use.",
@@ -9045,11 +9191,12 @@
    "IS_Firearm_Sks"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_SksArchangelLVLX_20Rnd_762x39_57N231Ps.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine"
  },
  {
   "id": "IS_MP_Mag_SksArchangelLVLX_20Rnd_762x39_FMJ_L2",
-  "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine",
+  "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine (MP_Mag_SksArchangelLVLX_20Rnd_762x39_FMJ_L2)",
   "short_name": "SKS ProMag Mag",
   "manufacturer": "Promag Industries",
   "description": "Constructed from a blend of carbon fiber and glass-reinforced black polymer, this magazine is designed for durability. Its body is made with high-strength materials and features a patented steel lever release for quick, one-handed magazine changes. The textured finish provides improved grip and control during use.",
@@ -9080,11 +9227,12 @@
    "IS_Firearm_Sks"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_SksArchangelLVLX_20Rnd_762x39_FMJ_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine"
  },
  {
   "id": "IS_MP_Mag_SksArchangelLVLX_20Rnd_762x39_Sp",
-  "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine",
+  "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine (MP_Mag_SksArchangelLVLX_20Rnd_762x39_Sp)",
   "short_name": "SKS ProMag Mag",
   "manufacturer": "Promag Industries",
   "description": "Constructed from a blend of carbon fiber and glass-reinforced black polymer, this magazine is designed for durability. Its body is made with high-strength materials and features a patented steel lever release for quick, one-handed magazine changes. The textured finish provides improved grip and control during use.",
@@ -9115,11 +9263,12 @@
    "IS_Firearm_Sks"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_SksArchangelLVLX_20Rnd_762x39_Sp.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine"
  },
  {
   "id": "IS_MP_Mag_SksArchangelLVLX_20Rnd_762x39_Us_L2",
-  "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine",
+  "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine (MP_Mag_SksArchangelLVLX_20Rnd_762x39_Us_L2)",
   "short_name": "SKS ProMag Mag",
   "manufacturer": "Promag Industries",
   "description": "Constructed from a blend of carbon fiber and glass-reinforced black polymer, this magazine is designed for durability. Its body is made with high-strength materials and features a patented steel lever release for quick, one-handed magazine changes. The textured finish provides improved grip and control during use.",
@@ -9150,11 +9299,12 @@
    "IS_Firearm_Sks"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_SksArchangelLVLX_20Rnd_762x39_Us_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine"
  },
  {
   "id": "IS_Mag_SksArchangelLVLX_20Rnd_762x39",
-  "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine",
+  "name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine (Mag_SksArchangelLVLX_20Rnd_762x39)",
   "short_name": "SKS ProMag Mag",
   "manufacturer": "Promag Industries",
   "description": "Constructed from a blend of carbon fiber and glass-reinforced black polymer, this magazine is designed for durability. Its body is made with high-strength materials and features a patented steel lever release for quick, one-handed magazine changes. The textured finish provides improved grip and control during use.",
@@ -9200,11 +9350,12 @@
    "IS_Firearm_Sks"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_SksArchangelLVLX_20Rnd_762x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SKS 7.62x39mm 20-Round Archangel LVX Magazine"
  },
  {
   "id": "IS_MP_SksArchangel_35Rnd_762x39_57N231Ps",
-  "name": "SKS 7.62x39mm 35-Round Archangel Magazine",
+  "name": "SKS 7.62x39mm 35-Round Archangel Magazine (MP_SksArchangel_35Rnd_762x39_57N231Ps)",
   "short_name": "SKS ProMag Mag",
   "manufacturer": "Promag Industries",
   "description": "The ProMag Archangel LVX 7.62x39mm 35-round magazine is built for reliable performance in tactical situations. Crafted from durable polymer, it offers resistance to corrosion and long-lasting use. With a chrome silicon wire spring and polymer follower, this magazine maintains consistent alignment for smooth operation in various conditions.",
@@ -9235,11 +9386,12 @@
    "IS_Firearm_Sks"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_SksArchangel_35Rnd_762x39_57N231Ps.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SKS 7.62x39mm 35-Round Archangel Magazine"
  },
  {
   "id": "IS_MP_SksArchangel_35Rnd_762x39_Sp",
-  "name": "SKS 7.62x39mm 35-Round Archangel Magazine",
+  "name": "SKS 7.62x39mm 35-Round Archangel Magazine (MP_SksArchangel_35Rnd_762x39_Sp)",
   "short_name": "SKS ProMag Mag",
   "manufacturer": "Promag Industries",
   "description": "The ProMag Archangel LVX 7.62x39mm 35-round magazine is built for reliable performance in tactical situations. Crafted from durable polymer, it offers resistance to corrosion and long-lasting use. With a chrome silicon wire spring and polymer follower, this magazine maintains consistent alignment for smooth operation in various conditions.",
@@ -9270,11 +9422,12 @@
    "IS_Firearm_Sks"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_SksArchangel_35Rnd_762x39_Sp.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SKS 7.62x39mm 35-Round Archangel Magazine"
  },
  {
   "id": "IS_Mag_SksArchangel_35Rnd_762x39",
-  "name": "SKS 7.62x39mm 35-Round Archangel Magazine",
+  "name": "SKS 7.62x39mm 35-Round Archangel Magazine (Mag_SksArchangel_35Rnd_762x39)",
   "short_name": "SKS ProMag Mag",
   "manufacturer": "Promag Industries",
   "description": "The ProMag Archangel LVX 7.62x39mm 35-round magazine is built for reliable performance in tactical situations. Crafted from durable polymer, it offers resistance to corrosion and long-lasting use. With a chrome silicon wire spring and polymer follower, this magazine maintains consistent alignment for smooth operation in various conditions.",
@@ -9320,11 +9473,12 @@
    "IS_Firearm_Sks"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_SksArchangel_35Rnd_762x39.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SKS 7.62x39mm 35-Round Archangel Magazine"
  },
  {
   "id": "IS_MP_Mag_StanagMag_20Rnd_556x45_M855_L3",
-  "name": "STANAG 5.56x45mm/.300 BLK 20-Round Magazine",
+  "name": "STANAG 5.56x45mm/.300 BLK 20-Round Magazine (MP_Mag_StanagMag_20Rnd_556x45_M855_L3)",
   "short_name": "STANAG 5.56/.300 BLK Mag",
   "manufacturer": "General West",
   "description": "A 20-round STANAG magazine designed for use with compatible AR-style firearms. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -9366,11 +9520,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_StanagMag_20Rnd_556x45_M855_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "STANAG 5.56x45mm/.300 BLK 20-Round Magazine"
  },
  {
   "id": "IS_Mag_StanagMag_20Rnd_556x45",
-  "name": "STANAG 5.56x45mm/.300 BLK 20-Round Magazine",
+  "name": "STANAG 5.56x45mm/.300 BLK 20-Round Magazine (Mag_StanagMag_20Rnd_556x45)",
   "short_name": "STANAG 5.56/.300 BLK Mag",
   "manufacturer": "General West",
   "description": "A 20-round STANAG magazine designed for use with compatible AR-style firearms. It can be chambered with either 5.56x45mm or .300 AAC Blackout rounds.",
@@ -9427,11 +9582,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_StanagMag_20Rnd_556x45.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "STANAG 5.56x45mm/.300 BLK 20-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_StanagMag_30Rnd_556x45_Fmj_L2",
-  "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine",
+  "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine (MP_Mag_StanagMag_30Rnd_556x45_Fmj_L2)",
   "short_name": "STANAG 5.56/.300 BLK Mag",
   "manufacturer": "COLT",
   "description": "A 30-round STANAG magazine designed for 5.56x45mm NATO/.300 BLK, compatible with AR-style firearms. It is produced in the United States by C Products Defense and features an enhanced design that incorporates a two-part Stainless Steel body. The body undergoes robotic welding to ensure precise control over critical-to-function dimensions, which in turn ensures a proper fit in the magazine well.",
@@ -9473,11 +9629,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_StanagMag_30Rnd_556x45_Fmj_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_StanagMag_30Rnd_556x45_M193_L2",
-  "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine",
+  "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine (MP_Mag_StanagMag_30Rnd_556x45_M193_L2)",
   "short_name": "STANAG 5.56/.300 BLK Mag",
   "manufacturer": "COLT",
   "description": "A 30-round STANAG magazine designed for 5.56x45mm NATO/.300 BLK, compatible with AR-style firearms. It is produced in the United States by C Products Defense and features an enhanced design that incorporates a two-part Stainless Steel body. The body undergoes robotic welding to ensure precise control over critical-to-function dimensions, which in turn ensures a proper fit in the magazine well.",
@@ -9519,11 +9676,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_StanagMag_30Rnd_556x45_M193_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_StanagMag_30Rnd_556x45_M855_L3",
-  "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine",
+  "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine (MP_Mag_StanagMag_30Rnd_556x45_M855_L3)",
   "short_name": "STANAG 5.56/.300 BLK Mag",
   "manufacturer": "COLT",
   "description": "A 30-round STANAG magazine designed for 5.56x45mm NATO/.300 BLK, compatible with AR-style firearms. It is produced in the United States by C Products Defense and features an enhanced design that incorporates a two-part Stainless Steel body. The body undergoes robotic welding to ensure precise control over critical-to-function dimensions, which in turn ensures a proper fit in the magazine well.",
@@ -9565,11 +9723,12 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_StanagMag_30Rnd_556x45_M855_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine"
  },
  {
   "id": "IS_Mag_StanagMag_30Rnd_556x45",
-  "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine",
+  "name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine (Mag_StanagMag_30Rnd_556x45)",
   "short_name": "STANAG 5.56/.300 BLK Mag",
   "manufacturer": "COLT",
   "description": "A 30-round STANAG magazine designed for 5.56x45mm NATO/.300 BLK, compatible with AR-style firearms. It is produced in the United States by C Products Defense and features an enhanced design that incorporates a two-part Stainless Steel body. The body undergoes robotic welding to ensure precise control over critical-to-function dimensions, which in turn ensures a proper fit in the magazine well.",
@@ -9627,7 +9786,8 @@
    "IS_Firearm_SigMcxGN"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_StanagMag_30Rnd_556x45.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "STANAG 5.56x45mm/.300 BLK 30-Round Magazine"
  },
  {
   "id": "IS_Mag_SteyrAug_10Rnd_556x45",
@@ -9963,7 +10123,7 @@
  },
  {
   "id": "IS_MP_Mag_SvdDragunov_10Rnd_762x54_7N1SniperRound_L3",
-  "name": "SVD Dragunov 10-Round Magazine",
+  "name": "SVD Dragunov 10-Round Magazine (MP_Mag_SvdDragunov_10Rnd_762x54_7N1SniperRound_L3)",
   "short_name": "SVD Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This steel-constructed magazine is designed for the Dragunov SVD and its variants. With a 10-round capacity, it ensures smooth feeding of 7.62×54mmR rounds while maintaining the rifle's precision and reliability. Ideally suited for military and designated marksman use, it balances capacity and maneuverability.",
@@ -9995,11 +10155,12 @@
    "IS_Firearm_SvdDragunovSW"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_SvdDragunov_10Rnd_762x54_7N1SniperRound_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SVD Dragunov 10-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_SvdDragunov_10Rnd_762x54_Lps_L3",
-  "name": "SVD Dragunov 10-Round Magazine",
+  "name": "SVD Dragunov 10-Round Magazine (MP_Mag_SvdDragunov_10Rnd_762x54_Lps_L3)",
   "short_name": "SVD Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This steel-constructed magazine is designed for the Dragunov SVD and its variants. With a 10-round capacity, it ensures smooth feeding of 7.62×54mmR rounds while maintaining the rifle's precision and reliability. Ideally suited for military and designated marksman use, it balances capacity and maneuverability.",
@@ -10031,11 +10192,12 @@
    "IS_Firearm_SvdDragunovSW"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_SvdDragunov_10Rnd_762x54_Lps_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SVD Dragunov 10-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_SvdDragunov_10Rnd_762x54_Tracer_L3",
-  "name": "SVD Dragunov 10-Round Magazine",
+  "name": "SVD Dragunov 10-Round Magazine (MP_Mag_SvdDragunov_10Rnd_762x54_Tracer_L3)",
   "short_name": "SVD Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This steel-constructed magazine is designed for the Dragunov SVD and its variants. With a 10-round capacity, it ensures smooth feeding of 7.62×54mmR rounds while maintaining the rifle's precision and reliability. Ideally suited for military and designated marksman use, it balances capacity and maneuverability.",
@@ -10067,11 +10229,12 @@
    "IS_Firearm_SvdDragunovSW"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_SvdDragunov_10Rnd_762x54_Tracer_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SVD Dragunov 10-Round Magazine"
  },
  {
   "id": "IS_Mag_SvdDragunov_10Rnd_762x54",
-  "name": "SVD Dragunov 10-Round Magazine",
+  "name": "SVD Dragunov 10-Round Magazine (Mag_SvdDragunov_10Rnd_762x54)",
   "short_name": "SVD Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This steel-constructed magazine is designed for the Dragunov SVD and its variants. With a 10-round capacity, it ensures smooth feeding of 7.62×54mmR rounds while maintaining the rifle's precision and reliability. Ideally suited for military and designated marksman use, it balances capacity and maneuverability.",
@@ -10117,11 +10280,12 @@
    "IS_Firearm_SvdDragunovSW"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_SvdDragunov_10Rnd_762x54.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SVD Dragunov 10-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_SvdDragunov_20Rnd_762x54_7N1SniperRound_L3",
-  "name": "SVD Dragunov 20-Round Magazine",
+  "name": "SVD Dragunov 20-Round Magazine (MP_Mag_SvdDragunov_20Rnd_762x54_7N1SniperRound_L3)",
   "short_name": "SVD Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This high-capacity steel magazine is designed for extended engagements with the SVD Dragunov, offering increased firepower. With a 20-round capacity for 7.62×54mmR, it ensures durability and reliability while enhancing the rifle's sustained fire capability.",
@@ -10153,11 +10317,12 @@
    "IS_Firearm_SvdDragunovSW"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_SvdDragunov_20Rnd_762x54_7N1SniperRound_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SVD Dragunov 20-Round Magazine"
  },
  {
   "id": "IS_Mag_SvdDragunov_20Rnd_762x54",
-  "name": "SVD Dragunov 20-Round Magazine",
+  "name": "SVD Dragunov 20-Round Magazine (Mag_SvdDragunov_20Rnd_762x54)",
   "short_name": "SVD Mag",
   "manufacturer": "Kalashnikov concern",
   "description": "This high-capacity steel magazine is designed for extended engagements with the SVD Dragunov, offering increased firepower. With a 20-round capacity for 7.62×54mmR, it ensures durability and reliability while enhancing the rifle's sustained fire capability.",
@@ -10204,7 +10369,8 @@
    "IS_Firearm_SvdDragunovSW"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_SvdDragunov_20Rnd_762x54.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SVD Dragunov 20-Round Magazine"
  },
  {
   "id": "IS_Mag_SvdDragunov_20Rnd_762x54SW",
@@ -10251,7 +10417,7 @@
  },
  {
   "id": "IS_MP_Mag_Type51_8Rnd_762x25_Fmj_L1",
-  "name": "Type 51 7.62x25mm 8-Round Magazine",
+  "name": "Type 51 7.62x25mm 8-Round Magazine (MP_Mag_Type51_8Rnd_762x25_Fmj_L1)",
   "short_name": "T51 Mag",
   "manufacturer": "Norinco",
   "description": "A metal box magazine designed for firearms chambered in 7.62x25mm Tokarev. It is known for its durability and typically holds eight rounds, ensuring reliable feeding of ammunition into the firearm.",
@@ -10285,11 +10451,12 @@
    "IS_Firearm_Type51Pencil"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Type51_8Rnd_762x25_Fmj_L1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Type 51 7.62x25mm 8-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Type51_8Rnd_762x25_Pst_L2",
-  "name": "Type 51 7.62x25mm 8-Round Magazine",
+  "name": "Type 51 7.62x25mm 8-Round Magazine (MP_Mag_Type51_8Rnd_762x25_Pst_L2)",
   "short_name": "T51 Mag",
   "manufacturer": "Norinco",
   "description": "A metal box magazine designed for firearms chambered in 7.62x25mm Tokarev. It is known for its durability and typically holds eight rounds, ensuring reliable feeding of ammunition into the firearm.",
@@ -10323,11 +10490,12 @@
    "IS_Firearm_Type51Pencil"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Type51_8Rnd_762x25_Pst_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Type 51 7.62x25mm 8-Round Magazine"
  },
  {
   "id": "IS_Mag_Type51_8Rnd_762x25",
-  "name": "Type 51 7.62x25mm 8-Round Magazine",
+  "name": "Type 51 7.62x25mm 8-Round Magazine (Mag_Type51_8Rnd_762x25)",
   "short_name": "T51 Mag",
   "manufacturer": "Norinco",
   "description": "A metal box magazine designed for firearms chambered in 7.62x25mm Tokarev. It is known for its durability and typically holds eight rounds, ensuring reliable feeding of ammunition into the firearm.",
@@ -10375,7 +10543,8 @@
    "IS_Firearm_Type51Pencil"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Type51_8Rnd_762x25.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Type 51 7.62x25mm 8-Round Magazine"
  },
  {
   "id": "IS_Mag_UMP_25Rnd_45Acp",
@@ -10519,7 +10688,7 @@
  },
  {
   "id": "IS_MP_Mag_Vz61_10Rnd_765_Fmj_L1",
-  "name": "Vz. 61 7.65 Browning 10-Round Magazine",
+  "name": "Vz. 61 7.65 Browning 10-Round Magazine (MP_Mag_Vz61_10Rnd_765_Fmj_L1)",
   "short_name": "Vz. 61 Mag",
   "manufacturer": "CZ",
   "description": "The 10-round magazine designed for the Vz. 61 Skorpion submachine gun, chambered in 7.65mm Browning, offers dependable ammunition feeding in a compact format. Crafted from durable materials, it ensures seamless operation and compatibility with the firearm. This magazine is particularly suitable for compact and discreet use.",
@@ -10550,11 +10719,12 @@
    "IS_Firearm_SkorpionVz61"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Vz61_10Rnd_765_Fmj_L1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Vz. 61 7.65 Browning 10-Round Magazine"
  },
  {
   "id": "IS_Mag_Vz61_10Rnd_765",
-  "name": "Vz. 61 7.65 Browning 10-Round Magazine",
+  "name": "Vz. 61 7.65 Browning 10-Round Magazine (Mag_Vz61_10Rnd_765)",
   "short_name": "Vz. 61 Mag",
   "manufacturer": "CZ",
   "description": "The 10-round magazine designed for the Vz. 61 Skorpion submachine gun, chambered in 7.65mm Browning, offers dependable ammunition feeding in a compact format. Crafted from durable materials, it ensures seamless operation and compatibility with the firearm. This magazine is particularly suitable for compact and discreet use.",
@@ -10599,11 +10769,12 @@
    "IS_Firearm_SkorpionVz61"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Vz61_10Rnd_765.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Vz. 61 7.65 Browning 10-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Vz61_20Rnd_765_Jhp_L2",
-  "name": "Vz. 61 7.65 Browning 20-Round Magazine",
+  "name": "Vz. 61 7.65 Browning 20-Round Magazine (MP_Mag_Vz61_20Rnd_765_Jhp_L2)",
   "short_name": "Vz. 61 Mag",
   "manufacturer": "CZ",
   "description": "The Vz. 61 20-round magazine, chambered in 7.65mm Browning, provides increased ammunition capacity without sacrificing reliability or maneuverability. Constructed from durable materials, it guarantees consistent feeding and peak performance for the Skorpion submachine gun. This magazine is well-suited for sustained engagements and scenarios requiring increased firepower, all within a compact and manageable design.",
@@ -10634,11 +10805,12 @@
    "IS_Firearm_SkorpionVz61"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Vz61_20Rnd_765_Jhp_L2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Vz. 61 7.65 Browning 20-Round Magazine"
  },
  {
   "id": "IS_MP_Mag_Vz61_20Rnd_765_XtremeDefender_L3",
-  "name": "Vz. 61 7.65 Browning 20-Round Magazine",
+  "name": "Vz. 61 7.65 Browning 20-Round Magazine (MP_Mag_Vz61_20Rnd_765_XtremeDefender_L3)",
   "short_name": "Vz. 61 Mag",
   "manufacturer": "CZ",
   "description": "The Vz. 61 20-round magazine, chambered in 7.65mm Browning, provides increased ammunition capacity without sacrificing reliability or maneuverability. Constructed from durable materials, it guarantees consistent feeding and peak performance for the Skorpion submachine gun. This magazine is well-suited for sustained engagements and scenarios requiring increased firepower, all within a compact and manageable design.",
@@ -10669,11 +10841,12 @@
    "IS_Firearm_SkorpionVz61"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_MP_Mag_Vz61_20Rnd_765_XtremeDefender_L3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Vz. 61 7.65 Browning 20-Round Magazine"
  },
  {
   "id": "IS_Mag_Vz61_20Rnd_765",
-  "name": "Vz. 61 7.65 Browning 20-Round Magazine",
+  "name": "Vz. 61 7.65 Browning 20-Round Magazine (Mag_Vz61_20Rnd_765)",
   "short_name": "Vz. 61 Mag",
   "manufacturer": "CZ",
   "description": "The Vz. 61 20-round magazine, chambered in 7.65mm Browning, provides increased ammunition capacity without sacrificing reliability or maneuverability. Constructed from durable materials, it guarantees consistent feeding and peak performance for the Skorpion submachine gun. This magazine is well-suited for sustained engagements and scenarios requiring increased firepower, all within a compact and manageable design.",
@@ -10719,7 +10892,8 @@
    "IS_Firearm_SkorpionVz61"
   ],
   "image": "https://gzw-data.dev/assets/items/magazines/IS_Mag_Vz61_20Rnd_765.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Vz. 61 7.65 Browning 20-Round Magazine"
  },
  {
   "id": "IS_Mag_Remington700Pmag_10Rnd_762x51Camo",

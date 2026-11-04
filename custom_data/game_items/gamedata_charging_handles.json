@@ -570,7 +570,7 @@
  },
  {
   "id": "IS_Handle_SteyrAug",
-  "name": "AUG Charging Handle",
+  "name": "AUG Charging Handle (SteyrAug)",
   "short_name": "AUG Ch",
   "manufacturer": "Steyr Arms",
   "description": "A standard charging handle for the Steyr AUG rifle. Positioned on the left side of the receiver, it is used to manually retract the bolt assembly and remains non-reciprocating during fire.",
@@ -604,11 +604,12 @@
    "IS_Firearm_SteyrAugA3DS"
   ],
   "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_SteyrAug.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AUG Charging Handle"
  },
  {
   "id": "IS_Handle_StreyrAug",
-  "name": "AUG Charging Handle",
+  "name": "AUG Charging Handle (StreyrAug)",
   "short_name": "AUG Ch",
   "manufacturer": "Steyr Arms",
   "description": "A standard charging handle for the Steyr AUG rifle. Positioned on the left side of the receiver, it is used to manually retract the bolt assembly and remains non-reciprocating during fire.",
@@ -644,7 +645,8 @@
    "IS_Firearm_SteyrAugA3DS"
   ],
   "image": "https://gzw-data.dev/assets/items/charging_handles/IS_Handle_StreyrAug.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AUG Charging Handle"
  },
  {
   "id": "IS_Handle_StreyrAugBlack",

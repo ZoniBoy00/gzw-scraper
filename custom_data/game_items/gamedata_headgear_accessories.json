@@ -199,7 +199,7 @@
  },
  {
   "id": "IS_Enemy_RebelMask_RebelHead_Mask_01",
-  "name": "Balaclava (Black)",
+  "name": "Balaclava (Black) (Enemy_RebelMask_RebelHead_Mask_01)",
   "tags": [
    "NotForStatistics"
   ],
@@ -217,11 +217,12 @@
    }
   ],
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Enemy_RebelMask_RebelHead_Mask_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Balaclava (Black)"
  },
  {
   "id": "IS_Enemy_RebelMask_RebelHead_Mask_02",
-  "name": "Balaclava (Black)",
+  "name": "Balaclava (Black) (Enemy_RebelMask_RebelHead_Mask_02)",
   "tags": [
    "NotForStatistics"
   ],
@@ -239,11 +240,12 @@
    }
   ],
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Enemy_RebelMask_RebelHead_Mask_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Balaclava (Black)"
  },
  {
   "id": "IS_Mask_BalaclavaHole_Cat",
-  "name": "Balaclava (Black)",
+  "name": "Balaclava (Black) (Mask_BalaclavaHole_Cat)",
   "short_name": "Blcv",
   "manufacturer": "Happyclothes",
   "description": "Made from breathable fabric, this balaclava offers effective facial concealment while shielding the wearer from harmful UV rays.",
@@ -269,11 +271,12 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_BalaclavaHole_Cat.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Balaclava (Black)"
  },
  {
   "id": "IS_Mask_Balaclava_Black",
-  "name": "Balaclava (Black)",
+  "name": "Balaclava (Black) (Mask_Balaclava_Black)",
   "short_name": "Blcv",
   "manufacturer": "Happyclothes",
   "description": "Made from breathable fabric, this balaclava offers effective facial concealment while shielding the wearer from harmful UV rays.",
@@ -307,11 +310,12 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_Balaclava_Black.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Balaclava (Black)"
  },
  {
   "id": "IS_Mask_Balaclava_Cat",
-  "name": "Balaclava (Black)",
+  "name": "Balaclava (Black) (Mask_Balaclava_Cat)",
   "short_name": "Blcv",
   "manufacturer": "Happyclothes",
   "description": "Made from breathable fabric, this balaclava offers effective facial concealment while shielding the wearer from harmful UV rays.",
@@ -337,7 +341,8 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Mask_Balaclava_Cat.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Balaclava (Black)"
  },
  {
   "id": "IS_Mask_Balaclava_Green",
@@ -532,7 +537,7 @@
  },
  {
   "id": "IS_Hat_BaseballCapLogo_Cat",
-  "name": "Baseball Cap (Black)",
+  "name": "Baseball Cap (Black) (BaseballCapLogo_Cat)",
   "short_name": "BCap",
   "manufacturer": "Naksu Dress",
   "description": "A soft hat that protects the eyes from the sun.",
@@ -559,11 +564,12 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BaseballCapLogo_Cat.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Baseball Cap (Black)"
  },
  {
   "id": "IS_Hat_BaseballCap_Dark",
-  "name": "Baseball Cap (Black)",
+  "name": "Baseball Cap (Black) (BaseballCap_Dark)",
   "short_name": "BCap",
   "manufacturer": "Sunset Cap Company",
   "description": "A soft hat that protects the eyes from the sun.",
@@ -598,11 +604,12 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BaseballCap_Dark.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Baseball Cap (Black)"
  },
  {
   "id": "IS_Hat_BaseballCapLogo_Blue",
-  "name": "Baseball Cap (Blue)",
+  "name": "Baseball Cap (Blue) (Blue)",
   "short_name": "BCap",
   "manufacturer": "Naksu Dress",
   "description": "A soft hat that protects the eyes from the sun.",
@@ -629,11 +636,12 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BaseballCapLogo_Blue.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Baseball Cap (Blue)"
  },
  {
   "id": "IS_Hat_BaseballCapLogo_Cat_02",
-  "name": "Baseball Cap (Blue)",
+  "name": "Baseball Cap (Blue) (Cat_02)",
   "short_name": "BCap",
   "manufacturer": "Naksu Dress",
   "description": "A soft hat that protects the eyes from the sun.",
@@ -660,7 +668,8 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BaseballCapLogo_Cat_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Baseball Cap (Blue)"
  },
  {
   "id": "IS_Hat_BaseballCapLogo_Green",
@@ -951,7 +960,7 @@
  },
  {
   "id": "IS_Hat_BoonieHat_OliveLla",
-  "name": "Boonie Hat (Olive)",
+  "name": "Boonie Hat (Olive) (Lla)",
   "short_name": "Boonie",
   "manufacturer": "Mil-Tec",
   "description": "A boonie hat, also known as a bush hat, is a wide-brimmed hat designed for military and outdoor use. It provides protection from sun and rain and includes an adjustable chin strap for a secure fit.",
@@ -978,7 +987,8 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BoonieHat_OliveLla.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Boonie Hat (Olive)"
  },
  {
   "id": "IS_Hat_BoonieHat_Sand",
@@ -1060,7 +1070,7 @@
  },
  {
   "id": "IS_Hat_BoonieHat_Woodland_ThaiMercs",
-  "name": "Boonie Hat (Woodland)",
+  "name": "Boonie Hat (Woodland) (ThaiMercs)",
   "short_name": "Boonie",
   "manufacturer": "Tru-Spec",
   "description": "A boonie hat, also known as a bush hat, is a wide-brimmed hat designed for military and outdoor use. It provides protection from sun and rain and includes an adjustable chin strap for a secure fit.",
@@ -1087,7 +1097,8 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_BoonieHat_Woodland_ThaiMercs.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Boonie Hat (Woodland)"
  },
  {
   "id": "IS_Mask_Balaclava_Camo",
@@ -1951,7 +1962,7 @@
  },
  {
   "id": "IS_Hat_Headscarf_BlackPattern_02",
-  "name": "Headscarf (Black Pattern)",
+  "name": "Headscarf (Black Pattern) (02)",
   "short_name": "HScarf",
   "manufacturer": "Mil-Tec",
   "description": "A black headscarf that serves as a functional and stylish accessory.",
@@ -1977,7 +1988,8 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Headscarf_BlackPattern_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Headscarf (Black Pattern)"
  },
  {
   "id": "IS_Hat_Headscarf_Black",
@@ -2489,7 +2501,7 @@
  },
  {
   "id": "IS_Glasses_Round_Sunglasses_VietGang",
-  "name": "Round Sunglasses",
+  "name": "Round Sunglasses (VietGang)",
   "short_name": "Lennon",
   "manufacturer": "Genlemen's Delight",
   "description": "Iconic sunglasses that became popular in the 1960s and are still fashionable today. They are characterized by their circular lenses and thin metal frames, often associated with the legendary musician John Lennon, who frequently wore them.",
@@ -2515,11 +2527,12 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Glasses_Round_Sunglasses_VietGang.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Round Sunglasses"
  },
  {
   "id": "IS_Hat_Shemagh_Pirates",
-  "name": "Shemagh (Red)",
+  "name": "Shemagh (Red) (Pirates)",
   "short_name": "Shem",
   "manufacturer": "FKH int. comp.",
   "description": "A versatile scarf used for protection against sand, dust, and wind. Also great for concealing one's identity.",
@@ -2546,11 +2559,12 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Shemagh_Pirates.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Shemagh (Red)"
  },
  {
   "id": "IS_Hat_Shemagh_Red",
-  "name": "Shemagh (Red)",
+  "name": "Shemagh (Red) (Red)",
   "short_name": "Shem",
   "manufacturer": "FKH int. comp.",
   "description": "A versatile scarf used for protection against sand, dust, and wind. Also great for concealing one's identity.",
@@ -2576,7 +2590,8 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/headgear_accessories/IS_Hat_Shemagh_Red.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Shemagh (Red)"
  },
  {
   "id": "IS_Headset_SelexTasc1",

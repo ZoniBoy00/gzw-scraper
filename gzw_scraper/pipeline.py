@@ -681,17 +681,18 @@ def run_full_scrape() -> bool:
             corrected, correction_skipped, correction_missing,
         )
 
-    # Complete item datasets read from the game files, published beside the wiki datasets (never replacing them).
-    added_game_datasets = game_datasets.apply_datasets(merged)
-    if added_game_datasets:
-        logger.info("Added %d game-file item datasets", added_game_datasets)
-
     # Vendor inventories come from the items' own sold_by fields, once every dataset is complete.
     vendor_names = {str(v.get("name")) for v in merged.get("vendors.json", []) if v.get("name")}
     vendor_stock = build_vendor_stock(merged, vendor_names or None)
     if vendor_stock:
         merged["vendor_stock.json"] = vendor_stock
         logger.info("Vendor stock: %d vendor/item rows", len(vendor_stock))
+
+    # Complete item datasets read from the game files, published beside the wiki datasets (never replacing them).
+    # Added after vendor_stock is built so their own vendor lists do not duplicate the wiki-derived rows.
+    added_game_datasets = game_datasets.apply_datasets(merged)
+    if added_game_datasets:
+        logger.info("Added %d game-file item datasets", added_game_datasets)
 
     # Report articles no dataset covers, so new wiki pages never go unnoticed.
     all_titles = network.get_all_pages()

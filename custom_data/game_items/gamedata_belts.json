@@ -212,7 +212,7 @@
  },
  {
   "id": "IS_Belt_CivilianSportFannyPack_Pirates_01",
-  "name": "Civilian Sport Fanny Pack",
+  "name": "Civilian Sport Fanny Pack (Pirates_01)",
   "short_name": "SFPack",
   "manufacturer": "General Local",
   "description": "A small bag worn around the waist. It offers limited storage space and may not be suitable for carrying larger items or valuables securely.",
@@ -238,11 +238,12 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CivilianSportFannyPack_Pirates_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Civilian Sport Fanny Pack"
  },
  {
   "id": "IS_Belt_CivilianSportFannyPack_Pirates_02",
-  "name": "Civilian Sport Fanny Pack",
+  "name": "Civilian Sport Fanny Pack (Pirates_02)",
   "short_name": "SFPack",
   "manufacturer": "General Local",
   "description": "A small bag worn around the waist. It offers limited storage space and may not be suitable for carrying larger items or valuables securely.",
@@ -268,7 +269,8 @@
    "repairDifficultyModifier": 0.0
   },
   "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CivilianSportFannyPack_Pirates_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Civilian Sport Fanny Pack"
  },
  {
   "id": "IS_Belt_CustomGearLowproBelt",
@@ -314,7 +316,7 @@
  },
  {
   "id": "IS_Belt_CustomGearLowproBelt_ThaiMercs",
-  "name": "Custom Gear Lowpro belt",
+  "name": "Custom Gear Lowpro belt (ThaiMercs)",
   "short_name": "CGLB",
   "manufacturer": "Custom Gear",
   "description": "A low-profile tactical belt with a smaller 25mm Cobra buckle. Made in the Czech Republic, this belt is fully MOLLE-compatible, and thanks to its versatility, it is also perfect for everyday use.",
@@ -344,7 +346,8 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CustomGearLowproBelt_ThaiMercs.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Custom Gear Lowpro belt"
  },
  {
   "id": "IS_Belt_CivilianLeatherFannyPack_Boss",
@@ -531,7 +534,7 @@
  },
  {
   "id": "IS_Belt_LightweightCombatBelt_Laf",
-  "name": "Lightweight Combat Belt",
+  "name": "Lightweight Combat Belt (Laf)",
   "short_name": "LCB",
   "manufacturer": "Techincom",
   "description": "This tactical belt features a breathable mesh base with three rows of MOLLE, plus an internal waist belt for fastening and size adjustment",
@@ -561,7 +564,8 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_LightweightCombatBelt_Laf.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Lightweight Combat Belt"
  },
  {
   "id": "IS_Belt_CustomGearMc50LaserEdition",
@@ -649,7 +653,7 @@
  },
  {
   "id": "IS_Belt_CondorTacticalBelt_Lla",
-  "name": "Tactical Belt",
+  "name": "Tactical Belt (Lla)",
   "short_name": "Tactical",
   "manufacturer": "Condor Outdoor",
   "description": "A rugged and functional belt designed for tactical and outdoor use. Made from durable materials, it provides a reliable platform for carrying essential gear and accessories.",
@@ -679,11 +683,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CondorTacticalBelt_Lla.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Tactical Belt"
  },
  {
   "id": "IS_Belt_CondorTacticalBelt_ThaiMercs",
-  "name": "Tactical Belt",
+  "name": "Tactical Belt (ThaiMercs)",
   "short_name": "Tactical",
   "manufacturer": "Condor Outdoor",
   "description": "A rugged and functional belt designed for tactical and outdoor use. Made from durable materials, it provides a reliable platform for carrying essential gear and accessories.",
@@ -713,7 +718,8 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/belts/IS_Belt_CondorTacticalBelt_ThaiMercs.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Tactical Belt"
  },
  {
   "id": "IS_Belt_CondorTacticalBelt_Boss",

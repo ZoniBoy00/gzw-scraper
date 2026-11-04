@@ -46,7 +46,7 @@
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Aiekillu_L",
-  "name": "Aiekillu Patch",
+  "name": "Aiekillu Patch (L)",
   "short_name": "Aiekillu",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -55,11 +55,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Aiekillu_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Aiekillu Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Aiekillu_R",
-  "name": "Aiekillu Patch",
+  "name": "Aiekillu Patch (R)",
   "short_name": "Aiekillu",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -68,11 +69,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Aiekillu_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Aiekillu Patch"
  },
  {
   "id": "IS_PMC_Boots_AKUConeroGTX",
-  "name": "AKU - Conero GTX",
+  "name": "AKU - Conero GTX (PMC_Boots_AKUConeroGTX)",
   "manufacturer": "AKU",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
@@ -82,18 +84,20 @@
    "rankToUnlock": 1
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Boots_AKUConeroGTX.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AKU - Conero GTX"
  },
  {
   "id": "IS_Thai_Mercs_Boots_AKUConeroGTX_01",
-  "name": "AKU - Conero GTX",
+  "name": "AKU - Conero GTX (Thai_Mercs_Boots_AKUConeroGTX_01)",
   "manufacturer": "AKU",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Boots_AKUConeroGTX_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "AKU - Conero GTX"
  },
  {
   "id": "IS_PMC_Shirt_Vacation",
@@ -147,7 +151,7 @@
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_AnthonyKongphan_L",
-  "name": "Anthony Kongphan Patch",
+  "name": "Anthony Kongphan Patch (L)",
   "short_name": "AnthonyK",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -156,11 +160,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_AnthonyKongphan_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Anthony Kongphan Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_AnthonyKongphan_R",
-  "name": "Anthony Kongphan Patch",
+  "name": "Anthony Kongphan Patch (R)",
   "short_name": "AnthonyK",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -169,11 +174,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_AnthonyKongphan_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Anthony Kongphan Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_ArcadeBulls_L",
-  "name": "ArcadeBulls Patch",
+  "name": "ArcadeBulls Patch (L)",
   "short_name": "ArcadeBulls",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -182,11 +188,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_ArcadeBulls_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "ArcadeBulls Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_ArcadeBulls_R",
-  "name": "ArcadeBulls Patch",
+  "name": "ArcadeBulls Patch (R)",
   "short_name": "ArcadeBulls",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -195,7 +202,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_ArcadeBulls_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "ArcadeBulls Patch"
  },
  {
   "id": "IS_PMC_Trousers_ArcteryxLeafAssaultAR",
@@ -213,7 +221,7 @@
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Bearki_L",
-  "name": "Bearki Patch",
+  "name": "Bearki Patch (L)",
   "short_name": "Bearki",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -222,11 +230,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Bearki_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Bearki Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Bearki_R",
-  "name": "Bearki Patch",
+  "name": "Bearki Patch (R)",
   "short_name": "Bearki",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -235,7 +244,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Bearki_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Bearki Patch"
  },
  {
   "id": "IS_PMC_Shirt_HackerHoodie",
@@ -402,7 +412,7 @@
  },
  {
   "id": "IS_PMC_Patch_Special_CommunityLeader_L",
-  "name": "Community Leader Patch",
+  "name": "Community Leader Patch (L)",
   "short_name": "CL",
   "manufacturer": "General West",
   "description": "A patch awarded to Gray Zone Warfare Community Leaders for their valuable contributions.",
@@ -411,11 +421,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_CommunityLeader_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Community Leader Patch"
  },
  {
   "id": "IS_PMC_Patch_Special_CommunityLeader_R",
-  "name": "Community Leader Patch",
+  "name": "Community Leader Patch (R)",
   "short_name": "CL",
   "manufacturer": "General West",
   "description": "A patch awarded to Gray Zone Warfare Community Leaders for their valuable contributions.",
@@ -424,7 +435,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_CommunityLeader_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Community Leader Patch"
  },
  {
   "id": "IS_PMC_Trousers_ViktosContractorSf_Black",
@@ -461,7 +473,7 @@
  },
  {
   "id": "IS_PMC_Patch_Faction_CSI_L",
-  "name": "Crimson Shield International Patch",
+  "name": "Crimson Shield International Patch (L)",
   "short_name": "CSI",
   "manufacturer": "General West",
   "description": "A patch worn by the members of Crimson Shield International.",
@@ -470,11 +482,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Faction_CSI_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Crimson Shield International Patch"
  },
  {
   "id": "IS_PMC_Patch_Faction_CSI_R",
-  "name": "Crimson Shield International Patch",
+  "name": "Crimson Shield International Patch (R)",
   "short_name": "CSI",
   "manufacturer": "General West",
   "description": "A patch worn by the members of Crimson Shield International.",
@@ -483,7 +496,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Faction_CSI_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Crimson Shield International Patch"
  },
  {
   "id": "IS_PMC_Shirt_CSI",
@@ -507,24 +521,26 @@
  },
  {
   "id": "IS_PMC_Shirt_CryePrecision_G3_Marpat",
-  "name": "Crye Precision - G3 (MARPAT)",
+  "name": "Crye Precision - G3 (MARPAT) (Shirt_CryePrecision_G3_Marpat)",
   "manufacturer": "Crye-Precision",
   "weight": "0.1 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Shirt_CryePrecision_G3_Marpat.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Crye Precision - G3 (MARPAT)"
  },
  {
   "id": "IS_PMC_Trousers_CryePrecisionG3_Marpat",
-  "name": "Crye Precision - G3 (MARPAT)",
+  "name": "Crye Precision - G3 (MARPAT) (Trousers_CryePrecisionG3_Marpat)",
   "manufacturer": "Crye-Precision",
   "type": "Clothing.Trousers",
   "weight": "1 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Trousers_CryePrecisionG3_Marpat.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Crye Precision - G3 (MARPAT)"
  },
  {
   "id": "IS_PMC_Shirt_CryePrecision_G3_BlackCamo",
@@ -554,7 +570,7 @@
  },
  {
   "id": "IS_PMC_Shirt_CryePrecision_G3",
-  "name": "Crye Precision - G3 (Multicam)",
+  "name": "Crye Precision - G3 (Multicam) (Shirt_CryePrecision_G3)",
   "manufacturer": "Crye-Precision",
   "weight": "0.1 kg",
   "grid_size": "1x1",
@@ -563,11 +579,12 @@
    "rankToUnlock": 5
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Shirt_CryePrecision_G3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Crye Precision - G3 (Multicam)"
  },
  {
   "id": "IS_PMC_Trousers_CryePrecisionG3",
-  "name": "Crye Precision - G3 (Multicam)",
+  "name": "Crye Precision - G3 (Multicam) (Trousers_CryePrecisionG3)",
   "manufacturer": "Crye-Precision",
   "type": "Clothing.Trousers",
   "weight": "1 kg",
@@ -577,7 +594,8 @@
    "rankToUnlock": 5
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Trousers_CryePrecisionG3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Crye Precision - G3 (Multicam)"
  },
  {
   "id": "IS_PMC_Trousers_CryePrecisionG3_Olive",
@@ -675,7 +693,7 @@
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_CyborgAngel_L",
-  "name": "Cyborg Angel Patch",
+  "name": "Cyborg Angel Patch (L)",
   "short_name": "CyborgA",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -684,11 +702,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_CyborgAngel_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Cyborg Angel Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_CyborgAngel_R",
-  "name": "Cyborg Angel Patch",
+  "name": "Cyborg Angel Patch (R)",
   "short_name": "CyborgA",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -697,11 +716,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_CyborgAngel_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Cyborg Angel Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Dahmien7_L",
-  "name": "Dahmien7 Patch",
+  "name": "Dahmien7 Patch (L)",
   "short_name": "Dahmien7",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -710,11 +730,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Dahmien7_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Dahmien7 Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Dahmien7_R",
-  "name": "Dahmien7 Patch",
+  "name": "Dahmien7 Patch (R)",
   "short_name": "Dahmien7",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -723,11 +744,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Dahmien7_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Dahmien7 Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Darkness429_L",
-  "name": "Darkness429 Patch",
+  "name": "Darkness429 Patch (L)",
   "short_name": "Darkness429",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -736,11 +758,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Darkness429_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Darkness429 Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Darkness429_R",
-  "name": "Darkness429 Patch",
+  "name": "Darkness429 Patch (R)",
   "short_name": "Darkness429",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -749,11 +772,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Darkness429_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Darkness429 Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_DeadlySlob_L",
-  "name": "DeadlySlob Patch",
+  "name": "DeadlySlob Patch (L)",
   "short_name": "DeadlySlob",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -762,11 +786,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_DeadlySlob_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "DeadlySlob Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_DeadlySlob_R",
-  "name": "DeadlySlob Patch",
+  "name": "DeadlySlob Patch (R)",
   "short_name": "DeadlySlob",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -775,11 +800,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_DeadlySlob_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "DeadlySlob Patch"
  },
  {
   "id": "IS_PMC_Patch_Edition_Elite_L",
-  "name": "Elite Edition Patch",
+  "name": "Elite Edition Patch (L)",
   "short_name": "Elite",
   "manufacturer": "General West",
   "description": "A patch exclusive to contractors who purchased the Elite Edition of GZW.",
@@ -788,11 +814,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Edition_Elite_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Elite Edition Patch"
  },
  {
   "id": "IS_PMC_Patch_Edition_Elite_R",
-  "name": "Elite Edition Patch",
+  "name": "Elite Edition Patch (R)",
   "short_name": "Elite",
   "manufacturer": "General West",
   "description": "A patch exclusive to contractors who purchased the Elite Edition of GZW.",
@@ -801,7 +828,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Edition_Elite_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Elite Edition Patch"
  },
  {
   "id": "IS_PMC_Gloves_NonameFingerless01",
@@ -829,7 +857,7 @@
  },
  {
   "id": "IS_PMC_Patch_Special_GameMaster_L",
-  "name": "Game Master Patch",
+  "name": "Game Master Patch (L)",
   "short_name": "GM",
   "manufacturer": "General West",
   "description": "A patch awarded to the Game Masters who organize in-game events for the Gray Zone Warfare community.",
@@ -838,11 +866,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_GameMaster_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Game Master Patch"
  },
  {
   "id": "IS_PMC_Patch_Special_GameMaster_R",
-  "name": "Game Master Patch",
+  "name": "Game Master Patch (R)",
   "short_name": "GM",
   "manufacturer": "General West",
   "description": "A patch awarded to the Game Masters who organize in-game events for the Gray Zone Warfare community.",
@@ -851,11 +880,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_GameMaster_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Game Master Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Gigabeef_L",
-  "name": "Gigabeef Patch",
+  "name": "Gigabeef Patch (L)",
   "short_name": "Gigabeef",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -864,11 +894,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Gigabeef_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Gigabeef Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Gigabeef_R",
-  "name": "Gigabeef Patch",
+  "name": "Gigabeef Patch (R)",
   "short_name": "Gigabeef",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -877,11 +908,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Gigabeef_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Gigabeef Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Gingy_L",
-  "name": "Gingy Patch",
+  "name": "Gingy Patch (L)",
   "short_name": "Gingy",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -890,11 +922,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Gingy_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Gingy Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Gingy_R",
-  "name": "Gingy Patch",
+  "name": "Gingy Patch (R)",
   "short_name": "Gingy",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -903,11 +936,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Gingy_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Gingy Patch"
  },
  {
   "id": "IS_PMC_Patch_Special_Vietnam_Sunrise_L",
-  "name": "Helo Sunrise Patch",
+  "name": "Helo Sunrise Patch (L)",
   "short_name": "Sunrise",
   "manufacturer": "General West",
   "description": "A patch depicting a helicopter flying over a jungle during sunrise.",
@@ -916,11 +950,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_Vietnam_Sunrise_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Helo Sunrise Patch"
  },
  {
   "id": "IS_PMC_Patch_Special_Vietnam_Sunrise_R",
-  "name": "Helo Sunrise Patch",
+  "name": "Helo Sunrise Patch (R)",
   "short_name": "Sunrise",
   "manufacturer": "General West",
   "description": "A patch depicting a helicopter flying over a jungle during sunrise.",
@@ -929,11 +964,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_Vietnam_Sunrise_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Helo Sunrise Patch"
  },
  {
   "id": "IS_PMC_Patch_Special_Vietnam_Sunset_L",
-  "name": "Helo Sunset Patch",
+  "name": "Helo Sunset Patch (L)",
   "short_name": "Sunset",
   "manufacturer": "General West",
   "description": "A patch depicting a helicopter flying over a jungle during sunset.",
@@ -942,11 +978,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_Vietnam_Sunset_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Helo Sunset Patch"
  },
  {
   "id": "IS_PMC_Patch_Special_Vietnam_Sunset_R",
-  "name": "Helo Sunset Patch",
+  "name": "Helo Sunset Patch (R)",
   "short_name": "Sunset",
   "manufacturer": "General West",
   "description": "A patch depicting a helicopter flying over a jungle during sunset.",
@@ -955,7 +992,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_Vietnam_Sunset_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Helo Sunset Patch"
  },
  {
   "id": "IS_PMC_Shirt_HuntersParadise",
@@ -969,7 +1007,7 @@
  },
  {
   "id": "IS_PMC_Trousers_Jeans_Blue",
-  "name": "Jeans (Blue)",
+  "name": "Jeans (Blue) (PMC_Trousers_Jeans_Blue)",
   "manufacturer": "General West",
   "type": "Clothing.Trousers",
   "weight": "1 kg",
@@ -979,73 +1017,80 @@
    "rankToUnlock": 30
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Trousers_Jeans_Blue.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Jeans (Blue)"
  },
  {
   "id": "IS_Thai_Mercs_Handshake_Trousers_01",
-  "name": "Jeans (Blue)",
+  "name": "Jeans (Blue) (Thai_Mercs_Handshake_Trousers_01)",
   "manufacturer": "General West",
   "type": "Clothing.Trousers",
   "weight": "1 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Handshake_Trousers_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Jeans (Blue)"
  },
  {
   "id": "IS_Thai_Mercs_Trousers_01",
-  "name": "Jeans (Blue)",
+  "name": "Jeans (Blue) (Thai_Mercs_Trousers_01)",
   "manufacturer": "General West",
   "type": "Clothing.Trousers",
   "weight": "1 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Trousers_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Jeans (Blue)"
  },
  {
   "id": "IS_Thai_Mercs_Trousers_02",
-  "name": "Jeans (Blue)",
+  "name": "Jeans (Blue) (Thai_Mercs_Trousers_02)",
   "manufacturer": "General West",
   "type": "Clothing.Trousers",
   "weight": "1 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Trousers_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Jeans (Blue)"
  },
  {
   "id": "IS_Thai_Mercs_Trousers_Jeans_01",
-  "name": "Jeans (Blue)",
+  "name": "Jeans (Blue) (Thai_Mercs_Trousers_Jeans_01)",
   "manufacturer": "General West",
   "type": "Clothing.Trousers",
   "weight": "1 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Trousers_Jeans_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Jeans (Blue)"
  },
  {
   "id": "IS_Thai_Mercs_Trousers_Jeans_02",
-  "name": "Jeans (Blue)",
+  "name": "Jeans (Blue) (Thai_Mercs_Trousers_Jeans_02)",
   "manufacturer": "General West",
   "type": "Clothing.Trousers",
   "weight": "1 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Trousers_Jeans_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Jeans (Blue)"
  },
  {
   "id": "IS_Thai_Mercs_Trousers_Jeans_03",
-  "name": "Jeans (Blue)",
+  "name": "Jeans (Blue) (Thai_Mercs_Trousers_Jeans_03)",
   "manufacturer": "General West",
   "type": "Clothing.Trousers",
   "weight": "1 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Trousers_Jeans_03.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Jeans (Blue)"
  },
  {
   "id": "IS_PMC_Trousers_Jeans_Gray",
@@ -1063,7 +1108,7 @@
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_JesseKazam_L",
-  "name": "JesseKazam Patch",
+  "name": "JesseKazam Patch (L)",
   "short_name": "JesseK",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -1072,11 +1117,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_JesseKazam_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "JesseKazam Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_JesseKazam_R",
-  "name": "JesseKazam Patch",
+  "name": "JesseKazam Patch (R)",
   "short_name": "JesseK",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -1085,11 +1131,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_JesseKazam_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "JesseKazam Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Klean_L",
-  "name": "Klean Patch",
+  "name": "Klean Patch (L)",
   "short_name": "Klean",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -1098,11 +1145,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Klean_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Klean Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Klean_R",
-  "name": "Klean Patch",
+  "name": "Klean Patch (R)",
   "short_name": "Klean",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -1111,11 +1159,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Klean_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Klean Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Kotton_L",
-  "name": "Kotton Patch",
+  "name": "Kotton Patch (L)",
   "short_name": "Kotton",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -1124,11 +1173,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Kotton_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Kotton Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Kotton_R",
-  "name": "Kotton Patch",
+  "name": "Kotton Patch (R)",
   "short_name": "Kotton",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -1137,11 +1187,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Kotton_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Kotton Patch"
  },
  {
   "id": "IS_PMC_Patch_Faction_LRI_L",
-  "name": "Lamang Recovery Initiative Patch",
+  "name": "Lamang Recovery Initiative Patch (L)",
   "short_name": "LRI",
   "manufacturer": "General West",
   "description": "A patch worn by the members of Lamang Recovery Initiative.",
@@ -1150,11 +1201,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Faction_LRI_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Lamang Recovery Initiative Patch"
  },
  {
   "id": "IS_PMC_Patch_Faction_LRI_R",
-  "name": "Lamang Recovery Initiative Patch",
+  "name": "Lamang Recovery Initiative Patch (R)",
   "short_name": "LRI",
   "manufacturer": "General West",
   "description": "A patch worn by the members of Lamang Recovery Initiative.",
@@ -1163,7 +1215,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Faction_LRI_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Lamang Recovery Initiative Patch"
  },
  {
   "id": "IS_PMC_Shirt_LRI",
@@ -1187,7 +1240,7 @@
  },
  {
   "id": "IS_PMC_Patch_Edition_LegacySupporter_L",
-  "name": "Legacy Supporter Edition Patch",
+  "name": "Legacy Supporter Edition Patch (L)",
   "short_name": "Legacy",
   "manufacturer": "General West",
   "description": "A patch exclusive to contractors who purchased the Supporter Edition of GZW before March 26, 2026.",
@@ -1196,11 +1249,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Edition_LegacySupporter_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Legacy Supporter Edition Patch"
  },
  {
   "id": "IS_PMC_Patch_Edition_LegacySupporter_R",
-  "name": "Legacy Supporter Edition Patch",
+  "name": "Legacy Supporter Edition Patch (R)",
   "short_name": "Legacy",
   "manufacturer": "General West",
   "description": "A patch exclusive to contractors who purchased the Supporter Edition of GZW before March 26, 2026.",
@@ -1209,7 +1263,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Edition_LegacySupporter_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Legacy Supporter Edition Patch"
  },
  {
   "id": "IS_PMC_Jumpsuit_CWU27P",
@@ -1256,7 +1311,7 @@
  },
  {
   "id": "IS_PMC_Shirt_NonameLongSleeves01",
-  "name": "Long Sleeves",
+  "name": "Long Sleeves (PMC_Shirt_NonameLongSleeves01)",
   "manufacturer": "General West",
   "weight": "0.1 kg",
   "grid_size": "1x1",
@@ -1265,27 +1320,30 @@
    "rankToUnlock": 20
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Shirt_NonameLongSleeves01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Long Sleeves"
  },
  {
   "id": "IS_Thai_Mercs_Shirt_NonameLongSleeves01",
-  "name": "Long Sleeves",
+  "name": "Long Sleeves (Thai_Mercs_Shirt_NonameLongSleeves01)",
   "manufacturer": "General West",
   "weight": "0.1 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Shirt_NonameLongSleeves01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Long Sleeves"
  },
  {
   "id": "IS_Thai_Mercs_Shirt_NonameLongSleevesTactical_01",
-  "name": "Long Sleeves",
+  "name": "Long Sleeves (Thai_Mercs_Shirt_NonameLongSleevesTactical_01)",
   "manufacturer": "General West",
   "weight": "0.1 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Shirt_NonameLongSleevesTactical_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Long Sleeves"
  },
  {
   "id": "IS_PMC_Shirt_NonameLongSleeves02",
@@ -1315,7 +1373,7 @@
  },
  {
   "id": "IS_PMC_Shirt_NonameLongSleevesTactical01_Camo",
-  "name": "Long Sleeves Tactical",
+  "name": "Long Sleeves Tactical (Camo)",
   "manufacturer": "General West",
   "weight": "0.1 kg",
   "grid_size": "1x1",
@@ -1324,7 +1382,8 @@
    "rankToUnlock": 1
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Shirt_NonameLongSleevesTactical01_Camo.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Long Sleeves Tactical"
  },
  {
   "id": "IS_PMC_Shirt_NonameLongSleevesTactical01_DesertNightVision",
@@ -1338,7 +1397,7 @@
  },
  {
   "id": "IS_PMC_Boots_LowaZephyrGTXMidTF",
-  "name": "Lowa - Zephyr GTX Mid TF",
+  "name": "Lowa - Zephyr GTX Mid TF (PMC_Boots_LowaZephyrGTXMidTF)",
   "manufacturer": "Lowa",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
@@ -1348,22 +1407,24 @@
    "rankToUnlock": 1
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Boots_LowaZephyrGTXMidTF.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Lowa - Zephyr GTX Mid TF"
  },
  {
   "id": "IS_Thai_Mercs_Boots_LowaZephyrGTXMidTF_02",
-  "name": "Lowa - Zephyr GTX Mid TF",
+  "name": "Lowa - Zephyr GTX Mid TF (Thai_Mercs_Boots_LowaZephyrGTXMidTF_02)",
   "manufacturer": "Lowa",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Boots_LowaZephyrGTXMidTF_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Lowa - Zephyr GTX Mid TF"
  },
  {
   "id": "IS_PMC_Patch_Special_MFGBuddy_L",
-  "name": "Madfinger Games Buddy Patch",
+  "name": "Madfinger Games Buddy Patch (L)",
   "short_name": "Buddy",
   "manufacturer": "General West",
   "description": "A patch given to contractors who greatly hepled during the development of the game.",
@@ -1372,11 +1433,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_MFGBuddy_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Madfinger Games Buddy Patch"
  },
  {
   "id": "IS_PMC_Patch_Special_MFGBuddy_R",
-  "name": "Madfinger Games Buddy Patch",
+  "name": "Madfinger Games Buddy Patch (R)",
   "short_name": "Buddy",
   "manufacturer": "General West",
   "description": "A patch given to contractors who greatly hepled during the development of the game.",
@@ -1385,11 +1447,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_MFGBuddy_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Madfinger Games Buddy Patch"
  },
  {
   "id": "IS_PMC_Patch_Special_MFGDev_L",
-  "name": "Madfinger Games Dev Patch",
+  "name": "Madfinger Games Dev Patch (L)",
   "short_name": "MFG",
   "manufacturer": "General West",
   "description": "A patch worn by MADFINGER Games developers.",
@@ -1398,11 +1461,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_MFGDev_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Madfinger Games Dev Patch"
  },
  {
   "id": "IS_PMC_Patch_Special_MFGDev_R",
-  "name": "Madfinger Games Dev Patch",
+  "name": "Madfinger Games Dev Patch (R)",
   "short_name": "MFG",
   "manufacturer": "General West",
   "description": "A patch worn by MADFINGER Games developers.",
@@ -1411,44 +1475,48 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_MFGDev_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Madfinger Games Dev Patch"
  },
  {
   "id": "IS_PMC_AI_Boots_AKUConeroGTX_01",
-  "name": "Magnum - Wild-Fire Tactical",
+  "name": "Magnum - Wild-Fire Tactical (AI_Boots_AKUConeroGTX_01)",
   "manufacturer": "Magnum",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_AI_Boots_AKUConeroGTX_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Magnum - Wild-Fire Tactical"
  },
  {
   "id": "IS_PMC_AI_Boots_RockyS2V3_01",
-  "name": "Magnum - Wild-Fire Tactical",
+  "name": "Magnum - Wild-Fire Tactical (AI_Boots_RockyS2V3_01)",
   "manufacturer": "Magnum",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_AI_Boots_RockyS2V3_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Magnum - Wild-Fire Tactical"
  },
  {
   "id": "IS_PMC_AI_Boots_RockyS2V3_02",
-  "name": "Magnum - Wild-Fire Tactical",
+  "name": "Magnum - Wild-Fire Tactical (AI_Boots_RockyS2V3_02)",
   "manufacturer": "Magnum",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_AI_Boots_RockyS2V3_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Magnum - Wild-Fire Tactical"
  },
  {
   "id": "IS_PMC_Boots_MagnumWildfireTactical_01",
-  "name": "Magnum - Wild-Fire Tactical",
+  "name": "Magnum - Wild-Fire Tactical (Boots_MagnumWildfireTactical_01)",
   "manufacturer": "Magnum",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
@@ -1458,22 +1526,24 @@
    "rankToUnlock": 45
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Boots_MagnumWildfireTactical_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Magnum - Wild-Fire Tactical"
  },
  {
   "id": "IS_PMC_Boots_MagnumWildfireTactical_02",
-  "name": "Magnum - Wild-Fire Tactical",
+  "name": "Magnum - Wild-Fire Tactical (Boots_MagnumWildfireTactical_02)",
   "manufacturer": "Magnum",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Boots_MagnumWildfireTactical_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Magnum - Wild-Fire Tactical"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_MarkStormTV_L",
-  "name": "MarkStorm Patch",
+  "name": "MarkStorm Patch (L)",
   "short_name": "MarkS",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -1482,11 +1552,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_MarkStormTV_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MarkStorm Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_MarkStormTV_R",
-  "name": "MarkStorm Patch",
+  "name": "MarkStorm Patch (R)",
   "short_name": "MarkS",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -1495,7 +1566,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_MarkStormTV_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "MarkStorm Patch"
  },
  {
   "id": "IS_PMC_Shirt_MbduFlannelShirt_Black",
@@ -1596,7 +1668,7 @@
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_MenosTrece_L",
-  "name": "Menos Trece Patch",
+  "name": "Menos Trece Patch (L)",
   "short_name": "MenosT",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -1605,11 +1677,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_MenosTrece_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Menos Trece Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_MenosTrece_R",
-  "name": "Menos Trece Patch",
+  "name": "Menos Trece Patch (R)",
   "short_name": "MenosT",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -1618,11 +1691,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_MenosTrece_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Menos Trece Patch"
  },
  {
   "id": "IS_PMC_Patch_Special_Merit_L",
-  "name": "Merit Patch",
+  "name": "Merit Patch (L)",
   "short_name": "Merit",
   "manufacturer": "General West",
   "description": "A patch awarded for exceptional merit, outstanding skill, or significant contribution in Gray Zone Warfare.",
@@ -1631,11 +1705,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_Merit_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Merit Patch"
  },
  {
   "id": "IS_PMC_Patch_Special_Merit_R",
-  "name": "Merit Patch",
+  "name": "Merit Patch (R)",
   "short_name": "Merit",
   "manufacturer": "General West",
   "description": "A patch awarded for exceptional merit, outstanding skill, or significant contribution in Gray Zone Warfare.",
@@ -1645,7 +1720,8 @@
   "base_price": 1.0,
   "tier": "Five",
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_Merit_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Merit Patch"
  },
  {
   "id": "IS_PMC_Shirt_Mfg",
@@ -1659,7 +1735,7 @@
  },
  {
   "id": "IS_PMC_Patch_Faction_MSS_L",
-  "name": "Mithras Security Systems  Patch",
+  "name": "Mithras Security Systems  Patch (L)",
   "short_name": "MSS",
   "manufacturer": "General West",
   "description": "A patch worn by the members of Mithras Security Systems.",
@@ -1668,11 +1744,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Faction_MSS_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Mithras Security Systems  Patch"
  },
  {
   "id": "IS_PMC_Patch_Faction_MSS_R",
-  "name": "Mithras Security Systems  Patch",
+  "name": "Mithras Security Systems  Patch (R)",
   "short_name": "MSS",
   "manufacturer": "General West",
   "description": "A patch worn by the members of Mithras Security Systems.",
@@ -1681,7 +1758,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Faction_MSS_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Mithras Security Systems  Patch"
  },
  {
   "id": "IS_PMC_Shirt_MSS",
@@ -1695,7 +1773,7 @@
  },
  {
   "id": "IS_PMC_Patch_Special_Moderator_L",
-  "name": "Moderator Patch",
+  "name": "Moderator Patch (L)",
   "short_name": "Mod",
   "manufacturer": "General West",
   "description": "A patch awarded to the moderators who help oversee Gray Zone Warfare’s communication channels.",
@@ -1704,11 +1782,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_Moderator_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Moderator Patch"
  },
  {
   "id": "IS_PMC_Patch_Special_Moderator_R",
-  "name": "Moderator Patch",
+  "name": "Moderator Patch (R)",
   "short_name": "Mod",
   "manufacturer": "General West",
   "description": "A patch awarded to the moderators who help oversee Gray Zone Warfare’s communication channels.",
@@ -1717,11 +1796,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_Moderator_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Moderator Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_OfficerFA_L",
-  "name": "OfficerFA Patch",
+  "name": "OfficerFA Patch (L)",
   "short_name": "OfficerFA",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -1730,11 +1810,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_OfficerFA_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "OfficerFA Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_OfficerFA_R",
-  "name": "OfficerFA Patch",
+  "name": "OfficerFA Patch (R)",
   "short_name": "OfficerFA",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -1743,7 +1824,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_OfficerFA_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "OfficerFA Patch"
  },
  {
   "id": "IS_PMC_Boots_PentagonHybrid",
@@ -1785,7 +1867,7 @@
  },
  {
   "id": "IS_PMC_Patch_PlayerRank_1_9_L",
-  "name": "Player Rank 1 Patch",
+  "name": "Player Rank 1 Patch (L)",
   "short_name": "R1",
   "manufacturer": "General West",
   "description": "A patch issued to contractors at Rank 1.",
@@ -1797,11 +1879,12 @@
    "rankToUnlock": 1
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_PlayerRank_1_9_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Player Rank 1 Patch"
  },
  {
   "id": "IS_PMC_Patch_PlayerRank_1_9_R",
-  "name": "Player Rank 1 Patch",
+  "name": "Player Rank 1 Patch (R)",
   "short_name": "R1",
   "manufacturer": "General West",
   "description": "A patch issued to contractors at Rank 1.",
@@ -1813,11 +1896,12 @@
    "rankToUnlock": 1
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_PlayerRank_1_9_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Player Rank 1 Patch"
  },
  {
   "id": "IS_PMC_Patch_PlayerRank_10_19_L",
-  "name": "Player Rank 10 Patch",
+  "name": "Player Rank 10 Patch (L)",
   "short_name": "R10",
   "manufacturer": "General West",
   "description": "A patch awarded to contractors who have reached Rank 10.",
@@ -1829,11 +1913,12 @@
    "rankToUnlock": 10
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_PlayerRank_10_19_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Player Rank 10 Patch"
  },
  {
   "id": "IS_PMC_Patch_PlayerRank_10_19_R",
-  "name": "Player Rank 10 Patch",
+  "name": "Player Rank 10 Patch (R)",
   "short_name": "R10",
   "manufacturer": "General West",
   "description": "A patch awarded to contractors who have reached Rank 10.",
@@ -1845,11 +1930,12 @@
    "rankToUnlock": 10
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_PlayerRank_10_19_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Player Rank 10 Patch"
  },
  {
   "id": "IS_PMC_Patch_PlayerRank_20_29_L",
-  "name": "Player Rank 20 Patch",
+  "name": "Player Rank 20 Patch (L)",
   "short_name": "R20",
   "manufacturer": "General West",
   "description": "A patch awarded to contractors who have reached Rank 20.",
@@ -1861,11 +1947,12 @@
    "rankToUnlock": 20
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_PlayerRank_20_29_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Player Rank 20 Patch"
  },
  {
   "id": "IS_PMC_Patch_PlayerRank_20_29_R",
-  "name": "Player Rank 20 Patch",
+  "name": "Player Rank 20 Patch (R)",
   "short_name": "R20",
   "manufacturer": "General West",
   "description": "A patch awarded to contractors who have reached Rank 20.",
@@ -1877,11 +1964,12 @@
    "rankToUnlock": 20
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_PlayerRank_20_29_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Player Rank 20 Patch"
  },
  {
   "id": "IS_PMC_Patch_PlayerRank_30_39_L",
-  "name": "Player Rank 30 Patch",
+  "name": "Player Rank 30 Patch (L)",
   "short_name": "R30",
   "manufacturer": "General West",
   "description": "A patch awarded to contractors who have reached Rank 30.",
@@ -1893,11 +1981,12 @@
    "rankToUnlock": 30
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_PlayerRank_30_39_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Player Rank 30 Patch"
  },
  {
   "id": "IS_PMC_Patch_PlayerRank_30_39_R",
-  "name": "Player Rank 30 Patch",
+  "name": "Player Rank 30 Patch (R)",
   "short_name": "R30",
   "manufacturer": "General West",
   "description": "A patch awarded to contractors who have reached Rank 30.",
@@ -1909,11 +1998,12 @@
    "rankToUnlock": 30
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_PlayerRank_30_39_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Player Rank 30 Patch"
  },
  {
   "id": "IS_PMC_Patch_PlayerRank_40_49_L",
-  "name": "Player Rank 40 Patch",
+  "name": "Player Rank 40 Patch (L)",
   "short_name": "R40",
   "manufacturer": "General West",
   "description": "A patch awarded to contractors who have reached Rank 40.",
@@ -1925,11 +2015,12 @@
    "rankToUnlock": 40
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_PlayerRank_40_49_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Player Rank 40 Patch"
  },
  {
   "id": "IS_PMC_Patch_PlayerRank_40_49_R",
-  "name": "Player Rank 40 Patch",
+  "name": "Player Rank 40 Patch (R)",
   "short_name": "R40",
   "manufacturer": "General West",
   "description": "A patch awarded to contractors who have reached Rank 40.",
@@ -1941,11 +2032,12 @@
    "rankToUnlock": 40
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_PlayerRank_40_49_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Player Rank 40 Patch"
  },
  {
   "id": "IS_PMC_Patch_PlayerRank_50_L",
-  "name": "Player Rank 50 Patch",
+  "name": "Player Rank 50 Patch (L)",
   "short_name": "R50",
   "manufacturer": "General West",
   "description": "A patch reserved for elite contractors who have reached Rank 50.",
@@ -1957,11 +2049,12 @@
    "rankToUnlock": 50
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_PlayerRank_50_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Player Rank 50 Patch"
  },
  {
   "id": "IS_PMC_Patch_PlayerRank_50_R",
-  "name": "Player Rank 50 Patch",
+  "name": "Player Rank 50 Patch (R)",
   "short_name": "R50",
   "manufacturer": "General West",
   "description": "A patch reserved for elite contractors who have reached Rank 50.",
@@ -1973,11 +2066,12 @@
    "rankToUnlock": 50
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_PlayerRank_50_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Player Rank 50 Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Poach_L",
-  "name": "Poach Patch",
+  "name": "Poach Patch (L)",
   "short_name": "Poach",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -1986,11 +2080,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Poach_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Poach Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Poach_R",
-  "name": "Poach Patch",
+  "name": "Poach Patch (R)",
   "short_name": "Poach",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -1999,11 +2094,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Poach_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Poach Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_RealKraftyy_L",
-  "name": "RealKraftyy Patch",
+  "name": "RealKraftyy Patch (L)",
   "short_name": "RealK",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2012,11 +2108,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_RealKraftyy_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "RealKraftyy Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_RealKraftyy_R",
-  "name": "RealKraftyy Patch",
+  "name": "RealKraftyy Patch (R)",
   "short_name": "RealK",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2025,7 +2122,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_RealKraftyy_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "RealKraftyy Patch"
  },
  {
   "id": "IS_PMC_Shirt_Regiment",
@@ -2039,95 +2137,103 @@
  },
  {
   "id": "IS_CAT_Boots_01",
-  "name": "Rocky S2V",
+  "name": "Rocky S2V (CAT_Boots_01)",
   "manufacturer": "Rocky",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_CAT_Boots_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Rocky S2V"
  },
  {
   "id": "IS_CAT_Boots_02",
-  "name": "Rocky S2V",
+  "name": "Rocky S2V (CAT_Boots_02)",
   "manufacturer": "Rocky",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_CAT_Boots_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Rocky S2V"
  },
  {
   "id": "IS_CAT_Boots_03",
-  "name": "Rocky S2V",
+  "name": "Rocky S2V (CAT_Boots_03)",
   "manufacturer": "Rocky",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_CAT_Boots_03.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Rocky S2V"
  },
  {
   "id": "IS_CAT_ShoesRunning_01",
-  "name": "Rocky S2V",
+  "name": "Rocky S2V (CAT_ShoesRunning_01)",
   "manufacturer": "Rocky",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_CAT_ShoesRunning_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Rocky S2V"
  },
  {
   "id": "IS_PMC_Boots_RockyS2V",
-  "name": "Rocky S2V",
+  "name": "Rocky S2V (PMC_Boots_RockyS2V)",
   "manufacturer": "Rocky",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Boots_RockyS2V.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Rocky S2V"
  },
  {
   "id": "IS_Thai_Mercs_Boots_RockyS2V_02",
-  "name": "Rocky S2V",
+  "name": "Rocky S2V (Thai_Mercs_Boots_RockyS2V_02)",
   "manufacturer": "Rocky",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Boots_RockyS2V_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Rocky S2V"
  },
  {
   "id": "IS_Thai_Mercs_Boots_RockyS2V_03",
-  "name": "Rocky S2V",
+  "name": "Rocky S2V (Thai_Mercs_Boots_RockyS2V_03)",
   "manufacturer": "Rocky",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Boots_RockyS2V_03.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Rocky S2V"
  },
  {
   "id": "IS_Thai_Mercs_Boots_RunningShoe_01",
-  "name": "Rocky S2V",
+  "name": "Rocky S2V (Thai_Mercs_Boots_RunningShoe_01)",
   "manufacturer": "Rocky",
   "type": "Clothing.Boots",
   "weight": "0.5 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Boots_RunningShoe_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Rocky S2V"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Sentry_L",
-  "name": "Sentry Patch",
+  "name": "Sentry Patch (L)",
   "short_name": "Sentry",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2136,11 +2242,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Sentry_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sentry Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Sentry_R",
-  "name": "Sentry Patch",
+  "name": "Sentry Patch (R)",
   "short_name": "Sentry",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2149,11 +2256,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Sentry_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sentry Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_SheefGG_L",
-  "name": "SheefGG Patch",
+  "name": "SheefGG Patch (L)",
   "short_name": "SheefGG",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2162,11 +2270,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_SheefGG_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SheefGG Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_SheefGG_R",
-  "name": "SheefGG Patch",
+  "name": "SheefGG Patch (R)",
   "short_name": "SheefGG",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2175,11 +2284,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_SheefGG_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SheefGG Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_SheriffEli_L",
-  "name": "SheriffEli Patch",
+  "name": "SheriffEli Patch (L)",
   "short_name": "SheriffEli",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2188,11 +2298,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_SheriffEli_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SheriffEli Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_SheriffEli_R",
-  "name": "SheriffEli Patch",
+  "name": "SheriffEli Patch (R)",
   "short_name": "SheriffEli",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2201,11 +2312,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_SheriffEli_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SheriffEli Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_SinisterFPS_L",
-  "name": "SiNisterFPS_ Patch",
+  "name": "SiNisterFPS_ Patch (L)",
   "short_name": "SiNisterFPS_",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2214,11 +2326,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_SinisterFPS_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SiNisterFPS_ Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_SinisterFPS_R",
-  "name": "SiNisterFPS_ Patch",
+  "name": "SiNisterFPS_ Patch (R)",
   "short_name": "SiNisterFPS_",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2227,11 +2340,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_SinisterFPS_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "SiNisterFPS_ Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Sixquatre_L",
-  "name": "Sixquatre Patch",
+  "name": "Sixquatre Patch (L)",
   "short_name": "Sixquatre",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2240,11 +2354,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Sixquatre_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sixquatre Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Sixquatre_R",
-  "name": "Sixquatre Patch",
+  "name": "Sixquatre Patch (R)",
   "short_name": "Sixquatre",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2253,11 +2368,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Sixquatre_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sixquatre Patch"
  },
  {
   "id": "IS_PMC_Patch_Edition_Supporter_L",
-  "name": "Supporter Edition Patch",
+  "name": "Supporter Edition Patch (L)",
   "short_name": "Supporter",
   "manufacturer": "General West",
   "description": "A patch exclusive to contractors who purchased the Supporter Edition of GZW.",
@@ -2266,11 +2382,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Edition_Supporter_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Supporter Edition Patch"
  },
  {
   "id": "IS_PMC_Patch_Edition_Supporter_R",
-  "name": "Supporter Edition Patch",
+  "name": "Supporter Edition Patch (R)",
   "short_name": "Supporter",
   "manufacturer": "General West",
   "description": "A patch exclusive to contractors who purchased the Supporter Edition of GZW.",
@@ -2279,11 +2396,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Edition_Supporter_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Supporter Edition Patch"
  },
  {
   "id": "IS_PMC_Patch_Edition_Tactical_L",
-  "name": "Tactical Edition Patch",
+  "name": "Tactical Edition Patch (L)",
   "short_name": "Tactical",
   "manufacturer": "General West",
   "description": "A patch exclusive to contractors who purchased the Tactical Edition of GZW.",
@@ -2292,11 +2410,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Edition_Tactical_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Tactical Edition Patch"
  },
  {
   "id": "IS_PMC_Patch_Edition_Tactical_R",
-  "name": "Tactical Edition Patch",
+  "name": "Tactical Edition Patch (R)",
   "short_name": "Tactical",
   "manufacturer": "General West",
   "description": "A patch exclusive to contractors who purchased the Tactical Edition of GZW.",
@@ -2305,22 +2424,24 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Edition_Tactical_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Tactical Edition Patch"
  },
  {
   "id": "IS_Enemy_Gloves_NonameTactical_01",
-  "name": "Tactical Gloves",
+  "name": "Tactical Gloves (Enemy_Gloves_NonameTactical_01)",
   "manufacturer": "General West",
   "type": "Clothing.Gloves",
   "weight": "0.1 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Enemy_Gloves_NonameTactical_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Tactical Gloves"
  },
  {
   "id": "IS_PMC_Gloves_NonameTactical",
-  "name": "Tactical Gloves",
+  "name": "Tactical Gloves (PMC_Gloves_NonameTactical)",
   "manufacturer": "General West",
   "type": "Clothing.Gloves",
   "weight": "0.1 kg",
@@ -2330,11 +2451,12 @@
    "rankToUnlock": 1
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Gloves_NonameTactical.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Tactical Gloves"
  },
  {
   "id": "IS_PMC_Gloves_NonameTactical02",
-  "name": "Tactical Gloves",
+  "name": "Tactical Gloves (PMC_Gloves_NonameTactical02)",
   "manufacturer": "General West",
   "type": "Clothing.Gloves",
   "weight": "0.1 kg",
@@ -2344,11 +2466,12 @@
    "rankToUnlock": 30
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Gloves_NonameTactical02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Tactical Gloves"
  },
  {
   "id": "IS_PMC_Gloves_NonameTactical03",
-  "name": "Tactical Gloves",
+  "name": "Tactical Gloves (PMC_Gloves_NonameTactical03)",
   "manufacturer": "General West",
   "type": "Clothing.Gloves",
   "weight": "0.1 kg",
@@ -2358,18 +2481,20 @@
    "rankToUnlock": 1
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Gloves_NonameTactical03.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Tactical Gloves"
  },
  {
   "id": "IS_Thai_Mercs_Gloves_NonameTactical02",
-  "name": "Tactical Gloves",
+  "name": "Tactical Gloves (Thai_Mercs_Gloves_NonameTactical02)",
   "manufacturer": "General West",
   "type": "Clothing.Gloves",
   "weight": "0.1 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Gloves_NonameTactical02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Tactical Gloves"
  },
  {
   "id": "IS_PMC_Trousers_JeansTacticalRappelSeat",
@@ -2427,7 +2552,7 @@
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_TheBurntPeanut_L",
-  "name": "TheBurntPeanut Patch",
+  "name": "TheBurntPeanut Patch (L)",
   "short_name": "TheBurntPeanut",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2436,11 +2561,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_TheBurntPeanut_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "TheBurntPeanut Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_TheBurntPeanut_R",
-  "name": "TheBurntPeanut Patch",
+  "name": "TheBurntPeanut Patch (R)",
   "short_name": "TheBurntPeanut",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2449,7 +2575,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_TheBurntPeanut_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "TheBurntPeanut Patch"
  },
  {
   "id": "IS_PMC_Shirt_TigerBayMall",
@@ -2485,7 +2612,7 @@
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_TripleG_L",
-  "name": "Triple_G Patch",
+  "name": "Triple_G Patch (L)",
   "short_name": "Triple_G",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2494,11 +2621,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_TripleG_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Triple_G Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_TripleG_R",
-  "name": "Triple_G Patch",
+  "name": "Triple_G Patch (R)",
   "short_name": "Triple_G",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2507,11 +2635,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_TripleG_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Triple_G Patch"
  },
  {
   "id": "IS_PMC_Shirt_USArmyBlouse",
-  "name": "US Army - Blouse (M64 Vietnam)",
+  "name": "US Army - Blouse (M64 Vietnam) (PMC_Shirt_USArmyBlouse)",
   "manufacturer": "US Army",
   "weight": "0.1 kg",
   "grid_size": "1x1",
@@ -2520,17 +2649,19 @@
    "rankToUnlock": 25
   },
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Shirt_USArmyBlouse.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "US Army - Blouse (M64 Vietnam)"
  },
  {
   "id": "IS_Thai_Mercs_Shirt_USArmyBlouse_01",
-  "name": "US Army - Blouse (M64 Vietnam)",
+  "name": "US Army - Blouse (M64 Vietnam) (Thai_Mercs_Shirt_USArmyBlouse_01)",
   "manufacturer": "US Army",
   "weight": "0.1 kg",
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_Thai_Mercs_Shirt_USArmyBlouse_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "US Army - Blouse (M64 Vietnam)"
  },
  {
   "id": "IS_PMC_Shirt_USArmyBlouse_Sleeveless",
@@ -2597,7 +2728,7 @@
  },
  {
   "id": "IS_PMC_Patch_Special_Vanguard_L",
-  "name": "Vanguard Patch",
+  "name": "Vanguard Patch (L)",
   "short_name": "Vanguard",
   "manufacturer": "General West",
   "description": "A patch awarded to the participants of the Vanguard program.",
@@ -2606,11 +2737,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_Vanguard_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Vanguard Patch"
  },
  {
   "id": "IS_PMC_Patch_Special_Vanguard_R",
-  "name": "Vanguard Patch",
+  "name": "Vanguard Patch (R)",
   "short_name": "Vanguard",
   "manufacturer": "General West",
   "description": "A patch awarded to the participants of the Vanguard program.",
@@ -2619,7 +2751,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_Special_Vanguard_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Vanguard Patch"
  },
  {
   "id": "IS_PMC_Trousers_ViktosContractorSf_Agent",
@@ -2698,7 +2831,7 @@
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Welyn_L",
-  "name": "Welyn Patch",
+  "name": "Welyn Patch (L)",
   "short_name": "Welyn",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2707,11 +2840,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Welyn_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Welyn Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_Welyn_R",
-  "name": "Welyn Patch",
+  "name": "Welyn Patch (R)",
   "short_name": "Welyn",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2720,11 +2854,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_Welyn_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Welyn Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_WillerZ_L",
-  "name": "WillerZ Patch",
+  "name": "WillerZ Patch (L)",
   "short_name": "WillerZ",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2733,11 +2868,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_WillerZ_L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "WillerZ Patch"
  },
  {
   "id": "IS_PMC_Patch_ContentCreator_WillerZ_R",
-  "name": "WillerZ Patch",
+  "name": "WillerZ Patch (R)",
   "short_name": "WillerZ",
   "manufacturer": "General West",
   "description": "A patch earned through Twitch Drops during the Spearhead update.",
@@ -2746,6 +2882,7 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/clothing/IS_PMC_Patch_ContentCreator_WillerZ_R.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "WillerZ Patch"
  }
 ]

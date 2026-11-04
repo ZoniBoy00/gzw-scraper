@@ -201,7 +201,7 @@
  },
  {
   "id": "IS_Rig_BikerChestRig_Lht_01",
-  "name": "Biker Chest Rig",
+  "name": "Biker Chest Rig (Lht_01)",
   "short_name": "Biker",
   "manufacturer": "Sepeda Moto",
   "description": "A chest rig designed for bikers to have all their necessities close by.",
@@ -231,11 +231,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_BikerChestRig_Lht_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Biker Chest Rig"
  },
  {
   "id": "IS_Rig_BikerChestRig_Lht_02",
-  "name": "Biker Chest Rig",
+  "name": "Biker Chest Rig (Lht_02)",
   "short_name": "Biker",
   "manufacturer": "Sepeda Moto",
   "description": "A chest rig designed for bikers to have all their necessities close by.",
@@ -265,7 +266,8 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_BikerChestRig_Lht_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Biker Chest Rig"
  },
  {
   "id": "IS_Rig_MiniRigATacs_Boss",
@@ -519,7 +521,7 @@
  },
  {
   "id": "IS_Rig_KangarooTacticalRig_Cat",
-  "name": "Kangaroo Tactical Rig",
+  "name": "Kangaroo Tactical Rig (Cat)",
   "short_name": "Kangaroo",
   "manufacturer": "ANA-Tactical",
   "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
@@ -549,11 +551,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_Cat.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Kangaroo Tactical Rig"
  },
  {
   "id": "IS_Rig_KangarooTacticalRig_Laf",
-  "name": "Kangaroo Tactical Rig",
+  "name": "Kangaroo Tactical Rig (Laf)",
   "short_name": "Kangaroo",
   "manufacturer": "ANA-Tactical",
   "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
@@ -583,11 +586,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_Laf.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Kangaroo Tactical Rig"
  },
  {
   "id": "IS_Rig_KangarooTacticalRig_Lht",
-  "name": "Kangaroo Tactical Rig",
+  "name": "Kangaroo Tactical Rig (Lht)",
   "short_name": "Kangaroo",
   "manufacturer": "ANA-Tactical",
   "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
@@ -617,11 +621,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_Lht.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Kangaroo Tactical Rig"
  },
  {
   "id": "IS_Rig_KangarooTacticalRig_Lla",
-  "name": "Kangaroo Tactical Rig",
+  "name": "Kangaroo Tactical Rig (Lla)",
   "short_name": "Kangaroo",
   "manufacturer": "ANA-Tactical",
   "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
@@ -651,11 +656,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_Lla.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Kangaroo Tactical Rig"
  },
  {
   "id": "IS_Rig_KangarooTacticalRig_NoDropPouch",
-  "name": "Kangaroo Tactical Rig",
+  "name": "Kangaroo Tactical Rig (NoDropPouch)",
   "short_name": "Kangaroo",
   "manufacturer": "ANA-Tactical",
   "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
@@ -693,11 +699,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_NoDropPouch.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Kangaroo Tactical Rig"
  },
  {
   "id": "IS_Rig_KangarooTacticalRig_NoDropPouch_Cat",
-  "name": "Kangaroo Tactical Rig",
+  "name": "Kangaroo Tactical Rig (NoDropPouch_Cat)",
   "short_name": "Kangaroo",
   "manufacturer": "ANA-Tactical",
   "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
@@ -727,11 +734,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_NoDropPouch_Cat.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Kangaroo Tactical Rig"
  },
  {
   "id": "IS_Rig_KangarooTacticalRig_NoDropPouch_Laf",
-  "name": "Kangaroo Tactical Rig",
+  "name": "Kangaroo Tactical Rig (NoDropPouch_Laf)",
   "short_name": "Kangaroo",
   "manufacturer": "ANA-Tactical",
   "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
@@ -761,11 +769,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_NoDropPouch_Laf.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Kangaroo Tactical Rig"
  },
  {
   "id": "IS_Rig_KangarooTacticalRig_NoDropPouch_Lht",
-  "name": "Kangaroo Tactical Rig",
+  "name": "Kangaroo Tactical Rig (NoDropPouch_Lht)",
   "short_name": "Kangaroo",
   "manufacturer": "ANA-Tactical",
   "description": "The Kangaroo chest rig was developed to follow the trend of modular equipment, allowing customization based on the user’s requirements. The straps of this chest rig can be detached and used as a placard for plate carriers such as the M2.",
@@ -795,7 +804,8 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_KangarooTacticalRig_NoDropPouch_Lht.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Kangaroo Tactical Rig"
  },
  {
   "id": "IS_Rig_Tactec_Boss",
@@ -952,7 +962,7 @@
  },
  {
   "id": "IS_Rig_ReconChestRig_Dark",
-  "name": "Recon Chest Rig",
+  "name": "Recon Chest Rig (Dark)",
   "short_name": "Recon",
   "manufacturer": "Condor Outdoor",
   "description": "The Recon Chest Rig is a highly functional tactical gear with built-in kangaroo-style magazine pouches, offering quick and seamless access to up to six AR and pistol magazines. Its design facilitates faster reloads and keeps essential ammunition readily available during intense operations.",
@@ -982,11 +992,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_ReconChestRig_Dark.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Recon Chest Rig"
  },
  {
   "id": "IS_Rig_ReconChestRig_Dark_ThaiMercs",
-  "name": "Recon Chest Rig",
+  "name": "Recon Chest Rig (Dark_ThaiMercs)",
   "short_name": "Recon",
   "manufacturer": "Condor Outdoor",
   "description": "The Recon Chest Rig is a highly functional tactical gear with built-in kangaroo-style magazine pouches, offering quick and seamless access to up to six AR and pistol magazines. Its design facilitates faster reloads and keeps essential ammunition readily available during intense operations.",
@@ -1016,7 +1027,8 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_ReconChestRig_Dark_ThaiMercs.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Recon Chest Rig"
  },
  {
   "id": "IS_Rig_SmallRig",
@@ -1054,7 +1066,7 @@
  },
  {
   "id": "IS_Rig_SmallRig_MalayPirates",
-  "name": "Small Rig",
+  "name": "Small Rig (MalayPirates)",
   "short_name": "SRig",
   "manufacturer": "General Local",
   "description": "A basic, compact rig designed for minimalistic gear carrying. It's a simple and unassuming accessory, offering limited storage capacity for essential items in a streamlined manner.",
@@ -1084,11 +1096,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_SmallRig_MalayPirates.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Small Rig"
  },
  {
   "id": "IS_Rig_SmallRig_MalayPirates_02",
-  "name": "Small Rig",
+  "name": "Small Rig (MalayPirates_02)",
   "short_name": "SRig",
   "manufacturer": "General Local",
   "description": "A basic, compact rig designed for minimalistic gear carrying. It's a simple and unassuming accessory, offering limited storage capacity for essential items in a streamlined manner.",
@@ -1118,7 +1131,8 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_SmallRig_MalayPirates_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Small Rig"
  },
  {
   "id": "IS_Rig_Tactec",
@@ -1164,7 +1178,7 @@
  },
  {
   "id": "IS_Rig_Tactec_Cat",
-  "name": "TacTec Chest Rig",
+  "name": "TacTec Chest Rig (Cat)",
   "short_name": "TacTec",
   "manufacturer": "5.11",
   "description": "The TacTec Chest Rig is a high-performance tactical load-carrying system that provides a sturdy and reliable foundation for any operator's tactical kit. With its durable construction and practical design, it provides a reliable platform for organizing and accessing essential gear during operations.",
@@ -1194,11 +1208,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Tactec_Cat.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "TacTec Chest Rig"
  },
  {
   "id": "IS_Rig_Tactec_Dark",
-  "name": "TacTec Chest Rig",
+  "name": "TacTec Chest Rig (Dark)",
   "short_name": "TacTec",
   "manufacturer": "5.11",
   "description": "The TacTec Chest Rig is a high-performance tactical load-carrying system that provides a sturdy and reliable foundation for any operator's tactical kit. With its durable construction and practical design, it provides a reliable platform for organizing and accessing essential gear during operations.",
@@ -1228,11 +1243,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Tactec_Dark.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "TacTec Chest Rig"
  },
  {
   "id": "IS_Rig_Tactec_Lla",
-  "name": "TacTec Chest Rig",
+  "name": "TacTec Chest Rig (Lla)",
   "short_name": "TacTec",
   "manufacturer": "5.11",
   "description": "The TacTec Chest Rig is a high-performance tactical load-carrying system that provides a sturdy and reliable foundation for any operator's tactical kit. With its durable construction and practical design, it provides a reliable platform for organizing and accessing essential gear during operations.",
@@ -1262,11 +1278,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Tactec_Lla.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "TacTec Chest Rig"
  },
  {
   "id": "IS_Rig_Tactec_ThaiMercs",
-  "name": "TacTec Chest Rig",
+  "name": "TacTec Chest Rig (ThaiMercs)",
   "short_name": "TacTec",
   "manufacturer": "5.11",
   "description": "The TacTec Chest Rig is a high-performance tactical load-carrying system that provides a sturdy and reliable foundation for any operator's tactical kit. With its durable construction and practical design, it provides a reliable platform for organizing and accessing essential gear during operations.",
@@ -1296,11 +1313,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Tactec_ThaiMercs.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "TacTec Chest Rig"
  },
  {
   "id": "IS_Rig_Tactec_VietGang",
-  "name": "TacTec Chest Rig",
+  "name": "TacTec Chest Rig (VietGang)",
   "short_name": "TacTec",
   "manufacturer": "5.11",
   "description": "The TacTec Chest Rig is a high-performance tactical load-carrying system that provides a sturdy and reliable foundation for any operator's tactical kit. With its durable construction and practical design, it provides a reliable platform for organizing and accessing essential gear during operations.",
@@ -1330,7 +1348,8 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Tactec_VietGang.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "TacTec Chest Rig"
  },
  {
   "id": "IS_Rig_MiniRigATacs",
@@ -1376,7 +1395,7 @@
  },
  {
   "id": "IS_Rig_MiniRigATacs_NoDropPouch",
-  "name": "Training Mini Rig",
+  "name": "Training Mini Rig (NoDropPouch)",
   "short_name": "TMR",
   "manufacturer": "Helikon-Tex",
   "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.",
@@ -1414,11 +1433,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs_NoDropPouch.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Training Mini Rig"
  },
  {
   "id": "IS_Rig_MiniRigATacs_NoDropPouch_CAT",
-  "name": "Training Mini Rig",
+  "name": "Training Mini Rig (NoDropPouch_CAT)",
   "short_name": "TMR",
   "manufacturer": "Helikon-Tex",
   "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.",
@@ -1448,11 +1468,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs_NoDropPouch_CAT.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Training Mini Rig"
  },
  {
   "id": "IS_Rig_MiniRigATacs_NoDropPouch_ThaiMercs",
-  "name": "Training Mini Rig",
+  "name": "Training Mini Rig (NoDropPouch_ThaiMercs)",
   "short_name": "TMR",
   "manufacturer": "Helikon-Tex",
   "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.",
@@ -1482,11 +1503,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs_NoDropPouch_ThaiMercs.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Training Mini Rig"
  },
  {
   "id": "IS_Rig_MiniRigATacs_NoDropPouch_VietGang",
-  "name": "Training Mini Rig",
+  "name": "Training Mini Rig (NoDropPouch_VietGang)",
   "short_name": "TMR",
   "manufacturer": "Helikon-Tex",
   "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.",
@@ -1516,11 +1538,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs_NoDropPouch_VietGang.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Training Mini Rig"
  },
  {
   "id": "IS_Rig_MiniRigATacs_NoDropPouch_VietGang_02",
-  "name": "Training Mini Rig",
+  "name": "Training Mini Rig (NoDropPouch_VietGang_02)",
   "short_name": "TMR",
   "manufacturer": "Helikon-Tex",
   "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.",
@@ -1550,11 +1573,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs_NoDropPouch_VietGang_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Training Mini Rig"
  },
  {
   "id": "IS_Rig_MiniRigATacs_ThaiMercs",
-  "name": "Training Mini Rig",
+  "name": "Training Mini Rig (ThaiMercs)",
   "short_name": "TMR",
   "manufacturer": "Helikon-Tex",
   "description": "Featuring a minimalistic design, the Training Mini Rig offers essential attachment points for carrying magazines, small accessories, and other training gear. Its layout promotes quick and easy access to equipment, allowing for efficient reloads and tactical maneuvers during training scenarios.",
@@ -1584,7 +1608,8 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_MiniRigATacs_ThaiMercs.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Training Mini Rig"
  },
  {
   "id": "IS_Rig_Type56Ak",
@@ -1630,7 +1655,7 @@
  },
  {
   "id": "IS_Rig_Type56Ak_Black",
-  "name": "Type 56 AK",
+  "name": "Type 56 AK (Black)",
   "short_name": "Type 56",
   "manufacturer": "Chinese Military",
   "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.",
@@ -1660,11 +1685,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Ak_Black.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Type 56 AK"
  },
  {
   "id": "IS_Rig_Type56Ak_Dark",
-  "name": "Type 56 AK",
+  "name": "Type 56 AK (Dark)",
   "short_name": "Type 56",
   "manufacturer": "Chinese Military",
   "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.",
@@ -1694,11 +1720,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Ak_Dark.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Type 56 AK"
  },
  {
   "id": "IS_Rig_Type56Ak_LLA",
-  "name": "Type 56 AK",
+  "name": "Type 56 AK (LLA)",
   "short_name": "Type 56",
   "manufacturer": "Chinese Military",
   "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.",
@@ -1728,11 +1755,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Ak_LLA.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Type 56 AK"
  },
  {
   "id": "IS_Rig_Type56Ak_Lht",
-  "name": "Type 56 AK",
+  "name": "Type 56 AK (Lht)",
   "short_name": "Type 56",
   "manufacturer": "Chinese Military",
   "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.",
@@ -1762,11 +1790,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Ak_Lht.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Type 56 AK"
  },
  {
   "id": "IS_Rig_Type56Ak_Pirates_01",
-  "name": "Type 56 AK",
+  "name": "Type 56 AK (Pirates_01)",
   "short_name": "Type 56",
   "manufacturer": "Chinese Military",
   "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.",
@@ -1796,11 +1825,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Ak_Pirates_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Type 56 AK"
  },
  {
   "id": "IS_Rig_Type56Ak_Pirates_02",
-  "name": "Type 56 AK",
+  "name": "Type 56 AK (Pirates_02)",
   "short_name": "Type 56",
   "manufacturer": "Chinese Military",
   "description": "The most commonly found variant of the Chicom chest rig introduced alongside the Type 56 assault rifle for the People's Liberation Army. However, its first major appearance was during the Vietnam War, where it was used by the Viet Cong.",
@@ -1830,7 +1860,8 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Ak_Pirates_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Type 56 AK"
  },
  {
   "id": "IS_Rig_Type56Sks",
@@ -1875,7 +1906,7 @@
  },
  {
   "id": "IS_Rig_Type56Sks_Dark",
-  "name": "Type 56 SKS",
+  "name": "Type 56 SKS (Dark)",
   "manufacturer": "Chinese Military",
   "description": "This lightweight chest rig was designed for SKS ammunition clips. Its sturdy yet simple construction doesn’t limit movement and can be adjusted for a perfect fit.",
   "tags": [
@@ -1904,7 +1935,8 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_Type56Sks_Dark.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Type 56 SKS"
  },
  {
   "id": "IS_Rig_UniversalChestBag",
@@ -1950,7 +1982,7 @@
  },
  {
   "id": "IS_Rig_UniversalChestBag_Lht",
-  "name": "Universal Chest Bag",
+  "name": "Universal Chest Bag (Lht)",
   "short_name": "Chest Bag",
   "manufacturer": "Changleedo",
   "description": "Lightweight nylon chest bag with two side pouches.",
@@ -1980,6 +2012,7 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/rigs/IS_Rig_UniversalChestBag_Lht.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Universal Chest Bag"
  }
 ]

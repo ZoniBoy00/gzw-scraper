@@ -69,7 +69,7 @@
  },
  {
   "id": "IS_Intel_FL_KiuVongsaApplicationResult",
-  "name": "Application Result",
+  "name": "Application Result (KiuVongsaApplicationResult)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An LAF file.",
@@ -83,11 +83,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_KiuVongsaApplicationResult.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Application Result"
  },
  {
   "id": "IS_Intel_FL_NamThavenApplicationResult",
-  "name": "Application Result",
+  "name": "Application Result (NamThavenApplicationResult)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An LAF file.",
@@ -101,11 +102,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_NamThavenApplicationResult.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Application Result"
  },
  {
   "id": "IS_Intel_FL_PhaLangApplicationResult",
-  "name": "Application Result",
+  "name": "Application Result (PhaLangApplicationResult)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An LAF file.",
@@ -119,7 +121,8 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_PhaLangApplicationResult.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Application Result"
  },
  {
   "id": "IS_Intel_FL_AppointmentNotice",
@@ -264,7 +267,7 @@
  },
  {
   "id": "IS_Intel_PAP_BlackBoxCode",
-  "name": "Black Box Note",
+  "name": "Black Box Note (BlackBoxCode)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An A4 sheet of paper.",
@@ -277,11 +280,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_BlackBoxCode.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Black Box Note"
  },
  {
   "id": "IS_Intel_PAP_BlackBoxNote",
-  "name": "Black Box Note",
+  "name": "Black Box Note (BlackBoxNote)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An A4 sheet of paper.",
@@ -294,7 +298,8 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_BlackBoxNote.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Black Box Note"
  },
  {
   "id": "IS_Intel_PAP_BloodyListOfPeople",
@@ -538,7 +543,7 @@
  },
  {
   "id": "IS_Intel_NB_KiuVongsaConvictsNotepad",
-  "name": "Convict's Notepad",
+  "name": "Convict's Notepad (KiuVongsaConvictsNotepad)",
   "short_name": "Notepad",
   "manufacturer": "General Local",
   "description": "A notepad belonging to one of the criminals who got left behind on the island.",
@@ -553,11 +558,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_KiuVongsaConvictsNotepad.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Convict's Notepad"
  },
  {
   "id": "IS_Intel_NB_NamThavenConvictsNotepad",
-  "name": "Convict's Notepad",
+  "name": "Convict's Notepad (NamThavenConvictsNotepad)",
   "short_name": "Notepad",
   "manufacturer": "General Local",
   "description": "A notepad belonging to one of the criminals who got left behind on the island.",
@@ -572,11 +578,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_NamThavenConvictsNotepad.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Convict's Notepad"
  },
  {
   "id": "IS_Intel_NB_PhaLangConvictsNotepad",
-  "name": "Convict's Notepad",
+  "name": "Convict's Notepad (PhaLangConvictsNotepad)",
   "short_name": "Notepad",
   "manufacturer": "General Local",
   "description": "A notepad belonging to one of the criminals who got left behind on the island.",
@@ -591,7 +598,8 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_PhaLangConvictsNotepad.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Convict's Notepad"
  },
  {
   "id": "IS_Intel_NB_CrooksDiary",
@@ -715,7 +723,7 @@
  },
  {
   "id": "IS_Intel_NB_KiuVongsaDoctorsDiary",
-  "name": "Doctor's Diary",
+  "name": "Doctor's Diary (KiuVongsaDoctorsDiary)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An A5 notebook.",
@@ -729,11 +737,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_KiuVongsaDoctorsDiary.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Doctor's Diary"
  },
  {
   "id": "IS_Intel_NB_NamThavenDoctorsDiary",
-  "name": "Doctor's Diary",
+  "name": "Doctor's Diary (NamThavenDoctorsDiary)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An A5 notebook.",
@@ -747,11 +756,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_NamThavenDoctorsDiary.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Doctor's Diary"
  },
  {
   "id": "IS_Intel_NB_PhaLangDoctorsDiary",
-  "name": "Doctor's Diary",
+  "name": "Doctor's Diary (PhaLangDoctorsDiary)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An A5 notebook.",
@@ -765,7 +775,8 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_PhaLangDoctorsDiary.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Doctor's Diary"
  },
  {
   "id": "IS_Intel_NB_DoctorsNotes",
@@ -1206,7 +1217,7 @@
  },
  {
   "id": "IS_Intel_LET_NTFriendsLetter",
-  "name": "Friend's Letter",
+  "name": "Friend's Letter (NTFriendsLetter)",
   "short_name": "LET FrL",
   "manufacturer": "General Local",
   "description": "A strange letter full of suspicious passages.",
@@ -1220,11 +1231,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_LET_NTFriendsLetter.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Friend's Letter"
  },
  {
   "id": "IS_Intel_LET_PLFriendsLetter",
-  "name": "Friend's Letter",
+  "name": "Friend's Letter (PLFriendsLetter)",
   "short_name": "LET FrL",
   "manufacturer": "General Local",
   "description": "A strange letter with suspicious text.",
@@ -1238,7 +1250,8 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_LET_PLFriendsLetter.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Friend's Letter"
  },
  {
   "id": "IS_Intel_NB_FundeesDiary",
@@ -2274,7 +2287,7 @@
  },
  {
   "id": "IS_Intel_PAP_MadmansNote1",
-  "name": "Madman's Note",
+  "name": "Madman's Note (MadmansNote1)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An A4 sheet of paper.",
@@ -2287,11 +2300,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MadmansNote1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Madman's Note"
  },
  {
   "id": "IS_Intel_PAP_MadmansNote2",
-  "name": "Madman's Note",
+  "name": "Madman's Note (MadmansNote2)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An A4 sheet of paper.",
@@ -2304,11 +2318,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MadmansNote2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Madman's Note"
  },
  {
   "id": "IS_Intel_PAP_MadmansNote3",
-  "name": "Madman's Note",
+  "name": "Madman's Note (MadmansNote3)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An A4 sheet of paper.",
@@ -2321,11 +2336,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MadmansNote3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Madman's Note"
  },
  {
   "id": "IS_Intel_PAP_MadmansNote4",
-  "name": "Madman's Note",
+  "name": "Madman's Note (MadmansNote4)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An A4 sheet of paper.",
@@ -2338,11 +2354,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MadmansNote4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Madman's Note"
  },
  {
   "id": "IS_Intel_PAP_MadmansNote5",
-  "name": "Madman's Note",
+  "name": "Madman's Note (MadmansNote5)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An A4 sheet of paper.",
@@ -2355,7 +2372,8 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_PAP_MadmansNote5.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Madman's Note"
  },
  {
   "id": "IS_Intel_DirNote_MalevolentMessage",
@@ -3674,7 +3692,7 @@
  },
  {
   "id": "IS_Intel_Photo_KVFirstHitTarget",
-  "name": "Photo",
+  "name": "Photo (KVFirstHitTarget)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "Photo",
@@ -3688,11 +3706,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_KVFirstHitTarget.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Photo"
  },
  {
   "id": "IS_Intel_Photo_NTFirstHitTarget",
-  "name": "Photo",
+  "name": "Photo (NTFirstHitTarget)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "Photo",
@@ -3706,11 +3725,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_NTFirstHitTarget.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Photo"
  },
  {
   "id": "IS_Intel_Photo_PLFirstHitTarget",
-  "name": "Photo",
+  "name": "Photo (PLFirstHitTarget)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "Photo",
@@ -3724,7 +3744,8 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Photo_PLFirstHitTarget.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Photo"
  },
  {
   "id": "IS_Intel_Photo_PhotoCareerChange",
@@ -3865,7 +3886,7 @@
  },
  {
   "id": "IS_Intel_POSTER_ShootingRange_Cavities",
-  "name": "Poster",
+  "name": "Poster (POSTER_ShootingRange_Cavities)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A poster.",
@@ -3878,11 +3899,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_POSTER_ShootingRange_Cavities.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Poster"
  },
  {
   "id": "IS_Intel_POSTER_ShootingRange_HPAP",
-  "name": "Poster",
+  "name": "Poster (POSTER_ShootingRange_HPAP)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A poster.",
@@ -3895,11 +3917,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_POSTER_ShootingRange_HPAP.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Poster"
  },
  {
   "id": "IS_Intel_POSTER_ShootingRange_Height",
-  "name": "Poster",
+  "name": "Poster (POSTER_ShootingRange_Height)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A poster.",
@@ -3912,11 +3935,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_POSTER_ShootingRange_Height.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Poster"
  },
  {
   "id": "IS_Intel_POSTER_ShootingRange_NIJ",
-  "name": "Poster",
+  "name": "Poster (POSTER_ShootingRange_NIJ)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A poster.",
@@ -3929,11 +3953,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_POSTER_ShootingRange_NIJ.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Poster"
  },
  {
   "id": "IS_Intel_Poster_MedCamp_Bleeding",
-  "name": "Poster",
+  "name": "Poster (Poster_MedCamp_Bleeding)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A poster.",
@@ -3946,11 +3971,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Poster_MedCamp_Bleeding.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Poster"
  },
  {
   "id": "IS_Intel_Poster_MedCamp_IntInjury",
-  "name": "Poster",
+  "name": "Poster (Poster_MedCamp_IntInjury)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A poster.",
@@ -3963,11 +3989,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Poster_MedCamp_IntInjury.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Poster"
  },
  {
   "id": "IS_Intel_Poster_MedCamp_Pills",
-  "name": "Poster",
+  "name": "Poster (Poster_MedCamp_Pills)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A poster.",
@@ -3980,7 +4007,8 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_Poster_MedCamp_Pills.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Poster"
  },
  {
   "id": "IS_Intel_NB_PrayerNotebook",
@@ -4624,7 +4652,7 @@
  },
  {
   "id": "IS_Intel_NOTE_CarReference",
-  "name": "Sticky Note",
+  "name": "Sticky Note (CarReference)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4637,11 +4665,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_CarReference.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_ConstructionSiteContainer",
-  "name": "Sticky Note",
+  "name": "Sticky Note (ConstructionSiteContainer)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4654,11 +4683,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_ConstructionSiteContainer.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_ContainerAccessCode",
-  "name": "Sticky Note",
+  "name": "Sticky Note (ContainerAccessCode)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4671,11 +4701,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_ContainerAccessCode.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_DepotBunkerCode",
-  "name": "Sticky Note",
+  "name": "Sticky Note (DepotBunkerCode)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4688,11 +4719,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_DepotBunkerCode.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_FortNarMilBaseStraussNote",
-  "name": "Sticky Note",
+  "name": "Sticky Note (FortNarMilBaseStraussNote)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4705,11 +4737,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_FortNarMilBaseStraussNote.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_FortNarStraussNote01",
-  "name": "Sticky Note",
+  "name": "Sticky Note (FortNarStraussNote01)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4722,11 +4755,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_FortNarStraussNote01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_FortNarStraussNote02",
-  "name": "Sticky Note",
+  "name": "Sticky Note (FortNarStraussNote02)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4739,11 +4773,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_FortNarStraussNote02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_FortNarStraussNote03",
-  "name": "Sticky Note",
+  "name": "Sticky Note (FortNarStraussNote03)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4756,11 +4791,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_FortNarStraussNote03.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_FortNarStraussNote04",
-  "name": "Sticky Note",
+  "name": "Sticky Note (FortNarStraussNote04)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4773,11 +4809,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_FortNarStraussNote04.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_FortNarithShootingOffice",
-  "name": "Sticky Note",
+  "name": "Sticky Note (FortNarithShootingOffice)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4790,11 +4827,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_FortNarithShootingOffice.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_HQArchive",
-  "name": "Sticky Note",
+  "name": "Sticky Note (HQArchive)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4807,11 +4845,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_HQArchive.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_HunParBunkerCode",
-  "name": "Sticky Note",
+  "name": "Sticky Note (HunParBunkerCode)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4824,11 +4863,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_HunParBunkerCode.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_IsolationWardCode",
-  "name": "Sticky Note",
+  "name": "Sticky Note (IsolationWardCode)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4841,11 +4881,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_IsolationWardCode.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_KhonwanVillageHouse",
-  "name": "Sticky Note",
+  "name": "Sticky Note (KhonwanVillageHouse)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4858,11 +4899,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_KhonwanVillageHouse.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_MorgueCode",
-  "name": "Sticky Note",
+  "name": "Sticky Note (MorgueCode)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4875,11 +4917,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_MorgueCode.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_PhaLangAirfieldStorage",
-  "name": "Sticky Note",
+  "name": "Sticky Note (PhaLangAirfieldStorage)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4892,11 +4935,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_PhaLangAirfieldStorage.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_PoppyFieldStorage",
-  "name": "Sticky Note",
+  "name": "Sticky Note (PoppyFieldStorage)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4909,11 +4953,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_PoppyFieldStorage.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_PrincipalNurseHouse",
-  "name": "Sticky Note",
+  "name": "Sticky Note (PrincipalNurseHouse)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4926,11 +4971,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_PrincipalNurseHouse.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_RadarBunkerCache",
-  "name": "Sticky Note",
+  "name": "Sticky Note (RadarBunkerCache)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4943,11 +4989,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_RadarBunkerCache.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_ResearchSiteArmoryCode",
-  "name": "Sticky Note",
+  "name": "Sticky Note (ResearchSiteArmoryCode)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4960,11 +5007,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_ResearchSiteArmoryCode.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_ResearchSiteMedicalStorageCode",
-  "name": "Sticky Note",
+  "name": "Sticky Note (ResearchSiteMedicalStorageCode)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4977,11 +5025,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_ResearchSiteMedicalStorageCode.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_ResortGolfClubStorage",
-  "name": "Sticky Note",
+  "name": "Sticky Note (ResortGolfClubStorage)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -4994,11 +5043,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_ResortGolfClubStorage.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNAnswer",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNAnswer)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5011,11 +5061,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNAnswer.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNBobika",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNBobika)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5028,11 +5079,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNBobika.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNDesireReminder",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNDesireReminder)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5045,11 +5097,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNDesireReminder.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNDontReadThis",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNDontReadThis)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5062,11 +5115,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNDontReadThis.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNForgetfulDoc",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNForgetfulDoc)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5079,11 +5133,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNForgetfulDoc.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNGoatlover",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNGoatlover)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5096,11 +5151,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNGoatlover.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNHermitsNote1",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNHermitsNote1)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5113,11 +5169,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNHermitsNote1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNHermitsNote2",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNHermitsNote2)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5130,11 +5187,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNHermitsNote2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNHermitsNote3",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNHermitsNote3)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5147,11 +5205,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNHermitsNote3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNHermitsNote4",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNHermitsNote4)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5164,11 +5223,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNHermitsNote4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNIFoundTheKey",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNIFoundTheKey)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5181,11 +5241,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNIFoundTheKey.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNKVIWasRight",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNKVIWasRight)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5199,11 +5260,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNKVIWasRight.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNNTIWasRight",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNNTIWasRight)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5217,11 +5279,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNNTIWasRight.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNNewCommander",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNNewCommander)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5234,11 +5297,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNNewCommander.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNPLIWasRight",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNPLIWasRight)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5252,11 +5316,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNPLIWasRight.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNPhiPaMum",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNPhiPaMum)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5269,11 +5334,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNPhiPaMum.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNRevelation",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNRevelation)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5286,11 +5352,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNRevelation.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNRosebud",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNRosebud)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5303,11 +5370,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNRosebud.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNRun",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNRun)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5320,11 +5388,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNRun.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNTheyKnow",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNTheyKnow)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5337,11 +5406,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNTheyKnow.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNTheyreOntoUs",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNTheyreOntoUs)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5354,11 +5424,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNTheyreOntoUs.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SNTrust",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SNTrust)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5371,11 +5442,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SNTrust.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_ScamOfficeServerRoom",
-  "name": "Sticky Note",
+  "name": "Sticky Note (ScamOfficeServerRoom)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5388,11 +5460,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_ScamOfficeServerRoom.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SecludedGuesthouseBasement",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SecludedGuesthouseBasement)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5405,11 +5478,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SecludedGuesthouseBasement.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_ServerRoomCode",
-  "name": "Sticky Note",
+  "name": "Sticky Note (ServerRoomCode)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5422,11 +5496,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_ServerRoomCode.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SmallTownRatsNestVillaSafeCode",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SmallTownRatsNestVillaSafeCode)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5439,11 +5514,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SmallTownRatsNestVillaSafeCode.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_SmallTownTownHallSafeCode",
-  "name": "Sticky Note",
+  "name": "Sticky Note (SmallTownTownHallSafeCode)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5456,11 +5532,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_SmallTownTownHallSafeCode.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_StockVulture2Clue2",
-  "name": "Sticky Note",
+  "name": "Sticky Note (StockVulture2Clue2)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5473,11 +5550,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_StockVulture2Clue2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_StripClubSafeCode",
-  "name": "Sticky Note",
+  "name": "Sticky Note (StripClubSafeCode)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5490,11 +5568,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_StripClubSafeCode.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_TigerBayBeachStorage",
-  "name": "Sticky Note",
+  "name": "Sticky Note (TigerBayBeachStorage)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5507,11 +5586,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_TigerBayBeachStorage.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_TigerBayCementFactory",
-  "name": "Sticky Note",
+  "name": "Sticky Note (TigerBayCementFactory)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5524,11 +5604,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_TigerBayCementFactory.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_TigerBayCityHallArchive",
-  "name": "Sticky Note",
+  "name": "Sticky Note (TigerBayCityHallArchive)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5541,11 +5622,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_TigerBayCityHallArchive.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_TigerBayClinic",
-  "name": "Sticky Note",
+  "name": "Sticky Note (TigerBayClinic)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5558,11 +5640,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_TigerBayClinic.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_WaterTowerUNDoor",
-  "name": "Sticky Note",
+  "name": "Sticky Note (WaterTowerUNDoor)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5575,11 +5658,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_WaterTowerUNDoor.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_YBL1GeneratorRoom",
-  "name": "Sticky Note",
+  "name": "Sticky Note (YBL1GeneratorRoom)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5592,11 +5676,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_YBL1GeneratorRoom.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_NOTE_YBL1Office1",
-  "name": "Sticky Note",
+  "name": "Sticky Note (YBL1Office1)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "A small paper note.",
@@ -5609,7 +5694,8 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NOTE_YBL1Office1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sticky Note"
  },
  {
   "id": "IS_Intel_PAP_SuicideNote",
@@ -5631,7 +5717,7 @@
  },
  {
   "id": "IS_Intel_FL_KiuVongsaSupplyRelocation",
-  "name": "Supply Relocation",
+  "name": "Supply Relocation (KiuVongsaSupplyRelocation)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An UNLRA file.",
@@ -5645,11 +5731,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_KiuVongsaSupplyRelocation.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Supply Relocation"
  },
  {
   "id": "IS_Intel_FL_NamThavenSupplyRelocation",
-  "name": "Supply Relocation",
+  "name": "Supply Relocation (NamThavenSupplyRelocation)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An UNLRA file.",
@@ -5663,11 +5750,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_NamThavenSupplyRelocation.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Supply Relocation"
  },
  {
   "id": "IS_Intel_FL_PhaLangSupplyRelocation",
-  "name": "Supply Relocation",
+  "name": "Supply Relocation (PhaLangSupplyRelocation)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An UNLRA file.",
@@ -5681,7 +5769,8 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_FL_PhaLangSupplyRelocation.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Supply Relocation"
  },
  {
   "id": "IS_Intel_FL_MallMilWareCode",
@@ -5736,7 +5825,7 @@
  },
  {
   "id": "IS_Intel_NB_KiuVongsaThugsDiary",
-  "name": "Thug's Diary",
+  "name": "Thug's Diary (KiuVongsaThugsDiary)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An A5 notebook.",
@@ -5750,11 +5839,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_KiuVongsaThugsDiary.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Thug's Diary"
  },
  {
   "id": "IS_Intel_NB_NamThavenThugsDiary",
-  "name": "Thug's Diary",
+  "name": "Thug's Diary (NamThavenThugsDiary)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An A5 notebook.",
@@ -5768,11 +5858,12 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_NamThavenThugsDiary.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Thug's Diary"
  },
  {
   "id": "IS_Intel_NB_PhaLangThugsDiary",
-  "name": "Thug's Diary",
+  "name": "Thug's Diary (PhaLangThugsDiary)",
   "short_name": "<HIDDEN>",
   "manufacturer": "General Local",
   "description": "An A5 notebook.",
@@ -5786,7 +5877,8 @@
   "base_price": 5.0,
   "tier": 1,
   "image": "https://gzw-data.dev/assets/items/intel/IS_Intel_NB_PhaLangThugsDiary.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Thug's Diary"
  },
  {
   "id": "IS_Intel_NB_VietnameseGoons",

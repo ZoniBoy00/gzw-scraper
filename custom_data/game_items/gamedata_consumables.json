@@ -2400,7 +2400,7 @@
  },
  {
   "id": "IS_Prov_Drink_ColaDrink2L",
-  "name": "Sunrise Cola",
+  "name": "Sunrise Cola (ColaDrink2L)",
   "short_name": "Cola",
   "manufacturer": "Sunrise",
   "description": "Cherish every sunrise in paradise with the bold taste of our premium cola.",
@@ -2436,11 +2436,12 @@
    "isIterativeConsumption": true
   },
   "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_ColaDrink2L.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sunrise Cola"
  },
  {
   "id": "IS_Prov_Drink_ThumsUpCola",
-  "name": "Sunrise Cola",
+  "name": "Sunrise Cola (ThumsUpCola)",
   "short_name": "Cola",
   "manufacturer": "Sunrise",
   "description": "Cherish every sunrise in paradise with the bold taste of our premium cola.",
@@ -2473,7 +2474,8 @@
    "usageSpeed": 5
   },
   "image": "https://gzw-data.dev/assets/items/consumables/IS_Prov_Drink_ThumsUpCola.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Sunrise Cola"
  },
  {
   "id": "IS_Kit_AdvancedEquipmentRepairKit",

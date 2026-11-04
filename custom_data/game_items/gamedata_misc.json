@@ -28,7 +28,7 @@
  },
  {
   "id": "IS_QuestItem_Handshake_76A",
-  "name": "<DEV> Criminal Notes",
+  "name": "<DEV> Criminal Notes (76A)",
   "short_name": "<DEV> CrimNotes",
   "description": "<DEV> Notes kept by criminals around the LRI base camp.",
   "type": "Resource.Tools",
@@ -41,11 +41,12 @@
   "base_price": 428.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Handshake_76A.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "<DEV> Criminal Notes"
  },
  {
   "id": "IS_QuestItem_Handshake_76B",
-  "name": "<DEV> Criminal Notes",
+  "name": "<DEV> Criminal Notes (76B)",
   "short_name": "<DEV> CrimNotes",
   "description": "<DEV> Notes kept by criminals around the MSS base camp.",
   "type": "Resource.Tools",
@@ -58,11 +59,12 @@
   "base_price": 428.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Handshake_76B.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "<DEV> Criminal Notes"
  },
  {
   "id": "IS_QuestItem_Handshake_76C",
-  "name": "<DEV> Criminal Notes",
+  "name": "<DEV> Criminal Notes (76C)",
   "short_name": "<DEV> CrimNotes",
   "description": "<DEV> Notes kept by criminals around the CSI base camp.",
   "type": "Resource.Tools",
@@ -75,7 +77,8 @@
   "base_price": 428.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Handshake_76C.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "<DEV> Criminal Notes"
  },
  {
   "id": "IS_Misc_AcetyleneBottle8L",
@@ -622,7 +625,7 @@
  },
  {
   "id": "IS_QuestItem_BioSamples_Epic_Labrat_08",
-  "name": "Biological Samples",
+  "name": "Biological Samples (BioSamples_Epic_Labrat_08)",
   "short_name": "Samples",
   "description": "Samples gathered from deceased patients \"treated\" by Dr. Khae.",
   "type": "Resource.Tools",
@@ -634,11 +637,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_BioSamples_Epic_Labrat_08.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Biological Samples"
  },
  {
   "id": "IS_QuestItem_BiologicalSamples_Labrat_Quest_39_Body1",
-  "name": "Biological Samples",
+  "name": "Biological Samples (BiologicalSamples_Labrat_Quest_39_Body1)",
   "short_name": "Samples",
   "description": "A vial with biological samples.",
   "type": "Resource.Tools",
@@ -650,11 +654,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_BiologicalSamples_Labrat_Quest_39_Body1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Biological Samples"
  },
  {
   "id": "IS_QuestItem_BiologicalSamples_Labrat_Quest_39_Body2",
-  "name": "Biological Samples",
+  "name": "Biological Samples (BiologicalSamples_Labrat_Quest_39_Body2)",
   "short_name": "Samples",
   "description": "A vial with biological samples.",
   "type": "Resource.Tools",
@@ -666,7 +671,8 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_BiologicalSamples_Labrat_Quest_39_Body2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Biological Samples"
  },
  {
   "id": "IS_Misc_BiometricAccessCard",
@@ -864,7 +870,7 @@
  },
  {
   "id": "IS_QuestItem_Banshee15",
-  "name": "Blue Lagoon Intel",
+  "name": "Blue Lagoon Intel (Banshee15)",
   "short_name": "Intel",
   "description": "Contains information about the past and current activites of the hostile group residing in the Blue Lagoon.",
   "type": "Resource.Tools",
@@ -877,11 +883,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Banshee15.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Blue Lagoon Intel"
  },
  {
   "id": "IS_QuestItem_LagoonGuestBook",
-  "name": "Blue Lagoon Intel",
+  "name": "Blue Lagoon Intel (LagoonGuestBook)",
   "short_name": "Intel",
   "description": "Contains information about the past and current activites of the hostile group residing in the Blue Lagoon.",
   "type": "Resource.Tools",
@@ -894,11 +901,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_LagoonGuestBook.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Blue Lagoon Intel"
  },
  {
   "id": "IS_QuestItem_LagoonIntel",
-  "name": "Blue Lagoon Intel",
+  "name": "Blue Lagoon Intel (LagoonIntel)",
   "short_name": "Intel",
   "description": "Contains information about the past and current activites of the hostile group residing in the Blue Lagoon.",
   "type": "Resource.Tools",
@@ -911,7 +919,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_LagoonIntel.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Blue Lagoon Intel"
  },
  {
   "id": "IS_QuestItem_SuppliesFood",
@@ -966,7 +975,7 @@
  },
  {
   "id": "IS_QuestItem_SuppliesForPoor",
-  "name": "Box of Supplies",
+  "name": "Box of Supplies (SuppliesForPoor)",
   "short_name": "Supplies",
   "description": "A box full of various items intended to bring relief to the locals.",
   "type": "Resource.Tools",
@@ -979,11 +988,12 @@
   "base_price": 50.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuppliesForPoor.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Box of Supplies"
  },
  {
   "id": "IS_QuestItem_SuppliesFromPoor",
-  "name": "Box of Supplies",
+  "name": "Box of Supplies (SuppliesFromPoor)",
   "short_name": "Supplies",
   "description": "A box full of various items intended to bring relief to the locals.",
   "type": "Resource.Tools",
@@ -996,11 +1006,12 @@
   "base_price": 50.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuppliesFromPoor.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Box of Supplies"
  },
  {
   "id": "IS_QuestItem_SuppliesMedical",
-  "name": "Box of Supplies",
+  "name": "Box of Supplies (SuppliesMedical)",
   "short_name": "Supplies",
   "description": "A box full of various items intended to bring relief to the locals.",
   "type": "Resource.Tools",
@@ -1013,7 +1024,8 @@
   "base_price": 50.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuppliesMedical.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Box of Supplies"
  },
  {
   "id": "IS_QuestItem_HDD_Epic_Labrat_09",
@@ -1130,7 +1142,7 @@
  },
  {
   "id": "IS_QuestItem_Briefcase",
-  "name": "Briefcase",
+  "name": "Briefcase (QuestItem_Briefcase)",
   "description": "A briefcase presumably full of money. Great for making new friends.",
   "type": "Resource.Tools",
   "tags": [
@@ -1142,11 +1154,12 @@
   "base_price": 500.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_Stock_Artisan_01",
-  "name": "Briefcase",
+  "name": "Briefcase (QuestItem_Briefcase_Stock_Artisan_01)",
   "description": "A briefcase presumably full of money. Great for making new friends.",
   "type": "Resource.Tools",
   "tags": [
@@ -1158,11 +1171,12 @@
   "base_price": 500.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_Stock_Artisan_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_Stock_Artisan_02_1",
-  "name": "Briefcase",
+  "name": "Briefcase (QuestItem_Briefcase_Stock_Artisan_02_1)",
   "description": "A briefcase presumably full of money. Great for making new friends.",
   "type": "Resource.Tools",
   "tags": [
@@ -1174,11 +1188,12 @@
   "base_price": 500.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_Stock_Artisan_02_1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_Stock_Artisan_02_2",
-  "name": "Briefcase",
+  "name": "Briefcase (QuestItem_Briefcase_Stock_Artisan_02_2)",
   "description": "A briefcase presumably full of money. Great for making new friends.",
   "type": "Resource.Tools",
   "tags": [
@@ -1190,11 +1205,12 @@
   "base_price": 500.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_Stock_Artisan_02_2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_Stock_Banshee_01",
-  "name": "Briefcase",
+  "name": "Briefcase (QuestItem_Briefcase_Stock_Banshee_01)",
   "description": "A briefcase presumably full of money. Great for making new friends.",
   "type": "Resource.Tools",
   "tags": [
@@ -1206,11 +1222,12 @@
   "base_price": 500.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_Stock_Banshee_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_Stock_Gunny_01",
-  "name": "Briefcase",
+  "name": "Briefcase (QuestItem_Briefcase_Stock_Gunny_01)",
   "description": "A briefcase presumably full of money. Great for making new friends.",
   "type": "Resource.Tools",
   "tags": [
@@ -1222,11 +1239,12 @@
   "base_price": 500.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_Stock_Gunny_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_Stock_Vulture_01",
-  "name": "Briefcase",
+  "name": "Briefcase (QuestItem_Briefcase_Stock_Vulture_01)",
   "description": "A briefcase presumably full of money. Great for making new friends.",
   "type": "Resource.Tools",
   "tags": [
@@ -1238,11 +1256,12 @@
   "base_price": 500.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_Stock_Vulture_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_Stock_Vulture_02",
-  "name": "Briefcase",
+  "name": "Briefcase (QuestItem_Briefcase_Stock_Vulture_02)",
   "description": "A briefcase presumably full of money. Great for making new friends.",
   "type": "Resource.Tools",
   "tags": [
@@ -1254,11 +1273,12 @@
   "base_price": 500.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_Stock_Vulture_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Briefcase"
  },
  {
   "id": "IS_RTTItem_Suitcase_Task_Handshake_01_01",
-  "name": "Briefcase",
+  "name": "Briefcase (RTTItem_Suitcase_Task_Handshake_01_01)",
   "description": "A briefcase with highly valuable and extremely fragile content. Don't shake it too much.",
   "type": "Resource.Tools",
   "tags": [
@@ -1270,11 +1290,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_Suitcase_Task_Handshake_01_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Briefcase"
  },
  {
   "id": "IS_RTTItem_Suitcase_Task_Handshake_17_01",
-  "name": "Briefcase",
+  "name": "Briefcase (RTTItem_Suitcase_Task_Handshake_17_01)",
   "description": "A briefcase with highly valuable and extremely fragile content. Don't shake it too much.",
   "type": "Resource.Tools",
   "tags": [
@@ -1286,7 +1307,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_Suitcase_Task_Handshake_17_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Briefcase"
  },
  {
   "id": "IS_Misc_Grinder_01a",
@@ -1958,7 +1980,7 @@
  },
  {
   "id": "IS_QuestItem_GoatFolder2",
-  "name": "Compromising Materials",
+  "name": "Compromising Materials (2)",
   "short_name": "Folder",
   "description": "A folder full of compromising materials, including heinous acts involving both people and animals.",
   "type": "Resource.Tools",
@@ -1971,7 +1993,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_GoatFolder2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Compromising Materials"
  },
  {
   "id": "IS_QuestItem_CriminalNotes",
@@ -2703,7 +2726,7 @@
  },
  {
   "id": "IS_QuestItem_FriendLetter_A23A",
-  "name": "Encrypted Letter",
+  "name": "Encrypted Letter (A)",
   "short_name": "Letter",
   "description": "An encrypted letter with unknown contents.",
   "type": "Resource.Tools",
@@ -2716,7 +2739,8 @@
   "base_price": 428.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_FriendLetter_A23A.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Encrypted Letter"
  },
  {
   "id": "IS_Misc_ExtractedEncryptionKeysDrive",
@@ -2758,7 +2782,7 @@
  },
  {
   "id": "IS_RTTItem_Note_Task_Handshake_14_02",
-  "name": "Eugene L. Fleming File",
+  "name": "Eugene L. Fleming File (Note_Task_Handshake_14_02)",
   "short_name": "File",
   "description": "File describing the suspicious actions of an individual named Eugene L. Fleming.",
   "type": "Resource.Tools",
@@ -2771,11 +2795,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_Note_Task_Handshake_14_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Eugene L. Fleming File"
  },
  {
   "id": "IS_RTTItem_OfficialDoc_Task_Handshake_17_01",
-  "name": "Eugene L. Fleming File",
+  "name": "Eugene L. Fleming File (OfficialDoc_Task_Handshake_17_01)",
   "short_name": "File",
   "description": "File describing the suspicious actions of an individual named Eugene L. Fleming.",
   "type": "Resource.Tools",
@@ -2788,7 +2813,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_OfficialDoc_Task_Handshake_17_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Eugene L. Fleming File"
  },
  {
   "id": "IS_QuestItem_WrittenOrders",
@@ -2936,7 +2962,7 @@
  },
  {
   "id": "IS_RTTItem_Prototype_Task_Gunny_01_01",
-  "name": "First Prototype Part Crate",
+  "name": "First Prototype Part Crate (01)",
   "short_name": "Proto 1",
   "description": "A crate containing the military prototype used to study GZ.",
   "type": "Resource.Tools",
@@ -2949,11 +2975,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_Prototype_Task_Gunny_01_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "First Prototype Part Crate"
  },
  {
   "id": "IS_RTTItem_Prototype_Task_Gunny_01_02",
-  "name": "First Prototype Part Crate",
+  "name": "First Prototype Part Crate (02)",
   "short_name": "Proto 1",
   "description": "A crate containing the military prototype used to study GZ.",
   "type": "Resource.Tools",
@@ -2966,7 +2993,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_Prototype_Task_Gunny_01_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "First Prototype Part Crate"
  },
  {
   "id": "IS_RTTItem_WepBox_Task_Gunny_04_01",
@@ -2987,7 +3015,7 @@
  },
  {
   "id": "IS_RTTItem_SuppBox_Task_Gunny_05_01",
-  "name": "First Supply Box",
+  "name": "First Supply Box (05_01)",
   "short_name": "Box 1",
   "description": "A box full of older but still useful weaponry.",
   "type": "Resource.Tools",
@@ -3000,11 +3028,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_SuppBox_Task_Gunny_05_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "First Supply Box"
  },
  {
   "id": "IS_RTTItem_SuppBox_Task_Gunny_06_01",
-  "name": "First Supply Box",
+  "name": "First Supply Box (06_01)",
   "short_name": "Box 1",
   "description": "A supply box full of older military equipment. The stamps indicate that the sender was someone from Vietnam.",
   "type": "Resource.Tools",
@@ -3017,7 +3046,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_SuppBox_Task_Gunny_06_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "First Supply Box"
  },
  {
   "id": "IS_RTTItem_SupplyBox_Task_Handshake_10_01",
@@ -3710,7 +3740,7 @@
  },
  {
   "id": "IS_QuestItem_FlashDrive_Stock_Turncoat_02_1",
-  "name": "Ground Zero Data Storage",
+  "name": "Ground Zero Data Storage (1)",
   "short_name": "GZDS",
   "description": "A flash drive containing valuable data from Ground Zero.",
   "type": "Resource.Tools",
@@ -3723,11 +3753,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_FlashDrive_Stock_Turncoat_02_1.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Ground Zero Data Storage"
  },
  {
   "id": "IS_QuestItem_FlashDrive_Stock_Turncoat_02_2",
-  "name": "Ground Zero Data Storage",
+  "name": "Ground Zero Data Storage (2)",
   "short_name": "GZDS",
   "description": "A flash drive containing valuable data from Ground Zero.",
   "type": "Resource.Tools",
@@ -3740,11 +3771,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_FlashDrive_Stock_Turncoat_02_2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Ground Zero Data Storage"
  },
  {
   "id": "IS_QuestItem_FlashDrive_Stock_Turncoat_02_3",
-  "name": "Ground Zero Data Storage",
+  "name": "Ground Zero Data Storage (3)",
   "short_name": "GZDS",
   "description": "A flash drive containing valuable data from Ground Zero.",
   "type": "Resource.Tools",
@@ -3757,11 +3789,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_FlashDrive_Stock_Turncoat_02_3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Ground Zero Data Storage"
  },
  {
   "id": "IS_QuestItem_FlashDrive_Stock_Turncoat_02_4",
-  "name": "Ground Zero Data Storage",
+  "name": "Ground Zero Data Storage (4)",
   "short_name": "GZDS",
   "description": "A flash drive containing valuable data from Ground Zero.",
   "type": "Resource.Tools",
@@ -3774,7 +3807,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_FlashDrive_Stock_Turncoat_02_4.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Ground Zero Data Storage"
  },
  {
   "id": "IS_QuestItem_ShootingGuestsList",
@@ -3886,7 +3920,7 @@
  },
  {
   "id": "IS_QuestItem_FlashDrive_Stock_Gunny_02",
-  "name": "Hardware Key",
+  "name": "Hardware Key (QuestItem_FlashDrive_Stock_Gunny_02)",
   "short_name": "HD Key",
   "description": "A hardware authentication key required to unlock a secured laptop.",
   "type": "Resource.Tools",
@@ -3899,11 +3933,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_FlashDrive_Stock_Gunny_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Hardware Key"
  },
  {
   "id": "IS_RTTItem_Codes_Task_Handshake_02_01",
-  "name": "Hardware Key",
+  "name": "Hardware Key (RTTItem_Codes_Task_Handshake_02_01)",
   "short_name": "HW Key",
   "description": "The hardware key of a high-ranking LAF representative. It'll give you access to his laptop.",
   "type": "Resource.Tools",
@@ -3916,7 +3951,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_Codes_Task_Handshake_02_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Hardware Key"
  },
  {
   "id": "IS_Misc_PerfumeBottleOutlandish",
@@ -4216,7 +4252,7 @@
  },
  {
   "id": "IS_QuestItem_CriminalDeal",
-  "name": "Intelligence Folder",
+  "name": "Intelligence Folder (CriminalDeal)",
   "short_name": "Intel",
   "description": "A folder containing info about some sort of arms deal between the local criminal elements and the LAF.",
   "type": "Resource.Tools",
@@ -4229,11 +4265,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_CriminalDeal.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Intelligence Folder"
  },
  {
   "id": "IS_QuestItem_IntelFolder",
-  "name": "Intelligence Folder",
+  "name": "Intelligence Folder (IntelFolder)",
   "short_name": "Intel",
   "description": "A folder containing info about some sort of arms deal between the local criminal elements and the LAF.",
   "type": "Resource.Tools",
@@ -4246,7 +4283,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_IntelFolder.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Intelligence Folder"
  },
  {
   "id": "IS_QuestItem_StraussFolder",
@@ -4267,7 +4305,7 @@
  },
  {
   "id": "IS_QuestItem_StraussTranscript",
-  "name": "Interrogation Transcript",
+  "name": "Interrogation Transcript (QuestItem_StraussTranscript)",
   "short_name": "Transcript",
   "description": "Details the little bits of information that were extracted from the stubborn prisoner. Apparently, he belongs to a PMC operating from within Ground Zero.",
   "type": "Resource.Tools",
@@ -4280,11 +4318,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_StraussTranscript.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Interrogation Transcript"
  },
  {
   "id": "IS_RTTItem_Note_Task_Handshake_11_01",
-  "name": "Interrogation Transcript",
+  "name": "Interrogation Transcript (RTTItem_Note_Task_Handshake_11_01)",
   "short_name": "Transcript",
   "description": "A transcript of the interrogation of an LAF soldier. The hostiles at the sawmill were trying to identify weak points in Fort Narith's defenses.",
   "type": "Resource.Tools",
@@ -4297,7 +4336,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_Note_Task_Handshake_11_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Interrogation Transcript"
  },
  {
   "id": "IS_QuestItem_InterrogationTranscript",
@@ -4551,7 +4591,7 @@
  },
  {
   "id": "IS_QuestItem_LAFHardwareKey",
-  "name": "LAF Hardware Key",
+  "name": "LAF Hardware Key (QuestItem_LAFHardwareKey)",
   "short_name": "HD Key",
   "description": "An LAF hardware key for accessing top-secret files.",
   "type": "Resource.Tools",
@@ -4564,11 +4604,12 @@
   "base_price": 100.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_LAFHardwareKey.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "LAF Hardware Key"
  },
  {
   "id": "IS_RTTItem_HDD_Task_Handshake_12_01",
-  "name": "LAF Hardware Key",
+  "name": "LAF Hardware Key (RTTItem_HDD_Task_Handshake_12_01)",
   "short_name": "HW Key",
   "description": "An LAF hardware key for accessing sensitive data.",
   "type": "Resource.Tools",
@@ -4581,7 +4622,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_HDD_Task_Handshake_12_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "LAF Hardware Key"
  },
  {
   "id": "IS_QuestItem_Briefcase_CT_Handshake_29",
@@ -4602,7 +4644,7 @@
  },
  {
   "id": "IS_QuestItem_Briefcase_CT_Handshake_29_2",
-  "name": "LAF Intel Briefcase",
+  "name": "LAF Intel Briefcase (2)",
   "short_name": "Briefcase",
   "description": "A briefcase containing intel about the LAF.",
   "type": "Resource.Tools",
@@ -4615,7 +4657,8 @@
   "base_price": 500.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_CT_Handshake_29_2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "LAF Intel Briefcase"
  },
  {
   "id": "IS_QuestItem_InfirmaryMedicalRecords",
@@ -4636,7 +4679,7 @@
  },
  {
   "id": "IS_QuestItem_ListofNames2",
-  "name": "LAF Orders",
+  "name": "LAF Orders (ListofNames2)",
   "short_name": "Orders",
   "description": "These orders specify how to approach the UNLRA activities regarding the transfers of individuals from the Tiger Bay refugee camp back into the hands of the LAF.",
   "type": "Resource.Tools",
@@ -4649,11 +4692,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_ListofNames2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "LAF Orders"
  },
  {
   "id": "IS_QuestItem_UNLRA2",
-  "name": "LAF Orders",
+  "name": "LAF Orders (UNLRA2)",
   "short_name": "Orders",
   "description": "Orders given to LAF about their cooperation with the UNLRA.",
   "type": "Resource.Tools",
@@ -4666,7 +4710,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_UNLRA2.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "LAF Orders"
  },
  {
   "id": "IS_RTTItem_Suitcase_Task_Handshake_08_01",
@@ -4784,7 +4829,7 @@
  },
  {
   "id": "IS_Misc_SimpleLaptopIntel",
-  "name": "Laptop",
+  "name": "Laptop (Misc_SimpleLaptopIntel)",
   "manufacturer": "General West",
   "description": "A portable computer that is easy to carry around.",
   "type": "Misc.Evidence",
@@ -4821,11 +4866,12 @@
    }
   ],
   "image": "https://gzw-data.dev/assets/items/misc/IS_Misc_SimpleLaptopIntel.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Laptop"
  },
  {
   "id": "IS_QuestItem_Laptop",
-  "name": "Laptop",
+  "name": "Laptop (QuestItem_Laptop)",
   "description": "A laptop which contains crucial information.",
   "type": "Resource.Tools",
   "tags": [
@@ -4837,7 +4883,8 @@
   "base_price": 300.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Laptop.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Laptop"
  },
  {
   "id": "IS_Misc_Lighter",
@@ -5349,7 +5396,7 @@
  },
  {
   "id": "IS_QuestItem_ArtifactCase01",
-  "name": "Metal Container",
+  "name": "Metal Container (ArtifactCase01)",
   "short_name": "Container",
   "description": "A strange metal container of unknown origin. It's slightly warm to the touch.",
   "type": "Resource.Tools",
@@ -5361,11 +5408,12 @@
   "grid_size": "3x3",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_ArtifactCase01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Metal Container"
  },
  {
   "id": "IS_QuestItem_ArtifactCaseMall",
-  "name": "Metal Container",
+  "name": "Metal Container (ArtifactCaseMall)",
   "short_name": "Container",
   "description": "A strange metal container of unknown origin. It's slightly warm to the touch.",
   "type": "Resource.Tools",
@@ -5377,11 +5425,12 @@
   "grid_size": "3x3",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_ArtifactCaseMall.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Metal Container"
  },
  {
   "id": "IS_QuestItem_ArtifactCaseMilBase",
-  "name": "Metal Container",
+  "name": "Metal Container (ArtifactCaseMilBase)",
   "short_name": "Container",
   "description": "A strange metal container of unknown origin. It's slightly warm to the touch.",
   "type": "Resource.Tools",
@@ -5393,11 +5442,12 @@
   "grid_size": "3x3",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_ArtifactCaseMilBase.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Metal Container"
  },
  {
   "id": "IS_QuestItem_ArtifactCaseResort",
-  "name": "Metal Container",
+  "name": "Metal Container (ArtifactCaseResort)",
   "short_name": "Container",
   "description": "A strange metal container of unknown origin. It's slightly warm to the touch.",
   "type": "Resource.Tools",
@@ -5409,11 +5459,12 @@
   "grid_size": "3x3",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_ArtifactCaseResort.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Metal Container"
  },
  {
   "id": "IS_QuestItem_ArtifactCase_Airport",
-  "name": "Metal Container",
+  "name": "Metal Container (ArtifactCase_Airport)",
   "short_name": "Container",
   "description": "A strange metal container of unknown origin. It's slightly warm to the touch.",
   "type": "Resource.Tools",
@@ -5425,11 +5476,12 @@
   "grid_size": "3x3",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_ArtifactCase_Airport.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Metal Container"
  },
  {
   "id": "IS_QuestItem_ArtifactCase_Bunker",
-  "name": "Metal Container",
+  "name": "Metal Container (ArtifactCase_Bunker)",
   "short_name": "Container",
   "description": "A strange metal container of unknown origin. It's slightly warm to the touch.",
   "type": "Resource.Tools",
@@ -5441,11 +5493,12 @@
   "grid_size": "3x3",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_ArtifactCase_Bunker.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Metal Container"
  },
  {
   "id": "IS_QuestItem_ArtifactCase_Epic_Labrat_09",
-  "name": "Metal Container",
+  "name": "Metal Container (ArtifactCase_Epic_Labrat_09)",
   "short_name": "Container",
   "description": "A strange metal container of unknown origin, apparently containing exotic material. It's slightly warm to the touch.",
   "type": "Resource.Tools",
@@ -5457,11 +5510,12 @@
   "grid_size": "3x3",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_ArtifactCase_Epic_Labrat_09.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Metal Container"
  },
  {
   "id": "IS_QuestItem_ArtifactCase_Fishing",
-  "name": "Metal Container",
+  "name": "Metal Container (ArtifactCase_Fishing)",
   "short_name": "Container",
   "description": "A strange metal container of unknown origin. It's slightly warm to the touch.",
   "type": "Resource.Tools",
@@ -5473,11 +5527,12 @@
   "grid_size": "3x3",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_ArtifactCase_Fishing.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Metal Container"
  },
  {
   "id": "IS_QuestItem_ArtifactCase_Lagoon",
-  "name": "Metal Container",
+  "name": "Metal Container (ArtifactCase_Lagoon)",
   "short_name": "Container",
   "description": "A strange metal container of unknown origin. It's slightly warm to the touch.",
   "type": "Resource.Tools",
@@ -5489,11 +5544,12 @@
   "grid_size": "3x3",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_ArtifactCase_Lagoon.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Metal Container"
  },
  {
   "id": "IS_QuestItem_ArtifactCase_Range",
-  "name": "Metal Container",
+  "name": "Metal Container (ArtifactCase_Range)",
   "short_name": "Container",
   "description": "A strange metal container of unknown origin. It's slightly warm to the touch.",
   "type": "Resource.Tools",
@@ -5505,11 +5561,12 @@
   "grid_size": "3x3",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_ArtifactCase_Range.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Metal Container"
  },
  {
   "id": "IS_QuestItem_ArtifactCase_Sawmill",
-  "name": "Metal Container",
+  "name": "Metal Container (ArtifactCase_Sawmill)",
   "short_name": "Container",
   "description": "A strange metal container of unknown origin. It's slightly warm to the touch.",
   "type": "Resource.Tools",
@@ -5521,11 +5578,12 @@
   "grid_size": "3x3",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_ArtifactCase_Sawmill.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Metal Container"
  },
  {
   "id": "IS_QuestItem_SDCard_Epic_Handshake_Quest_3",
-  "name": "Micro SD Autocracker",
+  "name": "Micro SD Autocracker (QuestItem_SDCard_Epic_Handshake_Quest_3)",
   "short_name": "SD",
   "description": "A handy hacking gadget.",
   "type": "Resource.Tools",
@@ -5537,11 +5595,12 @@
   "grid_size": "1x1",
   "base_price": 1.0,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SDCard_Epic_Handshake_Quest_3.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Micro SD Autocracker"
  },
  {
   "id": "IS_RTTItem_MicroSD_Task_Handshake_05_02",
-  "name": "Micro SD Autocracker",
+  "name": "Micro SD Autocracker (RTTItem_MicroSD_Task_Handshake_05_02)",
   "short_name": "SD",
   "description": "A handy hacking gadget.",
   "type": "Resource.Tools",
@@ -5554,11 +5613,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_MicroSD_Task_Handshake_05_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Micro SD Autocracker"
  },
  {
   "id": "IS_RTTItem_MicroSD_Task_Handshake_16_01",
-  "name": "Micro SD Autocracker",
+  "name": "Micro SD Autocracker (RTTItem_MicroSD_Task_Handshake_16_01)",
   "short_name": "SD",
   "description": "A handy hacking gadget.",
   "type": "Resource.Tools",
@@ -5571,7 +5631,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_MicroSD_Task_Handshake_16_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Micro SD Autocracker"
  },
  {
   "id": "IS_RTTItem_MicroSD_Task_Handshake_09_01",
@@ -5609,7 +5670,7 @@
  },
  {
   "id": "IS_QuestItem_Handshake36",
-  "name": "Military Intel",
+  "name": "Military Intel (Handshake36)",
   "short_name": "Intel",
   "description": "Official documents from Fort Narith.",
   "type": "Resource.Tools",
@@ -5622,11 +5683,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Handshake36.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Military Intel"
  },
  {
   "id": "IS_QuestItem_RealMilitaryIntel",
-  "name": "Military Intel",
+  "name": "Military Intel (RealMilitaryIntel)",
   "short_name": "Intel",
   "description": "Official documents from Fort Narith.",
   "type": "Resource.Tools",
@@ -5639,11 +5701,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_RealMilitaryIntel.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Military Intel"
  },
  {
   "id": "IS_QuestItem_Turncoat6",
-  "name": "Military Intel",
+  "name": "Military Intel (Turncoat6)",
   "short_name": "Intel",
   "description": "Official documents from Fort Narith.",
   "type": "Resource.Tools",
@@ -5656,7 +5719,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Turncoat6.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Military Intel"
  },
  {
   "id": "IS_QuestItem_PatrolSchedule",
@@ -6784,7 +6848,7 @@
  },
  {
   "id": "IS_QuestItem_PrisonerFolder",
-  "name": "Prisoner Info Folder",
+  "name": "Prisoner Info Folder (PrisonerFolder)",
   "short_name": "Folder",
   "description": "This folder contains information about prisoner 23. He was processed here and transported to an unknown location.",
   "type": "Resource.Tools",
@@ -6797,11 +6861,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_PrisonerFolder.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Prisoner Info Folder"
  },
  {
   "id": "IS_QuestItem_TransferOrders23",
-  "name": "Prisoner Info Folder",
+  "name": "Prisoner Info Folder (TransferOrders23)",
   "short_name": "Folder",
   "description": "This folder contains information about prisoner 23. He was processed here and transported to an unknown location.",
   "type": "Resource.Tools",
@@ -6814,7 +6879,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_TransferOrders23.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Prisoner Info Folder"
  },
  {
   "id": "IS_RTTItem_Documents_Task_Handshake_13_03",
@@ -7680,7 +7746,7 @@
  },
  {
   "id": "IS_RTTItem_SuppBox_Task_Gunny_05_02",
-  "name": "Second Supply Box",
+  "name": "Second Supply Box (05_02)",
   "short_name": "Box 2",
   "description": "A box full of older but still useful weaponry.",
   "type": "Resource.Tools",
@@ -7693,11 +7759,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_SuppBox_Task_Gunny_05_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Second Supply Box"
  },
  {
   "id": "IS_RTTItem_SuppBox_Task_Gunny_06_02",
-  "name": "Second Supply Box",
+  "name": "Second Supply Box (06_02)",
   "short_name": "Box 2",
   "description": "A supply box full of older military equipment. The stamps indicate that the sender was someone from Vietnam.",
   "type": "Resource.Tools",
@@ -7710,7 +7777,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_SuppBox_Task_Gunny_06_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Second Supply Box"
  },
  {
   "id": "IS_RTTItem_SupplyBox_Task_Handshake_10_02",
@@ -8104,7 +8172,7 @@
  },
  {
   "id": "IS_QuestItem_Supplies_CT_Artisan_02",
-  "name": "Supplies",
+  "name": "Supplies (IS_QuestItem_Supplies_CT_Artisan_02)",
   "manufacturer": "General Local",
   "description": "A box with various supplies.",
   "type": "Resource.Tools",
@@ -8117,11 +8185,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Supplies_CT_Artisan_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Supplies"
  },
  {
   "id": "QuestItem_Supplies_Quest_CT_Gunny_02_01",
-  "name": "Supplies",
+  "name": "Supplies (QuestItem_Supplies_Quest_CT_Gunny_02_01)",
   "manufacturer": "General Local",
   "description": "A box with various supplies.",
   "type": "Resource.Tools",
@@ -8134,11 +8203,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/QuestItem_Supplies_Quest_CT_Gunny_02_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Supplies"
  },
  {
   "id": "QuestItem_Supplies_Quest_CT_Gunny_02_02",
-  "name": "Supplies",
+  "name": "Supplies (QuestItem_Supplies_Quest_CT_Gunny_02_02)",
   "manufacturer": "General Local",
   "description": "A box with various supplies.",
   "type": "Resource.Tools",
@@ -8151,11 +8221,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/QuestItem_Supplies_Quest_CT_Gunny_02_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Supplies"
  },
  {
   "id": "QuestItem_Supplies_Quest_CT_Gunny_02_03",
-  "name": "Supplies",
+  "name": "Supplies (QuestItem_Supplies_Quest_CT_Gunny_02_03)",
   "manufacturer": "General Local",
   "description": "A box with various supplies.",
   "type": "Resource.Tools",
@@ -8168,7 +8239,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/QuestItem_Supplies_Quest_CT_Gunny_02_03.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Supplies"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox",
@@ -8189,7 +8261,7 @@
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_Banshee11",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (Banshee11)",
   "short_name": "Box",
   "description": "Is it full of drugs? It's probably full of drugs, isn't it? Of course it's full of drugs...",
   "type": "Resource.Tools",
@@ -8202,11 +8274,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_Banshee11.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_Banshee_Quest_21",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (Banshee_Quest_21)",
   "short_name": "Box",
   "description": "Is it full of drugs? It's probably full of drugs, isn't it? Of course it's full of drugs...",
   "type": "Resource.Tools",
@@ -8219,11 +8292,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_Banshee_Quest_21.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_01",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_01)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8236,11 +8310,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_02",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_02)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8253,11 +8328,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_03",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_03)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8270,11 +8346,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_03.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_04",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_04)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8287,11 +8364,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_04.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_05",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_05)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8304,11 +8382,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_05.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_06",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_06)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8321,11 +8400,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_06.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_07",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_07)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8338,11 +8418,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_07.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_08",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_08)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8355,11 +8436,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_08.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_09",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_09)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8372,11 +8454,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_09.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_10",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_10)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8389,11 +8472,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_10.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_11",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_11)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8406,11 +8490,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_11.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_12",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_12)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8423,11 +8508,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_12.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_13",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_13)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8440,11 +8526,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_13.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_14",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_14)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8457,11 +8544,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_14.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_CT_Vulture_15",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (CT_Vulture_15)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8474,11 +8562,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_CT_Vulture_15.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_Handshake_70",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (Handshake_70)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8491,11 +8580,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_Handshake_70.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_QuestItem_SuspitiousBox_Handshake_75",
-  "name": "Suspicious Box",
+  "name": "Suspicious Box (Handshake_75)",
   "short_name": "Box",
   "description": "A sealed box with unknown contents.",
   "type": "Resource.Tools",
@@ -8508,7 +8598,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_SuspitiousBox_Handshake_75.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Suspicious Box"
  },
  {
   "id": "IS_Misc_Cigarretes",
@@ -8621,7 +8712,7 @@
  },
  {
   "id": "IS_RTTItem_SuppBox_Task_Gunny_05_03",
-  "name": "Third Supply Box",
+  "name": "Third Supply Box (05_03)",
   "short_name": "Box 3",
   "description": "A box full of older but still useful weaponry.",
   "type": "Resource.Tools",
@@ -8634,11 +8725,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_SuppBox_Task_Gunny_05_03.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Third Supply Box"
  },
  {
   "id": "IS_RTTItem_SuppBox_Task_Gunny_06_03",
-  "name": "Third Supply Box",
+  "name": "Third Supply Box (06_03)",
   "short_name": "Box 3",
   "description": "A supply box full of older military equipment. The stamps indicate that the sender was someone from Vietnam.",
   "type": "Resource.Tools",
@@ -8651,7 +8743,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_SuppBox_Task_Gunny_06_03.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Third Supply Box"
  },
  {
   "id": "IS_RTTItem_SupplyBox_Task_Handshake_10_03",
@@ -9238,7 +9331,7 @@
  },
  {
   "id": "IS_QuestItem_FlashDrive_Quest_CT_Handshake_01",
-  "name": "USB Drive",
+  "name": "USB Drive (01)",
   "short_name": "USB",
   "manufacturer": "General Local",
   "description": "A secured USB drive full of valuable data.",
@@ -9252,11 +9345,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_FlashDrive_Quest_CT_Handshake_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "USB Drive"
  },
  {
   "id": "IS_QuestItem_FlashDrive_Quest_CT_Handshake_02",
-  "name": "USB Drive",
+  "name": "USB Drive (02)",
   "short_name": "USB",
   "manufacturer": "General Local",
   "description": "A secured USB drive full of valuable data.",
@@ -9270,11 +9364,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_FlashDrive_Quest_CT_Handshake_02.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "USB Drive"
  },
  {
   "id": "IS_QuestItem_FlashDrive_Quest_CT_Handshake_04",
-  "name": "USB Drive",
+  "name": "USB Drive (04)",
   "short_name": "USB",
   "manufacturer": "General Local",
   "description": "A secured USB drive full of valuable data.",
@@ -9288,11 +9383,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_FlashDrive_Quest_CT_Handshake_04.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "USB Drive"
  },
  {
   "id": "IS_RTTItem_HackToolUSB_Task_Handshake_05_01",
-  "name": "USB Drive Autocracker",
+  "name": "USB Drive Autocracker (05_01)",
   "short_name": "USB",
   "description": "A handy hacking gadget.",
   "type": "Resource.Tools",
@@ -9305,11 +9401,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_HackToolUSB_Task_Handshake_05_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "USB Drive Autocracker"
  },
  {
   "id": "IS_RTTItem_HackToolUSB_Task_Handshake_12_01",
-  "name": "USB Drive Autocracker",
+  "name": "USB Drive Autocracker (12_01)",
   "short_name": "USB",
   "description": "A handy hacking gadget.",
   "type": "Resource.Tools",
@@ -9322,11 +9419,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_HackToolUSB_Task_Handshake_12_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "USB Drive Autocracker"
  },
  {
   "id": "IS_RTTItem_HackToolUSB_Task_Handshake_16_01",
-  "name": "USB Drive Autocracker",
+  "name": "USB Drive Autocracker (16_01)",
   "short_name": "USB",
   "description": "A handy hacking gadget.",
   "type": "Resource.Tools",
@@ -9339,11 +9437,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_HackToolUSB_Task_Handshake_16_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "USB Drive Autocracker"
  },
  {
   "id": "IS_RTTItem_HackToolUSB_Task_Handshake_18_01",
-  "name": "USB Drive Autocracker",
+  "name": "USB Drive Autocracker (18_01)",
   "short_name": "USB",
   "description": "A handy hacking gadget.",
   "type": "Resource.Tools",
@@ -9356,7 +9455,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_RTTItem_HackToolUSB_Task_Handshake_18_01.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "USB Drive Autocracker"
  },
  {
   "id": "IS_RTTItem_HackToolUSB_Task_Handshake_09_01",
@@ -9421,7 +9521,7 @@
  },
  {
   "id": "IS_QuestItem_Briefcase_CT_Turncoat_06",
-  "name": "Valuable Briefcase",
+  "name": "Valuable Briefcase (06)",
   "short_name": "Briefcase",
   "manufacturer": "General Local",
   "description": "A secured briefcase containing items of significant value.",
@@ -9435,11 +9535,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_CT_Turncoat_06.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Valuable Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_CT_Turncoat_07",
-  "name": "Valuable Briefcase",
+  "name": "Valuable Briefcase (07)",
   "short_name": "Briefcase",
   "manufacturer": "General Local",
   "description": "A secured briefcase containing items of significant value.",
@@ -9453,11 +9554,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_CT_Turncoat_07.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Valuable Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_CT_Turncoat_08",
-  "name": "Valuable Briefcase",
+  "name": "Valuable Briefcase (08)",
   "short_name": "Briefcase",
   "manufacturer": "General Local",
   "description": "A secured briefcase containing items of significant value.",
@@ -9471,11 +9573,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_CT_Turncoat_08.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Valuable Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_CT_Turncoat_09",
-  "name": "Valuable Briefcase",
+  "name": "Valuable Briefcase (09)",
   "short_name": "Briefcase",
   "manufacturer": "General Local",
   "description": "A secured briefcase containing items of significant value.",
@@ -9489,11 +9592,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_CT_Turncoat_09.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Valuable Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_CT_Turncoat_10",
-  "name": "Valuable Briefcase",
+  "name": "Valuable Briefcase (10)",
   "short_name": "Briefcase",
   "manufacturer": "General Local",
   "description": "A secured briefcase containing items of significant value.",
@@ -9507,11 +9611,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_CT_Turncoat_10.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Valuable Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_CT_Turncoat_11",
-  "name": "Valuable Briefcase",
+  "name": "Valuable Briefcase (11)",
   "short_name": "Briefcase",
   "manufacturer": "General Local",
   "description": "A secured briefcase containing items of significant value.",
@@ -9525,11 +9630,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_CT_Turncoat_11.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Valuable Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_CT_Turncoat_12",
-  "name": "Valuable Briefcase",
+  "name": "Valuable Briefcase (12)",
   "short_name": "Briefcase",
   "manufacturer": "General Local",
   "description": "A secured briefcase containing items of significant value.",
@@ -9543,11 +9649,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_CT_Turncoat_12.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Valuable Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_CT_Turncoat_13",
-  "name": "Valuable Briefcase",
+  "name": "Valuable Briefcase (13)",
   "short_name": "Briefcase",
   "manufacturer": "General Local",
   "description": "A secured briefcase containing items of significant value.",
@@ -9561,11 +9668,12 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_CT_Turncoat_13.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Valuable Briefcase"
  },
  {
   "id": "IS_QuestItem_Briefcase_CT_Turncoat_14",
-  "name": "Valuable Briefcase",
+  "name": "Valuable Briefcase (14)",
   "short_name": "Briefcase",
   "manufacturer": "General Local",
   "description": "A secured briefcase containing items of significant value.",
@@ -9579,7 +9687,8 @@
   "base_price": 1.0,
   "tier": 2,
   "image": "https://gzw-data.dev/assets/items/misc/IS_QuestItem_Briefcase_CT_Turncoat_14.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Valuable Briefcase"
  },
  {
   "id": "IS_Misc_VialOfAntigens",

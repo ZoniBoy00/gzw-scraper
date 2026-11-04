@@ -313,7 +313,7 @@
  },
  {
   "id": "IS_Backpack_DrugsSmugglingBag",
-  "name": "Drug Shipment Backpack",
+  "name": "Drug Shipment Backpack (DrugsSmugglingBag)",
   "short_name": "Drug Backpack",
   "manufacturer": "General Local",
   "description": "A sealed backpack containing a shipment of illegal drugs.",
@@ -345,11 +345,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_DrugsSmugglingBag.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Drug Shipment Backpack"
  },
  {
   "id": "IS_Backpack_SmallDrugsSmugglingBag",
-  "name": "Drug Shipment Backpack",
+  "name": "Drug Shipment Backpack (SmallDrugsSmugglingBag)",
   "short_name": "Drug Backpack",
   "manufacturer": "General Local",
   "description": "A sealed backpack containing a shipment of illegal drugs.",
@@ -381,7 +382,8 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_SmallDrugsSmugglingBag.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Drug Shipment Backpack"
  },
  {
   "id": "IS_Backpack_Lamer28",
@@ -538,7 +540,7 @@
  },
  {
   "id": "IS_Backpack_MilitarySmugglingBag",
-  "name": "Military Contraband Backpack",
+  "name": "Military Contraband Backpack (MilitarySmugglingBag)",
   "short_name": "Contraband Backpack",
   "manufacturer": "General Local",
   "description": "A sealed backpack containing a shipment of sensitive military technology and intelligence.",
@@ -570,11 +572,12 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_MilitarySmugglingBag.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Military Contraband Backpack"
  },
  {
   "id": "IS_Backpack_SmallMilitarySmugglingBag",
-  "name": "Military Contraband Backpack",
+  "name": "Military Contraband Backpack (SmallMilitarySmugglingBag)",
   "short_name": "Contraband Backpack",
   "manufacturer": "General Local",
   "description": "A sealed backpack containing a shipment of sensitive military technology and intelligence.",
@@ -606,7 +609,8 @@
    }
   },
   "image": "https://gzw-data.dev/assets/items/backpacks/IS_Backpack_SmallMilitarySmugglingBag.webp",
-  "source": "game-files"
+  "source": "game-files",
+  "display_name": "Military Contraband Backpack"
  },
  {
   "id": "IS_Backpack_PatrolBackpack",
