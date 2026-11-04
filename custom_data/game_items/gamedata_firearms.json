@@ -11,8 +11,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponPlatform.AK12"
   ],
-  "weight": "2 kg",
-  "grid_size": "4x1",
+  "base_weight": "2 kg",
+  "base_grid_size": "4x1",
   "base_price": 850.0,
   "tier": 3,
   "vendors": [
@@ -95,8 +95,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponPlatform.AK15"
   ],
-  "weight": "2.1 kg",
-  "grid_size": "4x1",
+  "base_weight": "2.1 kg",
+  "base_grid_size": "4x1",
   "base_price": 850.0,
   "tier": 3,
   "vendors": [
@@ -179,8 +179,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponPlatform.AK19"
   ],
-  "weight": "2.1 kg",
-  "grid_size": "4x1",
+  "base_weight": "2.1 kg",
+  "base_grid_size": "4x1",
   "base_price": 1105.0,
   "tier": 3,
   "vendors": [
@@ -263,8 +263,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponPlatform.AK308"
   ],
-  "weight": "2.7 kg",
-  "grid_size": "4x1",
+  "base_weight": "2.7 kg",
+  "base_grid_size": "4x1",
   "base_price": 1360.0,
   "tier": 4,
   "vendors": [
@@ -349,8 +349,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponPlatform.AK308"
   ],
-  "weight": "2.7 kg",
-  "grid_size": "4x1",
+  "base_weight": "2.7 kg",
+  "base_grid_size": "4x1",
   "base_price": 2043.0,
   "tier": 4,
   "sell_prices": [
@@ -426,8 +426,8 @@
    "Size.Big",
    "WeaponPlatform.AK74"
   ],
-  "weight": "2.1 kg",
-  "grid_size": "4x1",
+  "base_weight": "2.1 kg",
+  "base_grid_size": "4x1",
   "base_price": 425.0,
   "tier": 3,
   "vendors": [
@@ -520,8 +520,8 @@
    "Size.Big",
    "WeaponPlatform.AK74"
   ],
-  "weight": "2.1 kg",
-  "grid_size": "4x1",
+  "base_weight": "2.1 kg",
+  "base_grid_size": "4x1",
   "base_price": 323.0,
   "tier": 2,
   "vendors": [
@@ -615,8 +615,8 @@
    "Size.Big",
    "WeaponPlatform.AK74"
   ],
-  "weight": "2.1 kg",
-  "grid_size": "4x1",
+  "base_weight": "2.1 kg",
+  "base_grid_size": "4x1",
   "base_price": 323.0,
   "tier": 2,
   "sell_prices": [
@@ -701,8 +701,8 @@
    "Size.Big",
    "WeaponPlatform.AKM"
   ],
-  "weight": "2 kg",
-  "grid_size": "4x1",
+  "base_weight": "2 kg",
+  "base_grid_size": "4x1",
   "base_price": 272.0,
   "tier": 2,
   "vendors": [
@@ -791,8 +791,8 @@
    "Size.Big",
    "WeaponPlatform.AKM"
   ],
-  "weight": "2.1 kg",
-  "grid_size": "4x1",
+  "base_weight": "2.1 kg",
+  "base_grid_size": "4x1",
   "base_price": 272.0,
   "tier": 2,
   "vendors": [
@@ -886,8 +886,8 @@
    "Size.Big",
    "WeaponPlatform.AKM"
   ],
-  "weight": "2.1 kg",
-  "grid_size": "4x1",
+  "base_weight": "2.1 kg",
+  "base_grid_size": "4x1",
   "base_price": 272.0,
   "tier": 2,
   "sell_prices": [
@@ -973,8 +973,8 @@
    "Size.Big",
    "WeaponPlatform.AKM"
   ],
-  "weight": "2.1 kg",
-  "grid_size": "4x1",
+  "base_weight": "2.1 kg",
+  "base_grid_size": "4x1",
   "base_price": 408.0,
   "tier": 2,
   "sell_prices": [
@@ -1059,8 +1059,8 @@
    "Size.Big",
    "WeaponPlatform.AKM"
   ],
-  "weight": "2.2 kg",
-  "grid_size": "4x1",
+  "base_weight": "2.2 kg",
+  "base_grid_size": "4x1",
   "base_price": 289.0,
   "tier": 2,
   "vendors": [
@@ -1153,8 +1153,8 @@
    "Size.Middle",
    "WeaponPlatform.AKS74U"
   ],
-  "weight": "1.7 kg",
-  "grid_size": "3x1",
+  "base_weight": "1.7 kg",
+  "base_grid_size": "3x1",
   "base_price": 255.0,
   "tier": 1,
   "vendors": [
@@ -1236,8 +1236,8 @@
    "Size.Small",
    "WeaponPlatform.Alien"
   ],
-  "weight": "0.57 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.57 kg",
+  "base_grid_size": "2x1",
   "base_price": 6120.0,
   "tier": 4,
   "vendors": [
@@ -1321,8 +1321,8 @@
    "Size.Small",
    "WeaponPlatform.Alien"
   ],
-  "weight": "0.57 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.57 kg",
+  "base_grid_size": "2x1",
   "base_price": 6120.0,
   "tier": 4,
   "sell_prices": [
@@ -1397,8 +1397,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponPlatform.BenelliM4"
   ],
-  "weight": "0.767 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.767 kg",
+  "base_grid_size": "2x1",
   "base_price": 1000.0,
   "tier": 3,
   "vendors": [
@@ -1487,8 +1487,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponPlatform.BenelliM4"
   ],
-  "weight": "0.767 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.767 kg",
+  "base_grid_size": "2x1",
   "base_price": 1000.0,
   "tier": 3,
   "sell_prices": [
@@ -1569,8 +1569,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponPlatform.BenelliM4"
   ],
-  "weight": "0.767 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.767 kg",
+  "base_grid_size": "2x1",
   "base_price": 1000.0,
   "tier": 3,
   "sell_prices": [
@@ -1652,8 +1652,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponPlatform.BenelliM4"
   ],
-  "weight": "0.767 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.767 kg",
+  "base_grid_size": "2x1",
   "base_price": 1000.0,
   "tier": 3,
   "sell_prices": [
@@ -1736,8 +1736,8 @@
    "WeaponPlatform.M201C",
    "Boss"
   ],
-  "weight": "0.3 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.3 kg",
+  "base_grid_size": "2x1",
   "base_price": 300.0,
   "tier": 4,
   "sell_prices": [
@@ -1802,8 +1802,8 @@
    "Origin.East",
    "Boss"
   ],
-  "weight": "0.231 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.231 kg",
+  "base_grid_size": "2x1",
   "base_price": 408.0,
   "tier": 4,
   "sell_prices": [
@@ -1875,8 +1875,8 @@
    "WeaponPlatform.AK74",
    "Boss"
   ],
-  "weight": "2.1 kg",
-  "grid_size": "4x1",
+  "base_weight": "2.1 kg",
+  "base_grid_size": "4x1",
   "base_price": 643.0,
   "tier": 4,
   "sell_prices": [
@@ -1965,8 +1965,8 @@
    "WeaponCategory.Pistol",
    "Boss"
   ],
-  "weight": "0.3 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.3 kg",
+  "base_grid_size": "2x1",
   "base_price": 300.0,
   "tier": 4,
   "sell_prices": [
@@ -2031,8 +2031,8 @@
    "WeaponCategory.Pistol",
    "Boss"
   ],
-  "weight": "0.3 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.3 kg",
+  "base_grid_size": "2x1",
   "base_price": 300.0,
   "tier": 4,
   "sell_prices": [
@@ -2096,8 +2096,8 @@
    "Size.Small",
    "WeaponPlatform.1911"
   ],
-  "weight": "0.231 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.231 kg",
+  "base_grid_size": "2x1",
   "base_price": 187.0,
   "tier": 1,
   "vendors": [
@@ -2173,8 +2173,8 @@
    "Location.Equip.Weapon.Pistol",
    "WeaponPlatform.1911C"
   ],
-  "weight": "0.17 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.17 kg",
+  "base_grid_size": "2x1",
   "base_price": 340.0,
   "tier": 2,
   "vendors": [
@@ -2248,8 +2248,8 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.6 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.6 kg",
+  "base_grid_size": "2x1",
   "base_price": 340.0,
   "tier": 1,
   "vendors": [
@@ -2323,8 +2323,8 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.7 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.7 kg",
+  "base_grid_size": "2x1",
   "base_price": 1360.0,
   "tier": 3,
   "vendors": [
@@ -2399,8 +2399,8 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.7 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.7 kg",
+  "base_grid_size": "2x1",
   "base_price": 1360.0,
   "tier": 3,
   "sell_prices": [
@@ -2467,8 +2467,8 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.7 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.7 kg",
+  "base_grid_size": "2x1",
   "base_price": 2043.0,
   "tier": 3,
   "sell_prices": [
@@ -2534,8 +2534,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponCategory.AssaultRifle"
   ],
-  "weight": "1.5 kg",
-  "grid_size": "2x1",
+  "base_weight": "1.5 kg",
+  "base_grid_size": "2x1",
   "base_price": 680.0,
   "tier": 2,
   "sell_prices": [
@@ -2610,8 +2610,8 @@
    "WeaponPlatform.AKS74U",
    "Boss"
   ],
-  "weight": "1.7 kg",
-  "grid_size": "3x1",
+  "base_weight": "1.7 kg",
+  "base_grid_size": "3x1",
   "base_price": 510.0,
   "tier": 4,
   "sell_prices": [
@@ -2684,8 +2684,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponPlatform.G3"
   ],
-  "weight": "0.8 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.8 kg",
+  "base_grid_size": "2x1",
   "base_price": 1100.0,
   "tier": 3,
   "sell_prices": [
@@ -2762,8 +2762,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponPlatform.G3"
   ],
-  "weight": "0.8 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.8 kg",
+  "base_grid_size": "2x1",
   "base_price": 1100.0,
   "tier": 3,
   "sell_prices": [
@@ -2840,8 +2840,8 @@
    "Size.Small",
    "WeaponPlatform.G36"
   ],
-  "weight": "0.8 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.8 kg",
+  "base_grid_size": "2x1",
   "base_price": 680.0,
   "tier": 2,
   "sell_prices": [
@@ -2912,8 +2912,8 @@
    "Size.Small",
    "WeaponPlatform.G36"
   ],
-  "weight": "0.8 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.8 kg",
+  "base_grid_size": "2x1",
   "base_price": 680.0,
   "tier": 2,
   "sell_prices": [
@@ -2984,8 +2984,8 @@
    "Size.Small",
    "WeaponPlatform.Glock"
   ],
-  "weight": "0.231 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.231 kg",
+  "base_grid_size": "2x1",
   "base_price": 255.0,
   "tier": 1,
   "vendors": [
@@ -3057,8 +3057,8 @@
    "Size.Small",
    "WeaponPlatform.Glock"
   ],
-  "weight": "0.231 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.231 kg",
+  "base_grid_size": "2x1",
   "base_price": 255.0,
   "tier": 1,
   "sell_prices": [
@@ -3120,8 +3120,8 @@
    "WeaponCategory.Pistol",
    "Size.Small"
   ],
-  "weight": "0.24 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.24 kg",
+  "base_grid_size": "2x1",
   "base_price": 1200.0,
   "tier": 4,
   "vendors": [
@@ -3192,8 +3192,8 @@
    "WeaponCategory.Pistol",
    "Size.Small"
   ],
-  "weight": "0.24 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.24 kg",
+  "base_grid_size": "2x1",
   "base_price": 1200.0,
   "tier": 4,
   "sell_prices": [
@@ -3258,8 +3258,8 @@
    "Origin.East",
    "Boss"
   ],
-  "weight": "0.4 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.4 kg",
+  "base_grid_size": "2x1",
   "base_price": 400.0,
   "tier": 4,
   "sell_prices": [
@@ -3328,8 +3328,8 @@
    "Origin.East",
    "Boss"
   ],
-  "weight": "0.454 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.454 kg",
+  "base_grid_size": "2x1",
   "base_price": 680.0,
   "tier": 4,
   "sell_prices": [
@@ -3398,8 +3398,8 @@
    "Origin.East",
    "Boss"
   ],
-  "weight": "0.231 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.231 kg",
+  "base_grid_size": "2x1",
   "base_price": 510.0,
   "tier": 4,
   "sell_prices": [
@@ -3461,8 +3461,8 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.7 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.7 kg",
+  "base_grid_size": "2x1",
   "base_price": 1700.0,
   "tier": 4,
   "vendors": [
@@ -3537,8 +3537,8 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.7 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.7 kg",
+  "base_grid_size": "2x1",
   "base_price": 2400.0,
   "tier": 4,
   "sell_prices": [
@@ -3605,8 +3605,8 @@
    "WeaponCategory.Pistol",
    "WeaponPlatform.M201C"
   ],
-  "weight": "0.3 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.3 kg",
+  "base_grid_size": "2x1",
   "base_price": 153.0,
   "tier": 1,
   "vendors": [
@@ -3676,8 +3676,8 @@
    "Size.Small",
    "WeaponPlatform.M1A"
   ],
-  "weight": "0.91 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.91 kg",
+  "base_grid_size": "2x1",
   "base_price": 1190.0,
   "tier": 3,
   "vendors": [
@@ -3755,8 +3755,8 @@
    "Size.Small",
    "WeaponPlatform.M1A"
   ],
-  "weight": "0.91 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.91 kg",
+  "base_grid_size": "2x1",
   "base_price": 1785.0,
   "tier": 3,
   "sell_prices": [
@@ -3826,8 +3826,8 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.65 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.65 kg",
+  "base_grid_size": "2x1",
   "base_price": 510.0,
   "tier": 2,
   "vendors": [
@@ -3901,8 +3901,8 @@
    "Size.Small",
    "WeaponPlatform.M1A"
   ],
-  "weight": "0.9 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.9 kg",
+  "base_grid_size": "2x1",
   "base_price": 731.0,
   "tier": 2,
   "vendors": [
@@ -3980,8 +3980,8 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.65 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.65 kg",
+  "base_grid_size": "2x1",
   "base_price": 510.0,
   "tier": 2,
   "vendors": [
@@ -4056,8 +4056,8 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.65 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.65 kg",
+  "base_grid_size": "2x1",
   "base_price": 510.0,
   "tier": 2,
   "sell_prices": [
@@ -4123,8 +4123,8 @@
    "Size.Small",
    "WeaponPlatform.M700"
   ],
-  "weight": "0.8 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.8 kg",
+  "base_grid_size": "2x1",
   "base_price": 765.0,
   "tier": 2,
   "vendors": [
@@ -4192,8 +4192,8 @@
    "Size.Small",
    "WeaponPlatform.M700"
   ],
-  "weight": "0.8 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.8 kg",
+  "base_grid_size": "2x1",
   "base_price": 1530.0,
   "tier": 4,
   "sell_prices": [
@@ -4253,8 +4253,8 @@
    "WeaponPlatform.M870",
    "Size.Middle"
   ],
-  "weight": "1.1 kg",
-  "grid_size": "3x1",
+  "base_weight": "1.1 kg",
+  "base_grid_size": "3x1",
   "base_price": 170.0,
   "tier": 1,
   "vendors": [
@@ -4326,8 +4326,8 @@
    "WeaponPlatform.M870",
    "Size.Middle"
   ],
-  "weight": "1.1 kg",
-  "grid_size": "3x1",
+  "base_weight": "1.1 kg",
+  "base_grid_size": "3x1",
   "base_price": 170.0,
   "tier": 1,
   "sell_prices": [
@@ -4391,8 +4391,8 @@
    "WeaponPlatform.M9A1",
    "WeaponCategory.Pistol"
   ],
-  "weight": "0.231 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.231 kg",
+  "base_grid_size": "2x1",
   "base_price": 204.0,
   "tier": 1,
   "vendors": [
@@ -4471,8 +4471,8 @@
    "Size.Small",
    "WeaponPlatform.Mosin"
   ],
-  "weight": "0.9 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.9 kg",
+  "base_grid_size": "2x1",
   "base_price": 340.0,
   "tier": 1,
   "vendors": [
@@ -4537,8 +4537,8 @@
    "Size.Small",
    "WeaponPlatform.Mosin"
   ],
-  "weight": "0.9 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.9 kg",
+  "base_grid_size": "2x1",
   "base_price": 340.0,
   "tier": 2,
   "vendors": [
@@ -4607,8 +4607,8 @@
    "WeaponPlatform.M590",
    "Size.Middle"
   ],
-  "weight": "1.1 kg",
-  "grid_size": "3x1",
+  "base_weight": "1.1 kg",
+  "base_grid_size": "3x1",
   "base_price": 170.0,
   "tier": 1,
   "sell_prices": [
@@ -4676,8 +4676,8 @@
    "WeaponPlatform.M590",
    "Size.Middle"
   ],
-  "weight": "1.1 kg",
-  "grid_size": "3x1",
+  "base_weight": "1.1 kg",
+  "base_grid_size": "3x1",
   "base_price": 170.0,
   "tier": 1,
   "sell_prices": [
@@ -4745,8 +4745,8 @@
    "WeaponPlatform.M590",
    "Size.Middle"
   ],
-  "weight": "1.1 kg",
-  "grid_size": "3x1",
+  "base_weight": "1.1 kg",
+  "base_grid_size": "3x1",
   "base_price": 170.0,
   "tier": 1,
   "sell_prices": [
@@ -4812,8 +4812,8 @@
    "Size.Small",
    "WeaponPlatform.MP5"
   ],
-  "weight": "0.74 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.74 kg",
+  "base_grid_size": "2x1",
   "base_price": 510.0,
   "tier": 1,
   "vendors": [
@@ -4878,8 +4878,8 @@
    "WeaponCategory.SMG",
    "Location.Equip.Weapon.MainWeapon"
   ],
-  "weight": "1.6 kg",
-  "grid_size": "2x1",
+  "base_weight": "1.6 kg",
+  "base_grid_size": "2x1",
   "base_price": 644.0,
   "tier": 3,
   "vendors": [
@@ -4969,8 +4969,8 @@
    "Size.Small",
    "WeaponPlatform.MP7"
   ],
-  "weight": "1.55 kg",
-  "grid_size": "2x1",
+  "base_weight": "1.55 kg",
+  "base_grid_size": "2x1",
   "base_price": 695.0,
   "tier": 3,
   "vendors": [
@@ -5065,8 +5065,8 @@
    "Size.Small",
    "WeaponPlatform.MP7"
   ],
-  "weight": "1.55 kg",
-  "grid_size": "2x1",
+  "base_weight": "1.55 kg",
+  "base_grid_size": "2x1",
   "base_price": 892.0,
   "tier": 3,
   "sell_prices": [
@@ -5155,8 +5155,8 @@
    "WeaponCategory.Pistol",
    "Boss"
   ],
-  "weight": "0.3 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.3 kg",
+  "base_grid_size": "2x1",
   "base_price": 300.0,
   "tier": 4,
   "sell_prices": [
@@ -5219,8 +5219,8 @@
    "Size.Small",
    "WeaponPlatform.Remington788"
   ],
-  "weight": "1.219 kg",
-  "grid_size": "2x1",
+  "base_weight": "1.219 kg",
+  "base_grid_size": "2x1",
   "base_price": 374.0,
   "tier": 1,
   "vendors": [
@@ -5287,8 +5287,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponCategory.AssaultRifle"
   ],
-  "weight": "0.75 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.75 kg",
+  "base_grid_size": "2x1",
   "base_price": 300.0,
   "tier": 2,
   "vendors": [
@@ -5366,8 +5366,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponCategory.AssaultRifle"
   ],
-  "weight": "0.75 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.75 kg",
+  "base_grid_size": "2x1",
   "base_price": 300.0,
   "tier": 2,
   "sell_prices": [
@@ -5437,8 +5437,8 @@
    "Location.Equip.Weapon.MainWeapon",
    "WeaponCategory.AssaultRifle"
   ],
-  "weight": "0.75 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.75 kg",
+  "base_grid_size": "2x1",
   "base_price": 300.0,
   "tier": 2,
   "sell_prices": [
@@ -5509,8 +5509,8 @@
    "Size.Small",
    "WeaponPlatform.MCX"
   ],
-  "weight": "0.8 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.8 kg",
+  "base_grid_size": "2x1",
   "base_price": 1190.0,
   "tier": 3,
   "vendors": [
@@ -5589,8 +5589,8 @@
    "Size.Small",
    "WeaponPlatform.MCX"
   ],
-  "weight": "0.8 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.8 kg",
+  "base_grid_size": "2x1",
   "base_price": 1190.0,
   "tier": 3,
   "sell_prices": [
@@ -5661,8 +5661,8 @@
    "Size.Small",
    "WeaponPlatform.MCX"
   ],
-  "weight": "0.8 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.8 kg",
+  "base_grid_size": "2x1",
   "base_price": 1190.0,
   "tier": 3,
   "sell_prices": [
@@ -5732,8 +5732,8 @@
    "WeaponPlatform.SKS",
    "Size.Big"
   ],
-  "weight": "2.63 kg",
-  "grid_size": "4x1",
+  "base_weight": "2.63 kg",
+  "base_grid_size": "4x1",
   "base_price": 425.0,
   "tier": 1,
   "vendors": [
@@ -5812,8 +5812,8 @@
    "WeaponPlatform.AUG",
    "Location.Equip.Weapon.MainWeapon"
   ],
-  "weight": "1.76 kg",
-  "grid_size": "2x1",
+  "base_weight": "1.76 kg",
+  "base_grid_size": "2x1",
   "base_price": 765.0,
   "tier": 2,
   "sell_prices": [
@@ -5888,8 +5888,8 @@
    "WeaponPlatform.AUG",
    "Location.Equip.Weapon.MainWeapon"
   ],
-  "weight": "1.46 kg",
-  "grid_size": "2x1",
+  "base_weight": "1.46 kg",
+  "base_grid_size": "2x1",
   "base_price": 1156.0,
   "tier": 3,
   "sell_prices": [
@@ -5976,8 +5976,8 @@
    "WeaponPlatform.AUG",
    "Location.Equip.Weapon.MainWeapon"
   ],
-  "weight": "1.46 kg",
-  "grid_size": "2x1",
+  "base_weight": "1.46 kg",
+  "base_grid_size": "2x1",
   "base_price": 1156.0,
   "tier": 3,
   "sell_prices": [
@@ -6064,8 +6064,8 @@
    "Size.Small",
    "WeaponPlatform.SVD"
   ],
-  "weight": "0.7 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.7 kg",
+  "base_grid_size": "2x1",
   "base_price": 1105.0,
   "tier": 3,
   "vendors": [
@@ -6139,8 +6139,8 @@
    "Size.Small",
    "WeaponPlatform.SVD"
   ],
-  "weight": "0.7 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.7 kg",
+  "base_grid_size": "2x1",
   "base_price": 1105.0,
   "tier": 3,
   "sell_prices": [
@@ -6207,8 +6207,8 @@
    "WeaponPlatform.TT",
    "WeaponCategory.Pistol"
   ],
-  "weight": "0.3 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.3 kg",
+  "base_grid_size": "2x1",
   "base_price": 153.0,
   "tier": 1,
   "vendors": [
@@ -6278,8 +6278,8 @@
    "WeaponPlatform.UMP",
    "Location.Equip.Weapon.MainWeapon"
   ],
-  "weight": "0.45 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.45 kg",
+  "base_grid_size": "2x1",
   "base_price": 680.0,
   "tier": 2,
   "sell_prices": [
@@ -6350,8 +6350,8 @@
    "WeaponPlatform.UMP",
    "Location.Equip.Weapon.MainWeapon"
   ],
-  "weight": "0.45 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.45 kg",
+  "base_grid_size": "2x1",
   "base_price": 680.0,
   "tier": 2,
   "sell_prices": [
@@ -6424,8 +6424,8 @@
    "Origin.East",
    "Boss"
   ],
-  "weight": "0.454 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.454 kg",
+  "base_grid_size": "2x1",
   "base_price": 680.0,
   "tier": 4,
   "sell_prices": [
@@ -6492,8 +6492,8 @@
    "Size.Small",
    "WeaponPlatform.vz61"
   ],
-  "weight": "0.9 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.9 kg",
+  "base_grid_size": "2x1",
   "base_price": 255.0,
   "tier": 1,
   "sell_prices": [
@@ -6565,8 +6565,8 @@
    "Origin.East",
    "Boss"
   ],
-  "weight": "0.8 kg",
-  "grid_size": "2x1",
+  "base_weight": "0.8 kg",
+  "base_grid_size": "2x1",
   "base_price": 1530.0,
   "tier": 4,
   "sell_prices": [

@@ -9,7 +9,7 @@
    "Origin.East",
    "Size.Big"
   ],
-  "weight": "2.8 kg",
+  "base_weight": "2.8 kg",
   "grid_size": "5x6",
   "base_price": 1450.0,
   "tier": 4,
@@ -42,7 +42,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "1.32 kg",
+  "base_weight": "1.32 kg",
   "grid_size": "4x5",
   "base_price": 810.0,
   "tier": 3,
@@ -84,7 +84,7 @@
    "Origin.East",
    "Size.Middle"
   ],
-  "weight": "1.25 kg",
+  "base_weight": "1.25 kg",
   "grid_size": "3x3",
   "base_price": 150.0,
   "tier": 1,
@@ -127,7 +127,7 @@
    "Size.Middle",
    "Boss"
   ],
-  "weight": "0.49 kg",
+  "base_weight": "0.49 kg",
   "grid_size": "3x3",
   "base_price": 82.0,
   "tier": 1,
@@ -161,7 +161,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "1.33 kg",
+  "base_weight": "1.33 kg",
   "grid_size": "3x4",
   "base_price": 432.0,
   "tier": 2,
@@ -203,7 +203,7 @@
    "Origin.West",
    "Size.Big"
   ],
-  "weight": "2.32 kg",
+  "base_weight": "2.32 kg",
   "grid_size": "6x7",
   "base_price": 1200.0,
   "tier": 4,
@@ -245,7 +245,7 @@
    "Origin.East",
    "Size.Big"
   ],
-  "weight": "2.63 kg",
+  "base_weight": "2.63 kg",
   "grid_size": "6x6",
   "base_price": 1650.0,
   "tier": 4,
@@ -287,7 +287,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "0.1 kg",
+  "base_weight": "0.1 kg",
   "grid_size": "2x2",
   "base_price": 50.0,
   "tier": 1,
@@ -323,7 +323,7 @@
    "Treasure",
    "Smuggling"
   ],
-  "weight": "10 kg",
+  "base_weight": "10 kg",
   "grid_size": "5x5",
   "base_price": 60000.0,
   "tier": 4,
@@ -359,7 +359,7 @@
    "Smuggling",
    "Treasure"
   ],
-  "weight": "10 kg",
+  "base_weight": "10 kg",
   "grid_size": "5x5",
   "base_price": 35000.0,
   "tier": 3,
@@ -393,7 +393,7 @@
    "Size.Middle",
    "Origin.Local"
   ],
-  "weight": "1.3 kg",
+  "base_weight": "1.3 kg",
   "grid_size": "4x5",
   "base_price": 293.0,
   "tier": 2,
@@ -428,7 +428,7 @@
    "Size.Middle",
    "Boss"
   ],
-  "weight": "1 kg",
+  "base_weight": "1 kg",
   "grid_size": "2x3",
   "base_price": 55.0,
   "tier": 1,
@@ -462,7 +462,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "0.9 kg",
+  "base_weight": "0.9 kg",
   "grid_size": "3x3",
   "base_price": 250.0,
   "tier": 1,
@@ -504,7 +504,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "0.9 kg",
+  "base_weight": "0.9 kg",
   "grid_size": "3x4",
   "base_price": 150.0,
   "tier": 2,
@@ -548,7 +548,7 @@
    "Smuggling",
    "Treasure"
   ],
-  "weight": "10 kg",
+  "base_weight": "10 kg",
   "grid_size": "5x5",
   "base_price": 60000.0,
   "tier": 4,
@@ -584,7 +584,7 @@
    "Smuggling",
    "Treasure"
   ],
-  "weight": "10 kg",
+  "base_weight": "10 kg",
   "grid_size": "5x5",
   "base_price": 35000.0,
   "tier": 3,
@@ -618,7 +618,7 @@
    "Origin.East",
    "Size.Big"
   ],
-  "weight": "1.5 kg",
+  "base_weight": "1.5 kg",
   "grid_size": "4x5",
   "base_price": 750.0,
   "tier": 3,
@@ -660,7 +660,7 @@
    "Origin.East",
    "Size.Big"
   ],
-  "weight": "1.5 kg",
+  "base_weight": "1.5 kg",
   "grid_size": "4x5",
   "base_price": 750.0,
   "tier": 3,
@@ -694,7 +694,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "2.4 kg",
+  "base_weight": "2.4 kg",
   "grid_size": "5x6",
   "base_price": 1250.0,
   "tier": 4,
@@ -736,7 +736,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "1.36 kg",
+  "base_weight": "1.36 kg",
   "grid_size": "4x4",
   "base_price": 650.0,
   "tier": 3,
@@ -778,7 +778,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "1.36 kg",
+  "base_weight": "1.36 kg",
   "grid_size": "4x4",
   "base_price": 650.0,
   "tier": 3,
@@ -820,7 +820,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "0.072 kg",
+  "base_weight": "0.072 kg",
   "grid_size": "2x3",
   "base_price": 64.0,
   "tier": 1,
@@ -854,7 +854,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "0.49 kg",
+  "base_weight": "0.49 kg",
   "grid_size": "3x3",
   "base_price": 82.0,
   "tier": 1,

@@ -9,7 +9,7 @@
    "Origin.East",
    "Size.Middle"
   ],
-  "weight": "0.3 kg",
+  "base_weight": "0.3 kg",
   "grid_size": "2x2",
   "base_price": 148.0,
   "tier": 4,
@@ -44,7 +44,7 @@
    "Size.Middle",
    "Boss"
   ],
-  "weight": "0.2 kg",
+  "base_weight": "0.2 kg",
   "grid_size": "2x1",
   "base_price": 49.0,
   "tier": 1,
@@ -79,7 +79,7 @@
    "Size.Middle",
    "Boss"
   ],
-  "weight": "0.95 kg",
+  "base_weight": "0.95 kg",
   "grid_size": "3x2",
   "base_price": 245.0,
   "tier": 4,
@@ -114,7 +114,7 @@
    "Size.Middle",
    "Boss"
   ],
-  "weight": "0.345 kg",
+  "base_weight": "0.345 kg",
   "grid_size": "2x1",
   "base_price": 72.0,
   "tier": 1,
@@ -148,7 +148,7 @@
    "Origin.Local",
    "Size.Middle"
   ],
-  "weight": "0.345 kg",
+  "base_weight": "0.345 kg",
   "grid_size": "2x1",
   "base_price": 72.0,
   "tier": 1,
@@ -182,7 +182,7 @@
    "Origin.Local",
    "Size.Middle"
   ],
-  "weight": "0.2 kg",
+  "base_weight": "0.2 kg",
   "grid_size": "2x1",
   "base_price": 49.0,
   "tier": 1,
@@ -220,7 +220,7 @@
    "Origin.Local",
    "Size.Middle"
   ],
-  "weight": "0.2 kg",
+  "base_weight": "0.2 kg",
   "grid_size": "2x1",
   "base_price": 49.0,
   "tier": 1,
@@ -250,7 +250,7 @@
    "Origin.Local",
    "Size.Middle"
   ],
-  "weight": "0.2 kg",
+  "base_weight": "0.2 kg",
   "grid_size": "2x1",
   "base_price": 49.0,
   "tier": 1,
@@ -280,7 +280,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "0.25 kg",
+  "base_weight": "0.25 kg",
   "grid_size": "2x1",
   "base_price": 110.0,
   "tier": 2,
@@ -322,7 +322,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "0.25 kg",
+  "base_weight": "0.25 kg",
   "grid_size": "2x1",
   "base_price": 110.0,
   "tier": 2,
@@ -357,7 +357,7 @@
    "Size.Middle",
    "Boss"
   ],
-  "weight": "0.345 kg",
+  "base_weight": "0.345 kg",
   "grid_size": "2x1",
   "base_price": 72.0,
   "tier": 1,
@@ -391,7 +391,7 @@
    "Origin.Local",
    "Size.Middle"
   ],
-  "weight": "0.305 kg",
+  "base_weight": "0.305 kg",
   "grid_size": "2x1",
   "base_price": 61.0,
   "tier": 1,
@@ -421,7 +421,7 @@
    "Origin.East",
    "Size.Middle"
   ],
-  "weight": "0.95 kg",
+  "base_weight": "0.95 kg",
   "grid_size": "3x2",
   "base_price": 245.0,
   "tier": 4,
@@ -455,7 +455,7 @@
    "Origin.East",
    "Size.Middle"
   ],
-  "weight": "0.95 kg",
+  "base_weight": "0.95 kg",
   "grid_size": "3x2",
   "base_price": 245.0,
   "tier": 4,
@@ -497,7 +497,7 @@
    "Origin.East",
    "Size.Middle"
   ],
-  "weight": "0.95 kg",
+  "base_weight": "0.95 kg",
   "grid_size": "2x2",
   "base_price": 150.0,
   "tier": 3,
@@ -539,7 +539,7 @@
    "Origin.East",
    "Size.Middle"
   ],
-  "weight": "0.95 kg",
+  "base_weight": "0.95 kg",
   "grid_size": "2x2",
   "base_price": 150.0,
   "tier": 3,
@@ -573,7 +573,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "0.65 kg",
+  "base_weight": "0.65 kg",
   "grid_size": "2x2",
   "base_price": 180.0,
   "tier": 3,
@@ -615,7 +615,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "0.45 kg",
+  "base_weight": "0.45 kg",
   "grid_size": "2x1",
   "base_price": 84.0,
   "tier": 2,
@@ -657,7 +657,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "0.45 kg",
+  "base_weight": "0.45 kg",
   "grid_size": "2x1",
   "base_price": 84.0,
   "tier": 2,
@@ -691,7 +691,7 @@
    "Origin.West",
    "Size.Middle"
   ],
-  "weight": "0.45 kg",
+  "base_weight": "0.45 kg",
   "grid_size": "2x1",
   "base_price": 84.0,
   "tier": 2,
@@ -726,7 +726,7 @@
    "Size.Middle",
    "Boss"
   ],
-  "weight": "0.45 kg",
+  "base_weight": "0.45 kg",
   "grid_size": "2x1",
   "base_price": 84.0,
   "tier": 2,
@@ -761,7 +761,7 @@
    "Size.Middle",
    "Boss"
   ],
-  "weight": "0.95 kg",
+  "base_weight": "0.95 kg",
   "grid_size": "3x2",
   "base_price": 245.0,
   "tier": 4,

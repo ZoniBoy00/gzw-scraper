@@ -10,7 +10,7 @@
    "Size.Small",
    "WeaponPlatform.1911C"
   ],
-  "weight": "0.349 kg",
+  "base_weight": "0.349 kg",
   "grid_size": "2x1",
   "base_price": 510.0,
   "tier": 2,
@@ -70,7 +70,7 @@
    "Size.Small",
    "WeaponPlatform.AK"
   ],
-  "weight": "0.242 kg",
+  "base_weight": "0.242 kg",
   "grid_size": "2x1",
   "base_price": 780.0,
   "tier": 4,
@@ -141,7 +141,7 @@
    "Size.Small",
    "WeaponPlatform.AK"
   ],
-  "weight": "0.242 kg",
+  "base_weight": "0.242 kg",
   "grid_size": "2x1",
   "base_price": 780.0,
   "tier": 4,
@@ -204,7 +204,7 @@
    "Size.Small",
    "WeaponPlatform.AK"
   ],
-  "weight": "0.242 kg",
+  "base_weight": "0.242 kg",
   "grid_size": "2x1",
   "base_price": 780.0,
   "tier": 4,
@@ -265,7 +265,7 @@
    "Origin.East",
    "Size.Small"
   ],
-  "weight": "0.21 kg",
+  "base_weight": "0.21 kg",
   "grid_size": "2x1",
   "base_price": 850.0,
   "tier": 3,
@@ -332,7 +332,7 @@
    "Size.Small",
    "WeaponPlatform.AK"
   ],
-  "weight": "0.104 kg",
+  "base_weight": "0.104 kg",
   "grid_size": "2x1",
   "base_price": 204.0,
   "tier": 1,
@@ -383,7 +383,7 @@
    "Size.Small",
    "WeaponPlatform.AK308"
   ],
-  "weight": "0.115 kg",
+  "base_weight": "0.115 kg",
   "grid_size": "2x1",
   "base_price": 935.0,
   "tier": 4,
@@ -449,7 +449,7 @@
    "Size.Small",
    "WeaponPlatform.AK308"
   ],
-  "weight": "0.115 kg",
+  "base_weight": "0.115 kg",
   "grid_size": "2x1",
   "base_price": 1600.0,
   "tier": 4,
@@ -507,7 +507,7 @@
    "Size.Small",
    "WeaponPlatform.AK"
   ],
-  "weight": "0.104 kg",
+  "base_weight": "0.104 kg",
   "grid_size": "2x1",
   "base_price": 204.0,
   "tier": 1,
@@ -559,7 +559,7 @@
    "Size.Small",
    "WeaponPlatform.AKS74U"
   ],
-  "weight": "0.104 kg",
+  "base_weight": "0.104 kg",
   "grid_size": "2x1",
   "base_price": 170.0,
   "tier": 1,
@@ -610,7 +610,7 @@
    "Size.Small",
    "WeaponPlatform.Alien"
   ],
-  "weight": "0.36 kg",
+  "base_weight": "0.36 kg",
   "grid_size": "2x1",
   "base_price": 2380.0,
   "tier": 4,
@@ -662,7 +662,7 @@
    "Size.Small",
    "WeaponPlatform.Alien"
   ],
-  "weight": "0.35 kg",
+  "base_weight": "0.35 kg",
   "grid_size": "2x1",
   "base_price": 2040.0,
   "tier": 4,
@@ -709,7 +709,7 @@
    "Size.Small",
    "WeaponPlatform.AK"
   ],
-  "weight": "0.215 kg",
+  "base_weight": "0.215 kg",
   "grid_size": "2x1",
   "base_price": 595.0,
   "tier": 3,
@@ -773,7 +773,7 @@
    "WeaponPlatform.M201C",
    "Boss"
   ],
-  "weight": "0.21 kg",
+  "base_weight": "0.21 kg",
   "grid_size": "2x1",
   "base_price": 254.0,
   "tier": 4,
@@ -822,7 +822,7 @@
    "WeaponPlatform.M9A1",
    "Boss"
   ],
-  "weight": "0.29 kg",
+  "base_weight": "0.29 kg",
   "grid_size": "2x1",
   "base_price": 680.0,
   "tier": 4,
@@ -861,7 +861,7 @@
    "WeaponPlatform.AK",
    "Boss"
   ],
-  "weight": "0.104 kg",
+  "base_weight": "0.104 kg",
   "grid_size": "2x1",
   "base_price": 408.0,
   "tier": 4,
@@ -906,7 +906,7 @@
    "WeaponPlatform.TT",
    "Boss"
   ],
-  "weight": "0.21 kg",
+  "base_weight": "0.21 kg",
   "grid_size": "2x1",
   "base_price": 254.0,
   "tier": 4,
@@ -957,7 +957,7 @@
    "WeaponPlatform.TT",
    "Boss"
   ],
-  "weight": "0.21 kg",
+  "base_weight": "0.21 kg",
   "grid_size": "2x1",
   "base_price": 254.0,
   "tier": 4,
@@ -1007,7 +1007,7 @@
    "Size.Small",
    "WeaponPlatform.1911"
   ],
-  "weight": "0.41 kg",
+  "base_weight": "0.41 kg",
   "grid_size": "2x1",
   "base_price": 595.0,
   "tier": 2,
@@ -1071,7 +1071,7 @@
    "Size.Small",
    "WeaponPlatform.1911"
   ],
-  "weight": "0.38 kg",
+  "base_weight": "0.38 kg",
   "grid_size": "2x1",
   "base_price": 425.0,
   "tier": 1,
@@ -1130,7 +1130,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.108 kg",
+  "base_weight": "0.108 kg",
   "grid_size": "2x1",
   "base_price": 153.0,
   "tier": 2,
@@ -1205,7 +1205,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.24 kg",
+  "base_weight": "0.24 kg",
   "grid_size": "2x1",
   "base_price": 425.0,
   "tier": 2,
@@ -1281,7 +1281,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.198 kg",
+  "base_weight": "0.198 kg",
   "grid_size": "2x1",
   "base_price": 850.0,
   "tier": 3,
@@ -1357,7 +1357,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.198 kg",
+  "base_weight": "0.198 kg",
   "grid_size": "2x1",
   "base_price": 850.0,
   "tier": 3,
@@ -1425,7 +1425,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.198 kg",
+  "base_weight": "0.198 kg",
   "grid_size": "2x1",
   "base_price": 1650.0,
   "tier": 4,
@@ -1493,7 +1493,7 @@
    "Size.Small",
    "WeaponPlatform.AK"
   ],
-  "weight": "0.175 kg",
+  "base_weight": "0.175 kg",
   "grid_size": "2x1",
   "base_price": 510.0,
   "tier": 3,
@@ -1561,7 +1561,7 @@
    "Size.Small",
    "WeaponPlatform.Famas"
   ],
-  "weight": "0.15 kg",
+  "base_weight": "0.15 kg",
   "grid_size": "2x1",
   "base_price": 450.0,
   "tier": 2,
@@ -1604,7 +1604,7 @@
    "WeaponPlatform.AKS74U",
    "Boss"
   ],
-  "weight": "0.104 kg",
+  "base_weight": "0.104 kg",
   "grid_size": "2x1",
   "base_price": 340.0,
   "tier": 1,
@@ -1647,7 +1647,7 @@
    "Size.Small",
    "WeaponPlatform.Glock"
   ],
-  "weight": "0.37 kg",
+  "base_weight": "0.37 kg",
   "grid_size": "2x1",
   "base_price": 425.0,
   "tier": 2,
@@ -1703,7 +1703,7 @@
    "Size.Small",
    "WeaponPlatform.Glock"
   ],
-  "weight": "0.28 kg",
+  "base_weight": "0.28 kg",
   "grid_size": "2x1",
   "base_price": 561.0,
   "tier": 2,
@@ -1760,7 +1760,7 @@
    "Origin.West",
    "Size.Small"
   ],
-  "weight": "0.375 kg",
+  "base_weight": "0.375 kg",
   "grid_size": "2x1",
   "base_price": 820.0,
   "tier": 4,
@@ -1814,7 +1814,7 @@
    "Origin.West",
    "Size.Small"
   ],
-  "weight": "0.375 kg",
+  "base_weight": "0.375 kg",
   "grid_size": "2x1",
   "base_price": 1450.0,
   "tier": 4,
@@ -1862,7 +1862,7 @@
    "Origin.East",
    "Boss"
   ],
-  "weight": "0.38 kg",
+  "base_weight": "0.38 kg",
   "grid_size": "2x1",
   "base_price": 850.0,
   "tier": 4,
@@ -1915,7 +1915,7 @@
    "WeaponPlatform.1911C",
    "Boss"
   ],
-  "weight": "0.349 kg",
+  "base_weight": "0.349 kg",
   "grid_size": "2x1",
   "base_price": 1020.0,
   "tier": 4,
@@ -1968,7 +1968,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.108 kg",
+  "base_weight": "0.108 kg",
   "grid_size": "2x1",
   "base_price": 391.0,
   "tier": 4,
@@ -2042,7 +2042,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.108 kg",
+  "base_weight": "0.108 kg",
   "grid_size": "2x1",
   "base_price": 750.0,
   "tier": 4,
@@ -2109,7 +2109,7 @@
    "WeaponPlatform.Glock",
    "Boss"
   ],
-  "weight": "0.37 kg",
+  "base_weight": "0.37 kg",
   "grid_size": "2x1",
   "base_price": 450.0,
   "tier": 4,
@@ -2158,7 +2158,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.198 kg",
+  "base_weight": "0.198 kg",
   "grid_size": "2x1",
   "base_price": 1190.0,
   "tier": 4,
@@ -2229,7 +2229,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.198 kg",
+  "base_weight": "0.198 kg",
   "grid_size": "2x1",
   "base_price": 1890.0,
   "tier": 4,
@@ -2291,7 +2291,7 @@
    "Size.Small",
    "WeaponPlatform.M201C"
   ],
-  "weight": "0.21 kg",
+  "base_weight": "0.21 kg",
   "grid_size": "2x1",
   "base_price": 127.0,
   "tier": 1,
@@ -2338,7 +2338,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.153 kg",
+  "base_weight": "0.153 kg",
   "grid_size": "2x1",
   "base_price": 153.0,
   "tier": 2,
@@ -2412,7 +2412,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.335 kg",
+  "base_weight": "0.335 kg",
   "grid_size": "2x1",
   "base_price": 510.0,
   "tier": 2,
@@ -2472,7 +2472,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.108 kg",
+  "base_weight": "0.108 kg",
   "grid_size": "2x1",
   "base_price": 306.0,
   "tier": 3,
@@ -2546,7 +2546,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.108 kg",
+  "base_weight": "0.108 kg",
   "grid_size": "2x1",
   "base_price": 306.0,
   "tier": 3,
@@ -2612,7 +2612,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.108 kg",
+  "base_weight": "0.108 kg",
   "grid_size": "2x1",
   "base_price": 510.0,
   "tier": 3,
@@ -2678,7 +2678,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.108 kg",
+  "base_weight": "0.108 kg",
   "grid_size": "2x1",
   "base_price": 510.0,
   "tier": 3,
@@ -2744,7 +2744,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.108 kg",
+  "base_weight": "0.108 kg",
   "grid_size": "2x1",
   "base_price": 510.0,
   "tier": 3,
@@ -2810,7 +2810,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.24 kg",
+  "base_weight": "0.24 kg",
   "grid_size": "2x1",
   "base_price": 680.0,
   "tier": 3,
@@ -2886,7 +2886,7 @@
    "Size.Small",
    "WeaponPlatform.AR15"
   ],
-  "weight": "0.24 kg",
+  "base_weight": "0.24 kg",
   "grid_size": "2x1",
   "base_price": 680.0,
   "tier": 3,
@@ -2953,7 +2953,7 @@
    "Size.Small",
    "WeaponPlatform.M9A1"
   ],
-  "weight": "0.29 kg",
+  "base_weight": "0.29 kg",
   "grid_size": "2x1",
   "base_price": 340.0,
   "tier": 1,
@@ -2998,7 +2998,7 @@
    "Size.Small",
    "WeaponPlatform.MP5"
   ],
-  "weight": "0.58 kg",
+  "base_weight": "0.58 kg",
   "grid_size": "3x1",
   "base_price": 289.0,
   "tier": 1,
@@ -3075,7 +3075,7 @@
    "Size.Small",
    "WeaponPlatform.MP5"
   ],
-  "weight": "0.62 kg",
+  "base_weight": "0.62 kg",
   "grid_size": "3x1",
   "base_price": 612.0,
   "tier": 2,
@@ -3153,7 +3153,7 @@
    "Size.Small",
    "WeaponPlatform.Glock"
   ],
-  "weight": "0.37 kg",
+  "base_weight": "0.37 kg",
   "grid_size": "2x1",
   "base_price": 1360.0,
   "tier": 4,
@@ -3216,7 +3216,7 @@
    "Origin.East",
    "Boss"
   ],
-  "weight": "0.21 kg",
+  "base_weight": "0.21 kg",
   "grid_size": "2x1",
   "base_price": 254.0,
   "tier": 4,
@@ -3266,7 +3266,7 @@
    "Size.Small",
    "WeaponPlatform.Glock"
   ],
-  "weight": "0.33 kg",
+  "base_weight": "0.33 kg",
   "grid_size": "2x1",
   "base_price": 850.0,
   "tier": 3,
@@ -3320,7 +3320,7 @@
    "Size.Small",
    "WeaponPlatform.AK"
   ],
-  "weight": "0.194 kg",
+  "base_weight": "0.194 kg",
   "grid_size": "2x1",
   "base_price": 850.0,
   "tier": 4,
@@ -3391,7 +3391,7 @@
    "Size.Small",
    "WeaponPlatform.AK"
   ],
-  "weight": "0.194 kg",
+  "base_weight": "0.194 kg",
   "grid_size": "2x1",
   "base_price": 850.0,
   "tier": 4,
@@ -3454,7 +3454,7 @@
    "Size.Small",
    "WeaponPlatform.AK"
   ],
-  "weight": "0.194 kg",
+  "base_weight": "0.194 kg",
   "grid_size": "2x1",
   "base_price": 1650.0,
   "tier": 4,
@@ -3516,7 +3516,7 @@
    "Origin.West",
    "Size.Small"
   ],
-  "weight": "0.2 kg",
+  "base_weight": "0.2 kg",
   "grid_size": "2x1",
   "base_price": 340.0,
   "tier": 2,
@@ -3561,7 +3561,7 @@
    "Origin.West",
    "Size.Small"
   ],
-  "weight": "0.275 kg",
+  "base_weight": "0.275 kg",
   "grid_size": "2x1",
   "base_price": 595.0,
   "tier": 3,
@@ -3620,7 +3620,7 @@
    "Origin.West",
    "Size.Small"
   ],
-  "weight": "0.275 kg",
+  "base_weight": "0.275 kg",
   "grid_size": "2x1",
   "base_price": 1300.0,
   "tier": 3,
@@ -3671,7 +3671,7 @@
    "Origin.West",
    "Size.Small"
   ],
-  "weight": "0.275 kg",
+  "base_weight": "0.275 kg",
   "grid_size": "2x1",
   "base_price": 595.0,
   "tier": 3,
@@ -3723,7 +3723,7 @@
    "Size.Small",
    "WeaponPlatform.MCX"
   ],
-  "weight": "0.7 kg",
+  "base_weight": "0.7 kg",
   "grid_size": "2x1",
   "base_price": 935.0,
   "tier": 3,
@@ -3799,7 +3799,7 @@
    "Size.Small",
    "WeaponPlatform.MCX"
   ],
-  "weight": "0.7 kg",
+  "base_weight": "0.7 kg",
   "grid_size": "2x1",
   "base_price": 935.0,
   "tier": 3,
@@ -3867,7 +3867,7 @@
    "Size.Small",
    "WeaponPlatform.MCX"
   ],
-  "weight": "0.7 kg",
+  "base_weight": "0.7 kg",
   "grid_size": "2x1",
   "base_price": 1600.0,
   "tier": 3,
@@ -3935,7 +3935,7 @@
    "Size.Middle",
    "WeaponPlatform.SVD"
   ],
-  "weight": "0.09 kg",
+  "base_weight": "0.09 kg",
   "grid_size": "1x1",
   "base_price": 680.0,
   "tier": 4,
@@ -3980,7 +3980,7 @@
    "Size.Middle",
    "WeaponPlatform.SVD"
   ],
-  "weight": "0.09 kg",
+  "base_weight": "0.09 kg",
   "grid_size": "1x1",
   "base_price": 1580.0,
   "tier": 4,
@@ -4017,7 +4017,7 @@
    "Size.Small",
    "WeaponPlatform.SVD"
   ],
-  "weight": "0.256 kg",
+  "base_weight": "0.256 kg",
   "grid_size": "2x1",
   "base_price": 595.0,
   "tier": 3,
@@ -4061,7 +4061,7 @@
    "Size.Small",
    "WeaponPlatform.TT"
   ],
-  "weight": "0.21 kg",
+  "base_weight": "0.21 kg",
   "grid_size": "2x1",
   "base_price": 127.0,
   "tier": 1,
@@ -4110,7 +4110,7 @@
    "Size.Small",
    "WeaponPlatform.TT"
   ],
-  "weight": "0.21 kg",
+  "base_weight": "0.21 kg",
   "grid_size": "2x1",
   "base_price": 127.0,
   "tier": 1,
@@ -4159,7 +4159,7 @@
    "Size.Small",
    "WeaponPlatform.Glock"
   ],
-  "weight": "0.29 kg",
+  "base_weight": "0.29 kg",
   "grid_size": "2x1",
   "base_price": 765.0,
   "tier": 2,
@@ -4221,7 +4221,7 @@
    "Size.Small",
    "WeaponPlatform.UMP"
   ],
-  "weight": "2 kg",
+  "base_weight": "2 kg",
   "grid_size": "2x1",
   "base_price": 750.0,
   "tier": 2,
@@ -4276,7 +4276,7 @@
    "Size.Small",
    "WeaponPlatform.UMP"
   ],
-  "weight": "2 kg",
+  "base_weight": "2 kg",
   "grid_size": "2x1",
   "base_price": 750.0,
   "tier": 2,
@@ -4332,7 +4332,7 @@
    "Origin.East",
    "Boss"
   ],
-  "weight": "0.349 kg",
+  "base_weight": "0.349 kg",
   "grid_size": "2x1",
   "base_price": 1020.0,
   "tier": 4,
@@ -4385,7 +4385,7 @@
    "Size.Small",
    "WeaponPlatform.Glock"
   ],
-  "weight": "0.33 kg",
+  "base_weight": "0.33 kg",
   "grid_size": "2x1",
   "base_price": 884.0,
   "tier": 3,
