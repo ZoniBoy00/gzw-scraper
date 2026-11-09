@@ -182,10 +182,12 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REVIEW_REASONS: ${{ steps.review.outputs.reasons }}
+          STEP_RESULTS: ${{ toJSON(steps) }}
         run: |
+          failed_steps=$(python -c 'import json, os; print(", ".join(name for name, step in json.loads(os.environ["STEP_RESULTS"]).items() if step.get("outcome") == "failure") or "none")')
           run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
-          printf 'Automated scraper run needs attention.\n\n- Run: %s\n- Artifact: scrape-report-%s\n- Review signals: %s\n' \
-            "$run_url" "$GITHUB_RUN_NUMBER" "${REVIEW_REASONS:-workflow step failed before report classification}" \
+          printf 'Automated scraper run needs attention.\n\n- Run: %s\n- Artifact: scrape-report-%s\n- Failed steps: %s\n- Review signals: %s\n' \
+            "$run_url" "$GITHUB_RUN_NUMBER" "$failed_steps" "${REVIEW_REASONS:-workflow step failed before report classification}" \
             > scrape-notice.md
 
           title='[scrape-monitor] Scraper run needs attention'

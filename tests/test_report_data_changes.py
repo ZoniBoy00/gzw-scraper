@@ -127,7 +127,7 @@ def test_build_report_counts_log_signals(tmp_path):
 
     report = build_report(before, after, log)
 
-    assert report["log"] == {"errors": 1, "warnings": 1, "rate_limits": 2}
+    assert report["log"] == {"errors": 1, "warnings": 1, "rate_limits": 1}
 
 
 def test_review_reasons_holds_only_actionable_signals():
@@ -156,3 +156,11 @@ def test_review_reasons_holds_only_actionable_signals():
 
 def test_review_reasons_handles_malformed_report():
     assert review_reasons({"files": [], "log": [], "datasets": []}) == ["scrape report is missing or malformed"]
+
+
+def test_log_signals_count_each_line_once(tmp_path):
+    log = tmp_path / "scrape.log"
+    log.write_text("2026-11-09 12:00:00,429 [INFO] done\n[ERROR] \u274c save blocked\n[WARNING] \u26a0 rate limit 429\n", encoding="utf-8")
+    assert build_report(tmp_path / "before", tmp_path / "after", log)["log"] == {
+        "errors": 1, "warnings": 1, "rate_limits": 1,
+    }

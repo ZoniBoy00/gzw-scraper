@@ -1108,3 +1108,16 @@ def test_build_vendor_stock_reads_level_style_ranks():
     assert rows["Lunch Meat"]["rank"] == 3 and rows["Lunch Meat"]["vendor"] == "Lab Rat"
     assert rows["Multitool"]["rank"] == 1 and rows["Multitool"]["vendor"] == "Handshake"
 
+
+
+@pytest.mark.parametrize("use_defaults", [False, True])
+def test_reorganized_categories_merge_into_existing_datasets(tmp_path, monkeypatch, use_defaults):
+    cfg = scrape.load_config(tmp_path / "missing.toml") if use_defaults else scrape.load_config()
+    monkeypatch.setattr(pipeline, "CATEGORY_TO_FILENAME", cfg["category_to_filename"])
+    assert pipeline.get_output_filename("Backpack") == "backpacks.json"
+    assert pipeline.get_output_filename("Belt") == "belts.json"
+    records = []
+    for category in ("Medical Item", "Bandage", "Pill", "Splint", "Surgery Kit", "Syringe", "Stimulator", "Tourniquet"):
+        assert pipeline.get_output_filename(category) == "medical.json"
+        records = storage.merge_items(records, [{"name": category, "id": category}])
+    assert len(records) == 8

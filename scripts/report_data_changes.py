@@ -197,9 +197,9 @@ def build_report(before_dir: Path, after_dir: Path, log_path: Path | None = None
             ).items())),
         },
         "log": {
-            "errors": len(re.findall(r"\bERROR\b|❌", log_text)),
-            "warnings": len(re.findall(r"\bWARNING\b|⚠️", log_text)),
-            "rate_limits": len(re.findall(r"429|rate.?limit", log_text, re.IGNORECASE)),
+            "errors": sum(bool(re.search(r"\bERROR\b|❌", line)) for line in log_text.splitlines()),
+            "warnings": sum(bool(re.search(r"\bWARNING\b|⚠️?", line)) for line in log_text.splitlines()),
+            "rate_limits": sum(bool(re.search(r"(?<![\d.,])429(?![\d.])|rate.?limit", line, re.IGNORECASE)) for line in log_text.splitlines()),
         },
     }
     return report
