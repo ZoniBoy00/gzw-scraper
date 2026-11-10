@@ -26,6 +26,8 @@ def sanitize_value(value: str) -> str:
     # Fix duplicated units: "0.01 kgkg" → "0.01 kg", "830 m/s m/s" → "830 m/s"
     v = re.sub(r"\b(kg|g|lb|oz)\1\b", r"\1", v, flags=re.IGNORECASE)
     v = re.sub(r"\b(m/s)\s*\1\b", r"\1", v, flags=re.IGNORECASE)
+    # Collapse duplicated seconds only in complete numeric duration values.
+    v = re.sub(r"^(\d+(?:\.\d+)?)\s*s(?:\s*s)+$", r"\1s", v, flags=re.IGNORECASE)
     # Fix double percent: "+3% %" → "+3%", "-2% %" → "-2%"
     v = re.sub(r"%(\s*%)+", "%", v)
     # Remove trailing/leading whitespace again after fixes
@@ -139,6 +141,7 @@ def parse_infobox(soup: Optional[bs4.BeautifulSoup]) -> Dict[str, str]:
                     value = sanitize_value(value)
                     if label == "type":
                         value = INFOBOX_TYPE_ALIASES.get(value, value)
+                    label = {"armor_class": "nij_class", "inventory_layout_(x/y)": "grid_size"}.get(label, label)
                     data[label] = value
             except Exception as exc:
                 logger.debug("Skipping unparsable infobox row: %s", exc)

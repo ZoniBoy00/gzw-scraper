@@ -20,6 +20,13 @@ except ImportError:  # pragma: no cover
     tqdm = None  # type: ignore[assignment]
 
 from gzw_scraper import community_prices, game_data_corrections, game_datasets, network, parsing, storage
+from gzw_scraper.publication import (
+    canonical_name,
+    fill_provision_totals,
+    fill_shared_sell_prices,
+    load_published_wiki_data,
+    preserve_record_ids,
+)
 from scripts.generate_metadata import PARSER_REVISION, SCRAPER_VERSION, write_metadata
 
 logger = logging.getLogger("gzw-scraper")
@@ -238,17 +245,25 @@ def scrape_trading_vendors() -> List[Dict[str, Any]]:
 
 
 def build_vendor_stock(
-    datasets: Dict[str, List[Dict[str, Any]]], vendor_names: Optional[Set[str]] = None
+    datasets: Dict[str, List[Dict[str, Any]]], vendor_names: Optional[Set[str]] = None,
+    previous_stock: Optional[List[Dict[str, Any]]] = None,
+    preferred_datasets: Optional[Set[str]] = None,
 ) -> List[Dict[str, Any]]:
     """Flatten every item's ``sold_by`` ('Gunny R.2', 'Gunny R.1, Artisan R.2') into one row per vendor and item.
 
     Rows without a real vendor ('Loot only', '???') are skipped. When ``vendor_names``
     is given, only those vendors are kept so stray labels never become vendors.
     """
+    previous_ids: Dict[Tuple[str, str], Set[str]] = {}
+    for row in previous_stock or []:
+        if all(isinstance(row.get(field), str) for field in ("vendor", "item", "id")):
+            previous_ids.setdefault((row["vendor"].casefold(), canonical_name(row["item"])), set()).add(row["id"])
     known = {name.casefold() for name in vendor_names} if vendor_names else None
     rows: List[Dict[str, Any]] = []
     seen: Set[Tuple[str, str]] = set()
-    for filename, items in sorted(datasets.items()):
+    seen_items: Set[str] = set()
+    ordered = sorted(datasets.items(), key=lambda pair: (pair[0] not in (preferred_datasets or set()), pair[0]))
+    for filename, items in ordered:
         category = Path(filename).stem
         if category in VENDOR_STOCK_EXCLUDED:
             continue
@@ -257,6 +272,10 @@ def build_vendor_stock(
             item_name = item.get("name")
             if not isinstance(sold_by, str) or not isinstance(item_name, str):
                 continue
+            item_key = canonical_name(item_name)
+            if item_key in seen_items:
+                continue
+            seen_items.add(item_key)
             # Infobox line breaks flatten to spaces, e.g. "Handshake R.4 Looting".
             # Treat loot availability as a separator so it cannot hide a vendor.
             for part in re.split(r"[,/]|\b(?:looting|loot\s+only)\b", sold_by, flags=re.IGNORECASE):
@@ -280,6 +299,9 @@ def build_vendor_stock(
                     "rank": int(match.group(2)) if match.group(2) else None,
                     "category": category,
                 }
+                old_ids = previous_ids.get((vendor.casefold(), canonical_name(item_name)), set())
+                if len(old_ids) == 1:
+                    row["id"] = next(iter(old_ids))
                 for optional in ("type", "buy_price"):
                     if item.get(optional):
                         row[optional] = item[optional]
@@ -673,6 +695,11 @@ def run_full_scrape() -> bool:
     if filled_prices:
         logger.info("Filled %d missing sell prices from %s", filled_prices, community_prices.SOURCE)
 
+    # Stabilize reviewed IDs before applying corrections keyed by those IDs.
+    previous = load_published_wiki_data(storage.OUTPUT_DIR)
+    for filename, items in merged.items():
+        preserve_record_ids(items, previous.get(filename, []))
+
     # Replace stale wiki values with reviewed values from the game files (only while the wiki still holds the observed stale value).
     corrected, correction_skipped, correction_missing = game_data_corrections.apply_corrections(merged)
     if corrected or correction_skipped or correction_missing:
@@ -681,15 +708,10 @@ def run_full_scrape() -> bool:
             corrected, correction_skipped, correction_missing,
         )
 
-    # Vendor inventories come from the items' own sold_by fields, once every dataset is complete.
-    vendor_names = {str(v.get("name")) for v in merged.get("vendors.json", []) if v.get("name")}
-    vendor_stock = build_vendor_stock(merged, vendor_names or None)
-    if vendor_stock:
-        merged["vendor_stock.json"] = vendor_stock
-        logger.info("Vendor stock: %d vendor/item rows", len(vendor_stock))
+    fill_shared_sell_prices(merged)
+    fill_provision_totals(merged)
 
-    # Complete item datasets read from the game files, published beside the wiki datasets (never replacing them).
-    # Added after vendor_stock is built so their own vendor lists do not duplicate the wiki-derived rows.
+    # Publish game-file datasets beside the wiki datasets.
     added_game_datasets = game_datasets.apply_datasets(merged)
     if added_game_datasets:
         logger.info("Added %d game-file item datasets", added_game_datasets)
@@ -715,6 +737,18 @@ def run_full_scrape() -> bool:
         if storage.safe_save(filename, items, prev_count, force=FORCE_SAVE):
             saved_count += 1
             updated_datasets.add(Path(filename).stem)
+
+    # Derive inventories from what was actually published, including retained datasets
+    # and datasets whose replacement was rejected by the drop guard.
+    published = load_published_wiki_data(storage.OUTPUT_DIR)
+    previous_stock = published.get("vendor_stock.json", [])
+    vendor_names = {str(v["name"]) for v in published.get("vendors.json", []) if v.get("name")}
+    vendor_stock = build_vendor_stock(published, vendor_names or None, previous_stock, {f"{name}.json" for name in updated_datasets})
+    if vendor_stock:
+        total_files += 1
+        if storage.safe_save("vendor_stock.json", vendor_stock, previous_counts.get("vendor_stock.json"), force=FORCE_SAVE):
+            saved_count += 1
+            updated_datasets.add("vendor_stock")
 
     # Save per-category task files (main_task.json, side_task.json)
     for filename, items in task_split.items():

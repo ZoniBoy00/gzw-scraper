@@ -128,6 +128,7 @@ DEFAULT_CONFIG: Dict[str, Any] = {
         "Task Item": "task_items",
         "Repair Kits": "repair_kits",
         "Medical Item": "medical",
+        "IV": "medical",
         "Backpack": "backpacks",
         "Belt": "belts",
         "Bandage": "medical",

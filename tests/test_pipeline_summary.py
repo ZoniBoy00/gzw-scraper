@@ -3,7 +3,8 @@ from __future__ import annotations
 from gzw_scraper import game_data_corrections, game_datasets, network, pipeline
 
 
-def test_full_scrape_summary_counts_split_task_files(monkeypatch):
+def test_full_scrape_summary_counts_split_task_files(monkeypatch, tmp_path):
+    monkeypatch.setattr(pipeline.storage, "OUTPUT_DIR", tmp_path)
     categories = [
         {"title": "Main task", "pages": 1},
         {"title": "Side task", "pages": 1},
