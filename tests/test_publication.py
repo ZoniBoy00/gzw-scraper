@@ -65,7 +65,7 @@ def test_shared_current_prices_fill_gaps_without_overwriting_or_guessing():
 
 
 def test_provision_totals_require_current_unambiguous_inputs():
-    datasets = {"food.json": [{"name": "Chews", "charges": "3", "grid_size": "1x1"}], "provisions.json": [{"name": "Chews", "energy": "+5"}, {"name": "Missing", "energy": "+10"}]}
+    datasets = {"food.json": [{"name": "Chews", "charges": "3", "grid_size": "1x1", "energy_per_charge": "+5"}], "provisions.json": [{"name": "Chews", "energy": "+5"}, {"name": "Missing", "energy": "+10"}]}
     publication.fill_provision_totals(datasets)
     assert datasets["provisions.json"][0]["total_energy_per_grid"] == "+15"
     assert "total_energy_per_grid" not in datasets["provisions.json"][1]
@@ -107,3 +107,49 @@ def test_game_file_identifiers_are_not_rewritten(tmp_path, monkeypatch):
     (tmp_path / "gamedata_test.json").write_text(json.dumps([{"name": "Example", "id": "IS_Old"}]), encoding="utf-8")
     assert storage.safe_save("gamedata_test.json", [{"name": "Example", "id": "IS_New"}], 1)
     assert json.loads((tmp_path / "gamedata_test.json").read_text())[0]["id"] == "IS_New"
+
+
+@pytest.mark.parametrize("old_name,new_name,old_id", [("Hyperborea Cigarettes", "Noir Mist Cigarettes", "hyperborea-cigarettes"), ("LSHZ 1+ (Black)", "LShZ 1+", "lshz-1+-black")])
+def test_game_confirmed_renames_keep_public_ids(old_name, new_name, old_id):
+    records = [{"name": new_name, "id": "new-id"}]
+    publication.preserve_record_ids(records, [{"name": old_name, "id": old_id}])
+    assert records[0]["id"] == old_id
+
+
+def test_liquid_capacity_is_not_multiplied_by_listing_hydration():
+    datasets = {"drink.json": [{"name": "Riminda", "charges": "200", "grid_size": "1x2"}], "provisions.json": [{"name": "Riminda", "hydration": "+200", "total_hydration_per_grid": "+20000", "total_hydration_per_grid_source": "computed-from-current-nutrition"}]}
+    publication.fill_provision_totals(datasets)
+    assert "total_hydration_per_grid" not in datasets["provisions.json"][0]
+    assert "total_hydration_per_grid_source" not in datasets["provisions.json"][0]
+
+
+def test_explicit_per_charge_values_win_over_stale_listing_values():
+    datasets = {"food.json": [{"name": "Food", "charges": "3", "grid_size": "1x2", "energy_per_charge": "+5", "hydratation_per_charge": "-2"}], "provisions.json": [{"name": "Food", "energy": "+999", "hydration": "+999"}]}
+    publication.fill_provision_totals(datasets)
+    assert datasets["provisions.json"][0]["total_energy_per_grid"] == "+7.5"
+    assert datasets["provisions.json"][0]["total_hydration_per_grid"] == "-3"
+    datasets["provisions.json"][0]["total_energy_per_grid"] = "+8"
+    datasets["provisions.json"][0].pop("total_energy_per_grid_source")
+    publication.fill_provision_totals(datasets)
+    assert datasets["provisions.json"][0]["total_energy_per_grid"] == "+8"
+
+
+def test_safe_save_refreshes_preserved_medical_summary(tmp_path, monkeypatch):
+    monkeypatch.setattr(storage, "OUTPUT_DIR", tmp_path)
+    monkeypatch.setattr(storage, "BACKUP_DIR", tmp_path / "backup")
+    (tmp_path / "medical.json").write_text(json.dumps([{"name": "Ibalin", "id": "ibalin", "effect": "150s Duration: Efficiency: +33%"}]), encoding="utf-8")
+    assert storage.safe_save("medical.json", [{"name": "Ibalin", "id": "ibalin", "duration": "300s", "pain": "-50"}])
+    record = json.loads((tmp_path / "medical.json").read_text())[0]
+    assert record["effect"] == "pain: -50; duration: 300s"
+    assert record["duration"] == "300s"
+
+
+def test_safe_save_does_not_restore_rejected_computed_totals(tmp_path, monkeypatch):
+    monkeypatch.setattr(storage, "OUTPUT_DIR", tmp_path)
+    monkeypatch.setattr(storage, "BACKUP_DIR", tmp_path / "backup")
+    old = [{"name": "Riminda", "id": "riminda", "hydration": "+200", "total_hydration_per_grid": "+20000", "total_hydration_per_grid_source": "computed-from-current-nutrition"}]
+    (tmp_path / "provisions.json").write_text(json.dumps(old), encoding="utf-8")
+    assert storage.safe_save("provisions.json", [{"name": "Riminda", "id": "riminda", "hydration": "+200"}])
+    row = json.loads((tmp_path / "provisions.json").read_text())[0]
+    assert "total_hydration_per_grid" not in row
+    assert "total_hydration_per_grid_source" not in row

@@ -9,8 +9,11 @@ from pathlib import Path
 
 logger = logging.getLogger("gzw-scraper")
 
-# Reviewed renames from scrape-report-52. Do not infer identity with fuzzy matching.
+# Reviewed wiki renames; game IDs IS_Misc_HyperboreaCigarettes and
+# IS_Helmet_Lshz1_Black confirm the two display-name changes. No fuzzy matching.
 REVIEWED_RENAMES = {
+    "Hyperborea Cigarettes": "Noir Mist Cigarettes",
+    "LSHZ 1+ (Black)": "LShZ 1+",
     "Civilian Trekstars 70L Backpack": "Civilian Trekstars 70L",
     "Scorpion OCP Convoy Pack": "Scorpion OCP Convoy Pack (Coyote)",
     "Lamang Army Forces": "Lamang Armed Forces",
@@ -85,13 +88,18 @@ def fill_shared_sell_prices(datasets: dict[str, list[dict]]) -> None:
 
 
 def fill_provision_totals(datasets: dict[str, list[dict]]) -> None:
-    """Derive per-cell totals only from current nutrition, charges and grid dimensions."""
+    """Derive per-cell totals from explicit per-charge fields, never listing totals."""
     consumables: dict[str, list[dict]] = {}
     for filename in ("food.json", "drink.json"):
         for row in datasets.get(filename, []):
             if isinstance(row.get("name"), str):
                 consumables.setdefault(canonical_name(row["name"]), []).append(row)
     for record in datasets.get("provisions.json", []):
+        for nutrient in ("energy", "hydration"):
+            field = f"total_{nutrient}_per_grid"
+            if record.get(f"{field}_source") == "computed-from-current-nutrition":
+                record.pop(field, None)
+                record.pop(f"{field}_source", None)
         matches = consumables.get(canonical_name(record.get("name", "")), [])
         if len(matches) != 1:
             continue
@@ -105,7 +113,8 @@ def fill_provision_totals(datasets: dict[str, list[dict]]) -> None:
             continue
         for nutrient in ("energy", "hydration"):
             field = f"total_{nutrient}_per_grid"
-            value = str(record.get(nutrient, ""))
+            source_field = "energy_per_charge" if nutrient == "energy" else "hydratation_per_charge"
+            value = str(source.get(source_field, ""))
             if field in record or not re.fullmatch(r"[+-]?\d+(?:\.\d+)?", value):
                 continue
             total = Decimal(value) * int(charges) / cells
@@ -114,3 +123,14 @@ def fill_provision_totals(datasets: dict[str, list[dict]]) -> None:
                 text = text.rstrip("0").rstrip(".")
             record[field] = ("+" if total > 0 else "") + text
             record[f"{field}_source"] = "computed-from-current-nutrition"
+
+
+def refresh_medical_effects(items: list[dict]) -> None:
+    """Keep the legacy effect field consistent with current structured effects."""
+    effect_fields = ("effects", "intoxication", "pain", "organs", "livers", "heart", "blood", "radiations", "hydratation_per_charge")
+    for record in items:
+        effects = [f"{field}: {record[field]}" for field in effect_fields if record.get(field)]
+        if effects:
+            if record.get("duration"):
+                effects.append(f"duration: {record['duration']}")
+            record["effect"] = "; ".join(effects)
