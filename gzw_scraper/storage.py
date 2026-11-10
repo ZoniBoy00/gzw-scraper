@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 from .numeric_values import normalize_numeric_fields
-from .publication import preserve_record_ids
+from .publication import preserve_record_ids, refresh_medical_effects
 
 logger = logging.getLogger("gzw-scraper")
 
@@ -151,6 +151,12 @@ def safe_save(filename: str, items: List[Dict[str, Any]], previous_count: Option
             name: str = item.get("name", "")
             if name in old_map:
                 for key, val in old_map[name].items():
+                    # A rejected computed total must not return through stale-field preservation.
+                    if filename == "provisions.json" and (
+                        old_map[name].get(f"{key}_source") == "computed-from-current-nutrition"
+                        or (key.endswith("_source") and val == "computed-from-current-nutrition")
+                    ):
+                        continue
                     if key in item or val is None or key == "name":
                         item_state = file_state.get(name, {})
                         item_state.pop(key, None)
@@ -168,6 +174,10 @@ def safe_save(filename: str, items: List[Dict[str, Any]], previous_count: Option
                             "  %s: dropping stale field '%s' for '%s' after %d runs",
                             filename, key, name, missing_runs,
                         )
+
+    # Refresh after field preservation so old summaries cannot contradict fresh effects.
+    if filename == "medical.json":
+        refresh_medical_effects(items)
 
     # Sort items alphabetically by name for consistent ordering
     items.sort(key=lambda x: (x.get("name") or "").lower())
