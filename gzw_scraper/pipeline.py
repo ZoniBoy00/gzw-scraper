@@ -203,6 +203,22 @@ LISTING_EXTRA_COLUMNS: Dict[str, str] = {
     "total hydration / grid": "total_hydration_per_grid",
 }
 
+# Renamed listing headers that mean an existing column.
+LISTING_HEADER_ALIASES: Dict[str, str] = {
+    "price / slots": "price / grid cell",
+    "armor class (nij)": "nij",
+}
+
+
+def _normalize_listing_cell(header: str, value: str) -> Tuple[str, str]:
+    """Move a header unit such as ``Sell price ($)`` into the cell value."""
+    unit_match = re.fullmatch(r"(.*?)\s*\((\$|kg)\)", header.strip(), flags=re.IGNORECASE)
+    if unit_match:
+        header, unit = unit_match.group(1), unit_match.group(2).lower()
+        if re.fullmatch(r"[\d.,]+", value or ""):
+            value = f"${value}" if unit == "$" else f"{value} kg"
+    return LISTING_HEADER_ALIASES.get(header.lower().strip(), header), value
+
 HIDEOUT_PAGE = "Hideout"
 
 
@@ -373,9 +389,9 @@ def scrape_listing_page(
     seen_names: Set[str] = set()
 
     for row in parsing.extract_listing_rows(soup):
-        row_data: Dict[str, str] = {
-            col: val for col, val in row.items() if not col.startswith("_")
-        }
+        row_data: Dict[str, str] = dict(
+            _normalize_listing_cell(col, val) for col, val in row.items() if not col.startswith("_")
+        )
         img_url: str = row.get("_img_url", "")
         page_name: str = row.get("_page_title", "").casefold()
 

@@ -1102,6 +1102,23 @@ def test_scrape_listing_page_keeps_price_size_and_nutrition_columns(monkeypatch)
     assert items["Functional Shirt"]["requirements"] == "Handshake R.2"
 
 
+def test_scrape_listing_page_reads_unit_headers(monkeypatch):
+    html = """<html><body><table class="wikitable sortable">
+  <tr><th>Icon</th><th>Name</th><th>Size</th><th>Weight (kg)</th><th>Sell price ($)</th><th>Price / Slots ($)</th></tr>
+  <tr><td></td><td>Single Malt Scotch</td><td>1x2</td><td>2.1</td><td>5,451</td><td>2,725</td></tr>
+</table><table class="wikitable sortable">
+  <tr><th>Icon</th><th>Name</th><th>Armor Class (NIJ)</th></tr>
+  <tr><td></td><td>Specter</td><td>IIIA</td></tr>
+</table></body></html>"""
+    monkeypatch.setattr(network, "parse_page", lambda title: soup_of(html))
+    items = {item["name"]: item for item in scrape.scrape_listing_page("loot_items", "Loot")}
+    scotch = items["Single Malt Scotch"]
+    assert scotch["sell_price"] == "$5,451"
+    assert scotch["price_per_grid_cell"] == "$2,725"
+    assert scotch["weight"] == "2.1 kg"
+    assert items["Specter"]["nij_class"] == "IIIA"
+
+
 def test_build_vendor_stock_reads_level_style_ranks():
     datasets = {"provisions.json": [{"name": "Lunch Meat", "sold_by": "Lab Rat Lv.3"}], "tools.json": [{"name": "Multitool", "sold_by": "Handshake LL1"}]}
     rows = {row["item"]: row for row in pipeline.build_vendor_stock(datasets, {"Lab Rat", "Handshake"})}
