@@ -68,8 +68,7 @@ The implementation is split into the `gzw_scraper/` package by responsibility. T
 - `parsing.py` — infobox, article-section, listing-table, and Ballistics parsing
 - `storage.py` — validation, backups, drop guard, field preservation, and JSON writes
 - `pipeline.py` — category scraping and full-run orchestration
-- `game_data_corrections.py` — reviewed corrections from the game files (`custom_data/game_data_corrections.json`: stale wiki value -> game value, applied only while the wiki still holds the stale value; applied values get a `<field>_source: game-files` marker; switch off with `[game_data_corrections] enabled = false`)
-- `game_datasets.py` — complete item datasets read from the game files (`custom_data/game_items/gamedata_<category>.json`), added beside the wiki datasets and never replacing one
+- `community_prices.py` — current item values from the [GZW Items](https://gzwitems.com) API. Sell price, weight, grid size and price per grid cell win over the wiki (changed values get `<field>_source: gzwitems.com`); unmatched entries are added only for the categories under `[community_prices.add_categories]`. Switch off with `[community_prices] enabled = false`. Game-file datasets (`gamedata_*`) are no longer published and a full run removes them from the output.
 - `cli.py` — command-line argument parsing and dispatch
 
 ## Bulletproof features

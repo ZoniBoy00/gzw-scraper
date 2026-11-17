@@ -32,7 +32,7 @@ def canonical_name(name: str) -> str:
 def load_published_wiki_data(directory: Path) -> dict[str, list[dict]]:
     datasets = {}
     for path in sorted(directory.glob("*.json")):
-        if path.name.startswith(("_", "gamedata_")):
+        if path.name.startswith("_"):
             continue
         try:
             records = json.loads(path.read_text(encoding="utf-8"))
@@ -66,16 +66,12 @@ def preserve_record_ids(items: list[dict], previous: list[dict]) -> None:
 def fill_shared_sell_prices(datasets: dict[str, list[dict]]) -> None:
     """Fill gaps only from an unambiguous current price for the same wiki record."""
     index: dict[str, dict[str, dict]] = {}
-    for filename, records in datasets.items():
-        if filename.startswith("gamedata_"):
-            continue
+    for records in datasets.values():
         for record in records:
             price, name = record.get("sell_price"), record.get("name")
             if isinstance(name, str) and isinstance(price, str) and price.startswith("$"):
                 index.setdefault(canonical_name(name), {})[price] = record
-    for filename, records in datasets.items():
-        if filename.startswith("gamedata_"):
-            continue
+    for records in datasets.values():
         for record in records:
             if record.get("sell_price") or not isinstance(record.get("name"), str):
                 continue

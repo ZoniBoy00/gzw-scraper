@@ -28,10 +28,15 @@ category_page_limit = 500
 max_workers = 3
 
 [community_prices]
-# Missing sell prices are filled from the community-maintained GZW Items API (https://gzwitems.com), used with the
-# maintainers' permission. Wiki prices always win; filled values are marked with sell_price_source.
+# Current item values from the community-maintained GZW Items API (https://gzwitems.com). Its sell price, weight,
+# grid size and price per grid cell win over the wiki; changed values are marked with <field>_source.
 enabled = true
 api_url = "https://gzwitems.com/api/items"
+
+[community_prices.add_categories]
+# GZW Items categories whose unmatched entries are added as new records (category -> dataset).
+# Other unmatched entries are only logged, because they are often renamed wiki items.
+"Intel" = "intels"
 
 [output]
 # Directory for scraped JSON files

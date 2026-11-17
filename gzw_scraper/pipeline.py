@@ -19,7 +19,7 @@ try:
 except ImportError:  # pragma: no cover
     tqdm = None  # type: ignore[assignment]
 
-from gzw_scraper import community_prices, game_data_corrections, game_datasets, network, parsing, storage
+from gzw_scraper import community_prices, network, parsing, storage
 from gzw_scraper.publication import (
     canonical_name,
     fill_provision_totals,
@@ -48,6 +48,8 @@ MAX_SAFE_DEVIATION: float = 0.7
 # Set to True via --force to bypass the >70% item-drop guard in safe_save.
 FORCE_SAVE: bool = False
 DATASET_SOURCE_REVISIONS: Dict[str, Dict[str, int]] = {}
+# Datasets once read from the game files; removed from the output on a full run.
+RETIRED_DATASET_PREFIX: str = "gamedata_"
 SOURCE_REVISION_LOCK = threading.Lock()
 
 
@@ -706,31 +708,26 @@ def run_full_scrape() -> bool:
             updated = parsing.apply_ballistics_penetration(merged["ammo.json"], ballistics)
             logger.info("Applied Ballistics penetration data to %d ammo rows", updated)
 
-    # Fill missing sell prices from the community-maintained GZW Items API (wiki values always win).
-    filled_prices = community_prices.apply_prices(merged)
-    if filled_prices:
-        logger.info("Filled %d missing sell prices from %s", filled_prices, community_prices.SOURCE)
+    # Current values from the community-maintained GZW Items API win over the wiki.
+    gzw_changed, gzw_added, gzw_skipped = community_prices.apply_items(merged)
+    if gzw_changed or gzw_added or gzw_skipped:
+        logger.info(
+            "%s: %d values updated, %d records added, %d entries skipped",
+            community_prices.SOURCE, gzw_changed, gzw_added, gzw_skipped,
+        )
 
-    # Stabilize reviewed IDs before applying corrections keyed by those IDs.
+    # Keep reviewed IDs stable across runs.
     previous = load_published_wiki_data(storage.OUTPUT_DIR)
     for filename, items in merged.items():
         preserve_record_ids(items, previous.get(filename, []))
 
-    # Replace stale wiki values with reviewed values from the game files (only while the wiki still holds the observed stale value).
-    corrected, correction_skipped, correction_missing = game_data_corrections.apply_corrections(merged)
-    if corrected or correction_skipped or correction_missing:
-        logger.info(
-            "Game data corrections: %d applied, %d skipped (wiki changed), %d not found",
-            corrected, correction_skipped, correction_missing,
-        )
-
     fill_shared_sell_prices(merged)
     fill_provision_totals(merged)
 
-    # Publish game-file datasets beside the wiki datasets.
-    added_game_datasets = game_datasets.apply_datasets(merged)
-    if added_game_datasets:
-        logger.info("Added %d game-file item datasets", added_game_datasets)
+    # Game-file datasets are no longer published; drop any seeded from earlier output.
+    for path in storage.OUTPUT_DIR.glob(f"{RETIRED_DATASET_PREFIX}*.json"):
+        path.unlink()
+        logger.info("  Removed retired dataset %s", path.name)
 
     # Report articles no dataset covers, so new wiki pages never go unnoticed.
     all_titles = network.get_all_pages()

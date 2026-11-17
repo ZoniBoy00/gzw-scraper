@@ -116,8 +116,7 @@ def safe_save(filename: str, items: List[Dict[str, Any]], previous_count: Option
         except Exception:
             pass
 
-    if not filename.startswith("gamedata_"):
-        preserve_record_ids(items, old_items)
+    preserve_record_ids(items, old_items)
 
     preservation_state: Dict[str, Dict[str, Dict[str, int]]] = {}
     state_path = OUTPUT_DIR / FIELD_PRESERVATION_FILENAME

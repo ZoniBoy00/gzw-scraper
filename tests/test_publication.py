@@ -45,7 +45,6 @@ def test_inventory_uses_retained_and_guarded_data_and_fresh_records(tmp_path, mo
     assert storage.safe_save("throwables.json", old[:1], 10) is False
     (tmp_path / "face_cover.json").write_text(json.dumps([{"name": "Mask", "sold_by": "Gunny R.1"}]), encoding="utf-8")
     (tmp_path / "face_mask.json").write_text(json.dumps([{"name": "Mask", "sold_by": "Loot only"}]), encoding="utf-8")
-    (tmp_path / "gamedata_test.json").write_text(json.dumps([{"name": "Game Only", "sold_by": "Gunny R.1"}]), encoding="utf-8")
     datasets = publication.load_published_wiki_data(tmp_path)
     rows = pipeline.build_vendor_stock(datasets, {"Gunny"}, preferred_datasets={"face_mask.json"})
     assert len(rows) == 10
@@ -72,13 +71,14 @@ def test_provision_totals_require_current_unambiguous_inputs():
 
 
 def test_full_scrape_builds_inventory_after_guarded_saves(tmp_path, monkeypatch):
-    from gzw_scraper import community_prices, game_data_corrections, game_datasets, network
+    from gzw_scraper import community_prices, network
 
     monkeypatch.setattr(storage, "OUTPUT_DIR", tmp_path)
     monkeypatch.setattr(storage, "BACKUP_DIR", tmp_path / "backup")
     old = [{"name": f"Grenade {n}", "id": f"grenade-{n}", "sold_by": "Gunny R.2"} for n in range(10)]
     (tmp_path / "throwables.json").write_text(json.dumps(old), encoding="utf-8")
     (tmp_path / "vendors.json").write_text(json.dumps([{"name": "Gunny", "id": "gunny"}]), encoding="utf-8")
+    (tmp_path / "gamedata_ammo.json").write_text(json.dumps([{"name": "Retired", "id": "IS_Retired"}]), encoding="utf-8")
     monkeypatch.setattr(network, "get_all_categories", lambda: [{"name": "Throwables", "title": "Throwables", "pages": 1}])
     monkeypatch.setattr(network, "filter_game_categories", lambda categories: categories)
     monkeypatch.setattr(network, "get_all_pages", lambda: [])
@@ -92,21 +92,12 @@ def test_full_scrape_builds_inventory_after_guarded_saves(tmp_path, monkeypatch)
     monkeypatch.setattr(pipeline, "write_scrape_metadata", lambda *args, **kwargs: None)
     monkeypatch.setattr(pipeline, "tqdm", None)
     monkeypatch.setattr(community_prices, "ENABLED", False)
-    monkeypatch.setattr(game_data_corrections, "ENABLED", False)
-    monkeypatch.setattr(game_datasets, "ENABLED", False)
     pipeline.run_full_scrape()
     assert len(json.loads((tmp_path / "throwables.json").read_text())) == 10
+    assert not (tmp_path / "gamedata_ammo.json").exists()
     inventory = json.loads((tmp_path / "vendor_stock.json").read_text())
     assert len(inventory) == 10
     assert {row["vendor"] for row in inventory} == {"Gunny"}
-
-
-def test_game_file_identifiers_are_not_rewritten(tmp_path, monkeypatch):
-    monkeypatch.setattr(storage, "OUTPUT_DIR", tmp_path)
-    monkeypatch.setattr(storage, "BACKUP_DIR", tmp_path / "backup")
-    (tmp_path / "gamedata_test.json").write_text(json.dumps([{"name": "Example", "id": "IS_Old"}]), encoding="utf-8")
-    assert storage.safe_save("gamedata_test.json", [{"name": "Example", "id": "IS_New"}], 1)
-    assert json.loads((tmp_path / "gamedata_test.json").read_text())[0]["id"] == "IS_New"
 
 
 @pytest.mark.parametrize("old_name,new_name,old_id", [("Hyperborea Cigarettes", "Noir Mist Cigarettes", "hyperborea-cigarettes"), ("LSHZ 1+ (Black)", "LShZ 1+", "lshz-1+-black")])
