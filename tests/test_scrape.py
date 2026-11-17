@@ -467,6 +467,7 @@ def test_listing_page_configures_vest_and_plate_carrier_rating_fields():
     ]
     assert cfg["listing_page_only"]["datasets"] == ["provisions"]
     assert cfg["category_index_pages"]["Armor Vest"] == "Armor Vests"
+    assert cfg["category_index_pages"]["Container"] == "Containers"
 
 
 def test_scrape_listing_page_skips_tables_without_name_or_icon(monkeypatch):
@@ -1121,3 +1122,20 @@ def test_reorganized_categories_merge_into_existing_datasets(tmp_path, monkeypat
         assert pipeline.get_output_filename(category) == "medical.json"
         records = storage.merge_items(records, [{"name": category, "id": category}])
     assert len(records) == 8
+    singular = {
+        "Barrel": "barrels", "Container": "containers", "Firearm": "weapons", "Foregrip": "foregrips",
+        "Gas Block": "gas_blocks", "Headset": "headsets", "Pistol Grip": "pistol_grips", "Tactical Rig": "rigs",
+    }
+    for category, dataset in singular.items():
+        assert pipeline.get_output_filename(category) == dataset + ".json"
+
+
+def test_parse_infobox_ignores_label_tooltips():
+    soup = bs4.BeautifulSoup(
+        '<aside class="portable-infobox"><div class="pi-item pi-data">'
+        '<h3 class="pi-data-label"><div class="advanced-tooltip">Sound Amplification'
+        '<div class="tooltip-contents mobile-hidden">Displays the perceived increase.</div></div></h3>'
+        '<div class="pi-data-value">4.9</div></div></aside>',
+        "html.parser",
+    )
+    assert scrape.parse_infobox(soup) == {"sound_amplification": "4.9"}

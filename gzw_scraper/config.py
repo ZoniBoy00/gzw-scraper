@@ -138,6 +138,14 @@ DEFAULT_CONFIG: Dict[str, Any] = {
         "Syringe": "medical",
         "Stimulator": "medical",
         "Tourniquet": "medical",
+        "Barrel": "barrels",
+        "Container": "containers",
+        "Firearm": "weapons",
+        "Foregrip": "foregrips",
+        "Gas Block": "gas_blocks",
+        "Headset": "headsets",
+        "Pistol Grip": "pistol_grips",
+        "Tactical Rig": "rigs",
         "Tool": "tools",
         "Muzzle Devices": "muzzle_devices",
         "Stock Adapters": "stock_adapters",
@@ -187,6 +195,7 @@ DEFAULT_CONFIG: Dict[str, Any] = {
     },
     "category_index_pages": {
         "Armor Vest": "Armor Vests",
+        "Container": "Containers",
     },
 }
 

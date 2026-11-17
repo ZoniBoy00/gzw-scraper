@@ -136,7 +136,9 @@ def parse_infobox(soup: Optional[bs4.BeautifulSoup]) -> Dict[str, str]:
                 label_el = data_item.find("h3", class_="pi-data-label")
                 value_el = data_item.find("div", class_="pi-data-value")
                 if label_el and value_el:
-                    label: str = label_el.get_text(" ", strip=True).lower().replace(" ", "_")
+                    # Hover tooltips sit inside the label; keep only the label text.
+                    label_parts = [s.strip() for s in label_el.find_all(string=True) if not s.find_parent(class_="tooltip-contents")]
+                    label: str = " ".join(p for p in label_parts if p).lower().replace(" ", "_")
                     value: str = value_el.get_text(" ", strip=True)
                     value = sanitize_value(value)
                     if label == "type":

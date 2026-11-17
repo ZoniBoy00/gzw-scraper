@@ -139,6 +139,14 @@ titles = [
 "Syringe" = "medical"
 "Stimulator" = "medical"
 "Tourniquet" = "medical"
+"Barrel" = "barrels"
+"Container" = "containers"
+"Firearm" = "weapons"
+"Foregrip" = "foregrips"
+"Gas Block" = "gas_blocks"
+"Headset" = "headsets"
+"Pistol Grip" = "pistol_grips"
+"Tactical Rig" = "rigs"
 "Tool" = "tools"
 "Muzzle Devices" = "muzzle_devices"
 "Stock Adapters" = "stock_adapters"
@@ -278,4 +286,5 @@ datasets = ["provisions"]
 [category_index_pages]
 # The category is singular on the wiki, but its index article uses the plural.
 "Armor Vest" = "Armor Vests"
+"Container" = "Containers"
 
