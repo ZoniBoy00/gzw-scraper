@@ -4,7 +4,7 @@ This roadmap covers the `gzw-scraper` repository: wiki discovery, parsing, valid
 
 ## Current status
 
-- **Version:** `4.6.1`
+- **Version:** `5.0.0`
 - **Runtime:** Python 3.11+
 - **Source:** GZW Fandom Wiki
 - **Tests:** see the latest CI run; test counts are not maintained as static roadmap data
@@ -22,7 +22,7 @@ These are planning milestones, not promises to run live scrapes or publish data 
 - [x] Deterministic metadata and machine-readable scrape reporting.
 - [x] Reviewed data handoff and snapshot recording for `gzw-data`.
 
-The current scraper version is `4.6.1`; `4.1.0` is the previous parser-reliability milestone.
+The current scraper version is `5.0.0`; `4.1.0` is the previous parser-reliability milestone.
 
 ### `4.1.0` — parser reliability
 
@@ -92,6 +92,13 @@ The current scraper version is `4.6.1`; `4.1.0` is the previous parser-reliabili
 - [x] Keep the version in `gzw_scraper/_version.py`; `pyproject.toml`, the CLI, logs, metadata and the user agent derive from it.
 - [x] Log previously silent parser and counting exceptions at debug level.
 - [x] Document which `_metadata.json` and `_manifest.json` fields are stable for consumers.
+
+### `5.0.0` — GZW Items as the item source
+
+- [x] Stop publishing the out-of-date game-file datasets (`gamedata_*`) and game-file corrections. **Breaking:** those datasets leave the output.
+- [x] Take sell price, weight, grid size and price per grid cell from gzwitems.com over the wiki, marked with `<field>_source`.
+- [x] Add unmatched GZW Items Intel entries to `intels`; log other unmatched entries for review.
+- [x] Merge the singular wiki categories (Barrel, Firearm, Headset, ...) into the existing datasets and read unit-bearing listing headers.
 
 ### `5.0.0` — breaking output contract, only if required
 

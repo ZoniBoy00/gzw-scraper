@@ -5,6 +5,8 @@
 [![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Donate](https://img.shields.io/badge/donate-Buy%20me%20a%20coffee-f0b429?logo=buymeacoffee)](https://buymeacoffee.com/zoniboy00)
 
+**v5.0.0 — GZW Items as the item source.** The out-of-date game-file datasets (`gamedata_*`) and corrections are gone; gzwitems.com now supplies sell price, weight, grid size and price per grid cell over the wiki. **Breaking:** `gamedata_*` datasets are no longer published.
+
 **v4.6.1 — rate-limit handling and single-source versioning.** HTTP 429 responses now honour `Retry-After`, the final failed attempt no longer waits needlessly, and the scraper version lives in one file (`gzw_scraper/_version.py`). No change to the generated data format.
 
 **v4.6.0 — numeric projections and reviewed data handoff.** Adds optional unit-bearing `numeric_values` without changing source fields, and routes scraper updates to `gzw-data` through a reviewable pull request. Failed or anomalous runs now produce a report artifact and attention alert for follow-up.
