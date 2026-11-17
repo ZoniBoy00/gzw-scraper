@@ -22,7 +22,7 @@ def test_gzwitems_values_win_and_mark_their_source():
     changed, added, skipped = cp.apply_items(datasets, [
         entry("morphine", 8000, sellPricePerSlot=2000, weight=5.5, gridSize="2x2"),
         entry("camera", 150, sellPricePerSlot=150, weight=0.35, gridSize="1x1"),
-        entry("beans", 1250.4, weight=0.4),
+        entry("beans", 1250, weight=0.4),
     ])
     rows = {r["id"]: r for r in datasets["loot_items.json"]}
     assert (changed, added, skipped) == (4, 0, 0)
@@ -35,6 +35,13 @@ def test_gzwitems_values_win_and_mark_their_source():
     assert rows["camera"] == {"id": "camera", "name": "Camera", "sell_price": "$150", "weight": "0.35kg"}
     assert rows["beans"] == {"id": "beans", "name": "Beans", "sell_price": "$1,250", "sell_price_source": "gzwitems.com"}
     assert "sell_price" not in rows["unknown"]
+
+
+def test_fractional_ammo_prices_keep_their_decimals():
+    datasets = {"ammo.json": [{"id": "fmj", "name": "FMJ"}]}
+    cp.apply_items(datasets, [entry("fmj", 0.2)])
+    assert datasets["ammo.json"][0]["sell_price"] == "$0.2"
+    assert cp.format_price(26844.3) == "$26,844.3" and cp.format_price(1250.0) == "$1,250"
 
 
 def test_matches_ids_that_differ_only_in_punctuation_and_falls_back_to_the_name():

@@ -74,8 +74,8 @@ def _index(entries: List[Dict[str, Any]]) -> Dict[str, Dict[str, Dict[str, Any]]
 
 
 def format_price(price: float) -> str:
-    """Format like the wiki does, for example ``$5,451``."""
-    return f"${round(price):,}"
+    """Format like the wiki does, for example ``$5,451``; per-round ammo prices keep their decimals (``$0.4``)."""
+    return f"${int(price):,}" if float(price).is_integer() else f"${round(price, 2):,}"
 
 
 def format_weight(weight: float) -> str:
