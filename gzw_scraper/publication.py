@@ -22,6 +22,10 @@ REVIEWED_RENAMES = {
     "6B23-1(Flora)": "6B23-1 (Flora)",
     "SK-S Ballistic Vest": "SK-S Vest",
     "Mich TC-2000 (Ranger Green)": "MICH TC-2000 (Green)",
+    # Wiki renames that match the gzwitems.com names.
+    "9x19mm Xtreme Penetrator P+": "9x19mm Xtreme Penetrator +P",
+    "Petrolatum": "White Petrolatum",
+    "Sewing Set": "Sewing Kit",
 }
 
 
