@@ -26,6 +26,18 @@ REVIEWED_RENAMES = {
     "9x19mm Xtreme Penetrator P+": "9x19mm Xtreme Penetrator +P",
     "Petrolatum": "White Petrolatum",
     "Sewing Set": "Sewing Kit",
+    # Firearm category pages replaced the old Weapons pages (the old titles were deleted).
+    "Beretta M9A1": "M9A1",
+    "Colt Combat Commander": "Colt 1911 Commander",
+    "Laugo alien": "Alien",
+    "M14 Rifle": "M14",
+    "M16 A1": "M16A1",
+    "M1A Rifle": "M1A",
+    "M201C": "M-201C",
+    "SVD": "SVD Dragunov",
+    "VZ. 58": "Sa vz. 58",
+    "GSSH-01": "Active headset GSSh-01",
+    "Wallet": "Leather Wallet",
 }
 
 

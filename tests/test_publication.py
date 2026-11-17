@@ -100,7 +100,7 @@ def test_full_scrape_builds_inventory_after_guarded_saves(tmp_path, monkeypatch)
     assert {row["vendor"] for row in inventory} == {"Gunny"}
 
 
-@pytest.mark.parametrize("old_name,new_name,old_id", [("Hyperborea Cigarettes", "Noir Mist Cigarettes", "hyperborea-cigarettes"), ("LSHZ 1+ (Black)", "LShZ 1+", "lshz-1+-black"), ("9x19mm Xtreme Penetrator P+", "9x19mm Xtreme Penetrator +P", "9x19mm-xtreme-penetrator-p+"), ("Sewing Set", "Sewing Kit", "sewing-set")])
+@pytest.mark.parametrize("old_name,new_name,old_id", [("Hyperborea Cigarettes", "Noir Mist Cigarettes", "hyperborea-cigarettes"), ("LSHZ 1+ (Black)", "LShZ 1+", "lshz-1+-black"), ("9x19mm Xtreme Penetrator P+", "9x19mm Xtreme Penetrator +P", "9x19mm-xtreme-penetrator-p+"), ("Sewing Set", "Sewing Kit", "sewing-set"), ("VZ. 58", "Sa vz. 58", "vz.-58")])
 def test_game_confirmed_renames_keep_public_ids(old_name, new_name, old_id):
     records = [{"name": new_name, "id": "new-id"}]
     publication.preserve_record_ids(records, [{"name": old_name, "id": old_id}])
