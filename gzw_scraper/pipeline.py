@@ -154,6 +154,12 @@ def scrape_page_record(page_title: str, dataset_name: str) -> Optional[Dict[str,
     if soup is None:
         return None
     info = parsing.parse_infobox(soup)
+    if "fire_mode" not in info and network.PAGE_FIRE_MODES.get(page_title):
+        info["fire_mode"] = network.PAGE_FIRE_MODES[page_title]
+    if "caliber" not in info and "accepted_ammunition" in info:
+        caliber = re.search(r"\d*\.?\d+x\d+mm", info["accepted_ammunition"])
+        if caliber:
+            info["caliber"] = caliber.group(0)
     item: Dict[str, Any] = {
         "name": page_title,
         "id": page_title.lower().replace(" ", "-").replace("'", "").replace("(", "").replace(")", ""),
@@ -598,6 +604,7 @@ def run_full_scrape() -> bool:
 
     DATASET_SOURCE_REVISIONS.clear()
     network.PAGE_REVISIONS.clear()
+    network.PAGE_FIRE_MODES.clear()
 
     # Get previous counts for change detection
     previous_counts: Dict[str, int] = get_previous_counts()

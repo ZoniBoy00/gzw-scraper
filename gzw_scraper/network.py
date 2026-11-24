@@ -25,6 +25,8 @@ REQUEST_INTERVAL: float = 0.5
 CATEGORY_PAGE_LIMIT: int = 500
 SKIP_CATEGORIES: Set[str] = set()
 PAGE_REVISIONS: Dict[str, int] = {}
+# Fire modes read from the infobox wikitext; the rendered infobox no longer shows them.
+PAGE_FIRE_MODES: Dict[str, str] = {}
 
 # ─── Global rate limiting ───
 # Fandom rate-limits aggressively (HTTP 429) when several worker threads hit
@@ -310,7 +312,7 @@ def parse_page(title: str) -> Optional[bs4.BeautifulSoup]:
     params: Dict[str, Any] = {
         "action": "parse",
         "page": title,
-        "prop": "text|revid",
+        "prop": "text|revid|wikitext",
         "formatversion": "2",
     }
     data: Optional[Dict[str, Any]] = api_call(params)
@@ -320,6 +322,9 @@ def parse_page(title: str) -> Optional[bs4.BeautifulSoup]:
     revision_id = parsed.get("revid")
     if isinstance(revision_id, int):
         PAGE_REVISIONS[title] = revision_id
+    modes = re.search(r"^\|\s*modes\s*=\s*(.+?)\s*$", str(parsed.get("wikitext") or ""), re.MULTILINE)
+    if modes:
+        PAGE_FIRE_MODES[title] = modes.group(1)
     html: str = parsed.get("text", "")
     if not html:
         return None

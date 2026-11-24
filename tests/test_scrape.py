@@ -1156,3 +1156,19 @@ def test_parse_infobox_ignores_label_tooltips():
         "html.parser",
     )
     assert scrape.parse_infobox(soup) == {"sound_amplification": "4.9"}
+
+
+def test_weapon_fire_mode_and_caliber_come_from_wikitext_and_ammo_list(monkeypatch):
+    html = (
+        '<aside class="portable-infobox"><div class="pi-item pi-data">'
+        '<h3 class="pi-data-label">Accepted ammunition</h3>'
+        '<div class="pi-data-value">5.45x39mm BP (7N22)5.45x39mm FMJ</div></div></aside>'
+    )
+    wikitext = "{{Infobox weapon\n|type =Assault Rifle\n|modes             =Single/Auto\n|rate =700\n}}"
+    payload = {"parse": {"text": html, "revid": 7, "wikitext": wikitext}}
+    monkeypatch.setattr(network, "api_call", lambda _params: payload)
+    network.PAGE_FIRE_MODES.clear()
+    item = pipeline.scrape_page_record("AK-12", "weapons")
+    assert item["fire_mode"] == "Single/Auto"
+    assert item["caliber"] == "5.45x39mm"
+    network.PAGE_FIRE_MODES.clear()
