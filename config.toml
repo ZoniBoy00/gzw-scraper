@@ -171,6 +171,7 @@ titles = [
 "Loot container" = "loot_container"
 "Trousers" = "trousers"
 "Handguards" = "handguards"
+"Handguard" = "handguards"
 "Mounts" = "mounts"
 "Rear Iron Sights" = "rear_iron_sights"
 "Shirts" = "shirts"

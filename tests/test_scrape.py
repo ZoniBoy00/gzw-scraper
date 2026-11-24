@@ -1140,7 +1140,7 @@ def test_reorganized_categories_merge_into_existing_datasets(tmp_path, monkeypat
         records = storage.merge_items(records, [{"name": category, "id": category}])
     assert len(records) == 8
     singular = {
-        "Barrel": "barrels", "Container": "containers", "Firearm": "weapons", "Foregrip": "foregrips",
+        "Barrel": "barrels", "Container": "containers", "Firearm": "weapons", "Foregrip": "foregrips", "Handguard": "handguards",
         "Gas Block": "gas_blocks", "Headset": "headsets", "Pistol Grip": "pistol_grips", "Tactical Rig": "rigs",
     }
     for category, dataset in singular.items():

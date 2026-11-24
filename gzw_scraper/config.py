@@ -135,6 +135,7 @@ DEFAULT_CONFIG: Dict[str, Any] = {
         "Container": "containers",
         "Firearm": "weapons",
         "Foregrip": "foregrips",
+        "Handguard": "handguards",
         "Gas Block": "gas_blocks",
         "Headset": "headsets",
         "Pistol Grip": "pistol_grips",
