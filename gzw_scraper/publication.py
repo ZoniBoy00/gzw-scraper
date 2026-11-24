@@ -26,6 +26,7 @@ REVIEWED_RENAMES = {
     "9x19mm Xtreme Penetrator P+": "9x19mm Xtreme Penetrator +P",
     "Petrolatum": "White Petrolatum",
     "Sewing Set": "Sewing Kit",
+    "5.56x45mm M193": "5.56x45mm FMJ (M193)",
     # Firearm category pages replaced the old Weapons pages (the old titles were deleted).
     "Beretta M9A1": "M9A1",
     "Colt Combat Commander": "Colt 1911 Commander",
