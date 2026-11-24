@@ -1172,3 +1172,16 @@ def test_weapon_fire_mode_and_caliber_come_from_wikitext_and_ammo_list(monkeypat
     assert item["fire_mode"] == "Single/Auto"
     assert item["caliber"] == "5.45x39mm"
     network.PAGE_FIRE_MODES.clear()
+
+
+@pytest.mark.parametrize("ammunition, expected", [
+    ("5.56x45mm AP (M855) 5.56x45mm FMJ", "5.56x45mm"),
+    ("7.62x54R AP (7N13) 7.62x54R Tracer", "7.62x54R"),
+    ("12ga 00 Buckshot 12ga Slug", "12 Gauge"),
+    (".45 ACP AP .45 ACP FMJ", ".45 ACP"),
+    (".300 AAC Blackout AP .300 AAC Blackout CQ", ".300 AAC Blackout"),
+    ("7.65 Browning FMJ 7.65 Browning JHP", "7.65 Browning"),
+    ("", None),
+])
+def test_caliber_from_ammunition(ammunition, expected):
+    assert pipeline.caliber_from_ammunition(ammunition) == expected

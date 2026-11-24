@@ -148,6 +148,24 @@ def scrape_category(name: str, title: str) -> Optional[List[Dict[str, Any]]]:
     return items
 
 
+CALIBER_PATTERN = re.compile(
+    r"(?P<metric>\d+(?:\.\d+)?x\d+(?:mm|R))"
+    r"|(?P<gauge>\d+)\s?(?:ga|gauge)\b"
+    r"|(?P<named>\.\d+ (?:AAC Blackout|ACP|Remington)|7\.65(?:mm)? Browning)",
+    re.IGNORECASE,
+)
+
+
+def caliber_from_ammunition(accepted_ammunition: str) -> Optional[str]:
+    """Return the caliber named first in a weapon's accepted-ammunition text, or None."""
+    match = CALIBER_PATTERN.search(accepted_ammunition)
+    if not match:
+        return None
+    if match.group("gauge"):
+        return f"{match.group('gauge')} Gauge"
+    return match.group(0)
+
+
 def scrape_page_record(page_title: str, dataset_name: str) -> Optional[Dict[str, Any]]:
     """Scrape one wiki article using its infobox and configured text sections."""
     soup = network.parse_page(page_title)
@@ -157,9 +175,9 @@ def scrape_page_record(page_title: str, dataset_name: str) -> Optional[Dict[str,
     if "fire_mode" not in info and network.PAGE_FIRE_MODES.get(page_title):
         info["fire_mode"] = network.PAGE_FIRE_MODES[page_title]
     if "caliber" not in info and "accepted_ammunition" in info:
-        caliber = re.search(r"\d*\.?\d+x\d+mm", info["accepted_ammunition"])
+        caliber = caliber_from_ammunition(info["accepted_ammunition"])
         if caliber:
-            info["caliber"] = caliber.group(0)
+            info["caliber"] = caliber
     item: Dict[str, Any] = {
         "name": page_title,
         "id": page_title.lower().replace(" ", "-").replace("'", "").replace("(", "").replace(")", ""),
